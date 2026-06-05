@@ -13,7 +13,7 @@ export function LuckyWheelFloatingIcon({ onClick }: Props) {
     <motion.button
       type="button"
       onClick={onClick}
-      className="fixed bottom-6 left-4 z-[9998] flex h-14 w-14 flex-col items-center justify-center rounded-full border-2 border-[#c9a227]/50 bg-gradient-to-br from-[#e8f7f0] to-[#b8e4d4] shadow-[0_12px_32px_rgba(26,80,60,0.2)] focus:outline-none sm:bottom-8 sm:left-6 md:bottom-10 md:left-8"
+      className="fixed bottom-28 left-4 z-[9998] flex h-14 w-14 flex-col items-center justify-center rounded-full border-2 border-[#c9a227]/50 bg-gradient-to-br from-[#e8f7f0] to-[#b8e4d4] shadow-[0_12px_32px_rgba(26,80,60,0.2)] focus:outline-none sm:bottom-8 sm:left-6 md:bottom-10 md:left-8"
       animate={{ y: [0, -8, 0] }}
       transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut" }}
       aria-label="Vòng quay may mắn"
