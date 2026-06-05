@@ -288,9 +288,9 @@ export function LuckyWheelPopup({ externalOpen, onExternalClose }: Props) {
                     />
                     <canvas
                       ref={canvasRef}
-                      width={260}
-                      height={260}
-                      className="rounded-full shadow-[0_8px_24px_rgba(26,80,60,0.15)]"
+                      width={520}
+                      height={520}
+                      className="h-64 w-64 rounded-full shadow-[0_8px_24px_rgba(26,80,60,0.15)]"
                     />
                   </div>
 
