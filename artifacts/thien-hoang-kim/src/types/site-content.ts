@@ -191,6 +191,7 @@ export type SiteContent = {
   customerCases: SiteCustomerCase[];
   processSteps: SiteProcessStep[];
   luckyWheel: LuckyWheelConfig;
+  promotion: PromotionConfig;
 };
 
 export type LuckyWheelSegment = {
@@ -214,6 +215,15 @@ export type LuckyWheelConfig = {
   /** Văn bản sau khi quay xong trước khi hiện form */
   resultHeading: string;
   resultDescription: string;
+};
+
+export type PromotionConfig = {
+  enabled: boolean;
+  title: string;
+  description: string;
+  image: string;
+  buttonLabel: string;
+  buttonUrl: string;
 };
 
 export type BookingSubmission = {

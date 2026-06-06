@@ -99,14 +99,20 @@ function App() {
               <ScrollToTop />
               <RouteSeo />
               <AppRouter />
+              <LuckyWheelControllerWrapper />
             </WouterRouter>
-            <LuckyWheelController />
             <Toaster />
           </BookingDialogProvider>
         </SiteContentProvider>
       </TooltipProvider>
     </QueryClientProvider>
   );
+}
+
+function LuckyWheelControllerWrapper() {
+  const [location] = useLocation();
+  if (isAdminLocation(location)) return null;
+  return <LuckyWheelController />;
 }
 
 export default App;
