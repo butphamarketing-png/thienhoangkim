@@ -41,6 +41,11 @@ export function AdminPromotionPage() {
           onChange={(v) => updateContent((prev) => ({ ...prev, promotion: { ...prev.promotion, image: v } }))}
         />
         <AdminField
+          label="Link click vào hình ảnh"
+          value={p.imageUrl}
+          onChange={(v) => updateContent((prev) => ({ ...prev, promotion: { ...prev.promotion, imageUrl: v } }))}
+        />
+        <AdminField
           label="Text nút"
           value={p.buttonLabel}
           onChange={(v) => updateContent((prev) => ({ ...prev, promotion: { ...prev.promotion, buttonLabel: v } }))}

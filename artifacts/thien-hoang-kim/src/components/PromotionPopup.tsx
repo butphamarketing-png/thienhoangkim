@@ -67,14 +67,24 @@ export function PromotionPopup({ externalOpen, onExternalClose }: Props) {
             </div>
 
             <div className="relative max-h-[86vh] overflow-y-auto p-5">
-              <div className="flex flex-col gap-4">
-                <div className="relative rounded-[22px] border border-white/80 bg-white/70 overflow-hidden shadow-[0_12px_40px_rgba(26,80,60,0.12)]">
-                  <img
-                    src={cfg.image}
-                    alt={cfg.title}
-                    className="w-full h-48 object-cover"
-                  />
-                </div>
+        <div className="flex flex-col gap-4">
+          <div className="relative rounded-[22px] border border-white/80 bg-white/70 overflow-hidden shadow-[0_12px_40px_rgba(26,80,60,0.12)]">
+            {cfg.imageUrl ? (
+              <a href={cfg.imageUrl} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={cfg.image}
+                  alt={cfg.title}
+                  className="w-full h-48 object-cover cursor-pointer hover:opacity-90 transition-opacity"
+                />
+              </a>
+            ) : (
+              <img
+                src={cfg.image}
+                alt={cfg.title}
+                className="w-full h-48 object-cover"
+              />
+            )}
+          </div>
 
                 <div className="text-center">
                   <h2 className="font-serif text-[22px] font-semibold tracking-tight text-primary">

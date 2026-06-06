@@ -282,6 +282,7 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
     title: "Chương Trình Khuyến Mãi",
     description: "Khuyến mãi đặc biệt dành cho khách hàng mới! Giảm giá lên đến 30% cho tất cả các dịch vụ thẩm mỹ.",
     image: slide,
+    imageUrl: "/dich-vu",
     buttonLabel: "Xem chi tiết",
     buttonUrl: "/dich-vu",
   },

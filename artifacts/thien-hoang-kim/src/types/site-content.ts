@@ -222,6 +222,7 @@ export type PromotionConfig = {
   title: string;
   description: string;
   image: string;
+  imageUrl: string;
   buttonLabel: string;
   buttonUrl: string;
 };
