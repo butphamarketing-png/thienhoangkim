@@ -97,6 +97,7 @@ export type SiteTestimonial = {
   initials: string;
   avatar: string;
   text: string;
+  phoneImage: string;
 };
 
 export type SiteCustomerCase = {
