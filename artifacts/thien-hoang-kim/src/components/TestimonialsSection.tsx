@@ -1,9 +1,8 @@
 import { useState, useCallback, useRef } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/layout/SectionHeading";
+import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 export type Testimonial = {
@@ -21,49 +20,33 @@ type TestimonialsSectionProps = {
   backgroundImage?: string;
 };
 
-function TestimonialCard({ testimonial, isActive, onClick }: { 
-  testimonial: Testimonial; 
-  isActive: boolean;
-  onClick: () => void;
-}) {
+function PhoneMockup({ testimonial, isActive }: { testimonial: Testimonial; isActive: boolean }) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{
-        opacity: isActive ? 1 : 0.6,
-        scale: isActive ? 1 : 0.9,
-        y: isActive ? 0 : 10,
-      }}
-      transition={{ duration: 0.5 }}
-      onClick={onClick}
-      className={cn(
-        "flex flex-col rounded-2xl border border-border/50 bg-white p-6 shadow-lg transition-all cursor-pointer hover:shadow-xl",
-        isActive ? "shadow-xl ring-2 ring-[#c9a227]/30" : ""
-      )}
-    >
-      <div className="mb-4 flex items-center gap-4">
-        <Avatar className="h-14 w-14 ring-2 ring-[#c9a227]/20 ring-offset-2">
-          <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
-          <AvatarFallback className="bg-gradient-to-br from-[#c9a227] to-[#e8d48b] text-white font-bold">
-            {testimonial.initials}
-          </AvatarFallback>
-        </Avatar>
-        <div className="text-left">
-          <h4 className="text-lg font-bold text-foreground">{testimonial.name}</h4>
-          <p className="text-sm text-muted-foreground">Khách hàng VIP</p>
-          <div className="mt-1 text-amber-500">★★★★★</div>
+    <div className="relative">
+      <div className={cn(
+        "relative mx-auto transition-all duration-500",
+        isActive ? "w-64 md:w-72 lg:w-80 z-20" : "w-48 md:w-56 lg:w-64 z-10"
+      )}>
+        <div className={cn(
+          "relative z-10 overflow-hidden rounded-[2.5rem] border-[12px] border-[#1a1a1a] bg-[#1a1a1a] transition-all duration-500",
+          isActive ? "shadow-[0_35px_90px_rgba(0,0,0,0.45)]" : "shadow-[0_15px_40px_rgba(0,0,0,0.25)]"
+        )}>
+          <div className="relative h-72 md:h-80 lg:h-96 w-full overflow-hidden rounded-[1.5rem] bg-[#f5f0e8]">
+            <img 
+              src={testimonial.phoneImage} 
+              alt={testimonial.name} 
+              className="h-full w-full object-cover"
+            />
+          </div>
         </div>
+        <div className="absolute inset-x-8 top-0 z-20 h-6 rounded-b-[1.25rem] bg-[#1a1a1a]" />
       </div>
-      <p className="text-base leading-relaxed text-foreground/80 italic">
-        &ldquo;{testimonial.text}&rdquo;
-      </p>
-    </motion.div>
+    </div>
   );
 }
 
 export function TestimonialsSection({ items, backgroundImage }: TestimonialsSectionProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const trackRef = useRef<HTMLDivElement>(null);
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
 
@@ -129,55 +112,93 @@ export function TestimonialsSection({ items, backgroundImage }: TestimonialsSect
           className="mb-12 md:mb-16"
         />
 
-        <div className="relative">
+        {/* Mobile: Single item carousel */}
+        <div className="md:hidden relative">
+          <div className="flex items-center justify-center overflow-hidden">
+            <div 
+              className="flex items-center gap-0 transition-transform duration-500 ease-out"
+              style={{
+                transform: `translateX(-${currentIndex * 100}%)`,
+                width: `${items.length * 100}%`
+              }}
+            >
+              {items.map((item, index) => (
+                <div
+                  key={item.id}
+                  className="flex-shrink-0 flex flex-col items-center px-4"
+                  style={{ width: "100%" }}
+                >
+                  <PhoneMockup testimonial={item} isActive={true} />
+                  <div className="mt-6 text-center">
+                    <p className="text-[11px] text-muted-foreground mb-1">Xem album khách hàng →</p>
+                    <h4 className="text-lg font-semibold text-foreground">{item.name}</h4>
+                    <p className="text-sm text-muted-foreground mt-2 max-w-[280px]">
+                      {item.text}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Desktop: 3 items visible */}
+        <div className="hidden md:block relative">
           <Button
             variant="outline"
             size="icon"
             onClick={prevSlide}
-            className="absolute left-0 top-1/2 -translate-y-1/2 z-20 h-12 w-12 rounded-full border-primary/20 bg-white text-primary hover:bg-primary hover:text-white shadow-lg"
-            aria-label="Đánh giá trước"
+            className="absolute left-2 lg:left-8 top-1/2 -translate-y-1/2 z-30 h-14 w-14 rounded-full border-[#c9a227]/30 bg-white shadow-xl hover:bg-[#c9a227] hover:text-white transition-all"
           >
-            <ChevronLeft className="h-5 w-5" />
+            <ArrowLeft className="h-6 w-6" />
           </Button>
 
-          <div ref={trackRef} className="flex items-center justify-center">
-            {/* Mobile: 1 item */}
-            <div className="md:hidden w-full max-w-md">
-              <TestimonialCard 
-                testimonial={items[currentIndex]} 
-                isActive={true} 
-                onClick={() => {}} 
-              />
-            </div>
-
-            {/* Desktop: 3 items */}
-            <div className="hidden md:flex items-center gap-6 lg:gap-8 w-full max-w-6xl">
-              {visibleItems.map(({ item, index, offset }) => (
-                <div
-                  key={`${item.id}-${currentIndex}`}
-                  className={cn(
-                    "flex-shrink-0 transition-all duration-500",
-                    offset === 0 ? "w-full md:w-[45%] lg:w-[40%]" : "w-0 md:w-[27.5%] lg:w-[30%] overflow-hidden"
-                  )}
-                >
-                  <TestimonialCard
-                    testimonial={item}
-                    isActive={offset === 0}
-                    onClick={() => goToSlide(index)}
-                  />
+          <div className="flex items-center justify-center gap-4 lg:gap-8 relative min-h-[500px]">
+            {visibleItems.map(({ item, index, offset }) => (
+              <motion.div
+                key={`${item.id}-${currentIndex}`}
+                initial={{ opacity: 0, x: offset * 100 }}
+                animate={{
+                  opacity: offset === 0 ? 1 : 0.7,
+                  x: offset * 80,
+                  scale: offset === 0 ? 1 : 0.85,
+                  zIndex: offset === 0 ? 20 : 10,
+                }}
+                transition={{ duration: 0.5, type: "spring" }}
+                onClick={() => offset !== 0 && goToSlide(index)}
+                className={cn(
+                  "flex flex-col items-center cursor-pointer transition-all",
+                  offset === 0 ? "pointer-events-none" : "pointer-events-auto"
+                )}
+              >
+                <PhoneMockup 
+                  testimonial={item} 
+                  isActive={offset === 0} 
+                />
+                <div className={cn(
+                  "mt-6 text-center transition-all duration-500",
+                  offset === 0 ? "opacity-100" : "opacity-60"
+                )}>
+                  <p className="text-[11px] text-muted-foreground mb-1">Xem album khách hàng →</p>
+                  <h4 className={cn(
+                    "font-semibold text-foreground",
+                    offset === 0 ? "text-xl" : "text-base"
+                  )}>{item.name}</h4>
+                  <p className="text-sm text-muted-foreground mt-2 max-w-[240px]">
+                    {offset === 0 ? item.text : ""}
+                  </p>
                 </div>
-              ))}
-            </div>
+              </motion.div>
+            ))}
           </div>
 
           <Button
             variant="outline"
             size="icon"
             onClick={nextSlide}
-            className="absolute right-0 top-1/2 -translate-y-1/2 z-20 h-12 w-12 rounded-full border-primary/20 bg-white text-primary hover:bg-primary hover:text-white shadow-lg"
-            aria-label="Đánh giá tiếp theo"
+            className="absolute right-2 lg:right-8 top-1/2 -translate-y-1/2 z-30 h-14 w-14 rounded-full border-[#c9a227]/30 bg-white shadow-xl hover:bg-[#c9a227] hover:text-white transition-all"
           >
-            <ChevronRight className="h-5 w-5" />
+            <ArrowRight className="h-6 w-6" />
           </Button>
         </div>
 
@@ -191,8 +212,8 @@ export function TestimonialsSection({ items, backgroundImage }: TestimonialsSect
               className={cn(
                 "rounded-full transition-all duration-300",
                 i === currentIndex
-                  ? "h-2.5 w-8 bg-[#c9a227]"
-                  : "h-2 w-2 bg-gray-300 hover:bg-[#c9a227]/50"
+                  ? "h-3 w-10 bg-[#c9a227] shadow-md"
+                  : "h-2.5 w-2.5 bg-gray-300 hover:bg-[#c9a227]/50"
               )}
               aria-label={`Đánh giá ${i + 1}`}
             />
