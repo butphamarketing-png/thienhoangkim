@@ -3,7 +3,7 @@ export type ServiceCategoryId = "tham-my" | "spa";
 export type ServiceCatalogItem = {
   slug: string;
   label: string;
-  /** Slug bài viết tin tức (nếu có) để hiển thị nội dung chi tiết */
+  /** Slug bài viết tin tức để hiển thị nội dung chi tiết */
   articleSlug?: string;
   description?: string;
 };
@@ -14,29 +14,105 @@ export type ServiceCategory = {
   title: string;
   eyebrow: string;
   description: string;
+  /** Bài viết giới thiệu cấp 1 (danh mục) */
+  articleSlug?: string;
 };
 
 const THAM_MY_ITEMS: ServiceCatalogItem[] = [
-  { slug: "nang-mui", label: "Nâng Mũi", articleSlug: "nang-mui-bao-lau-thi-dep-tu-nhien" },
-  { slug: "cat-mi", label: "Cắt Mí", articleSlug: "cat-mi-co-de-lai-seo-khong" },
-  { slug: "filler", label: "Filler", articleSlug: "tiem-filler-giu-duoc-bao-lau" },
-  { slug: "botox", label: "Botox", articleSlug: "botox-la-gi-khi-nao-nen-tiem" },
-  { slug: "cang-chi", label: "Căng Chỉ", description: "Nâng cơ, trẻ hóa vùng mặt bằng chỉ sinh học an toàn." },
-  { slug: "dieu-tri-mun", label: "Điều Trị Mụn", articleSlug: "dieu-tri-mun-boc-hieu-qua" },
-  { slug: "dieu-tri-nam", label: "Điều Trị Nám", description: "Phác đồ trị nám, tàn nhang cá nhân hóa theo từng loại da." },
-  { slug: "tre-hoa-da", label: "Trẻ Hóa Da", articleSlug: "tre-hoa-da-hifu" },
+  {
+    slug: "nang-mui-hoang-kim",
+    label: "Nâng mũi hoàng kim",
+    articleSlug: "nang-mui-hoang-kim",
+    description: "Nâng mũi cấu trúc chuẩn tỉ lệ vàng — sống thẳng, đầu mũi mềm tự nhiên.",
+  },
+  {
+    slug: "cat-mi-phuong-hoang",
+    label: "Cắt mí phượng hoàng",
+    articleSlug: "cat-mi-phuong-hoang",
+    description: "Cắt mí tạo đường cong phượng hoàng — mắt to, sắc nét và hài hòa khuôn mặt.",
+  },
+  {
+    slug: "cay-toc-tu-than",
+    label: "Cấy tóc tự thân",
+    articleSlug: "cay-toc-tu-than",
+    description: "Cấy tóc FUE/FUT từ nang tóc tự thân — mật độ cao, hướng mọc tự nhiên.",
+  },
+  {
+    slug: "cang-noi-soi",
+    label: "Căng nội soi",
+    articleSlug: "cang-noi-soi",
+    description: "Căng da nội soi nâng cơ vùng trán, mặt — trẻ hóa sâu, ít sẹo.",
+  },
+  {
+    slug: "cang-chi-tre-hoa",
+    label: "Căng chỉ trẻ hóa",
+    articleSlug: "cang-chi-tre-hoa",
+    description: "Nâng cơ, săn chắc da bằng chỉ sinh học — không phẫu thuật, hồi phục nhanh.",
+  },
+  {
+    slug: "hut-mo-cay-mo-ma",
+    label: "Hút mỡ – cấy mỡ má",
+    articleSlug: "hut-mo-cay-mo-ma",
+    description: "Tạo hình mặt V-line: hút mỡ vùng thừa, cấy mỡ tự thân làm đầy má.",
+  },
+  {
+    slug: "filler-tao-hinh",
+    label: "Filler tạo hình",
+    articleSlug: "filler-tao-hinh",
+    description: "Tiêm filler chính hãng tạo hình mũi, môi, cằm, thái dương tự nhiên.",
+  },
+  {
+    slug: "botox-xoa-nhan-gon-ham",
+    label: "Botox xóa nhăn, gọn hàm",
+    articleSlug: "botox-xoa-nhan-gon-ham",
+    description: "Giảm nếp nhăn động, thon gọn hàm và cằm — khuôn mặt trẻ trung hơn.",
+  },
 ];
 
 const SPA_ITEMS: ServiceCatalogItem[] = [
-  { slug: "cham-soc-da", label: "Chăm Sóc Da", description: "Liệu trình chăm sóc da chuyên sâu, phục hồi và cân bằng." },
-  { slug: "facial", label: "Facial", description: "Facial thư giãn, làm sạch và cung cấp dưỡng chất cho da." },
-  { slug: "peel-da", label: "Peel Da", description: "Peel da y khoa giúp sáng mịn, mờ thâm và se khít lỗ chân lông." },
-  { slug: "dien-di", label: "Điện Di", description: "Đưa tinh chất vào sâu da bằng dòng điện siêu vi." },
-  { slug: "phuc-hoi-da", label: "Phục Hồi Da", description: "Phục hồi da sau điều trị, laser hoặc tổn thương nhẹ." },
-  { slug: "goi-dau-duong-sinh", label: "Gội Đầu Dưỡng Sinh", description: "Gội đầu thảo dược thư giãn, kích thích tuần hoàn." },
-  { slug: "massage", label: "Massage", description: "Massage body thư giãn, giảm căng cơ và mệt mỏi." },
-  { slug: "cham-soc-co-the", label: "Chăm Sóc Cơ Thể", description: "Liệu trình chăm sóc toàn thân cao cấp tại spa." },
+  {
+    slug: "u-da-muoi-himalaya",
+    label: "Ủ đá muối Himalaya",
+    articleSlug: "u-da-muoi-himalaya",
+    description: "Liệu trình ủ đá muối Himalaya thải độc, thư giãn và cân bằng cơ thể.",
+  },
+  {
+    slug: "phun-xam-tham-my",
+    label: "Phun xăm thẩm mỹ",
+    articleSlug: "phun-xam-tham-my",
+    description: "Phun mày, môi, eyeliner tự nhiên — tiết kiệm thời gian trang điểm mỗi ngày.",
+  },
+  {
+    slug: "massage-body-thu-gian",
+    label: "Massage body thư giãn",
+    articleSlug: "massage-body-thu-gian",
+    description: "Massage toàn thân giảm căng cơ, cải thiện tuần hoàn và giảm stress.",
+  },
+  {
+    slug: "massage-facial",
+    label: "Massage facial",
+    articleSlug: "massage-facial",
+    description: "Massage mặt kết hợp ấn huyệt — da sáng khỏe, thư giãn sâu.",
+  },
+  {
+    slug: "cham-soc-da-toan-dien",
+    label: "Chăm sóc da toàn diện",
+    articleSlug: "cham-soc-da-toan-dien",
+    description: "Phác đồ chăm sóc da cá nhân hóa — làm sạch, dưỡng ẩm và phục hồi.",
+  },
 ];
+
+/** Chuyển slug dịch vụ cũ sang slug mới */
+const LEGACY_SLUG_REDIRECT: Record<string, { category: ServiceCategoryId; slug: string }> = {
+  "nang-mui": { category: "tham-my", slug: "nang-mui-hoang-kim" },
+  "cat-mi": { category: "tham-my", slug: "cat-mi-phuong-hoang" },
+  filler: { category: "tham-my", slug: "filler-tao-hinh" },
+  botox: { category: "tham-my", slug: "botox-xoa-nhan-gon-ham" },
+  "cang-chi": { category: "tham-my", slug: "cang-chi-tre-hoa" },
+  "cham-soc-da": { category: "spa", slug: "cham-soc-da-toan-dien" },
+  facial: { category: "spa", slug: "massage-facial" },
+  massage: { category: "spa", slug: "massage-body-thu-gian" },
+};
 
 export const SERVICE_CATEGORIES: Record<ServiceCategoryId, ServiceCategory> = {
   "tham-my": {
@@ -45,6 +121,7 @@ export const SERVICE_CATEGORIES: Record<ServiceCategoryId, ServiceCategory> = {
     title: "DỊCH VỤ THẨM MỸ",
     eyebrow: "Thẩm mỹ y khoa",
     description: "Giải pháp thẩm mỹ chuẩn y khoa — an toàn, tự nhiên và hiệu quả lâu dài.",
+    articleSlug: "dich-vu-tham-my-y-khoa",
   },
   spa: {
     id: "spa",
@@ -52,6 +129,7 @@ export const SERVICE_CATEGORIES: Record<ServiceCategoryId, ServiceCategory> = {
     title: "DỊCH VỤ SPA",
     eyebrow: "Spa & chăm sóc da",
     description: "Chăm sóc da và thư giãn toàn diện trong không gian cao cấp.",
+    articleSlug: "dich-vu-spa-cham-soc",
   },
 };
 
@@ -73,6 +151,10 @@ export function resolveLegacyServicePath(path: string): string | null {
   const match = path.match(/^\/dich-vu\/([^/]+)$/);
   if (!match) return null;
   const slug = match[1];
+
+  const legacy = LEGACY_SLUG_REDIRECT[slug];
+  if (legacy) return getServiceHref(legacy.category, legacy.slug);
+
   if (getServiceItem("tham-my", slug)) return getServiceHref("tham-my", slug);
   if (getServiceItem("spa", slug)) return getServiceHref("spa", slug);
   return null;
@@ -83,4 +165,33 @@ export function buildNavServiceItems(categoryId: ServiceCategoryId) {
     label: item.label,
     href: getServiceHref(categoryId, item.slug),
   }));
+}
+
+/** Tìm dịch vụ gắn với bài viết (articleSlug) — dùng cho canonical SEO */
+export function findServiceByArticleSlug(articleSlug: string) {
+  for (const categoryId of Object.keys(SERVICE_ITEMS) as ServiceCategoryId[]) {
+    const item = SERVICE_ITEMS[categoryId].find((s) => s.articleSlug === articleSlug);
+    if (item) return { category: categoryId, item };
+  }
+  return null;
+}
+
+/** Slug bài viết danh mục → URL trang dịch vụ cấp 1 */
+const CATEGORY_ARTICLE_PATH: Record<string, string> = {
+  "dich-vu-tham-my-y-khoa": "/tham-my",
+  "dich-vu-spa-cham-soc": "/spa",
+};
+
+export function getCategoryPathForArticle(articleSlug: string): string | null {
+  return CATEGORY_ARTICLE_PATH[articleSlug] ?? null;
+}
+
+export function getPreferredArticlePath(articleSlug: string): string | null {
+  const service = findServiceByArticleSlug(articleSlug);
+  if (service) return getServiceHref(service.category, service.item.slug);
+  return getCategoryPathForArticle(articleSlug);
+}
+
+export function isServiceLinkedArticle(articleSlug: string): boolean {
+  return Boolean(findServiceByArticleSlug(articleSlug) || getCategoryPathForArticle(articleSlug));
 }

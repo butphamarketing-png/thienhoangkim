@@ -1,5 +1,5 @@
 import { ALL_PAGES } from "@/data/pages.defaults";
-import { SERVICE_CATEGORIES, SERVICE_ITEMS } from "@/data/services-catalog";
+import { SERVICE_CATEGORIES, SERVICE_ITEMS, isServiceLinkedArticle } from "@/data/services-catalog";
 import type { SiteContent } from "@/types/site-content";
 
 export type SitemapEntry = {
@@ -56,6 +56,7 @@ export function collectSitemapEntries(content: SiteContent, baseUrl: string): Si
   for (const article of content.articles) {
     if (!article.published) continue;
     if (article.seo?.noindex) continue;
+    if (isServiceLinkedArticle(article.slug)) continue;
     add(`/tin-tuc/${article.slug}`, 0.7, "monthly");
   }
 

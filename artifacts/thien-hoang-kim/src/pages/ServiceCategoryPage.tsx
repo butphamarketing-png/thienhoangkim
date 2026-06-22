@@ -1,6 +1,8 @@
 import { Link } from "wouter";
+import { ArrowRight } from "lucide-react";
 import { SiteLayout } from "@/components/layout/SiteLayout";
 import { PageHero } from "@/components/layout/PageHero";
+import { useSiteContent } from "@/context/SiteContentContext";
 import {
   SERVICE_CATEGORIES,
   SERVICE_ITEMS,
@@ -14,8 +16,12 @@ type ServiceCategoryPageProps = {
 };
 
 export default function ServiceCategoryPage({ categoryId }: ServiceCategoryPageProps) {
+  const { content } = useSiteContent();
   const category = SERVICE_CATEGORIES[categoryId];
   const items = SERVICE_ITEMS[categoryId];
+  const categoryArticle = category.articleSlug
+    ? content.articles.find((a) => a.slug === category.articleSlug && a.published)
+    : undefined;
 
   return (
     <SiteLayout>
@@ -29,6 +35,18 @@ export default function ServiceCategoryPage({ categoryId }: ServiceCategoryPageP
           { label: category.title },
         ]}
       />
+      {categoryArticle && (
+        <div className="container mx-auto max-w-3xl px-4 pt-8 md:px-8">
+          <p className="text-base leading-relaxed text-muted-foreground">{categoryArticle.description}</p>
+          <Link
+            href={`/tin-tuc/${categoryArticle.slug}`}
+            className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-primary hover:underline"
+          >
+            Đọc thêm về {category.eyebrow}
+            <ArrowRight className="h-4 w-4" />
+          </Link>
+        </div>
+      )}
       <div className="section-surface-alt container mx-auto px-4 py-12 md:px-8 md:py-16">
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 md:gap-5 lg:gap-6">
           {items.map((item) => (

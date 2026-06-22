@@ -1,5 +1,9 @@
 import { getPageContent } from "@/data/pages.defaults";
-import { SERVICE_CATEGORIES, getServiceItem } from "@/data/services-catalog";
+import {
+  SERVICE_CATEGORIES,
+  getPreferredArticlePath,
+  getServiceItem,
+} from "@/data/services-catalog";
 import { buildBreadcrumbs, buildJsonLdGraph, jsonLdScript, type SchemaContext } from "@/lib/seo-schema";
 import { getSiteBaseUrl } from "@/lib/seo-sitemap";
 import type { ArticleSeo, SiteArticle, SiteContent, SiteSeo } from "@/types/site-content";
@@ -104,11 +108,15 @@ export function resolveArticleSeo(
   const ogImage = pick(seo.ogImage, article.image, global.ogImage);
   const ogTitle = pick(seo.ogTitle, seo.metaTitle, article.title, global.ogTitle, title);
   const ogDescription = pick(seo.ogDescription, seo.metaDescription, article.description, global.ogDescription, description);
-  const canonical = seo.canonicalUrl?.trim()
-    ? seo.canonicalUrl.startsWith("http")
-      ? seo.canonicalUrl.trim()
-      : toAbsoluteUrl(seo.canonicalUrl, global.siteUrl)
-    : toAbsoluteUrl(path, global.siteUrl);
+  const preferredPath = getPreferredArticlePath(article.slug);
+  const canonicalPath =
+    seo.canonicalUrl?.trim()
+      ? seo.canonicalUrl.startsWith("http")
+        ? seo.canonicalUrl.trim()
+        : toAbsoluteUrl(seo.canonicalUrl, global.siteUrl)
+      : preferredPath && path.startsWith("/tin-tuc/")
+        ? toAbsoluteUrl(preferredPath, global.siteUrl)
+        : toAbsoluteUrl(path, global.siteUrl);
 
   return {
     title,
@@ -117,11 +125,11 @@ export function resolveArticleSeo(
     ogTitle,
     ogDescription,
     ogImage,
-    ogUrl: canonical,
+    ogUrl: canonicalPath,
     ogType: "article",
     twitterCard: global.twitterCard || "summary_large_image",
     robots: buildRobotsDirective(seo, global.robots || "index,follow"),
-    canonical,
+    canonical: canonicalPath,
   };
 }
 
@@ -133,6 +141,7 @@ export function resolveServiceSeo(
     path: string;
     global: SiteSeo;
     article?: SiteArticle;
+    categoryLabel?: string;
   },
 ): PageSeoMeta {
   if (opts.article) {
@@ -140,7 +149,8 @@ export function resolveServiceSeo(
   }
 
   const siteName = opts.global.siteName || "Thiên Hoàng Kim Aesthetic Clinic";
-  const title = buildTitle(`${opts.serviceLabel} — Dịch vụ thẩm mỹ`, siteName, opts.global.titleSeparator);
+  const suffix = opts.categoryLabel ?? "Dịch vụ thẩm mỹ";
+  const title = buildTitle(`${opts.serviceLabel} — ${suffix}`, siteName, opts.global.titleSeparator);
   const description = pick(opts.description, opts.global.description);
   const canonical = toAbsoluteUrl(opts.path, opts.global.siteUrl);
 
@@ -171,10 +181,43 @@ function findArticleForPath(path: string, content: SiteContent): SiteArticle | u
 export function resolveRouteSeoContext(path: string, content: SiteContent): SchemaContext {
   const clean = path.split("#")[0] || "/";
   const meta = resolveRouteSeo(clean, content);
-  const article = findArticleForPath(clean, content);
+  let article = findArticleForPath(clean, content);
+  let service: SchemaContext["service"];
+
+  const thamMyMatch = clean.match(/^\/tham-my\/([^/]+)$/);
+  if (thamMyMatch) {
+    const svc = getServiceItem("tham-my", thamMyMatch[1]);
+    if (svc) {
+      service = { label: svc.label, categoryLabel: SERVICE_CATEGORIES["tham-my"].eyebrow };
+      if (!article && svc.articleSlug) {
+        article = content.articles.find((a) => a.slug === svc.articleSlug && a.published);
+      }
+    }
+  }
+
+  const spaMatch = clean.match(/^\/spa\/([^/]+)$/);
+  if (spaMatch) {
+    const svc = getServiceItem("spa", spaMatch[1]);
+    if (svc) {
+      service = { label: svc.label, categoryLabel: SERVICE_CATEGORIES.spa.eyebrow };
+      if (!article && svc.articleSlug) {
+        article = content.articles.find((a) => a.slug === svc.articleSlug && a.published);
+      }
+    }
+  }
+
+  if (!article && clean === "/tham-my") {
+    const slug = SERVICE_CATEGORIES["tham-my"].articleSlug;
+    if (slug) article = content.articles.find((a) => a.slug === slug && a.published);
+  }
+  if (!article && clean === "/spa") {
+    const slug = SERVICE_CATEGORIES.spa.articleSlug;
+    if (slug) article = content.articles.find((a) => a.slug === slug && a.published);
+  }
+
   const siteName = content.settings.seo.siteName || content.settings.clinicName;
   const breadcrumbs = buildBreadcrumbs(clean, siteName, article);
-  return { path: clean, meta, breadcrumbs, article };
+  return { path: clean, meta, breadcrumbs, article, service };
 }
 
 export function resolveRouteSeo(path: string, content: SiteContent): PageSeoMeta {
@@ -202,6 +245,7 @@ export function resolveRouteSeo(path: string, content: SiteContent): PageSeoMeta
         path: clean,
         global,
         article: linked,
+        categoryLabel: SERVICE_CATEGORIES["tham-my"].eyebrow,
       });
     }
   }
@@ -220,6 +264,7 @@ export function resolveRouteSeo(path: string, content: SiteContent): PageSeoMeta
         path: clean,
         global,
         article: linked,
+        categoryLabel: SERVICE_CATEGORIES.spa.eyebrow,
       });
     }
   }
@@ -227,24 +272,30 @@ export function resolveRouteSeo(path: string, content: SiteContent): PageSeoMeta
   if (clean === "/tham-my") {
     const cat = SERVICE_CATEGORIES["tham-my"];
     const base = baseFromGlobal(global, clean);
+    const linked = content.articles.find((a) => a.slug === cat.articleSlug && a.published);
+    const desc = pick(linked?.description, cat.description, global.description);
     return {
       ...base,
       title: buildTitle(cat.title, global.siteName, sep),
-      description: pick(cat.description, global.description),
+      description: desc,
       ogTitle: buildTitle(cat.title, global.siteName, sep),
-      ogDescription: pick(cat.description, global.description),
+      ogDescription: desc,
+      keywords: pick(linked?.seo?.keywords, global.keywords),
     };
   }
 
   if (clean === "/spa") {
     const cat = SERVICE_CATEGORIES.spa;
     const base = baseFromGlobal(global, clean);
+    const linked = content.articles.find((a) => a.slug === cat.articleSlug && a.published);
+    const desc = pick(linked?.description, cat.description, global.description);
     return {
       ...base,
       title: buildTitle(cat.title, global.siteName, sep),
-      description: pick(cat.description, global.description),
+      description: desc,
       ogTitle: buildTitle(cat.title, global.siteName, sep),
-      ogDescription: pick(cat.description, global.description),
+      ogDescription: desc,
+      keywords: pick(linked?.seo?.keywords, global.keywords),
     };
   }
 

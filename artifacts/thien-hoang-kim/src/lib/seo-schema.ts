@@ -1,4 +1,5 @@
 import type { PageSeoMeta } from "@/lib/seo";
+import { SERVICE_CATEGORIES, getServiceItem } from "@/data/services-catalog";
 import { getSiteBaseUrl } from "@/lib/seo-sitemap";
 import type { SiteArticle, SiteContent, SiteSeo } from "@/types/site-content";
 
@@ -19,6 +20,7 @@ export type SchemaContext = {
   meta: PageSeoMeta;
   breadcrumbs: BreadcrumbItem[];
   article?: SiteArticle;
+  service?: { label: string; categoryLabel: string };
 };
 
 function parseViDate(dateStr: string): string | undefined {
@@ -45,14 +47,28 @@ export function buildBreadcrumbs(path: string, siteName: string, article?: SiteA
   }
 
   if (segments[0] === "tham-my") {
-    items.push({ name: "Thẩm mỹ", url: `${base}/tham-my` });
-    if (segments[1]) items.push({ name: segments[1].replace(/-/g, " "), url: `${base}${path}` });
+    const cat = SERVICE_CATEGORIES["tham-my"];
+    items.push({ name: cat.eyebrow, url: `${base}/tham-my` });
+    if (segments[1]) {
+      const svc = getServiceItem("tham-my", segments[1]);
+      items.push({
+        name: svc?.label ?? segments[1].replace(/-/g, " "),
+        url: `${base}${path}`,
+      });
+    }
     return items;
   }
 
   if (segments[0] === "spa") {
-    items.push({ name: "Spa", url: `${base}/spa` });
-    if (segments[1]) items.push({ name: segments[1].replace(/-/g, " "), url: `${base}${path}` });
+    const cat = SERVICE_CATEGORIES.spa;
+    items.push({ name: cat.eyebrow, url: `${base}/spa` });
+    if (segments[1]) {
+      const svc = getServiceItem("spa", segments[1]);
+      items.push({
+        name: svc?.label ?? segments[1].replace(/-/g, " "),
+        url: `${base}${path}`,
+      });
+    }
     return items;
   }
 
@@ -167,6 +183,55 @@ export function buildJsonLdGraph(ctx: SchemaContext, content: SiteContent): obje
       articleSection: ctx.article.category,
       inLanguage: seo.locale || "vi-VN",
       keywords: ctx.article.seo?.keywords || ctx.article.seo?.focusKeyphrase || undefined,
+    });
+  } else if (ctx.service && (ctx.path.startsWith("/tham-my/") || ctx.path.startsWith("/spa/"))) {
+    graphs.push({
+      "@type": "Service",
+      "@id": `${ctx.meta.canonical}#service`,
+      name: ctx.service.label,
+      description: ctx.meta.description,
+      provider: { "@id": orgId },
+      serviceType: ctx.service.categoryLabel,
+      areaServed: {
+        "@type": "City",
+        name: "TP. Hồ Chí Minh",
+        containedInPlace: { "@type": "Country", name: "Việt Nam" },
+      },
+      url: ctx.meta.canonical,
+      image: ctx.meta.ogImage || undefined,
+    });
+    if (ctx.article) {
+      const published = parseViDate(ctx.article.date);
+      graphs.push({
+        "@type": "Article",
+        "@id": `${ctx.meta.canonical}#article`,
+        headline: ctx.article.title,
+        description: ctx.meta.description,
+        image: ctx.meta.ogImage ? [ctx.meta.ogImage] : undefined,
+        datePublished: published,
+        dateModified: published,
+        author: { "@type": "Organization", name: settings.clinicName },
+        publisher: {
+          "@type": "Organization",
+          name: settings.clinicName,
+          logo: seo.organizationLogo
+            ? { "@type": "ImageObject", url: seo.organizationLogo }
+            : undefined,
+        },
+        mainEntityOfPage: { "@type": "WebPage", "@id": ctx.meta.canonical },
+        articleSection: ctx.article.category,
+        inLanguage: seo.locale || "vi-VN",
+      });
+    }
+  } else if (ctx.path === "/tham-my" || ctx.path === "/spa") {
+    graphs.push({
+      "@type": "CollectionPage",
+      "@id": `${ctx.meta.canonical}#webpage`,
+      url: ctx.meta.canonical,
+      name: ctx.meta.title,
+      description: ctx.meta.description,
+      isPartOf: { "@id": siteId },
+      about: { "@id": orgId },
     });
   } else if (ctx.path === "/") {
     graphs.push({
