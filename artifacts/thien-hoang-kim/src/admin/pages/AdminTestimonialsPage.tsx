@@ -19,7 +19,7 @@ export function AdminTestimonialsPage() {
               ...p,
               testimonials: [
                 ...p.testimonials,
-                { id: crypto.randomUUID(), name: "", initials: "", avatar: "", text: "" },
+                { id: crypto.randomUUID(), name: "", initials: "", avatar: "", phoneImage: "", text: "" },
               ],
             }))
           }
@@ -40,6 +40,7 @@ export function AdminTestimonialsPage() {
               <AdminField label="Tên" value={t.name} onChange={(v) => updateContent((p) => { const list = [...p.testimonials]; list[i] = { ...list[i], name: v }; return { ...p, testimonials: list }; })} />
               <AdminField label="Viết tắt" value={t.initials} onChange={(v) => updateContent((p) => { const list = [...p.testimonials]; list[i] = { ...list[i], initials: v }; return { ...p, testimonials: list }; })} />
               <AdminImageField label="Avatar" value={t.avatar} onChange={(v) => updateContent((p) => { const list = [...p.testimonials]; list[i] = { ...list[i], avatar: v }; return { ...p, testimonials: list }; })} />
+              <AdminImageField label="Ảnh trong khung điện thoại" value={t.phoneImage} onChange={(v) => updateContent((p) => { const list = [...p.testimonials]; list[i] = { ...list[i], phoneImage: v }; return { ...p, testimonials: list }; })} />
               <div className="md:col-span-2">
                 <AdminField label="Nội dung" value={t.text} onChange={(v) => updateContent((p) => { const list = [...p.testimonials]; list[i] = { ...list[i], text: v }; return { ...p, testimonials: list }; })} multiline />
               </div>

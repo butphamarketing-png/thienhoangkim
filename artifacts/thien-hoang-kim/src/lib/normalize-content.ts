@@ -2,7 +2,15 @@ import { DEFAULT_ARTICLES } from "@/data/articles.defaults";
 import { DEFAULT_SITE_CONTENT } from "@/data/site-content.defaults";
 import { normalizeArticleSeo, normalizeSiteSeo } from "@/lib/seo";
 import { slugify } from "@/lib/slug";
-import type { SiteArticle, SiteContent } from "@/types/site-content";
+import type { SiteArticle, SiteContent, SiteTestimonial } from "@/types/site-content";
+
+function normalizeTestimonials(testimonials?: SiteTestimonial[]): SiteTestimonial[] {
+  const list = testimonials?.length ? testimonials : DEFAULT_SITE_CONTENT.testimonials;
+  return list.map((t) => ({
+    ...t,
+    phoneImage: t.phoneImage || t.avatar || "",
+  }));
+}
 
 export function normalizeArticles(articles?: SiteArticle[]): SiteArticle[] {
   if (!articles?.length) return DEFAULT_ARTICLES;
@@ -60,8 +68,14 @@ export function mergeSiteContent(partial: Partial<SiteContent>): SiteContent {
     bookingServices: partial.bookingServices ?? base.bookingServices,
     doctors: partial.doctors ?? base.doctors,
     articles: normalizeArticles(partial.articles),
-    testimonials: partial.testimonials ?? base.testimonials,
+    testimonials: normalizeTestimonials(partial.testimonials),
     customerCases: partial.customerCases ?? base.customerCases,
     processSteps: partial.processSteps ?? base.processSteps,
+    luckyWheel: {
+      ...base.luckyWheel,
+      ...partial.luckyWheel,
+      segments: partial.luckyWheel?.segments ?? base.luckyWheel.segments,
+    },
+    promotion: { ...base.promotion, ...partial.promotion },
   };
 }
