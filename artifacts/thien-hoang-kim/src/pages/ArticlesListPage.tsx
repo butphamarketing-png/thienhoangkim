@@ -3,6 +3,7 @@ import { ArrowRight, Calendar } from "lucide-react";
 import { SiteLayout } from "@/components/layout/SiteLayout";
 import { PageHero } from "@/components/layout/PageHero";
 import { useSiteContent } from "@/context/SiteContentContext";
+import { getArticlePublicPath, isServiceLinkedArticle } from "@/data/services-catalog";
 
 export default function ArticlesListPage() {
   const { content } = useSiteContent();
@@ -17,7 +18,10 @@ export default function ArticlesListPage() {
 
   const pageTitle = categoryFilter ?? content.handbook.title;
   const published = content.articles.filter(
-    (a) => a.published && (!categoryFilter || a.category === categoryFilter),
+    (a) =>
+      a.published &&
+      !isServiceLinkedArticle(a.slug) &&
+      (!categoryFilter || a.category === categoryFilter),
   );
 
   return (
@@ -51,7 +55,7 @@ export default function ArticlesListPage() {
           {published.map((article) => (
             <Link
               key={article.id}
-              href={`/tin-tuc/${article.slug}`}
+              href={getArticlePublicPath(article.slug)}
               className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
             >
               <div className="relative aspect-[4/3] overflow-hidden">

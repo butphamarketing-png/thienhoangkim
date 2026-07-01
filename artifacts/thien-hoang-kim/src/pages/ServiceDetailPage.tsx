@@ -8,6 +8,7 @@ import {
   getServiceItem,
   type ServiceCategoryId,
 } from "@/data/services-catalog";
+import { ArticleBodyContent } from "@/components/ArticleBodyContent";
 import { DEFAULT_HERO_IMAGE } from "@/data/pages.defaults";
 import NotFound from "@/pages/not-found";
 
@@ -42,8 +43,6 @@ Khách hàng được thăm khám, phân tích và lên phác đồ cá nhân tr
 
 Đặt lịch tư vấn miễn phí để được bác sĩ đánh giá tình trạng và báo giá chi tiết.`;
 
-  const paragraphs = body.split(/\n\n+/).filter(Boolean);
-
   return (
     <SiteLayout>
       <article className="container mx-auto max-w-3xl px-4 py-10 md:px-8 md:py-14">
@@ -59,11 +58,7 @@ Khách hàng được thăm khám, phân tích và lên phác đồ cá nhân tr
         )}
         <img src={image} alt={title} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover object-top shadow-lg" />
         <p className="mt-8 text-lg font-medium leading-relaxed text-foreground/90">{description}</p>
-        <div className="mt-8 space-y-4 text-base leading-relaxed text-foreground/85">
-          {paragraphs.map((para) => (
-            <p key={para.slice(0, 40)}>{para}</p>
-          ))}
-        </div>
+        <ArticleBodyContent body={body} imageAlt={title} />
         <div className="mt-12 flex flex-wrap gap-3">
           <Link href="/lien-he#dat-lich">
             <Button className="rounded-full bg-primary font-bold">Đặt lịch tư vấn</Button>

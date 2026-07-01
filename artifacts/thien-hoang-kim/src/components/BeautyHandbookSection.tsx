@@ -3,6 +3,7 @@ import { ArrowRight, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/layout/SectionHeading";
+import { getArticlePublicPath } from "@/data/services-catalog";
 import type { SiteArticle } from "@/types/site-content";
 
 type BeautyHandbookSectionProps = {
@@ -13,7 +14,7 @@ type BeautyHandbookSectionProps = {
 };
 
 function ArticleCard({ article }: { article: SiteArticle }) {
-  const href = `/tin-tuc/${article.slug}`;
+  const href = getArticlePublicPath(article.slug);
 
   return (
     <Link href={href} className="luxury-card group flex h-full min-w-0 flex-col overflow-hidden rounded-2xl p-2 sm:p-3">

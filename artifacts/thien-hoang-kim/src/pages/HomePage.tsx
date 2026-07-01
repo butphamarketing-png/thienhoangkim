@@ -14,13 +14,16 @@ import { CtaContactSection } from "@/components/CtaContactSection";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { CountUpValue } from "@/components/CountUpValue";
 import { useSiteContent } from "@/context/SiteContentContext";
+import { isServiceLinkedArticle } from "@/data/services-catalog";
 import { COMMITMENT_ICONS } from "@/lib/commitment-icons";
 import { motion } from "framer-motion";
 
 export default function HomePage() {
   const { content } = useSiteContent();
   const { settings, home } = content;
-  const publishedArticles = content.articles.filter((a) => a.published);
+  const publishedArticles = content.articles.filter(
+    (a) => a.published && !isServiceLinkedArticle(a.slug),
+  );
 
   return (
     <SiteLayout>

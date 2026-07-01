@@ -139,11 +139,6 @@ export function buildJsonLdGraph(ctx: SchemaContext, content: SiteContent): obje
     description: seo.description,
     publisher: { "@id": orgId },
     inLanguage: seo.locale || "vi-VN",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${siteUrl}/tin-tuc?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
   });
 
   if (seo.breadcrumbsEnabled !== false && ctx.breadcrumbs.length > 1) {

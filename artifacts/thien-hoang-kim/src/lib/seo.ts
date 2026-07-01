@@ -3,6 +3,7 @@ import {
   SERVICE_CATEGORIES,
   getPreferredArticlePath,
   getServiceItem,
+  resolveLegacyServicePath,
 } from "@/data/services-catalog";
 import { buildBreadcrumbs, buildJsonLdGraph, jsonLdScript, type SchemaContext } from "@/lib/seo-schema";
 import { getSiteBaseUrl } from "@/lib/seo-sitemap";
@@ -118,6 +119,8 @@ export function resolveArticleSeo(
         ? toAbsoluteUrl(preferredPath, global.siteUrl)
         : toAbsoluteUrl(path, global.siteUrl);
 
+  const isDuplicateTinTuc = Boolean(preferredPath && path.startsWith("/tin-tuc/"));
+
   return {
     title,
     description,
@@ -128,7 +131,7 @@ export function resolveArticleSeo(
     ogUrl: canonicalPath,
     ogType: "article",
     twitterCard: global.twitterCard || "summary_large_image",
-    robots: buildRobotsDirective(seo, global.robots || "index,follow"),
+    robots: isDuplicateTinTuc ? "noindex,follow" : buildRobotsDirective(seo, global.robots || "index,follow"),
     canonical: canonicalPath,
   };
 }
@@ -176,6 +179,42 @@ function findArticleForPath(path: string, content: SiteContent): SiteArticle | u
     return content.articles.find((a) => a.slug === articleMatch[1] && a.published);
   }
   return undefined;
+}
+
+function isPublicRoute(path: string, content: SiteContent): boolean {
+  const clean = path.split("#")[0] || "/";
+  if (clean === "/") return true;
+
+  const staticRoutes = new Set([
+    "/lien-he",
+    "/khach-hang",
+    "/dich-vu",
+    "/tham-my",
+    "/spa",
+    "/bang-gia",
+    "/tin-tuc",
+    "/tin-tuc/kien-thuc",
+    "/tin-tuc/tin-tuc",
+    "/gioi-thieu",
+    "/gioi-thieu/doi-ngu-bac-si",
+  ]);
+  if (staticRoutes.has(clean)) return true;
+  if (getPageContent(clean)) return true;
+
+  const thamMyMatch = clean.match(/^\/tham-my\/([^/]+)$/);
+  if (thamMyMatch) return Boolean(getServiceItem("tham-my", thamMyMatch[1]));
+
+  const spaMatch = clean.match(/^\/spa\/([^/]+)$/);
+  if (spaMatch) return Boolean(getServiceItem("spa", spaMatch[1]));
+
+  const articleMatch = clean.match(/^\/tin-tuc\/([^/]+)$/);
+  if (articleMatch) {
+    return Boolean(content.articles.find((a) => a.slug === articleMatch[1] && a.published));
+  }
+
+  if (clean.startsWith("/dich-vu/")) return Boolean(resolveLegacyServicePath(clean));
+
+  return false;
 }
 
 export function resolveRouteSeoContext(path: string, content: SiteContent): SchemaContext {
@@ -358,6 +397,16 @@ export function resolveRouteSeo(path: string, content: SiteContent): PageSeoMeta
     return {
       ...base,
       title: buildTitle("Đội ngũ bác sĩ", global.siteName, sep),
+    };
+  }
+
+  if (!isPublicRoute(clean, content)) {
+    const base = baseFromGlobal(global, clean);
+    return {
+      ...base,
+      title: buildTitle("Không tìm thấy trang", global.siteName, sep),
+      description: "Trang bạn truy cập không tồn tại hoặc đã được di chuyển.",
+      robots: "noindex,nofollow",
     };
   }
 

@@ -192,6 +192,11 @@ export function getPreferredArticlePath(articleSlug: string): string | null {
   return getCategoryPathForArticle(articleSlug);
 }
 
+/** URL công khai ưu tiên cho bài viết (dịch vụ → /tham-my|/spa, tin → /tin-tuc) */
+export function getArticlePublicPath(articleSlug: string): string {
+  return getPreferredArticlePath(articleSlug) ?? `/tin-tuc/${articleSlug}`;
+}
+
 export function isServiceLinkedArticle(articleSlug: string): boolean {
   return Boolean(findServiceByArticleSlug(articleSlug) || getCategoryPathForArticle(articleSlug));
 }

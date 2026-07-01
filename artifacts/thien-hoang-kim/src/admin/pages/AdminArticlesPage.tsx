@@ -241,7 +241,8 @@ export function AdminArticlesPage() {
                         </Button>
                       </div>
                       <p className="mb-2 text-xs text-muted-foreground">
-                        Mỗi đoạn cách nhau 1 dòng trống. Ảnh trong bài: dòng riêng dạng{" "}
+                        Mỗi đoạn cách nhau 1 dòng trống. Tiêu đề phụ: dòng riêng{" "}
+                        <code className="rounded bg-muted px-1">## Tiêu đề H2</code>. Ảnh trong bài:{" "}
                         <code className="rounded bg-muted px-1">![mô tả](url)</code>
                       </p>
                       <textarea

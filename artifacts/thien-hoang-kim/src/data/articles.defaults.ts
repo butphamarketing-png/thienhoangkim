@@ -1,4 +1,33 @@
 import { DEFAULT_ARTICLE_SEO } from "@/lib/seo";
+import { NANG_MUI_HOANG_KIM_BODY } from "@/data/articles/nang-mui-hoang-kim.body";
+import { CAT_MI_PHUONG_HOANG_BODY } from "@/data/articles/cat-mi-phuong-hoang.body";
+import { CAY_TOC_TU_THAN_BODY } from "@/data/articles/cay-toc-tu-than.body";
+import { CANG_NOI_SOI_BODY } from "@/data/articles/cang-noi-soi.body";
+import { CANG_CHI_TRE_HOA_BODY } from "@/data/articles/cang-chi-tre-hoa.body";
+import { HUT_MO_CAY_MO_MA_BODY } from "@/data/articles/hut-mo-cay-mo-ma.body";
+import { FILLER_TAO_HINH_BODY } from "@/data/articles/filler-tao-hinh.body";
+import { BOTOX_XOA_NHAN_GON_HAM_BODY } from "@/data/articles/botox-xoa-nhan-gon-ham.body";
+import { U_DA_MUOI_HIMALAYA_BODY } from "@/data/articles/u-da-muoi-himalaya.body";
+import { PHUN_XAM_THAM_MY_BODY } from "@/data/articles/phun-xam-tham-my.body";
+import { MASSAGE_BODY_THU_GIAN_BODY } from "@/data/articles/massage-body-thu-gian.body";
+import { MASSAGE_FACIAL_BODY } from "@/data/articles/massage-facial.body";
+import { CHAM_SOC_DA_TOAN_DIEN_BODY } from "@/data/articles/cham-soc-da-toan-dien.body";
+import {
+  FILLER_VA_BOTOX_KHAC_NHAU_BODY,
+  NANG_MUI_CO_DAU_KHONG_BODY,
+  CAT_MI_BAO_LAU_HOI_PHUC_BODY,
+  PHUN_MOI_CO_DAU_KHONG_BODY,
+  CHAM_SOC_DA_MAT_DUNG_CACH_BODY,
+  PHONG_KHAM_THAM_MY_AN_DONG_BODY,
+  BOTOX_GON_HAM_BAO_LAU_BODY,
+  CAY_TOC_FUE_LA_GI_BODY,
+  CHON_PHONG_KHAM_THAM_MY_AN_TOAN_BODY,
+  XU_HUONG_THAM_MY_2026_BODY,
+} from "@/data/articles/news-priority.body";
+import {
+  DAU_HIEU_THAM_KHAM_DA_LIEU_BODY,
+  CHAM_SOC_SAU_PHAU_THUAT_THAM_MY_BODY,
+} from "@/data/articles/news-general.body";
 import type { ArticleSeo, SiteArticle } from "@/types/site-content";
 
 const publicAsset = (file: string) =>
@@ -19,6 +48,27 @@ function svcSeo(
     metaDescription,
     focusKeyphrase,
     keywords: keywords ?? focusKeyphrase,
+  };
+}
+
+function newsSeo(
+  slug: string,
+  metaTitle: string,
+  metaDescription: string,
+  focusKeyphrase: string,
+  keywords?: string,
+  ogImage = slide,
+): ArticleSeo {
+  return {
+    ...DEFAULT_ARTICLE_SEO,
+    metaTitle: `${metaTitle} | Thiên Hoàng Kim`,
+    metaDescription,
+    focusKeyphrase,
+    keywords: keywords ?? focusKeyphrase,
+    canonicalUrl: `https://thienhoangkim.vercel.app/tin-tuc/${slug}`,
+    ogTitle: metaTitle,
+    ogDescription: metaDescription,
+    ogImage,
   };
 }
 
@@ -97,161 +147,193 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "tm-1",
     "nang-mui-hoang-kim",
     "Nâng mũi hoàng kim — Chuẩn tỉ lệ vàng, tự nhiên",
-    "05/06/2024",
-    "Nâng mũi cấu trúc theo tỉ lệ vàng giúp sống mũi thẳng, đầu mũi mềm và hài hòa khuôn mặt.",
-    `Nâng mũi hoàng kim là phương pháp nâng mũi cấu trúc tại Thiên Hoàng Kim, thiết kế theo tỉ lệ vàng trên khuôn mặt: chiều dài sống mũi, độ cao đầu mũi và góc mũi – môi cân đối với trán và cằm.
-
-Bác sĩ thăm khám, chụp ảnh mô phỏng và tư vấn chất liệu sụn (sụn tự thân/sụn nhân tạo) phù hợp. Phẫu thuật trong phòng vô trùng, gây mê an toàn. Thời gian hồi phục thường 7–14 ngày sưng nhẹ; 3–6 tháng mũi ổn định và đẹp tự nhiên nhất.
-
-Lưu ý: tuân thủ chăm sóc vết mổ, tái khám định kỳ, tránh va chạm mũi trong giai đoạn đầu. Đặt lịch tư vấn miễn phí để bác sĩ đánh giá cấu trúc mũi và báo giá chi tiết.`,
+    "01/07/2026",
+    "Nâng mũi hoàng kim cấu trúc theo tỉ lệ vàng — sống mũi thẳng, đầu mũi mềm, hài hòa khuôn mặt. Tư vấn miễn phí tại An Đông, TP.HCM.",
+    NANG_MUI_HOANG_KIM_BODY,
     slide,
     "Thẩm mỹ",
-    svcSeo(
-      "Nâng mũi hoàng kim TP.HCM | Tỉ lệ vàng",
-      "Nâng mũi cấu trúc chuẩn tỉ lệ vàng — sống thẳng, đầu mũi mềm tự nhiên. Tư vấn miễn phí tại Thiên Hoàng Kim, An Đông TP.HCM.",
-      "nâng mũi hoàng kim",
-      "nâng mũi, nâng mũi cấu trúc, nâng mũi TP.HCM, thẩm mỹ mũi",
-    ),
+    {
+      ...DEFAULT_ARTICLE_SEO,
+      metaTitle: "Nâng mũi hoàng kim TP.HCM | Thiên Hoàng Kim",
+      metaDescription:
+        "Nâng mũi hoàng kim cấu trúc chuẩn tỉ lệ vàng tại An Đông TP.HCM — sống thẳng, đầu mũi mềm tự nhiên. Tư vấn miễn phí với bác sĩ tại Thiên Hoàng Kim.",
+      focusKeyphrase: "nâng mũi hoàng kim",
+      keywords:
+        "nâng mũi hoàng kim, nâng mũi cấu trúc, nâng mũi TP.HCM, thẩm mỹ mũi, nâng mũi An Đông, phòng khám nâng mũi",
+      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/nang-mui-hoang-kim",
+      ogTitle: "Nâng mũi hoàng kim — Chuẩn tỉ lệ vàng | Thiên Hoàng Kim",
+      ogDescription:
+        "Nâng mũi hoàng kim cấu trúc chuẩn tỉ lệ vàng — sống thẳng, đầu mũi mềm, tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
+      ogImage: slide,
+    },
   ),
   article(
     "tm-2",
     "cat-mi-phuong-hoang",
     "Cắt mí phượng hoàng — Mắt sắc nét, cuốn hút",
-    "05/06/2024",
-    "Kỹ thuật cắt mí tạo đường cong phượng hoàng — mắt to tròn, nếp mí rõ và tự nhiên.",
-    `Cắt mí phượng hoàng là kỹ thuật tạo nếp mí với đường cong dài, nhẹ nhàng như cánh phượng — phù hợp người muốn mắt to, sắc nét mà vẫn hài hòa với gương mặt Á Đông.
-
-Bác sĩ đánh giá mí ẩn, mỡ thừa, da chùng và đề xuất cắt mí, lấy mỡ hoặc mở góc trong/ngoài nếu cần. Vết mổ đặt tại nếp mí tự nhiên nên rất khó nhận ra khi lành. Hồi phục 7–10 ngày; mí vào form sau 1–3 tháng.
-
-Chăm sóc: chườm lạnh ngày đầu, vệ sinh vết theo hướng dẫn, chống nắng kỹ, hạn chế makeup vùng mắt theo từng giai đoạn.`,
+    "01/07/2026",
+    "Cắt mí phượng hoàng tạo nếp mí cong dài, mắt to tròn và tự nhiên — tư vấn miễn phí tại An Đông, TP.HCM.",
+    CAT_MI_PHUONG_HOANG_BODY,
     intro,
     "Thẩm mỹ",
-    svcSeo(
-      "Cắt mí phượng hoàng TP.HCM",
-      "Cắt mí tạo đường cong phượng hoàng — mắt to sắc nét, nếp mí tự nhiên. Bác sĩ chuyên khoa tại Thiên Hoàng Kim.",
-      "cắt mí phượng hoàng",
-      "cắt mí, cắt mí phượng hoàng, thẩm mỹ mắt, cắt mí TP.HCM",
-    ),
+    {
+      ...DEFAULT_ARTICLE_SEO,
+      metaTitle: "Cắt mí phượng hoàng TP.HCM | Thiên Hoàng Kim",
+      metaDescription:
+        "Cắt mí phượng hoàng — mắt to sắc nét, nếp mí cong tự nhiên tại An Đông TP.HCM. Tư vấn miễn phí với bác sĩ tại Thiên Hoàng Kim.",
+      focusKeyphrase: "cắt mí phượng hoàng",
+      keywords:
+        "cắt mí phượng hoàng, cắt mí, thẩm mỹ mắt, cắt mí TP.HCM, cắt mí An Đông, phòng khám cắt mí",
+      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/cat-mi-phuong-hoang",
+      ogTitle: "Cắt mí phượng hoàng — Mắt sắc nét | Thiên Hoàng Kim",
+      ogDescription:
+        "Cắt mí phượng hoàng tạo nếp mí cong dài, mắt to tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
+      ogImage: intro,
+    },
   ),
   article(
     "tm-3",
     "cay-toc-tu-than",
     "Cấy tóc tự thân — Mật độ cao, mọc tự nhiên",
-    "04/06/2024",
-    "Cấy tóc FUE/FUT lấy nang tóc từ vùng cho — phục hồi đường viền và mật độ tóc hói.",
-    `Cấy tóc tự thân là giải pháp lấy nang tóc khỏe từ vùng sau gáy (vùng cho), cấy vào vùng hói hoặc thưa tóc. Tóc mọc tự nhiên, bền lâu vì là tóc của chính bạn.
-
-Thiên Hoàng Kim áp dụng kỹ thuật FUE/FUT tuỳ mức độ hói và số nang cần cấy. Bác sĩ thiết kế đường viền trán, hướng mọc tóc phù hợp khuôn mặt. Thời gian phẫu thuật vài giờ; nghỉ ngơi ngắn, tránh vận động mạnh vài ngày đầu.
-
-Kết quả: tóc cấy rụng nhẹ giai đoạn shock loss (bình thường), mọc lại sau 3–6 tháng. Kiên trì tái khám và chăm sóc theo hướng dẫn để đạt mật độ tối ưu.`,
+    "01/07/2026",
+    "Cấy tóc FUE/FUT từ nang tóc tự thân — phục hồi hói đầu, đường viền trán tự nhiên. Tư vấn miễn phí tại An Đông, TP.HCM.",
+    CAY_TOC_TU_THAN_BODY,
     slide,
     "Thẩm mỹ",
-    svcSeo(
-      "Cấy tóc tự thân FUE/FUT TP.HCM",
-      "Cấy tóc tự thân mật độ cao, hướng mọc tự nhiên. Kỹ thuật FUE/FUT tại Thiên Hoàng Kim — phục hồi tóc hói bền lâu.",
-      "cấy tóc tự thân",
-      "cấy tóc, cấy tóc FUE, cấy tóc TP.HCM, điều trị hói đầu",
-    ),
+    {
+      ...DEFAULT_ARTICLE_SEO,
+      metaTitle: "Cấy tóc tự thân TP.HCM | Thiên Hoàng Kim",
+      metaDescription:
+        "Cấy tóc tự thân FUE/FUT — mật độ cao, hướng mọc tự nhiên tại An Đông TP.HCM. Tư vấn miễn phí điều trị hói đầu tại Thiên Hoàng Kim.",
+      focusKeyphrase: "cấy tóc tự thân",
+      keywords:
+        "cấy tóc tự thân, cấy tóc FUE, cấy tóc FUT, cấy tóc TP.HCM, điều trị hói đầu, cấy tóc An Đông",
+      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/cay-toc-tu-than",
+      ogTitle: "Cấy tóc tự thân FUE/FUT | Thiên Hoàng Kim",
+      ogDescription:
+        "Cấy tóc tự thân mật độ cao, mọc tự nhiên bền lâu. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
+      ogImage: slide,
+    },
   ),
   article(
     "tm-4",
     "cang-noi-soi",
     "Căng nội soi — Trẻ hóa sâu, ít sẹo",
-    "04/06/2024",
-    "Căng da nội soi nâng cơ vùng trán, thái dương và má — giảm chảy xệ mà không phẫu thuật mở lớn.",
-    `Căng nội soi sử dụng camera nội soi và dụng cụ chuyên dụng luồn qua đường rạch nhỏ ở da đầu, nâng và cố định lớp cơ mặt bị chảy xệ. Phù hợp người lão hóa vừa đến trung bình: trán nhăn, má chùng, đường viền mặt mờ.
-
-Ưu điểm: sẹo ẩn trong tóc, thời gian nghỉ ngắn hơn mổ mở. Bác sĩ đánh giá độ dày da, mức chảy xệ và sức khỏe trước khi chỉ định. Kết quả thường rõ sau 2–4 tuần sưng xuống; duy trì nhiều năm tuỳ cơ địa.
-
-Kết hợp skincare y khoa và chống nắng giúp duy trì làn da săn chắc lâu hơn sau căng nội soi.`,
+    "01/07/2026",
+    "Căng nội soi nâng cơ vùng trán, má — trẻ hóa sâu, sẹo ẩn trong tóc. Tư vấn miễn phí tại An Đông, TP.HCM.",
+    CANG_NOI_SOI_BODY,
     intro,
     "Thẩm mỹ",
-    svcSeo(
-      "Căng nội soi trẻ hóa mặt TP.HCM",
-      "Căng da nội soi nâng cơ vùng trán, má — trẻ hóa sâu, sẹo ẩn trong tóc. Thiên Hoàng Kim, phòng khám chuẩn y khoa.",
-      "căng nội soi",
-      "căng nội soi, trẻ hóa da, căng da mặt, thẩm mỹ không phẫu thuật",
-    ),
+    {
+      ...DEFAULT_ARTICLE_SEO,
+      metaTitle: "Căng nội soi trẻ hóa mặt TP.HCM | Thiên Hoàng Kim",
+      metaDescription:
+        "Căng nội soi nâng cơ trán, má — trẻ hóa sâu, sẹo ẩn trong tóc tại An Đông TP.HCM. Tư vấn miễn phí tại Thiên Hoàng Kim.",
+      focusKeyphrase: "căng nội soi",
+      keywords:
+        "căng nội soi, căng da mặt, trẻ hóa da, căng nội soi TP.HCM, thẩm mỹ không phẫu thuật, căng trán nội soi",
+      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/cang-noi-soi",
+      ogTitle: "Căng nội soi — Trẻ hóa sâu, ít sẹo | Thiên Hoàng Kim",
+      ogDescription:
+        "Căng nội soi nâng cơ mặt, sẹo ẩn trong tóc — trẻ hóa tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
+      ogImage: intro,
+    },
   ),
   article(
     "tm-5",
     "cang-chi-tre-hoa",
     "Căng chỉ trẻ hóa — Săn chắc không phẫu thuật",
-    "03/06/2024",
-    "Nâng cơ bằng chỉ sinh học PDO/PLLA — trẻ hóa vùng má, hàm và cổ.",
-    `Căng chỉ trẻ hóa đưa chỉ sinh học (PDO, PLLA…) vào lớp sâu dưới da để nâng cơ, kích thích collagen. Phù hợp người bắt đầu chảy xệ nhẹ, muốn cải thiện mà không mổ.
-
-Quy trình: gây tê tại chỗ, tiêm chỉ theo vector nâng đã thiết kế. Thời gian 45–90 phút; sưng nhẹ 2–5 ngày. Hiệu quả căng rõ ngay; collagen tái tạo dần trong 2–3 tháng giúp da săn hơn.
-
-Chỉ định và chống chỉ định cần được bác sĩ đánh giá (viêm da cấp, nhiễm trùng, một số bệnh nền). Tái khám theo lịch để theo dõi kết quả.`,
+    "01/07/2026",
+    "Căng chỉ PDO/PLLA nâng cơ, kích thích collagen — trẻ hóa má, hàm, cổ. Hồi phục nhanh. Tư vấn miễn phí tại An Đông, TP.HCM.",
+    CANG_CHI_TRE_HOA_BODY,
     slide,
     "Thẩm mỹ",
-    svcSeo(
-      "Căng chỉ trẻ hóa PDO TP.HCM",
-      "Căng chỉ sinh học nâng cơ, săn chắc da — không phẫu thuật, hồi phục nhanh. Liệu trình tại Thiên Hoàng Kim.",
-      "căng chỉ trẻ hóa",
-      "căng chỉ, căng chỉ PDO, trẻ hóa da, nâng cơ mặt",
-    ),
+    {
+      ...DEFAULT_ARTICLE_SEO,
+      metaTitle: "Căng chỉ trẻ hóa PDO TP.HCM | Thiên Hoàng Kim",
+      metaDescription:
+        "Căng chỉ trẻ hóa PDO/PLLA — nâng cơ, săn chắc da không phẫu thuật tại An Đông TP.HCM. Tư vấn miễn phí tại Thiên Hoàng Kim.",
+      focusKeyphrase: "căng chỉ trẻ hóa",
+      keywords:
+        "căng chỉ trẻ hóa, căng chỉ PDO, căng chỉ PLLA, nâng cơ mặt, trẻ hóa da TP.HCM, căng chỉ An Đông",
+      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/cang-chi-tre-hoa",
+      ogTitle: "Căng chỉ trẻ hóa — Săn chắc không mổ | Thiên Hoàng Kim",
+      ogDescription:
+        "Căng chỉ sinh học nâng cơ, kích thích collagen — hồi phục nhanh. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
+      ogImage: slide,
+    },
   ),
   article(
     "tm-6",
     "hut-mo-cay-mo-ma",
     "Hút mỡ – cấy mỡ má — Gương mặt V-line",
-    "03/06/2024",
-    "Tạo hình mặt gọn: hút mỡ vùng thừa kết hợp cấy mỡ tự thân làm đầy má tươi trẻ.",
-    `Hút mỡ – cấy mỡ má là combo tạo hình mặt: hút mỡ ở hàm, cằm hoặc má thừa để gọn đường viền; đồng thời cấy mỡ tự thân (thường lấy từ bụng, đùi) vào vùng má lõm để khuôn mặt trẻ trung, đầy đặn hơn.
-
-Bác sĩ đánh giá lượng mỡ, độ lỏng da và mong muốn của khách. Phẫu thuật gây mê/tê tuỳ vùng. Đeo ép hỗ trợ theo chỉ định; sưng bầm 1–2 tuần là bình thường.
-
-Kết quả ổn định khi duy trì cân nặng ổn định. Tư vấn trực tiếp giúp xác định bạn phù hợp chỉ hút mỡ, chỉ cấy mỡ hay combo.`,
+    "01/07/2026",
+    "Combo hút mỡ mặt gọn hàm V-line và cấy mỡ tự thân làm đầy má — tư vấn miễn phí tại An Đông, TP.HCM.",
+    HUT_MO_CAY_MO_MA_BODY,
     intro,
     "Thẩm mỹ",
-    svcSeo(
-      "Hút mỡ cấy mỡ má V-line TP.HCM",
-      "Tạo hình mặt V-line: hút mỡ vùng thừa, cấy mỡ tự thân làm đầy má. Combo tại Thiên Hoàng Kim — tư vấn miễn phí.",
-      "hút mỡ cấy mỡ má",
-      "hút mỡ mặt, cấy mỡ má, V-line, tạo hình mặt",
-    ),
+    {
+      ...DEFAULT_ARTICLE_SEO,
+      metaTitle: "Hút mỡ cấy mỡ má V-line TP.HCM | Thiên Hoàng Kim",
+      metaDescription:
+        "Hút mỡ cấy mỡ má tạo hình V-line — gọn hàm, má đầy tự nhiên tại An Đông TP.HCM. Tư vấn miễn phí tại Thiên Hoàng Kim.",
+      focusKeyphrase: "hút mỡ cấy mỡ má",
+      keywords:
+        "hút mỡ cấy mỡ má, hút mỡ mặt, cấy mỡ má, V-line, tạo hình mặt TP.HCM, hút mỡ An Đông",
+      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/hut-mo-cay-mo-ma",
+      ogTitle: "Hút mỡ – cấy mỡ má V-line | Thiên Hoàng Kim",
+      ogDescription:
+        "Combo hút mỡ gọn hàm và cấy mỡ tự thân làm đầy má — khuôn mặt trẻ trung. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
+      ogImage: intro,
+    },
   ),
   article(
     "tm-7",
     "filler-tao-hinh",
     "Filler tạo hình — Đường nét hài hòa tức thì",
-    "02/06/2024",
-    "Tiêm filler HA chính hãng tạo hình mũi, môi, cằm, thái dương — mềm, tự nhiên.",
-    `Filler tạo hình dùng axit hyaluronic (HA) hoặc filler sinh học được phép lưu hành để bổ sung thể tích: nâng sống mũi, làm đầy môi, định hình cằm, thái dương, rãnh cười.
-
-Thiên Hoàng Kim chỉ dùng filler có mã truy xuất, tiêm đúng tầng bởi bác sĩ có chứng chỉ. Kết quả thấy ngay; duy trì 6–18 tháng tuỳ vùng và loại filler.
-
-Sau tiêm: tránh massage vùng tiêm 24–48h, hạn chế rượu bia, sauna nóng vài ngày. Tái khám nếu cần chỉnh hoặc bổ sung.`,
+    "01/07/2026",
+    "Tiêm filler HA chính hãng tạo hình mũi, môi, cằm, thái dương — kết quả tự nhiên ngay. Tư vấn miễn phí tại An Đông, TP.HCM.",
+    FILLER_TAO_HINH_BODY,
     slide,
     "Thẩm mỹ",
-    svcSeo(
-      "Filler tạo hình mũi môi cằm TP.HCM",
-      "Tiêm filler HA chính hãng tạo hình mũi, môi, cằm, thái dương — kết quả tự nhiên ngay. Thiên Hoàng Kim.",
-      "filler tạo hình",
-      "filler, tiêm filler, filler mũi, filler môi TP.HCM",
-    ),
+    {
+      ...DEFAULT_ARTICLE_SEO,
+      metaTitle: "Filler tạo hình mũi môi cằm TP.HCM | Thiên Hoàng Kim",
+      metaDescription:
+        "Filler tạo hình HA chính hãng — mũi, môi, cằm, thái dương tự nhiên tại An Đông TP.HCM. Tư vấn miễn phí tại Thiên Hoàng Kim.",
+      focusKeyphrase: "filler tạo hình",
+      keywords:
+        "filler tạo hình, tiêm filler, filler mũi, filler môi, filler cằm TP.HCM, filler An Đông",
+      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/filler-tao-hinh",
+      ogTitle: "Filler tạo hình — Đường nét hài hòa | Thiên Hoàng Kim",
+      ogDescription:
+        "Tiêm filler HA tạo hình mũi, môi, cằm, thái dương — kết quả ngay, tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
+      ogImage: slide,
+    },
   ),
   article(
     "tm-8",
     "botox-xoa-nhan-gon-ham",
     "Botox xóa nhăn, gọn hàm — Khuôn mặt trẻ trung",
-    "02/06/2024",
-    "Giảm nếp nhăn trán, đuôi mắt; thon gọn hàm (masseter) — không phẫu thuật.",
-    `Botox tạm thời giảm hoạt động cơ gây nhăn (trán, đuôi mắt, cẳm) hoặc thon gọn hàm khi tiêm vào cơ masseter do nhai nhiều. Hiệu quả sau 3–7 ngày, duy trì 4–6 tháng.
-
-Bác sĩ xác định liều và điểm tiêm chuẩn y khoa để khuôn mặt vẫn tự nhiên, không “đơ”. Không chỉ định khi mang thai, cho con bú hoặc một số bệnh thần kinh cơ — cần khai báo sức khỏe đầy đủ.
-
-Tái tiêm định kỳ khi botox hết tác dụng. Kết hợp skincare và chống nắng bảo vệ da.`,
+    "01/07/2026",
+    "Botox giảm nhăn trán, đuôi mắt và thon gọn hàm masseter — tự nhiên, không phẫu thuật. Tư vấn miễn phí tại An Đông, TP.HCM.",
+    BOTOX_XOA_NHAN_GON_HAM_BODY,
     intro,
     "Thẩm mỹ",
-    svcSeo(
-      "Botox xóa nhăn gọn hàm TP.HCM",
-      "Botox giảm nếp nhăn trán, đuôi mắt và thon gọn hàm masseter — khuôn mặt trẻ trung, tự nhiên.",
-      "botox xóa nhăn gọn hàm",
-      "botox, tiêm botox, gọn hàm, xóa nhăn TP.HCM",
-    ),
+    {
+      ...DEFAULT_ARTICLE_SEO,
+      metaTitle: "Botox xóa nhăn gọn hàm TP.HCM | Thiên Hoàng Kim",
+      metaDescription:
+        "Botox xóa nhăn trán, đuôi mắt và gọn hàm masseter tại An Đông TP.HCM — khuôn mặt trẻ trung tự nhiên. Tư vấn miễn phí tại Thiên Hoàng Kim.",
+      focusKeyphrase: "botox xóa nhăn gọn hàm",
+      keywords:
+        "botox xóa nhăn gọn hàm, tiêm botox, gọn hàm, xóa nhăn trán, botox TP.HCM, botox An Đông",
+      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/botox-xoa-nhan-gon-ham",
+      ogTitle: "Botox xóa nhăn, gọn hàm | Thiên Hoàng Kim",
+      ogDescription:
+        "Botox giảm nhăn động và thon hàm masseter — không mổ, hồi phục nhanh. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
+      ogImage: intro,
+    },
   ),
 ];
 
@@ -261,100 +343,294 @@ const SPA_ARTICLES: SiteArticle[] = [
     "sp-1",
     "u-da-muoi-himalaya",
     "Ủ đá muối Himalaya — Thải độc, thư giãn sâu",
-    "01/06/2024",
-    "Liệu trình ủ đá muối Himalaya ấm — giảm mỏi cơ, hỗ trợ tuần hoàn và cân bằng cơ thể.",
-    `Ủ đá muối Himalaya sử dụng đá muối khoáng Himalaya được làm ấm, đặt lên các vùng cơ thể hoặc toàn thân tuỳ gói liệu trình. Nhiệt ấm giúp giãn cơ, kích thích lưu thông máu và mang lại cảm giác thư giãn sâu.
-
-Phù hợp người mệt mỏi, căng cơ vai gáy, làm việc văn phòng nhiều. Liệu trình thường 60–90 phút trong phòng spa riêng, kết hợp tinh dầu và nhạc nhẹ.
-
-Lưu ý: không ủ khi sốt, viêm cấp, vết thương hở hoặc phụ nữ mang thai (cần hỏi bác sĩ). Uống đủ nước sau liệu trình.`,
+    "01/07/2026",
+    "Ủ đá muối Himalaya ấm — giãn cơ, thư giãn sâu, hỗ trợ lưu thông. Phòng spa riêng 60–90 phút tại An Đông, TP.HCM.",
+    U_DA_MUOI_HIMALAYA_BODY,
     slide,
     "Spa",
-    svcSeo(
-      "Ủ đá muối Himalaya thải độc TP.HCM",
-      "Liệu trình ủ đá muối Himalaya ấm — thải độc, thư giãn sâu, cân bằng cơ thể tại spa Thiên Hoàng Kim.",
-      "ủ đá muối Himalaya",
-      "ủ đá muối, spa thải độc, Himalaya salt, massage thư giãn",
-    ),
+    {
+      ...DEFAULT_ARTICLE_SEO,
+      metaTitle: "Ủ đá muối Himalaya TP.HCM | Thiên Hoàng Kim Spa",
+      metaDescription:
+        "Liệu trình ủ đá muối Himalaya ấm — thư giãn sâu, giãn cơ vai gáy, hỗ trợ tuần hoàn tại spa Thiên Hoàng Kim An Đông TP.HCM.",
+      focusKeyphrase: "ủ đá muối Himalaya",
+      keywords:
+        "ủ đá muối Himalaya, ủ đá muối, spa thải độc, Himalaya salt, massage thư giãn TP.HCM, spa An Đông",
+      canonicalUrl: "https://thienhoangkim.vercel.app/spa/u-da-muoi-himalaya",
+      ogTitle: "Ủ đá muối Himalaya — Thải độc, thư giãn | Thiên Hoàng Kim",
+      ogDescription:
+        "Đá muối Himalaya làm ấm kết hợp massage — giảm căng cơ, thư giãn trong phòng spa riêng. Đặt lịch 0938 673 996.",
+      ogImage: slide,
+    },
   ),
   article(
     "sp-2",
     "phun-xam-tham-my",
     "Phun xăm thẩm mỹ — Mày, môi, eyeliner tự nhiên",
-    "01/06/2024",
-    "Phun xăm thẩm mỹ giúp hình dáng mày, môi đẹp cố định — tiết kiệm thời gian trang điểm.",
-    `Phun xăm thẩm mỹ (microblading, phun mày, phun môi, eyeliner) tạo sắc tố bán vĩnh viễn trên da, mô phỏng lông mày hoặc màu môi tự nhiên.
-
-Chuyên viên thăm khám, phác thảo dáng trước khi thực hiện. Màu mực organic, giảm dần sau 1–3 năm tuỳ vùng và chăm sóc. Sưng nhẹ 3–7 ngày; lên màu ổn định sau khoảng 1 tháng.
-
-Chăm sóc: giữ khô vùng phun 24h đầu, tránh bóc vảy, chống nắng kỹ. Tái khám chỉnh sửa theo lịch.`,
+    "01/07/2026",
+    "Phun mày, môi, eyeliner bán vĩnh viễn — tự nhiên, tiết kiệm makeup. Phác thảo trước khi phun tại An Đông, TP.HCM.",
+    PHUN_XAM_THAM_MY_BODY,
     intro,
     "Spa",
-    svcSeo(
-      "Phun xăm thẩm mỹ mày môi TP.HCM",
-      "Phun xăm mày, môi, eyeliner tự nhiên — tiết kiệm thời gian trang điểm. Chuyên viên có chứng chỉ tại Thiên Hoàng Kim.",
-      "phun xăm thẩm mỹ",
-      "phun xăm mày, phun môi, microblading, phun xăm TP.HCM",
-    ),
+    {
+      ...DEFAULT_ARTICLE_SEO,
+      metaTitle: "Phun xăm thẩm mỹ mày môi TP.HCM | Thiên Hoàng Kim",
+      metaDescription:
+        "Phun xăm thẩm mỹ mày, môi, eyeliner tự nhiên — microblading, phun môi organic. Tư vấn phác thảo miễn phí tại spa Thiên Hoàng Kim An Đông TP.HCM.",
+      focusKeyphrase: "phun xăm thẩm mỹ",
+      keywords:
+        "phun xăm thẩm mỹ, phun xăm mày, phun môi, microblading, eyeliner phun, phun xăm TP.HCM",
+      canonicalUrl: "https://thienhoangkim.vercel.app/spa/phun-xam-tham-my",
+      ogTitle: "Phun xăm thẩm mỹ — Mày, môi tự nhiên | Thiên Hoàng Kim",
+      ogDescription:
+        "Phun mày, môi, eyeliner bán vĩnh viễn — chuyên viên phác thảo theo khuôn mặt, mực organic. Đặt lịch 0938 673 996.",
+      ogImage: intro,
+    },
   ),
   article(
     "sp-3",
     "massage-body-thu-gian",
     "Massage body thư giãn — Giải tỏa căng thẳng",
-    "31/05/2024",
-    "Massage toàn thân kỹ thuật Thái/Swedish — giảm mỏi cơ, cải thiện giấc ngủ.",
-    `Massage body thư giãn tại Thiên Hoàng Kim kết hợp kỹ thuật xoa, bóp, day và ấn huyệt trên toàn thân. Giúp giảm căng cơ, đau nhức nhẹ do ngồi lâu hoặc stress.
-
-Liệu trình 60–90 phút trong phòng riêng, dùng tinh dầu thảo dược. Khách có thể chọn mức lực nhẹ, vừa hoặc sâu tuỳ sở thích.
-
-Không massage vùng đang viêm, sốt hoặc vết thương hở. Uống nước sau massage và nghỉ ngơi ngắn để cơ thể hấp thụ tốt nhất.`,
+    "01/07/2026",
+    "Massage toàn thân Swedish/Thái — giảm căng cơ vai gáy, stress, cải thiện giấc ngủ. Phòng riêng 60–90 phút tại An Đông, TP.HCM.",
+    MASSAGE_BODY_THU_GIAN_BODY,
     slide,
     "Spa",
-    svcSeo(
-      "Massage body thư giãn TP.HCM",
-      "Massage toàn thân kỹ thuật Thái/Swedish — giảm mỏi cơ, căng thẳng, cải thiện giấc ngủ tại Thiên Hoàng Kim Spa.",
-      "massage body thư giãn",
-      "massage body, massage thư giãn, spa massage TP.HCM",
-    ),
+    {
+      ...DEFAULT_ARTICLE_SEO,
+      metaTitle: "Massage body thư giãn TP.HCM | Thiên Hoàng Kim Spa",
+      metaDescription:
+        "Massage body thư giãn toàn thân kỹ thuật Swedish/Thái — giảm mỏi cơ, căng thẳng, cải thiện giấc ngủ tại spa Thiên Hoàng Kim An Đông TP.HCM.",
+      focusKeyphrase: "massage body thư giãn",
+      keywords:
+        "massage body thư giãn, massage body, massage toàn thân, spa massage TP.HCM, massage An Đông",
+      canonicalUrl: "https://thienhoangkim.vercel.app/spa/massage-body-thu-gian",
+      ogTitle: "Massage body thư giãn | Thiên Hoàng Kim Spa",
+      ogDescription:
+        "Massage toàn thân trong phòng riêng — chọn lực nhẹ hoặc sâu, tinh dầu thảo dược. Đặt lịch 0938 673 996.",
+      ogImage: slide,
+    },
   ),
   article(
     "sp-4",
     "massage-facial",
     "Massage facial — Da sáng, thư giãn",
-    "31/05/2024",
-    "Massage mặt kết hợp ấn huyệt — lưu thông lymph, da căng mịn hơn.",
-    `Massage facial là liệu trình massage vùng mặt, cổ và vai với động tác nhẹ nhàng, kết hợp ấn huyệt và lưu thông bạch huyết. Giúp da hồng hào, giảm phù nề và thư giãn sâu.
-
-Thích hợp trước sự kiện quan trọng hoặc sau ngày làm việc căng thẳng. Thường kết hợp làm sạch nhẹ và dưỡng ẩm sau massage.
-
-Tránh massage mạnh khi da đang viêm, mụn viêm nặng hoặc vừa peel/laser. Chuyên viên sẽ điều chỉnh kỹ thuật phù hợp từng loại da.`,
+    "01/07/2026",
+    "Massage mặt, cổ, vai kết hợp ấn huyệt — da hồng hào, giảm phù, thư giãn sâu. Gói 45–75 phút tại An Đông, TP.HCM.",
+    MASSAGE_FACIAL_BODY,
     intro,
     "Spa",
-    svcSeo(
-      "Massage facial da sáng khỏe TP.HCM",
-      "Massage mặt kết hợp ấn huyệt — lưu thông lymph, da căng mịn, thư giãn sâu tại Thiên Hoàng Kim.",
-      "massage facial",
-      "massage mặt, facial spa, chăm sóc da mặt TP.HCM",
-    ),
+    {
+      ...DEFAULT_ARTICLE_SEO,
+      metaTitle: "Massage facial TP.HCM | Thiên Hoàng Kim Spa",
+      metaDescription:
+        "Massage facial mặt cổ vai — lưu thông lymph, da căng mịn, thư giãn sâu. Chăm sóc da nhẹ nhàng tại spa Thiên Hoàng Kim An Đông TP.HCM.",
+      focusKeyphrase: "massage facial",
+      keywords:
+        "massage facial, massage mặt, facial spa, chăm sóc da mặt TP.HCM, massage facial An Đông",
+      canonicalUrl: "https://thienhoangkim.vercel.app/spa/massage-facial",
+      ogTitle: "Massage facial — Da sáng, thư giãn | Thiên Hoàng Kim",
+      ogDescription:
+        "Massage mặt kết hợp ấn huyệt và dưỡng ẩm — phù hợp trước sự kiện hoặc sau ngày căng thẳng. Đặt lịch 0938 673 996.",
+      ogImage: intro,
+    },
   ),
   article(
     "sp-5",
     "cham-soc-da-toan-dien",
     "Chăm sóc da toàn diện — Phác đồ cá nhân hóa",
-    "30/05/2024",
-    "Làm sạch, tẩy tế bào chết, hút bã nhờn, dưỡng ẩm và mask — theo từng loại da.",
-    `Chăm sóc da toàn diện là gói spa chuẩn y khoa: soi da, làm sạch sâu, tẩy tế bào chết, hút bã nhờn (nếu cần), massage mặt, serum và mask dưỡng.
-
-Mỗi khách được phân loại da (khô, dầu, hỗn hợp, nhạy cảm) và chọn sản phẩm phù hợp. Thời gian 75–90 phút; da thường sáng, mịn và thoáng ngay sau liệu trình.
-
-Nên duy trì 2–4 tuần/lần tuỳ tình trạng da. Kết hợp chống nắng và skincare tại nhà theo hướng dẫn chuyên viên để duy trì kết quả lâu dài.`,
+    "01/07/2026",
+    "Facial 75–90 phút: soi da, làm sạch sâu, hút bã, massage, mask — phác đồ theo từng loại da tại An Đông, TP.HCM.",
+    CHAM_SOC_DA_TOAN_DIEN_BODY,
     slide,
     "Spa",
-    svcSeo(
-      "Chăm sóc da toàn diện theo phác đồ",
-      "Phác đồ chăm sóc da cá nhân hóa — làm sạch, dưỡng ẩm, phục hồi. Soi da và tư vấn tại Thiên Hoàng Kim Spa.",
-      "chăm sóc da toàn diện",
-      "chăm sóc da, facial, spa da, điều trị da TP.HCM",
+    {
+      ...DEFAULT_ARTICLE_SEO,
+      metaTitle: "Chăm sóc da toàn diện TP.HCM | Thiên Hoàng Kim Spa",
+      metaDescription:
+        "Chăm sóc da toàn diện cá nhân hóa — soi da, làm sạch sâu, hút bã, dưỡng ẩm. Phác đồ facial 75–90 phút tại spa Thiên Hoàng Kim An Đông TP.HCM.",
+      focusKeyphrase: "chăm sóc da toàn diện",
+      keywords:
+        "chăm sóc da toàn diện, facial spa, chăm sóc da mặt, spa da TP.HCM, hút bã nhờn, phác đồ da",
+      canonicalUrl: "https://thienhoangkim.vercel.app/spa/cham-soc-da-toan-dien",
+      ogTitle: "Chăm sóc da toàn diện — Phác đồ cá nhân | Thiên Hoàng Kim",
+      ogDescription:
+        "Soi da, làm sạch sâu, massage và mask theo loại da — da sáng mịn sau một buổi. Đặt lịch 0938 673 996.",
+      ogImage: slide,
+    },
+  ),
+];
+
+/** —— Tin tức / Kiến thức (ưu tiên 10 bài) —— */
+const NEWS_ARTICLES: SiteArticle[] = [
+  article(
+    "tn-1",
+    "filler-va-botox-khac-nhau",
+    "Filler và botox khác nhau thế nào?",
+    "01/07/2026",
+    "Filler bổ sung thể tích, botox giảm co cơ — so sánh cơ chế, vùng tiêm và khi nào nên dùng từng loại.",
+    FILLER_VA_BOTOX_KHAC_NHAU_BODY,
+    intro,
+    "Kiến thức",
+    newsSeo(
+      "filler-va-botox-khac-nhau",
+      "Filler và botox khác nhau thế nào",
+      "So sánh filler và botox khác nhau: cơ chế, vùng tiêm, độ bền và phác đồ kết hợp an toàn. Tư vấn tiêm thẩm mỹ miễn phí tại Thiên Hoàng Kim An Đông TP.HCM.",
+      "filler và botox khác nhau",
+      "filler botox khác nhau, tiêm filler, tiêm botox, so sánh filler botox",
+    ),
+  ),
+  article(
+    "tn-2",
+    "nang-mui-co-dau-khong",
+    "Nâng mũi có đau không? Mức đau thực tế sau phẫu thuật",
+    "01/07/2026",
+    "Trong mổ không đau nhờ gây mê; sau mổ đau nhẹ đến vừa 3–7 ngày — kiểm soát bằng thuốc và chăm sóc đúng.",
+    NANG_MUI_CO_DAU_KHONG_BODY,
+    slide,
+    "Kiến thức",
+    newsSeo(
+      "nang-mui-co-dau-khong",
+      "Nâng mũi có đau không",
+      "Nâng mũi có đau không? Giải thích mức đau trong và sau mổ, timeline hồi phục và cách giảm đau. Tư vấn nâng mũi tại Thiên Hoàng Kim An Đông TP.HCM.",
+      "nâng mũi có đau không",
+      "nâng mũi đau không, đau sau nâng mũi, nâng mũi TP.HCM",
+    ),
+  ),
+  article(
+    "tn-3",
+    "cat-mi-bao-lau-hoi-phuc",
+    "Cắt mí bao lâu hồi phục? Timeline từng giai đoạn",
+    "01/07/2026",
+    "Sưng bầm 7–10 ngày; mí ổn định 1–3 tháng — timeline hồi phục cắt mí và khi nào đi làm lại.",
+    CAT_MI_BAO_LAU_HOI_PHUC_BODY,
+    intro,
+    "Kiến thức",
+    newsSeo(
+      "cat-mi-bao-lau-hoi-phuc",
+      "Cắt mí bao lâu hồi phục",
+      "Cắt mí bao lâu hết sưng? Timeline hồi phục từng tuần và chăm sóc sau mổ. Tư vấn cắt mí tại Thiên Hoàng Kim.",
+      "cắt mí bao lâu hồi phục",
+      "cắt mí hồi phục, cắt mí bao lâu hết sưng, cắt mí TP.HCM",
+    ),
+  ),
+  article(
+    "tn-4",
+    "phun-moi-co-dau-khong",
+    "Phun môi có đau không? Cảm giác thực tế khi phun",
+    "01/07/2026",
+    "Có tê trước khi phun; cảm giác rung nhẹ 1–2 giờ — môi sưng vài ngày sau, màu ổn định sau 4–6 tuần.",
+    PHUN_MOI_CO_DAU_KHONG_BODY,
+    intro,
+    "Spa",
+    newsSeo(
+      "phun-moi-co-dau-khong",
+      "Phun môi có đau không",
+      "Phun môi có đau không? Quy trình tê, mức đau và chăm sóc sau phun môi thẩm mỹ tại spa Thiên Hoàng Kim.",
+      "phun môi có đau không",
+      "phun môi đau không, phun môi thẩm mỹ, phun xăm môi TP.HCM",
+    ),
+  ),
+  article(
+    "tn-5",
+    "cham-soc-da-mat-dung-cach",
+    "Chăm sóc da mặt đúng cách — 3 trụ cột skincare",
+    "01/07/2026",
+    "Làm sạch, dưỡng và chống nắng — routine theo loại da và sai lầm thường gặp khi skincare tại nhà.",
+    CHAM_SOC_DA_MAT_DUNG_CACH_BODY,
+    slide,
+    "Kiến thức",
+    newsSeo(
+      "cham-soc-da-mat-dung-cach",
+      "Chăm sóc da mặt đúng cách",
+      "Hướng dẫn chăm sóc da mặt đúng cách: làm sạch, dưỡng ẩm, chống nắng theo loại da. Facial tại Thiên Hoàng Kim Spa.",
+      "chăm sóc da mặt đúng cách",
+      "skincare đúng cách, chăm sóc da mặt, routine da mặt",
+    ),
+  ),
+  article(
+    "tn-6",
+    "phong-kham-tham-my-an-dong",
+    "Phòng khám thẩm mỹ An Đông — Thiên Hoàng Kim",
+    "01/07/2026",
+    "323–325 Hùng Vương, An Đông — thẩm mỹ y khoa và spa; mở 08:00–20:00, tư vấn miễn phí.",
+    PHONG_KHAM_THAM_MY_AN_DONG_BODY,
+    intro,
+    "Tin tức",
+    newsSeo(
+      "phong-kham-tham-my-an-dong",
+      "Phòng khám thẩm mỹ An Đông",
+      "Phòng khám thẩm mỹ An Đông Quận 5 — Thiên Hoàng Kim 323–325 Hùng Vương. Nâng mũi, filler, botox, spa. Mở 08:00–20:00. Gọi 0938 673 996.",
+      "phòng khám thẩm mỹ An Đông",
+      "thẩm mỹ An Đông, phòng khám Quận 5, Thiên Hoàng Kim Hùng Vương",
+    ),
+  ),
+  article(
+    "tn-7",
+    "botox-gon-ham-bao-lau",
+    "Botox gọn hàm bao lâu thấy kết quả?",
+    "01/07/2026",
+    "Bắt đầu 2–4 tuần, rõ nhất 6–8 tuần — timeline botox masseter và khi nào tái tiêm.",
+    BOTOX_GON_HAM_BAO_LAU_BODY,
+    slide,
+    "Kiến thức",
+    newsSeo(
+      "botox-gon-ham-bao-lau",
+      "Botox gọn hàm bao lâu thấy kết quả",
+      "Botox gọn hàm bao lâu hiệu quả? Timeline 2–8 tuần và duy trì 4–6 tháng. Tư vấn botox tại Thiên Hoàng Kim.",
+      "botox gọn hàm bao lâu thấy kết quả",
+      "botox gọn hàm, thon hàm botox, botox masseter TP.HCM",
+    ),
+  ),
+  article(
+    "tn-8",
+    "cay-toc-fue-la-gi",
+    "Cấy tóc FUE là gì? Ưu nhược điểm và quy trình",
+    "01/07/2026",
+    "FUE lấy từng nang tóc tự thân — ít sẹo dải, hồi phục nhanh; so sánh FUE và FUT.",
+    CAY_TOC_FUE_LA_GI_BODY,
+    intro,
+    "Kiến thức",
+    newsSeo(
+      "cay-toc-fue-la-gi",
+      "Cấy tóc FUE là gì",
+      "Cấy tóc FUE là gì? Quy trình, ưu nhược điểm so với FUT và thời gian tóc mọc. Tư vấn cấy tóc Thiên Hoàng Kim.",
+      "cấy tóc FUE là gì",
+      "cấy tóc FUE, FUE FUT, cấy tóc tự thân TP.HCM",
+    ),
+  ),
+  article(
+    "tn-9",
+    "chon-phong-kham-tham-my-an-toan",
+    "Chọn phòng khám thẩm mỹ an toàn — Checklist 10 điểm",
+    "01/07/2026",
+    "Bác sĩ có chứng chỉ, sản phẩm rõ nguồn, tư vấn trung thực — checklist trước khi làm đẹp.",
+    CHON_PHONG_KHAM_THAM_MY_AN_TOAN_BODY,
+    slide,
+    "Kiến thức",
+    newsSeo(
+      "chon-phong-kham-tham-my-an-toan",
+      "Chọn phòng khám thẩm mỹ an toàn",
+      "Checklist chọn phòng khám thẩm mỹ uy tín, an toàn tại TP.HCM — 10 tiêu chí và dấu hiệu nên tránh.",
+      "chọn phòng khám thẩm mỹ an toàn",
+      "phòng khám thẩm mỹ uy tín, thẩm mỹ an toàn TP.HCM",
+    ),
+  ),
+  article(
+    "tn-10",
+    "xu-huong-tham-my-2026",
+    "Xu hướng thẩm mỹ 2026 — Tự nhiên và cá nhân hóa",
+    "01/07/2026",
+    "Đẹp tinh tế, thẩm mỹ nam tăng, kết hợp skincare và công nghệ ít xâm lấn — xu hướng làm đẹp năm 2026.",
+    XU_HUONG_THAM_MY_2026_BODY,
+    intro,
+    "Tin tức",
+    newsSeo(
+      "xu-huong-tham-my-2026",
+      "Xu hướng thẩm mỹ 2026",
+      "Xu hướng thẩm mỹ 2026: tự nhiên, filler botox nhẹ, thẩm mỹ nam, HIFU và chăm sóc da kết hợp. Tư vấn tại Thiên Hoàng Kim.",
+      "xu hướng thẩm mỹ 2026",
+      "xu hướng làm đẹp 2026, thẩm mỹ tự nhiên, trend thẩm mỹ",
     ),
   ),
 ];
@@ -365,42 +641,34 @@ const GENERAL_ARTICLES: SiteArticle[] = [
     "kn-1",
     "5-dau-hieu-nen-tham-kham-da-lieu",
     "5 dấu hiệu bạn nên thăm khám da liễu thẩm mỹ",
-    "15/04/2024",
-    "Mụn tái đi tái lại, nám tăng sắc tố, da nhạy cảm kéo dài… đừng tự ý trị tại nhà mãi.",
-    `1. Mụn viêm nặng hoặc để lại sẹo thâm lặp lại.
-2. Nám, tàn nhang, melasma lan rộng.
-3. Da đỏ, ngứa kéo dài sau mỹ phẩm.
-4. Lão hóa rõ: chảy xệ, nếp sâu, mất săn chắc.
-5. Muốn điều chỉnh nếp nhăn/môi/thái dương nhưng chưa rõ phương án.
-
-Thăm khám giúp phân biệt điều trị y khoa và thẩm mỹ, tránh lãng phí tiền vào sản phẩm không phù hợp.`,
+    "01/07/2026",
+    "Mụn tái phát, nám lan, da nhạy cảm kéo dài — 5 dấu hiệu cần gặp bác sĩ thay vì tự trị tại nhà bằng mỹ phẩm.",
+    DAU_HIEU_THAM_KHAM_DA_LIEU_BODY,
     slide,
     "Kiến thức",
-    svcSeo(
-      "5 dấu hiệu nên thăm khám da liễu",
-      "Mụn tái phát, nám lan rộng, da nhạy cảm kéo dài — 5 dấu hiệu cần gặp bác sĩ thay vì tự trị tại nhà.",
+    newsSeo(
+      "5-dau-hieu-nen-tham-kham-da-lieu",
+      "5 dấu hiệu thăm khám da liễu thẩm mỹ",
+      "Thăm khám da liễu thẩm mỹ khi nào? 5 dấu hiệu mụn nặng, nám, da nhạy cảm — nên gặp bác sĩ thay vì tự điều trị. Tư vấn tại Thiên Hoàng Kim An Đông TP.HCM.",
       "thăm khám da liễu thẩm mỹ",
-      "da liễu, thăm khám da, mụn nám, tư vấn thẩm mỹ",
+      "thăm khám da liễu, dấu hiệu da liễu, mụn nám, tư vấn da TP.HCM",
     ),
   ),
   article(
     "kn-2",
     "cham-soc-da-sau-phau-thuat",
-    "Chăm sóc da sau phẫu thuật thẩm mỹ",
-    "22/04/2024",
-    "Giai đoạn vàng sau mổ quyết định kết quả lâu dài — đừng bỏ qua các bước này.",
-    `Sau phẫu thuật: chườm lạnh/sạch vết theo hướng dẫn, uống thuốc đúng giờ, ngủ cao gối (với mũi), tránh tập nặng 2–4 tuần.
-
-Chống nắng SPF50+ khi ra ngoài; tránh bể nắng trực tiếp vài tháng đầu. Không tự ý dùng mỹ phẩm chưa được bác sĩ duyệt.
-
-Mọi dấu hiệu sốt, chảy máu bất thường hoặc đau tăng — gọi hotline phòng khám ngay.`,
+    "Chăm sóc sau phẫu thuật thẩm mỹ — Hướng dẫn chi tiết",
+    "01/07/2026",
+    "Chăm sóc sau phẫu thuật thẩm mỹ đúng cách quyết định kết quả lâu dài — vết mổ, chống nắng, tái khám và dấu hiệu cần gọi bác sĩ.",
+    CHAM_SOC_SAU_PHAU_THUAT_THAM_MY_BODY,
     intro,
     "Kiến thức",
-    svcSeo(
-      "Chăm sóc da sau phẫu thuật thẩm mỹ",
-      "Hướng dẫn chăm sóc vết mổ, chống nắng và tái khám sau phẫu thuật — giai đoạn vàng quyết định kết quả lâu dài.",
+    newsSeo(
+      "cham-soc-da-sau-phau-thuat",
+      "Chăm sóc sau phẫu thuật thẩm mỹ",
+      "Chăm sóc sau phẫu thuật thẩm mỹ: chườm lạnh, thuốc, chống nắng SPF50+, tái khám và dấu hiệu bất thường. Hướng dẫn tại Thiên Hoàng Kim TP.HCM.",
       "chăm sóc sau phẫu thuật thẩm mỹ",
-      "chăm sóc sau mổ, hồi phục thẩm mỹ, chăm sóc vết mổ",
+      "chăm sóc sau mổ, hồi phục thẩm mỹ, chăm sóc vết mổ, sau nâng mũi cắt mí",
     ),
   ),
 ];
@@ -409,5 +677,6 @@ export const DEFAULT_ARTICLES: SiteArticle[] = [
   ...CATEGORY_ARTICLES,
   ...THAM_MY_ARTICLES,
   ...SPA_ARTICLES,
+  ...NEWS_ARTICLES,
   ...GENERAL_ARTICLES,
 ];

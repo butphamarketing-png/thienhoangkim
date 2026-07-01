@@ -8,6 +8,8 @@ export const SITEMAP_STATIC_PATHS = [
   "/khach-hang",
   "/bang-gia",
   "/tin-tuc",
+  "/tin-tuc/kien-thuc",
+  "/tin-tuc/tin-tuc",
   "/lien-he",
   "/gioi-thieu/doi-ngu-bac-si",
   "/gioi-thieu/cau-chuyen-thuong-hieu",
