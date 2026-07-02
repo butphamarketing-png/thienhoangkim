@@ -21,8 +21,6 @@ import ServiceCategoryPage from "@/pages/ServiceCategoryPage";
 import ServiceDetailPage from "@/pages/ServiceDetailPage";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { RouteSeo } from "@/components/RouteSeo";
-import { LuckyWheelController } from "@/components/LuckyWheelController";
-
 const queryClient = new QueryClient();
 
 function DynamicContentPage() {
@@ -99,7 +97,6 @@ function App() {
               <ScrollToTop />
               <RouteSeo />
               <AppRouter />
-              <LuckyWheelControllerWrapper />
             </WouterRouter>
             <Toaster />
           </BookingDialogProvider>
@@ -107,12 +104,6 @@ function App() {
       </TooltipProvider>
     </QueryClientProvider>
   );
-}
-
-function LuckyWheelControllerWrapper() {
-  const [location] = useLocation();
-  if (isAdminLocation(location)) return null;
-  return <LuckyWheelController />;
 }
 
 export default App;

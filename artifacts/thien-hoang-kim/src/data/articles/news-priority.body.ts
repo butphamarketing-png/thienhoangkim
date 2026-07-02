@@ -4,7 +4,7 @@ import { NEWS_IMG_SLIDE, NEWS_IMG_INTRO } from "@/data/articles/news-assets";
 
 export const FILLER_VA_BOTOX_KHAC_NHAU_BODY = `Nhiều khách đến Thiên Hoàng Kim vẫn gọi chung hai liệu pháp là "tiêm làm đẹp" dù mục tiêu hoàn toàn khác nhau. Hiểu rõ filler và botox khác nhau như thế nào giúp bạn chọn đúng phương án, tránh tiêm nhầm vùng, lãng phí chi phí và đặt kỳ vọng thực tế về kết quả cũng như thời gian duy trì.
 
-## Filler là gì và hoạt động ra sao?
+## Filler và botox khác nhau — filler là gì?
 
 Filler (dermal filler) là chất gel — phổ biến nhất là axit hyaluronic (HA) — được tiêm vào các tầng da hoặc dưới da để bổ sung thể tích. Filler làm đầy rãnh sâu, nâng sống mũi, định hình môi, cằm, thái dương hay gò má. Kết quả thường thấy ngay sau khi hết sưng nhẹ vài ngày đầu; thời gian duy trì từ khoảng sáu tháng đến hơn một năm tùy vùng tiêm, loại filler và cơ địa từng người. Filler HA có thể tan bằng enzyme hyaluronidase nếu cần chỉnh hoặc xử lý biến chứng — đây là lợi thế an toàn khi bác sĩ dùng sản phẩm chính hãng và tiêm đúng tầng giải phẫu.
 
@@ -122,7 +122,7 @@ Tìm hiểu quy trình chi tiết và đặt lịch tư vấn miễn phí: **093
 
 export const CAT_MI_BAO_LAU_HOI_PHUC_BODY = `Cắt mí mắt là thao tác phổ biến để mắt to, sắc nét và cân đối hơn — nhưng trước khi đặt lịch, ai cũng muốn biết cắt mí bao lâu hồi phục để sắp xếp đi làm, sự kiện hay chụp ảnh. Thời gian hồi phục phụ thuộc kỹ thuật (cắt mí, mí ẩn, lấy mỡ bọng mắt), cơ địa sưng bầm và chăm sóc sau mổ — không có một con số cố định cho mọi người, nhưng có lộ trình tham khảo rõ ràng.
 
-## Các giai đoạn hồi phục sau cắt mí
+## Cắt mí bao lâu hồi phục — timeline từng giai đoạn
 
 **Ngày 1–3:** Sưng, bầm mí; mắt khó mở rộng; cảm giác căng, hơi rát. Chườm lạnh theo hướng dẫn, uống thuốc giảm sưng/đau nếu có, ngủ cao gối. Tránh đọc sách, xem màn hình lâu gây mỏi mắt.
 
@@ -144,7 +144,7 @@ export const CAT_MI_BAO_LAU_HOI_PHUC_BODY = `Cắt mí mắt là thao tác phổ
 
 **Tập thể dục nặng, bơi lội:** Chờ ba đến bốn tuần hoặc theo chỉ định bác sĩ — mồ hôi và va chạm tăng nguy cơ nhiễm trùng, sưng kéo dài.
 
-![Thời gian hồi phục sau cắt mí phượng hoàng](${NEWS_IMG_INTRO})
+![Cắt mí bao lâu hồi phục — timeline tại Thiên Hoàng Kim](${NEWS_IMG_INTRO})
 
 Nếu công việc bắt buộc giao tiếp trực diện sớm, nói rõ với bác sĩ khi tư vấn để chọn kỹ thuật phù hợp (ví dụ mí ẩn có thể ít sưng hơn một số trường hợp). Dịch vụ [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang) tại Thiên Hoàng Kim có tái khám theo dõi sau mổ.
 
@@ -408,7 +408,7 @@ Botox giảm hoạt động cơ nhai (masseter) — cơ nhỏ dần theo thời 
 
 **Tháng 4–6:** Tác dụng giảm dần — cân nhắc tái tiêm nếu muốn duy trì; không tiêm dồn quá sớm khi còn đủ botox.
 
-![Botox gọn hàm và thời gian thấy kết quả](${NEWS_IMG_INTRO})
+![Botox gọn hàm bao lâu thấy kết quả tại Thiên Hoàng Kim](${NEWS_IMG_INTRO})
 
 Chi tiết kỹ thuật và giá tư vấn tại [botox xóa nhăn gọn hàm](/tham-my/botox-xoa-nhan-gon-ham). Hàm vuông do mỡ nhiều có thể cần kết hợp [hút mỡ cấy mỡ má](/tham-my/hut-mo-cay-mo-ma) — bác sĩ đánh giá khi khám.
 

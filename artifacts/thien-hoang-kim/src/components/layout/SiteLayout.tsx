@@ -24,6 +24,7 @@ import { QuickContactActions } from "@/components/QuickContactActions";
 import { TopbarMarquee } from "@/components/TopbarMarquee";
 import { BookingDialog } from "@/components/BookingDialog";
 import { LogoLoadingScreen } from "@/components/LogoLoadingScreen";
+import { LuckyWheelController } from "@/components/LuckyWheelController";
 import { Button } from "@/components/ui/button";
 import { useSiteContent } from "@/context/SiteContentContext";
 import { useBookingDialog } from "@/context/BookingDialogContext";
@@ -208,6 +209,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
 
       <QuickContactActions onBook={openBookingDialog} />
       <BookingDialog />
+      <LuckyWheelController />
     </div>
       )}
     </>

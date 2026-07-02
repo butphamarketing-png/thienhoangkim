@@ -10,6 +10,7 @@ import {
 } from "@/data/services-catalog";
 import { ArticleBodyContent } from "@/components/ArticleBodyContent";
 import { DEFAULT_HERO_IMAGE } from "@/data/pages.defaults";
+import { buildHeroImageAlt } from "@/lib/article-seo";
 import NotFound from "@/pages/not-found";
 
 type ServiceDetailPageProps = {
@@ -43,6 +44,9 @@ Khách hàng được thăm khám, phân tích và lên phác đồ cá nhân tr
 
 Đặt lịch tư vấn miễn phí để được bác sĩ đánh giá tình trạng và báo giá chi tiết.`;
 
+  const focusKeyphrase = article?.seo?.focusKeyphrase ?? service.label;
+  const heroAlt = buildHeroImageAlt(focusKeyphrase, title);
+
   return (
     <SiteLayout>
       <article className="container mx-auto max-w-3xl px-4 py-10 md:px-8 md:py-14">
@@ -56,9 +60,9 @@ Khách hàng được thăm khám, phân tích và lên phác đồ cá nhân tr
             {article.date}
           </p>
         )}
-        <img src={image} alt={title} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover object-top shadow-lg" />
+        <img src={image} alt={heroAlt} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover object-top shadow-lg" />
         <p className="mt-8 text-lg font-medium leading-relaxed text-foreground/90">{description}</p>
-        <ArticleBodyContent body={body} imageAlt={title} />
+        <ArticleBodyContent body={body} imageAlt={heroAlt} />
         <div className="mt-12 flex flex-wrap gap-3">
           <Link href="/lien-he#dat-lich">
             <Button className="rounded-full bg-primary font-bold">Đặt lịch tư vấn</Button>

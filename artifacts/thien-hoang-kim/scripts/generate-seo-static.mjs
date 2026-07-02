@@ -68,14 +68,40 @@ function escapeXml(s) {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
-function collectNewsSlugs() {
-  const defaultsPath = path.join(appRoot, "src/data/articles.defaults.ts");
-  const text = fs.readFileSync(defaultsPath, "utf8");
-  const slugs = [];
+function extractSlugsFromTs(text) {
+  const slugs = new Set();
   for (const m of text.matchAll(/newsSeo\(\s*\n?\s*"([^"]+)"/g)) {
-    slugs.push(m[1]);
+    slugs.add(m[1]);
+  }
+  for (const m of text.matchAll(/slug:\s*"([^"]+)"/g)) {
+    slugs.add(m[1]);
   }
   return slugs;
+}
+
+function collectNewsSlugs() {
+  const slugs = new Set();
+  const dataDir = path.join(appRoot, "src/data");
+  const defaultsPath = path.join(dataDir, "articles.defaults.ts");
+  for (const s of extractSlugsFromTs(fs.readFileSync(defaultsPath, "utf8"))) {
+    slugs.add(s);
+  }
+  for (const name of fs.readdirSync(dataDir)) {
+    if (/^news-batch-.*\.entries\.ts$/.test(name)) {
+      const filePath = path.join(dataDir, name);
+      for (const s of extractSlugsFromTs(fs.readFileSync(filePath, "utf8"))) {
+        slugs.add(s);
+      }
+    }
+  }
+  const mergedPath = path.join(dataDir, "keyword-plan.merged.json");
+  if (fs.existsSync(mergedPath)) {
+    const merged = JSON.parse(fs.readFileSync(mergedPath, "utf8"));
+    for (const e of merged) {
+      if (e.slug) slugs.add(e.slug);
+    }
+  }
+  return [...slugs];
 }
 
 function buildPaths() {

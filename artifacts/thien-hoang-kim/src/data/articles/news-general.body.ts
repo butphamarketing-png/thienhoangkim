@@ -4,6 +4,8 @@ import { NEWS_IMG_SLIDE, NEWS_IMG_INTRO } from "@/data/articles/news-assets";
 
 export const DAU_HIEU_THAM_KHAM_DA_LIEU_BODY = `Da mặt là "tấm gương" phản ánh sức khỏe, nội tiết và thói quen chăm sóc — nhưng không phải mọi vấn đề đều tự khỏi bằng mỹ phẩm đắt tiền. Thăm khám da liễu thẩm mỹ đúng lúc giúp chẩn đoán sớm, tránh để mụn, nám, viêm da thành sẹo hoặc nám sâu khó điều trị. Bài viết này liệt kê năm dấu hiệu nên đến gặp bác sĩ hoặc chuyên gia da thay vì tự xử lý kéo dài tại nhà.
 
+## Thăm khám da liễu thẩm mỹ — khi nào cần gặp bác sĩ?
+
 ## Dấu hiệu thứ nhất: mụn viêm tái đi tái lại không đỡ
 
 Mụn lẻ tẻ do stress, kỳ kinh có thể tự giảm với skincare cơ bản. Nhưng mụn viêm nặng, nốt bọc mủ, mụn nang, mụn ẩn dày đặc vùng trán – má – cằm kéo dài trên ba tháng — cần thăm khám da liễu thẩm mỹ hoặc da liễu y khoa. Tự bóp, dùng acid mạnh không kiểm soát dễ để lại sẹo lõm, thâm đỏ kéo dài. Bác sĩ có thể chỉ định thuốc bôi, uống, peel hoặc laser phù hợp mức độ; spa chăm sóc bổ sung sau khi viêm đã kiểm soát.

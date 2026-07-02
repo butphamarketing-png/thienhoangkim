@@ -6,6 +6,11 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
 import {
+  buildHeroImageAlt,
+  collectArticleImageAlts,
+  extractH2FromBody,
+} from "@/lib/article-seo";
+import {
   analyzeSeo,
   scoreColor,
   scoreLabel,
@@ -124,6 +129,12 @@ export function AdminSeoPanel({
   const resolvedTitle = metaTitle.trim() || h1;
   const resolvedDesc = metaDescription.trim();
   const displayUrl = previewUrl || `thienhoangkim.vercel.app${previewPath}`;
+  const heroAlt = buildHeroImageAlt(focusKeyphrase, h1 || resolvedTitle);
+  const h2Headings = useMemo(() => extractH2FromBody(bodyText), [bodyText]);
+  const imageAlts = useMemo(
+    () => collectArticleImageAlts(bodyText, heroAlt),
+    [bodyText, heroAlt],
+  );
 
   const analysis = useMemo(
     () =>
@@ -136,8 +147,22 @@ export function AdminSeoPanel({
         bodyText,
         hasImage: hasImage || Boolean(ogImage),
         canonicalUrl,
+        h2Headings,
+        imageAlts,
       }),
-    [focusKeyphrase, resolvedTitle, resolvedDesc, slug, h1, bodyText, hasImage, ogImage, canonicalUrl],
+    [
+      focusKeyphrase,
+      resolvedTitle,
+      resolvedDesc,
+      slug,
+      h1,
+      bodyText,
+      hasImage,
+      ogImage,
+      canonicalUrl,
+      h2Headings,
+      imageAlts,
+    ],
   );
 
   return (

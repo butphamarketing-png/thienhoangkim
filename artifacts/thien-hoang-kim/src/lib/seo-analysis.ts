@@ -18,6 +18,10 @@ export type SeoAnalysisInput = {
   bodyText: string;
   hasImage: boolean;
   canonicalUrl?: string;
+  /** Tiêu đề H2 trích từ body (## ...) */
+  h2Headings?: string[];
+  /** Alt ảnh đại diện + ảnh trong body */
+  imageAlts?: string[];
 };
 
 export type SeoAnalysisResult = {
@@ -33,7 +37,7 @@ function normalizeText(s: string) {
     .trim();
 }
 
-function containsKeyphrase(text: string, keyphrase: string) {
+export function containsKeyphrase(text: string, keyphrase: string) {
   const k = normalizeText(keyphrase);
   if (!k || k.length < 2) return false;
   return normalizeText(text).includes(k);
@@ -132,13 +136,51 @@ export function analyzeSeo(input: SeoAnalysisInput): SeoAnalysisResult {
     if (containsKeyphrase(input.h1, keyphrase)) {
       checks.push({ id: "kp-h1", status: "good", label: "Từ khóa có trong tiêu đề H1" });
     } else {
-      checks.push({ id: "kp-h1", status: "ok", label: "Từ khóa chưa có trong H1" });
+      checks.push({
+        id: "kp-h1",
+        status: "bad",
+        label: "Từ khóa chưa có trong H1",
+        hint: `Thêm "${keyphrase}" vào tiêu đề bài`,
+      });
     }
 
     if (containsKeyphrase(input.slug, keyphrase)) {
       checks.push({ id: "kp-slug", status: "good", label: "Từ khóa có trong URL (slug)" });
     } else {
-      checks.push({ id: "kp-slug", status: "ok", label: "Từ khóa chưa có trong slug" });
+      checks.push({
+        id: "kp-slug",
+        status: "bad",
+        label: "Từ khóa chưa có trong slug URL",
+        hint: `Slug nên chứa "${keyphrase}" (không dấu)`,
+      });
+    }
+
+    const h2s = input.h2Headings ?? [];
+    if (h2s.some((h) => containsKeyphrase(h, keyphrase))) {
+      checks.push({ id: "kp-h2", status: "good", label: "Từ khóa có trong ít nhất một H2" });
+    } else if (h2s.length === 0) {
+      checks.push({ id: "kp-h2", status: "ok", label: "Chưa có tiêu đề H2 (##) trong nội dung" });
+    } else {
+      checks.push({
+        id: "kp-h2",
+        status: "bad",
+        label: "Từ khóa chưa có trong bất kỳ H2 nào",
+        hint: `Thêm ## tiêu đề chứa "${keyphrase}"`,
+      });
+    }
+
+    const alts = input.imageAlts ?? [];
+    if (alts.some((a) => containsKeyphrase(a, keyphrase))) {
+      checks.push({ id: "kp-alt", status: "good", label: "Từ khóa có trong alt ảnh" });
+    } else if (alts.length === 0) {
+      checks.push({ id: "kp-alt", status: "ok", label: "Chưa có ảnh để kiểm tra alt" });
+    } else {
+      checks.push({
+        id: "kp-alt",
+        status: "bad",
+        label: "Từ khóa chưa có trong alt ảnh",
+        hint: `Alt ảnh nên chứa "${keyphrase}"`,
+      });
     }
 
     const bodyCount = countKeyphrase(input.bodyText, keyphrase);

@@ -1,0 +1,4502 @@
+[
+  {
+    "id": 1,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi bao lâu đẹp",
+    "slug": "nang-mui-bao-lau-dep",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 2,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi bao lâu hết sưng",
+    "slug": "nang-mui-bao-lau-het-sung",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 3,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi ngày 7",
+    "slug": "nang-mui-ngay-7",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 4,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi tháng đầu",
+    "slug": "nang-mui-thang-dau",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 5,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi 6 tháng",
+    "slug": "nang-mui-6-thang",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 6,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi 1 năm",
+    "slug": "nang-mui-1-nam",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 7,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi có nên không",
+    "slug": "nang-mui-co-nen-khong",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 8,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi có để lại sẹo không",
+    "slug": "nang-mui-co-de-lai-seo-khong",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 9,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi có bị bóng đỏ không",
+    "slug": "nang-mui-bong-do",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 10,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi lệch sống",
+    "slug": "nang-mui-lech-song",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 11,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "mũi bị lệch sau nâng",
+    "slug": "mui-bi-lech-sau-nang",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 12,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "đầu mũi cứng sau nâng",
+    "slug": "dau-mui-cung-sau-nang",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 13,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi và thu cánh mũi",
+    "slug": "nang-mui-va-thu-canh",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 14,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi kết hợp chỉnh hàm",
+    "slug": "nang-mui-ket-hop-chinh-ham",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 15,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi không phẫu thuật",
+    "slug": "nang-mui-khong-phau-thuat",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 16,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi bằng chỉ",
+    "slug": "nang-mui-bang-chi",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 17,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi bằng filler có được không",
+    "slug": "nang-mui-bang-filler-duoc-khong",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 18,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "mũi hỏng sau nâng",
+    "slug": "mui-hong-sau-nang",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 19,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "dấu hiệu nhiễm trùng sau nâng mũi",
+    "slug": "nhiem-trung-sau-nang-mui",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 20,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "ăn kiêng sau nâng mũi",
+    "slug": "an-kieng-sau-nang-mui",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 21,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "uống rượu sau nâng mũi",
+    "slug": "uong-ruou-sau-nang-mui",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 22,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "tập thể dục sau nâng mũi",
+    "slug": "tap-the-duc-sau-nang-mui",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 23,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "đeo kính sau nâng mũi",
+    "slug": "deo-kinh-sau-nang-mui",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 24,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi mùa đông",
+    "slug": "nang-mui-mua-dong",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 25,
+    "group": "P",
+    "groupName": "Nâng mũi — long-tail & hồi phục chi tiết",
+    "focus": "nâng mũi trước tết",
+    "slug": "nang-mui-truoc-tet",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 26,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "cắt mí dưới",
+    "slug": "cat-mi-duoi",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 27,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "cắt mí trên và dưới",
+    "slug": "cat-mi-tren-va-duoi",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 28,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "cắt mí không cắt da",
+    "slug": "cat-mi-khong-cat-da",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 29,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "cắt mí không lấy mỡ",
+    "slug": "cat-mi-khong-lay-mo",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 30,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "cắt mí mắt sụp",
+    "slug": "cat-mi-mat-sup",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 31,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "ptosis mắt",
+    "slug": "ptosis-mat",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 32,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "mắt lõm",
+    "slug": "mat-lom",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 33,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "mắt trợn",
+    "slug": "mat-tron",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 34,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "mí không đều hai bên",
+    "slug": "mi-khong-deu-hai-ben",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 35,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "mí trở lại sau cắt mí",
+    "slug": "mi-tro-lai-sau-cat-mi",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 36,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "cắt mí bị lỗi",
+    "slug": "cat-mi-bi-loi",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 37,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "sẹo cắt mí",
+    "slug": "seo-cat-mi",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 38,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "cắt mí và mở góc mắt",
+    "slug": "cat-mi-va-mo-goc-mat",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 39,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "cắt mí và lấy mỡ bọng",
+    "slug": "cat-mi-va-lay-mo-bong",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 40,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "cắt mí laser",
+    "slug": "cat-mi-laser",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 41,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "nhấn mí có đau không",
+    "slug": "nhan-mi-co-dau-khong",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 42,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "nhấn mí bao lâu bền",
+    "slug": "nhan-mi-bao-lau-ben",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 43,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "bấm mí bao lâu bền",
+    "slug": "bam-mi-bao-lau-ben",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 44,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "mí ẩn bấm mí",
+    "slug": "mi-an-bam-mi",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 45,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "thẩm mỹ mắt to",
+    "slug": "tham-my-mat-to",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 46,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "làm trắng vùng mắt",
+    "slug": "lam-trang-vung-mat",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 47,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "thâm quầng mắt điều trị",
+    "slug": "tham-quan-mat-dieu-tri",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 48,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "mắt thâm bọng",
+    "slug": "mat-tham-bong",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 49,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "cắt mí tuổi 40",
+    "slug": "cat-mi-tuoi-40",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 50,
+    "group": "Q",
+    "groupName": "Mắt & mí — chuyên sâu",
+    "focus": "cắt mí tuổi 50",
+    "slug": "cat-mi-tuoi-50",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "priority": "cao"
+  },
+  {
+    "id": 51,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy tóc FUE là gì chi tiết",
+    "slug": "cay-toc-fue-chi-tiet",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 52,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy tóc FUT là gì",
+    "slug": "cay-toc-fut-la-gi",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 53,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy tóc bao nhiêu graft",
+    "slug": "cay-toc-bao-nhieu-graft",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 54,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy tóc 3000 graft",
+    "slug": "cay-toc-3000-graft",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 55,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy tóc 5000 graft",
+    "slug": "cay-toc-5000-graft",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 56,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy tóc đường chữ M",
+    "slug": "cay-toc-duong-chu-m",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 57,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy tóc hói chữ M",
+    "slug": "cay-toc-hoi-chu-m",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 58,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy tóc vùng đỉnh",
+    "slug": "cay-toc-vung-dinh",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 59,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy tóc vùng thưa",
+    "slug": "cay-toc-vung-thua",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 60,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy lông mày",
+    "slug": "cay-long-may",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 61,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy râu",
+    "slug": "cay-rau",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 62,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy tóc sau 1 tháng",
+    "slug": "cay-toc-sau-1-thang",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 63,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy tóc sau 6 tháng",
+    "slug": "cay-toc-sau-6-thang",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 64,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy tóc sau 1 năm",
+    "slug": "cay-toc-sau-1-nam",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 65,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy tóc bao lâu hết đau",
+    "slug": "cay-toc-bao-lau-het-dau",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 66,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "cấy tóc có để lại sẹo không",
+    "slug": "cay-toc-co-seo-khong",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 67,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "rụng tóc mảng",
+    "slug": "rung-toc-mang",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 68,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "rụng tóc từng vùng",
+    "slug": "rung-toc-theo-vung",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 69,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "rụng tóc do stress",
+    "slug": "rung-toc-do-stress",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 70,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "rụng tóc do thiếu sắt",
+    "slug": "rung-toc-thieu-sat",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 71,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "alopecia areata",
+    "slug": "alopecia-areata",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 72,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "mesotherapy tóc",
+    "slug": "mesotherapy-toc",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 73,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "laser low level tóc",
+    "slug": "laser-low-level-toc",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 74,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "thuốc mọc tóc minoxidil",
+    "slug": "minoxidil-moc-toc",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 75,
+    "group": "R",
+    "groupName": "Cấy tóc & lông — mở rộng",
+    "focus": "finasteride rụng tóc",
+    "slug": "finasteride-rung-toc",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "priority": "cao"
+  },
+  {
+    "id": 76,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "căng chỉ mặt giá",
+    "slug": "cang-chi-mat-gia",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 77,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "căng chỉ PDO là gì",
+    "slug": "cang-chi-pdo-la-gi",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 78,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "căng chỉ mono",
+    "slug": "cang-chi-mono",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 79,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "căng chỉ cog",
+    "slug": "cang-chi-cog",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 80,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "căng chỉ mũi",
+    "slug": "cang-chi-mui",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 81,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "căng chỉ cằm",
+    "slug": "cang-chi-cam",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 82,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "căng chỉ có sưng không",
+    "slug": "cang-chi-sung-mat",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 83,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "căng chỉ bị lộ chỉ",
+    "slug": "cang-chi-bi-lo-chi",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 84,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "căng nội soi midface",
+    "slug": "cang-noi-soi-midface",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 85,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "căng nội soi má",
+    "slug": "cang-noi-soi-ma",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 86,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "căng da mini facelift",
+    "slug": "mini-facelift",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 87,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "deep plane facelift",
+    "slug": "deep-plane-facelift",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 88,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "HIFU cằm",
+    "slug": "hifu-cam",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 89,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "HIFU má",
+    "slug": "hifu-ma",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 90,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "HIFU bao lâu một lần",
+    "slug": "hifu-bao-lau-mot-lan",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 91,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "ultherapy là gì",
+    "slug": "ultherapy-la-gi",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 92,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "thermage là gì",
+    "slug": "thermage-la-gi",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 93,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "RF vi điểm",
+    "slug": "rf-vi-diem",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 94,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "exosome trẻ hóa da",
+    "slug": "exosome-tre-hoa-da",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 95,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "polynucleotide da",
+    "slug": "polynucleotide-da",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 96,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "rejuran healer",
+    "slug": "rejuran-healer",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 97,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "skin booster là gì",
+    "slug": "skin-booster-la-gi",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 98,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "nếp nhăn cổ",
+    "slug": "nep-nhan-co",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 99,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "nếp nhăn quanh miệng",
+    "slug": "nep-nhan-quanh-mieng",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 100,
+    "group": "S",
+    "groupName": "Căng da & trẻ hóa nâng cao",
+    "focus": "trẻ hóa vùng mắt",
+    "slug": "tre-hoa-vung-mat",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "priority": "cao"
+  },
+  {
+    "id": 101,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "hút mỡ lưng",
+    "slug": "hut-mo-lung",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 102,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "hút mỡ eo",
+    "slug": "hut-mo-eo",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 103,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "hút mỡ hông",
+    "slug": "hut-mo-hong",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 104,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "hút mỡ bắp chân",
+    "slug": "hut-mo-bap-chan",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 105,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "hút mỡ nách",
+    "slug": "hut-mo-nach",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 106,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "hút mỡ cổ",
+    "slug": "hut-mo-vung-co",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 107,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "hút mỡ toàn thân",
+    "slug": "hut-mo-toan-than",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 108,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "hút mỡ VASER",
+    "slug": "hut-mo-vaser",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 109,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "hút mỡ Lipo 360",
+    "slug": "hut-mo-lipo-360",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 110,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "hút mỡ không phẫu thuật",
+    "slug": "hut-mo-khong-can-mo",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 111,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "coolsculpting là gì",
+    "slug": "coolsculpting-la-gi",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 112,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "cavitation giảm mỡ",
+    "slug": "cavitation-giam-mo",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 113,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "giảm mỡ bụng",
+    "slug": "giam-mo-bung",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 114,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "giảm mỡ đùi",
+    "slug": "giam-mo-dui",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 115,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "giảm mỡ cánh tay",
+    "slug": "giam-mo-canh-tay",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 116,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "tạo hình thân trên",
+    "slug": "tao-hinh-than-tren",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 117,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "tạo hình thân dưới",
+    "slug": "tao-hinh-than-duoi",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 118,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "cấy mỡ ngực",
+    "slug": "cay-mo-nguc",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 119,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "cấy mỡ mông",
+    "slug": "cay-mo-mong",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 120,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "Brazilian butt lift",
+    "slug": "brazilian-butt-lift",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 121,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "hút mỡ và căng da",
+    "slug": "hut-mo-va-cang-da",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 122,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "sau hút mỡ bao lâu đi làm",
+    "slug": "sau-hut-mo-bao-lau-di-lam",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 123,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "đeo đai sau hút mỡ",
+    "slug": "deo-dai-sau-hut-mo",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 124,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "hút mỡ có nguy hiểm không",
+    "slug": "hut-mo-co-nguy-hiem-khong",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 125,
+    "group": "T",
+    "groupName": "Hút mỡ & body contouring",
+    "focus": "hút mỡ bao lâu thấy kết quả",
+    "slug": "hut-mo-bao-lau-thay-ket-qua",
+    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "priority": "cao"
+  },
+  {
+    "id": 126,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler HA là gì",
+    "slug": "filler-ha-la-gi",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 127,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler cao cấp",
+    "slug": "filler-cao-cap",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 128,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler môi 1cc",
+    "slug": "filler-moi-1cc",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 129,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler môi tự nhiên nam",
+    "slug": "filler-moi-nam-tu-nhien",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 130,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler cằm nam",
+    "slug": "filler-cam-cho-nam",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 131,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler má hóp",
+    "slug": "filler-ma-hop",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 132,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler gò má",
+    "slug": "filler-go-ma",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 133,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler sống mũi",
+    "slug": "filler-song-mui",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 134,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler đầu mũi",
+    "slug": "filler-dau-mui",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 135,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler bằng cannula",
+    "slug": "filler-bang-cannula",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 136,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler có bị di chuyển không",
+    "slug": "filler-bi-di-chuyen",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 137,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler bị cứng",
+    "slug": "filler-bi-cung",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 138,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler bị sưng",
+    "slug": "filler-bi-sung",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 139,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler môi bị lệch",
+    "slug": "filler-moi-bi-lech",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 140,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "tiêm hyaluronidase tan filler",
+    "slug": "tiem-hyaluronidase",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 141,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler và botox cùng lúc",
+    "slug": "filler-botox-cung-luc",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 142,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler full face",
+    "slug": "filler-full-face",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 143,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "liquid facelift",
+    "slug": "liquid-facelift",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 144,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler dưới mắt",
+    "slug": "filler-duoi-mat",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 145,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "tear trough filler",
+    "slug": "tear-trough-filler",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 146,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler tai nghe",
+    "slug": "filler-tai-nghe",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 147,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler bàn tay",
+    "slug": "filler-ban-tay",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 148,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "filler sau 2 tuần",
+    "slug": "filler-sau-2-tuan",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 149,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "massage sau filler",
+    "slug": "massage-sau-filler",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 150,
+    "group": "U",
+    "groupName": "Filler nâng cao",
+    "focus": "uống bia sau filler",
+    "slug": "uong-bia-sau-filler",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "priority": "cao"
+  },
+  {
+    "id": 151,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox 50 unit",
+    "slug": "botox-50-unit",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 152,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox 100 unit",
+    "slug": "botox-100-unit",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 153,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox giá 1 điểm",
+    "slug": "botox-gia-1-diem",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 154,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox cau trùng",
+    "slug": "botox-cau-trung",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 155,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox rãnh mũi",
+    "slug": "botox-ranh-mui",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 156,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox bunny lines",
+    "slug": "botox-bunny-lines",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 157,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox gummy smile",
+    "slug": "botox-gummy-smile",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 158,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox cổ",
+    "slug": "botox-co",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 159,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox platysma",
+    "slug": "botox-platysma",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 160,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox nâng đuôi mày",
+    "slug": "botox-nang-duoi-may",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 161,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox mồ hôi tay",
+    "slug": "botox-mo-hoi-tay",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 162,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox migraine",
+    "slug": "botox-migraine",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 163,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox bruxism",
+    "slug": "botox-bruxism",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 164,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox nhai",
+    "slug": "botox-nhai",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 165,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox có bị cứng mặt không",
+    "slug": "botox-cung-mat",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 166,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox không ăn thịt",
+    "slug": "botox-khong-an-thit",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 167,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox lần đầu",
+    "slug": "botox-lan-dau",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 168,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox bao lâu tiêm lại",
+    "slug": "botox-bao-lau-tiem-lai",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 169,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "tiêm meso botox",
+    "slug": "tiem-meso-botox",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 170,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "skin botox",
+    "slug": "skin-botox",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 171,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "micro botox",
+    "slug": "micro-botox",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 172,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "nefertiti botox",
+    "slug": "nefertiti-botox",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 173,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "lip flip botox",
+    "slug": "lip-flip-botox",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 174,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "botox và filler khác nhau",
+    "slug": "botox-filler-khac-nhau-chi-tiet",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 175,
+    "group": "V",
+    "groupName": "Botox & tiêm thẩm mỹ",
+    "focus": "tiêm botox có cần nghỉ không",
+    "slug": "tiem-botox-co-can-nghi",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "priority": "cao"
+  },
+  {
+    "id": 176,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "trị rosacea",
+    "slug": "tri-rosacea",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 177,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "da đỏ vĩnh viễn",
+    "slug": "da-do-vinh-vien",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 178,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "da eczema thẩm mỹ",
+    "slug": "da-eczema-tham-my",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 179,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "da sau corticoid",
+    "slug": "da-sau-corticoid",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 180,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "da steroid damaged",
+    "slug": "da-steroid-damaged",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 181,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "trị đồi mồi",
+    "slug": "tri-doi-moi",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 182,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "trị vết thâm nắng",
+    "slug": "tri-vet-tham-nang",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 183,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "PIH sau mụn",
+    "slug": "pih-sau-mun",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 184,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "tăng sắc tố sau viêm",
+    "slug": "tang-sac-to-sau-viem",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 185,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "trị thâm nách",
+    "slug": "tri-tham-nach",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 186,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "trị thâm đầu gối",
+    "slug": "tri-tham-dau-goi",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 187,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "trị thâm mông",
+    "slug": "tri-tham-mong",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 188,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "làm sáng vùng bikini",
+    "slug": "lam-sang-vung-bikini",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 189,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "trắng da body",
+    "slug": "trang-da-body",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 190,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "tắm trắng có an toàn không",
+    "slug": "tam-trang-co-an-toan",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 191,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "glutathione tiêm trắng",
+    "slug": "glutathione-tiem-trang",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 192,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "vitamin C tiêm",
+    "slug": "vitamin-c-tiem",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 193,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "IV drip làm đẹp",
+    "slug": "iv-drip-lam-dep",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 194,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "dermaplaning",
+    "slug": "dermaplaning",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 195,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "dermapen",
+    "slug": "dermapen",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 196,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "aquapeel",
+    "slug": "aquapeel",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 197,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "oxygen facial",
+    "slug": "oxygen-facial",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 198,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "led therapy da",
+    "slug": "led-therapy-da",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 199,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "soi da chuyên sâu",
+    "slug": "soi-da-chuyen-sau",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 200,
+    "group": "W",
+    "groupName": "Chăm sóc da — chuyên sâu 2",
+    "focus": "phân loại da Fitzpatrick",
+    "slug": "phan-loai-da-fitzpatrick",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 201,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun mày shading",
+    "slug": "phun-may-shading",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 202,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun mày ombre",
+    "slug": "phun-may-ombre",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 203,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun mày powder",
+    "slug": "phun-may-powder",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 204,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun mày hairstroke",
+    "slug": "phun-may-hairstroke",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 205,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun mày nam tự nhiên",
+    "slug": "phun-may-nam-tu-nhien",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 206,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun môi neutral",
+    "slug": "phun-moi-neutral",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 207,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun môi red lips",
+    "slug": "phun-moi-red-lips",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 208,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun môi baby lips",
+    "slug": "phun-moi-baby-lips",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 209,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "khử thâm môi",
+    "slug": "khu-tham-moi",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 210,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun mí line",
+    "slug": "phun-mi-line",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 211,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun eyeliner tự nhiên",
+    "slug": "phun-eyeliner-tu-nhien",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 212,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun mí và eyeliner",
+    "slug": "phun-mi-va-eyeliner",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 213,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "xăm mày cũ",
+    "slug": "xam-may-cu",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 214,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "xóa phun mày laser",
+    "slug": "xoa-phun-may-laser",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 215,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "xóa phun môi laser",
+    "slug": "xoa-phun-moi-laser",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 216,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun xăm có đau không",
+    "slug": "phun-xam-co-dau-khong",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 217,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun xăm bao lâu bôi kem",
+    "slug": "phun-xam-bao-lau-boi-kem",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 218,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun môi bị trợn màu",
+    "slug": "phun-moi-bi-tron-mau",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 219,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun mày bị xanh",
+    "slug": "phun-may-bi-xanh",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 220,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "touch up phun mày",
+    "slug": "touch-up-phun-may",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 221,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "touch up phun môi",
+    "slug": "touch-up-phun-moi",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 222,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun xăm sau 1 tuần",
+    "slug": "phun-xam-sau-1-tuan",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 223,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun xăm sau 1 tháng",
+    "slug": "phun-xam-sau-1-thang",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 224,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "đi bể sau phun môi",
+    "slug": "di-be-sau-phun-moi",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 225,
+    "group": "X",
+    "groupName": "Phun xăm & PMU mở rộng",
+    "focus": "phun xăm mùa hè",
+    "slug": "phun-xam-mua-he",
+    "pillar": "/spa/phun-xam-tham-my",
+    "priority": "cao"
+  },
+  {
+    "id": 226,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "massage lymphatic drainage",
+    "slug": "massage-lymphatic",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 227,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "massage đá nóng đá lạnh",
+    "slug": "massage-da-nong-lanh",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 228,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "massage đầu thư giãn",
+    "slug": "massage-dau-thu-gian",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 229,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "massage chân thư giãn",
+    "slug": "massage-chan-thu-gian",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 230,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "massage bầu",
+    "slug": "massage-bau",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 231,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "massage couple",
+    "slug": "massage-couple",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 232,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "massage 90 phút",
+    "slug": "massage-90-phut",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 233,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "massage 120 phút",
+    "slug": "massage-120-phut",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 234,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "body scrub spa",
+    "slug": "body-scrub-spa",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 235,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "body wrap spa",
+    "slug": "body-wrap-spa",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 236,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "spa ngày lễ",
+    "slug": "spa-ngay-le",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 237,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "spa sinh nhật",
+    "slug": "spa-sinh-nhat",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 238,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "spa voucher quà tặng",
+    "slug": "spa-voucher-qua-tang",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 239,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "spa cho mẹ bầu",
+    "slug": "spa-cho-me-bau",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 240,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "spa sau sinh",
+    "slug": "spa-sau-sinh",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 241,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "chăm sóc body toàn diện",
+    "slug": "cham-soc-body-toan-dien",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 242,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "tẩy da chết body",
+    "slug": "tay-da-chet-body",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 243,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "dưỡng ẩm body spa",
+    "slug": "duong-am-body-spa",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 244,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "aromatherapy spa",
+    "slug": "aromatherapy-spa",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 245,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "reflexology chân",
+    "slug": "reflexology-chan",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 246,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "shiatsu massage",
+    "slug": "shiatsu-massage",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 247,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "thai massage",
+    "slug": "thai-massage",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 248,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "swedish massage",
+    "slug": "swedish-massage",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 249,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "deep tissue massage",
+    "slug": "deep-tissue-massage",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 250,
+    "group": "Y",
+    "groupName": "Spa, massage & wellness",
+    "focus": "spa combo massage facial",
+    "slug": "spa-combo-massage-facial",
+    "pillar": "/spa/massage-body-thu-gian",
+    "priority": "cao"
+  },
+  {
+    "id": 251,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "thẩm mỹ Quận 1",
+    "slug": "tham-my-quan-1",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 252,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "thẩm mỹ Quận 3",
+    "slug": "tham-my-quan-3",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 253,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "thẩm mỹ Quận 4",
+    "slug": "tham-my-quan-4",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 254,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "thẩm mỹ Quận 7",
+    "slug": "tham-my-quan-7",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 255,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "thẩm mỹ Quận 8",
+    "slug": "tham-my-quan-8",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 256,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "thẩm mỹ Tân Bình",
+    "slug": "tham-my-tan-binh",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 257,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "thẩm mỹ Tân Phú",
+    "slug": "tham-my-tan-phu",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 258,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "thẩm mỹ Bình Tân",
+    "slug": "tham-my-binh-tan",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 259,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "thẩm mỹ Phú Nhuận",
+    "slug": "tham-my-phu-nhuan",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 260,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "thẩm mỹ Gò Vấp",
+    "slug": "tham-my-go-vap",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 261,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "spa Quận 5",
+    "slug": "spa-quan-5-chi-tiet",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 262,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "spa Quận 6",
+    "slug": "spa-quan-6",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 263,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "spa Quận 10",
+    "slug": "spa-quan-10",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 264,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "spa Quận 11",
+    "slug": "spa-quan-11",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 265,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "nâng mũi Chợ Lớn",
+    "slug": "nang-mui-cho-lon",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 266,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "cắt mí Chợ Lớn",
+    "slug": "cat-mi-cho-lon",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 267,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "filler Chợ Lớn",
+    "slug": "filler-cho-lon",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 268,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "botox Chợ Lớn",
+    "slug": "botox-cho-lon",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 269,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "cấy tóc Chợ Lớn",
+    "slug": "cay-toc-cho-lon",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 270,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "phòng khám làm đẹp Quận 5",
+    "slug": "phong-kham-lam-dep-quan-5",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 271,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "clinic thẩm mỹ Quận 6",
+    "slug": "clinic-tham-my-quan-6",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 272,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "thẩm mỹ gần chợ Bình Tây",
+    "slug": "tham-my-gan-cho-binh-tay",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 273,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "spa gần bến xe Miền Tây",
+    "slug": "spa-gan-ben-xe-mien-tay",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 274,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "thẩm mỹ gần Đại học Y Dược",
+    "slug": "tham-my-gan-dai-hoc-y-duoc",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 275,
+    "group": "Z",
+    "groupName": "Local SEO — quận & vùng mới",
+    "focus": "làm đẹp khu An Đông Plaza",
+    "slug": "lam-dep-an-dong-plaza",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 276,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "combo nâng mũi cắt mí",
+    "slug": "combo-nang-mui-cat-mi",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 277,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "combo filler botox",
+    "slug": "combo-filler-botox",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 278,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "combo trẻ hóa mặt",
+    "slug": "combo-tre-hoa-mat",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 279,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "combo spa làm đẹp",
+    "slug": "combo-spa-lam-dep",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 280,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "gói chăm sóc da tháng",
+    "slug": "goi-cham-soc-da-thang",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 281,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "gói trị mụn trọn gói",
+    "slug": "goi-tri-mun-tron-goi",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 282,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "gói trị nám trọn gói",
+    "slug": "goi-tri-nam-tron-goi",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 283,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "giá điều trị mụn",
+    "slug": "gia-dieu-tri-mun",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 284,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "giá điều trị nám",
+    "slug": "gia-dieu-tri-nam",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 285,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "giá HIFU",
+    "slug": "gia-hifu",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 286,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "giá căng chỉ PDO",
+    "slug": "gia-cang-chi-pdo",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 287,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "giá tiêm meso",
+    "slug": "gia-tiem-meso",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 288,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "giá skin booster",
+    "slug": "gia-skin-booster",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 289,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "giá xóa xăm",
+    "slug": "gia-xoa-xam",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 290,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "giá nâng mũi cấu trúc",
+    "slug": "gia-nang-mui-cau-truc",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 291,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "giá cắt mí nam",
+    "slug": "gia-cat-mi-nam",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 292,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "giá cấy tóc 2000 graft",
+    "slug": "gia-cay-toc-2000-graft",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 293,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "bảng giá filler botox",
+    "slug": "bang-gia-filler-botox",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 294,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "báo giá qua zalo",
+    "slug": "bao-gia-qua-zalo",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 295,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "thanh toán thẩm mỹ",
+    "slug": "thanh-toan-tham-my",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 296,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "trả góp 0 phần trăm",
+    "slug": "tra-gop-0-phan-tram",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 297,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "voucher làm đẹp",
+    "slug": "voucher-lam-dep",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 298,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "giá tốt tháng 7",
+    "slug": "gia-tot-thang-7",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 299,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "so sánh giá filler",
+    "slug": "so-sanh-gia-filler",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 300,
+    "group": "AA",
+    "groupName": "Giá, combo & thanh toán",
+    "focus": "so sánh giá botox",
+    "slug": "so-sanh-gia-botox",
+    "pillar": "/bang-gia",
+    "priority": "cao"
+  },
+  {
+    "id": 301,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "thẩm mỹ nam tự nhiên",
+    "slug": "tham-my-nam-tu-nhien",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 302,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "nâng mũi nam tự nhiên",
+    "slug": "nang-mui-nam-tu-nhien",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 303,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "cắt mí nam tự nhiên",
+    "slug": "cat-mi-nam-tu-nhien",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 304,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "hút mỡ mặt nam",
+    "slug": "hut-mo-mat-nam",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 305,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "gọn hàm nam không phẫu thuật",
+    "slug": "gon-ham-nam-khong-phau-thuat",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 306,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "filler jawline nam",
+    "slug": "filler-jawline-nam",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 307,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "botox hàm nam",
+    "slug": "botox-ham-nam",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 308,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "trị hói đầu nam",
+    "slug": "tri-hoi-dau-nam",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 309,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "cấy tóc nam trẻ",
+    "slug": "cay-toc-nam-tre",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 310,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "skincare routine nam",
+    "slug": "skincare-routine-nam",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 311,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "trị mụn nam trưởng thành",
+    "slug": "tri-mun-nam-truong-thanh",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 312,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "phun mày nam 3D",
+    "slug": "phun-may-nam-3d",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 313,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "laser trị sẹo nam",
+    "slug": "laser-tri-seo-nam",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 314,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "trẻ hóa da nam 40 tuổi",
+    "slug": "tre-hoa-da-nam-40",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 315,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "massage nam Quận 5",
+    "slug": "massage-nam-quan-5",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 316,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "spa chăm sóc da nam",
+    "slug": "spa-cham-soc-da-nam",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 317,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "tẩy trang nam cần không",
+    "slug": "tay-trang-nam-can-khong",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 318,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "kem chống nắng nam",
+    "slug": "kem-chong-nang-nam",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 319,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "nam đi spa có sao không",
+    "slug": "nam-di-spa-co-sao-khong",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 320,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "thẩm mỹ nam có bị phát hiện không",
+    "slug": "tham-my-nam-bi-phat-hien",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 321,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "grooming nam cưới",
+    "slug": "grooming-nam-cuoi",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 322,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "làm đẹp chú rể",
+    "slug": "lam-dep-chu-re",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 323,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "profile nam V-line",
+    "slug": "profile-nam-vline",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 324,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "da dầu nam điều trị",
+    "slug": "da-dau-nam-dieu-tri",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 325,
+    "group": "AB",
+    "groupName": "Thẩm mỹ nam — mở rộng",
+    "focus": "lỗ chân lông to nam",
+    "slug": "lo-chan-long-to-nam",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "priority": "cao"
+  },
+  {
+    "id": 326,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "thẩm mỹ tuổi 20",
+    "slug": "tham-my-tuoi-20",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 327,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "thẩm mỹ tuổi 25",
+    "slug": "tham-my-tuoi-25",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 328,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "thẩm mỹ tuổi 35",
+    "slug": "tham-my-tuoi-35",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 329,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "thẩm mỹ tuổi 45",
+    "slug": "tham-my-tuoi-45",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 330,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "thẩm mỹ tuổi 55",
+    "slug": "tham-my-tuoi-55",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 331,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "làm đẹp trước kỳ yếu",
+    "slug": "lam-dep-truoc-ky-yeu",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 332,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "làm đẹp trước phỏng vấn",
+    "slug": "lam-dep-truoc-phong-van",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 333,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "làm đẹp dự tiệc",
+    "slug": "lam-dep-du-tiec",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 334,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "timeline làm đẹp cô dâu",
+    "slug": "timeline-lam-dep-co-dau",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 335,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "làm đẹp phù dâu",
+    "slug": "lam-dep-phu-dau",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 336,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "thẩm mỹ sau ly hôn",
+    "slug": "tham-my-sau-ly-hon",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 337,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "thẩm mỹ sau giảm cân",
+    "slug": "tham-my-sau-giam-can",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 338,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "da chảy xệ sau giảm cân",
+    "slug": "da-chay-xe-sau-giam-can",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 339,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "thẩm mỹ sau tiêm steroid",
+    "slug": "tham-my-sau-steroid",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 340,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "làm đẹp khi cho con bú",
+    "slug": "lam-dep-khi-cho-con-bu",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 341,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "filler khi mang thai",
+    "slug": "filler-khi-mang-thai",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 342,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "botox khi mang thai",
+    "slug": "botox-khi-mang-thai",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 343,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "peel da khi mang thai",
+    "slug": "peel-da-khi-mang-thai",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 344,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "thẩm mỹ mùa mưa",
+    "slug": "tham-my-mua-mua",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 345,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "chống nắng mùa hè",
+    "slug": "chong-nang-mua-he",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 346,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "skincare mùa khô",
+    "slug": "skincare-mua-kho",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 347,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "skincare mùa ẩm",
+    "slug": "skincare-mua-am",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 348,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "đi biển sau phun xăm",
+    "slug": "di-bien-sau-phun-xam",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 349,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "đi du lịch sau filler",
+    "slug": "di-du-lich-sau-filler",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 350,
+    "group": "AC",
+    "groupName": "Đối tượng & thời điểm",
+    "focus": "nghỉ phép bao lâu sau mổ",
+    "slug": "nghi-phep-bao-lau-sau-mo",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 351,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "xu hướng làm đẹp 2026",
+    "slug": "xu-huong-lam-dep-2026",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 352,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "thẩm mỹ AI consultation",
+    "slug": "tham-my-ai-consultation",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 353,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "3D scan khuôn mặt",
+    "slug": "3d-scan-khuon-mat",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 354,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "mô phỏng nâng mũi 3D",
+    "slug": "mo-phong-nang-mui-3d",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 355,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "picosecond laser",
+    "slug": "picosecond-laser",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 356,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "pico laser trị nám",
+    "slug": "pico-laser-tri-nam",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 357,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "laser toning",
+    "slug": "laser-toning",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 358,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "laser genesis",
+    "slug": "laser-genesis",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 359,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "BBL laser",
+    "slug": "bbl-laser",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 360,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "morpheus8",
+    "slug": "morpheus8",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 361,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "potenza microneedling",
+    "slug": "potenza-microneedling",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 362,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "profhilo là gì",
+    "slug": "profhilo-la-gi",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 363,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "sculptra là gì",
+    "slug": "sculptra-la-gi",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 364,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "radiesse filler",
+    "slug": "radiesse-filler",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 365,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "ellanse filler",
+    "slug": "ellanse-filler",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 366,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "PDRN salmon DNA",
+    "slug": "pdrn-salmon-dna",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 367,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "exosome hair",
+    "slug": "exosome-hair",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 368,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "stem cell trẻ hóa",
+    "slug": "stem-cell-tre-hoa",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 369,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "bio-stimulator filler",
+    "slug": "bio-stimulator-filler",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 370,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "trend quiet beauty",
+    "slug": "trend-quiet-beauty",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 371,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "coastal grandmother skin",
+    "slug": "coastal-grandmother-skin",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 372,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "dolphin skin",
+    "slug": "dolphin-skin",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 373,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "slugging skincare",
+    "slug": "slugging-skincare",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 374,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "skin cycling",
+    "slug": "skin-cycling",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 375,
+    "group": "AD",
+    "groupName": "Công nghệ & xu hướng 2026–2027",
+    "focus": "barrier repair skincare",
+    "slug": "barrier-repair-skincare",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 376,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "nâng mũi hay gọt mũi",
+    "slug": "nang-mui-hay-got-mui",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 377,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "cắt mí hay đặt mí",
+    "slug": "cat-mi-hay-dat-mi",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 378,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "nhấn mí hay bấm mí",
+    "slug": "nhan-mi-hay-bam-mi",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 379,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "cấy tóc hay wig",
+    "slug": "cay-toc-hay-wig",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 380,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "PRP hay cấy tóc",
+    "slug": "prp-hay-cay-toc",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 381,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "HIFU hay căng chỉ",
+    "slug": "hifu-hay-cang-chi",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 382,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "thermage hay HIFU",
+    "slug": "thermage-hay-hifu",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 383,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "filler hay cấy mỡ má",
+    "slug": "filler-hay-cay-mo-ma",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 384,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "botox hay filler trán",
+    "slug": "botox-hay-filler-tran",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 385,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "phun môi hay tiêm môi",
+    "slug": "phun-moi-hay-tiem-moi",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 386,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "hydrafacial hay facial thường",
+    "slug": "hydrafacial-hay-facial-thuong",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 387,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "peel hay retinol",
+    "slug": "peel-hay-retinol",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 388,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "kem trị nám hay laser",
+    "slug": "kem-tri-nam-hay-laser",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 389,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "spa tại nhà hay spa salon",
+    "slug": "spa-tai-nha-hay-salon",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 390,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "bác sĩ hay thợ làm đẹp",
+    "slug": "bac-si-hay-tho-lam-dep",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 391,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "nước ngoài hay Việt Nam thẩm mỹ",
+    "slug": "nuoc-ngoai-hay-vn-tham-my",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 392,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "giá rẻ hay uy tín",
+    "slug": "gia-re-hay-uy-tin",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 393,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "một lần hay nhiều lần",
+    "slug": "mot-lan-hay-nhieu-lan",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 394,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "không gây mê hay gây mê",
+    "slug": "khong-gay-me-hay-gay-me",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 395,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "về nhà ngày hay nằm viện",
+    "slug": "ve-nha-ngay-hay-nam-vien",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 396,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "làm từng bước hay full",
+    "slug": "lam-tung-buoc-hay-full",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 397,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "trước 30 hay sau 30 làm đẹp",
+    "slug": "truoc-30-hay-sau-30-lam-dep",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 398,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "nam hay nữ bác sĩ",
+    "slug": "nam-hay-nu-bac-si",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 399,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "tư vấn online hay trực tiếp",
+    "slug": "tu-van-online-hay-truc-tiep",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 400,
+    "group": "AE",
+    "groupName": "So sánh & quyết định",
+    "focus": "đọc review hay khám trực tiếp",
+    "slug": "doc-review-hay-kham-truc-tiep",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 401,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "Thiên Hoàng Kim uy tín không",
+    "slug": "thien-hoang-kim-uy-tin-khong",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 402,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "review Thiên Hoàng Kim",
+    "slug": "review-thien-hoang-kim",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 403,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "đánh giá Thiên Hoàng Kim",
+    "slug": "danh-gia-thien-hoang-kim",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 404,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "Thiên Hoàng Kim có tốt không",
+    "slug": "thien-hoang-kim-co-tot-khong",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 405,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "bác sĩ Thiên Hoàng Kim",
+    "slug": "bac-si-thien-hoang-kim",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 406,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "chuyên viên Thiên Hoàng Kim",
+    "slug": "chuyen-vien-thien-hoang-kim",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 407,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "lịch sử Thiên Hoàng Kim",
+    "slug": "lich-su-thien-hoang-kim",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 408,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "Thiên Hoàng Kim bao nhiêu năm",
+    "slug": "thien-hoang-kim-bao-nhieu-nam",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 409,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "Thiên Hoàng Kim có bác sĩ không",
+    "slug": "thien-hoang-kim-co-bac-si-khong",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 410,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "quy trình Thiên Hoàng Kim",
+    "slug": "quy-trinh-thien-hoang-kim",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 411,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "đặt lịch Thiên Hoàng Kim",
+    "slug": "dat-lich-thien-hoang-kim",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 412,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "zalo Thiên Hoàng Kim",
+    "slug": "zalo-thien-hoang-kim",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 413,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "facebook Thiên Hoàng Kim",
+    "slug": "facebook-thien-hoang-kim",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 414,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "map Thiên Hoàng Kim",
+    "slug": "map-thien-hoang-kim",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 415,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "đỗ xe Thiên Hoàng Kim",
+    "slug": "do-xe-thien-hoang-kim",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 416,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "Thiên Hoàng Kim mở cửa mấy giờ",
+    "slug": "thien-hoang-kim-mo-cua-may-gio",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 417,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "Thiên Hoàng Kim chủ nhật",
+    "slug": "thien-hoang-kim-chu-nhat",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 418,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "Thiên Hoàng Kim lễ tết",
+    "slug": "thien-hoang-kim-le-tet",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 419,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "bảo hành thẩm mỹ THK",
+    "slug": "bao-hanh-tham-my-thk",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 420,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "chính sách tái khám THK",
+    "slug": "chinh-sach-tai-kham-thk",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 421,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "ưu đãi thành viên THK",
+    "slug": "uu-dai-thanh-vien-thk",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 422,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "giới thiệu bạn THK",
+    "slug": "gioi-thieu-ban-thk",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 423,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "tuyển dụng Thiên Hoàng Kim",
+    "slug": "tuyen-dung-thien-hoang-kim",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 424,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "hợp tác spa THK",
+    "slug": "hop-tac-spa-thk",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 425,
+    "group": "AF",
+    "groupName": "Thương hiệu THK — mở rộng",
+    "focus": "tour tham quan phòng khám THK",
+    "slug": "tour-tham-quan-phong-kham-thk",
+    "pillar": "/lien-he",
+    "priority": "cao"
+  },
+  {
+    "id": 426,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "mụn viêm đỏ",
+    "slug": "mun-viem-san-do",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 427,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "mụn mủ vàng",
+    "slug": "mun-mu-vang",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 428,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "mụn đinh",
+    "slug": "mun-dinh",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 429,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "mụn giộp nước",
+    "slug": "mun-giop-nuoc",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 430,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "mụn do makeup",
+    "slug": "mun-do-makeup",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 431,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "mụn do stress",
+    "slug": "mun-do-stress",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 432,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "mụn hormonal nữ",
+    "slug": "mun-hormonal-nu",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 433,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "mụn PCOS",
+    "slug": "mun-pcos",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 434,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "mụn vùng cằm",
+    "slug": "mun-vung-cam",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 435,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "mụn vùng trán",
+    "slug": "mun-vung-tran",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 436,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "mụn quanh miệng",
+    "slug": "mun-quanh-mieng",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 437,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "điều trị mụn 12 tuần",
+    "slug": "dieu-tri-mun-12-tuan",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 438,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "phác đồ mụn da dầu",
+    "slug": "phac-do-mun-da-dau",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 439,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "phác đồ mụn da khô",
+    "slug": "phac-do-mun-da-kho",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 440,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "accutane mụn",
+    "slug": "accutane-mun",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 441,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "isotretinoin mụn",
+    "slug": "isotretinoin-mun",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 442,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "benzoyl peroxide",
+    "slug": "benzoyl-peroxide-mun",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 443,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "azelaic acid mụn",
+    "slug": "azelaic-acid-mun",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 444,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "niacinamide mụn",
+    "slug": "niacinamide-mun",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 445,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "tretinoin mụn",
+    "slug": "tretinoin-mun",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 446,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "điều trị sẹo đỏ",
+    "slug": "dieu-tri-seo-do",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 447,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "điều trị sẹo lồi",
+    "slug": "dieu-tri-seo-loi",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 448,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "subcision sẹo",
+    "slug": "subcision-seo",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 449,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "tcross sẹo",
+    "slug": "tcross-seo",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 450,
+    "group": "AG",
+    "groupName": "Mụn & da trẻ — mở rộng",
+    "focus": "microneedling sẹo",
+    "slug": "microneedling-seo",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 451,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "nám chân đinh",
+    "slug": "nam-chan-dinh",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 452,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "nám mảng",
+    "slug": "nam-mang",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 453,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "nám đốm",
+    "slug": "nam-dom",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 454,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "nám vàng",
+    "slug": "nam-vang",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 455,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "nám xám",
+    "slug": "nam-xam",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 456,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "nám ở nam giới",
+    "slug": "nam-o-nam-gioi",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 457,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "nám do thuốc",
+    "slug": "nam-do-thuoc",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 458,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "nám do ánh nắng",
+    "slug": "nam-do-anh-nang",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 459,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "tàn nhang laser",
+    "slug": "tan-nhang-laser",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 460,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "tàn nhang trẻ em",
+    "slug": "tan-nhang-tre-em",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 461,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "đồi mồi laser",
+    "slug": "doi-moi-laser",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 462,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "thâm do laser",
+    "slug": "tham-do-laser",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 463,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "thâm do peel",
+    "slug": "tham-do-peel",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 464,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "vết thâm sau bỏng",
+    "slug": "vet-tham-sau-bong",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 465,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "sạm da cánh tay",
+    "slug": "sam-da-canh-tay",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 466,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "thâm nách điều trị",
+    "slug": "tham-nach-dieu-tri",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 467,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "thâm bẹn",
+    "slug": "tham-ben",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 468,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "melasma điều trị",
+    "slug": "melasma-dieu-tri",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 469,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "tranexamic acid nám",
+    "slug": "tranexamic-acid-nam",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 470,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "tyrosinase inhibitor",
+    "slug": "tyrosinase-inhibitor-nam",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 471,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "peel nám nhẹ",
+    "slug": "peel-nam-nhe",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 472,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "peel nám sâu",
+    "slug": "peel-nam-sau",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 473,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "laser nám bao nhiêu buổi",
+    "slug": "laser-nam-bao-nhieu-buoi",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 474,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "nám tái phát sau điều trị",
+    "slug": "nam-tai-phat-sau-dieu-tri",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 475,
+    "group": "AH",
+    "groupName": "Nám & sắc tố — mở rộng",
+    "focus": "chăm sóc da sau trị nám",
+    "slug": "cham-soc-da-sau-tri-nam",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "priority": "cao"
+  },
+  {
+    "id": 476,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "làm đẹp mất bao nhiêu tiền",
+    "slug": "lam-dep-mat-bao-nhieu-tien",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 477,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "nên làm gì đầu tiên",
+    "slug": "nen-lam-gi-dau-tien",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 478,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "thứ tự làm đẹp mặt",
+    "slug": "thu-tu-lam-dep-mat",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 479,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "làm đẹp có cần người thân",
+    "slug": "lam-dep-can-nguoi-than",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 480,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "đi một mình thẩm mỹ",
+    "slug": "di-mot-minh-tham-my",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 481,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "thẩm mỹ có cần người giám hộ",
+    "slug": "tham-my-can-giam-ho",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 482,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "phụ huynh đồng ý thẩm mỹ",
+    "slug": "phu-huynh-dong-y-tham-my",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 483,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "chồng có biết không",
+    "slug": "chong-co-biet-khong",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 484,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "làm đẹp có bị phát hiện",
+    "slug": "lam-dep-bi-phat-hien",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 485,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "makeup che phẫu thuật",
+    "slug": "makeup-che-phau-thuat",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 486,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "che sưng sau mổ",
+    "slug": "che-sung-sau-mo",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 487,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "kính râm sau mổ mắt",
+    "slug": "kinh-ram-sau-mo-mat",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 488,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "đau sau thẩm mỹ bình thường",
+    "slug": "dau-sau-tham-my-binh-thuong",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 489,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "sốt sau tiêm filler",
+    "slug": "sot-sau-tiem-filler",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 490,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "ngứa sau peel",
+    "slug": "ngua-sau-peel",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 491,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "bong da sau peel",
+    "slug": "bong-da-sau-peel",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 492,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "chảy nước mắt sau cắt mí",
+    "slug": "chay-nuoc-mat-sau-cat-mi",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 493,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "nghẹt mũi sau nâng mũi",
+    "slug": "nghet-mui-sau-nang-mui",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 494,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "khô mắt sau cắt mí",
+    "slug": "kho-mat-sau-cat-mi",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 495,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "rụng tóc sau cấy tóc bình thường",
+    "slug": "rung-toc-sau-cay-binh-thuong",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 496,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "hỏi đáp nâng mũi",
+    "slug": "hoi-dap-nang-mui",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 497,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "hỏi đáp cắt mí",
+    "slug": "hoi-dap-cat-mi",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 498,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "hỏi đáp filler",
+    "slug": "hoi-dap-filler",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 499,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "hỏi đáp botox",
+    "slug": "hoi-dap-botox",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  },
+  {
+    "id": 500,
+    "group": "AI",
+    "groupName": "Long-tail & câu hỏi mở rộng",
+    "focus": "từ điển thẩm mỹ",
+    "slug": "tu-dien-tham-my",
+    "pillar": "/tin-tuc",
+    "priority": "cao"
+  }
+]

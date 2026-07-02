@@ -259,7 +259,7 @@ export function AdminArticlesPage() {
                         title="Chèn ảnh vào nội dung bài"
                         filter="image"
                         onSelect={(url) => {
-                          const snippet = `\n\n![${a.title || "Ảnh"}](${url})\n\n`;
+                          const snippet = `\n\n![${a.seo?.focusKeyphrase?.trim() || a.title || "Ảnh"}](${url})\n\n`;
                           const el = bodyRefs.current[a.id];
                           if (el) {
                             const start = el.selectionStart;

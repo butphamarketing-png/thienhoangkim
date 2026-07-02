@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useSiteContent } from "@/context/SiteContentContext";
 import { ArticleBodyContent } from "@/components/ArticleBodyContent";
 import { getPreferredArticlePath } from "@/data/services-catalog";
+import { buildHeroImageAlt } from "@/lib/article-seo";
 import NotFound from "@/pages/not-found";
 
 export default function ArticlePage() {
@@ -23,6 +24,9 @@ export default function ArticlePage() {
     return <Redirect to={preferredPath} />;
   }
 
+  const focusKeyphrase = article.seo?.focusKeyphrase ?? "";
+  const heroAlt = buildHeroImageAlt(focusKeyphrase, article.title);
+
   return (
     <SiteLayout>
       <article className="container mx-auto max-w-3xl px-4 py-10 md:px-8 md:py-14">
@@ -33,10 +37,10 @@ export default function ArticlePage() {
           {article.date}
         </p>
         {article.image && (
-          <img src={article.image} alt={article.title} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover shadow-lg" />
+          <img src={article.image} alt={heroAlt} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover shadow-lg" />
         )}
         <p className="mt-8 text-lg font-medium leading-relaxed text-foreground/90">{article.description}</p>
-        <ArticleBodyContent body={article.body} imageAlt={article.title} />
+        <ArticleBodyContent body={article.body} imageAlt={heroAlt} />
         <div className="mt-12 flex flex-wrap gap-3">
           <Link href="/lien-he#dat-lich">
             <Button className="rounded-full bg-primary font-bold">Đặt lịch tư vấn</Button>
