@@ -3,4 +3,4 @@ Allow: /
 Disallow: /adminbp
 Disallow: /adminbp/
 
-Sitemap: https://thienhoangkim.vercel.app/sitemap.xml
+Sitemap: https://www.thammythienhoangkim.com/sitemap.xml

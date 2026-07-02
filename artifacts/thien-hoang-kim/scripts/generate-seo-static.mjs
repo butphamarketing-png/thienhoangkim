@@ -10,7 +10,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const appRoot = path.resolve(__dirname, "..");
 const publicDir = path.join(appRoot, "public");
 
-const BASE_URL = (process.env.SITE_URL ?? "https://thienhoangkim.vercel.app").replace(/\/$/, "");
+const BASE_URL = (process.env.SITE_URL ?? "https://www.thammythienhoangkim.com").replace(/\/$/, "");
 
 const STATIC_PATHS = [
   "/",

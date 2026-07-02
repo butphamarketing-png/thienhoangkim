@@ -27,7 +27,7 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
     youtubeUrl: "#",
     seo: {
       siteName: "Thiên Hoàng Kim Aesthetic Clinic",
-      siteUrl: "https://thienhoangkim.vercel.app",
+      siteUrl: "https://www.thammythienhoangkim.com",
       title: "Thiên Hoàng Kim Aesthetic Clinic | Nâng Tầm Nhan Sắc",
       titleSeparator: " | ",
       description:
