@@ -17,6 +17,7 @@ import {
   type SeoCheckStatus,
 } from "@/lib/seo-analysis";
 import { SEO_DESCRIPTION_MAX, SEO_TITLE_MAX } from "@/lib/seo";
+import { getSiteBaseUrl } from "@/lib/seo-sitemap";
 
 function CharCount({ value, max, ideal }: { value: string; max: number; ideal?: string }) {
   const len = value.length;
@@ -128,7 +129,7 @@ export function AdminSeoPanel({
 }: AdminSeoPanelProps) {
   const resolvedTitle = metaTitle.trim() || h1;
   const resolvedDesc = metaDescription.trim();
-  const displayUrl = previewUrl || `thienhoangkim.vercel.app${previewPath}`;
+  const displayUrl = previewUrl || `${getSiteBaseUrl().replace(/^https?:\/\//, "")}${previewPath}`;
   const heroAlt = buildHeroImageAlt(focusKeyphrase, h1 || resolvedTitle);
   const h2Headings = useMemo(() => extractH2FromBody(bodyText), [bodyText]);
   const imageAlts = useMemo(

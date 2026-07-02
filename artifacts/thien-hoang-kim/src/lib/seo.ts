@@ -57,6 +57,22 @@ function toAbsoluteUrl(path: string, siteUrl?: string): string {
   return `${origin}${withBase}`;
 }
 
+/** Chuẩn hoá canonical cũ (domain vercel) sang path tương đối */
+function normalizeCanonicalInput(url: string, siteUrl: string): string {
+  const trimmed = url.trim();
+  if (!trimmed) return trimmed;
+  if (/thienhoangkim\.vercel\.app/i.test(trimmed)) {
+    try {
+      const { pathname } = new URL(trimmed);
+      return pathname;
+    } catch {
+      return trimmed;
+    }
+  }
+  if (trimmed.startsWith("http")) return trimmed;
+  return toAbsoluteUrl(trimmed, siteUrl);
+}
+
 function pick(...values: (string | undefined)[]): string {
   for (const v of values) {
     if (v?.trim()) return v.trim();
@@ -112,9 +128,12 @@ export function resolveArticleSeo(
   const preferredPath = getPreferredArticlePath(article.slug);
   const canonicalPath =
     seo.canonicalUrl?.trim()
-      ? seo.canonicalUrl.startsWith("http")
-        ? seo.canonicalUrl.trim()
-        : toAbsoluteUrl(seo.canonicalUrl, global.siteUrl)
+      ? (() => {
+          const normalized = normalizeCanonicalInput(seo.canonicalUrl, global.siteUrl);
+          return normalized.startsWith("http")
+            ? normalized
+            : toAbsoluteUrl(normalized, global.siteUrl);
+        })()
       : preferredPath && path.startsWith("/tin-tuc/")
         ? toAbsoluteUrl(preferredPath, global.siteUrl)
         : toAbsoluteUrl(path, global.siteUrl);

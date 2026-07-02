@@ -1,4 +1,32 @@
 import { containsKeyphrase } from "@/lib/seo-analysis";
+import { DEFAULT_ARTICLE_SEO } from "@/lib/seo";
+import type { ArticleSeo } from "@/types/site-content";
+
+/** Canonical path — resolve absolute URL via siteUrl at runtime */
+export function newsArticleCanonicalPath(slug: string): string {
+  return `/tin-tuc/${slug}`;
+}
+
+export function buildNewsArticleSeo(
+  slug: string,
+  metaTitle: string,
+  metaDescription: string,
+  focusKeyphrase: string,
+  keywords?: string,
+  ogImage = "",
+): ArticleSeo {
+  return {
+    ...DEFAULT_ARTICLE_SEO,
+    metaTitle: `${metaTitle} | Thiên Hoàng Kim`,
+    metaDescription,
+    focusKeyphrase,
+    keywords: keywords ?? focusKeyphrase,
+    canonicalUrl: newsArticleCanonicalPath(slug),
+    ogTitle: metaTitle,
+    ogDescription: metaDescription,
+    ogImage,
+  };
+}
 
 /** Alt ảnh đại diện — ưu tiên chứa focus keyphrase */
 export function buildHeroImageAlt(focusKeyphrase: string, title: string): string {

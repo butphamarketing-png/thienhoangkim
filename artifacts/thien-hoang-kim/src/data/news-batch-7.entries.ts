@@ -54,6 +54,7 @@ import {
   MASSAGE_SAU_FILLER_BODY,
   UONG_BIA_SAU_FILLER_BODY,
 } from "@/data/articles/news-batch-7-u.body";
+import { buildNewsArticleSeo } from "@/lib/article-seo";
 import { DEFAULT_ARTICLE_SEO } from "@/lib/seo";
 import type { ArticleSeo, SiteArticle } from "@/types/site-content";
 
@@ -71,17 +72,7 @@ function newsSeo(
   keywords?: string,
   ogImage = slide,
 ): ArticleSeo {
-  return {
-    ...DEFAULT_ARTICLE_SEO,
-    metaTitle: `${metaTitle} | Thiên Hoàng Kim`,
-    metaDescription,
-    focusKeyphrase,
-    keywords: keywords ?? focusKeyphrase,
-    canonicalUrl: `https://thienhoangkim.vercel.app/tin-tuc/${slug}`,
-    ogTitle: metaTitle,
-    ogDescription: metaDescription,
-    ogImage,
-  };
+  return buildNewsArticleSeo(slug, metaTitle, metaDescription, focusKeyphrase, keywords, ogImage);
 }
 
 function article(

@@ -1,4 +1,5 @@
 import { DEFAULT_ARTICLE_SEO } from "@/lib/seo";
+import { buildNewsArticleSeo } from "@/lib/article-seo";
 import { NANG_MUI_HOANG_KIM_BODY } from "@/data/articles/nang-mui-hoang-kim.body";
 import { CAT_MI_PHUONG_HOANG_BODY } from "@/data/articles/cat-mi-phuong-hoang.body";
 import { CAY_TOC_TU_THAN_BODY } from "@/data/articles/cay-toc-tu-than.body";
@@ -101,17 +102,7 @@ function newsSeo(
   keywords?: string,
   ogImage = slide,
 ): ArticleSeo {
-  return {
-    ...DEFAULT_ARTICLE_SEO,
-    metaTitle: `${metaTitle} | Thiên Hoàng Kim`,
-    metaDescription,
-    focusKeyphrase,
-    keywords: keywords ?? focusKeyphrase,
-    canonicalUrl: `https://thienhoangkim.vercel.app/tin-tuc/${slug}`,
-    ogTitle: metaTitle,
-    ogDescription: metaDescription,
-    ogImage,
-  };
+  return buildNewsArticleSeo(slug, metaTitle, metaDescription, focusKeyphrase, keywords, ogImage);
 }
 
 function article(
@@ -202,7 +193,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       focusKeyphrase: "nâng mũi hoàng kim",
       keywords:
         "nâng mũi hoàng kim, nâng mũi cấu trúc, nâng mũi TP.HCM, thẩm mỹ mũi, nâng mũi An Đông, phòng khám nâng mũi",
-      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/nang-mui-hoang-kim",
+      canonicalUrl: "/tham-my/nang-mui-hoang-kim",
       ogTitle: "Nâng mũi hoàng kim — Chuẩn tỉ lệ vàng | Thiên Hoàng Kim",
       ogDescription:
         "Nâng mũi hoàng kim cấu trúc chuẩn tỉ lệ vàng — sống thẳng, đầu mũi mềm, tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
@@ -226,7 +217,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       focusKeyphrase: "cắt mí phượng hoàng",
       keywords:
         "cắt mí phượng hoàng, cắt mí, thẩm mỹ mắt, cắt mí TP.HCM, cắt mí An Đông, phòng khám cắt mí",
-      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/cat-mi-phuong-hoang",
+      canonicalUrl: "/tham-my/cat-mi-phuong-hoang",
       ogTitle: "Cắt mí phượng hoàng — Mắt sắc nét | Thiên Hoàng Kim",
       ogDescription:
         "Cắt mí phượng hoàng tạo nếp mí cong dài, mắt to tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
@@ -250,7 +241,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       focusKeyphrase: "cấy tóc tự thân",
       keywords:
         "cấy tóc tự thân, cấy tóc FUE, cấy tóc FUT, cấy tóc TP.HCM, điều trị hói đầu, cấy tóc An Đông",
-      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/cay-toc-tu-than",
+      canonicalUrl: "/tham-my/cay-toc-tu-than",
       ogTitle: "Cấy tóc tự thân FUE/FUT | Thiên Hoàng Kim",
       ogDescription:
         "Cấy tóc tự thân mật độ cao, mọc tự nhiên bền lâu. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
@@ -274,7 +265,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       focusKeyphrase: "căng nội soi",
       keywords:
         "căng nội soi, căng da mặt, trẻ hóa da, căng nội soi TP.HCM, thẩm mỹ không phẫu thuật, căng trán nội soi",
-      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/cang-noi-soi",
+      canonicalUrl: "/tham-my/cang-noi-soi",
       ogTitle: "Căng nội soi — Trẻ hóa sâu, ít sẹo | Thiên Hoàng Kim",
       ogDescription:
         "Căng nội soi nâng cơ mặt, sẹo ẩn trong tóc — trẻ hóa tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
@@ -298,7 +289,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       focusKeyphrase: "căng chỉ trẻ hóa",
       keywords:
         "căng chỉ trẻ hóa, căng chỉ PDO, căng chỉ PLLA, nâng cơ mặt, trẻ hóa da TP.HCM, căng chỉ An Đông",
-      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/cang-chi-tre-hoa",
+      canonicalUrl: "/tham-my/cang-chi-tre-hoa",
       ogTitle: "Căng chỉ trẻ hóa — Săn chắc không mổ | Thiên Hoàng Kim",
       ogDescription:
         "Căng chỉ sinh học nâng cơ, kích thích collagen — hồi phục nhanh. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
@@ -322,7 +313,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       focusKeyphrase: "hút mỡ cấy mỡ má",
       keywords:
         "hút mỡ cấy mỡ má, hút mỡ mặt, cấy mỡ má, V-line, tạo hình mặt TP.HCM, hút mỡ An Đông",
-      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/hut-mo-cay-mo-ma",
+      canonicalUrl: "/tham-my/hut-mo-cay-mo-ma",
       ogTitle: "Hút mỡ – cấy mỡ má V-line | Thiên Hoàng Kim",
       ogDescription:
         "Combo hút mỡ gọn hàm và cấy mỡ tự thân làm đầy má — khuôn mặt trẻ trung. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
@@ -346,7 +337,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       focusKeyphrase: "filler tạo hình",
       keywords:
         "filler tạo hình, tiêm filler, filler mũi, filler môi, filler cằm TP.HCM, filler An Đông",
-      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/filler-tao-hinh",
+      canonicalUrl: "/tham-my/filler-tao-hinh",
       ogTitle: "Filler tạo hình — Đường nét hài hòa | Thiên Hoàng Kim",
       ogDescription:
         "Tiêm filler HA tạo hình mũi, môi, cằm, thái dương — kết quả ngay, tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
@@ -370,7 +361,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       focusKeyphrase: "botox xóa nhăn gọn hàm",
       keywords:
         "botox xóa nhăn gọn hàm, tiêm botox, gọn hàm, xóa nhăn trán, botox TP.HCM, botox An Đông",
-      canonicalUrl: "https://thienhoangkim.vercel.app/tham-my/botox-xoa-nhan-gon-ham",
+      canonicalUrl: "/tham-my/botox-xoa-nhan-gon-ham",
       ogTitle: "Botox xóa nhăn, gọn hàm | Thiên Hoàng Kim",
       ogDescription:
         "Botox giảm nhăn động và thon hàm masseter — không mổ, hồi phục nhanh. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
@@ -398,7 +389,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       focusKeyphrase: "ủ đá muối Himalaya",
       keywords:
         "ủ đá muối Himalaya, ủ đá muối, spa thải độc, Himalaya salt, massage thư giãn TP.HCM, spa An Đông",
-      canonicalUrl: "https://thienhoangkim.vercel.app/spa/u-da-muoi-himalaya",
+      canonicalUrl: "/spa/u-da-muoi-himalaya",
       ogTitle: "Ủ đá muối Himalaya — Thải độc, thư giãn | Thiên Hoàng Kim",
       ogDescription:
         "Đá muối Himalaya làm ấm kết hợp massage — giảm căng cơ, thư giãn trong phòng spa riêng. Đặt lịch 0938 673 996.",
@@ -422,7 +413,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       focusKeyphrase: "phun xăm thẩm mỹ",
       keywords:
         "phun xăm thẩm mỹ, phun xăm mày, phun môi, microblading, eyeliner phun, phun xăm TP.HCM",
-      canonicalUrl: "https://thienhoangkim.vercel.app/spa/phun-xam-tham-my",
+      canonicalUrl: "/spa/phun-xam-tham-my",
       ogTitle: "Phun xăm thẩm mỹ — Mày, môi tự nhiên | Thiên Hoàng Kim",
       ogDescription:
         "Phun mày, môi, eyeliner bán vĩnh viễn — chuyên viên phác thảo theo khuôn mặt, mực organic. Đặt lịch 0938 673 996.",
@@ -446,7 +437,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       focusKeyphrase: "massage body thư giãn",
       keywords:
         "massage body thư giãn, massage body, massage toàn thân, spa massage TP.HCM, massage An Đông",
-      canonicalUrl: "https://thienhoangkim.vercel.app/spa/massage-body-thu-gian",
+      canonicalUrl: "/spa/massage-body-thu-gian",
       ogTitle: "Massage body thư giãn | Thiên Hoàng Kim Spa",
       ogDescription:
         "Massage toàn thân trong phòng riêng — chọn lực nhẹ hoặc sâu, tinh dầu thảo dược. Đặt lịch 0938 673 996.",
@@ -470,7 +461,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       focusKeyphrase: "massage facial",
       keywords:
         "massage facial, massage mặt, facial spa, chăm sóc da mặt TP.HCM, massage facial An Đông",
-      canonicalUrl: "https://thienhoangkim.vercel.app/spa/massage-facial",
+      canonicalUrl: "/spa/massage-facial",
       ogTitle: "Massage facial — Da sáng, thư giãn | Thiên Hoàng Kim",
       ogDescription:
         "Massage mặt kết hợp ấn huyệt và dưỡng ẩm — phù hợp trước sự kiện hoặc sau ngày căng thẳng. Đặt lịch 0938 673 996.",
@@ -494,7 +485,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       focusKeyphrase: "chăm sóc da toàn diện",
       keywords:
         "chăm sóc da toàn diện, facial spa, chăm sóc da mặt, spa da TP.HCM, hút bã nhờn, phác đồ da",
-      canonicalUrl: "https://thienhoangkim.vercel.app/spa/cham-soc-da-toan-dien",
+      canonicalUrl: "/spa/cham-soc-da-toan-dien",
       ogTitle: "Chăm sóc da toàn diện — Phác đồ cá nhân | Thiên Hoàng Kim",
       ogDescription:
         "Soi da, làm sạch sâu, massage và mask theo loại da — da sáng mịn sau một buổi. Đặt lịch 0938 673 996.",
