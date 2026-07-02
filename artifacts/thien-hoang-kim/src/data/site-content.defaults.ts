@@ -41,7 +41,7 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
       twitterCard: "summary_large_image",
       robots: "index,follow",
       locale: "vi_VN",
-      googleSiteVerification: "",
+      googleSiteVerification: "sAL8GAWPCJ9v21TlzI8UVIWGQoyaY6jzOgRxJHtwxXA",
       bingSiteVerification: "",
       facebookAppId: "",
       schemaEnabled: true,
