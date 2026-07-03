@@ -123,7 +123,7 @@ export function CtaContactSection({
               {image ? (
                 <img
                   src={image}
-                  alt="Thiên Hoàng Kim Aesthetic Clinic"
+                  alt="nâng mũi hoàng kim"
                   className="absolute inset-0 h-full w-full object-cover object-top"
                 />
               ) : (

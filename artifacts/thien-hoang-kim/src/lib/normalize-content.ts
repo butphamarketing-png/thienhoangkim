@@ -43,6 +43,12 @@ function normalizeTestimonials(testimonials?: SiteTestimonial[]): SiteTestimonia
   }));
 }
 
+function normalizeCtaImage(image?: string): string {
+  const fallback = DEFAULT_SITE_CONTENT.home.ctaImage;
+  if (!image || image.includes("gioithieu.1")) return fallback;
+  return image;
+}
+
 export function normalizeArticles(articles?: SiteArticle[]): SiteArticle[] {
   if (!articles?.length) return DEFAULT_ARTICLES;
 
@@ -82,6 +88,7 @@ export function mergeSiteContent(partial: Partial<SiteContent>): SiteContent {
       ...partial.home,
       featuredServiceImages: partial.home?.featuredServiceImages ?? base.home.featuredServiceImages,
       heroSlides: normalizeHeroSlides(partial.home?.heroSlides),
+      ctaImage: normalizeCtaImage(partial.home?.ctaImage),
     },
     footer: {
       ...base.footer,

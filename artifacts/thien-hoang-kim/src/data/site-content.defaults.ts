@@ -25,6 +25,7 @@ const customerCaseImages = {
   },
 } as const;
 const doctorHoThanhHai = publicAsset("uploads/Ho-Thanh-Hai.png");
+const ctaNangMuiImage = publicAsset("uploads/nang-mui-hoang-kim-cta.png");
 const processStepImages = [
   publicAsset("uploads/Tiếp nhận & Tư vấn.png"),
   publicAsset("uploads/THĂM KHÁM & SOI DA.png"),
@@ -147,7 +148,7 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
     ctaTitle: "SẴN SÀNG NÂNG TẦM NHAN SẮC?",
     ctaDescription:
       "Liên hệ ngay để được đội ngũ chuyên gia tư vấn miễn phí và đặt lịch nhanh chóng.",
-    ctaImage: intro,
+    ctaImage: ctaNangMuiImage,
     footerDescription:
       "Phòng khám chuyên khoa thẩm mỹ uy tín, chất lượng với đội ngũ bác sĩ chuyên gia hàng đầu. Kiến tạo vẻ đẹp tự nhiên, an toàn và bền vững.",
   },
