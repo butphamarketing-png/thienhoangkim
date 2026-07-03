@@ -2,7 +2,20 @@ import { DEFAULT_ARTICLES } from "@/data/articles.defaults";
 import { DEFAULT_SITE_CONTENT } from "@/data/site-content.defaults";
 import { normalizeArticleSeo, normalizeSiteSeo } from "@/lib/seo";
 import { slugify } from "@/lib/slug";
-import type { SiteArticle, SiteContent, SiteTestimonial } from "@/types/site-content";
+import type { SiteArticle, SiteContent, SiteHeroSlide, SiteTestimonial } from "@/types/site-content";
+
+/** Banner 2 cột Thẩm mỹ/Spa đã thay bằng slideshow full-width `slideshow.1.png`. */
+function normalizeHeroSlides(slides?: SiteHeroSlide[]): SiteHeroSlide[] {
+  const fallback = DEFAULT_SITE_CONTENT.home.heroSlides;
+  if (!slides?.length) return fallback;
+
+  const isLegacyDualHero =
+    slides.length === 2 &&
+    slides.some((s) => s.id === "hero-tham-my") &&
+    slides.some((s) => s.id === "hero-spa");
+
+  return isLegacyDualHero ? fallback : slides;
+}
 
 function normalizeTestimonials(testimonials?: SiteTestimonial[]): SiteTestimonial[] {
   const list = testimonials?.length ? testimonials : DEFAULT_SITE_CONTENT.testimonials;
@@ -50,7 +63,7 @@ export function mergeSiteContent(partial: Partial<SiteContent>): SiteContent {
       ...base.home,
       ...partial.home,
       featuredServiceImages: partial.home?.featuredServiceImages ?? base.home.featuredServiceImages,
-      heroSlides: partial.home?.heroSlides ?? base.home.heroSlides,
+      heroSlides: normalizeHeroSlides(partial.home?.heroSlides),
     },
     footer: {
       ...base.footer,
