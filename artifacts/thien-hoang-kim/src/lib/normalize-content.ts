@@ -17,8 +17,26 @@ function normalizeHeroSlides(slides?: SiteHeroSlide[]): SiteHeroSlide[] {
   return isLegacyDualHero ? fallback : slides;
 }
 
+function usesLegacyTestimonialMedia(testimonials: SiteTestimonial[]): boolean {
+  return testimonials.every((t) => {
+    const src = t.phoneImage || t.avatar || "";
+    return (
+      src.includes("slideshow.1") ||
+      src.includes("gioithieu.1") ||
+      /nail|uống mỹ|khoá nail/i.test(t.text)
+    );
+  });
+}
+
 function normalizeTestimonials(testimonials?: SiteTestimonial[]): SiteTestimonial[] {
-  const list = testimonials?.length ? testimonials : DEFAULT_SITE_CONTENT.testimonials;
+  const defaults = DEFAULT_SITE_CONTENT.testimonials;
+  const list =
+    testimonials?.length && usesLegacyTestimonialMedia(testimonials)
+      ? defaults
+      : testimonials?.length
+        ? testimonials
+        : defaults;
+
   return list.map((t) => ({
     ...t,
     phoneImage: t.phoneImage || t.avatar || "",
