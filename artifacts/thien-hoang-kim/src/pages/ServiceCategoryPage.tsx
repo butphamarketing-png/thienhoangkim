@@ -3,13 +3,13 @@ import { ArrowRight } from "lucide-react";
 import { SiteLayout } from "@/components/layout/SiteLayout";
 import { PageHero } from "@/components/layout/PageHero";
 import { useSiteContent } from "@/context/SiteContentContext";
-import {
-  SERVICE_CATEGORIES,
-  SERVICE_ITEMS,
-  getServiceHref,
-  type ServiceCategoryId,
-} from "@/data/services-catalog";
 import { DEFAULT_HERO_IMAGE } from "@/data/pages.defaults";
+import {
+  getServiceHref,
+  resolveServiceCategories,
+  resolveServiceItems,
+} from "@/lib/site-cms";
+import type { ServiceCategoryId } from "@/types/site-content";
 
 type ServiceCategoryPageProps = {
   categoryId: ServiceCategoryId;
@@ -17,8 +17,11 @@ type ServiceCategoryPageProps = {
 
 export default function ServiceCategoryPage({ categoryId }: ServiceCategoryPageProps) {
   const { content } = useSiteContent();
-  const category = SERVICE_CATEGORIES[categoryId];
-  const items = SERVICE_ITEMS[categoryId];
+  const categories = resolveServiceCategories(content);
+  const category = categories[categoryId];
+  if (!category) return null;
+
+  const items = resolveServiceItems(content, categoryId);
   const categoryArticle = category.articleSlug
     ? content.articles.find((a) => a.slug === category.articleSlug && a.published)
     : undefined;
@@ -52,12 +55,12 @@ export default function ServiceCategoryPage({ categoryId }: ServiceCategoryPageP
           {items.map((item) => (
             <Link
               key={item.slug}
-              href={getServiceHref(categoryId, item.slug)}
+              href={getServiceHref(categoryId, item.slug, content)}
               className="service-card-luxury group block"
             >
               <div className="relative aspect-[4/5] overflow-hidden bg-primary/5">
                 <img
-                  src={DEFAULT_HERO_IMAGE}
+                  src={item.image || DEFAULT_HERO_IMAGE}
                   alt={item.label}
                   className="h-full w-full object-cover object-top transition duration-500 group-hover:scale-105"
                 />

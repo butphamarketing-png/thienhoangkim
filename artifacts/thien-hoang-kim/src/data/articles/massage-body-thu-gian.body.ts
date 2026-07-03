@@ -1,5 +1,10 @@
 /** Nội dung chi tiết — bài Massage body thư giãn */
+const base = `${import.meta.env.BASE_URL}`.replace(/([^:]\/)\/+/g, "$1");
+export const MASSAGE_BODY_THU_GIAN_IMG = `${base}uploads/massage-body-thu-gian.png`;
+
 export const MASSAGE_BODY_THU_GIAN_BODY = `Lưng cứng, vai gáy đau nhức sau cả ngày ngồi máy tính, chân nặng như đổ chì — và đêm về khó ngủ dù mệt. Massage body thư giãn tại Thiên Hoàng Kim Spa là liệu trình massage toàn thân trong phòng riêng, kết hợp kỹ thuật xoa, bóp, day và ấn huyệt với tinh dầu thảo dược, giúp giải phóng căng cơ, cải thiện cảm giác tuần hoàn và đưa cơ thể về trạng thái nghỉ ngơi sâu. Bạn chọn mức lực nhẹ, vừa hoặc sâu — kỹ thuật viên luôn hỏi lại trong buổi để không quá đau hay quá nhẹ so với mong muốn.
+
+![massage body thư giãn](${MASSAGE_BODY_THU_GIAN_IMG})
 
 ## Massage body thư giãn là gì?
 

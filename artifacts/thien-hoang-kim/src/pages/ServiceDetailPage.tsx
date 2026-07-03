@@ -3,14 +3,11 @@ import { Calendar } from "lucide-react";
 import { SiteLayout } from "@/components/layout/SiteLayout";
 import { Button } from "@/components/ui/button";
 import { useSiteContent } from "@/context/SiteContentContext";
-import {
-  SERVICE_CATEGORIES,
-  getServiceItem,
-  type ServiceCategoryId,
-} from "@/data/services-catalog";
 import { ArticleBodyContent } from "@/components/ArticleBodyContent";
 import { DEFAULT_HERO_IMAGE } from "@/data/pages.defaults";
 import { buildHeroImageAlt } from "@/lib/article-seo";
+import { getServiceItem, resolveServiceCategories } from "@/lib/site-cms";
+import type { ServiceCategoryId } from "@/types/site-content";
 import NotFound from "@/pages/not-found";
 
 type ServiceDetailPageProps = {
@@ -19,15 +16,18 @@ type ServiceDetailPageProps = {
 
 export default function ServiceDetailPage({ categoryId }: ServiceDetailPageProps) {
   const { content } = useSiteContent();
-  const category = SERVICE_CATEGORIES[categoryId];
-  const [, params] = useRoute(`${category.path}/:slug`);
+  const categories = resolveServiceCategories(content);
+  const category = categories[categoryId];
+  const [, params] = useRoute(`${category?.path ?? `/${categoryId}`}/:slug`);
   const slug = params?.slug ?? "";
+
+  if (!category) return <NotFound />;
 
   if (slug === "hut-mo-cay-mo-ma") {
     return <Redirect to={category.path} />;
   }
 
-  const service = getServiceItem(categoryId, slug);
+  const service = getServiceItem(content, categoryId, slug);
   if (!service) return <NotFound />;
 
   const article = service.articleSlug
@@ -39,7 +39,7 @@ export default function ServiceDetailPage({ categoryId }: ServiceDetailPageProps
     article?.description ??
     service.description ??
     `Tư vấn và điều trị ${service.label.toLowerCase()} an toàn, hiệu quả tại Thiên Hoàng Kim.`;
-  const image = article?.image ?? DEFAULT_HERO_IMAGE;
+  const image = article?.image ?? service.image ?? DEFAULT_HERO_IMAGE;
   const body =
     article?.body ??
     `Dịch vụ ${service.label} được thực hiện bởi bác sĩ có chứng chỉ hành nghề, quy trình vô trùng và theo dõi sau điều trị.

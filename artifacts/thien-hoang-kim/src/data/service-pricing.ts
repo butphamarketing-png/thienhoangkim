@@ -1,9 +1,6 @@
-import {
-  SERVICE_CATEGORIES,
-  SERVICE_ITEMS,
-  getServiceHref,
-  type ServiceCategoryId,
-} from "@/data/services-catalog";
+import type { SiteContent } from "@/types/site-content";
+import type { ServiceCategoryId } from "@/types/site-content";
+import { buildServicePriceGroups as buildFromCms } from "@/lib/site-cms";
 
 export type ServicePriceItem = {
   slug: string;
@@ -19,19 +16,6 @@ export type ServicePriceGroup = {
   items: ServicePriceItem[];
 };
 
-export function buildServicePriceGroups(): ServicePriceGroup[] {
-  return (Object.keys(SERVICE_ITEMS) as ServiceCategoryId[]).map((categoryId) => {
-    const category = SERVICE_CATEGORIES[categoryId];
-    return {
-      categoryId,
-      eyebrow: category.eyebrow,
-      title: category.title,
-      items: SERVICE_ITEMS[categoryId].map((item) => ({
-        slug: item.slug,
-        label: item.label,
-        description: item.description,
-        href: getServiceHref(categoryId, item.slug),
-      })),
-    };
-  });
+export function buildServicePriceGroups(content?: SiteContent): ServicePriceGroup[] {
+  return buildFromCms(content ?? ({} as SiteContent));
 }

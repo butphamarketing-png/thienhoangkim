@@ -114,6 +114,55 @@ export type SiteProcessStep = {
   image: string;
 };
 
+/** Khối nội dung trong trang tĩnh (Giới thiệu, …) */
+export type SitePageBlock = {
+  title?: string;
+  paragraphs: string[];
+};
+
+/** Trang nội dung quản lý qua admin */
+export type SitePage = {
+  id: string;
+  path: string;
+  title: string;
+  eyebrow?: string;
+  description: string;
+  blocks: SitePageBlock[];
+};
+
+export type ServiceCategoryId = "tham-my" | "spa";
+
+/** Danh mục dịch vụ (Thẩm mỹ / Spa) */
+export type SiteServiceCategory = {
+  id: ServiceCategoryId;
+  path: string;
+  title: string;
+  eyebrow: string;
+  description: string;
+  articleSlug?: string;
+  published: boolean;
+};
+
+/** Dịch vụ cấp 2 — CRUD qua admin */
+export type SiteServiceItem = {
+  id: string;
+  categoryId: ServiceCategoryId;
+  slug: string;
+  label: string;
+  description?: string;
+  articleSlug?: string;
+  image?: string;
+  published: boolean;
+  sortOrder: number;
+};
+
+/** Hero trang liên hệ */
+export type SiteContactPage = {
+  eyebrow: string;
+  title: string;
+  description: string;
+};
+
 export type SiteSeo = {
   siteName: string;
   /** URL gốc website (https://domain.com) — dùng canonical & sitemap */
@@ -193,6 +242,15 @@ export type SiteContent = {
   processSteps: SiteProcessStep[];
   luckyWheel: LuckyWheelConfig;
   promotion: PromotionConfig;
+  /** Trang Giới thiệu & trang tĩnh khác */
+  pages: SitePage[];
+  serviceCategories: SiteServiceCategory[];
+  serviceItems: SiteServiceItem[];
+  /** Menu con Giới thiệu */
+  introNav: SiteLink[];
+  /** Menu con Tin tức */
+  newsNav: SiteLink[];
+  contactPage: SiteContactPage;
 };
 
 export type LuckyWheelSegment = {

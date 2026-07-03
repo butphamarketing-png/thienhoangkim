@@ -2,12 +2,11 @@ import { Switch, Route, Router as WouterRouter, useLocation, Redirect } from "wo
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { SiteContentProvider } from "@/context/SiteContentContext";
+import { SiteContentProvider, useSiteContent } from "@/context/SiteContentContext";
 import { BookingDialogProvider } from "@/context/BookingDialogContext";
 import { AdminApp } from "@/admin/AdminApp";
 import { isAdminLocation } from "@/config/admin";
-import { getPageContent } from "@/data/pages.defaults";
-import { resolveLegacyServicePath } from "@/data/services-catalog";
+import { resolveLegacyServicePath, resolvePageContent } from "@/lib/site-cms";
 import ArticlePage from "@/pages/ArticlePage";
 import ArticlesListPage from "@/pages/ArticlesListPage";
 import ContactPage from "@/pages/ContactPage";
@@ -26,15 +25,17 @@ const queryClient = new QueryClient();
 
 function DynamicContentPage() {
   const [location] = useLocation();
+  const { content } = useSiteContent();
   const path = location.split("#")[0];
-  if (!getPageContent(path)) return <NotFound />;
+  if (!resolvePageContent(content, path)) return <NotFound />;
   return <ContentPage />;
 }
 
 function LegacyServiceRedirect() {
   const [location] = useLocation();
+  const { content } = useSiteContent();
   const path = location.split("#")[0];
-  const target = resolveLegacyServicePath(path);
+  const target = resolveLegacyServicePath(content, path);
   if (target) return <Redirect to={target} />;
   return <DynamicContentPage />;
 }

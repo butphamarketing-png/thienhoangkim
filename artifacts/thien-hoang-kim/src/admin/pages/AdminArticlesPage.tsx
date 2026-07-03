@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { ExternalLink, ImagePlus } from "lucide-react";
 import { AdminMediaPicker } from "@/admin/components/AdminMediaPicker";
 import { Button } from "@/components/ui/button";
@@ -14,7 +14,8 @@ import { DEFAULT_ARTICLE_SEO } from "@/lib/seo";
 import { slugify } from "@/lib/slug";
 import type { ArticleSeo, SiteArticle } from "@/types/site-content";
 
-const CATEGORIES = ["Kiến thức", "Tin tức", "Dịch vụ", "Công nghệ", "Spa"];
+const CATEGORIES = ["Kiến thức", "Tin tức", "Dịch vụ", "Công nghệ", "Spa", "Thẩm mỹ"];
+const PAGE_SIZE = 25;
 
 function newArticle(): SiteArticle {
   const title = "Bài viết mới";
@@ -36,26 +37,46 @@ export function AdminArticlesPage() {
   const { content, updateContent } = useSiteContent();
   const [expanded, setExpanded] = useState<string | null>(content.articles[0]?.id ?? null);
   const [mediaPickerFor, setMediaPickerFor] = useState<string | null>(null);
+  const [search, setSearch] = useState("");
+  const [categoryFilter, setCategoryFilter] = useState("all");
+  const [statusFilter, setStatusFilter] = useState<"all" | "published" | "draft">("all");
+  const [page, setPage] = useState(1);
   const bodyRefs = useRef<Record<string, HTMLTextAreaElement | null>>({});
 
-  const updateArticle = (index: number, patch: Partial<SiteArticle>) => {
-    updateContent((p) => {
-      const list = [...p.articles];
-      list[index] = { ...list[index], ...patch };
-      return { ...p, articles: list };
+  const filtered = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    return content.articles.filter((a) => {
+      if (categoryFilter !== "all" && a.category !== categoryFilter) return false;
+      if (statusFilter === "published" && !a.published) return false;
+      if (statusFilter === "draft" && a.published) return false;
+      if (!q) return true;
+      return (
+        a.title.toLowerCase().includes(q) ||
+        a.slug.toLowerCase().includes(q) ||
+        a.description.toLowerCase().includes(q) ||
+        a.category.toLowerCase().includes(q)
+      );
     });
+  }, [content.articles, search, categoryFilter, statusFilter]);
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const currentPage = Math.min(page, totalPages);
+  const paged = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
+
+  const updateArticleById = (id: string, patch: Partial<SiteArticle>) => {
+    updateContent((p) => ({
+      ...p,
+      articles: p.articles.map((a) => (a.id === id ? { ...a, ...patch } : a)),
+    }));
   };
 
-  const updateArticleSeo = (index: number, key: keyof ArticleSeo, value: string | boolean) => {
-    updateContent((p) => {
-      const list = [...p.articles];
-      const current = list[index];
-      list[index] = {
-        ...current,
-        seo: { ...current.seo, [key]: value },
-      };
-      return { ...p, articles: list };
-    });
+  const updateArticleSeoById = (id: string, key: keyof ArticleSeo, value: string | boolean) => {
+    updateContent((p) => ({
+      ...p,
+      articles: p.articles.map((a) =>
+        a.id === id ? { ...a, seo: { ...a.seo, [key]: value } } : a,
+      ),
+    }));
   };
 
   const siteUrl = getSiteBaseUrl(content.settings.seo.siteUrl);
@@ -103,8 +124,73 @@ export function AdminArticlesPage() {
         </div>
       </section>
 
+      <section className="mb-6 rounded-xl border bg-white p-4 shadow-sm">
+        <div className="grid gap-3 md:grid-cols-4">
+          <AdminField
+            label="Tìm kiếm"
+            value={search}
+            onChange={(v) => {
+              setSearch(v);
+              setPage(1);
+            }}
+          />
+          <label className="text-xs font-semibold text-muted-foreground">
+            Danh mục
+            <select
+              className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 text-sm"
+              value={categoryFilter}
+              onChange={(e) => {
+                setCategoryFilter(e.target.value);
+                setPage(1);
+              }}
+            >
+              <option value="all">Tất cả</option>
+              {CATEGORIES.map((c) => (
+                <option key={c} value={c}>
+                  {c}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="text-xs font-semibold text-muted-foreground">
+            Trạng thái
+            <select
+              className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 text-sm"
+              value={statusFilter}
+              onChange={(e) => {
+                setStatusFilter(e.target.value as "all" | "published" | "draft");
+                setPage(1);
+              }}
+            >
+              <option value="all">Tất cả</option>
+              <option value="published">Đang hiện</option>
+              <option value="draft">Ẩn</option>
+            </select>
+          </label>
+          <div className="flex items-end text-sm text-muted-foreground">
+            {filtered.length} kết quả · Trang {currentPage}/{totalPages}
+          </div>
+        </div>
+        {totalPages > 1 && (
+          <div className="mt-3 flex flex-wrap gap-2">
+            <Button type="button" size="sm" variant="outline" disabled={currentPage <= 1} onClick={() => setPage((p) => p - 1)}>
+              ← Trước
+            </Button>
+            <Button
+              type="button"
+              size="sm"
+              variant="outline"
+              disabled={currentPage >= totalPages}
+              onClick={() => setPage((p) => p + 1)}
+            >
+              Sau →
+            </Button>
+          </div>
+        )}
+      </section>
+
       <div className="space-y-3">
-        {content.articles.map((a, i) => {
+        {paged.map((a) => {
           const open = expanded === a.id;
           return (
             <div key={a.id} className="overflow-hidden rounded-xl border bg-white shadow-sm">
@@ -153,7 +239,7 @@ export function AdminArticlesPage() {
                     <Checkbox
                       id={`pub-${a.id}`}
                       checked={a.published}
-                      onCheckedChange={(v) => updateArticle(i, { published: v === true })}
+                      onCheckedChange={(v) => updateArticleById(a.id, { published: v === true })}
                     />
                     <Label htmlFor={`pub-${a.id}`} className="cursor-pointer text-sm font-medium">
                       Hiển thị trên website
@@ -164,19 +250,19 @@ export function AdminArticlesPage() {
                     <AdminField
                       label="Tiêu đề"
                       value={a.title}
-                      onChange={(v) => updateArticle(i, { title: v })}
+                      onChange={(v) => updateArticleById(a.id, { title: v })}
                     />
                     <AdminField
                       label="Slug (URL)"
                       value={a.slug}
-                      onChange={(v) => updateArticle(i, { slug: slugify(v) })}
+                      onChange={(v) => updateArticleById(a.id, { slug: slugify(v) })}
                     />
                     <label className="text-xs font-semibold text-muted-foreground">
                       Danh mục
                       <select
                         className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 text-sm"
                         value={a.category}
-                        onChange={(e) => updateArticle(i, { category: e.target.value })}
+                        onChange={(e) => updateArticleById(a.id, { category: e.target.value })}
                       >
                         {CATEGORIES.map((c) => (
                           <option key={c} value={c}>
@@ -185,19 +271,19 @@ export function AdminArticlesPage() {
                         ))}
                       </select>
                     </label>
-                    <AdminField label="Ngày đăng" value={a.date} onChange={(v) => updateArticle(i, { date: v })} />
+                    <AdminField label="Ngày đăng" value={a.date} onChange={(v) => updateArticleById(a.id, { date: v })} />
                     <div className="md:col-span-2">
                       <AdminImageField
                         label="Ảnh đại diện"
                         value={a.image}
-                        onChange={(v) => updateArticle(i, { image: v })}
+                        onChange={(v) => updateArticleById(a.id, { image: v })}
                       />
                     </div>
                     <div className="md:col-span-2">
                       <AdminField
                         label="Mô tả ngắn (hiện trên thẻ bài)"
                         value={a.description}
-                        onChange={(v) => updateArticle(i, { description: v })}
+                        onChange={(v) => updateArticleById(a.id, { description: v })}
                         multiline
                       />
                     </div>
@@ -222,7 +308,7 @@ export function AdminArticlesPage() {
                         previewPath={`/tin-tuc/${a.slug}`}
                         previewUrl={`${siteUrl}/tin-tuc/${a.slug}`}
                         siteName={content.settings.seo.siteName}
-                        onChange={(key, value) => updateArticleSeo(i, key as keyof ArticleSeo, value)}
+                        onChange={(key, value) => updateArticleSeoById(a.id, key as keyof ArticleSeo, value)}
                       />
                     </div>
                     <div className="md:col-span-2">
@@ -251,7 +337,7 @@ export function AdminArticlesPage() {
                         }}
                         className="flex min-h-[200px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                         value={a.body}
-                        onChange={(e) => updateArticle(i, { body: e.target.value })}
+                        onChange={(e) => updateArticleById(a.id, { body: e.target.value })}
                       />
                       <AdminMediaPicker
                         open={mediaPickerFor === a.id}
@@ -266,9 +352,9 @@ export function AdminArticlesPage() {
                             const end = el.selectionEnd;
                             const next =
                               a.body.slice(0, start) + snippet + a.body.slice(end);
-                            updateArticle(i, { body: next });
+                            updateArticleById(a.id, { body: next });
                           } else {
-                            updateArticle(i, { body: (a.body ? `${a.body}\n\n` : "") + snippet.trim() });
+                            updateArticleById(a.id, { body: (a.body ? `${a.body}\n\n` : "") + snippet.trim() });
                           }
                           setMediaPickerFor(null);
                         }}
@@ -279,7 +365,7 @@ export function AdminArticlesPage() {
                     type="button"
                     variant="outline"
                     size="sm"
-                    onClick={() => updateArticle(i, { slug: slugify(a.title) })}
+                    onClick={() => updateArticleById(a.id, { slug: slugify(a.title) })}
                   >
                     Tạo slug từ tiêu đề
                   </Button>

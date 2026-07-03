@@ -4,6 +4,7 @@ import { SiteLayout } from "@/components/layout/SiteLayout";
 import { PageHero } from "@/components/layout/PageHero";
 import { Button } from "@/components/ui/button";
 import { buildServicePriceGroups } from "@/data/service-pricing";
+import { useSiteContent } from "@/context/SiteContentContext";
 import { CLINIC_PHONE_DISPLAY, TEL_URL, ZALO_URL } from "@/config/contact";
 import { cn } from "@/lib/utils";
 
@@ -19,9 +20,9 @@ function ZaloIcon({ className }: { className?: string }) {
   );
 }
 
-const groups = buildServicePriceGroups();
-
 export default function PriceListPage() {
+  const { content } = useSiteContent();
+  const groups = buildServicePriceGroups(content);
   return (
     <SiteLayout>
       <PageHero

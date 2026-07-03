@@ -1,5 +1,10 @@
 /** Nội dung chi tiết — bài Massage facial */
+const base = `${import.meta.env.BASE_URL}`.replace(/([^:]\/)\/+/g, "$1");
+export const MASSAGE_FACIAL_IMG = `${base}uploads/massage-facial.png`;
+
 export const MASSAGE_FACIAL_BODY = `Da mặt xỉn màu, phù nề buổi sáng, căng thẳng thể hiện rõ qua nếp nhăn trán và hàm siết chặt — trong khi bạn đã dùng serum đắt tiền nhưng thiếu bước thư giãn sâu cho cơ mặt. Massage facial tại Thiên Hoàng Kim Spa là liệu trình massage vùng mặt, cổ và vai với động tác nhẹ nhàng, kết hợp ấn huyệt và kích thích lưu thông bạch huyết (lymphatic drainage nhẹ), giúp da hồng hào, giảm sưng phù và mang lại cảm giác thư giãn toàn diện. Thường kết hợp làm sạch nhẹ, toner và dưỡng ẩm sau massage — phù hợp trước sự kiện quan trọng hoặc sau một ngày làm việc căng thẳng.
+
+![massage facial](${MASSAGE_FACIAL_IMG})
 
 ## Massage facial là gì?
 

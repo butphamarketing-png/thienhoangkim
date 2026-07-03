@@ -1,5 +1,10 @@
 /** Nội dung chi tiết — bài Phun xăm thẩm mỹ */
+const base = `${import.meta.env.BASE_URL}`.replace(/([^:]\/)\/+/g, "$1");
+export const PHUN_XAM_THAM_MY_IMG = `${base}uploads/phun-xam-tham-my.png`;
+
 export const PHUN_XAM_THAM_MY_BODY = `Mỗi sáng dành 15–20 phút kẻ mày, tô môi và eyeliner — rồi vẫn lo lem khi trời nóng hoặc mưa? Phun xăm thẩm mỹ tại Thiên Hoàng Kim Spa giúp bạn có dáng mày, màu môi và đường mí ổn định, trông tự nhiên như makeup nhẹ, tiết kiệm thời gian mỗi ngày. Chuyên viên có đào tạo phác thảo dáng theo tỉ lệ khuôn mặt, dùng mực organic có nguồn gốc rõ — không ép kiểu “đậm đặc” nếu bạn muốn thanh tao. Mỗi ca được thăm khám da, chọn màu phù hợp undertone và tư vấn chăm sóc sau phun để màu lên đẹp, bền hài hòa.
+
+![phun xăm thẩm mỹ](${PHUN_XAM_THAM_MY_IMG})
 
 ## Phun xăm thẩm mỹ là gì?
 

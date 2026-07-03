@@ -1,4 +1,12 @@
 import { DEFAULT_ARTICLES } from "@/data/articles.defaults";
+import {
+  buildDefaultServiceCategories,
+  buildDefaultServiceItems,
+  buildDefaultSitePages,
+  DEFAULT_CONTACT_PAGE,
+  DEFAULT_INTRO_NAV,
+  DEFAULT_NEWS_NAV,
+} from "@/data/cms-defaults";
 import type { SiteContent } from "@/types/site-content";
 
 const publicAsset = (file: string) => {
@@ -37,7 +45,7 @@ const processStepImages = [
 ] as const;
 
 export const DEFAULT_SITE_CONTENT: SiteContent = {
-  version: 3,
+  version: 4,
   settings: {
     clinicName: "THIÊN HOÀNG KIM",
     clinicSubtitle: "Aesthetic Clinic",
@@ -322,4 +330,10 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
     buttonLabel: "Xem chi tiết",
     buttonUrl: "/dich-vu",
   },
+  pages: buildDefaultSitePages(),
+  serviceCategories: buildDefaultServiceCategories(),
+  serviceItems: buildDefaultServiceItems(),
+  introNav: DEFAULT_INTRO_NAV,
+  newsNav: DEFAULT_NEWS_NAV,
+  contactPage: DEFAULT_CONTACT_PAGE,
 };

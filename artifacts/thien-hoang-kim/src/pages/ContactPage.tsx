@@ -4,19 +4,21 @@ import { PageHero } from "@/components/layout/PageHero";
 import { CtaContactSection } from "@/components/CtaContactSection";
 import { BookingSection } from "@/components/BookingSection";
 import { useSiteContent } from "@/context/SiteContentContext";
+import { resolveContactPage } from "@/lib/site-cms";
 import { formatPhoneDisplay } from "@/lib/format-phone";
 import { MAPS_URL } from "@/config/contact";
 
 export default function ContactPage() {
   const { content } = useSiteContent();
   const { settings, home } = content;
+  const contact = resolveContactPage(content);
 
   return (
     <SiteLayout>
       <PageHero
-        eyebrow="Liên hệ"
-        title="Liên hệ Thiên Hoàng Kim"
-        description="Đặt lịch tư vấn miễn phí hoặc liên hệ qua các kênh bên dưới."
+        eyebrow={contact.eyebrow}
+        title={contact.title}
+        description={contact.description}
         crumbs={[{ label: "Trang chủ", href: "/" }, { label: "Liên hệ" }]}
       />
       <section className="border-b border-border bg-white py-10">

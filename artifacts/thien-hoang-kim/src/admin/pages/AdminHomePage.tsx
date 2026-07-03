@@ -25,7 +25,34 @@ export function AdminHomePage() {
       <h2 className="font-serif text-2xl font-semibold text-primary">Nội dung trang chủ</h2>
 
       <section className="rounded-xl border bg-white p-6 shadow-sm">
-        <h3 className="mb-2 font-semibold">Banner (Hero)</h3>
+        <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+          <h3 className="font-semibold">Banner (Hero)</h3>
+          <div className="flex flex-wrap gap-2">
+            <Button
+              type="button"
+              size="sm"
+              variant="outline"
+              onClick={() =>
+                updateContent((prev) => ({
+                  ...prev,
+                  home: {
+                    ...prev.home,
+                    heroSlides: [
+                      ...prev.home.heroSlides,
+                      {
+                        id: crypto.randomUUID(),
+                        src: "",
+                        alt: "Banner mới",
+                      },
+                    ],
+                  },
+                }))
+              }
+            >
+              + Thêm slide
+            </Button>
+          </div>
+        </div>
         <p className="mb-4 text-sm text-muted-foreground">
           Khung slideshow cố định {HERO_SLIDE_SIZE_LABEL} (tỉ lệ {HERO_SLIDE_WIDTH}:{HERO_SLIDE_HEIGHT}).
           Ảnh hoặc video khác kích thước vẫn hiển thị đúng khung — tự cắt vừa (object-cover). Nên dùng ảnh ngang
@@ -73,6 +100,58 @@ export function AdminHomePage() {
                 })
               }
             />
+            <div className="flex flex-wrap gap-2">
+              <Button
+                type="button"
+                size="sm"
+                variant="outline"
+                disabled={i === 0}
+                onClick={() =>
+                  updateContent((prev) => {
+                    const slides = [...prev.home.heroSlides];
+                    [slides[i - 1], slides[i]] = [slides[i], slides[i - 1]];
+                    return { ...prev, home: { ...prev.home, heroSlides: slides } };
+                  })
+                }
+              >
+                ↑ Lên
+              </Button>
+              <Button
+                type="button"
+                size="sm"
+                variant="outline"
+                disabled={i === h.heroSlides.length - 1}
+                onClick={() =>
+                  updateContent((prev) => {
+                    const slides = [...prev.home.heroSlides];
+                    [slides[i], slides[i + 1]] = [slides[i + 1], slides[i]];
+                    return { ...prev, home: { ...prev.home, heroSlides: slides } };
+                  })
+                }
+              >
+                ↓ Xuống
+              </Button>
+              <Button
+                type="button"
+                size="sm"
+                variant="ghost"
+                className="text-destructive"
+                disabled={h.heroSlides.length <= 1}
+                onClick={() => {
+                  if (confirm("Xóa slide này?")) {
+                    updateContent((prev) => ({
+                      ...prev,
+                      home: {
+                        ...prev.home,
+                        heroSlides: prev.home.heroSlides.filter((_, j) => j !== i),
+                      },
+                    }));
+                  }
+                }}
+              >
+                Xóa slide
+              </Button>
+            </div>
           </div>
         );
         })}

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { ChevronRight } from "lucide-react";
 import { Link } from "wouter";
-import { MAIN_NAV } from "@/config/navigation";
+import { useSiteContent } from "@/context/SiteContentContext";
+import { buildMainNav } from "@/lib/site-cms";
 import { cn } from "@/lib/utils";
 
 type MobileNavMenuProps = {
@@ -11,10 +12,12 @@ type MobileNavMenuProps = {
 
 export function MobileNavMenu({ onClose, onBook }: MobileNavMenuProps) {
   const [openKey, setOpenKey] = useState<string | null>(null);
+  const { content } = useSiteContent();
+  const nav = buildMainNav(content);
 
   return (
     <div className="absolute left-0 top-full z-50 flex max-h-[80vh] w-full flex-col gap-1 overflow-y-auto border-b bg-white px-4 py-4 shadow-lg xl:hidden">
-      {MAIN_NAV.map((item) => {
+      {nav.map((item) => {
         const hasSub = Boolean(item.children?.length || item.columns?.length);
         const isOpen = openKey === item.label;
 

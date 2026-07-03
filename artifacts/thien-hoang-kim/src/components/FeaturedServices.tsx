@@ -2,19 +2,14 @@ import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { MAIN_NAV } from "@/config/navigation";
 import type { NavMegaColumn, NavLinkItem } from "@/config/navigation";
 import { SectionHeading } from "@/components/layout/SectionHeading";
-import { SERVICE_CATEGORIES } from "@/data/services-catalog";
+import { useSiteContent } from "@/context/SiteContentContext";
+import { buildMainNav, resolveServiceCategories } from "@/lib/site-cms";
 
 type FeaturedServicesProps = {
   images: [string, string];
 };
-
-function getServiceColumns(): NavMegaColumn[] {
-  const services = MAIN_NAV.find((item) => item.href === "/dich-vu");
-  return services?.columns ?? [];
-}
 
 function cardTitle(column: NavMegaColumn) {
   if (column.title.toUpperCase().includes("SPA")) return "SPA";
@@ -133,8 +128,10 @@ function ServiceHoverCard({
 }
 
 export function FeaturedServices({ images }: FeaturedServicesProps) {
-  const columns = getServiceColumns();
-  const categoryHrefs = [SERVICE_CATEGORIES["tham-my"].path, SERVICE_CATEGORIES.spa.path];
+  const { content } = useSiteContent();
+  const columns = buildMainNav(content).find((item) => item.href === "/dich-vu")?.columns ?? [];
+  const categories = resolveServiceCategories(content);
+  const categoryHrefs = [categories["tham-my"]?.path ?? "/tham-my", categories.spa?.path ?? "/spa"];
 
   if (columns.length < 2) return null;
 

@@ -1,4 +1,12 @@
 import { DEFAULT_ARTICLES } from "@/data/articles.defaults";
+import {
+  buildDefaultServiceCategories,
+  buildDefaultServiceItems,
+  buildDefaultSitePages,
+  DEFAULT_CONTACT_PAGE,
+  DEFAULT_INTRO_NAV,
+  DEFAULT_NEWS_NAV,
+} from "@/data/cms-defaults";
 import { DEFAULT_SITE_CONTENT } from "@/data/site-content.defaults";
 import { isSpaTopicArticle, isThamMyTopicArticle } from "@/lib/article-thumbnail";
 import { normalizeArticleSeo, normalizeSiteSeo } from "@/lib/seo";
@@ -76,7 +84,10 @@ function normalizeArticleImage(
     if (src.includes("nang-mui-hoang-kim") || src.includes("cat-mi-phuong-hoang") || src.includes("cay-toc-tu-than") || src.includes("cang-chi-tre-hoa") || src.includes("cang-noi-soi") || src.includes("filler-tao-hinh") || src.includes("botox-xoa-nhan-gon-ham")) return src;
     return thamMyImage;
   }
-  if (category === "Spa") return spaImage;
+  if (category === "Spa") {
+    if (src.includes("uploads/") && !src.includes("Spa.jpg")) return src;
+    return spaImage;
+  }
 
   if (src.includes("gioithieu.1") || src.includes("slideshow.1")) {
     if (slug && title && isThamMyTopicArticle(slug, title, body)) return thamMyImage;
@@ -169,5 +180,13 @@ export function mergeSiteContent(partial: Partial<SiteContent>): SiteContent {
       segments: partial.luckyWheel?.segments ?? base.luckyWheel.segments,
     },
     promotion: { ...base.promotion, ...partial.promotion },
+    pages: partial.pages?.length ? partial.pages : buildDefaultSitePages(),
+    serviceCategories: partial.serviceCategories?.length
+      ? partial.serviceCategories
+      : buildDefaultServiceCategories(),
+    serviceItems: partial.serviceItems?.length ? partial.serviceItems : buildDefaultServiceItems(),
+    introNav: partial.introNav?.length ? partial.introNav : DEFAULT_INTRO_NAV,
+    newsNav: partial.newsNav?.length ? partial.newsNav : DEFAULT_NEWS_NAV,
+    contactPage: partial.contactPage ?? DEFAULT_CONTACT_PAGE,
   };
 }

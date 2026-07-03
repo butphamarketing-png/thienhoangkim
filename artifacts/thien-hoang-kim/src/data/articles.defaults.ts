@@ -84,6 +84,10 @@ const cangChiTreHoaImage = publicAsset("uploads/cang-chi-tre-hoa.png");
 const cangNoiSoiImage = publicAsset("uploads/cang-noi-soi.png");
 const fillerTaoHinhImage = publicAsset("uploads/filler-tao-hinh.png");
 const botoxXoaNhanGonHamImage = publicAsset("uploads/botox-xoa-nhan-gon-ham.png");
+const phunXamThamMyImage = publicAsset("uploads/phun-xam-tham-my.png");
+const massageBodyThuGianImage = publicAsset("uploads/massage-body-thu-gian.png");
+const massageFacialImage = publicAsset("uploads/massage-facial.png");
+const chamSocDaToanDienImage = publicAsset("uploads/cham-soc-da-toan-dien.png");
 
 function svcSeo(
   metaTitle: string,
@@ -385,7 +389,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Phun mày, môi, eyeliner bán vĩnh viễn — tự nhiên, tiết kiệm makeup. Phác thảo trước khi phun tại An Đông, TP.HCM.",
     PHUN_XAM_THAM_MY_BODY,
-    spaImage,
+    phunXamThamMyImage,
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -399,7 +403,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       ogTitle: "Phun xăm thẩm mỹ — Mày, môi tự nhiên | Thiên Hoàng Kim",
       ogDescription:
         "Phun mày, môi, eyeliner bán vĩnh viễn — chuyên viên phác thảo theo khuôn mặt, mực organic. Đặt lịch 0938 673 996.",
-      ogImage: intro,
+      ogImage: phunXamThamMyImage,
     },
   ),
   article(
@@ -409,7 +413,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Massage toàn thân Swedish/Thái — giảm căng cơ vai gáy, stress, cải thiện giấc ngủ. Phòng riêng 60–90 phút tại An Đông, TP.HCM.",
     MASSAGE_BODY_THU_GIAN_BODY,
-    spaImage,
+    massageBodyThuGianImage,
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -423,7 +427,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       ogTitle: "Massage body thư giãn | Thiên Hoàng Kim Spa",
       ogDescription:
         "Massage toàn thân trong phòng riêng — chọn lực nhẹ hoặc sâu, tinh dầu thảo dược. Đặt lịch 0938 673 996.",
-      ogImage: intro,
+      ogImage: massageBodyThuGianImage,
     },
   ),
   article(
@@ -433,7 +437,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Massage mặt, cổ, vai kết hợp ấn huyệt — da hồng hào, giảm phù, thư giãn sâu. Gói 45–75 phút tại An Đông, TP.HCM.",
     MASSAGE_FACIAL_BODY,
-    spaImage,
+    massageFacialImage,
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -447,7 +451,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       ogTitle: "Massage facial — Da sáng, thư giãn | Thiên Hoàng Kim",
       ogDescription:
         "Massage mặt kết hợp ấn huyệt và dưỡng ẩm — phù hợp trước sự kiện hoặc sau ngày căng thẳng. Đặt lịch 0938 673 996.",
-      ogImage: intro,
+      ogImage: massageFacialImage,
     },
   ),
   article(
@@ -457,7 +461,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Facial 75–90 phút: soi da, làm sạch sâu, hút bã, massage, mask — phác đồ theo từng loại da tại An Đông, TP.HCM.",
     CHAM_SOC_DA_TOAN_DIEN_BODY,
-    spaImage,
+    chamSocDaToanDienImage,
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -471,7 +475,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       ogTitle: "Chăm sóc da toàn diện — Phác đồ cá nhân | Thiên Hoàng Kim",
       ogDescription:
         "Soi da, làm sạch sâu, massage và mask theo loại da — da sáng mịn sau một buổi. Đặt lịch 0938 673 996.",
-      ogImage: intro,
+      ogImage: chamSocDaToanDienImage,
     },
   ),
 ];

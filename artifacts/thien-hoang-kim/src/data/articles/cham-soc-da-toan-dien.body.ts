@@ -1,5 +1,10 @@
 /** Nội dung chi tiết — bài Chăm sóc da toàn diện */
+const base = `${import.meta.env.BASE_URL}`.replace(/([^:]\/)\/+/g, "$1");
+export const CHAM_SOC_DA_TOAN_DIEN_IMG = `${base}uploads/cham-soc-da-toan-dien.png`;
+
 export const CHAM_SOC_DA_TOAN_DIEN_BODY = `Da dầu bóng nhưng vẫn khô căng, mụn ẩn dưới da không lên được cũng không mất, hoặc bạn bôi đủ bước skincare mà da vẫn xỉn — thường là vì thiếu bước làm sạch sâu đúng cách và phác đồ không khớp loại da. Chăm sóc da toàn diện tại Thiên Hoàng Kim Spa là gói facial chuẩn spa y khoa: soi da, phân loại, làm sạch sâu, tẩy tế bào chết, hút bã nhờn (khi cần), massage mặt, serum và mask dưỡng — **cá nhân hóa** theo từng khách, không áp dụng một quy trình cho tất cả. Mỗi buổi 75–90 phút trong phòng riêng; da thường sáng, mịn và thoáng ngay sau liệu trình nếu duy trì chống nắng và skincare tại nhà theo hướng dẫn chuyên viên.
+
+![chăm sóc da toàn diện](${CHAM_SOC_DA_TOAN_DIEN_IMG})
 
 ## Chăm sóc da toàn diện là gì?
 
