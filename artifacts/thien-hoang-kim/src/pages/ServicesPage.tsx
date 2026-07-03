@@ -3,20 +3,21 @@ import { ArrowRight } from "lucide-react";
 import { SiteLayout } from "@/components/layout/SiteLayout";
 import { PageHero } from "@/components/layout/PageHero";
 import { useSiteContent } from "@/context/SiteContentContext";
-import { buildMainNav, resolveServiceCategories } from "@/lib/site-cms";
+import { buildMainNav, resolveServiceCategories, resolveServicesHubPage } from "@/lib/site-cms";
 
 export default function ServicesPage() {
   const { content } = useSiteContent();
   const servicesNav = buildMainNav(content).find((n) => n.href === "/dich-vu");
   const categories = resolveServiceCategories(content);
   const categoryPaths = [categories["tham-my"]?.path ?? "/tham-my", categories.spa?.path ?? "/spa"];
+  const hero = resolveServicesHubPage(content);
 
   return (
     <SiteLayout>
       <PageHero
-        eyebrow="Dịch vụ"
-        title="Dịch vụ thẩm mỹ"
-        description="Giải pháp thẩm mỹ y khoa và spa chăm sóc da chuyên sâu."
+        eyebrow={hero.eyebrow}
+        title={hero.title}
+        description={hero.description}
         crumbs={[{ label: "Trang chủ", href: "/" }, { label: "Dịch vụ" }]}
       />
       <div className="container mx-auto px-4 py-12 md:px-8 md:py-16">

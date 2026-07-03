@@ -4,8 +4,12 @@ import {
   buildDefaultServiceItems,
   buildDefaultSitePages,
   DEFAULT_CONTACT_PAGE,
+  DEFAULT_CUSTOMERS_PAGE,
+  DEFAULT_DOCTORS_PAGE,
   DEFAULT_INTRO_NAV,
   DEFAULT_NEWS_NAV,
+  DEFAULT_PRICE_LIST_PAGE,
+  DEFAULT_SERVICES_HUB_PAGE,
 } from "@/data/cms-defaults";
 import type { SiteContent } from "@/types/site-content";
 
@@ -45,7 +49,7 @@ const processStepImages = [
 ] as const;
 
 export const DEFAULT_SITE_CONTENT: SiteContent = {
-  version: 4,
+  version: 5,
   settings: {
     clinicName: "THIÊN HOÀNG KIM",
     clinicSubtitle: "Aesthetic Clinic",
@@ -336,4 +340,8 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
   introNav: DEFAULT_INTRO_NAV,
   newsNav: DEFAULT_NEWS_NAV,
   contactPage: DEFAULT_CONTACT_PAGE,
+  priceListPage: DEFAULT_PRICE_LIST_PAGE,
+  servicesHubPage: DEFAULT_SERVICES_HUB_PAGE,
+  customersPage: DEFAULT_CUSTOMERS_PAGE,
+  doctorsPage: DEFAULT_DOCTORS_PAGE,
 };

@@ -4,11 +4,14 @@ import {
   buildDefaultServiceItems,
   buildDefaultSitePages,
   DEFAULT_CONTACT_PAGE,
+  DEFAULT_CUSTOMERS_PAGE,
+  DEFAULT_DOCTORS_PAGE,
   DEFAULT_INTRO_NAV,
   DEFAULT_NEWS_NAV,
+  DEFAULT_PRICE_LIST_PAGE,
+  DEFAULT_SERVICES_HUB_PAGE,
 } from "@/data/cms-defaults";
-import type { ServiceCategoryId } from "@/types/site-content";
-import type { SiteContent, SitePage, SitePageBlock, SiteServiceItem } from "@/types/site-content";
+import type { ServiceCategoryId, SiteContactPage, SiteContent, SitePage, SitePageBlock, SitePageHero, SiteServiceItem } from "@/types/site-content";
 
 export type ResolvedPageContent = {
   title: string;
@@ -194,8 +197,24 @@ export function buildMainNav(content: SiteContent): NavItem[] {
   ];
 }
 
-export function resolveContactPage(content: SiteContent) {
+export function resolveContactPage(content: SiteContent): SiteContactPage {
   return content.contactPage ?? DEFAULT_CONTACT_PAGE;
+}
+
+export function resolvePriceListPage(content: SiteContent): SitePageHero {
+  return content.priceListPage ?? DEFAULT_PRICE_LIST_PAGE;
+}
+
+export function resolveServicesHubPage(content: SiteContent): SitePageHero {
+  return content.servicesHubPage ?? DEFAULT_SERVICES_HUB_PAGE;
+}
+
+export function resolveCustomersPage(content: SiteContent): SitePageHero {
+  return content.customersPage ?? DEFAULT_CUSTOMERS_PAGE;
+}
+
+export function resolveDoctorsPage(content: SiteContent): SitePageHero {
+  return content.doctorsPage ?? DEFAULT_DOCTORS_PAGE;
 }
 
 export function buildServicePriceGroups(content: SiteContent) {

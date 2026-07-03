@@ -156,12 +156,15 @@ export type SiteServiceItem = {
   sortOrder: number;
 };
 
-/** Hero trang liên hệ */
-export type SiteContactPage = {
+/** Hero trang (eyebrow + tiêu đề + mô tả) */
+export type SitePageHero = {
   eyebrow: string;
   title: string;
   description: string;
 };
+
+/** Hero trang liên hệ */
+export type SiteContactPage = SitePageHero;
 
 export type SiteSeo = {
   siteName: string;
@@ -251,6 +254,10 @@ export type SiteContent = {
   /** Menu con Tin tức */
   newsNav: SiteLink[];
   contactPage: SiteContactPage;
+  priceListPage: SitePageHero;
+  servicesHubPage: SitePageHero;
+  customersPage: SitePageHero;
+  doctorsPage: SitePageHero;
 };
 
 export type LuckyWheelSegment = {

@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { AdminField } from "@/admin/components/AdminField";
 import { AdminSaveBar } from "@/admin/components/AdminSaveBar";
 import { useSiteContent } from "@/context/SiteContentContext";
-import type { SiteLink } from "@/types/site-content";
+import type { SiteLink, SitePageHero } from "@/types/site-content";
 
 function LinkListEditor({
   title,
@@ -63,15 +63,46 @@ function LinkListEditor({
   );
 }
 
+function PageHeroEditor({
+  title,
+  pathHint,
+  hero,
+  onChange,
+}: {
+  title: string;
+  pathHint: string;
+  hero: SitePageHero;
+  onChange: (hero: SitePageHero) => void;
+}) {
+  return (
+    <section className="rounded-xl border bg-white p-5 shadow-sm">
+      <h3 className="mb-1 font-semibold">{title}</h3>
+      <p className="mb-4 text-xs text-muted-foreground">{pathHint}</p>
+      <div className="grid gap-3 md:grid-cols-2">
+        <AdminField label="Eyebrow" value={hero.eyebrow} onChange={(v) => onChange({ ...hero, eyebrow: v })} />
+        <AdminField label="Tiêu đề" value={hero.title} onChange={(v) => onChange({ ...hero, title: v })} />
+        <div className="md:col-span-2">
+          <AdminField
+            label="Mô tả"
+            value={hero.description}
+            multiline
+            onChange={(v) => onChange({ ...hero, description: v })}
+          />
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export function AdminNavigationPage() {
   const { content, updateContent } = useSiteContent();
 
   return (
     <div className="space-y-6">
       <AdminSaveBar />
-      <h2 className="font-serif text-2xl font-semibold text-primary">Menu & Liên hệ</h2>
+      <h2 className="font-serif text-2xl font-semibold text-primary">Menu & Hero trang</h2>
       <p className="text-sm text-muted-foreground">
-        Chỉnh menu con Giới thiệu, Tin tức và nội dung hero trang Liên hệ.
+        Chỉnh menu con và banner (eyebrow, tiêu đề, mô tả) các trang chính trên website.
       </p>
 
       <LinkListEditor
@@ -86,29 +117,40 @@ export function AdminNavigationPage() {
         onChange={(newsNav) => updateContent((p) => ({ ...p, newsNav }))}
       />
 
-      <section className="rounded-xl border bg-white p-5 shadow-sm">
-        <h3 className="mb-4 font-semibold">Trang Liên hệ — Hero</h3>
-        <div className="grid gap-3 md:grid-cols-2">
-          <AdminField
-            label="Eyebrow"
-            value={content.contactPage.eyebrow}
-            onChange={(v) => updateContent((p) => ({ ...p, contactPage: { ...p.contactPage, eyebrow: v } }))}
-          />
-          <AdminField
-            label="Tiêu đề"
-            value={content.contactPage.title}
-            onChange={(v) => updateContent((p) => ({ ...p, contactPage: { ...p.contactPage, title: v } }))}
-          />
-          <div className="md:col-span-2">
-            <AdminField
-              label="Mô tả"
-              value={content.contactPage.description}
-              multiline
-              onChange={(v) => updateContent((p) => ({ ...p, contactPage: { ...p.contactPage, description: v } }))}
-            />
-          </div>
-        </div>
-      </section>
+      <PageHeroEditor
+        title="Trang Dịch vụ"
+        pathHint="/dich-vu"
+        hero={content.servicesHubPage}
+        onChange={(servicesHubPage) => updateContent((p) => ({ ...p, servicesHubPage }))}
+      />
+
+      <PageHeroEditor
+        title="Trang Bảng giá"
+        pathHint="/bang-gia"
+        hero={content.priceListPage}
+        onChange={(priceListPage) => updateContent((p) => ({ ...p, priceListPage }))}
+      />
+
+      <PageHeroEditor
+        title="Trang Khách hàng"
+        pathHint="/khach-hang"
+        hero={content.customersPage}
+        onChange={(customersPage) => updateContent((p) => ({ ...p, customersPage }))}
+      />
+
+      <PageHeroEditor
+        title="Trang Đội ngũ bác sĩ"
+        pathHint="/gioi-thieu/doi-ngu-bac-si"
+        hero={content.doctorsPage}
+        onChange={(doctorsPage) => updateContent((p) => ({ ...p, doctorsPage }))}
+      />
+
+      <PageHeroEditor
+        title="Trang Liên hệ"
+        pathHint="/lien-he"
+        hero={content.contactPage}
+        onChange={(contactPage) => updateContent((p) => ({ ...p, contactPage }))}
+      />
     </div>
   );
 }

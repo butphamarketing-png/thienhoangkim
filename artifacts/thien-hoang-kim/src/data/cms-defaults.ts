@@ -5,6 +5,7 @@ import type {
   SiteContactPage,
   SiteLink,
   SitePage,
+  SitePageHero,
   SiteServiceCategory,
   SiteServiceItem,
 } from "@/types/site-content";
@@ -70,4 +71,29 @@ export const DEFAULT_CONTACT_PAGE: SiteContactPage = {
   eyebrow: "Liên hệ",
   title: "Liên hệ Thiên Hoàng Kim",
   description: "Đặt lịch tư vấn miễn phí hoặc liên hệ qua các kênh bên dưới.",
+};
+
+export const DEFAULT_PRICE_LIST_PAGE: SitePageHero = {
+  eyebrow: "Bảng giá",
+  title: "Bảng giá tham khảo",
+  description:
+    "Danh sách dịch vụ Thiên Hoàng Kim. Liên hệ hotline hoặc Zalo để được báo giá chi tiết theo phác đồ cá nhân.",
+};
+
+export const DEFAULT_SERVICES_HUB_PAGE: SitePageHero = {
+  eyebrow: "Dịch vụ",
+  title: "Dịch vụ thẩm mỹ",
+  description: "Giải pháp thẩm mỹ y khoa và spa chăm sóc da chuyên sâu.",
+};
+
+export const DEFAULT_CUSTOMERS_PAGE: SitePageHero = {
+  eyebrow: "Khách hàng",
+  title: "Khách hàng thực tế",
+  description: "Hình ảnh trước – sau từ khách hàng đã trải nghiệm dịch vụ tại Thiên Hoàng Kim.",
+};
+
+export const DEFAULT_DOCTORS_PAGE: SitePageHero = {
+  eyebrow: "Giới thiệu",
+  title: "Đội ngũ bác sĩ",
+  description: "Bác sĩ chuyên môn cao, tận tâm và giàu kinh nghiệm trong lĩnh vực thẩm mỹ.",
 };

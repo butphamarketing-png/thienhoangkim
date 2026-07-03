@@ -5,6 +5,7 @@ import { PageHero } from "@/components/layout/PageHero";
 import { Button } from "@/components/ui/button";
 import { buildServicePriceGroups } from "@/data/service-pricing";
 import { useSiteContent } from "@/context/SiteContentContext";
+import { resolvePriceListPage } from "@/lib/site-cms";
 import { CLINIC_PHONE_DISPLAY, TEL_URL, ZALO_URL } from "@/config/contact";
 import { cn } from "@/lib/utils";
 
@@ -23,12 +24,13 @@ function ZaloIcon({ className }: { className?: string }) {
 export default function PriceListPage() {
   const { content } = useSiteContent();
   const groups = buildServicePriceGroups(content);
+  const hero = resolvePriceListPage(content);
   return (
     <SiteLayout>
       <PageHero
-        eyebrow="Bảng giá"
-        title="Bảng giá tham khảo"
-        description="Danh sách dịch vụ Thiên Hoàng Kim. Liên hệ hotline hoặc Zalo để được báo giá chi tiết theo phác đồ cá nhân."
+        eyebrow={hero.eyebrow}
+        title={hero.title}
+        description={hero.description}
         crumbs={[{ label: "Trang chủ", href: "/" }, { label: "Bảng giá" }]}
       />
 

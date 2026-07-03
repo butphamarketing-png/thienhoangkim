@@ -4,8 +4,12 @@ import {
   buildDefaultServiceItems,
   buildDefaultSitePages,
   DEFAULT_CONTACT_PAGE,
+  DEFAULT_CUSTOMERS_PAGE,
+  DEFAULT_DOCTORS_PAGE,
   DEFAULT_INTRO_NAV,
   DEFAULT_NEWS_NAV,
+  DEFAULT_PRICE_LIST_PAGE,
+  DEFAULT_SERVICES_HUB_PAGE,
 } from "@/data/cms-defaults";
 import { DEFAULT_SITE_CONTENT } from "@/data/site-content.defaults";
 import { isSpaTopicArticle, isThamMyTopicArticle } from "@/lib/article-thumbnail";
@@ -188,5 +192,9 @@ export function mergeSiteContent(partial: Partial<SiteContent>): SiteContent {
     introNav: partial.introNav?.length ? partial.introNav : DEFAULT_INTRO_NAV,
     newsNav: partial.newsNav?.length ? partial.newsNav : DEFAULT_NEWS_NAV,
     contactPage: partial.contactPage ?? DEFAULT_CONTACT_PAGE,
+    priceListPage: partial.priceListPage ?? DEFAULT_PRICE_LIST_PAGE,
+    servicesHubPage: partial.servicesHubPage ?? DEFAULT_SERVICES_HUB_PAGE,
+    customersPage: partial.customersPage ?? DEFAULT_CUSTOMERS_PAGE,
+    doctorsPage: partial.doctorsPage ?? DEFAULT_DOCTORS_PAGE,
   };
 }
