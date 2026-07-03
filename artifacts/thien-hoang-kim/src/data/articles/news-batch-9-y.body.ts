@@ -214,7 +214,7 @@ Quấn + ốc tai ấm; thư giãn 20–40 phút; tắm lại.
 
 ## Lưu ý
 
-Dị ứng hương — báo trước. Không thay giảm mỡ [hút mỡ](/tham-my/hut-mo-cay-mo-ma).
+Dị ứng hương — báo trước. Không thay giảm mỡ [hút mỡ](/tham-my).
 
 ## Câu hỏi thường gặp
 

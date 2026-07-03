@@ -12,7 +12,7 @@ const PILLARS = {
   B: "/tham-my/cat-mi-phuong-hoang",
   C: "/tham-my/cay-toc-tu-than",
   D: "/tham-my/cang-noi-soi",
-  E: "/tham-my/hut-mo-cay-mo-ma",
+  E: "/tham-my",
   F: "/tham-my/filler-tao-hinh",
   G: "/tham-my/botox-xoa-nhan-gon-ham",
   H: "/spa/cham-soc-da-toan-dien",

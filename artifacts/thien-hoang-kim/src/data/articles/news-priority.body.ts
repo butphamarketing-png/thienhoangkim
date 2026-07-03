@@ -344,7 +344,7 @@ Nằm trên trục Hùng Vương — đường quen thuộc khu An Đông, Chợ
 
 ## Dịch vụ tại Thiên Hoàng Kim An Đông
 
-**Thẩm mỹ y khoa:** Nâng mũi hoàng kim, cắt mí phượng hoàng, cấy tóc tự thân, căng nội soi, căng chỉ trẻ hóa, hút mỡ – cấy mỡ má, filler, botox — do bác sĩ thăm khám và thực hiện các can thiệp trong phạm vi chuyên môn.
+**Thẩm mỹ y khoa:** Nâng mũi hoàng kim, cắt mí phượng hoàng, cấy tóc tự thân, căng nội soi, căng chỉ trẻ hóa, filler, botox — do bác sĩ thăm khám và thực hiện các can thiệp trong phạm vi chuyên môn.
 
 **Spa:** Ủ đá muối Himalaya, phun xăm thẩm mỹ, massage body, massage facial, chăm sóc da toàn diện — do chuyên viên đào tạo bài bản.
 
@@ -410,7 +410,7 @@ Botox giảm hoạt động cơ nhai (masseter) — cơ nhỏ dần theo thời 
 
 ![Botox gọn hàm bao lâu thấy kết quả tại Thiên Hoàng Kim](${NEWS_IMG_INTRO})
 
-Chi tiết kỹ thuật và giá tư vấn tại [botox xóa nhăn gọn hàm](/tham-my/botox-xoa-nhan-gon-ham). Hàm vuông do mỡ nhiều có thể cần kết hợp [hút mỡ cấy mỡ má](/tham-my/hut-mo-cay-mo-ma) — bác sĩ đánh giá khi khám.
+Chi tiết kỹ thuật và giá tư vấn tại [botox xóa nhăn gọn hàm](/tham-my/botox-xoa-nhan-gon-ham). Hàm vuông do mỡ nhiều có thể cần kết hợp [hút mỡ cấy mỡ má](/tham-my) — bác sĩ đánh giá khi khám.
 
 ## Ai thấy kết quả botox gọn hàm nhanh hơn?
 

@@ -905,7 +905,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "hút mỡ lưng",
     "slug": "hut-mo-lung",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -914,7 +914,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "hút mỡ eo",
     "slug": "hut-mo-eo",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -923,7 +923,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "hút mỡ hông",
     "slug": "hut-mo-hong",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -932,7 +932,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "hút mỡ bắp chân",
     "slug": "hut-mo-bap-chan",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -941,7 +941,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "hút mỡ nách",
     "slug": "hut-mo-nach",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -950,7 +950,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "hút mỡ cổ",
     "slug": "hut-mo-vung-co",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -959,7 +959,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "hút mỡ toàn thân",
     "slug": "hut-mo-toan-than",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -968,7 +968,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "hút mỡ VASER",
     "slug": "hut-mo-vaser",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -977,7 +977,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "hút mỡ Lipo 360",
     "slug": "hut-mo-lipo-360",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -986,7 +986,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "hút mỡ không phẫu thuật",
     "slug": "hut-mo-khong-can-mo",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -995,7 +995,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "coolsculpting là gì",
     "slug": "coolsculpting-la-gi",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -1004,7 +1004,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "cavitation giảm mỡ",
     "slug": "cavitation-giam-mo",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -1013,7 +1013,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "giảm mỡ bụng",
     "slug": "giam-mo-bung",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -1022,7 +1022,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "giảm mỡ đùi",
     "slug": "giam-mo-dui",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -1031,7 +1031,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "giảm mỡ cánh tay",
     "slug": "giam-mo-canh-tay",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -1040,7 +1040,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "tạo hình thân trên",
     "slug": "tao-hinh-than-tren",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -1049,7 +1049,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "tạo hình thân dưới",
     "slug": "tao-hinh-than-duoi",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -1058,7 +1058,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "cấy mỡ ngực",
     "slug": "cay-mo-nguc",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -1067,7 +1067,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "cấy mỡ mông",
     "slug": "cay-mo-mong",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -1076,7 +1076,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "Brazilian butt lift",
     "slug": "brazilian-butt-lift",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -1085,7 +1085,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "hút mỡ và căng da",
     "slug": "hut-mo-va-cang-da",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -1094,7 +1094,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "sau hút mỡ bao lâu đi làm",
     "slug": "sau-hut-mo-bao-lau-di-lam",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -1103,7 +1103,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "đeo đai sau hút mỡ",
     "slug": "deo-dai-sau-hut-mo",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -1112,7 +1112,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "hút mỡ có nguy hiểm không",
     "slug": "hut-mo-co-nguy-hiem-khong",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {
@@ -1121,7 +1121,7 @@
     "groupName": "Hút mỡ & body contouring",
     "focus": "hút mỡ bao lâu thấy kết quả",
     "slug": "hut-mo-bao-lau-thay-ket-qua",
-    "pillar": "/tham-my/hut-mo-cay-mo-ma",
+    "pillar": "/tham-my",
     "priority": "cao"
   },
   {

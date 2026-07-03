@@ -50,12 +50,6 @@ const THAM_MY_ITEMS: ServiceCatalogItem[] = [
     description: "Nâng cơ, săn chắc da bằng chỉ sinh học — không phẫu thuật, hồi phục nhanh.",
   },
   {
-    slug: "hut-mo-cay-mo-ma",
-    label: "Hút mỡ – cấy mỡ má",
-    articleSlug: "hut-mo-cay-mo-ma",
-    description: "Tạo hình mặt V-line: hút mỡ vùng thừa, cấy mỡ tự thân làm đầy má.",
-  },
-  {
     slug: "filler-tao-hinh",
     label: "Filler tạo hình",
     articleSlug: "filler-tao-hinh",

@@ -12,7 +12,6 @@ const PILLAR_LABELS: Record<string, string> = {
   "/tham-my/cay-toc-tu-than": "cấy tóc tự thân",
   "/tham-my/cang-noi-soi": "căng nội soi",
   "/tham-my/cang-chi-tre-hoa": "căng chỉ trẻ hóa",
-  "/tham-my/hut-mo-cay-mo-ma": "hút mỡ – cấy mỡ má",
   "/tham-my/filler-tao-hinh": "filler tạo hình",
   "/tham-my/botox-xoa-nhan-gon-ham": "botox xóa nhăn, gọn hàm",
   "/spa/cham-soc-da-toan-dien": "chăm sóc da toàn diện",

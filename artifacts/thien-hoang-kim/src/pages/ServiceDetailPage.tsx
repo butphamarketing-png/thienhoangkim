@@ -1,4 +1,4 @@
-import { Link, useRoute } from "wouter";
+import { Link, Redirect, useRoute } from "wouter";
 import { Calendar } from "lucide-react";
 import { SiteLayout } from "@/components/layout/SiteLayout";
 import { Button } from "@/components/ui/button";
@@ -22,6 +22,10 @@ export default function ServiceDetailPage({ categoryId }: ServiceDetailPageProps
   const category = SERVICE_CATEGORIES[categoryId];
   const [, params] = useRoute(`${category.path}/:slug`);
   const slug = params?.slug ?? "";
+
+  if (slug === "hut-mo-cay-mo-ma") {
+    return <Redirect to={category.path} />;
+  }
 
   const service = getServiceItem(categoryId, slug);
   if (!service) return <NotFound />;

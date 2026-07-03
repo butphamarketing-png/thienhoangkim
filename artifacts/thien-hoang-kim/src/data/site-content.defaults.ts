@@ -1,11 +1,16 @@
 import { DEFAULT_ARTICLES } from "@/data/articles.defaults";
 import type { SiteContent } from "@/types/site-content";
 
-const publicAsset = (file: string) =>
-  `${import.meta.env.BASE_URL}${file}`.replace(/([^:]\/)\/+/g, "$1");
+const publicAsset = (file: string) => {
+  const encoded = file.split("/").map((part) => encodeURIComponent(part)).join("/");
+  return `${import.meta.env.BASE_URL}${encoded}`.replace(/([^:]\/)\/+/g, "$1");
+};
 
 const slide = publicAsset("slideshow.1.png");
 const intro = publicAsset("gioithieu.1.png");
+const thamMyImage = publicAsset("uploads/Thẩm Mỹ.jpg");
+const spaImage = publicAsset("uploads/Spa.jpg");
+const doctorHoThanhHai = publicAsset("uploads/Ho-Thanh-Hai.png");
 
 export const DEFAULT_SITE_CONTENT: SiteContent = {
   version: 3,
@@ -55,9 +60,14 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
   home: {
     heroSlides: [
       {
-        id: "slideshow-1",
-        src: slide,
-        alt: "Thiên Hoàng Kim Aesthetic Clinic — Nâng Tầm Nhan Sắc",
+        id: "hero-tham-my",
+        src: thamMyImage,
+        alt: "Thiên Hoàng Kim — Dịch vụ Thẩm mỹ",
+      },
+      {
+        id: "hero-spa",
+        src: spaImage,
+        alt: "Thiên Hoàng Kim — Dịch vụ Spa",
       },
     ],
     commitmentsTitle: "CAM KẾT TỪ THIÊN HOÀNG KIM",
@@ -114,7 +124,7 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
       { value: "98%", title: "Khách hàng hài lòng", sub: "Về chất lượng dịch vụ" },
     ],
     aboutImage: intro,
-    featuredServiceImages: [slide, intro],
+    featuredServiceImages: [thamMyImage, spaImage],
     bookingImage: intro,
     testimonialsBackground: slide,
     ctaTitle: "SẴN SÀNG NÂNG TẦM NHAN SẮC?",
@@ -158,7 +168,6 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
     { value: "cay-toc-tu-than", label: "Cấy tóc tự thân" },
     { value: "cang-noi-soi", label: "Căng nội soi" },
     { value: "cang-chi-tre-hoa", label: "Căng chỉ trẻ hóa" },
-    { value: "hut-mo-cay-mo-ma", label: "Hút mỡ – cấy mỡ má" },
     { value: "filler-tao-hinh", label: "Filler tạo hình" },
     { value: "botox-xoa-nhan-gon-ham", label: "Botox xóa nhăn, gọn hàm" },
     { value: "u-da-muoi-himalaya", label: "Ủ đá muối Himalaya" },
@@ -171,27 +180,11 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
   doctors: [
     {
       id: "d1",
-      img: slide,
-      name: "TS.BS NGUYỄN VĂN ANH",
-      spec: "Chuyên khoa Phẫu thuật thẩm mỹ",
-      exp: "15 NĂM KINH NGHIỆM",
-      bio: "Hơn 15 năm gắn bó với nghề, kiến tạo vẻ đẹp hoàn mỹ cho hàng ngàn khách hàng bằng chữ Tâm.",
-    },
-    {
-      id: "d2",
-      img: intro,
-      name: "BS.CKII TRẦN QUỐC BẢO",
-      spec: "Chuyên khoa Thẩm mỹ nội khoa",
-      exp: "12 NĂM KINH NGHIỆM",
-      bio: "Chuyên gia hàng đầu về trẻ hóa da công nghệ cao và các liệu trình thẩm mỹ không xâm lấn.",
-    },
-    {
-      id: "d3",
-      img: slide,
-      name: "BS.CKI LÊ THỊ HÀ MY",
-      spec: "Chuyên khoa Da liễu thẩm mỹ",
-      exp: "10 NĂM KINH NGHIỆM",
-      bio: "Luôn cập nhật những xu hướng và công nghệ điều trị da tiên tiến nhất trên thế giới.",
+      img: doctorHoThanhHai,
+      name: "BS. HỒ THÀNH HẢI",
+      spec: "Chuyên khoa Thẩm mỹ",
+      exp: "NHIỀU NĂM KINH NGHIỆM",
+      bio: "Bác sĩ tận tâm, giàu kinh nghiệm trong lĩnh vực thẩm mỹ — cam kết mang đến kết quả an toàn và tự nhiên cho khách hàng.",
     },
   ],
   articles: DEFAULT_ARTICLES,

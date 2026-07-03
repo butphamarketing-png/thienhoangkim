@@ -60,7 +60,11 @@ function categoryForSlug(slug: string): string {
   return "Kiến thức";
 }
 
-const entries = mergedPlan as KeywordPlanEntry[];
+const REMOVED_ARTICLE_SLUGS = new Set(["hut-mo-cay-mo-ma", "hut-mo-ma"]);
+
+const entries = (mergedPlan as KeywordPlanEntry[]).filter(
+  (entry) => !REMOVED_ARTICLE_SLUGS.has(entry.slug),
+);
 
 export const GENERATED_NEWS_ARTICLES: SiteArticle[] = entries.map((entry, index) => {
   const focusTitle = entry.focus.charAt(0).toUpperCase() + entry.focus.slice(1);

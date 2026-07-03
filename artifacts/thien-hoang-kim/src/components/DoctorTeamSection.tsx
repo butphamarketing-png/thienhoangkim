@@ -105,9 +105,10 @@ export function DoctorTeamSection({ doctors }: DoctorTeamSectionProps) {
             className={cn(
               "grid min-h-[420px] flex-1 gap-6 md:gap-8",
               !canSlide && "mx-auto",
-              perView === 1 && "grid-cols-1",
-              perView === 2 && "grid-cols-2",
-              perView === 3 && "grid-cols-3",
+              doctors.length === 1 && "max-w-md grid-cols-1",
+              doctors.length > 1 && perView === 1 && "grid-cols-1",
+              doctors.length > 1 && perView === 2 && "grid-cols-2",
+              doctors.length > 1 && perView === 3 && "grid-cols-3",
             )}
           >
             <AnimatePresence mode="popLayout">

@@ -5,7 +5,6 @@ import { CAT_MI_PHUONG_HOANG_BODY } from "@/data/articles/cat-mi-phuong-hoang.bo
 import { CAY_TOC_TU_THAN_BODY } from "@/data/articles/cay-toc-tu-than.body";
 import { CANG_NOI_SOI_BODY } from "@/data/articles/cang-noi-soi.body";
 import { CANG_CHI_TRE_HOA_BODY } from "@/data/articles/cang-chi-tre-hoa.body";
-import { HUT_MO_CAY_MO_MA_BODY } from "@/data/articles/hut-mo-cay-mo-ma.body";
 import { FILLER_TAO_HINH_BODY } from "@/data/articles/filler-tao-hinh.body";
 import { BOTOX_XOA_NHAN_GON_HAM_BODY } from "@/data/articles/botox-xoa-nhan-gon-ham.body";
 import { U_DA_MUOI_HIMALAYA_BODY } from "@/data/articles/u-da-muoi-himalaya.body";
@@ -33,7 +32,6 @@ import {
   TRI_NAM_TAI_NHA_BODY,
   MUN_AN_LA_GI_BODY,
   RUNG_TOC_NAM_BODY,
-  HUT_MO_MA_BODY,
   GIA_NANG_MUI_BAO_NHIEU_BODY,
   SUA_MUI_HONG_BODY,
   FILLER_MOI_TU_NHIEN_BODY,
@@ -138,16 +136,16 @@ const CATEGORY_ARTICLES: SiteArticle[] = [
     "Dịch vụ Thẩm Mỹ y khoa tại Thiên Hoàng Kim",
     "01/06/2024",
     "Tổng quan các dịch vụ thẩm mỹ phẫu thuật và không phẫu thuật — chuẩn y khoa, an toàn, tự nhiên.",
-    `Thẩm Mỹ y khoa tại Thiên Hoàng Kim gồm các giải pháp can thiệp sâu để cải thiện khuôn mặt và cơ thể: từ phẫu thuật nâng mũi, cắt mí, cấy tóc đến căng da nội soi, căng chỉ, hút mỡ – cấy mỡ má, filler và botox.
+    `Thẩm Mỹ y khoa tại Thiên Hoàng Kim gồm các giải pháp can thiệp sâu để cải thiện khuôn mặt và cơ thể: từ phẫu thuật nâng mũi, cắt mí, cấy tóc đến căng da nội soi, căng chỉ, filler và botox.
 
 Mỗi khách hàng được thăm khám trực tiếp, phân tích tỉ lệ khuôn mặt và lên phác đồ riêng. Quy trình tuân thủ vô trùng, gây mê an toàn và theo dõi sau điều trị — đảm bảo kết quả hài hòa, không lộ dấu vết thẩm mỹ.
 
-Danh mục Thẩm Mỹ gồm 8 dịch vụ chính: Nâng mũi hoàng kim, Cắt mí phượng hoàng, Cấy tóc tự thân, Căng nội soi, Căng chỉ trẻ hóa, Hút mỡ – cấy mỡ má, Filler tạo hình và Botox xóa nhăn, gọn hàm. Chọn dịch vụ bên dưới để tìm hiểu chi tiết.`,
+Danh mục Thẩm Mỹ gồm 7 dịch vụ chính: Nâng mũi hoàng kim, Cắt mí phượng hoàng, Cấy tóc tự thân, Căng nội soi, Căng chỉ trẻ hóa, Filler tạo hình và Botox xóa nhăn, gọn hàm. Chọn dịch vụ bên dưới để tìm hiểu chi tiết.`,
     slide,
     "Thẩm mỹ",
     svcSeo(
       "Dịch vụ Thẩm Mỹ y khoa TP.HCM",
-      "8 dịch vụ thẩm mỹ chuẩn y khoa tại Thiên Hoàng Kim: nâng mũi hoàng kim, cắt mí phượng hoàng, cấy tóc, căng nội soi, filler, botox…",
+      "7 dịch vụ thẩm mỹ chuẩn y khoa tại Thiên Hoàng Kim: nâng mũi hoàng kim, cắt mí phượng hoàng, cấy tóc, căng nội soi, filler, botox…",
       "dịch vụ thẩm mỹ y khoa",
       "thẩm mỹ y khoa, phòng khám thẩm mỹ TP.HCM, nâng mũi, cắt mí, filler, botox",
     ),
@@ -294,30 +292,6 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       ogDescription:
         "Căng chỉ sinh học nâng cơ, kích thích collagen — hồi phục nhanh. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
       ogImage: slide,
-    },
-  ),
-  article(
-    "tm-6",
-    "hut-mo-cay-mo-ma",
-    "Hút mỡ – cấy mỡ má — Gương mặt V-line",
-    "01/07/2026",
-    "Combo hút mỡ mặt gọn hàm V-line và cấy mỡ tự thân làm đầy má — tư vấn miễn phí tại An Đông, TP.HCM.",
-    HUT_MO_CAY_MO_MA_BODY,
-    intro,
-    "Thẩm mỹ",
-    {
-      ...DEFAULT_ARTICLE_SEO,
-      metaTitle: "Hút mỡ cấy mỡ má V-line TP.HCM | Thiên Hoàng Kim",
-      metaDescription:
-        "Hút mỡ cấy mỡ má tạo hình V-line — gọn hàm, má đầy tự nhiên tại An Đông TP.HCM. Tư vấn miễn phí tại Thiên Hoàng Kim.",
-      focusKeyphrase: "hút mỡ cấy mỡ má",
-      keywords:
-        "hút mỡ cấy mỡ má, hút mỡ mặt, cấy mỡ má, V-line, tạo hình mặt TP.HCM, hút mỡ An Đông",
-      canonicalUrl: "/tham-my/hut-mo-cay-mo-ma",
-      ogTitle: "Hút mỡ – cấy mỡ má V-line | Thiên Hoàng Kim",
-      ogDescription:
-        "Combo hút mỡ gọn hàm và cấy mỡ tự thân làm đầy má — khuôn mặt trẻ trung. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
-      ogImage: intro,
     },
   ),
   article(
@@ -716,23 +690,6 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
       "Rụng tóc nam và hói đầu: nguyên nhân, điều trị minoxidil, finasteride, cấy tóc. Tư vấn tại Thiên Hoàng Kim TP.HCM.",
       "rụng tóc nam",
       "hói đầu nam, rụng tóc nam giới, cấy tóc nam, trị hói đầu",
-    ),
-  ),
-  article(
-    "tn-14",
-    "hut-mo-ma",
-    "Hút mỡ má — Quy trình, đau không và hồi phục",
-    "02/07/2026",
-    "Hút mỡ má gọn mặt V-line — có thể kết hợp cấy mỡ má tự thân khi cần.",
-    HUT_MO_MA_BODY,
-    slide,
-    "Kiến thức",
-    newsSeo(
-      "hut-mo-ma",
-      "Hút mỡ má",
-      "Hút mỡ má có đau không? Quy trình, hồi phục và so sánh botox gọn hàm. Tư vấn tại Thiên Hoàng Kim An Đông.",
-      "hút mỡ má",
-      "hút mỡ mặt, hút mỡ má TP.HCM, V-line mặt, tạo hình mặt",
     ),
   ),
   article(

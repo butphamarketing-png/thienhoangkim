@@ -145,7 +145,7 @@ const GROUPS = [
   {
     group: "T",
     name: "Hút mỡ & body contouring",
-    pillar: "/tham-my/hut-mo-cay-mo-ma",
+    pillar: "/tham-my",
     items: [
       { focus: "hút mỡ lưng", slug: "hut-mo-lung" },
       { focus: "hút mỡ eo", slug: "hut-mo-eo" },

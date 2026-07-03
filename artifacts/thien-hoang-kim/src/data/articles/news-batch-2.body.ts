@@ -118,7 +118,7 @@ Gội sạch dầu da đầu; không kéo tóc quá chặt (kiểu búi, nón k�
 
 Khám rụng tóc và tư vấn cấy tóc: **0938 673 996** — Thiên Hoàng Kim, 323–325 Hùng Vương, An Đông TP.HCM.`;
 
-export const HUT_MO_MA_BODY = `Hút mỡ má là thủ thuật thẩm mỹ lấy bỏ mô mỡ thừa vùng má, gò má, cằm để gương mặt gọn, thon hơn — thường kết hợp [cấy mỡ má](/tham-my/hut-mo-cay-mo-ma) tự thân nếu má hóp sau hút. Nhiều khách hỏi hút mỡ má có đau không, bao lâu hồi phục và ai phù hợp — dưới đây là giải thích thực tế.
+export const HUT_MO_MA_BODY = `Hút mỡ má là thủ thuật thẩm mỹ lấy bỏ mô mỡ thừa vùng má, gò má, cằm để gương mặt gọn, thon hơn — thường kết hợp [cấy mỡ má](/tham-my) tự thân nếu má hóp sau hút. Nhiều khách hỏi hút mỡ má có đau không, bao lâu hồi phục và ai phù hợp — dưới đây là giải thích thực tế.
 
 ## Hút mỡ má giải quyết vấn đề gì?
 
@@ -152,7 +152,7 @@ Sưng giảm 1–2 tuần; hình dáng ổn định dần 1–3 tháng. Mặc á
 
 **Hút mỡ má TP.HCM giá bao nhiêu?** Phụ thuộc vùng, kỹ thuật, có cấy mỡ kèm — tư vấn miễn phí báo giá cụ thể.
 
-Tư vấn hút mỡ – cấy mỡ má: **0938 673 996** — [Thiên Hoàng Kim](/tham-my/hut-mo-cay-mo-ma), An Đông TP.HCM.`;
+Tư vấn hút mỡ – cấy mỡ má: **0938 673 996** — [Thiên Hoàng Kim](/tham-my), An Đông TP.HCM.`;
 
 export const GIA_NANG_MUI_BAO_NHIEU_BODY = `Giá nâng mũi bao nhiêu là câu hỏi đầu tiên của hầu hết khách — nhưng không có một con số cố định cho mọi người. Giá nâng mũi phụ thuộc kỹ thuật (nâng sụn tai, sụn sườn, bọc sụn), mức độ chỉnh sửa, bác sĩ, cơ sở và chi phí gây mê, tái khám. Bài viết giúp bạn hiểu cấu trúc giá minh bạch trước khi đặt lịch [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim).
 

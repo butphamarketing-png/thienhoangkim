@@ -10,7 +10,7 @@ Mỡ cục bộ, da còn đàn hồi; BMI ổn định. Không thay giảm cân 
 
 ## Kỹ thuật
 
-Tumescent, [VASER](/tin-tuc/hut-mo-vaser) hoặc cannula — lượng mỡ vừa, thời gian ngắn hơn [hút mỡ toàn thân](/tin-tuc/hut-mo-toan-than). Dịch vụ [hút mỡ cấy mỡ mà](/tham-my/hut-mo-cay-mo-ma).
+Tumescent, [VASER](/tin-tuc/hut-mo-vaser) hoặc cannula — lượng mỡ vừa, thời gian ngắn hơn [hút mỡ toàn thân](/tin-tuc/hut-mo-toan-than). Dịch vụ [hút mỡ cấy mỡ mà](/tham-my).
 
 ![Hút mỡ lưng — Thiên Hoàng Kim](${NEWS_IMG_SLIDE})
 
@@ -66,7 +66,7 @@ Ngủ nghiêng; không ngồi ép mông nếu vừa BBL; [đeo đai](/tin-tuc/de
 
 **Hút hông đau?** Gây mê/tê — sau đó thuốc giảm đau. **Kết hợp eo?** Thường có trong Lipo 360.
 
-**0938 673 996** — [hút mỡ cấy mỡ mà](/tham-my/hut-mo-cay-mo-ma).`;
+**0938 673 996** — [hút mỡ cấy mỡ mà](/tham-my).`;
 
 export const HUT_MO_BAP_CHAN_BODY = `Hút mỡ bắp chân — hiếm hơn bụng/đùi; dành cho bắp to do mỡ (không phải cơ). Cần phân biệt mỡ vs cơ gánh — hút chỉ hiệu quả khi mỡ là chủ yếu.
 
@@ -132,7 +132,7 @@ Cannula mềm; tránh tổn thương thần kinh/dây chằng — [hút mỡ có
 
 **Khác filler cằm?** Hút bớt mỡ; filler thêm thể tích. **Kết quả khi nào?** [Bao lâu thấy kết quả](/tin-tuc/hut-mo-bao-lau-thay-ket-qua) — 4–8 tuần.
 
-**0938 673 996** — [hút mỡ](/tham-my/hut-mo-cay-mo-ma).`;
+**0938 673 996** — [hút mỡ](/tham-my).`;
 
 export const HUT_MO_TOAN_THAN_BODY = `Hút mỡ toàn thân — thực tế là hút nhiều vùng một hoặc hai ca (bụng, lưng, eo, đùi, tay) trong giới hạn an toàn lượng mỡ. Không phải “hút hết mỡ người” — có ngưỡng ml tối đa/ca.
 
@@ -176,7 +176,7 @@ Bỏng nhiệt nếu sai kỹ thuật — chọn đào tạo VASER. [Hút mỡ b
 
 **VASER = laser?** Siêu âm nội soi mỡ. **Da chảy?** Co da nhẹ — không thay căng bụng nặng.
 
-**0938 673 996** — [hút mỡ cấy mỡ mà](/tham-my/hut-mo-cay-mo-ma).`;
+**0938 673 996** — [hút mỡ cấy mỡ mà](/tham-my).`;
 
 export const HUT_MO_LIPO_360_BODY = `Hút mỡ Lipo 360 — hút vòng eo 360°: bụng, eo hai bên, lưng dưới — tạo thân hình thon từ mọi góc. Phổ biến sau sinh hoặc muốn “snatched waist”.
 
@@ -242,7 +242,7 @@ Chậm hơn; không contour chi tiết như [VASER](/tin-tuc/hut-mo-vaser). [Hú
 
 **Bao nhiêu buổi?** 1–2/vùng thường đủ. **Vĩnh viễn?** Tế bào mỡ giảm — tăng cân vẫn có thể mập lại.
 
-**0938 673 996** — [hút mỡ](/tham-my/hut-mo-cay-mo-ma).`;
+**0938 673 996** — [hút mỡ](/tham-my).`;
 
 export const CAVITATION_GIAM_MO_BODY = `Cavitation giảm mỡ — sóng siêu âm tần thấp phá vỡ màng tế bào mỡ, kết hợp massage lymphatic. Spa/y khoa thẩm mỹ; hiệu quả nhẹ hơn hút mỡ và coolsculpting.
 
@@ -266,7 +266,7 @@ Cavitation không FDA như cryo một số máy; chọn cơ sở uy tín.
 
 **0938 673 996** — Thiên Hoàng Kim.`;
 
-export const GIAM_MO_BUNG_BODY = `Giảm mỡ bụng — mục tiêu phổ biến nhất: bụng trên, dưới, panniculus. Lựa chọn: ăn uống + gym, [hút mỡ bụng](/tham-my/hut-mo-cay-mo-ma), coolsculpting, hoặc căng bụng nếu da thừa.
+export const GIAM_MO_BUNG_BODY = `Giảm mỡ bụng — mục tiêu phổ biến nhất: bụng trên, dưới, panniculus. Lựa chọn: ăn uống + gym, [hút mỡ bụng](/tham-my), coolsculpting, hoặc căng bụng nếu da thừa.
 
 ## Phân loại
 
@@ -330,7 +330,7 @@ Cánh tay gọn hơn — không thay tập triceps.
 
 **Sẹo cánh tay?** Lỗ nhỏ — ẩn. **Kết quả?** [3–6 tháng](/tin-tuc/hut-mo-bao-lau-thay-ket-qua) ổn định.
 
-**0938 673 996** — [hút mỡ](/tham-my/hut-mo-cay-mo-ma).`;
+**0938 673 996** — [hút mỡ](/tham-my).`;
 
 export const TAO_HINH_THAN_TREN_BODY = `Tạo hình thân trên — combo hút/tái phân bố mỡ vùng ngực, lưng, nách, cánh tay, flanks trên. Mục tiêu đường vai–eo cân đối, lưng gọn.
 
@@ -374,7 +374,7 @@ Không ngồi ép mông (BBL); [đeo đai](/tin-tuc/deo-dai-sau-hut-mo).
 
 **Một lần hết?** Có thể chia 2 stage. **Kết quả?** [3–6 tháng](/tin-tuc/hut-mo-bao-lau-thay-ket-qua).
 
-**0938 673 996** — [hút mỡ cấy mỡ mà](/tham-my/hut-mo-cay-mo-ma).`;
+**0938 673 996** — [hút mỡ cấy mỡ mà](/tham-my).`;
 
 export const CAY_MO_NGUC_BODY = `Cấy mỡ ngực — fat grafting từ vùng hút (bụng, đùi) vào ngực tăng size tự nhiên 0,5–1 cup hoặc cải thiện hình dạng. Không thay silicone lớn; phù hợp muốn tự nhiên, nhẹ.
 
@@ -440,7 +440,7 @@ Fat embolism nếu tiêm sai tầng — [hút mỡ có nguy hiểm không](/tin-
 
 **Giữ bao lâu?** Mỡ sống vĩnh viễn — tăng cân làm to mông. **Đau?** Mông ít đau hơn vùng hút.
 
-**0938 673 996** — [hút mỡ cấy mỡ mà](/tham-my/hut-mo-cay-mo-ma).`;
+**0938 673 996** — [hút mỡ cấy mỡ mà](/tham-my).`;
 
 export const HUT_MO_VA_CANG_DA_BODY = `Hút mỡ và căng da — khi hút mỡ một mình để lại da thừa nhăn (bụng sau giảm cân, sau sinh). Giải pháp: tummy tuck + hút, hoặc RF co da nhẹ sau hút.
 
@@ -484,7 +484,7 @@ Không ngồi máy tính cả ngày ngay nếu hút bụng nhiều — đau eo.
 
 **Lái xe?** Khi hết thuốc mê và quay cổ thoải mái — ~5–7 ngày. **Tập gym?** 3–4 tuần.
 
-**0938 673 996** — [hút mỡ](/tham-my/hut-mo-cay-mo-ma).`;
+**0938 673 996** — [hút mỡ](/tham-my).`;
 
 export const DEO_DAI_SAU_HUT_MO_BODY = `Đeo đai sau hút mỡ — compression garment ép sưng, giúp da bám khung mới, giảm seroma. Thường 24/7 tuần đầu, giảm dần 4–6 tuần tùy bác sĩ.
 
@@ -522,7 +522,7 @@ Khó thở, đau ngực, sốt cao, chân sưng một bên — đến viện nga
 
 ## Chọn cơ sở
 
-[Thiên Hoàng Kim](/tham-my/hut-mo-cay-mo-ma) — tư vấn rõ ràng, không hứa “hút 10 lít một lần” bất chấp an toàn.
+[Thiên Hoàng Kim](/tham-my) — tư vấn rõ ràng, không hứa “hút 10 lít một lần” bất chấp an toàn.
 
 ## Câu hỏi thường gặp
 
