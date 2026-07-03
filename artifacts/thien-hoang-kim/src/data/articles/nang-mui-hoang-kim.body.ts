@@ -1,5 +1,10 @@
 /** Nội dung chi tiết ~3000 chữ — bài Nâng mũi hoàng kim */
+const base = `${import.meta.env.BASE_URL}`.replace(/([^:]\/)\/+/g, "$1");
+export const NANG_MUI_HOANG_KIM_IMG = `${base}uploads/nang-mui-hoang-kim.png`;
+
 export const NANG_MUI_HOANG_KIM_BODY = `Bạn đang tìm kiếm một giải pháp nâng mũi vừa an toàn y khoa, vừa giữ được vẻ đẹp tự nhiên của người Việt? Nâng mũi hoàng kim tại Thiên Hoàng Kim Aesthetic Clinic được xây dựng trên nguyên tắc thiết kế theo tỉ lệ vàng trên khuôn mặt — không chỉ nâng cao sống mũi mà còn tái tạo trục mũi, đầu mũi và góc mũi – môi sao cho hài hòa với trán, xương gò má và cằm. Mỗi khách hàng đều được bác sĩ thăm khám trực tiếp, phân tích cấu trúc mũi, mô phỏng hình dáng sau phẫu thuật và theo dõi tái khám định kỳ — đảm bảo quy trình minh bạch, kết quả phù hợp từng cơ địa và không cam kết tuyệt đối một kiểu mũi cho tất cả mọi người.
+
+![nâng mũi hoàng kim](${NANG_MUI_HOANG_KIM_IMG})
 
 ## Nâng mũi hoàng kim là gì?
 

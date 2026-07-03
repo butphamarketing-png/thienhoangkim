@@ -76,6 +76,7 @@ const publicAsset = (file: string) =>
 
 const slide = publicAsset("slideshow.1.png");
 const intro = publicAsset("gioithieu.1.png");
+const nangMuiHoangKimImage = publicAsset("uploads/nang-mui-hoang-kim.png");
 
 function svcSeo(
   metaTitle: string,
@@ -181,7 +182,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Nâng mũi hoàng kim cấu trúc theo tỉ lệ vàng — sống mũi thẳng, đầu mũi mềm, hài hòa khuôn mặt. Tư vấn miễn phí tại An Đông, TP.HCM.",
     NANG_MUI_HOANG_KIM_BODY,
-    slide,
+    nangMuiHoangKimImage,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -195,7 +196,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       ogTitle: "Nâng mũi hoàng kim — Chuẩn tỉ lệ vàng | Thiên Hoàng Kim",
       ogDescription:
         "Nâng mũi hoàng kim cấu trúc chuẩn tỉ lệ vàng — sống thẳng, đầu mũi mềm, tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
-      ogImage: slide,
+      ogImage: nangMuiHoangKimImage,
     },
   ),
   article(
