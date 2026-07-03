@@ -65,7 +65,7 @@ function normalizeArticleImage(image?: string, fallback?: string, category?: str
   if (src.includes("slideshow.1")) return portrait;
 
   if (category === "Thẩm mỹ") {
-    if (src.includes("nang-mui-hoang-kim")) return src;
+    if (src.includes("nang-mui-hoang-kim") || src.includes("cat-mi-phuong-hoang")) return src;
     return thamMyImage;
   }
   if (category === "Spa") return spaImage;

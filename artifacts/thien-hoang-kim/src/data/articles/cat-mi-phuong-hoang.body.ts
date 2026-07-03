@@ -1,5 +1,10 @@
 /** Nội dung chi tiết ~3000 chữ — bài Cắt mí phượng hoàng */
+const base = `${import.meta.env.BASE_URL}`.replace(/([^:]\/)\/+/g, "$1");
+export const CAT_MI_PHUONG_HOANG_IMG = `${base}uploads/cat-mi-phuong-hoang.png`;
+
 export const CAT_MI_PHUONG_HOANG_BODY = `Đôi mắt là điểm nhấn đầu tiên khi giao tiếp — nhưng không phải ai cũng may mắn có nếp mí rõ, mắt to và cân đối bẩm sinh. Cắt mí phượng hoàng tại Thiên Hoàng Kim Aesthetic Clinic là kỹ thuật thẩm mỹ mắt được thiết kế riêng cho đường nét người Á Đông: tạo nếp mí với đường cong dài, thanh thoát như cánh phượng, giúp mắt to tròn và sắc nét mà vẫn mềm mại, không gượng ép. Mỗi khách hàng được bác sĩ thăm khám trực tiếp, phác thảo nếp mí trước khi mổ và theo dõi tái khám — đảm bảo kết quả hài hòa với khuôn mặt và phù hợp từng cơ địa.
+
+![cắt mí phượng hoàng](${CAT_MI_PHUONG_HOANG_IMG})
 
 ## Cắt mí phượng hoàng là gì?
 

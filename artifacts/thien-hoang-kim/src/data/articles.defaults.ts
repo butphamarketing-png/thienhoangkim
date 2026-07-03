@@ -78,6 +78,7 @@ const intro = publicAsset("gioithieu.1.png");
 const thamMyImage = publicAsset("thẩm mỹ.png");
 const spaImage = publicAsset("uploads/Spa.jpg");
 const nangMuiHoangKimImage = publicAsset("uploads/nang-mui-hoang-kim.png");
+const catMiPhuongHoangImage = publicAsset("uploads/cat-mi-phuong-hoang.png");
 
 function svcSeo(
   metaTitle: string,
@@ -207,7 +208,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Cắt mí phượng hoàng tạo nếp mí cong dài, mắt to tròn và tự nhiên — tư vấn miễn phí tại An Đông, TP.HCM.",
     CAT_MI_PHUONG_HOANG_BODY,
-    thamMyImage,
+    catMiPhuongHoangImage,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -221,7 +222,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       ogTitle: "Cắt mí phượng hoàng — Mắt sắc nét | Thiên Hoàng Kim",
       ogDescription:
         "Cắt mí phượng hoàng tạo nếp mí cong dài, mắt to tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
-      ogImage: intro,
+      ogImage: catMiPhuongHoangImage,
     },
   ),
   article(
