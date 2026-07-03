@@ -4,7 +4,7 @@ import { normalizeArticleSeo, normalizeSiteSeo } from "@/lib/seo";
 import { slugify } from "@/lib/slug";
 import type { SiteArticle, SiteContent, SiteHeroSlide, SiteTestimonial } from "@/types/site-content";
 
-/** Banner 2 cột Thẩm mỹ/Spa đã thay bằng slideshow full-width `slideshow.1.png`. */
+/** Hero slideshow — 2 banner full-width, trượt ngang. */
 function normalizeHeroSlides(slides?: SiteHeroSlide[]): SiteHeroSlide[] {
   const fallback = DEFAULT_SITE_CONTENT.home.heroSlides;
   if (!slides?.length) return fallback;
@@ -14,7 +14,11 @@ function normalizeHeroSlides(slides?: SiteHeroSlide[]): SiteHeroSlide[] {
     slides.some((s) => s.id === "hero-tham-my") &&
     slides.some((s) => s.id === "hero-spa");
 
-  return isLegacyDualHero ? fallback : slides;
+  const isLegacySingleBanner =
+    slides.length === 1 &&
+    (slides[0]?.id === "slideshow-1" || slides[0]?.src?.includes("slideshow.1"));
+
+  return isLegacyDualHero || isLegacySingleBanner ? fallback : slides;
 }
 
 function usesLegacyTestimonialMedia(testimonials: SiteTestimonial[]): boolean {

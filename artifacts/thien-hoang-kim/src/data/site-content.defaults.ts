@@ -7,6 +7,7 @@ const publicAsset = (file: string) => {
 };
 
 const slide = publicAsset("slideshow.1.png");
+const slide2 = publicAsset("slideshow.2.png");
 const intro = publicAsset("gioithieu.1.png");
 const thamMyImage = publicAsset("thẩm mỹ.png");
 const spaImage = publicAsset("uploads/Spa.jpg");
@@ -86,6 +87,11 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
         id: "slideshow-1",
         src: slide,
         alt: "Thiên Hoàng Kim Aesthetic Clinic — Nâng Tầm Nhan Sắc",
+      },
+      {
+        id: "slideshow-2",
+        src: slide2,
+        alt: "Phòng khám chuyên khoa thẩm mỹ Thiên Hoàng Kim — Đẹp tự nhiên, an toàn y khoa",
       },
     ],
     commitmentsTitle: "CAM KẾT TỪ THIÊN HOÀNG KIM",

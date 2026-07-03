@@ -11,7 +11,9 @@ type HeroCarouselProps = {
   slides: HeroSlide[];
 };
 
-/** Banner hero slideshow — full-width ảnh từ design */
+const AUTOPLAY_MS = 3000;
+
+/** Banner hero slideshow — trượt ngang trái → phải mỗi 3 giây */
 export function HeroCarousel({ slides }: HeroCarouselProps) {
   const [index, setIndex] = useState(0);
   const count = slides.length;
@@ -29,7 +31,7 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
 
   useEffect(() => {
     if (count <= 1) return;
-    const timer = window.setInterval(next, 6000);
+    const timer = window.setInterval(next, AUTOPLAY_MS);
     return () => window.clearInterval(timer);
   }, [count, next]);
 
@@ -39,34 +41,37 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
 
   return (
     <section className="relative w-full overflow-hidden bg-white" aria-label="Banner slideshow">
-      <div className="relative w-full">
-        {slides.map((slide, i) => {
-          const isVideo = /\.(mp4|webm|mov|ogg)(\?|$)/i.test(slide.src);
-          const slideClass = `block w-full h-auto transition-opacity duration-700 ${
-            i === index
-              ? "relative z-[1] opacity-100"
-              : "absolute inset-x-0 top-0 z-0 opacity-0 pointer-events-none"
-          }`;
-          return isVideo ? (
-            <video
-              key={slide.id}
-              src={slide.src}
-              className={slideClass}
-              autoPlay
-              loop
-              muted
-              playsInline
-            />
-          ) : (
-            <img
-              key={slide.id}
-              src={slide.src}
-              alt={slide.alt}
-              className={slideClass}
-              fetchPriority={i === 0 ? "high" : "low"}
-            />
-          );
-        })}
+      <div className="relative w-full overflow-hidden">
+        <div
+          className="flex transition-transform duration-700 ease-in-out"
+          style={{ transform: `translateX(-${index * 100}%)` }}
+        >
+          {slides.map((slide, i) => {
+            const isVideo = /\.(mp4|webm|mov|ogg)(\?|$)/i.test(slide.src);
+            return (
+              <div key={slide.id} className="w-full shrink-0">
+                {isVideo ? (
+                  <video
+                    src={slide.src}
+                    className="block w-full h-auto"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  />
+                ) : (
+                  <img
+                    src={slide.src}
+                    alt={slide.alt}
+                    className="block w-full h-auto"
+                    fetchPriority={i === 0 ? "high" : "low"}
+                    draggable={false}
+                  />
+                )}
+              </div>
+            );
+          })}
+        </div>
 
         {showControls && (
           <>
