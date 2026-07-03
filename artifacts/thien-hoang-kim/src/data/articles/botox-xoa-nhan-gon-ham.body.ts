@@ -1,5 +1,10 @@
 /** Nội dung chi tiết ~3000 chữ — bài Botox xóa nhăn, gọn hàm */
+const base = `${import.meta.env.BASE_URL}`.replace(/([^:]\/)\/+/g, "$1");
+export const BOTOX_XOA_NHAN_GON_HAM_IMG = `${base}uploads/botox-xoa-nhan-gon-ham.png`;
+
 export const BOTOX_XOA_NHAN_GON_HAM_BODY = `Nếp nhăn trán, chân chim đuôi mắt hay hàm vuông do nhai nhiều khiến khuôn mặt trông già và cứng hơn tuổi thật. Botox xóa nhăn, gọn hàm tại Thiên Hoàng Kim Aesthetic Clinic là liệu pháp tiêm botulinum toxin type A (Botox, Dysport, Xeomin…) đã được kiểm soát chất lượng — tạm thời giảm co cơ gây nhăn hoặc thon cơ masseter, giúp da mịn và hàm mềm hơn mà không phẫu thuật. Mỗi liều lượng được bác sĩ tính theo giải phẫu cơ, mục tiêu tự nhiên — không “đơ” mặt.
+
+![botox xóa nhăn](${BOTOX_XOA_NHAN_GON_HAM_IMG})
 
 ## Botox xóa nhăn, gọn hàm là gì?
 

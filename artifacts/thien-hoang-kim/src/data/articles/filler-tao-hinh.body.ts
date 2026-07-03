@@ -1,5 +1,10 @@
 /** Nội dung chi tiết ~3000 chữ — bài Filler tạo hình */
+const base = `${import.meta.env.BASE_URL}`.replace(/([^:]\/)\/+/g, "$1");
+export const FILLER_TAO_HINH_IMG = `${base}uploads/filler-tao-hinh.png`;
+
 export const FILLER_TAO_HINH_BODY = `Bạn muốn cải thiện đường nét khuôn mặt — mũi thấp, môi mỏng, cằm ngắn hay thái dương lõm — nhưng chưa sẵn sàng phẫu thuật? Filler tạo hình tại Thiên Hoàng Kim Aesthetic Clinic là giải pháp tiêm chuyên sâu bằng axit hyaluronic (HA) hoặc filler sinh học chính hãng, bổ sung thể tích và định hình tức thì với kết quả tự nhiên, mềm mại. Mỗi liệu trình được bác sĩ thăm khám, thiết kế liều lượng và vùng tiêm phù hợp tỉ lệ khuôn mặt — không tiêm thừa, không ép khuôn mẫu.
+
+![filler tạo hình](${FILLER_TAO_HINH_IMG})
 
 ## Filler tạo hình là gì?
 

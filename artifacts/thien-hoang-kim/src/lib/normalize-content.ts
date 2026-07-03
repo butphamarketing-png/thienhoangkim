@@ -73,7 +73,7 @@ function normalizeArticleImage(
   if (src.includes("slideshow.1")) return portrait;
 
   if (category === "Thẩm mỹ") {
-    if (src.includes("nang-mui-hoang-kim") || src.includes("cat-mi-phuong-hoang") || src.includes("cay-toc-tu-than") || src.includes("cang-chi-tre-hoa") || src.includes("cang-noi-soi")) return src;
+    if (src.includes("nang-mui-hoang-kim") || src.includes("cat-mi-phuong-hoang") || src.includes("cay-toc-tu-than") || src.includes("cang-chi-tre-hoa") || src.includes("cang-noi-soi") || src.includes("filler-tao-hinh") || src.includes("botox-xoa-nhan-gon-ham")) return src;
     return thamMyImage;
   }
   if (category === "Spa") return spaImage;

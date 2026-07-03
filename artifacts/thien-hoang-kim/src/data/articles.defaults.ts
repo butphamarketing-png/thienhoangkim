@@ -82,6 +82,8 @@ const catMiPhuongHoangImage = publicAsset("uploads/cat-mi-phuong-hoang.png");
 const cayTocTuThanImage = publicAsset("uploads/cay-toc-tu-than.png");
 const cangChiTreHoaImage = publicAsset("uploads/cang-chi-tre-hoa.png");
 const cangNoiSoiImage = publicAsset("uploads/cang-noi-soi.png");
+const fillerTaoHinhImage = publicAsset("uploads/filler-tao-hinh.png");
+const botoxXoaNhanGonHamImage = publicAsset("uploads/botox-xoa-nhan-gon-ham.png");
 
 function svcSeo(
   metaTitle: string,
@@ -307,7 +309,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Tiêm filler HA chính hãng tạo hình mũi, môi, cằm, thái dương — kết quả tự nhiên ngay. Tư vấn miễn phí tại An Đông, TP.HCM.",
     FILLER_TAO_HINH_BODY,
-    thamMyImage,
+    fillerTaoHinhImage,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -321,7 +323,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       ogTitle: "Filler tạo hình — Đường nét hài hòa | Thiên Hoàng Kim",
       ogDescription:
         "Tiêm filler HA tạo hình mũi, môi, cằm, thái dương — kết quả ngay, tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
-      ogImage: intro,
+      ogImage: fillerTaoHinhImage,
     },
   ),
   article(
@@ -331,7 +333,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Botox giảm nhăn trán, đuôi mắt và thon gọn hàm masseter — tự nhiên, không phẫu thuật. Tư vấn miễn phí tại An Đông, TP.HCM.",
     BOTOX_XOA_NHAN_GON_HAM_BODY,
-    thamMyImage,
+    botoxXoaNhanGonHamImage,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -345,7 +347,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       ogTitle: "Botox xóa nhăn, gọn hàm | Thiên Hoàng Kim",
       ogDescription:
         "Botox giảm nhăn động và thon hàm masseter — không mổ, hồi phục nhanh. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
-      ogImage: intro,
+      ogImage: botoxXoaNhanGonHamImage,
     },
   ),
 ];
