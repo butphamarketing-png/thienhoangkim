@@ -75,6 +75,8 @@ const publicAsset = (file: string) =>
   `${import.meta.env.BASE_URL}${file}`.replace(/([^:]\/)\/+/g, "$1");
 
 const intro = publicAsset("gioithieu.1.png");
+const thamMyImage = publicAsset("thẩm mỹ.png");
+const spaImage = publicAsset("uploads/Spa.jpg");
 const nangMuiHoangKimImage = publicAsset("uploads/nang-mui-hoang-kim.png");
 
 function svcSeo(
@@ -141,7 +143,7 @@ const CATEGORY_ARTICLES: SiteArticle[] = [
 Mỗi khách hàng được thăm khám trực tiếp, phân tích tỉ lệ khuôn mặt và lên phác đồ riêng. Quy trình tuân thủ vô trùng, gây mê an toàn và theo dõi sau điều trị — đảm bảo kết quả hài hòa, không lộ dấu vết thẩm mỹ.
 
 Danh mục Thẩm Mỹ gồm 7 dịch vụ chính: Nâng mũi hoàng kim, Cắt mí phượng hoàng, Cấy tóc tự thân, Căng nội soi, Căng chỉ trẻ hóa, Filler tạo hình và Botox xóa nhăn, gọn hàm. Chọn dịch vụ bên dưới để tìm hiểu chi tiết.`,
-    intro,
+    thamMyImage,
     "Thẩm mỹ",
     svcSeo(
       "Dịch vụ Thẩm Mỹ y khoa TP.HCM",
@@ -161,7 +163,7 @@ Danh mục Thẩm Mỹ gồm 7 dịch vụ chính: Nâng mũi hoàng kim, Cắt 
 Các liệu trình được thiết kế bởi chuyên viên có chứng chỉ, sử dụng sản phẩm và thiết bị chuẩn spa – y khoa. Khách hàng được tư vấn tình trạng da trước khi chọn gói phù hợp.
 
 Danh mục Spa gồm: Ủ đá muối Himalaya, Phun xăm thẩm mỹ, Massage body thư giãn, Massage facial và Chăm sóc da toàn diện. Mỗi dịch vụ có bài viết riêng giải thích quy trình, lợi ích và lưu ý sau liệu trình.`,
-    intro,
+    spaImage,
     "Spa",
     svcSeo(
       "Dịch vụ Spa & chăm sóc da TP.HCM",
@@ -205,7 +207,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Cắt mí phượng hoàng tạo nếp mí cong dài, mắt to tròn và tự nhiên — tư vấn miễn phí tại An Đông, TP.HCM.",
     CAT_MI_PHUONG_HOANG_BODY,
-    intro,
+    thamMyImage,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -229,7 +231,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Cấy tóc FUE/FUT từ nang tóc tự thân — phục hồi hói đầu, đường viền trán tự nhiên. Tư vấn miễn phí tại An Đông, TP.HCM.",
     CAY_TOC_TU_THAN_BODY,
-    intro,
+    thamMyImage,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -253,7 +255,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Căng nội soi nâng cơ vùng trán, má — trẻ hóa sâu, sẹo ẩn trong tóc. Tư vấn miễn phí tại An Đông, TP.HCM.",
     CANG_NOI_SOI_BODY,
-    intro,
+    thamMyImage,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -277,7 +279,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Căng chỉ PDO/PLLA nâng cơ, kích thích collagen — trẻ hóa má, hàm, cổ. Hồi phục nhanh. Tư vấn miễn phí tại An Đông, TP.HCM.",
     CANG_CHI_TRE_HOA_BODY,
-    intro,
+    thamMyImage,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -301,7 +303,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Tiêm filler HA chính hãng tạo hình mũi, môi, cằm, thái dương — kết quả tự nhiên ngay. Tư vấn miễn phí tại An Đông, TP.HCM.",
     FILLER_TAO_HINH_BODY,
-    intro,
+    thamMyImage,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -325,7 +327,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Botox giảm nhăn trán, đuôi mắt và thon gọn hàm masseter — tự nhiên, không phẫu thuật. Tư vấn miễn phí tại An Đông, TP.HCM.",
     BOTOX_XOA_NHAN_GON_HAM_BODY,
-    intro,
+    thamMyImage,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -353,7 +355,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Ủ đá muối Himalaya ấm — giãn cơ, thư giãn sâu, hỗ trợ lưu thông. Phòng spa riêng 60–90 phút tại An Đông, TP.HCM.",
     U_DA_MUOI_HIMALAYA_BODY,
-    intro,
+    spaImage,
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -377,7 +379,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Phun mày, môi, eyeliner bán vĩnh viễn — tự nhiên, tiết kiệm makeup. Phác thảo trước khi phun tại An Đông, TP.HCM.",
     PHUN_XAM_THAM_MY_BODY,
-    intro,
+    spaImage,
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -401,7 +403,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Massage toàn thân Swedish/Thái — giảm căng cơ vai gáy, stress, cải thiện giấc ngủ. Phòng riêng 60–90 phút tại An Đông, TP.HCM.",
     MASSAGE_BODY_THU_GIAN_BODY,
-    intro,
+    spaImage,
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -425,7 +427,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Massage mặt, cổ, vai kết hợp ấn huyệt — da hồng hào, giảm phù, thư giãn sâu. Gói 45–75 phút tại An Đông, TP.HCM.",
     MASSAGE_FACIAL_BODY,
-    intro,
+    spaImage,
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -449,7 +451,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Facial 75–90 phút: soi da, làm sạch sâu, hút bã, massage, mask — phác đồ theo từng loại da tại An Đông, TP.HCM.",
     CHAM_SOC_DA_TOAN_DIEN_BODY,
-    intro,
+    spaImage,
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -529,7 +531,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Có tê trước khi phun; cảm giác rung nhẹ 1–2 giờ — môi sưng vài ngày sau, màu ổn định sau 4–6 tuần.",
     PHUN_MOI_CO_DAU_KHONG_BODY,
-    intro,
+    spaImage,
     "Spa",
     newsSeo(
       "phun-moi-co-dau-khong",

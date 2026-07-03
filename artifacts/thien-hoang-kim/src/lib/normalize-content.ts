@@ -53,10 +53,24 @@ function normalizeCtaImage(image?: string): string {
   return image;
 }
 
-function normalizeArticleImage(image?: string, fallback?: string): string {
+function stripMarkdownBold(text: string): string {
+  return text.replace(/\*\*([^*]+)\*\*/g, "$1").replace(/\*\*/g, "");
+}
+
+function normalizeArticleImage(image?: string, fallback?: string, category?: string): string {
   const portrait = DEFAULT_SITE_CONTENT.home.aboutImage;
-  const src = image || fallback || portrait;
-  return src.includes("slideshow.1") ? portrait : src;
+  const [thamMyImage, spaImage] = DEFAULT_SITE_CONTENT.home.featuredServiceImages;
+  let src = image || fallback || portrait;
+
+  if (src.includes("slideshow.1")) return portrait;
+
+  if (category === "Thẩm mỹ") {
+    if (src.includes("nang-mui-hoang-kim")) return src;
+    return thamMyImage;
+  }
+  if (category === "Spa") return spaImage;
+
+  return src;
 }
 
 export function normalizeArticles(articles?: SiteArticle[]): SiteArticle[] {
@@ -67,23 +81,28 @@ export function normalizeArticles(articles?: SiteArticle[]): SiteArticle[] {
   return articles.map((a) => {
     const fallback = defaultById.get(a.id);
     const title = a.title || fallback?.title || "Bài viết";
-    const image = normalizeArticleImage(
-      a.image,
-      fallback?.image || DEFAULT_SITE_CONTENT.home.aboutImage,
-    );
+    const category = a.category || fallback?.category || "Kiến thức";
+    const image = normalizeArticleImage(a.image, fallback?.image, category);
     const seo = normalizeArticleSeo(a.seo ?? fallback?.seo);
-    if (seo.ogImage?.includes("slideshow.1")) {
-      seo.ogImage = image;
+    if (seo.ogImage?.includes("slideshow.1") || seo.ogImage?.includes("gioithieu.1")) {
+      if (category === "Thẩm mỹ" && !image.includes("nang-mui-hoang-kim")) {
+        seo.ogImage = DEFAULT_SITE_CONTENT.home.featuredServiceImages[0];
+      } else if (category === "Spa") {
+        seo.ogImage = DEFAULT_SITE_CONTENT.home.featuredServiceImages[1];
+      } else {
+        seo.ogImage = image;
+      }
     }
+    const rawBody = a.body || fallback?.body || a.description || "";
     return {
       id: a.id,
       slug: a.slug || fallback?.slug || slugify(title),
-      category: a.category || fallback?.category || "Kiến thức",
+      category,
       image,
       title,
       date: a.date || fallback?.date || new Date().toLocaleDateString("vi-VN"),
-      description: a.description || fallback?.description || "",
-      body: a.body || fallback?.body || a.description || "",
+      description: stripMarkdownBold(a.description || fallback?.description || ""),
+      body: stripMarkdownBold(rawBody),
       published: a.published ?? fallback?.published ?? true,
       seo,
     };

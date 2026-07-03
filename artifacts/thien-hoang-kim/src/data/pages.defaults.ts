@@ -1,4 +1,11 @@
 import { MAIN_NAV } from "@/config/navigation";
+import {
+  INTRO_BRAND_STORY_BLOCKS,
+  INTRO_DOCTORS_BLOCKS,
+  INTRO_FACILITIES_BLOCKS,
+  INTRO_MAIN_BLOCKS,
+  INTRO_TECHNOLOGY_BLOCKS,
+} from "@/data/intro-pages.content";
 
 export type PageBlock = {
   title?: string;
@@ -25,45 +32,31 @@ const STATIC_PAGES: Record<string, SitePageContent> = {
     title: "Thiên Hoàng Kim Aesthetic Clinic",
     description:
       "Phòng khám thẩm mỹ chuẩn y khoa — nơi kiến tạo vẻ đẹp tự nhiên, an toàn và bền vững.",
-    blocks: [
-      p(
-        "Thiên Hoàng Kim Aesthetic Clinic là địa chỉ làm đẹp uy tín tại TP.HCM với đội ngũ bác sĩ giàu kinh nghiệm và trang thiết bị hiện đại.",
-        "Chúng tôi cam kết quy trình chuẩn y khoa, tư vấn trung thực và chăm sóc tận tâm trước – trong – sau điều trị.",
-      ),
-    ],
+    blocks: INTRO_MAIN_BLOCKS,
   },
   "/gioi-thieu/cau-chuyen-thuong-hieu": {
     eyebrow: "Giới thiệu",
     title: "Câu chuyện thương hiệu",
     description: "Hành trình xây dựng niềm tin và chất lượng dịch vụ thẩm mỹ.",
-    blocks: [
-      p(
-        "Thiên Hoàng Kim ra đời từ khát vọng mang đến dịch vụ thẩm mỹ an toàn, minh bạch cho khách hàng Việt.",
-        "Mỗi ca điều trị đều được đặt trên nền tảng chuyên môn, đạo đức nghề nghiệp và sự tôn trọng vẻ đẹp riêng của từng người.",
-      ),
-    ],
+    blocks: INTRO_BRAND_STORY_BLOCKS,
+  },
+  "/gioi-thieu/doi-ngu-bac-si": {
+    eyebrow: "Giới thiệu",
+    title: "Đội ngũ bác sĩ",
+    description: "Bác sĩ và chuyên viên giàu kinh nghiệm — tận tâm với từng khách hàng.",
+    blocks: INTRO_DOCTORS_BLOCKS,
   },
   "/gioi-thieu/cong-nghe-tham-my": {
     eyebrow: "Giới thiệu",
     title: "Công nghệ thẩm mỹ",
     description: "Ứng dụng thiết bị và kỹ thuật tiên tiến trong điều trị.",
-    blocks: [
-      p(
-        "Phòng khám đầu tư máy móc nhập khẩu chính hãng: laser, HIFU, peel, soi da chuyên sâu…",
-        "Bác sĩ được đào tạo liên tục để cập nhật phác đồ điều trị phù hợp từng tình trạng da và cơ địa.",
-      ),
-    ],
+    blocks: INTRO_TECHNOLOGY_BLOCKS,
   },
   "/gioi-thieu/co-so-vat-chat": {
     eyebrow: "Giới thiệu",
     title: "Cơ sở vật chất",
     description: "Không gian sang trọng, vô trùng và riêng tư.",
-    blocks: [
-      p(
-        "Không gian phòng khám thiết kế hiện đại, ấm cúng, đảm bảo riêng tư cho khách hàng.",
-        "Phòng thủ thuật, phòng hồi sức và khu tư vấn đạt tiêu chuẩn vệ sinh y tế.",
-      ),
-    ],
+    blocks: INTRO_FACILITIES_BLOCKS,
   },
   "/bang-gia": {
     eyebrow: "Bảng giá",

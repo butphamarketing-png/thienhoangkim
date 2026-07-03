@@ -58,17 +58,17 @@ export function buildGeneratedArticleBody(
 
 ## ${focusTitle} là gì?
 
-Trong thẩm mỹ y khoa và spa, **${focus}** được hiểu theo ngữ cảnh cụ thể từng khách — không có một định nghĩa cố định cho mọi trường hợp. Đội ngũ Thiên Hoàng Kim đánh giá tình trạng thực tế (da, mô, cấu trúc, mong muốn) trước khi gợi ý phương án. Mục tiêu là kết quả hài hòa, an toàn và phù hợp khuôn mặt hoặc cơ địa người Việt.
+Trong thẩm mỹ y khoa và spa, ${focus} được hiểu theo ngữ cảnh cụ thể từng khách — không có một định nghĩa cố định cho mọi trường hợp. Đội ngũ Thiên Hoàng Kim đánh giá tình trạng thực tế (da, mô, cấu trúc, mong muốn) trước khi gợi ý phương án. Mục tiêu là kết quả hài hòa, an toàn và phù hợp khuôn mặt hoặc cơ địa người Việt.
 
 ## Ai nên quan tâm ${focus}?
 
-Bạn có thể cân nhắc tìm hiểu **${focus}** khi thấy nhu cầu thay đổi ngoại hình hoặc điều trị da rõ ràng, đã thử chăm sóc tại nhà chưa đủ hiệu quả, hoặc muốn được giải thích rõ quy trình – chi phí – thời gian hồi phục trước khi quyết định. Nếu đang mang thai, cho con bú, có bệnh nền hoặc dị ứng thuốc, cần khai báo đầy đủ khi tư vấn.
+Bạn có thể cân nhắc tìm hiểu ${focus} khi thấy nhu cầu thay đổi ngoại hình hoặc điều trị da rõ ràng, đã thử chăm sóc tại nhà chưa đủ hiệu quả, hoặc muốn được giải thích rõ quy trình – chi phí – thời gian hồi phục trước khi quyết định. Nếu đang mang thai, cho con bú, có bệnh nền hoặc dị ứng thuốc, cần khai báo đầy đủ khi tư vấn.
 
 ![${imgAlt}](${img})
 
 ## Quy trình tư vấn tại Thiên Hoàng Kim
 
-**Bước 1:** Đặt lịch hoặc gọi **0938 673 996** — mô tả ngắn nhu cầu liên quan ${focus}. **Bước 2:** Khám / soi da / chụp ảnh tư vấn (tùy dịch vụ). **Bước 3:** Nhận phác đồ cá nhân, báo giá minh bạch, hướng dẫn chuẩn bị và chăm sóc sau điều trị. Chi tiết dịch vụ liên quan: [${service}](${pillar}). Tham khảo thêm [chọn phòng khám thẩm mỹ an toàn](/tin-tuc/chon-phong-kham-tham-my-an-toan) và [phòng khám thẩm mỹ An Đông](/tin-tuc/phong-kham-tham-my-an-dong).
+Bước 1: Đặt lịch hoặc gọi 0938 673 996 — mô tả ngắn nhu cầu liên quan ${focus}. Bước 2: Khám / soi da / chụp ảnh tư vấn (tùy dịch vụ). Bước 3: Nhận phác đồ cá nhân, báo giá minh bạch, hướng dẫn chuẩn bị và chăm sóc sau điều trị. Chi tiết dịch vụ liên quan: [${service}](${pillar}). Tham khảo thêm [chọn phòng khám thẩm mỹ an toàn](/tin-tuc/chon-phong-kham-tham-my-an-toan) và [phòng khám thẩm mỹ An Đông](/tin-tuc/phong-kham-tham-my-an-dong).
 
 ## Lưu ý khi tìm hiểu ${focus}
 
@@ -76,15 +76,15 @@ Tránh tin quảng cáo cam kết "tuyệt đối" hoặc giá quá thấp khôn
 
 ## Câu hỏi thường gặp về ${focus}
 
-**${focusTitle} tại Thiên Hoàng Kim có tư vấn miễn phí không?** Có — hotline **0938 673 996**, địa chỉ **323–325 Hùng Vương, An Đông, TP.HCM**, mở **08:00–20:00**.
+${focusTitle} tại Thiên Hoàng Kim có tư vấn miễn phí không? Có — hotline 0938 673 996, địa chỉ 323–325 Hùng Vương, An Đông, TP.HCM, mở 08:00–20:00.
 
-**${focusTitle} mất bao lâu / có đau không?** Tùy dịch vụ — từ vài phút (tiêm) đến vài tuần hồi phục (phẫu thuật). Bác sĩ giải thích cụ thể sau khám.
+${focusTitle} mất bao lâu / có đau không? Tùy dịch vụ — từ vài phút (tiêm) đến vài tuần hồi phục (phẫu thuật). Bác sĩ giải thích cụ thể sau khám.
 
-**Giá ${focus} bao nhiêu?** Phụ thuộc phác đồ cá nhân — xem [bảng giá](/bang-gia) hoặc báo giá sau tư vấn trực tiếp.
+Giá ${focus} bao nhiêu? Phụ thuộc phác đồ cá nhân — xem [bảng giá](/bang-gia) hoặc báo giá sau tư vấn trực tiếp.
 
-**Có cần tái khám?** Hầu hết dịch vụ có lịch tái khám theo dõi — tuân thủ giúp kết quả ổn định và an toàn.
+Có cần tái khám? Hầu hết dịch vụ có lịch tái khám theo dõi — tuân thủ giúp kết quả ổn định và an toàn.
 
-Đặt lịch ${focus}: **0938 673 996** — Thiên Hoàng Kim, An Đông, TP.HCM.`;
+Đặt lịch ${focus}: 0938 673 996 — Thiên Hoàng Kim, An Đông, TP.HCM.`;
 }
 
 export function buildGeneratedDescription(focus: string): string {

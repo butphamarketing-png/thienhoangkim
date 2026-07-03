@@ -10,13 +10,19 @@ type ArticleBodyContentProps = {
   imageAlt?: string;
 };
 
+/** Bỏ markdown **bold** — hiển thị chữ thường, không còn dấu * */
+export function stripMarkdownBold(text: string): string {
+  return text.replace(/\*\*([^*]+)\*\*/g, "$1").replace(/\*\*/g, "");
+}
+
 function renderInline(text: string, blockKey: string) {
+  const clean = stripMarkdownBold(text);
   const parts: ReactNode[] = [];
   let last = 0;
   let linkIdx = 0;
-  for (const m of text.matchAll(LINK_RE)) {
+  for (const m of clean.matchAll(LINK_RE)) {
     const start = m.index ?? 0;
-    if (start > last) parts.push(text.slice(last, start));
+    if (start > last) parts.push(clean.slice(last, start));
     const href = m[2];
     const label = m[1];
     if (href.startsWith("/")) {
@@ -44,8 +50,8 @@ function renderInline(text: string, blockKey: string) {
     }
     last = start + m[0].length;
   }
-  if (last < text.length) parts.push(text.slice(last));
-  if (parts.length === 0) return text;
+  if (last < clean.length) parts.push(clean.slice(last));
+  if (parts.length === 0) return clean;
   return parts;
 }
 
@@ -62,7 +68,7 @@ export function ArticleBodyContent({ body, imageAlt = "" }: ArticleBodyContentPr
               key={`h2-${idx}-${h2[1].slice(0, 24)}`}
               className="!mt-10 font-serif text-xl font-semibold leading-snug text-primary first:!mt-0 md:text-2xl"
             >
-              {h2[1]}
+              {stripMarkdownBold(h2[1])}
             </h2>
           );
         }
@@ -73,7 +79,7 @@ export function ArticleBodyContent({ body, imageAlt = "" }: ArticleBodyContentPr
             <figure key={`img-${idx}`} className="my-6">
               <img
                 src={img[2]}
-                alt={img[1] || imageAlt}
+                alt={stripMarkdownBold(img[1] || imageAlt)}
                 className="w-full rounded-2xl object-cover shadow-md"
               />
             </figure>
