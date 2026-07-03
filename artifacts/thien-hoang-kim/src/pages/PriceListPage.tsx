@@ -27,7 +27,7 @@ export default function PriceListPage() {
       <PageHero
         eyebrow="Bảng giá"
         title="Bảng giá tham khảo"
-        description="Giá theo từng dịch vụ — có thể thay đổi theo tình trạng và phác đồ cá nhân. Liên hệ hotline hoặc Zalo để được báo giá chính xác."
+        description="Danh sách dịch vụ Thiên Hoàng Kim. Liên hệ hotline hoặc Zalo để được báo giá chi tiết theo phác đồ cá nhân."
         crumbs={[{ label: "Trang chủ", href: "/" }, { label: "Bảng giá" }]}
       />
 
@@ -65,7 +65,6 @@ export default function PriceListPage() {
                           {item.description}
                         </p>
                       )}
-                      <p className="mt-2 text-base font-bold text-gold">{item.price}</p>
                     </div>
 
                     <div className="flex shrink-0 flex-wrap gap-2 sm:flex-col sm:items-stretch lg:flex-row">
@@ -99,7 +98,7 @@ export default function PriceListPage() {
 
           <div className="rounded-2xl border border-gold/25 bg-gradient-to-br from-primary/[0.04] to-gold/[0.08] p-6 text-center md:p-8">
             <p className="text-sm text-muted-foreground md:text-base">
-              Giá trên mang tính tham khảo. Bác sĩ sẽ báo giá chi tiết sau khi thăm khám và lên phác đồ cá nhân.
+              Bác sĩ sẽ báo giá chi tiết sau khi thăm khám và lên phác đồ cá nhân.
             </p>
             <p className="mt-2 font-semibold text-primary">Hotline tư vấn miễn phí: {CLINIC_PHONE_DISPLAY}</p>
             <Link href="/lien-he#dat-lich">
