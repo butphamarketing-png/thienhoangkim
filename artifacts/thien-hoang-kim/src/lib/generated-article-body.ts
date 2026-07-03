@@ -51,7 +51,7 @@ export function buildGeneratedArticleBody(
   const focusTitle = focus.charAt(0).toUpperCase() + focus.slice(1);
   const pillar = entry.pillar;
   const service = pillarLabel(pillar);
-  const img = entry.slug.length % 2 === 0 ? imgIntro : imgSlide;
+  const img = imgIntro;
   const imgAlt = `${focusTitle} — tư vấn tại spa và phòng khám Thiên Hoàng Kim`;
 
   return `${introParagraph(focus, pillar)}

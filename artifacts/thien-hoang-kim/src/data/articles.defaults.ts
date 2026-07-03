@@ -74,7 +74,6 @@ import type { ArticleSeo, SiteArticle } from "@/types/site-content";
 const publicAsset = (file: string) =>
   `${import.meta.env.BASE_URL}${file}`.replace(/([^:]\/)\/+/g, "$1");
 
-const slide = publicAsset("slideshow.1.png");
 const intro = publicAsset("gioithieu.1.png");
 const nangMuiHoangKimImage = publicAsset("uploads/nang-mui-hoang-kim.png");
 
@@ -99,7 +98,7 @@ function newsSeo(
   metaDescription: string,
   focusKeyphrase: string,
   keywords?: string,
-  ogImage = slide,
+  ogImage = intro,
 ): ArticleSeo {
   return buildNewsArticleSeo(slug, metaTitle, metaDescription, focusKeyphrase, keywords, ogImage);
 }
@@ -111,7 +110,7 @@ function article(
   date: string,
   description: string,
   body: string,
-  image = slide,
+  image = intro,
   category = "Kiến thức",
   seo: ArticleSeo = { ...DEFAULT_ARTICLE_SEO },
 ): SiteArticle {
@@ -142,7 +141,7 @@ const CATEGORY_ARTICLES: SiteArticle[] = [
 Mỗi khách hàng được thăm khám trực tiếp, phân tích tỉ lệ khuôn mặt và lên phác đồ riêng. Quy trình tuân thủ vô trùng, gây mê an toàn và theo dõi sau điều trị — đảm bảo kết quả hài hòa, không lộ dấu vết thẩm mỹ.
 
 Danh mục Thẩm Mỹ gồm 7 dịch vụ chính: Nâng mũi hoàng kim, Cắt mí phượng hoàng, Cấy tóc tự thân, Căng nội soi, Căng chỉ trẻ hóa, Filler tạo hình và Botox xóa nhăn, gọn hàm. Chọn dịch vụ bên dưới để tìm hiểu chi tiết.`,
-    slide,
+    intro,
     "Thẩm mỹ",
     svcSeo(
       "Dịch vụ Thẩm Mỹ y khoa TP.HCM",
@@ -230,7 +229,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Cấy tóc FUE/FUT từ nang tóc tự thân — phục hồi hói đầu, đường viền trán tự nhiên. Tư vấn miễn phí tại An Đông, TP.HCM.",
     CAY_TOC_TU_THAN_BODY,
-    slide,
+    intro,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -244,7 +243,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       ogTitle: "Cấy tóc tự thân FUE/FUT | Thiên Hoàng Kim",
       ogDescription:
         "Cấy tóc tự thân mật độ cao, mọc tự nhiên bền lâu. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
-      ogImage: slide,
+      ogImage: intro,
     },
   ),
   article(
@@ -278,7 +277,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Căng chỉ PDO/PLLA nâng cơ, kích thích collagen — trẻ hóa má, hàm, cổ. Hồi phục nhanh. Tư vấn miễn phí tại An Đông, TP.HCM.",
     CANG_CHI_TRE_HOA_BODY,
-    slide,
+    intro,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -292,7 +291,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       ogTitle: "Căng chỉ trẻ hóa — Săn chắc không mổ | Thiên Hoàng Kim",
       ogDescription:
         "Căng chỉ sinh học nâng cơ, kích thích collagen — hồi phục nhanh. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
-      ogImage: slide,
+      ogImage: intro,
     },
   ),
   article(
@@ -302,7 +301,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Tiêm filler HA chính hãng tạo hình mũi, môi, cằm, thái dương — kết quả tự nhiên ngay. Tư vấn miễn phí tại An Đông, TP.HCM.",
     FILLER_TAO_HINH_BODY,
-    slide,
+    intro,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -316,7 +315,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       ogTitle: "Filler tạo hình — Đường nét hài hòa | Thiên Hoàng Kim",
       ogDescription:
         "Tiêm filler HA tạo hình mũi, môi, cằm, thái dương — kết quả ngay, tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
-      ogImage: slide,
+      ogImage: intro,
     },
   ),
   article(
@@ -354,7 +353,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Ủ đá muối Himalaya ấm — giãn cơ, thư giãn sâu, hỗ trợ lưu thông. Phòng spa riêng 60–90 phút tại An Đông, TP.HCM.",
     U_DA_MUOI_HIMALAYA_BODY,
-    slide,
+    intro,
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -368,7 +367,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       ogTitle: "Ủ đá muối Himalaya — Thải độc, thư giãn | Thiên Hoàng Kim",
       ogDescription:
         "Đá muối Himalaya làm ấm kết hợp massage — giảm căng cơ, thư giãn trong phòng spa riêng. Đặt lịch 0938 673 996.",
-      ogImage: slide,
+      ogImage: intro,
     },
   ),
   article(
@@ -402,7 +401,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Massage toàn thân Swedish/Thái — giảm căng cơ vai gáy, stress, cải thiện giấc ngủ. Phòng riêng 60–90 phút tại An Đông, TP.HCM.",
     MASSAGE_BODY_THU_GIAN_BODY,
-    slide,
+    intro,
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -416,7 +415,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       ogTitle: "Massage body thư giãn | Thiên Hoàng Kim Spa",
       ogDescription:
         "Massage toàn thân trong phòng riêng — chọn lực nhẹ hoặc sâu, tinh dầu thảo dược. Đặt lịch 0938 673 996.",
-      ogImage: slide,
+      ogImage: intro,
     },
   ),
   article(
@@ -450,7 +449,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Facial 75–90 phút: soi da, làm sạch sâu, hút bã, massage, mask — phác đồ theo từng loại da tại An Đông, TP.HCM.",
     CHAM_SOC_DA_TOAN_DIEN_BODY,
-    slide,
+    intro,
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -464,7 +463,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       ogTitle: "Chăm sóc da toàn diện — Phác đồ cá nhân | Thiên Hoàng Kim",
       ogDescription:
         "Soi da, làm sạch sâu, massage và mask theo loại da — da sáng mịn sau một buổi. Đặt lịch 0938 673 996.",
-      ogImage: slide,
+      ogImage: intro,
     },
   ),
 ];
@@ -496,7 +495,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Trong mổ không đau nhờ gây mê; sau mổ đau nhẹ đến vừa 3–7 ngày — kiểm soát bằng thuốc và chăm sóc đúng.",
     NANG_MUI_CO_DAU_KHONG_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "nang-mui-co-dau-khong",
@@ -547,7 +546,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Làm sạch, dưỡng và chống nắng — routine theo loại da và sai lầm thường gặp khi skincare tại nhà.",
     CHAM_SOC_DA_MAT_DUNG_CACH_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "cham-soc-da-mat-dung-cach",
@@ -581,7 +580,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Bắt đầu 2–4 tuần, rõ nhất 6–8 tuần — timeline botox masseter và khi nào tái tiêm.",
     BOTOX_GON_HAM_BAO_LAU_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "botox-gon-ham-bao-lau",
@@ -615,7 +614,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Bác sĩ có chứng chỉ, sản phẩm rõ nguồn, tư vấn trung thực — checklist trước khi làm đẹp.",
     CHON_PHONG_KHAM_THAM_MY_AN_TOAN_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "chon-phong-kham-tham-my-an-toan",
@@ -666,7 +665,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "02/07/2026",
     "Mụn ẩn dưới da — khác đầu đen; điều trị bằng BHA, retinol và chăm sóc da chuyên sâu.",
     MUN_AN_LA_GI_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "mun-an-la-gi",
@@ -717,7 +716,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "02/07/2026",
     "Sửa mũi khó hơn nâng lần đầu — chờ mô lành, chọn bác sĩ có kinh nghiệm revision.",
     SUA_MUI_HONG_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "sua-mui-hong",
@@ -751,7 +750,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "02/07/2026",
     "Botox masseter giảm cơ nhai — hàm vuông thon dần sau 4–8 tuần.",
     THON_HAM_BOTOX_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "thon-ham-botox",
@@ -785,7 +784,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "02/07/2026",
     "Laser phá melanin nám sâu — cần chống nắng SPF50+ suốt liệu trình và sau điều trị.",
     LASER_TRI_NAM_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "laser-tri-nam",
@@ -802,7 +801,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "03/07/2026",
     "Nâng mũi sụn dùng sụn nhân tạo hoặc tự thân nâng sống mũi — khác bọc sụn và filler mũi.",
     NANG_MUI_SUN_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "nang-mui-sun",
@@ -836,7 +835,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "03/07/2026",
     "Nâng mũi cấu trúc chỉnh sống, đầu mũi, cánh mũi — khác nâng mũi đặt sụn đơn giản.",
     NANG_MUI_CAU_TRUC_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "nang-mui-cau-truc",
@@ -870,7 +869,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "03/07/2026",
     "Nâng mũi hàn quốc là tham chiếu thẩm mỹ S-line — cần cá nhân hóa theo khuôn mặt.",
     NANG_MUI_HAN_QUOC_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "nang-mui-han-quoc",
@@ -904,7 +903,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "03/07/2026",
     "Tái nâng mũi sửa mũi lần trước — khó hơn mổ đầu, cần bác sĩ có kinh nghiệm.",
     TAI_NANG_MUI_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "tai-nang-mui",
@@ -938,7 +937,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "03/07/2026",
     "Cắt mí tự nhiên — nếp mí mỏng, cân hai bên, không quá cao hay lộ sẹo.",
     CAT_MI_TU_NHIEN_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "cat-mi-tu-nhien",
@@ -972,7 +971,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "03/07/2026",
     "Cắt mí không đau trong mổ nhờ gây tê; sau mổ chủ yếu căng và sưng vài ngày — chịu được nếu chăm sóc đúng.",
     CAT_MI_KHONG_DAU_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "cat-mi-khong-dau",
@@ -1006,7 +1005,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "03/07/2026",
     "Mí ẩn có nếp gấp nhưng bị che — phổ biến người châu Á; chọn nhấn mí hoặc cắt mí tùy da và mỡ mí.",
     MI_AN_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "mi-an",
@@ -1040,7 +1039,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "03/07/2026",
     "Mở góc mắt trong hoặc ngoài giúp mắt dài, to hơn — thường kết hợp cắt mí.",
     MO_GOC_MAT_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "mo-goc-mat",
@@ -1074,7 +1073,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "03/07/2026",
     "Tái cắt mí sửa mí lần trước — nếp lệch, quá cao, mất mí; khó hơn mổ đầu.",
     TAI_CAT_MI_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "tai-cat-mi",
@@ -1108,7 +1107,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "03/07/2026",
     "Sưng sau cắt mí bình thường đỉnh ngày 2–3 — chườm mát và chăm sóc đúng giúp giảm nhanh.",
     SUNG_SAU_CAT_MI_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "sung-sau-cat-mi",
@@ -1157,7 +1156,7 @@ const GENERAL_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Mụn tái phát, nám lan, da nhạy cảm kéo dài — 5 dấu hiệu cần gặp bác sĩ thay vì tự trị tại nhà bằng mỹ phẩm.",
     DAU_HIEU_THAM_KHAM_DA_LIEU_BODY,
-    slide,
+    intro,
     "Kiến thức",
     newsSeo(
       "5-dau-hieu-nen-tham-kham-da-lieu",

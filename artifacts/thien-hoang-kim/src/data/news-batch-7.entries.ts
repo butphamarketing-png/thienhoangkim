@@ -61,7 +61,6 @@ import type { ArticleSeo, SiteArticle } from "@/types/site-content";
 const publicAsset = (file: string) =>
   `${import.meta.env.BASE_URL}${file}`.replace(/([^:]\/)\/+/g, "$1");
 
-const slide = publicAsset("slideshow.1.png");
 const intro = publicAsset("gioithieu.1.png");
 
 function newsSeo(
@@ -70,7 +69,7 @@ function newsSeo(
   metaDescription: string,
   focusKeyphrase: string,
   keywords?: string,
-  ogImage = slide,
+  ogImage = intro,
 ): ArticleSeo {
   return buildNewsArticleSeo(slug, metaTitle, metaDescription, focusKeyphrase, keywords, ogImage);
 }
@@ -82,7 +81,7 @@ function article(
   date: string,
   description: string,
   body: string,
-  image = slide,
+  image = intro,
   category = "Kiến thức",
   seo: ArticleSeo = { ...DEFAULT_ARTICLE_SEO },
 ): SiteArticle {
@@ -589,8 +588,8 @@ export const MANUAL_BATCH_7_ARTICLES: SiteArticle[] = BATCH_7_ENTRIES.map((e) =>
     "06/07/2026",
     e.description,
     e.body,
-    e.image ?? slide,
+    e.image ?? intro,
     "Kiến thức",
-    newsSeo(e.slug, metaTitle, e.description, e.focus, e.keywords, e.image ?? slide),
+    newsSeo(e.slug, metaTitle, e.description, e.focus, e.keywords, e.image ?? intro),
   );
 });

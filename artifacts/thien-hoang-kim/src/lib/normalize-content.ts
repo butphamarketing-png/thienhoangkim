@@ -49,6 +49,12 @@ function normalizeCtaImage(image?: string): string {
   return image;
 }
 
+function normalizeArticleImage(image?: string, fallback?: string): string {
+  const portrait = DEFAULT_SITE_CONTENT.home.aboutImage;
+  const src = image || fallback || portrait;
+  return src.includes("slideshow.1") ? portrait : src;
+}
+
 export function normalizeArticles(articles?: SiteArticle[]): SiteArticle[] {
   if (!articles?.length) return DEFAULT_ARTICLES;
 
@@ -57,17 +63,25 @@ export function normalizeArticles(articles?: SiteArticle[]): SiteArticle[] {
   return articles.map((a) => {
     const fallback = defaultById.get(a.id);
     const title = a.title || fallback?.title || "Bài viết";
+    const image = normalizeArticleImage(
+      a.image,
+      fallback?.image || DEFAULT_SITE_CONTENT.home.aboutImage,
+    );
+    const seo = normalizeArticleSeo(a.seo ?? fallback?.seo);
+    if (seo.ogImage?.includes("slideshow.1")) {
+      seo.ogImage = image;
+    }
     return {
       id: a.id,
       slug: a.slug || fallback?.slug || slugify(title),
       category: a.category || fallback?.category || "Kiến thức",
-      image: a.image || fallback?.image || DEFAULT_SITE_CONTENT.home.heroSlides[0]?.src || "",
+      image,
       title,
       date: a.date || fallback?.date || new Date().toLocaleDateString("vi-VN"),
       description: a.description || fallback?.description || "",
       body: a.body || fallback?.body || a.description || "",
       published: a.published ?? fallback?.published ?? true,
-      seo: normalizeArticleSeo(a.seo ?? fallback?.seo),
+      seo,
     };
   });
 }
