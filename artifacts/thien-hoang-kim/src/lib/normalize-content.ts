@@ -1,5 +1,6 @@
 import { DEFAULT_ARTICLES } from "@/data/articles.defaults";
 import { DEFAULT_SITE_CONTENT } from "@/data/site-content.defaults";
+import { isSpaTopicArticle, isThamMyTopicArticle } from "@/lib/article-thumbnail";
 import { normalizeArticleSeo, normalizeSiteSeo } from "@/lib/seo";
 import { slugify } from "@/lib/slug";
 import type { SiteArticle, SiteContent, SiteHeroSlide, SiteTestimonial } from "@/types/site-content";
@@ -57,7 +58,14 @@ function stripMarkdownBold(text: string): string {
   return text.replace(/\*\*([^*]+)\*\*/g, "$1").replace(/\*\*/g, "");
 }
 
-function normalizeArticleImage(image?: string, fallback?: string, category?: string): string {
+function normalizeArticleImage(
+  image?: string,
+  fallback?: string,
+  category?: string,
+  slug?: string,
+  title?: string,
+  body?: string,
+): string {
   const portrait = DEFAULT_SITE_CONTENT.home.aboutImage;
   const [thamMyImage, spaImage] = DEFAULT_SITE_CONTENT.home.featuredServiceImages;
   let src = image || fallback || portrait;
@@ -65,38 +73,47 @@ function normalizeArticleImage(image?: string, fallback?: string, category?: str
   if (src.includes("slideshow.1")) return portrait;
 
   if (category === "Thẩm mỹ") {
-    if (src.includes("nang-mui-hoang-kim") || src.includes("cat-mi-phuong-hoang")) return src;
+    if (src.includes("nang-mui-hoang-kim") || src.includes("cat-mi-phuong-hoang") || src.includes("cay-toc-tu-than") || src.includes("cang-chi-tre-hoa") || src.includes("cang-noi-soi")) return src;
     return thamMyImage;
   }
   if (category === "Spa") return spaImage;
+
+  if (src.includes("gioithieu.1") || src.includes("slideshow.1")) {
+    if (slug && title && isThamMyTopicArticle(slug, title, body)) return thamMyImage;
+    if (slug && title && isSpaTopicArticle(slug, title, body)) return spaImage;
+  }
 
   return src;
 }
 
 export function normalizeArticles(articles?: SiteArticle[]): SiteArticle[] {
-  if (!articles?.length) return DEFAULT_ARTICLES;
-
+  const list = articles?.length ? articles : DEFAULT_ARTICLES;
   const defaultById = new Map(DEFAULT_ARTICLES.map((a) => [a.id, a]));
 
-  return articles.map((a) => {
+  return list.map((a) => {
     const fallback = defaultById.get(a.id);
     const title = a.title || fallback?.title || "Bài viết";
     const category = a.category || fallback?.category || "Kiến thức";
-    const image = normalizeArticleImage(a.image, fallback?.image, category);
+    const slug = a.slug || fallback?.slug || slugify(title);
+    const rawBody = a.body || fallback?.body || a.description || "";
+    const image = normalizeArticleImage(a.image, fallback?.image, category, slug, title, rawBody);
     const seo = normalizeArticleSeo(a.seo ?? fallback?.seo);
     if (seo.ogImage?.includes("slideshow.1") || seo.ogImage?.includes("gioithieu.1")) {
-      if (category === "Thẩm mỹ" && !image.includes("nang-mui-hoang-kim")) {
+      if (category === "Thẩm mỹ" && !image.includes("uploads/")) {
         seo.ogImage = DEFAULT_SITE_CONTENT.home.featuredServiceImages[0];
       } else if (category === "Spa") {
+        seo.ogImage = DEFAULT_SITE_CONTENT.home.featuredServiceImages[1];
+      } else if (image.includes("thẩm mỹ") || image.includes("tham-my")) {
+        seo.ogImage = DEFAULT_SITE_CONTENT.home.featuredServiceImages[0];
+      } else if (image.includes("Spa")) {
         seo.ogImage = DEFAULT_SITE_CONTENT.home.featuredServiceImages[1];
       } else {
         seo.ogImage = image;
       }
     }
-    const rawBody = a.body || fallback?.body || a.description || "";
     return {
       id: a.id,
-      slug: a.slug || fallback?.slug || slugify(title),
+      slug,
       category,
       image,
       title,

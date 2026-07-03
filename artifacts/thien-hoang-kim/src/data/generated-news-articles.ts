@@ -5,6 +5,7 @@ import {
   buildGeneratedMetaDescription,
   type KeywordPlanEntry,
 } from "@/lib/generated-article-body";
+import { imageForKeywordPillar } from "@/lib/article-thumbnail";
 import { buildNewsArticleSeo } from "@/lib/article-seo";
 import { DEFAULT_ARTICLE_SEO } from "@/lib/seo";
 import type { ArticleSeo, SiteArticle } from "@/types/site-content";
@@ -13,6 +14,12 @@ const publicAsset = (file: string) =>
   `${import.meta.env.BASE_URL}${file}`.replace(/([^:]\/)\/+/g, "$1");
 
 const intro = publicAsset("gioithieu.1.png");
+const thamMyImage = publicAsset("thẩm mỹ.png");
+const spaImage = publicAsset("uploads/Spa.jpg");
+
+function thumbnailForEntry(entry: KeywordPlanEntry): string {
+  return imageForKeywordPillar(entry.pillar, thamMyImage, spaImage, intro);
+}
 
 function newsSeo(
   slug: string,
@@ -68,8 +75,8 @@ const entries = (mergedPlan as KeywordPlanEntry[]).filter(
 export const GENERATED_NEWS_ARTICLES: SiteArticle[] = entries.map((entry, index) => {
   const focusTitle = entry.focus.charAt(0).toUpperCase() + entry.focus.slice(1);
   const title = entry.title ?? `${focusTitle} — Tư vấn tại Thiên Hoàng Kim`;
-  const image = intro;
-  const body = buildGeneratedArticleBody(entry, intro, intro);
+  const image = thumbnailForEntry(entry);
+  const body = buildGeneratedArticleBody(entry, image, image);
   const secondary = `${entry.focus}, ${entry.focus} TP.HCM, Thiên Hoàng Kim, An Đông`;
 
   return article(

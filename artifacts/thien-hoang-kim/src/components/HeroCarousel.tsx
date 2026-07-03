@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { HERO_SLIDE_HEIGHT, HERO_SLIDE_WIDTH } from "@/config/hero-slideshow";
 
 export type HeroSlide = {
   id: string;
@@ -49,11 +50,15 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
           {slides.map((slide, i) => {
             const isVideo = /\.(mp4|webm|mov|ogg)(\?|$)/i.test(slide.src);
             return (
-              <div key={slide.id} className="w-full shrink-0">
+              <div
+                key={slide.id}
+                className="relative w-full shrink-0 overflow-hidden bg-neutral-100"
+                style={{ aspectRatio: `${HERO_SLIDE_WIDTH} / ${HERO_SLIDE_HEIGHT}` }}
+              >
                 {isVideo ? (
                   <video
                     src={slide.src}
-                    className="block w-full h-auto"
+                    className="absolute inset-0 h-full w-full object-cover object-center"
                     autoPlay
                     loop
                     muted
@@ -63,7 +68,7 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
                   <img
                     src={slide.src}
                     alt={slide.alt}
-                    className="block w-full h-auto"
+                    className="absolute inset-0 h-full w-full object-cover object-center"
                     fetchPriority={i === 0 ? "high" : "low"}
                     draggable={false}
                   />

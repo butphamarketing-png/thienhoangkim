@@ -64,7 +64,7 @@ export async function loadSiteContent(options?: { preferLocal?: boolean }): Prom
     if (stored) return stored;
   }
 
-  return DEFAULT_SITE_CONTENT;
+  return mergeSiteContent({});
 }
 
 export async function publishContentToApi(content: SiteContent, token: string): Promise<boolean> {

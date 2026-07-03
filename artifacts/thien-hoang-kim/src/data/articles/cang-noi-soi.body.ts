@@ -1,5 +1,10 @@
 /** Nội dung chi tiết ~3000 chữ — bài Căng nội soi */
+const base = `${import.meta.env.BASE_URL}`.replace(/([^:]\/)\/+/g, "$1");
+export const CANG_NOI_SOI_IMG = `${base}uploads/cang-noi-soi.png`;
+
 export const CANG_NOI_SOI_BODY = `Lão hóa khiến da mặt chảy xệ, đường viền mờ và trán nhăn sâu — khiến khuôn mặt trông mệt mỏi dù sức khỏe vẫn tốt. Căng nội soi tại Thiên Hoàng Kim Aesthetic Clinic là phương pháp trẻ hóa mặt nâng cơ qua đường rạch nhỏ ẩn trong tóc, sử dụng camera nội soi và dụng cụ chuyên dụng để cố định lớp mô bị chảy xệ — hiệu quả sâu hơn căng chỉ hay filler nhưng ít xâm lấn hơn phẫu thuật mở toàn bộ mặt (facelift truyền thống). Mỗi phác đồ được bác sĩ thăm khám, đánh giá mức chảy xệ và theo dõi tái khám sau phẫu thuật.
+
+![căng nội soi](${CANG_NOI_SOI_IMG})
 
 ## Căng nội soi là gì?
 

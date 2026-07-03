@@ -10,6 +10,7 @@ import {
 } from "react";
 import { useLocation } from "wouter";
 import { DEFAULT_SITE_CONTENT } from "@/data/site-content.defaults";
+import { mergeSiteContent } from "@/lib/normalize-content";
 import {
   loadSiteContent,
   publishContentToApi,
@@ -33,7 +34,7 @@ const SiteContentContext = createContext<SiteContentContextValue | null>(null);
 export function SiteContentProvider({ children }: { children: ReactNode }) {
   const [location] = useLocation();
   const isAdmin = location.startsWith("/admin");
-  const [content, setContent] = useState<SiteContent>(DEFAULT_SITE_CONTENT);
+  const [content, setContent] = useState<SiteContent>(() => mergeSiteContent({}));
   const [loading, setLoading] = useState(true);
   const [isDirty, setIsDirty] = useState(false);
   const savedSnapshot = useRef(JSON.stringify(DEFAULT_SITE_CONTENT));

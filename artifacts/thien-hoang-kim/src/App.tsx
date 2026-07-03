@@ -12,6 +12,7 @@ import ArticlePage from "@/pages/ArticlePage";
 import ArticlesListPage from "@/pages/ArticlesListPage";
 import ContactPage from "@/pages/ContactPage";
 import ContentPage from "@/pages/ContentPage";
+import PriceListPage from "@/pages/PriceListPage";
 import CustomersPage from "@/pages/CustomersPage";
 import DoctorsPage from "@/pages/DoctorsPage";
 import HomePage from "@/pages/HomePage";
@@ -73,7 +74,7 @@ function PublicRouter() {
       <Route path="/gioi-thieu/:rest*" component={DynamicContentPage} />
       <Route path="/gioi-thieu" component={DynamicContentPage} />
       <Route path="/dich-vu/:slug" component={LegacyServiceRedirect} />
-      <Route path="/bang-gia" component={DynamicContentPage} />
+      <Route path="/bang-gia" component={PriceListPage} />
       <Route component={NotFound} />
     </Switch>
   );

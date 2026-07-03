@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { AdminField } from "@/admin/components/AdminField";
 import { AdminImageField } from "@/admin/components/AdminImageField";
 import { AdminSaveBar } from "@/admin/components/AdminSaveBar";
+import { HERO_SLIDE_HEIGHT, HERO_SLIDE_SIZE_LABEL, HERO_SLIDE_WIDTH } from "@/config/hero-slideshow";
 import { useSiteContent } from "@/context/SiteContentContext";
 import type { CommitmentIconKey } from "@/types/site-content";
 
@@ -24,8 +25,15 @@ export function AdminHomePage() {
       <h2 className="font-serif text-2xl font-semibold text-primary">Nội dung trang chủ</h2>
 
       <section className="rounded-xl border bg-white p-6 shadow-sm">
-        <h3 className="mb-4 font-semibold">Banner (Hero)</h3>
-        {h.heroSlides.map((slide, i) => (
+        <h3 className="mb-2 font-semibold">Banner (Hero)</h3>
+        <p className="mb-4 text-sm text-muted-foreground">
+          Khung slideshow cố định {HERO_SLIDE_SIZE_LABEL} (tỉ lệ {HERO_SLIDE_WIDTH}:{HERO_SLIDE_HEIGHT}).
+          Ảnh hoặc video khác kích thước vẫn hiển thị đúng khung — tự cắt vừa (object-cover). Nên dùng ảnh ngang
+          cùng tỉ lệ để không bị mất nội dung quan trọng.
+        </p>
+        {h.heroSlides.map((slide, i) => {
+          const isVideo = /\.(mp4|webm|mov|ogg)(\?|$)/i.test(slide.src);
+          return (
           <div key={slide.id} className="mb-4 grid gap-3 border-b pb-4 last:border-0">
             <AdminImageField
               label={`Slide ${i + 1} — ảnh / video banner`}
@@ -39,6 +47,21 @@ export function AdminHomePage() {
                 })
               }
             />
+            {slide.src ? (
+              <div className="max-w-xl">
+                <p className="mb-1.5 text-xs text-muted-foreground">Xem trước khung slideshow</p>
+                <div
+                  className="overflow-hidden rounded-lg border bg-neutral-100"
+                  style={{ aspectRatio: `${HERO_SLIDE_WIDTH} / ${HERO_SLIDE_HEIGHT}` }}
+                >
+                  {isVideo ? (
+                    <video src={slide.src} className="h-full w-full object-cover object-center" muted controls />
+                  ) : (
+                    <img src={slide.src} alt="" className="h-full w-full object-cover object-center" />
+                  )}
+                </div>
+              </div>
+            ) : null}
             <AdminField
               label="Alt text"
               value={slide.alt}
@@ -51,7 +74,8 @@ export function AdminHomePage() {
               }
             />
           </div>
-        ))}
+        );
+        })}
       </section>
 
       <section className="rounded-xl border bg-white p-6 shadow-sm">

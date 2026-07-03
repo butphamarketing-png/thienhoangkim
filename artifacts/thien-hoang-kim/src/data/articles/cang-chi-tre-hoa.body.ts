@@ -1,5 +1,10 @@
 /** Nội dung chi tiết ~3000 chữ — bài Căng chỉ trẻ hóa */
+const base = `${import.meta.env.BASE_URL}`.replace(/([^:]\/)\/+/g, "$1");
+export const CANG_CHI_TRE_HOA_IMG = `${base}uploads/cang-chi-tre-hoa.png`;
+
 export const CANG_CHI_TRE_HOA_BODY = `Da chảy xệ nhẹ, đường viền mặt mờ và nếp nhăn ban đầu khiến khuôn mặt trông mệt — nhưng chưa đến mức cần phẫu thuật căng da lớn. Căng chỉ trẻ hóa tại Thiên Hoàng Kim Aesthetic Clinic là giải pháp nâng cơ không phẫu thuật: đưa chỉ sinh học (PDO, PLLA, PCL…) vào lớp sâu dưới da theo vector đã thiết kế, vừa kéo căng tức thì vừa kích thích collagen tái tạo dần — da săn chắc, trẻ trung hơn mà hồi phục nhanh. Mỗi liệu trình được bác sĩ thăm khám, đánh giá mức chảy xệ và theo dõi tái khám.
+
+![căng chỉ trẻ hóa](${CANG_CHI_TRE_HOA_IMG})
 
 ## Căng chỉ trẻ hóa là gì?
 

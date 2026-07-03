@@ -79,6 +79,9 @@ const thamMyImage = publicAsset("thẩm mỹ.png");
 const spaImage = publicAsset("uploads/Spa.jpg");
 const nangMuiHoangKimImage = publicAsset("uploads/nang-mui-hoang-kim.png");
 const catMiPhuongHoangImage = publicAsset("uploads/cat-mi-phuong-hoang.png");
+const cayTocTuThanImage = publicAsset("uploads/cay-toc-tu-than.png");
+const cangChiTreHoaImage = publicAsset("uploads/cang-chi-tre-hoa.png");
+const cangNoiSoiImage = publicAsset("uploads/cang-noi-soi.png");
 
 function svcSeo(
   metaTitle: string,
@@ -232,7 +235,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Cấy tóc FUE/FUT từ nang tóc tự thân — phục hồi hói đầu, đường viền trán tự nhiên. Tư vấn miễn phí tại An Đông, TP.HCM.",
     CAY_TOC_TU_THAN_BODY,
-    thamMyImage,
+    cayTocTuThanImage,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -246,7 +249,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       ogTitle: "Cấy tóc tự thân FUE/FUT | Thiên Hoàng Kim",
       ogDescription:
         "Cấy tóc tự thân mật độ cao, mọc tự nhiên bền lâu. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
-      ogImage: intro,
+      ogImage: cayTocTuThanImage,
     },
   ),
   article(
@@ -256,7 +259,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Căng nội soi nâng cơ vùng trán, má — trẻ hóa sâu, sẹo ẩn trong tóc. Tư vấn miễn phí tại An Đông, TP.HCM.",
     CANG_NOI_SOI_BODY,
-    thamMyImage,
+    cangNoiSoiImage,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -270,7 +273,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       ogTitle: "Căng nội soi — Trẻ hóa sâu, ít sẹo | Thiên Hoàng Kim",
       ogDescription:
         "Căng nội soi nâng cơ mặt, sẹo ẩn trong tóc — trẻ hóa tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
-      ogImage: intro,
+      ogImage: cangNoiSoiImage,
     },
   ),
   article(
@@ -280,7 +283,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "01/07/2026",
     "Căng chỉ PDO/PLLA nâng cơ, kích thích collagen — trẻ hóa má, hàm, cổ. Hồi phục nhanh. Tư vấn miễn phí tại An Đông, TP.HCM.",
     CANG_CHI_TRE_HOA_BODY,
-    thamMyImage,
+    cangChiTreHoaImage,
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
@@ -294,7 +297,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
       ogTitle: "Căng chỉ trẻ hóa — Săn chắc không mổ | Thiên Hoàng Kim",
       ogDescription:
         "Căng chỉ sinh học nâng cơ, kích thích collagen — hồi phục nhanh. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
-      ogImage: intro,
+      ogImage: cangChiTreHoaImage,
     },
   ),
   article(

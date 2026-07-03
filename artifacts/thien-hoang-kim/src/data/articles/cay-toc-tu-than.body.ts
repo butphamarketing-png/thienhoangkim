@@ -1,5 +1,10 @@
 /** Nội dung chi tiết ~3000 chữ — bài Cấy tóc tự thân */
+const base = `${import.meta.env.BASE_URL}`.replace(/([^:]\/)\/+/g, "$1");
+export const CAY_TOC_TU_THAN_IMG = `${base}uploads/cay-toc-tu-than.png`;
+
 export const CAY_TOC_TU_THAN_BODY = `Rụng tóc, hói đầu hoặc tóc thưa không chỉ ảnh hưởng ngoại hình mà còn tác động đến sự tự tin trong công việc và giao tiếp hàng ngày. Cấy tóc tự thân tại Thiên Hoàng Kim Aesthetic Clinic là giải pháp y khoa lấy nang tóc khỏe từ chính cơ thể bạn (vùng cho sau gáy), cấy vào vùng hói hoặc thưa — tóc mọc tự nhiên, bền lâu vì vẫn là tóc của bạn. Mỗi phác đồ được bác sĩ thăm khám, đánh giá mức độ hói, thiết kế đường viền trán và hướng mọc tóc phù hợp khuôn mặt, theo dõi tái khám qua các giai đoạn shock loss đến khi tóc mọc ổn định.
+
+![cấy tóc tự thân](${CAY_TOC_TU_THAN_IMG})
 
 ## Cấy tóc tự thân là gì?
 
