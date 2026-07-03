@@ -8,9 +8,31 @@ const publicAsset = (file: string) => {
 
 const slide = publicAsset("slideshow.1.png");
 const intro = publicAsset("gioithieu.1.png");
-const thamMyImage = publicAsset("uploads/Thẩm Mỹ.jpg");
+const thamMyImage = publicAsset("thẩm mỹ.png");
 const spaImage = publicAsset("uploads/Spa.jpg");
+const customerCaseImages = {
+  nangMui: {
+    before: publicAsset("Ảnh khách hàng/Trước nâng mũi.png"),
+    after: publicAsset("Ảnh khách hàng/sau nâng mũi.png"),
+  },
+  catMi: {
+    before: publicAsset("Ảnh khách hàng/trước cắt mí.png"),
+    after: publicAsset("Ảnh khách hàng/sau cắt mí.png"),
+  },
+  botox: {
+    before: publicAsset("Ảnh khách hàng/Trước botox.png"),
+    after: publicAsset("Ảnh khách hàng/sau botox.png"),
+  },
+} as const;
 const doctorHoThanhHai = publicAsset("uploads/Ho-Thanh-Hai.png");
+const processStepImages = [
+  publicAsset("uploads/Tiếp nhận & Tư vấn.png"),
+  publicAsset("uploads/THĂM KHÁM & SOI DA.png"),
+  publicAsset("uploads/LÊN PHÁC ĐỒ CÁ NHÂN.png"),
+  publicAsset("uploads/TIẾN HÀNH ĐIỀU TRỊ.png"),
+  publicAsset("uploads/HƯỚNG DẪN CHĂM SÓC.png"),
+  publicAsset("uploads/TÁI KHÁM & THEO DÕI.png"),
+] as const;
 
 export const DEFAULT_SITE_CONTENT: SiteContent = {
   version: 3,
@@ -60,14 +82,9 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
   home: {
     heroSlides: [
       {
-        id: "hero-tham-my",
-        src: thamMyImage,
-        alt: "Thiên Hoàng Kim — Dịch vụ Thẩm mỹ",
-      },
-      {
-        id: "hero-spa",
-        src: spaImage,
-        alt: "Thiên Hoàng Kim — Dịch vụ Spa",
+        id: "slideshow-1",
+        src: slide,
+        alt: "Thiên Hoàng Kim Aesthetic Clinic — Nâng Tầm Nhan Sắc",
       },
     ],
     commitmentsTitle: "CAM KẾT TỪ THIÊN HOÀNG KIM",
@@ -223,9 +240,24 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
     },
   ],
   customerCases: [
-    { id: "cr1", label: "Nâng Mũi Cấu Trúc", before: slide, after: intro },
-    { id: "cr2", label: "Cắt Mí Tự Nhiên", before: intro, after: slide },
-    { id: "cr3", label: "Filler – Trẻ Hóa", before: slide, after: intro },
+    {
+      id: "cr1",
+      label: "Nâng Mũi Cấu Trúc",
+      before: customerCaseImages.nangMui.before,
+      after: customerCaseImages.nangMui.after,
+    },
+    {
+      id: "cr2",
+      label: "Cắt Mí Tự Nhiên",
+      before: customerCaseImages.catMi.before,
+      after: customerCaseImages.catMi.after,
+    },
+    {
+      id: "cr3",
+      label: "Botox Xóa Nhăn",
+      before: customerCaseImages.botox.before,
+      after: customerCaseImages.botox.after,
+    },
   ],
   luckyWheel: {
     enabled: true,
@@ -249,37 +281,37 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
       id: "s1",
       title: "TIẾP NHẬN & TƯ VẤN",
       desc: "Đội ngũ tiếp nhận thông tin và tư vấn sơ bộ",
-      image: intro,
+      image: processStepImages[0],
     },
     {
       id: "s2",
       title: "THĂM KHÁM & SOI DA",
       desc: "Bác sĩ trực tiếp thăm khám và phân tích tình trạng",
-      image: slide,
+      image: processStepImages[1],
     },
     {
       id: "s3",
       title: "LÊN PHÁC ĐỒ CÁ NHÂN",
       desc: "Đề xuất liệu trình phù hợp với nhu cầu",
-      image: intro,
+      image: processStepImages[2],
     },
     {
       id: "s4",
       title: "TIẾN HÀNH ĐIỀU TRỊ",
       desc: "Thực hiện theo đúng quy trình chuẩn Y khoa",
-      image: slide,
+      image: processStepImages[3],
     },
     {
       id: "s5",
       title: "HƯỚNG DẪN CHĂM SÓC",
       desc: "Hướng dẫn chăm sóc tại nhà để duy trì kết quả",
-      image: intro,
+      image: processStepImages[4],
     },
     {
       id: "s6",
       title: "TÁI KHÁM & THEO DÕI",
       desc: "Theo dõi tiến trình để đạt kết quả tối ưu nhất",
-      image: slide,
+      image: processStepImages[5],
     },
   ],
   promotion: {

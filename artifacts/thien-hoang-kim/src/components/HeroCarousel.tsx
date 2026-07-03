@@ -36,34 +36,6 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
   if (count === 0) return null;
 
   const showControls = count > 1;
-  const isDualHero = count === 2;
-
-  if (isDualHero) {
-    return (
-      <section className="relative w-full overflow-hidden bg-white" aria-label="Banner Thẩm mỹ & Spa">
-        <div className="container mx-auto grid max-w-7xl grid-cols-1 gap-3 px-3 py-3 sm:gap-4 sm:px-4 sm:py-4 md:grid-cols-2 md:gap-5 md:px-6 md:py-5">
-          {slides.map((slide, i) => (
-            <div
-              key={slide.id}
-              className="relative overflow-hidden rounded-[1.25rem] shadow-[0_8px_30px_rgba(15,48,36,0.12)] ring-1 ring-black/[0.06] md:rounded-3xl"
-            >
-              <img
-                src={slide.src}
-                alt={slide.alt}
-                className="block aspect-[4/5] w-full object-cover object-top sm:aspect-[5/6] md:aspect-[4/5]"
-                fetchPriority={i === 0 ? "high" : "low"}
-              />
-              <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#071a14]/90 via-[#071a14]/25 to-transparent pb-7 pt-16">
-                <p className="text-center font-serif text-[1.65rem] font-bold tracking-[0.1em] text-white sm:text-3xl">
-                  {i === 0 ? "THẨM MỸ" : "SPA"}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-    );
-  }
 
   return (
     <section className="relative w-full overflow-hidden bg-white" aria-label="Banner slideshow">

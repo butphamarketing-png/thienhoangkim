@@ -55,7 +55,7 @@ export function ExamProcessSection({ steps }: ExamProcessSectionProps) {
                     >
                       <img
                         src={step.image}
-                        alt=""
+                        alt={step.title}
                         className="h-full w-full object-cover"
                       />
                     </div>
