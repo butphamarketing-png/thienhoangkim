@@ -23,6 +23,7 @@ function newServiceItem(categoryId: ServiceCategoryId): SiteServiceItem {
     slug,
     label,
     description: "",
+    priceText: "",
     articleSlug: "",
     image: "",
     published: true,
@@ -211,6 +212,11 @@ export function AdminServicesPage() {
                       label="Slug bài viết liên kết"
                       value={item.articleSlug ?? ""}
                       onChange={(v) => updateItem(item.id, { articleSlug: v || undefined })}
+                    />
+                    <AdminField
+                      label="Giá (bảng giá)"
+                      value={item.priceText ?? ""}
+                      onChange={(v) => updateItem(item.id, { priceText: v })}
                     />
                     <div className="md:col-span-2">
                       <AdminImageField

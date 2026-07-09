@@ -7,10 +7,12 @@ import {
   DEFAULT_CUSTOMERS_PAGE,
   DEFAULT_DOCTORS_PAGE,
   DEFAULT_INTRO_NAV,
+  DEFAULT_MAIN_NAV,
   DEFAULT_NEWS_NAV,
   DEFAULT_PRICE_LIST_PAGE,
   DEFAULT_SERVICES_HUB_PAGE,
 } from "@/data/cms-defaults";
+import { LOGO_ICON_SRC } from "@/lib/brand-assets";
 import type { SiteContent } from "@/types/site-content";
 
 const publicAsset = (file: string) => {
@@ -54,6 +56,7 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
     clinicName: "THIÊN HOÀNG KIM",
     clinicSubtitle: "Aesthetic Clinic",
     slogan: "Nâng Tầm Nhan Sắc",
+    logoUrl: LOGO_ICON_SRC,
     address: "323-325 Hùng Vương, Phường An Đông, TP Hồ Chí Minh",
     phone: "0938673996",
     email: "contact@thienhoangkim.vn",
@@ -339,6 +342,7 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
   serviceItems: buildDefaultServiceItems(),
   introNav: DEFAULT_INTRO_NAV,
   newsNav: DEFAULT_NEWS_NAV,
+  mainNav: DEFAULT_MAIN_NAV,
   contactPage: DEFAULT_CONTACT_PAGE,
   priceListPage: DEFAULT_PRICE_LIST_PAGE,
   servicesHubPage: DEFAULT_SERVICES_HUB_PAGE,

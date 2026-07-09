@@ -6,7 +6,7 @@ import { BookingSection } from "@/components/BookingSection";
 import { useSiteContent } from "@/context/SiteContentContext";
 import { resolveContactPage } from "@/lib/site-cms";
 import { formatPhoneDisplay } from "@/lib/format-phone";
-import { MAPS_URL } from "@/config/contact";
+import { buildMapsUrl } from "@/lib/contact-urls";
 
 export default function ContactPage() {
   const { content } = useSiteContent();
@@ -38,7 +38,7 @@ export default function ContactPage() {
         </div>
         <div className="container mx-auto mt-6 px-4 md:px-8">
           <a
-            href={MAPS_URL}
+            href={buildMapsUrl(settings.address)}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex text-sm font-semibold text-primary hover:underline"
@@ -56,6 +56,7 @@ export default function ContactPage() {
         facebookUrl={settings.facebookUrl}
         messengerSlug={settings.messengerSlug}
         phone={settings.phone}
+        address={settings.address}
       />
       <BookingSection />
     </SiteLayout>

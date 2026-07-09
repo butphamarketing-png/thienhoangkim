@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Label } from "@/components/ui/label";
 import { AdminField } from "@/admin/components/AdminField";
 import { AdminSaveBar } from "@/admin/components/AdminSaveBar";
 import { useSiteContent } from "@/context/SiteContentContext";
-import type { SiteLink, SitePageHero } from "@/types/site-content";
+import type { SiteLink, SiteMainNavItem, SitePageHero } from "@/types/site-content";
 
 function LinkListEditor({
   title,
@@ -63,6 +65,63 @@ function LinkListEditor({
   );
 }
 
+function MainNavEditor({
+  items,
+  onChange,
+}: {
+  items: SiteMainNavItem[];
+  onChange: (items: SiteMainNavItem[]) => void;
+}) {
+  return (
+    <section className="rounded-xl border bg-white p-5 shadow-sm">
+      <h3 className="mb-1 font-semibold">Menu chính (cấp 1)</h3>
+      <p className="mb-4 text-xs text-muted-foreground">
+        Bật/tắt và đổi nhãn hoặc đường dẫn các mục trên thanh menu. Menu con Giới thiệu, Dịch vụ, Tin tức vẫn chỉnh ở các
+        phần bên dưới.
+      </p>
+      <div className="space-y-3">
+        {items.map((item, i) => (
+          <div key={item.id} className="grid gap-2 rounded-lg border p-3 md:grid-cols-[auto_1fr_1fr_auto] md:items-end">
+            <div className="flex items-center gap-2 pb-1">
+              <Checkbox
+                id={`main-nav-${item.id}`}
+                checked={item.enabled}
+                onCheckedChange={(v) => {
+                  const next = [...items];
+                  next[i] = { ...next[i], enabled: v === true };
+                  onChange(next);
+                }}
+              />
+              <Label htmlFor={`main-nav-${item.id}`} className="text-xs text-muted-foreground">
+                Hiện
+              </Label>
+            </div>
+            <AdminField
+              label="Nhãn"
+              value={item.label}
+              onChange={(v) => {
+                const next = [...items];
+                next[i] = { ...next[i], label: v };
+                onChange(next);
+              }}
+            />
+            <AdminField
+              label="URL"
+              value={item.href}
+              onChange={(v) => {
+                const next = [...items];
+                next[i] = { ...next[i], href: v };
+                onChange(next);
+              }}
+            />
+            <span className="pb-2 text-xs text-muted-foreground md:text-right">{item.id}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function PageHeroEditor({
   title,
   pathHint,
@@ -102,8 +161,13 @@ export function AdminNavigationPage() {
       <AdminSaveBar />
       <h2 className="font-serif text-2xl font-semibold text-primary">Menu & Hero trang</h2>
       <p className="text-sm text-muted-foreground">
-        Chỉnh menu con và banner (eyebrow, tiêu đề, mô tả) các trang chính trên website.
+        Chỉnh menu chính, menu con và banner (eyebrow, tiêu đề, mô tả) các trang chính trên website.
       </p>
+
+      <MainNavEditor
+        items={content.mainNav}
+        onChange={(mainNav) => updateContent((p) => ({ ...p, mainNav }))}
+      />
 
       <LinkListEditor
         title="Menu Giới thiệu"

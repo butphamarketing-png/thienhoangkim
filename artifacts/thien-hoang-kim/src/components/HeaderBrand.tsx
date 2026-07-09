@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { useDelayedClass } from "@/hooks/useDelayedClass";
-import { LOGO_ICON_SRC } from "@/lib/brand-assets";
+import { resolveLogoUrl } from "@/lib/brand-assets";
+import { useSiteContent } from "@/context/SiteContentContext";
 
 type HeaderBrandProps = {
   /** Header trắng = dark text; footer xanh = light text */
@@ -10,13 +11,16 @@ type HeaderBrandProps = {
 
 /** Logo design: icon tách nền + chữ bên cạnh */
 export function HeaderBrand({ variant = "header", className = "" }: HeaderBrandProps) {
+  const { content } = useSiteContent();
+  const { settings } = content;
   const isFooter = variant === "footer";
   const shine = useDelayedClass(5000, 12000);
+  const logoSrc = resolveLogoUrl(settings);
 
   return (
     <div className={cn("flex items-center gap-3 md:gap-3.5", className)}>
       <img
-        src={LOGO_ICON_SRC}
+        src={logoSrc}
         alt=""
         className={cn(
           "shrink-0 object-contain object-center transition-[filter] duration-300",
@@ -33,7 +37,7 @@ export function HeaderBrand({ variant = "header", className = "" }: HeaderBrandP
             isFooter ? "text-[#e8d48b]" : "text-gold-gradient",
           )}
         >
-          THIÊN HOÀNG KIM
+          {settings.clinicName}
         </span>
         <span
           className={cn(
@@ -41,7 +45,7 @@ export function HeaderBrand({ variant = "header", className = "" }: HeaderBrandP
             isFooter ? "text-white/65" : "text-primary",
           )}
         >
-          Aesthetic Clinic
+          {settings.clinicSubtitle}
         </span>
       </div>
     </div>

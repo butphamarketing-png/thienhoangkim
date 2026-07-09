@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { buildServicePriceGroups } from "@/data/service-pricing";
 import { useSiteContent } from "@/context/SiteContentContext";
 import { resolvePriceListPage } from "@/lib/site-cms";
-import { CLINIC_PHONE_DISPLAY, TEL_URL, ZALO_URL } from "@/config/contact";
+import { buildTelUrl, buildZaloUrl, phoneDisplay } from "@/lib/contact-urls";
 import { cn } from "@/lib/utils";
 
 function ZaloIcon({ className }: { className?: string }) {
@@ -23,8 +23,12 @@ function ZaloIcon({ className }: { className?: string }) {
 
 export default function PriceListPage() {
   const { content } = useSiteContent();
+  const { settings } = content;
   const groups = buildServicePriceGroups(content);
   const hero = resolvePriceListPage(content);
+  const telUrl = buildTelUrl(settings.phone);
+  const zaloUrl = buildZaloUrl(settings.phone);
+  const phoneLabel = phoneDisplay(settings.phone);
   return (
     <SiteLayout>
       <PageHero
@@ -68,6 +72,9 @@ export default function PriceListPage() {
                           {item.description}
                         </p>
                       )}
+                      {item.priceText && (
+                        <p className="mt-2 text-sm font-semibold text-gold">{item.priceText}</p>
+                      )}
                     </div>
 
                     <div className="flex shrink-0 flex-wrap gap-2 sm:flex-col sm:items-stretch lg:flex-row">
@@ -76,7 +83,7 @@ export default function PriceListPage() {
                         size="sm"
                         className="h-10 rounded-full bg-primary px-4 font-semibold hover:bg-primary/90"
                       >
-                        <a href={TEL_URL}>
+                        <a href={telUrl}>
                           <Phone className="mr-1.5 h-4 w-4" />
                           Hotline
                         </a>
@@ -87,7 +94,7 @@ export default function PriceListPage() {
                         variant="outline"
                         className="h-10 rounded-full border-[#0068ff]/40 px-4 font-semibold text-[#0068ff] hover:bg-[#0068ff]/5"
                       >
-                        <a href={ZALO_URL} target="_blank" rel="noopener noreferrer">
+                        <a href={zaloUrl} target="_blank" rel="noopener noreferrer">
                           <ZaloIcon className="mr-1.5" />
                           Zalo
                         </a>
@@ -103,7 +110,7 @@ export default function PriceListPage() {
             <p className="text-sm text-muted-foreground md:text-base">
               Bác sĩ sẽ báo giá chi tiết sau khi thăm khám và lên phác đồ cá nhân.
             </p>
-            <p className="mt-2 font-semibold text-primary">Hotline tư vấn miễn phí: {CLINIC_PHONE_DISPLAY}</p>
+            <p className="mt-2 font-semibold text-primary">Hotline tư vấn miễn phí: {phoneLabel}</p>
             <Link href="/lien-he#dat-lich">
               <Button className="mt-5 rounded-full bg-primary px-8 font-bold">
                 Đặt lịch tư vấn miễn phí

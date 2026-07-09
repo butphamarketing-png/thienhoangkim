@@ -1,7 +1,7 @@
 import type { ComponentType } from "react";
 import { Calendar, MapPin, MessageCircle, Phone } from "lucide-react";
 import { SiZalo } from "react-icons/si";
-import { MAPS_URL, ZALO_URL } from "@/config/contact";
+import { buildMapsUrl, buildMessengerUrl, buildTelUrl, buildZaloUrl } from "@/lib/contact-urls";
 import { useSiteContent } from "@/context/SiteContentContext";
 import { cn } from "@/lib/utils";
 
@@ -19,19 +19,19 @@ type ContactAction = {
   shakeDelay?: string;
 };
 
-function buildActions(messengerSlug: string, phone: string): ContactAction[] {
+function buildActions(address: string, messengerSlug: string, phone: string): ContactAction[] {
   return [
-    { id: "map", label: "Tìm đường", icon: MapPin, href: MAPS_URL, shakeDelay: "contact-shake-delay-0" },
-    { id: "zalo", label: "Chat ZL", icon: SiZalo, href: ZALO_URL, shakeDelay: "contact-shake-delay-1" },
+    { id: "map", label: "Tìm đường", icon: MapPin, href: buildMapsUrl(address), shakeDelay: "contact-shake-delay-0" },
+    { id: "zalo", label: "Chat ZL", icon: SiZalo, href: buildZaloUrl(phone), shakeDelay: "contact-shake-delay-1" },
     { id: "book", label: "Đặt lịch", icon: Calendar, highlight: true, shakeDelay: "contact-shake-delay-2" },
     {
       id: "messenger",
       label: "Messenger",
       icon: MessageCircle,
-      href: `https://m.me/${messengerSlug}`,
+      href: buildMessengerUrl(messengerSlug),
       shakeDelay: "contact-shake-delay-3",
     },
-    { id: "call", label: "Gọi ngay", icon: Phone, href: `tel:${phone}`, shakeDelay: "contact-shake-delay-4" },
+    { id: "call", label: "Gọi ngay", icon: Phone, href: buildTelUrl(phone), shakeDelay: "contact-shake-delay-4" },
   ];
 }
 
@@ -136,7 +136,7 @@ function ActionLink({
 
 export function QuickContactActions({ onBook }: QuickContactActionsProps) {
   const { content } = useSiteContent();
-  const actions = buildActions(content.settings.messengerSlug, content.settings.phone);
+  const actions = buildActions(content.settings.address, content.settings.messengerSlug, content.settings.phone);
   const desktopOrder = [...actions].reverse();
 
   return (

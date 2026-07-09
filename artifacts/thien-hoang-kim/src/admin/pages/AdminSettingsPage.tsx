@@ -1,4 +1,5 @@
 import { AdminField } from "@/admin/components/AdminField";
+import { AdminImageField } from "@/admin/components/AdminImageField";
 import { AdminSaveBar } from "@/admin/components/AdminSaveBar";
 import { useSiteContent } from "@/context/SiteContentContext";
 
@@ -18,6 +19,7 @@ export function AdminSettingsPage() {
       <AdminSaveBar />
       <h2 className="mb-6 font-serif text-2xl font-semibold text-primary">Thiết lập thông tin</h2>
       <div className="grid max-w-3xl gap-4 rounded-xl border bg-white p-6 shadow-sm">
+        <AdminImageField label="Logo (icon header & loading)" value={s.logoUrl} onChange={(v) => set("logoUrl", v)} />
         <AdminField label="Tên phòng khám" value={s.clinicName} onChange={(v) => set("clinicName", v)} />
         <AdminField label="Phụ đề" value={s.clinicSubtitle} onChange={(v) => set("clinicSubtitle", v)} />
         <AdminField label="Slogan footer" value={s.slogan} onChange={(v) => set("slogan", v)} />

@@ -7,6 +7,7 @@ import {
   DEFAULT_CUSTOMERS_PAGE,
   DEFAULT_DOCTORS_PAGE,
   DEFAULT_INTRO_NAV,
+  DEFAULT_MAIN_NAV,
   DEFAULT_NEWS_NAV,
   DEFAULT_PRICE_LIST_PAGE,
   DEFAULT_SERVICES_HUB_PAGE,
@@ -15,7 +16,7 @@ import { DEFAULT_SITE_CONTENT } from "@/data/site-content.defaults";
 import { isSpaTopicArticle, isThamMyTopicArticle } from "@/lib/article-thumbnail";
 import { normalizeArticleSeo, normalizeSiteSeo } from "@/lib/seo";
 import { slugify } from "@/lib/slug";
-import type { SiteArticle, SiteContent, SiteHeroSlide, SiteTestimonial } from "@/types/site-content";
+import type { SiteArticle, SiteContent, SiteHeroSlide, SiteServiceItem, SiteTestimonial } from "@/types/site-content";
 
 /** Hero slideshow — 2 banner full-width, trượt ngang. */
 function normalizeHeroSlides(slides?: SiteHeroSlide[]): SiteHeroSlide[] {
@@ -159,6 +160,17 @@ export function normalizeArticles(articles?: SiteArticle[]): SiteArticle[] {
   return [...merged.values()];
 }
 
+function normalizeServiceItems(items?: SiteServiceItem[]): SiteServiceItem[] {
+  const defaults = buildDefaultServiceItems();
+  if (!items?.length) return defaults;
+
+  const defaultById = new Map(defaults.map((d) => [d.id, d]));
+  return items.map((item) => ({
+    ...item,
+    priceText: item.priceText?.trim() || defaultById.get(item.id)?.priceText || "",
+  }));
+}
+
 export function mergeSiteContent(partial: Partial<SiteContent>): SiteContent {
   const base = DEFAULT_SITE_CONTENT;
   return {
@@ -168,6 +180,7 @@ export function mergeSiteContent(partial: Partial<SiteContent>): SiteContent {
     settings: {
       ...base.settings,
       ...partial.settings,
+      logoUrl: partial.settings?.logoUrl?.trim() || base.settings.logoUrl,
       seo: normalizeSiteSeo(partial.settings?.seo, base.settings.seo),
     },
     home: {
@@ -206,9 +219,10 @@ export function mergeSiteContent(partial: Partial<SiteContent>): SiteContent {
     serviceCategories: partial.serviceCategories?.length
       ? partial.serviceCategories
       : buildDefaultServiceCategories(),
-    serviceItems: partial.serviceItems?.length ? partial.serviceItems : buildDefaultServiceItems(),
+    serviceItems: normalizeServiceItems(partial.serviceItems),
     introNav: partial.introNav?.length ? partial.introNav : DEFAULT_INTRO_NAV,
     newsNav: partial.newsNav?.length ? partial.newsNav : DEFAULT_NEWS_NAV,
+    mainNav: partial.mainNav?.length ? partial.mainNav : DEFAULT_MAIN_NAV,
     contactPage: partial.contactPage ?? DEFAULT_CONTACT_PAGE,
     priceListPage: partial.priceListPage ?? DEFAULT_PRICE_LIST_PAGE,
     servicesHubPage: partial.servicesHubPage ?? DEFAULT_SERVICES_HUB_PAGE,

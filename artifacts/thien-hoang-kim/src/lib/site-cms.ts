@@ -7,6 +7,7 @@ import {
   DEFAULT_CUSTOMERS_PAGE,
   DEFAULT_DOCTORS_PAGE,
   DEFAULT_INTRO_NAV,
+  DEFAULT_MAIN_NAV,
   DEFAULT_NEWS_NAV,
   DEFAULT_PRICE_LIST_PAGE,
   DEFAULT_SERVICES_HUB_PAGE,
@@ -17,6 +18,7 @@ export type ResolvedPageContent = {
   title: string;
   eyebrow?: string;
   description: string;
+  heroImage?: string;
   blocks: SitePageBlock[];
 };
 
@@ -26,6 +28,7 @@ export type ResolvedServiceCatalogItem = {
   articleSlug?: string;
   description?: string;
   image?: string;
+  priceText?: string;
 };
 
 const LEGACY_SLUG_REDIRECT: Record<string, { category: ServiceCategoryId; slug: string }> = {
@@ -59,6 +62,7 @@ export function resolvePageContent(content: SiteContent, path: string): Resolved
     title: page.title,
     eyebrow: page.eyebrow,
     description: page.description,
+    heroImage: page.heroImage,
     blocks: page.blocks,
   };
 }
@@ -106,6 +110,7 @@ export function resolveServiceItems(
       articleSlug: i.articleSlug,
       description: i.description,
       image: i.image,
+      priceText: i.priceText,
     }));
 }
 
@@ -124,6 +129,7 @@ export function getServiceItem(content: SiteContent, categoryId: ServiceCategory
     articleSlug: item.articleSlug,
     description: item.description,
     image: item.image,
+    priceText: item.priceText,
   };
 }
 
@@ -175,6 +181,7 @@ export function buildMainNav(content: SiteContent): NavItem[] {
   const categories = resolveServiceCategories(content);
   const introNav = content.introNav?.length ? content.introNav : DEFAULT_INTRO_NAV;
   const newsNav = content.newsNav?.length ? content.newsNav : DEFAULT_NEWS_NAV;
+  const mainNav = content.mainNav?.length ? content.mainNav : DEFAULT_MAIN_NAV;
 
   const serviceColumns = (["tham-my", "spa"] as ServiceCategoryId[])
     .filter((id) => categories[id])
@@ -186,15 +193,15 @@ export function buildMainNav(content: SiteContent): NavItem[] {
       })),
     }));
 
-  return [
-    { label: "TRANG CHỦ", href: "/" },
-    { label: "GIỚI THIỆU", href: "/gioi-thieu", children: introNav },
-    { label: "DỊCH VỤ", href: "/dich-vu", columns: serviceColumns },
-    { label: "KHÁCH HÀNG", href: "/khach-hang" },
-    { label: "BẢNG GIÁ", href: "/bang-gia" },
-    { label: "TIN TỨC", href: "/tin-tuc", children: newsNav },
-    { label: "LIÊN HỆ", href: "/lien-he" },
-  ];
+  return mainNav
+    .filter((item) => item.enabled)
+    .map((item) => {
+      const base: NavItem = { label: item.label, href: item.href };
+      if (item.id === "intro") return { ...base, children: introNav };
+      if (item.id === "services") return { ...base, columns: serviceColumns };
+      if (item.id === "news") return { ...base, children: newsNav };
+      return base;
+    });
 }
 
 export function resolveContactPage(content: SiteContent): SiteContactPage {
@@ -229,6 +236,7 @@ export function buildServicePriceGroups(content: SiteContent) {
         slug: item.slug,
         label: item.label,
         description: item.description,
+        priceText: item.priceText,
         href: getServiceHref(categoryId, item.slug, content),
       })),
     };

@@ -24,13 +24,31 @@ export default function ContentPage() {
       <PageHero eyebrow={page.eyebrow} title={page.title} description={page.description} crumbs={crumbs} />
       <div className="container mx-auto px-4 py-12 md:px-8 md:py-16">
         <div className="mx-auto max-w-3xl space-y-10">
+          {page.heroImage && (
+            <div className="overflow-hidden rounded-2xl border border-primary/10 shadow-sm">
+              <img
+                src={page.heroImage}
+                alt={page.title}
+                className="h-auto w-full object-cover"
+              />
+            </div>
+          )}
           {page.blocks.map((block, i) => (
             <div key={i}>
+              {block.image && (
+                <div className="mb-6 overflow-hidden rounded-xl border border-primary/10">
+                  <img
+                    src={block.image}
+                    alt={block.title ?? page.title}
+                    className="h-auto w-full object-cover"
+                  />
+                </div>
+              )}
               {block.title && (
                 <h2 className="mb-4 font-serif text-2xl font-semibold text-primary">{block.title}</h2>
               )}
-              {block.paragraphs.map((para) => (
-                <p key={para.slice(0, 30)} className="mb-4 text-base leading-relaxed text-foreground/85">
+              {block.paragraphs.map((para, pi) => (
+                <p key={pi} className="mb-4 text-base leading-relaxed text-foreground/85">
                   {para}
                 </p>
               ))}

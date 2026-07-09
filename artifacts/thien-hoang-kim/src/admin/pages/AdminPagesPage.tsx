@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { AdminField } from "@/admin/components/AdminField";
+import { AdminImageField } from "@/admin/components/AdminImageField";
 import { AdminSaveBar } from "@/admin/components/AdminSaveBar";
 import { useSiteContent } from "@/context/SiteContentContext";
 import type { SitePage, SitePageBlock } from "@/types/site-content";
@@ -28,6 +29,13 @@ function BlockEditor({
         value={block.title ?? ""}
         onChange={(v) => onChange({ ...block, title: v || undefined })}
       />
+      <div className="mt-3">
+        <AdminImageField
+          label="Ảnh khối (tùy chọn)"
+          value={block.image ?? ""}
+          onChange={(v) => onChange({ ...block, image: v || undefined })}
+        />
+      </div>
       <div className="mt-3 space-y-2">
         <div className="flex items-center justify-between">
           <span className="text-xs font-semibold text-muted-foreground">Đoạn văn</span>
@@ -145,6 +153,13 @@ export function AdminPagesPage() {
                         value={page.description}
                         multiline
                         onChange={(v) => updatePage(i, { description: v })}
+                      />
+                    </div>
+                    <div className="md:col-span-2">
+                      <AdminImageField
+                        label="Ảnh hero trang"
+                        value={page.heroImage ?? ""}
+                        onChange={(v) => updatePage(i, { heroImage: v || undefined })}
                       />
                     </div>
                   </div>

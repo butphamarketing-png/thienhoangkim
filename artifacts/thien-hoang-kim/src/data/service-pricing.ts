@@ -6,6 +6,7 @@ export type ServicePriceItem = {
   slug: string;
   label: string;
   description?: string;
+  priceText?: string;
   href: string;
 };
 

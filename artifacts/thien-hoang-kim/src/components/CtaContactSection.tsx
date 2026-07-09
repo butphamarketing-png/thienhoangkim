@@ -1,7 +1,7 @@
 import type { ComponentType } from "react";
 import { ChevronRight, Facebook, Globe, MapPin, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
-import { MAPS_URL, ZALO_URL } from "@/config/contact";
+import { buildMapsUrl, buildMessengerUrl, buildZaloUrl } from "@/lib/contact-urls";
 import { cn } from "@/lib/utils";
 
 function ZaloIcon({ className }: { className?: string }) {
@@ -33,6 +33,7 @@ type CtaContactSectionProps = {
   facebookUrl: string;
   messengerSlug: string;
   phone: string;
+  address: string;
 };
 
 export function CtaContactSection({
@@ -44,8 +45,10 @@ export function CtaContactSection({
   facebookUrl,
   messengerSlug,
   phone,
+  address,
 }: CtaContactSectionProps) {
-  const zaloHref = ZALO_URL.includes(phone.replace(/\D/g, "")) ? ZALO_URL : `https://zalo.me/${phone.replace(/\D/g, "")}`;
+  const zaloHref = buildZaloUrl(phone);
+  const mapsHref = buildMapsUrl(address);
 
   const channels: Channel[] = [
     {
@@ -59,7 +62,7 @@ export function CtaContactSection({
       id: "messenger",
       title: "Messenger Tư Vấn",
       description: "Nhắn tin để được chuyên gia hỗ trợ nhanh chóng",
-      href: `https://m.me/${messengerSlug}`,
+      href: buildMessengerUrl(messengerSlug),
       icon: MessageCircle,
     },
     {
@@ -73,7 +76,7 @@ export function CtaContactSection({
       id: "maps",
       title: "Google Maps",
       description: "Xem địa chỉ phòng khám",
-      href: MAPS_URL,
+      href: mapsHref,
       icon: MapPin,
     },
     {

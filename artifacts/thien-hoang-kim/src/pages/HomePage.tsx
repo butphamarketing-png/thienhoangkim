@@ -176,6 +176,7 @@ export default function HomePage() {
         facebookUrl={settings.facebookUrl}
         messengerSlug={settings.messengerSlug}
         phone={settings.phone}
+        address={settings.address}
       />
     </SiteLayout>
   );

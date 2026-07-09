@@ -4,6 +4,7 @@ import type {
   ServiceCategoryId,
   SiteContactPage,
   SiteLink,
+  SiteMainNavItem,
   SitePage,
   SitePageHero,
   SiteServiceCategory,
@@ -11,6 +12,31 @@ import type {
 } from "@/types/site-content";
 
 const MANAGED_PAGE_PREFIX = "/gioi-thieu";
+
+const DEFAULT_SERVICE_PRICE_TEXT: Record<string, string> = {
+  "nang-mui-hoang-kim": "từ 45.000.000đ",
+  "cat-mi-phuong-hoang": "từ 8.000.000đ",
+  "cay-toc-tu-than": "Liên hệ báo giá",
+  "cang-noi-soi": "từ 5.000.000đ / buổi",
+  "cang-chi-tre-hoa": "từ 5.000.000đ / buổi",
+  "filler-tao-hinh": "từ 3.000.000đ / vùng",
+  "botox-xoa-nhan-gon-ham": "từ 3.000.000đ / vùng",
+  "u-da-muoi-himalaya": "từ 500.000đ",
+  "phun-xam-tham-my": "từ 1.500.000đ",
+  "massage-body-thu-gian": "từ 350.000đ",
+  "massage-facial": "từ 500.000đ",
+  "cham-soc-da-toan-dien": "từ 500.000đ",
+};
+
+export const DEFAULT_MAIN_NAV: SiteMainNavItem[] = [
+  { id: "home", label: "TRANG CHỦ", href: "/", enabled: true },
+  { id: "intro", label: "GIỚI THIỆU", href: "/gioi-thieu", enabled: true },
+  { id: "services", label: "DỊCH VỤ", href: "/dich-vu", enabled: true },
+  { id: "customers", label: "KHÁCH HÀNG", href: "/khach-hang", enabled: true },
+  { id: "pricing", label: "BẢNG GIÁ", href: "/bang-gia", enabled: true },
+  { id: "news", label: "TIN TỨC", href: "/tin-tuc", enabled: true },
+  { id: "contact", label: "LIÊN HỆ", href: "/lien-he", enabled: true },
+];
 
 export function buildDefaultSitePages(): SitePage[] {
   return Object.entries(ALL_PAGES)
@@ -47,6 +73,7 @@ export function buildDefaultServiceItems(): SiteServiceItem[] {
         description: item.description,
         articleSlug: item.articleSlug,
         image: "",
+        priceText: DEFAULT_SERVICE_PRICE_TEXT[item.slug] ?? "",
         published: true,
         sortOrder,
       });

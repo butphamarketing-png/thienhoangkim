@@ -118,6 +118,7 @@ export type SiteProcessStep = {
 export type SitePageBlock = {
   title?: string;
   paragraphs: string[];
+  image?: string;
 };
 
 /** Trang nội dung quản lý qua admin */
@@ -127,6 +128,7 @@ export type SitePage = {
   title: string;
   eyebrow?: string;
   description: string;
+  heroImage?: string;
   blocks: SitePageBlock[];
 };
 
@@ -150,10 +152,19 @@ export type SiteServiceItem = {
   slug: string;
   label: string;
   description?: string;
+  priceText?: string;
   articleSlug?: string;
   image?: string;
   published: boolean;
   sortOrder: number;
+};
+
+/** Mục menu chính (cấp 1) */
+export type SiteMainNavItem = {
+  id: string;
+  label: string;
+  href: string;
+  enabled: boolean;
 };
 
 /** Hero trang (eyebrow + tiêu đề + mô tả) */
@@ -196,6 +207,7 @@ export type SiteSettings = {
   clinicName: string;
   clinicSubtitle: string;
   slogan: string;
+  logoUrl: string;
   address: string;
   phone: string;
   email: string;
@@ -253,6 +265,8 @@ export type SiteContent = {
   introNav: SiteLink[];
   /** Menu con Tin tức */
   newsNav: SiteLink[];
+  /** Menu chính cấp 1 */
+  mainNav: SiteMainNavItem[];
   contactPage: SiteContactPage;
   priceListPage: SitePageHero;
   servicesHubPage: SitePageHero;
