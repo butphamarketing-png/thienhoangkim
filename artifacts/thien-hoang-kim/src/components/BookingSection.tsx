@@ -18,7 +18,7 @@ export function BookingSection() {
           </div>
           <div className="flex min-w-0 flex-col justify-center overflow-y-auto p-4 sm:p-6 md:p-10 lg:p-12">
             <h3 className="mb-3 flex items-center gap-2 text-sm font-bold sm:mb-5 sm:text-lg md:mb-6 md:text-xl">
-              THÔNG TIN ĐẶT LỊCH
+              {home.bookingTitle}
               <div className="ml-1 h-px flex-grow bg-border sm:ml-2" />
             </h3>
             <BookingForm />

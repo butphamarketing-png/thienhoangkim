@@ -3,7 +3,8 @@ import { ArrowRight, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/layout/SectionHeading";
-import { getArticlePublicPath } from "@/data/services-catalog";
+import { useSiteContent } from "@/context/SiteContentContext";
+import { getArticlePublicPath } from "@/lib/site-cms";
 import type { SiteArticle } from "@/types/site-content";
 
 type BeautyHandbookSectionProps = {
@@ -11,10 +12,12 @@ type BeautyHandbookSectionProps = {
   title: string;
   viewAllLabel: string;
   viewAllHref: string;
+  articleDetailLabel: string;
 };
 
-function ArticleCard({ article }: { article: SiteArticle }) {
-  const href = getArticlePublicPath(article.slug);
+function ArticleCard({ article, detailLabel }: { article: SiteArticle; detailLabel: string }) {
+  const { content } = useSiteContent();
+  const href = getArticlePublicPath(content, article.slug);
 
   return (
     <Link href={href} className="luxury-card group flex h-full min-w-0 flex-col overflow-hidden rounded-2xl p-2 sm:p-3">
@@ -40,7 +43,7 @@ function ArticleCard({ article }: { article: SiteArticle }) {
           {article.description}
         </p>
         <span className="flex w-max items-center text-xs font-bold text-primary group-hover:underline sm:text-sm">
-          XEM CHI TIẾT
+          {detailLabel}
           <ArrowRight className="ml-1.5 h-3.5 w-3.5 sm:h-4 sm:w-4" />
         </span>
       </div>
@@ -53,6 +56,7 @@ export function BeautyHandbookSection({
   title,
   viewAllLabel,
   viewAllHref,
+  articleDetailLabel,
 }: BeautyHandbookSectionProps) {
   const visible = articles.filter((a) => a.published).slice(0, 6);
 
@@ -85,7 +89,7 @@ export function BeautyHandbookSection({
               transition={{ delay: i * 0.06 }}
               className="min-w-0"
             >
-              <ArticleCard article={article} />
+              <ArticleCard article={article} detailLabel={articleDetailLabel} />
             </motion.div>
           ))}
         </div>

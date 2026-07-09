@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useBookingDialog } from "@/context/BookingDialogContext";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { cn } from "@/lib/utils";
+import type { SiteSectionHeading } from "@/types/site-content";
 
 export type ExamProcessStep = {
   title: string;
@@ -13,18 +14,20 @@ export type ExamProcessStep = {
 
 type ExamProcessSectionProps = {
   steps: ExamProcessStep[];
+  heading: SiteSectionHeading;
+  ctaLabel: string;
 };
 
-export function ExamProcessSection({ steps }: ExamProcessSectionProps) {
+export function ExamProcessSection({ steps, heading, ctaLabel }: ExamProcessSectionProps) {
   const { openBookingDialog } = useBookingDialog();
 
   return (
     <section className="section-surface border-t border-border/60 py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-8">
         <SectionHeading
-          eyebrow="Quy trình"
-          title="QUY TRÌNH THĂM KHÁM"
-          subtitle="Chuẩn Y Khoa – An Toàn – Cá Nhân Hóa – Hiệu Quả"
+          eyebrow={heading.eyebrow}
+          title={heading.title}
+          subtitle={heading.subtitle}
           className="mb-10 md:mb-14"
         />
 
@@ -94,7 +97,7 @@ export function ExamProcessSection({ steps }: ExamProcessSectionProps) {
             className="h-12 rounded-full bg-primary px-8 text-sm font-bold text-primary-foreground shadow-xl hover:bg-primary/90 md:h-14 md:px-10 md:text-base"
           >
             <Calendar className="mr-2 h-4 w-4 md:h-5 md:w-5" />
-            ĐẶT LỊCH THĂM KHÁM NGAY
+            {ctaLabel}
           </Button>
         </div>
       </div>

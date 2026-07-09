@@ -3,6 +3,8 @@ import { ChevronRight } from "lucide-react";
 import { Link } from "wouter";
 import { useSiteContent } from "@/context/SiteContentContext";
 import { buildMainNav } from "@/lib/site-cms";
+import { buildTelUrl } from "@/lib/contact-urls";
+import { formatPhoneDisplay } from "@/lib/format-phone";
 import { cn } from "@/lib/utils";
 
 type MobileNavMenuProps = {
@@ -14,6 +16,9 @@ export function MobileNavMenu({ onClose, onBook }: MobileNavMenuProps) {
   const [openKey, setOpenKey] = useState<string | null>(null);
   const { content } = useSiteContent();
   const nav = buildMainNav(content);
+  const { settings } = content;
+  const phoneDisplay = formatPhoneDisplay(settings.phone);
+  const telUrl = buildTelUrl(settings.phone);
 
   return (
     <div className="absolute left-0 top-full z-50 flex max-h-[80vh] w-full flex-col gap-1 overflow-y-auto border-b bg-white px-4 py-4 shadow-lg xl:hidden">
@@ -84,8 +89,8 @@ export function MobileNavMenu({ onClose, onBook }: MobileNavMenuProps) {
         );
       })}
       <div className="my-2 h-px bg-border" />
-      <a href="tel:0938673996" className="flex items-center gap-2 p-2 font-bold text-primary">
-        0938 673 996
+      <a href={telUrl} className="flex items-center gap-2 p-2 font-bold text-primary">
+        {phoneDisplay}
       </a>
       <button
         type="button"
@@ -95,7 +100,7 @@ export function MobileNavMenu({ onClose, onBook }: MobileNavMenuProps) {
         }}
         className="mt-2 w-full rounded-md bg-gold-gradient py-2.5 text-sm font-bold text-gold-foreground"
       >
-        ĐẶT LỊCH NGAY
+        {settings.bookingButtonLabel}
       </button>
     </div>
   );

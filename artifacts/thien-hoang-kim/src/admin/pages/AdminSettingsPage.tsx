@@ -35,6 +35,8 @@ export function AdminSettingsPage() {
         <AdminField label="Facebook URL" value={s.facebookUrl} onChange={(v) => set("facebookUrl", v)} />
         <AdminField label="TikTok URL" value={s.tiktokUrl} onChange={(v) => set("tiktokUrl", v)} />
         <AdminField label="YouTube URL" value={s.youtubeUrl} onChange={(v) => set("youtubeUrl", v)} />
+        <AdminField label="Nút đặt lịch (header/menu)" value={s.bookingButtonLabel} onChange={(v) => set("bookingButtonLabel", v)} />
+        <AdminField label="Tiêu đề khối liên hệ footer" value={s.contactInfoTitle} onChange={(v) => set("contactInfoTitle", v)} />
       </div>
     </div>
   );

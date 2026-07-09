@@ -19,6 +19,13 @@ export type SiteStat = {
   sub: string;
 };
 
+/** Tiêu đề section trên trang chủ */
+export type SiteSectionHeading = {
+  eyebrow?: string;
+  title: string;
+  subtitle?: string;
+};
+
 export type SiteHeroSlide = {
   id: string;
   src: string;
@@ -87,8 +94,12 @@ export type SiteFooter = {
 
 export type SiteHandbook = {
   title: string;
+  subtitle?: string;
   viewAllLabel: string;
   viewAllHref: string;
+  listEyebrow: string;
+  listDescription: string;
+  articleDetailLabel: string;
 };
 
 export type SiteTestimonial = {
@@ -220,6 +231,8 @@ export type SiteSettings = {
   facebookUrl: string;
   tiktokUrl: string;
   youtubeUrl: string;
+  bookingButtonLabel: string;
+  contactInfoTitle: string;
   seo: SiteSeo;
 };
 
@@ -234,8 +247,19 @@ export type SiteHomeSections = {
   aboutParagraphs: string[];
   aboutStats: SiteStat[];
   aboutImage: string;
+  aboutImageAlt: string;
+  aboutCtaLabel: string;
   featuredServiceImages: [string, string];
+  featuredServicesHeading: SiteSectionHeading;
+  featuredServicesExploreLabel: string;
+  featuredServicesMobileLabel: string;
+  customersHeading: SiteSectionHeading;
+  doctorsHeading: SiteSectionHeading;
+  processHeading: SiteSectionHeading;
+  processCtaLabel: string;
+  testimonialsHeading: SiteSectionHeading;
   bookingImage: string;
+  bookingTitle: string;
   testimonialsBackground: string;
   ctaTitle: string;
   ctaDescription: string;

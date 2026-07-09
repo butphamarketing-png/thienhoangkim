@@ -14,7 +14,7 @@ import { CtaContactSection } from "@/components/CtaContactSection";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { CountUpValue } from "@/components/CountUpValue";
 import { useSiteContent } from "@/context/SiteContentContext";
-import { isServiceLinkedArticle } from "@/data/services-catalog";
+import { isServiceLinkedArticle } from "@/lib/site-cms";
 import { COMMITMENT_ICONS } from "@/lib/commitment-icons";
 import { motion } from "framer-motion";
 
@@ -22,7 +22,7 @@ export default function HomePage() {
   const { content } = useSiteContent();
   const { settings, home } = content;
   const publishedArticles = content.articles.filter(
-    (a) => a.published && !isServiceLinkedArticle(a.slug),
+    (a) => a.published && !isServiceLinkedArticle(content, a.slug),
   );
 
   return (
@@ -121,7 +121,7 @@ export default function HomePage() {
                     <div className="col-span-3 flex justify-center sm:col-span-1 sm:col-start-2">
                       <Link href="/gioi-thieu">
                         <Button className="group h-12 rounded-full bg-primary px-8 text-sm font-semibold text-primary-foreground hover:bg-primary/90">
-                          TÌM HIỂU THÊM
+                          {home.aboutCtaLabel}
                           <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                         </Button>
                       </Link>
@@ -133,7 +133,7 @@ export default function HomePage() {
               <div className="order-1 relative w-full md:order-2 md:min-h-[480px] lg:min-h-[520px]">
                 <img
                   src={home.aboutImage}
-                  alt="Thiên Hoàng Kim Aesthetic Clinic"
+                  alt={home.aboutImageAlt}
                   className="aspect-[4/3] w-full object-cover object-top md:absolute md:inset-0 md:aspect-auto md:h-full"
                 />
                 <div
@@ -145,19 +145,25 @@ export default function HomePage() {
         </div>
       </section>
 
-      <FeaturedServices images={home.featuredServiceImages} />
+      <FeaturedServices
+        images={home.featuredServiceImages}
+        heading={home.featuredServicesHeading}
+        exploreLabel={home.featuredServicesExploreLabel}
+        mobileLabel={home.featuredServicesMobileLabel}
+      />
 
-      <CustomerResultsSection cases={content.customerCases} />
+      <CustomerResultsSection cases={content.customerCases} heading={home.customersHeading} />
 
-      <DoctorTeamSection doctors={content.doctors} />
+      <DoctorTeamSection doctors={content.doctors} heading={home.doctorsHeading} />
 
       <BookingSection />
 
-      <ExamProcessSection steps={content.processSteps} />
+      <ExamProcessSection steps={content.processSteps} heading={home.processHeading} ctaLabel={home.processCtaLabel} />
 
       <TestimonialsSection
         backgroundImage={home.testimonialsBackground}
         items={content.testimonials}
+        heading={home.testimonialsHeading}
       />
 
       <BeautyHandbookSection
@@ -165,6 +171,7 @@ export default function HomePage() {
         title={content.handbook.title}
         viewAllLabel={content.handbook.viewAllLabel}
         viewAllHref={content.handbook.viewAllHref}
+        articleDetailLabel={content.handbook.articleDetailLabel}
       />
 
       <CtaContactSection

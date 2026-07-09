@@ -3,7 +3,7 @@ import { ArrowRight, Calendar } from "lucide-react";
 import { SiteLayout } from "@/components/layout/SiteLayout";
 import { PageHero } from "@/components/layout/PageHero";
 import { useSiteContent } from "@/context/SiteContentContext";
-import { getArticlePublicPath, isServiceLinkedArticle } from "@/data/services-catalog";
+import { getArticlePublicPath, isServiceLinkedArticle } from "@/lib/site-cms";
 
 export default function ArticlesListPage() {
   const { content } = useSiteContent();
@@ -20,16 +20,16 @@ export default function ArticlesListPage() {
   const published = content.articles.filter(
     (a) =>
       a.published &&
-      !isServiceLinkedArticle(a.slug) &&
+      !isServiceLinkedArticle(content, a.slug) &&
       (!categoryFilter || a.category === categoryFilter),
   );
 
   return (
     <SiteLayout>
       <PageHero
-        eyebrow="Tin tức"
+        eyebrow={content.handbook.listEyebrow}
         title={pageTitle}
-        description="Kiến thức thẩm mỹ, tin tức và mẹo chăm sóc da từ đội ngũ Thiên Hoàng Kim."
+        description={content.handbook.listDescription}
         crumbs={[
           { label: "Trang chủ", href: "/" },
           { label: "Tin tức", href: "/tin-tuc" },
@@ -55,7 +55,7 @@ export default function ArticlesListPage() {
           {published.map((article) => (
             <Link
               key={article.id}
-              href={getArticlePublicPath(article.slug)}
+              href={getArticlePublicPath(content, article.slug)}
               className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
             >
               <div className="relative aspect-[4/3] overflow-hidden">
@@ -72,7 +72,7 @@ export default function ArticlesListPage() {
                 <h2 className="mt-2 font-serif text-lg font-bold leading-snug text-primary group-hover:underline">{article.title}</h2>
                 <p className="mt-2 line-clamp-3 flex-1 text-sm text-muted-foreground">{article.description}</p>
                 <span className="mt-4 flex items-center text-sm font-bold text-primary">
-                  Đọc tiếp
+                  {content.handbook.articleDetailLabel}
                   <ArrowRight className="ml-1 h-4 w-4 transition group-hover:translate-x-1" />
                 </span>
               </div>

@@ -181,6 +181,8 @@ export function mergeSiteContent(partial: Partial<SiteContent>): SiteContent {
       ...base.settings,
       ...partial.settings,
       logoUrl: partial.settings?.logoUrl?.trim() || base.settings.logoUrl,
+      bookingButtonLabel: partial.settings?.bookingButtonLabel?.trim() || base.settings.bookingButtonLabel,
+      contactInfoTitle: partial.settings?.contactInfoTitle?.trim() || base.settings.contactInfoTitle,
       seo: normalizeSiteSeo(partial.settings?.seo, base.settings.seo),
     },
     home: {
@@ -202,7 +204,13 @@ export function mergeSiteContent(partial: Partial<SiteContent>): SiteContent {
         "",
       ),
     },
-    handbook: { ...base.handbook, ...partial.handbook },
+    handbook: {
+      ...base.handbook,
+      ...partial.handbook,
+      listEyebrow: partial.handbook?.listEyebrow ?? base.handbook.listEyebrow,
+      listDescription: partial.handbook?.listDescription ?? base.handbook.listDescription,
+      articleDetailLabel: partial.handbook?.articleDetailLabel ?? base.handbook.articleDetailLabel,
+    },
     bookingServices: partial.bookingServices ?? base.bookingServices,
     doctors: partial.doctors ?? base.doctors,
     articles: normalizeArticles(partial.articles),

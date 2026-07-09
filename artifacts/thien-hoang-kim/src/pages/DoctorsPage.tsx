@@ -20,7 +20,7 @@ export default function DoctorsPage() {
           { label: "Đội ngũ bác sĩ" },
         ]}
       />
-      <DoctorTeamSection doctors={content.doctors} />
+      <DoctorTeamSection doctors={content.doctors} heading={content.home.doctorsHeading} />
     </SiteLayout>
   );
 }

@@ -5,6 +5,7 @@ import { BeforeAfterSlider } from "@/components/BeforeAfterSlider";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { cn } from "@/lib/utils";
+import type { SiteSectionHeading } from "@/types/site-content";
 
 export type CustomerResultCase = {
   label: string;
@@ -14,6 +15,7 @@ export type CustomerResultCase = {
 
 type CustomerResultsSectionProps = {
   cases: CustomerResultCase[];
+  heading: SiteSectionHeading;
 };
 
 const SIDE_SIZE = "w-[min(38vw,168px)] sm:w-[190px] md:w-[210px] lg:w-[250px] xl:w-[280px]";
@@ -114,7 +116,7 @@ function SideColumn({
   );
 }
 
-export function CustomerResultsSection({ cases }: CustomerResultsSectionProps) {
+export function CustomerResultsSection({ cases, heading }: CustomerResultsSectionProps) {
   const [index, setIndex] = useState(0);
   const total = cases.length;
 
@@ -138,9 +140,9 @@ export function CustomerResultsSection({ cases }: CustomerResultsSectionProps) {
 
       <div className="container relative mx-auto px-4 md:px-6 lg:px-8">
         <SectionHeading
-          eyebrow="Thực tế"
-          title="KHÁCH HÀNG THỰC TẾ"
-          subtitle="Hàng nghìn khách hàng đã thay đổi diện mạo và tự tin hơn cùng Thiên Hoàng Kim."
+          eyebrow={heading.eyebrow}
+          title={heading.title}
+          subtitle={heading.subtitle}
           className="mb-10 md:mb-12"
         />
 

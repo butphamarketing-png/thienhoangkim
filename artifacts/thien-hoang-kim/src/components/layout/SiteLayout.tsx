@@ -94,7 +94,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
                 className="btn-shake-after-5s inline-flex h-auto shrink-0 whitespace-nowrap rounded-md border-0 bg-gold-gradient px-4 py-2 text-sm font-bold tracking-wide text-gold-foreground shadow-md hover:opacity-95"
               >
                 <Calendar className="mr-2 h-4 w-4 shrink-0" />
-                ĐẶT LỊCH NGAY
+                {settings.bookingButtonLabel}
               </Button>
             </div>
             <button
@@ -130,7 +130,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
               </div>
             </div>
             <div className="lg:pl-8">
-              <h4 className="mb-8 text-sm font-bold uppercase tracking-widest text-white">THÔNG TIN LIÊN HỆ</h4>
+              <h4 className="mb-8 text-sm font-bold uppercase tracking-widest text-white">{settings.contactInfoTitle}</h4>
               <ul className="space-y-5 text-sm text-white/70">
                 <li className="flex gap-4">
                   <MapPin className="h-5 w-5 shrink-0 text-white/50" />

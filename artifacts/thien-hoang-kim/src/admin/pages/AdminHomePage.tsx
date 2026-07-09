@@ -4,7 +4,39 @@ import { AdminImageField } from "@/admin/components/AdminImageField";
 import { AdminSaveBar } from "@/admin/components/AdminSaveBar";
 import { HERO_SLIDE_HEIGHT, HERO_SLIDE_SIZE_LABEL, HERO_SLIDE_WIDTH } from "@/config/hero-slideshow";
 import { useSiteContent } from "@/context/SiteContentContext";
-import type { CommitmentIconKey } from "@/types/site-content";
+import type { CommitmentIconKey, SiteSectionHeading } from "@/types/site-content";
+
+function SectionHeadingEditor({
+  title,
+  value,
+  onChange,
+}: {
+  title: string;
+  value: SiteSectionHeading;
+  onChange: (value: SiteSectionHeading) => void;
+}) {
+  return (
+    <div className="rounded-lg border p-4">
+      <p className="mb-3 text-sm font-bold">{title}</p>
+      <div className="grid gap-3 md:grid-cols-2">
+        <AdminField
+          label="Eyebrow"
+          value={value.eyebrow ?? ""}
+          onChange={(v) => onChange({ ...value, eyebrow: v || undefined })}
+        />
+        <AdminField label="Tiêu đề" value={value.title} onChange={(v) => onChange({ ...value, title: v })} />
+        <div className="md:col-span-2">
+          <AdminField
+            label="Phụ đề"
+            value={value.subtitle ?? ""}
+            multiline
+            onChange={(v) => onChange({ ...value, subtitle: v || undefined })}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
 
 const ICON_OPTIONS: CommitmentIconKey[] = [
   "Shield",
@@ -290,6 +322,172 @@ export function AdminHomePage() {
               multiline
             />
           ))}
+          <AdminField label="Alt ảnh giới thiệu" value={h.aboutImageAlt} onChange={(v) => updateContent((p) => ({ ...p, home: { ...p.home, aboutImageAlt: v } }))} />
+          <AdminField label="Nút CTA giới thiệu" value={h.aboutCtaLabel} onChange={(v) => updateContent((p) => ({ ...p, home: { ...p.home, aboutCtaLabel: v } }))} />
+        </div>
+        <div className="mt-6 space-y-3">
+          <div className="flex items-center justify-between">
+            <h4 className="font-semibold">Số liệu nổi bật</h4>
+            <Button
+              type="button"
+              size="sm"
+              variant="outline"
+              onClick={() =>
+                updateContent((p) => ({
+                  ...p,
+                  home: {
+                    ...p.home,
+                    aboutStats: [...p.home.aboutStats, { value: "0", title: "Tiêu đề", sub: "Mô tả ngắn" }],
+                  },
+                }))
+              }
+            >
+              + Thêm số liệu
+            </Button>
+          </div>
+          {h.aboutStats.map((stat, i) => (
+            <div key={i} className="grid gap-3 rounded-lg border p-3 md:grid-cols-[1fr_1fr_1fr_auto]">
+              <AdminField
+                label="Giá trị"
+                value={stat.value}
+                onChange={(v) =>
+                  updateContent((p) => {
+                    const aboutStats = [...p.home.aboutStats];
+                    aboutStats[i] = { ...aboutStats[i], value: v };
+                    return { ...p, home: { ...p.home, aboutStats } };
+                  })
+                }
+              />
+              <AdminField
+                label="Tiêu đề"
+                value={stat.title}
+                onChange={(v) =>
+                  updateContent((p) => {
+                    const aboutStats = [...p.home.aboutStats];
+                    aboutStats[i] = { ...aboutStats[i], title: v };
+                    return { ...p, home: { ...p.home, aboutStats } };
+                  })
+                }
+              />
+              <AdminField
+                label="Mô tả phụ"
+                value={stat.sub}
+                onChange={(v) =>
+                  updateContent((p) => {
+                    const aboutStats = [...p.home.aboutStats];
+                    aboutStats[i] = { ...aboutStats[i], sub: v };
+                    return { ...p, home: { ...p.home, aboutStats } };
+                  })
+                }
+              />
+              <Button
+                type="button"
+                variant="ghost"
+                size="sm"
+                className="self-end text-destructive"
+                onClick={() =>
+                  updateContent((p) => ({
+                    ...p,
+                    home: { ...p.home, aboutStats: p.home.aboutStats.filter((_, j) => j !== i) },
+                  }))
+                }
+              >
+                Xóa
+              </Button>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="rounded-xl border bg-white p-6 shadow-sm">
+        <h3 className="mb-4 font-semibold">Tiêu đề các section trang chủ</h3>
+        <div className="space-y-4">
+          <SectionHeadingEditor
+            title="Dịch vụ nổi bật"
+            value={h.featuredServicesHeading}
+            onChange={(featuredServicesHeading) => updateContent((p) => ({ ...p, home: { ...p.home, featuredServicesHeading } }))}
+          />
+          <div className="grid gap-3 md:grid-cols-2">
+            <AdminField
+              label="Nút khám phá (desktop)"
+              value={h.featuredServicesExploreLabel}
+              onChange={(v) => updateContent((p) => ({ ...p, home: { ...p.home, featuredServicesExploreLabel: v } }))}
+            />
+            <AdminField
+              label="Nút xem dịch vụ (mobile)"
+              value={h.featuredServicesMobileLabel}
+              onChange={(v) => updateContent((p) => ({ ...p, home: { ...p.home, featuredServicesMobileLabel: v } }))}
+            />
+          </div>
+          <SectionHeadingEditor
+            title="Khách hàng thực tế"
+            value={h.customersHeading}
+            onChange={(customersHeading) => updateContent((p) => ({ ...p, home: { ...p.home, customersHeading } }))}
+          />
+          <SectionHeadingEditor
+            title="Đội ngũ bác sĩ"
+            value={h.doctorsHeading}
+            onChange={(doctorsHeading) => updateContent((p) => ({ ...p, home: { ...p.home, doctorsHeading } }))}
+          />
+          <SectionHeadingEditor
+            title="Quy trình thăm khám"
+            value={h.processHeading}
+            onChange={(processHeading) => updateContent((p) => ({ ...p, home: { ...p.home, processHeading } }))}
+          />
+          <AdminField
+            label="Nút CTA quy trình"
+            value={h.processCtaLabel}
+            onChange={(v) => updateContent((p) => ({ ...p, home: { ...p.home, processCtaLabel: v } }))}
+          />
+          <SectionHeadingEditor
+            title="Đánh giá khách hàng"
+            value={h.testimonialsHeading}
+            onChange={(testimonialsHeading) => updateContent((p) => ({ ...p, home: { ...p.home, testimonialsHeading } }))}
+          />
+          <AdminField
+            label="Tiêu đề form đặt lịch"
+            value={h.bookingTitle}
+            onChange={(v) => updateContent((p) => ({ ...p, home: { ...p.home, bookingTitle: v } }))}
+          />
+        </div>
+      </section>
+
+      <section className="rounded-xl border bg-white p-6 shadow-sm">
+        <h3 className="mb-4 font-semibold">Cẩm nang & trang tin tức</h3>
+        <div className="grid gap-3 md:grid-cols-2">
+          <AdminField
+            label="Tiêu đề section cẩm nang"
+            value={content.handbook.title}
+            onChange={(v) => updateContent((p) => ({ ...p, handbook: { ...p.handbook, title: v } }))}
+          />
+          <AdminField
+            label="Nút xem tất cả"
+            value={content.handbook.viewAllLabel}
+            onChange={(v) => updateContent((p) => ({ ...p, handbook: { ...p.handbook, viewAllLabel: v } }))}
+          />
+          <AdminField
+            label="Link xem tất cả"
+            value={content.handbook.viewAllHref}
+            onChange={(v) => updateContent((p) => ({ ...p, handbook: { ...p.handbook, viewAllHref: v } }))}
+          />
+          <AdminField
+            label="Nhãn đọc bài"
+            value={content.handbook.articleDetailLabel}
+            onChange={(v) => updateContent((p) => ({ ...p, handbook: { ...p.handbook, articleDetailLabel: v } }))}
+          />
+          <AdminField
+            label="Eyebrow trang tin tức"
+            value={content.handbook.listEyebrow}
+            onChange={(v) => updateContent((p) => ({ ...p, handbook: { ...p.handbook, listEyebrow: v } }))}
+          />
+          <div className="md:col-span-2">
+            <AdminField
+              label="Mô tả trang tin tức"
+              value={content.handbook.listDescription}
+              multiline
+              onChange={(v) => updateContent((p) => ({ ...p, handbook: { ...p.handbook, listDescription: v } }))}
+            />
+          </div>
         </div>
       </section>
 

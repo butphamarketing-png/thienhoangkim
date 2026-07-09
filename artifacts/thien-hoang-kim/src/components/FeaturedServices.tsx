@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
+import type { SiteSectionHeading } from "@/types/site-content";
 import type { NavMegaColumn, NavLinkItem } from "@/config/navigation";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { useSiteContent } from "@/context/SiteContentContext";
@@ -9,6 +10,9 @@ import { buildMainNav, resolveServiceCategories } from "@/lib/site-cms";
 
 type FeaturedServicesProps = {
   images: [string, string];
+  heading: SiteSectionHeading;
+  exploreLabel: string;
+  mobileLabel: string;
 };
 
 function cardTitle(column: NavMegaColumn) {
@@ -34,11 +38,15 @@ function ServiceHoverCard({
   imageSrc,
   href,
   delay,
+  exploreLabel,
+  mobileLabel,
 }: {
   column: NavMegaColumn;
   imageSrc: string;
   href: string;
   delay: number;
+  exploreLabel: string;
+  mobileLabel: string;
 }) {
   const title = cardTitle(column);
 
@@ -70,7 +78,7 @@ function ServiceHoverCard({
           href={href}
           className="mt-4 rounded-full bg-gold-gradient px-6 py-2 text-[11px] font-bold tracking-wide text-[#0f3024] shadow-md md:hidden"
         >
-          XEM DỊCH VỤ
+          {mobileLabel}
         </Link>
       </div>
 
@@ -116,7 +124,7 @@ function ServiceHoverCard({
               className="group/btn bg-gold-gradient h-9 rounded-full border border-[#e8d48b]/50 px-8 text-[11px] font-bold tracking-[0.14em] text-[#0f3024] shadow-[0_6px_20px_rgba(0,0,0,0.28)] transition-all hover:scale-[1.03] hover:brightness-110"
             >
               <Link href={href}>
-                KHÁM PHÁ NGAY
+                {exploreLabel}
                 <ArrowRight className="ml-2 h-3.5 w-3.5 transition-transform duration-300 group-hover/btn:translate-x-0.5" />
               </Link>
             </Button>
@@ -127,7 +135,7 @@ function ServiceHoverCard({
   );
 }
 
-export function FeaturedServices({ images }: FeaturedServicesProps) {
+export function FeaturedServices({ images, heading, exploreLabel, mobileLabel }: FeaturedServicesProps) {
   const { content } = useSiteContent();
   const columns = buildMainNav(content).find((item) => item.href === "/dich-vu")?.columns ?? [];
   const categories = resolveServiceCategories(content);
@@ -139,15 +147,15 @@ export function FeaturedServices({ images }: FeaturedServicesProps) {
     <section id="dich-vu" className="section-surface-cream scroll-mt-24 py-16 md:py-20">
       <div className="container mx-auto max-w-5xl px-4 md:px-8">
         <SectionHeading
-          eyebrow="Dịch vụ"
-          title="DỊCH VỤ NỔI BẬT"
-          subtitle="Giải pháp làm đẹp toàn diện chuẩn y khoa"
+          eyebrow={heading.eyebrow}
+          title={heading.title}
+          subtitle={heading.subtitle}
           className="mb-10 md:mb-12"
         />
 
         <div className="grid gap-6 md:grid-cols-2 md:gap-7">
-          <ServiceHoverCard column={columns[0]} imageSrc={images[0]} href={categoryHrefs[0]} delay={0} />
-          <ServiceHoverCard column={columns[1]} imageSrc={images[1]} href={categoryHrefs[1]} delay={0.08} />
+          <ServiceHoverCard column={columns[0]} imageSrc={images[0]} href={categoryHrefs[0]} delay={0} exploreLabel={exploreLabel} mobileLabel={mobileLabel} />
+          <ServiceHoverCard column={columns[1]} imageSrc={images[1]} href={categoryHrefs[1]} delay={0.08} exploreLabel={exploreLabel} mobileLabel={mobileLabel} />
         </div>
       </div>
     </section>

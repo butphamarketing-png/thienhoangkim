@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { cn } from "@/lib/utils";
+import type { SiteSectionHeading } from "@/types/site-content";
 
 export type DoctorProfile = {
   img: string;
@@ -15,6 +16,7 @@ export type DoctorProfile = {
 
 type DoctorTeamSectionProps = {
   doctors: DoctorProfile[];
+  heading: SiteSectionHeading;
 };
 
 function useCardsPerView() {
@@ -63,7 +65,7 @@ function TeamArrow({
   );
 }
 
-export function DoctorTeamSection({ doctors }: DoctorTeamSectionProps) {
+export function DoctorTeamSection({ doctors, heading }: DoctorTeamSectionProps) {
   const perView = useCardsPerView();
   const [index, setIndex] = useState(0);
   const maxIndex = Math.max(0, doctors.length - perView);
@@ -87,9 +89,9 @@ export function DoctorTeamSection({ doctors }: DoctorTeamSectionProps) {
     <section className="section-surface-alt border-t border-border/60 py-20 md:py-24">
       <div className="container mx-auto px-4 md:px-8">
         <SectionHeading
-          eyebrow="Đội ngũ"
-          title="ĐỘI NGŨ BÁC SĨ"
-          subtitle="Đội ngũ bác sĩ giàu kinh nghiệm, chuyên môn cao và tận tâm với khách hàng."
+          eyebrow={heading.eyebrow}
+          title={heading.title}
+          subtitle={heading.subtitle}
           className="mb-12 md:mb-14"
         />
 

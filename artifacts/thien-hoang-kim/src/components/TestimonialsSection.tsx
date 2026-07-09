@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import type { SiteSectionHeading } from "@/types/site-content";
 
 export type Testimonial = {
   id: string;
@@ -18,6 +19,7 @@ export type Testimonial = {
 type TestimonialsSectionProps = {
   items: Testimonial[];
   backgroundImage?: string;
+  heading: SiteSectionHeading;
 };
 
 function PhoneMockup({ testimonial, isActive }: { testimonial: Testimonial; isActive: boolean }) {
@@ -51,7 +53,7 @@ function PhoneMockup({ testimonial, isActive }: { testimonial: Testimonial; isAc
   );
 }
 
-export function TestimonialsSection({ items, backgroundImage }: TestimonialsSectionProps) {
+export function TestimonialsSection({ items, backgroundImage, heading }: TestimonialsSectionProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
@@ -113,8 +115,8 @@ export function TestimonialsSection({ items, backgroundImage }: TestimonialsSect
 
       <div className="container relative z-10 mx-auto px-4 md:px-8">
         <SectionHeading
-          title="KHÁCH HÀNG NÓI GÌ VỀ THIÊN HOÀNG KIM"
-          subtitle="Hơn 10.000 khách hàng đã tin tưởng và lựa chọn"
+          title={heading.title}
+          subtitle={heading.subtitle}
           className="mb-12 md:mb-16"
         />
 

@@ -69,6 +69,8 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
     facebookUrl: "#",
     tiktokUrl: "#",
     youtubeUrl: "#",
+    bookingButtonLabel: "ĐẶT LỊCH NGAY",
+    contactInfoTitle: "THÔNG TIN LIÊN HỆ",
     seo: {
       siteName: "Thiên Hoàng Kim Aesthetic Clinic",
       siteUrl: "https://www.thammythienhoangkim.com",
@@ -163,8 +165,38 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
       { value: "98%", title: "Khách hàng hài lòng", sub: "Về chất lượng dịch vụ" },
     ],
     aboutImage: intro,
+    aboutImageAlt: "Thiên Hoàng Kim Aesthetic Clinic",
+    aboutCtaLabel: "TÌM HIỂU THÊM",
     featuredServiceImages: [thamMyImage, spaImage],
+    featuredServicesHeading: {
+      eyebrow: "Dịch vụ",
+      title: "DỊCH VỤ NỔI BẬT",
+      subtitle: "Giải pháp làm đẹp toàn diện chuẩn y khoa",
+    },
+    featuredServicesExploreLabel: "KHÁM PHÁ NGAY",
+    featuredServicesMobileLabel: "XEM DỊCH VỤ",
+    customersHeading: {
+      eyebrow: "Thực tế",
+      title: "KHÁCH HÀNG THỰC TẾ",
+      subtitle: "Hàng nghìn khách hàng đã thay đổi diện mạo và tự tin hơn cùng Thiên Hoàng Kim.",
+    },
+    doctorsHeading: {
+      eyebrow: "Đội ngũ",
+      title: "ĐỘI NGŨ BÁC SĨ",
+      subtitle: "Đội ngũ bác sĩ giàu kinh nghiệm, chuyên môn cao và tận tâm với khách hàng.",
+    },
+    processHeading: {
+      eyebrow: "Quy trình",
+      title: "QUY TRÌNH THĂM KHÁM",
+      subtitle: "Chuẩn Y Khoa – An Toàn – Cá Nhân Hóa – Hiệu Quả",
+    },
+    processCtaLabel: "ĐẶT LỊCH THĂM KHÁM NGAY",
+    testimonialsHeading: {
+      title: "KHÁCH HÀNG NÓI GÌ VỀ THIÊN HOÀNG KIM",
+      subtitle: "Hơn 10.000 khách hàng đã tin tưởng và lựa chọn",
+    },
     bookingImage: intro,
+    bookingTitle: "THÔNG TIN ĐẶT LỊCH",
     testimonialsBackground: slide,
     ctaTitle: "SẴN SÀNG NÂNG TẦM NHAN SẮC?",
     ctaDescription:
@@ -200,6 +232,9 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
     title: "CẨM NANG LÀM ĐẸP",
     viewAllLabel: "XEM TẤT CẢ BÀI VIẾT",
     viewAllHref: "/tin-tuc",
+    listEyebrow: "Tin tức",
+    listDescription: "Kiến thức thẩm mỹ, tin tức và mẹo chăm sóc da từ đội ngũ Thiên Hoàng Kim.",
+    articleDetailLabel: "XEM CHI TIẾT",
   },
   bookingServices: [
     { value: "nang-mui-hoang-kim", label: "Nâng mũi hoàng kim" },
