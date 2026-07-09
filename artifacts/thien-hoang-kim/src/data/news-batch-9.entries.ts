@@ -65,13 +65,12 @@ const intro = publicAsset("gioithieu.1.png");
 
 function newsSeo(
   slug: string,
-  metaTitle: string,
   metaDescription: string,
   focusKeyphrase: string,
   keywords?: string,
   ogImage = intro,
 ): ArticleSeo {
-  return buildNewsArticleSeo(slug, metaTitle, metaDescription, focusKeyphrase, keywords, ogImage);
+  return buildNewsArticleSeo(slug, metaDescription, focusKeyphrase, keywords, ogImage);
 }
 
 function article(
@@ -580,9 +579,7 @@ const BATCH_9_ENTRIES: Batch9Entry[] = [
   },
 ];
 
-export const MANUAL_BATCH_9_ARTICLES: SiteArticle[] = BATCH_9_ENTRIES.map((e) => {
-  const metaTitle = e.focus.charAt(0).toUpperCase() + e.focus.slice(1);
-  return article(
+export const MANUAL_BATCH_9_ARTICLES: SiteArticle[] = BATCH_9_ENTRIES.map((e) => {  return article(
     e.id,
     e.slug,
     e.title,
@@ -591,6 +588,6 @@ export const MANUAL_BATCH_9_ARTICLES: SiteArticle[] = BATCH_9_ENTRIES.map((e) =>
     e.body,
     e.image ?? intro,
     "Kiến thức",
-    newsSeo(e.slug, metaTitle, e.description, e.focus, e.keywords, e.image ?? intro),
+    newsSeo(e.slug, e.description, e.focus, e.keywords, e.image ?? intro),
   );
 });

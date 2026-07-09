@@ -101,44 +101,62 @@ function normalizeArticleImage(
   return src;
 }
 
-export function normalizeArticles(articles?: SiteArticle[]): SiteArticle[] {
-  const list = articles?.length ? articles : DEFAULT_ARTICLES;
-  const defaultById = new Map(DEFAULT_ARTICLES.map((a) => [a.id, a]));
-
-  return list.map((a) => {
-    const fallback = defaultById.get(a.id);
-    const title = a.title || fallback?.title || "Bài viết";
-    const category = a.category || fallback?.category || "Kiến thức";
-    const slug = a.slug || fallback?.slug || slugify(title);
-    const rawBody = a.body || fallback?.body || a.description || "";
-    const image = normalizeArticleImage(a.image, fallback?.image, category, slug, title, rawBody);
-    const seo = normalizeArticleSeo(a.seo ?? fallback?.seo);
-    if (seo.ogImage?.includes("slideshow.1") || seo.ogImage?.includes("gioithieu.1")) {
-      if (category === "Thẩm mỹ" && !image.includes("uploads/")) {
-        seo.ogImage = DEFAULT_SITE_CONTENT.home.featuredServiceImages[0];
-      } else if (category === "Spa") {
-        seo.ogImage = DEFAULT_SITE_CONTENT.home.featuredServiceImages[1];
-      } else if (image.includes("thẩm mỹ") || image.includes("tham-my")) {
-        seo.ogImage = DEFAULT_SITE_CONTENT.home.featuredServiceImages[0];
-      } else if (image.includes("Spa")) {
-        seo.ogImage = DEFAULT_SITE_CONTENT.home.featuredServiceImages[1];
-      } else {
-        seo.ogImage = image;
-      }
+function normalizeSingleArticle(a: SiteArticle, fallback?: SiteArticle): SiteArticle {
+  const title = a.title || fallback?.title || "Bài viết";
+  const category = a.category || fallback?.category || "Kiến thức";
+  const slug = a.slug || fallback?.slug || slugify(title);
+  const rawBody = a.body || fallback?.body || a.description || "";
+  const image = normalizeArticleImage(a.image, fallback?.image, category, slug, title, rawBody);
+  const seo = normalizeArticleSeo(a.seo ?? fallback?.seo);
+  if (seo.ogImage?.includes("slideshow.1") || seo.ogImage?.includes("gioithieu.1")) {
+    if (category === "Thẩm mỹ" && !image.includes("uploads/")) {
+      seo.ogImage = DEFAULT_SITE_CONTENT.home.featuredServiceImages[0];
+    } else if (category === "Spa") {
+      seo.ogImage = DEFAULT_SITE_CONTENT.home.featuredServiceImages[1];
+    } else if (image.includes("thẩm mỹ") || image.includes("tham-my")) {
+      seo.ogImage = DEFAULT_SITE_CONTENT.home.featuredServiceImages[0];
+    } else if (image.includes("Spa")) {
+      seo.ogImage = DEFAULT_SITE_CONTENT.home.featuredServiceImages[1];
+    } else {
+      seo.ogImage = image;
     }
-    return {
-      id: a.id,
-      slug,
-      category,
-      image,
-      title,
-      date: a.date || fallback?.date || new Date().toLocaleDateString("vi-VN"),
-      description: stripMarkdownBold(a.description || fallback?.description || ""),
-      body: stripMarkdownBold(rawBody),
-      published: a.published ?? fallback?.published ?? true,
-      seo,
-    };
-  });
+  }
+  return {
+    id: a.id || fallback?.id || slug,
+    slug,
+    category,
+    image,
+    title,
+    date: a.date || fallback?.date || new Date().toLocaleDateString("vi-VN"),
+    description: stripMarkdownBold(a.description || fallback?.description || ""),
+    body: stripMarkdownBold(rawBody),
+    published: a.published ?? fallback?.published ?? true,
+    seo,
+  };
+}
+
+export function normalizeArticles(articles?: SiteArticle[]): SiteArticle[] {
+  if (!articles?.length) {
+    return DEFAULT_ARTICLES.map((a) => normalizeSingleArticle(a));
+  }
+
+  const cmsById = new Map(articles.map((a) => [a.id, a]));
+  const cmsBySlug = new Map(articles.map((a) => [a.slug, a]));
+  const merged = new Map<string, SiteArticle>();
+
+  for (const fallback of DEFAULT_ARTICLES) {
+    const cms = cmsById.get(fallback.id) ?? cmsBySlug.get(fallback.slug);
+    const normalized = normalizeSingleArticle(cms ?? fallback, fallback);
+    merged.set(normalized.slug, normalized);
+  }
+
+  for (const cms of articles) {
+    if (DEFAULT_ARTICLES.some((d) => d.id === cms.id || d.slug === cms.slug)) continue;
+    const normalized = normalizeSingleArticle(cms);
+    merged.set(normalized.slug, normalized);
+  }
+
+  return [...merged.values()];
 }
 
 export function mergeSiteContent(partial: Partial<SiteContent>): SiteContent {

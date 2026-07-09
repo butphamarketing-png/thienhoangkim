@@ -23,13 +23,12 @@ function thumbnailForEntry(entry: KeywordPlanEntry): string {
 
 function newsSeo(
   slug: string,
-  metaTitle: string,
   metaDescription: string,
   focusKeyphrase: string,
   keywords?: string,
   ogImage = intro,
 ): ArticleSeo {
-  return buildNewsArticleSeo(slug, metaTitle, metaDescription, focusKeyphrase, keywords, ogImage);
+  return buildNewsArticleSeo(slug, metaDescription, focusKeyphrase, keywords, ogImage);
 }
 
 function article(
@@ -90,7 +89,6 @@ export const GENERATED_NEWS_ARTICLES: SiteArticle[] = entries.map((entry, index)
     categoryForSlug(entry.slug),
     newsSeo(
       entry.slug,
-      focusTitle,
       buildGeneratedMetaDescription(entry.focus),
       entry.focus.toLowerCase(),
       secondary,

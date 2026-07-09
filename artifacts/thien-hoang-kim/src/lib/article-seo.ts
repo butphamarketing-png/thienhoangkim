@@ -1,5 +1,6 @@
 import { containsKeyphrase } from "@/lib/seo-analysis";
 import { DEFAULT_ARTICLE_SEO } from "@/lib/seo";
+import { buildMetaTitleFromSlug, slugToDisplayTitle } from "@/lib/slug";
 import type { ArticleSeo } from "@/types/site-content";
 
 /** Canonical path — resolve absolute URL via siteUrl at runtime */
@@ -9,20 +10,20 @@ export function newsArticleCanonicalPath(slug: string): string {
 
 export function buildNewsArticleSeo(
   slug: string,
-  metaTitle: string,
   metaDescription: string,
   focusKeyphrase: string,
   keywords?: string,
   ogImage = "",
 ): ArticleSeo {
+  const displayTitle = slugToDisplayTitle(slug);
   return {
     ...DEFAULT_ARTICLE_SEO,
-    metaTitle: `${metaTitle} | Thiên Hoàng Kim`,
+    metaTitle: buildMetaTitleFromSlug(slug),
     metaDescription,
     focusKeyphrase,
     keywords: keywords ?? focusKeyphrase,
     canonicalUrl: newsArticleCanonicalPath(slug),
-    ogTitle: metaTitle,
+    ogTitle: displayTitle,
     ogDescription: metaDescription,
     ogImage,
   };

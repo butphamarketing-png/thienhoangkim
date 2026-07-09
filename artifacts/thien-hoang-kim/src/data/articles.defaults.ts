@@ -1,5 +1,6 @@
 import { DEFAULT_ARTICLE_SEO } from "@/lib/seo";
 import { buildNewsArticleSeo } from "@/lib/article-seo";
+import { buildMetaTitleFromSlug, slugToDisplayTitle } from "@/lib/slug";
 import { NANG_MUI_HOANG_KIM_BODY } from "@/data/articles/nang-mui-hoang-kim.body";
 import { CAT_MI_PHUONG_HOANG_BODY } from "@/data/articles/cat-mi-phuong-hoang.body";
 import { CAY_TOC_TU_THAN_BODY } from "@/data/articles/cay-toc-tu-than.body";
@@ -90,29 +91,31 @@ const massageFacialImage = publicAsset("uploads/massage-facial.png");
 const chamSocDaToanDienImage = publicAsset("uploads/cham-soc-da-toan-dien.png");
 
 function svcSeo(
-  metaTitle: string,
+  slug: string,
   metaDescription: string,
   focusKeyphrase: string,
   keywords?: string,
 ): ArticleSeo {
+  const displayTitle = slugToDisplayTitle(slug);
   return {
     ...DEFAULT_ARTICLE_SEO,
-    metaTitle,
+    metaTitle: buildMetaTitleFromSlug(slug),
     metaDescription,
     focusKeyphrase,
     keywords: keywords ?? focusKeyphrase,
+    ogTitle: displayTitle,
+    ogDescription: metaDescription,
   };
 }
 
 function newsSeo(
   slug: string,
-  metaTitle: string,
   metaDescription: string,
   focusKeyphrase: string,
   keywords?: string,
   ogImage = intro,
 ): ArticleSeo {
-  return buildNewsArticleSeo(slug, metaTitle, metaDescription, focusKeyphrase, keywords, ogImage);
+  return buildNewsArticleSeo(slug, metaDescription, focusKeyphrase, keywords, ogImage);
 }
 
 function article(
@@ -156,7 +159,7 @@ Danh mục Thẩm Mỹ gồm 7 dịch vụ chính: Nâng mũi hoàng kim, Cắt 
     thamMyImage,
     "Thẩm mỹ",
     svcSeo(
-      "Dịch vụ Thẩm Mỹ y khoa TP.HCM",
+      "dich-vu-tham-my-y-khoa",
       "7 dịch vụ thẩm mỹ chuẩn y khoa tại Thiên Hoàng Kim: nâng mũi hoàng kim, cắt mí phượng hoàng, cấy tóc, căng nội soi, filler, botox…",
       "dịch vụ thẩm mỹ y khoa",
       "thẩm mỹ y khoa, phòng khám thẩm mỹ TP.HCM, nâng mũi, cắt mí, filler, botox",
@@ -176,7 +179,7 @@ Danh mục Spa gồm: Ủ đá muối Himalaya, Phun xăm thẩm mỹ, Massage b
     spaImage,
     "Spa",
     svcSeo(
-      "Dịch vụ Spa & chăm sóc da TP.HCM",
+      "dich-vu-spa-cham-soc",
       "Spa cao cấp tại Thiên Hoàng Kim: ủ đá muối Himalaya, phun xăm thẩm mỹ, massage body, facial và chăm sóc da toàn diện.",
       "spa chăm sóc da",
       "spa TP.HCM, chăm sóc da, massage thư giãn, phun xăm thẩm mỹ",
@@ -197,14 +200,14 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
-      metaTitle: "Nâng mũi hoàng kim TP.HCM | Thiên Hoàng Kim",
+      metaTitle: buildMetaTitleFromSlug("nang-mui-hoang-kim"),
       metaDescription:
         "Nâng mũi hoàng kim cấu trúc chuẩn tỉ lệ vàng tại An Đông TP.HCM — sống thẳng, đầu mũi mềm tự nhiên. Tư vấn miễn phí với bác sĩ tại Thiên Hoàng Kim.",
       focusKeyphrase: "nâng mũi hoàng kim",
       keywords:
         "nâng mũi hoàng kim, nâng mũi cấu trúc, nâng mũi TP.HCM, thẩm mỹ mũi, nâng mũi An Đông, phòng khám nâng mũi",
       canonicalUrl: "/tham-my/nang-mui-hoang-kim",
-      ogTitle: "Nâng mũi hoàng kim — Chuẩn tỉ lệ vàng | Thiên Hoàng Kim",
+      ogTitle: slugToDisplayTitle("nang-mui-hoang-kim"),
       ogDescription:
         "Nâng mũi hoàng kim cấu trúc chuẩn tỉ lệ vàng — sống thẳng, đầu mũi mềm, tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
       ogImage: nangMuiHoangKimImage,
@@ -221,14 +224,14 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
-      metaTitle: "Cắt mí phượng hoàng TP.HCM | Thiên Hoàng Kim",
+      metaTitle: buildMetaTitleFromSlug("cat-mi-phuong-hoang"),
       metaDescription:
         "Cắt mí phượng hoàng — mắt to sắc nét, nếp mí cong tự nhiên tại An Đông TP.HCM. Tư vấn miễn phí với bác sĩ tại Thiên Hoàng Kim.",
       focusKeyphrase: "cắt mí phượng hoàng",
       keywords:
         "cắt mí phượng hoàng, cắt mí, thẩm mỹ mắt, cắt mí TP.HCM, cắt mí An Đông, phòng khám cắt mí",
       canonicalUrl: "/tham-my/cat-mi-phuong-hoang",
-      ogTitle: "Cắt mí phượng hoàng — Mắt sắc nét | Thiên Hoàng Kim",
+      ogTitle: slugToDisplayTitle("cat-mi-phuong-hoang"),
       ogDescription:
         "Cắt mí phượng hoàng tạo nếp mí cong dài, mắt to tự nhiên. Tư vấn miễn phí tại 323–325 Hùng Vương, An Đông TP.HCM.",
       ogImage: catMiPhuongHoangImage,
@@ -245,7 +248,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
-      metaTitle: "Cấy tóc tự thân TP.HCM | Thiên Hoàng Kim",
+      metaTitle: buildMetaTitleFromSlug("cay-toc-tu-than"),
       metaDescription:
         "Cấy tóc tự thân FUE/FUT — mật độ cao, hướng mọc tự nhiên tại An Đông TP.HCM. Tư vấn miễn phí điều trị hói đầu tại Thiên Hoàng Kim.",
       focusKeyphrase: "cấy tóc tự thân",
@@ -269,7 +272,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
-      metaTitle: "Căng nội soi trẻ hóa mặt TP.HCM | Thiên Hoàng Kim",
+      metaTitle: buildMetaTitleFromSlug("cang-noi-soi"),
       metaDescription:
         "Căng nội soi nâng cơ trán, má — trẻ hóa sâu, sẹo ẩn trong tóc tại An Đông TP.HCM. Tư vấn miễn phí tại Thiên Hoàng Kim.",
       focusKeyphrase: "căng nội soi",
@@ -293,7 +296,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
-      metaTitle: "Căng chỉ trẻ hóa PDO TP.HCM | Thiên Hoàng Kim",
+      metaTitle: buildMetaTitleFromSlug("cang-chi-tre-hoa"),
       metaDescription:
         "Căng chỉ trẻ hóa PDO/PLLA — nâng cơ, săn chắc da không phẫu thuật tại An Đông TP.HCM. Tư vấn miễn phí tại Thiên Hoàng Kim.",
       focusKeyphrase: "căng chỉ trẻ hóa",
@@ -317,7 +320,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
-      metaTitle: "Filler tạo hình mũi môi cằm TP.HCM | Thiên Hoàng Kim",
+      metaTitle: buildMetaTitleFromSlug("filler-tao-hinh"),
       metaDescription:
         "Filler tạo hình HA chính hãng — mũi, môi, cằm, thái dương tự nhiên tại An Đông TP.HCM. Tư vấn miễn phí tại Thiên Hoàng Kim.",
       focusKeyphrase: "filler tạo hình",
@@ -341,7 +344,7 @@ const THAM_MY_ARTICLES: SiteArticle[] = [
     "Thẩm mỹ",
     {
       ...DEFAULT_ARTICLE_SEO,
-      metaTitle: "Botox xóa nhăn gọn hàm TP.HCM | Thiên Hoàng Kim",
+      metaTitle: buildMetaTitleFromSlug("botox-xoa-nhan-gon-ham"),
       metaDescription:
         "Botox xóa nhăn trán, đuôi mắt và gọn hàm masseter tại An Đông TP.HCM — khuôn mặt trẻ trung tự nhiên. Tư vấn miễn phí tại Thiên Hoàng Kim.",
       focusKeyphrase: "botox xóa nhăn gọn hàm",
@@ -369,7 +372,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
-      metaTitle: "Ủ đá muối Himalaya TP.HCM | Thiên Hoàng Kim Spa",
+      metaTitle: buildMetaTitleFromSlug("u-da-muoi-himalaya"),
       metaDescription:
         "Liệu trình ủ đá muối Himalaya ấm — thư giãn sâu, giãn cơ vai gáy, hỗ trợ tuần hoàn tại spa Thiên Hoàng Kim An Đông TP.HCM.",
       focusKeyphrase: "ủ đá muối Himalaya",
@@ -393,7 +396,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
-      metaTitle: "Phun xăm thẩm mỹ mày môi TP.HCM | Thiên Hoàng Kim",
+      metaTitle: buildMetaTitleFromSlug("phun-xam-tham-my"),
       metaDescription:
         "Phun xăm thẩm mỹ mày, môi, eyeliner tự nhiên — microblading, phun môi organic. Tư vấn phác thảo miễn phí tại spa Thiên Hoàng Kim An Đông TP.HCM.",
       focusKeyphrase: "phun xăm thẩm mỹ",
@@ -417,7 +420,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
-      metaTitle: "Massage body thư giãn TP.HCM | Thiên Hoàng Kim Spa",
+      metaTitle: buildMetaTitleFromSlug("massage-body-thu-gian"),
       metaDescription:
         "Massage body thư giãn toàn thân kỹ thuật Swedish/Thái — giảm mỏi cơ, căng thẳng, cải thiện giấc ngủ tại spa Thiên Hoàng Kim An Đông TP.HCM.",
       focusKeyphrase: "massage body thư giãn",
@@ -441,7 +444,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
-      metaTitle: "Massage facial TP.HCM | Thiên Hoàng Kim Spa",
+      metaTitle: buildMetaTitleFromSlug("massage-facial"),
       metaDescription:
         "Massage facial mặt cổ vai — lưu thông lymph, da căng mịn, thư giãn sâu. Chăm sóc da nhẹ nhàng tại spa Thiên Hoàng Kim An Đông TP.HCM.",
       focusKeyphrase: "massage facial",
@@ -465,7 +468,7 @@ const SPA_ARTICLES: SiteArticle[] = [
     "Spa",
     {
       ...DEFAULT_ARTICLE_SEO,
-      metaTitle: "Chăm sóc da toàn diện TP.HCM | Thiên Hoàng Kim Spa",
+      metaTitle: buildMetaTitleFromSlug("cham-soc-da-toan-dien"),
       metaDescription:
         "Chăm sóc da toàn diện cá nhân hóa — soi da, làm sạch sâu, hút bã, dưỡng ẩm. Phác đồ facial 75–90 phút tại spa Thiên Hoàng Kim An Đông TP.HCM.",
       focusKeyphrase: "chăm sóc da toàn diện",
@@ -492,10 +495,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     FILLER_VA_BOTOX_KHAC_NHAU_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "filler-va-botox-khac-nhau",
-      "Filler và botox khác nhau thế nào",
-      "So sánh filler và botox khác nhau: cơ chế, vùng tiêm, độ bền và phác đồ kết hợp an toàn. Tư vấn tiêm thẩm mỹ miễn phí tại Thiên Hoàng Kim An Đông TP.HCM.",
+    newsSeo("filler-va-botox-khac-nhau", "So sánh filler và botox khác nhau: cơ chế, vùng tiêm, độ bền và phác đồ kết hợp an toàn. Tư vấn tiêm thẩm mỹ miễn phí tại Thiên Hoàng Kim An Đông TP.HCM.",
       "filler và botox khác nhau",
       "filler botox khác nhau, tiêm filler, tiêm botox, so sánh filler botox",
     ),
@@ -509,10 +509,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     NANG_MUI_CO_DAU_KHONG_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "nang-mui-co-dau-khong",
-      "Nâng mũi có đau không",
-      "Nâng mũi có đau không? Giải thích mức đau trong và sau mổ, timeline hồi phục và cách giảm đau. Tư vấn nâng mũi tại Thiên Hoàng Kim An Đông TP.HCM.",
+    newsSeo("nang-mui-co-dau-khong", "Nâng mũi có đau không? Giải thích mức đau trong và sau mổ, timeline hồi phục và cách giảm đau. Tư vấn nâng mũi tại Thiên Hoàng Kim An Đông TP.HCM.",
       "nâng mũi có đau không",
       "nâng mũi đau không, đau sau nâng mũi, nâng mũi TP.HCM",
     ),
@@ -526,10 +523,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     CAT_MI_BAO_LAU_HOI_PHUC_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "cat-mi-bao-lau-hoi-phuc",
-      "Cắt mí bao lâu hồi phục",
-      "Cắt mí bao lâu hết sưng? Timeline hồi phục từng tuần và chăm sóc sau mổ. Tư vấn cắt mí tại Thiên Hoàng Kim.",
+    newsSeo("cat-mi-bao-lau-hoi-phuc", "Cắt mí bao lâu hết sưng? Timeline hồi phục từng tuần và chăm sóc sau mổ. Tư vấn cắt mí tại Thiên Hoàng Kim.",
       "cắt mí bao lâu hồi phục",
       "cắt mí hồi phục, cắt mí bao lâu hết sưng, cắt mí TP.HCM",
     ),
@@ -543,10 +537,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     PHUN_MOI_CO_DAU_KHONG_BODY,
     spaImage,
     "Spa",
-    newsSeo(
-      "phun-moi-co-dau-khong",
-      "Phun môi có đau không",
-      "Phun môi có đau không? Quy trình tê, mức đau và chăm sóc sau phun môi thẩm mỹ tại spa Thiên Hoàng Kim.",
+    newsSeo("phun-moi-co-dau-khong", "Phun môi có đau không? Quy trình tê, mức đau và chăm sóc sau phun môi thẩm mỹ tại spa Thiên Hoàng Kim.",
       "phun môi có đau không",
       "phun môi đau không, phun môi thẩm mỹ, phun xăm môi TP.HCM",
     ),
@@ -560,10 +551,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     CHAM_SOC_DA_MAT_DUNG_CACH_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "cham-soc-da-mat-dung-cach",
-      "Chăm sóc da mặt đúng cách",
-      "Hướng dẫn chăm sóc da mặt đúng cách: làm sạch, dưỡng ẩm, chống nắng theo loại da. Facial tại Thiên Hoàng Kim Spa.",
+    newsSeo("cham-soc-da-mat-dung-cach", "Hướng dẫn chăm sóc da mặt đúng cách: làm sạch, dưỡng ẩm, chống nắng theo loại da. Facial tại Thiên Hoàng Kim Spa.",
       "chăm sóc da mặt đúng cách",
       "skincare đúng cách, chăm sóc da mặt, routine da mặt",
     ),
@@ -577,10 +565,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     PHONG_KHAM_THAM_MY_AN_DONG_BODY,
     intro,
     "Tin tức",
-    newsSeo(
-      "phong-kham-tham-my-an-dong",
-      "Phòng khám thẩm mỹ An Đông",
-      "Phòng khám thẩm mỹ An Đông Quận 5 — Thiên Hoàng Kim 323–325 Hùng Vương. Nâng mũi, filler, botox, spa. Mở 08:00–20:00. Gọi 0938 673 996.",
+    newsSeo("phong-kham-tham-my-an-dong", "Phòng khám thẩm mỹ An Đông Quận 5 — Thiên Hoàng Kim 323–325 Hùng Vương. Nâng mũi, filler, botox, spa. Mở 08:00–20:00. Gọi 0938 673 996.",
       "phòng khám thẩm mỹ An Đông",
       "thẩm mỹ An Đông, phòng khám Quận 5, Thiên Hoàng Kim Hùng Vương",
     ),
@@ -594,10 +579,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     BOTOX_GON_HAM_BAO_LAU_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "botox-gon-ham-bao-lau",
-      "Botox gọn hàm bao lâu thấy kết quả",
-      "Botox gọn hàm bao lâu hiệu quả? Timeline 2–8 tuần và duy trì 4–6 tháng. Tư vấn botox tại Thiên Hoàng Kim.",
+    newsSeo("botox-gon-ham-bao-lau", "Botox gọn hàm bao lâu hiệu quả? Timeline 2–8 tuần và duy trì 4–6 tháng. Tư vấn botox tại Thiên Hoàng Kim.",
       "botox gọn hàm bao lâu",
       "botox gọn hàm, thon hàm botox, botox masseter TP.HCM",
     ),
@@ -611,10 +593,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     CAY_TOC_FUE_LA_GI_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "cay-toc-fue-la-gi",
-      "Cấy tóc FUE là gì",
-      "Cấy tóc FUE là gì? Quy trình, ưu nhược điểm so với FUT và thời gian tóc mọc. Tư vấn cấy tóc Thiên Hoàng Kim.",
+    newsSeo("cay-toc-fue-la-gi", "Cấy tóc FUE là gì? Quy trình, ưu nhược điểm so với FUT và thời gian tóc mọc. Tư vấn cấy tóc Thiên Hoàng Kim.",
       "cấy tóc FUE là gì",
       "cấy tóc FUE, FUE FUT, cấy tóc tự thân TP.HCM",
     ),
@@ -628,10 +607,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     CHON_PHONG_KHAM_THAM_MY_AN_TOAN_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "chon-phong-kham-tham-my-an-toan",
-      "Chọn phòng khám thẩm mỹ an toàn",
-      "Checklist chọn phòng khám thẩm mỹ uy tín, an toàn tại TP.HCM — 10 tiêu chí và dấu hiệu nên tránh.",
+    newsSeo("chon-phong-kham-tham-my-an-toan", "Checklist chọn phòng khám thẩm mỹ uy tín, an toàn tại TP.HCM — 10 tiêu chí và dấu hiệu nên tránh.",
       "chọn phòng khám thẩm mỹ an toàn",
       "phòng khám thẩm mỹ uy tín, thẩm mỹ an toàn TP.HCM",
     ),
@@ -645,10 +621,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     XU_HUONG_THAM_MY_2026_BODY,
     intro,
     "Tin tức",
-    newsSeo(
-      "xu-huong-tham-my-2026",
-      "Xu hướng thẩm mỹ 2026",
-      "Xu hướng thẩm mỹ 2026: tự nhiên, filler botox nhẹ, thẩm mỹ nam, HIFU và chăm sóc da kết hợp. Tư vấn tại Thiên Hoàng Kim.",
+    newsSeo("xu-huong-tham-my-2026", "Xu hướng thẩm mỹ 2026: tự nhiên, filler botox nhẹ, thẩm mỹ nam, HIFU và chăm sóc da kết hợp. Tư vấn tại Thiên Hoàng Kim.",
       "xu hướng thẩm mỹ 2026",
       "xu hướng làm đẹp 2026, thẩm mỹ tự nhiên, trend thẩm mỹ",
     ),
@@ -662,10 +635,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     TRI_NAM_TAI_NHA_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "tri-nam-tai-nha",
-      "Trị nám tại nhà",
-      "Trị nám tại nhà đúng cách: skincare, chống nắng và sai lầm khiến nám đậm hơn. Tư vấn trị nám tại Thiên Hoàng Kim Spa An Đông TP.HCM.",
+    newsSeo("tri-nam-tai-nha", "Trị nám tại nhà đúng cách: skincare, chống nắng và sai lầm khiến nám đậm hơn. Tư vấn trị nám tại Thiên Hoàng Kim Spa An Đông TP.HCM.",
       "trị nám",
       "trị nám tại nhà, nám da, điều trị nám, nám TP.HCM",
     ),
@@ -679,10 +649,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     MUN_AN_LA_GI_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "mun-an-la-gi",
-      "Mụn ẩn là gì",
-      "Mụn ẩn là gì? Phân biệt mụn ẩn và đầu đen, cách điều trị BHA retinol. Facial trị mụn tại Thiên Hoàng Kim.",
+    newsSeo("mun-an-la-gi", "Mụn ẩn là gì? Phân biệt mụn ẩn và đầu đen, cách điều trị BHA retinol. Facial trị mụn tại Thiên Hoàng Kim.",
       "mụn ẩn",
       "mụn ẩn là gì, điều trị mụn ẩn, mụn đầu trắng, da dầu mụn",
     ),
@@ -696,10 +663,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     RUNG_TOC_NAM_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "rung-toc-nam",
-      "Rụng tóc nam",
-      "Rụng tóc nam và hói đầu: nguyên nhân, điều trị minoxidil, finasteride, cấy tóc. Tư vấn tại Thiên Hoàng Kim TP.HCM.",
+    newsSeo("rung-toc-nam", "Rụng tóc nam và hói đầu: nguyên nhân, điều trị minoxidil, finasteride, cấy tóc. Tư vấn tại Thiên Hoàng Kim TP.HCM.",
       "rụng tóc nam",
       "hói đầu nam, rụng tóc nam giới, cấy tóc nam, trị hói đầu",
     ),
@@ -713,10 +677,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     GIA_NANG_MUI_BAO_NHIEU_BODY,
     intro,
     "Tin tức",
-    newsSeo(
-      "gia-nang-mui-bao-nhieu",
-      "Giá nâng mũi bao nhiêu",
-      "Giá nâng mũi bao nhiêu tại TP.HCM? Yếu tố chi phí, so sánh filler mũi và cách chọn báo giá minh bạch.",
+    newsSeo("gia-nang-mui-bao-nhieu", "Giá nâng mũi bao nhiêu tại TP.HCM? Yếu tố chi phí, so sánh filler mũi và cách chọn báo giá minh bạch.",
       "giá nâng mũi",
       "nâng mũi giá bao nhiêu, chi phí nâng mũi, nâng mũi TP.HCM giá",
     ),
@@ -730,10 +691,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     SUA_MUI_HONG_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "sua-mui-hong",
-      "Sửa mũi hỏng",
-      "Sửa mũi hỏng (revision): dấu hiệu, quy trình, giá và kỳ vọng thực tế. Khám sửa mũi tại Thiên Hoàng Kim.",
+    newsSeo("sua-mui-hong", "Sửa mũi hỏng (revision): dấu hiệu, quy trình, giá và kỳ vọng thực tế. Khám sửa mũi tại Thiên Hoàng Kim.",
       "sửa mũi",
       "sửa mũi hỏng, revision mũi, sửa mũi TP.HCM, tái nâng mũi",
     ),
@@ -747,10 +705,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     FILLER_MOI_TU_NHIEN_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "filler-moi-tu-nhien",
-      "Filler môi tự nhiên",
-      "Filler môi tự nhiên: quy trình tiêm môi, liều lượng, duy trì và rủi ro. Tư vấn filler tại Thiên Hoàng Kim.",
+    newsSeo("filler-moi-tu-nhien", "Filler môi tự nhiên: quy trình tiêm môi, liều lượng, duy trì và rủi ro. Tư vấn filler tại Thiên Hoàng Kim.",
       "filler môi",
       "tiêm môi, filler môi tự nhiên, tiêm môi TP.HCM, môi đẹp",
     ),
@@ -764,10 +719,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     THON_HAM_BOTOX_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "thon-ham-botox",
-      "Thon hàm botox",
-      "Thon hàm botox (gọn hàm): cơ chế, quy trình, so sánh hút mỡ má và gọt hàm. Botox tại Thiên Hoàng Kim.",
+    newsSeo("thon-ham-botox", "Thon hàm botox (gọn hàm): cơ chế, quy trình, so sánh hút mỡ má và gọt hàm. Botox tại Thiên Hoàng Kim.",
       "thon hàm botox",
       "botox gọn hàm, thon hàm, botox masseter, gọn hàm TP.HCM",
     ),
@@ -781,10 +733,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     PEEL_DA_LA_GI_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "peel-da-la-gi",
-      "Peel da là gì",
-      "Peel da là gì? Các loại peel, quy trình, chăm sóc sau peel và rủi ro. Liệu trình peel tại Thiên Hoàng Kim Spa.",
+    newsSeo("peel-da-la-gi", "Peel da là gì? Các loại peel, quy trình, chăm sóc sau peel và rủi ro. Liệu trình peel tại Thiên Hoàng Kim Spa.",
       "peel da",
       "peel da là gì, lột da hóa học, peel mặt, peel da TP.HCM",
     ),
@@ -798,10 +747,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     LASER_TRI_NAM_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "laser-tri-nam",
-      "Laser trị nám",
-      "Laser trị nám: cơ chế, số buổi, chăm sóc sau laser và so sánh peel. Tư vấn trị nám tại Thiên Hoàng Kim.",
+    newsSeo("laser-tri-nam", "Laser trị nám: cơ chế, số buổi, chăm sóc sau laser và so sánh peel. Tư vấn trị nám tại Thiên Hoàng Kim.",
       "laser trị nám",
       "laser nám, điều trị nám laser, trị nám TP.HCM, nám da",
     ),
@@ -815,10 +761,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     NANG_MUI_SUN_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "nang-mui-sun",
-      "Nâng mũi sụn",
-      "Nâng mũi sụn là gì? So sánh sụn nhân tạo, sụn tai, sụn sườn và quy trình an toàn. Tư vấn nâng mũi tại Thiên Hoàng Kim An Đông TP.HCM.",
+    newsSeo("nang-mui-sun", "Nâng mũi sụn là gì? So sánh sụn nhân tạo, sụn tai, sụn sườn và quy trình an toàn. Tư vấn nâng mũi tại Thiên Hoàng Kim An Đông TP.HCM.",
       "nâng mũi sụn",
       "nâng mũi sụn, sụn nâng mũi, nâng mũi cấu trúc, nâng mũi TP.HCM",
     ),
@@ -832,10 +775,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     NANG_MUI_BOC_SUN_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "nang-mui-boc-sun",
-      "Nâng mũi bọc sụn",
-      "Nâng mũi bọc sụn: cơ chế, ai nên chọn và so với nâng sụn thường. Tư vấn tại Thiên Hoàng Kim.",
+    newsSeo("nang-mui-boc-sun", "Nâng mũi bọc sụn: cơ chế, ai nên chọn và so với nâng sụn thường. Tư vấn tại Thiên Hoàng Kim.",
       "nâng mũi bọc sụn",
       "bọc sụn đầu mũi, nâng mũi tự nhiên, nâng mũi An Đông",
     ),
@@ -849,10 +789,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     NANG_MUI_CAU_TRUC_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "nang-mui-cau-truc",
-      "Nâng mũi cấu trúc",
-      "Nâng mũi cấu trúc là gì? Quy trình, ưu điểm và so với filler. Phòng khám Thiên Hoàng Kim TP.HCM.",
+    newsSeo("nang-mui-cau-truc", "Nâng mũi cấu trúc là gì? Quy trình, ưu điểm và so với filler. Phòng khám Thiên Hoàng Kim TP.HCM.",
       "nâng mũi cấu trúc",
       "nâng mũi cấu trúc, phẫu thuật mũi, nâng mũi hoàng kim",
     ),
@@ -866,10 +803,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     NANG_MUI_TU_NHIEN_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "nang-mui-tu-nhien",
-      "Nâng mũi tự nhiên",
-      "Nâng mũi tự nhiên: tiêu chí, sai lầm cần tránh và so với filler. Tư vấn miễn phí Thiên Hoàng Kim.",
+    newsSeo("nang-mui-tu-nhien", "Nâng mũi tự nhiên: tiêu chí, sai lầm cần tránh và so với filler. Tư vấn miễn phí Thiên Hoàng Kim.",
       "nâng mũi tự nhiên",
       "mũi tự nhiên, nâng mũi đẹp, tỉ lệ vàng mũi",
     ),
@@ -883,10 +817,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     NANG_MUI_HAN_QUOC_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "nang-mui-han-quoc",
-      "Nâng mũi hàn quốc",
-      "Nâng mũi hàn quốc là gì? Ai hợp phong cách S-line và lưu ý khi làm tại VN. Thiên Hoàng Kim An Đông.",
+    newsSeo("nang-mui-han-quoc", "Nâng mũi hàn quốc là gì? Ai hợp phong cách S-line và lưu ý khi làm tại VN. Thiên Hoàng Kim An Đông.",
       "nâng mũi hàn quốc",
       "mũi S-line, nâng mũi style Hàn, nâng mũi TP.HCM",
     ),
@@ -900,10 +831,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     THU_GON_CANH_MUI_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "thu-gon-canh-mui",
-      "Thu gọn cánh mũi",
-      "Thu gọn cánh mũi: chỉ định, quy trình, hồi phục và kết hợp nâng mũi. Tư vấn tại Thiên Hoàng Kim.",
+    newsSeo("thu-gon-canh-mui", "Thu gọn cánh mũi: chỉ định, quy trình, hồi phục và kết hợp nâng mũi. Tư vấn tại Thiên Hoàng Kim.",
       "thu gọn cánh mũi",
       "thu cánh mũi, cánh mũi to, nâng mũi thu cánh",
     ),
@@ -917,10 +845,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     TAI_NANG_MUI_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "tai-nang-mui",
-      "Tái nâng mũi",
-      "Tái nâng mũi (revision): dấu hiệu, timeline chờ và quy trình. Khám tại Thiên Hoàng Kim TP.HCM.",
+    newsSeo("tai-nang-mui", "Tái nâng mũi (revision): dấu hiệu, timeline chờ và quy trình. Khám tại Thiên Hoàng Kim TP.HCM.",
       "tái nâng mũi",
       "revision mũi, sửa mũi cũ, tái phẫu thuật mũi",
     ),
@@ -934,10 +859,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     CHAM_SOC_SAU_NANG_MUI_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "cham-soc-sau-nang-mui",
-      "Chăm sóc sau nâng mũi",
-      "Chăm sóc sau nâng mũi: 24h đầu, tuần 1–2, tháng 1–3 và dấu hiệu cần gọi bác sĩ. Hướng dẫn Thiên Hoàng Kim.",
+    newsSeo("cham-soc-sau-nang-mui", "Chăm sóc sau nâng mũi: 24h đầu, tuần 1–2, tháng 1–3 và dấu hiệu cần gọi bác sĩ. Hướng dẫn Thiên Hoàng Kim.",
       "chăm sóc sau nâng mũi",
       "sau nâng mũi, hồi phục nâng mũi, chăm sóc vết mổ mũi",
     ),
@@ -951,10 +873,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     CAT_MI_TU_NHIEN_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "cat-mi-tu-nhien",
-      "Cắt mí tự nhiên",
-      "Cắt mí tự nhiên: tiêu chí, so với nhấn mí và hồi phục. Tư vấn cắt mí phượng hoàng tại Thiên Hoàng Kim.",
+    newsSeo("cat-mi-tu-nhien", "Cắt mí tự nhiên: tiêu chí, so với nhấn mí và hồi phục. Tư vấn cắt mí phượng hoàng tại Thiên Hoàng Kim.",
       "cắt mí tự nhiên",
       "mí tự nhiên, cắt mí đẹp, thẩm mỹ mắt TP.HCM",
     ),
@@ -968,10 +887,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     NHAN_MI_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "nhan-mi",
-      "Nhấn mí",
-      "Nhấn mí là gì? So sánh nhấn mí, bấm mí và cắt mí — ai nên chọn. Tư vấn tại Thiên Hoàng Kim An Đông.",
+    newsSeo("nhan-mi", "Nhấn mí là gì? So sánh nhấn mí, bấm mí và cắt mí — ai nên chọn. Tư vấn tại Thiên Hoàng Kim An Đông.",
       "nhấn mí",
       "nhấn mí mắt, bấm mí, mí ẩn, thẩm mỹ mắt",
     ),
@@ -985,10 +901,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     CAT_MI_KHONG_DAU_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "cat-mi-khong-dau",
-      "Cắt mí không đau",
-      "Cắt mí có đau không? Giải thích từng giai đoạn mổ, sau mổ và so với nhấn mí. Tư vấn cắt mí tại Thiên Hoàng Kim An Đông.",
+    newsSeo("cat-mi-khong-dau", "Cắt mí có đau không? Giải thích từng giai đoạn mổ, sau mổ và so với nhấn mí. Tư vấn cắt mí tại Thiên Hoàng Kim An Đông.",
       "cắt mí không đau",
       "cắt mí có đau không, đau khi cắt mí, cắt mí phượng hoàng",
     ),
@@ -1002,10 +915,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     BAM_MI_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "bam-mi",
-      "Bấm mí",
-      "Bấm mí là gì? So sánh bấm mí, nhấn mí và cắt mí — ai nên chọn. Tư vấn tại Thiên Hoàng Kim TP.HCM.",
+    newsSeo("bam-mi", "Bấm mí là gì? So sánh bấm mí, nhấn mí và cắt mí — ai nên chọn. Tư vấn tại Thiên Hoàng Kim TP.HCM.",
       "bấm mí",
       "bấm mí mắt, tạo mí không phẫu thuật, mí ẩn",
     ),
@@ -1019,10 +929,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     MI_AN_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "mi-an",
-      "Mí ẩn",
-      "Mí ẩn là gì? Khác mắt một mí thế nào và phương án nhấn mí, cắt mí. Tư vấn tại Thiên Hoàng Kim.",
+    newsSeo("mi-an", "Mí ẩn là gì? Khác mắt một mí thế nào và phương án nhấn mí, cắt mí. Tư vấn tại Thiên Hoàng Kim.",
       "mí ẩn",
       "mí ẩn, tạo mí mí ẩn, thẩm mỹ mắt",
     ),
@@ -1036,10 +943,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     MAT_MOT_MI_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "mat-mot-mi",
-      "Mắt một mí",
-      "Mắt một mí: đặc điểm, khác mí ẩn và lựa chọn cắt mí tự nhiên. Tư vấn Thiên Hoàng Kim An Đông.",
+    newsSeo("mat-mot-mi", "Mắt một mí: đặc điểm, khác mí ẩn và lựa chọn cắt mí tự nhiên. Tư vấn Thiên Hoàng Kim An Đông.",
       "mắt một mí",
       "một mí, tạo mí mắt một mí, cắt mí",
     ),
@@ -1053,10 +957,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     MO_GOC_MAT_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "mo-goc-mat",
-      "Mở góc mắt",
-      "Mở góc mắt là gì? Chỉ định, hồi phục và rủi ro cần biết. Khám tại Thiên Hoàng Kim TP.HCM.",
+    newsSeo("mo-goc-mat", "Mở góc mắt là gì? Chỉ định, hồi phục và rủi ro cần biết. Khám tại Thiên Hoàng Kim TP.HCM.",
       "mở góc mắt",
       "mở góc mắt trong, canthoplasty, thẩm mỹ mắt",
     ),
@@ -1070,10 +971,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     LAY_MO_MI_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "lay-mo-mi",
-      "Lấy mỡ mí",
-      "Lấy mỡ mí: khi nào cần, quy trình trong cắt mí và hồi phục. Tư vấn cắt mí phượng hoàng Thiên Hoàng Kim.",
+    newsSeo("lay-mo-mi", "Lấy mỡ mí: khi nào cần, quy trình trong cắt mí và hồi phục. Tư vấn cắt mí phượng hoàng Thiên Hoàng Kim.",
       "lấy mỡ mí",
       "mỡ mí, lấy mỡ cắt mí, mí dày",
     ),
@@ -1087,10 +985,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     TAI_CAT_MI_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "tai-cat-mi",
-      "Tái cắt mí",
-      "Tái cắt mí (revision): dấu hiệu, thời gian chờ và chuẩn bị. Khám tại Thiên Hoàng Kim An Đông.",
+    newsSeo("tai-cat-mi", "Tái cắt mí (revision): dấu hiệu, thời gian chờ và chuẩn bị. Khám tại Thiên Hoàng Kim An Đông.",
       "tái cắt mí",
       "sửa mí cũ, revision cắt mí, mí lệch",
     ),
@@ -1104,10 +999,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     CAT_MI_NAM_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "cat-mi-nam",
-      "Cắt mí nam",
-      "Cắt mí nam: thiết kế nếp tự nhiên, so với nhấn mí và hồi phục. Tư vấn tại Thiên Hoàng Kim TP.HCM.",
+    newsSeo("cat-mi-nam", "Cắt mí nam: thiết kế nếp tự nhiên, so với nhấn mí và hồi phục. Tư vấn tại Thiên Hoàng Kim TP.HCM.",
       "cắt mí nam",
       "cắt mí nam giới, thẩm mỹ mắt nam, mí nam tự nhiên",
     ),
@@ -1121,10 +1013,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     SUNG_SAU_CAT_MI_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "sung-sau-cat-mi",
-      "Sưng sau cắt mí",
-      "Sưng sau cắt mí: đồ sưng từng ngày, cách giảm và dấu hiệu bất thường. Hướng dẫn Thiên Hoàng Kim.",
+    newsSeo("sung-sau-cat-mi", "Sưng sau cắt mí: đồ sưng từng ngày, cách giảm và dấu hiệu bất thường. Hướng dẫn Thiên Hoàng Kim.",
       "sưng sau cắt mí",
       "sưng mí sau mổ, hồi phục cắt mí, chườm mát mí",
     ),
@@ -1138,10 +1027,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     CHAM_SOC_SAU_CAT_MI_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "cham-soc-sau-cat-mi",
-      "Chăm sóc sau cắt mí",
-      "Chăm sóc sau cắt mí: 24h đầu, tuần 1–2, tháng 1–3, kiêng cữ và tái khám. Phiếu hướng dẫn Thiên Hoàng Kim.",
+    newsSeo("cham-soc-sau-cat-mi", "Chăm sóc sau cắt mí: 24h đầu, tuần 1–2, tháng 1–3, kiêng cữ và tái khám. Phiếu hướng dẫn Thiên Hoàng Kim.",
       "chăm sóc sau cắt mí",
       "sau cắt mí, hồi phục cắt mí, chăm sóc vết mổ mí",
     ),
@@ -1170,10 +1056,7 @@ const GENERAL_ARTICLES: SiteArticle[] = [
     DAU_HIEU_THAM_KHAM_DA_LIEU_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "5-dau-hieu-nen-tham-kham-da-lieu",
-      "5 dấu hiệu thăm khám da liễu thẩm mỹ",
-      "Thăm khám da liễu thẩm mỹ khi nào? 5 dấu hiệu mụn nặng, nám, da nhạy cảm — nên gặp bác sĩ thay vì tự điều trị. Tư vấn tại Thiên Hoàng Kim An Đông TP.HCM.",
+    newsSeo("5-dau-hieu-nen-tham-kham-da-lieu", "Thăm khám da liễu thẩm mỹ khi nào? 5 dấu hiệu mụn nặng, nám, da nhạy cảm — nên gặp bác sĩ thay vì tự điều trị. Tư vấn tại Thiên Hoàng Kim An Đông TP.HCM.",
       "thăm khám da liễu",
       "thăm khám da liễu, dấu hiệu da liễu, mụn nám, tư vấn da TP.HCM",
     ),
@@ -1187,10 +1070,7 @@ const GENERAL_ARTICLES: SiteArticle[] = [
     CHAM_SOC_SAU_PHAU_THUAT_THAM_MY_BODY,
     intro,
     "Kiến thức",
-    newsSeo(
-      "cham-soc-da-sau-phau-thuat",
-      "Chăm sóc sau phẫu thuật thẩm mỹ",
-      "Chăm sóc sau phẫu thuật thẩm mỹ: chườm lạnh, thuốc, chống nắng SPF50+, tái khám và dấu hiệu bất thường. Hướng dẫn tại Thiên Hoàng Kim TP.HCM.",
+    newsSeo("cham-soc-da-sau-phau-thuat", "Chăm sóc sau phẫu thuật thẩm mỹ: chườm lạnh, thuốc, chống nắng SPF50+, tái khám và dấu hiệu bất thường. Hướng dẫn tại Thiên Hoàng Kim TP.HCM.",
       "chăm sóc sau phẫu thuật thẩm mỹ",
       "chăm sóc sau mổ, hồi phục thẩm mỹ, chăm sóc vết mổ, sau nâng mũi cắt mí",
     ),

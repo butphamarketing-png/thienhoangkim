@@ -7,6 +7,7 @@ import {
 } from "@/data/services-catalog";
 import { buildBreadcrumbs, buildJsonLdGraph, jsonLdScript, type SchemaContext } from "@/lib/seo-schema";
 import { getSiteBaseUrl } from "@/lib/seo-sitemap";
+import { buildMetaTitleFromSlug, routePathToDisplayTitle, slugToDisplayTitle } from "@/lib/slug";
 import type { ArticleSeo, SiteArticle, SiteContent, SiteSeo } from "@/types/site-content";
 
 export type { SchemaContext } from "@/lib/seo-schema";
@@ -170,9 +171,10 @@ export function resolveServiceSeo(
     return resolveArticleSeo(opts.article, opts.global, opts.path);
   }
 
+  const slug = opts.path.split("/").pop() ?? "";
+  const displayTitle = slug ? slugToDisplayTitle(slug) : opts.serviceLabel;
   const siteName = opts.global.siteName || "Thiên Hoàng Kim Aesthetic Clinic";
-  const suffix = opts.categoryLabel ?? "Dịch vụ thẩm mỹ";
-  const title = buildTitle(`${opts.serviceLabel} — ${suffix}`, siteName, opts.global.titleSeparator);
+  const title = slug ? buildMetaTitleFromSlug(slug) : buildTitle(`${opts.serviceLabel} — ${opts.categoryLabel ?? "Dịch vụ thẩm mỹ"}`, siteName, opts.global.titleSeparator);
   const description = pick(opts.description, opts.global.description);
   const canonical = toAbsoluteUrl(opts.path, opts.global.siteUrl);
 
@@ -180,7 +182,7 @@ export function resolveServiceSeo(
     title,
     description,
     keywords: opts.global.keywords || "",
-    ogTitle: title,
+    ogTitle: slug ? displayTitle : title,
     ogDescription: description,
     ogImage: pick(opts.image, opts.global.ogImage),
     ogUrl: canonical,
@@ -332,11 +334,12 @@ export function resolveRouteSeo(path: string, content: SiteContent): PageSeoMeta
     const base = baseFromGlobal(global, clean);
     const linked = content.articles.find((a) => a.slug === cat.articleSlug && a.published);
     const desc = pick(linked?.description, cat.description, global.description);
+    const pageTitle = routePathToDisplayTitle(clean) ?? cat.title;
     return {
       ...base,
-      title: buildTitle(cat.title, global.siteName, sep),
+      title: buildTitle(pageTitle, global.siteName, sep),
       description: desc,
-      ogTitle: buildTitle(cat.title, global.siteName, sep),
+      ogTitle: pageTitle,
       ogDescription: desc,
       keywords: pick(linked?.seo?.keywords, global.keywords),
     };
@@ -347,11 +350,12 @@ export function resolveRouteSeo(path: string, content: SiteContent): PageSeoMeta
     const base = baseFromGlobal(global, clean);
     const linked = content.articles.find((a) => a.slug === cat.articleSlug && a.published);
     const desc = pick(linked?.description, cat.description, global.description);
+    const pageTitle = routePathToDisplayTitle(clean) ?? cat.title;
     return {
       ...base,
-      title: buildTitle(cat.title, global.siteName, sep),
+      title: buildTitle(pageTitle, global.siteName, sep),
       description: desc,
-      ogTitle: buildTitle(cat.title, global.siteName, sep),
+      ogTitle: pageTitle,
       ogDescription: desc,
       keywords: pick(linked?.seo?.keywords, global.keywords),
     };
@@ -360,62 +364,76 @@ export function resolveRouteSeo(path: string, content: SiteContent): PageSeoMeta
   const staticPage = getPageContent(clean);
   if (staticPage) {
     const base = baseFromGlobal(global, clean);
+    const routeTitle = routePathToDisplayTitle(clean);
+    const pageTitle = routeTitle ?? staticPage.title;
     return {
       ...base,
-      title: buildTitle(staticPage.title, global.siteName, sep),
+      title: buildTitle(pageTitle, global.siteName, sep),
       description: pick(staticPage.description, global.description),
-      ogTitle: buildTitle(staticPage.title, global.siteName, sep),
+      ogTitle: pageTitle,
       ogDescription: pick(staticPage.description, global.description),
     };
   }
 
   if (clean === "/dich-vu") {
     const base = baseFromGlobal(global, clean);
+    const pageTitle = routePathToDisplayTitle(clean) ?? "Dịch vụ thẩm mỹ";
     return {
       ...base,
-      title: buildTitle("Dịch vụ thẩm mỹ", global.siteName, sep),
+      title: buildTitle(pageTitle, global.siteName, sep),
       description: pick("Giải pháp thẩm mỹ y khoa và spa chăm sóc da chuyên sâu.", global.description),
+      ogTitle: pageTitle,
     };
   }
 
   if (clean === "/tin-tuc" || clean === "/tin-tuc/kien-thuc" || clean === "/tin-tuc/tin-tuc") {
     const base = baseFromGlobal(global, clean);
+    const pageTitle = routePathToDisplayTitle(clean) ?? "Tin tức & kiến thức làm đẹp";
     return {
       ...base,
-      title: buildTitle("Tin tức & Kiến thức làm đẹp", global.siteName, sep),
+      title: buildTitle(pageTitle, global.siteName, sep),
       description: pick("Cẩm nang làm đẹp, tin tức thẩm mỹ và spa từ Thiên Hoàng Kim.", global.description),
+      ogTitle: pageTitle,
     };
   }
 
   if (clean === "/lien-he") {
     const base = baseFromGlobal(global, clean);
+    const pageTitle = routePathToDisplayTitle(clean) ?? "Liên hệ & đặt lịch";
     return {
       ...base,
-      title: buildTitle("Liên hệ & Đặt lịch", global.siteName, sep),
+      title: buildTitle(pageTitle, global.siteName, sep),
+      ogTitle: pageTitle,
     };
   }
 
   if (clean === "/khach-hang") {
     const base = baseFromGlobal(global, clean);
+    const pageTitle = routePathToDisplayTitle(clean) ?? "Khách hàng thực tế";
     return {
       ...base,
-      title: buildTitle("Khách hàng thực tế", global.siteName, sep),
+      title: buildTitle(pageTitle, global.siteName, sep),
+      ogTitle: pageTitle,
     };
   }
 
   if (clean === "/bang-gia") {
     const base = baseFromGlobal(global, clean);
+    const pageTitle = routePathToDisplayTitle(clean) ?? "Bảng giá tham khảo";
     return {
       ...base,
-      title: buildTitle("Bảng giá tham khảo", global.siteName, sep),
+      title: buildTitle(pageTitle, global.siteName, sep),
+      ogTitle: pageTitle,
     };
   }
 
   if (clean === "/gioi-thieu/doi-ngu-bac-si") {
     const base = baseFromGlobal(global, clean);
+    const pageTitle = routePathToDisplayTitle(clean) ?? "Đội ngũ bác sĩ";
     return {
       ...base,
-      title: buildTitle("Đội ngũ bác sĩ", global.siteName, sep),
+      title: buildTitle(pageTitle, global.siteName, sep),
+      ogTitle: pageTitle,
     };
   }
 
