@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { useSiteContent } from "@/context/SiteContentContext";
 import { getArticlePublicPath } from "@/lib/site-cms";
+import { LAZY_IMG } from "@/lib/image-loading";
 import type { SiteArticle } from "@/types/site-content";
 
 type BeautyHandbookSectionProps = {
@@ -26,6 +27,7 @@ function ArticleCard({ article, detailLabel }: { article: SiteArticle; detailLab
           src={article.image}
           alt={article.title}
           className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105"
+          {...LAZY_IMG}
         />
         <div className="absolute left-3 top-3 rounded-full bg-primary px-3 py-1 text-[9px] font-bold tracking-widest text-primary-foreground shadow-sm sm:px-4 sm:py-1.5 sm:text-[10px]">
           {article.category.toUpperCase()}

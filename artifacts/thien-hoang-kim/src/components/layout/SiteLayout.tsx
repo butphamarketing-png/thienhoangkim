@@ -42,7 +42,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
       setShowContent(false);
       return;
     }
-    const timer = setTimeout(() => setShowContent(true), 350);
+    const timer = setTimeout(() => setShowContent(true), 120);
     return () => clearTimeout(timer);
   }, [loading]);
 

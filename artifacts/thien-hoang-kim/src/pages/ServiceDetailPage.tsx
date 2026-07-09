@@ -6,6 +6,7 @@ import { useSiteContent } from "@/context/SiteContentContext";
 import { ArticleBodyContent } from "@/components/ArticleBodyContent";
 import { DEFAULT_HERO_IMAGE } from "@/data/pages.defaults";
 import { buildHeroImageAlt } from "@/lib/article-seo";
+import { EAGER_IMG } from "@/lib/image-loading";
 import { getServiceItem, resolveServiceCategories } from "@/lib/site-cms";
 import type { ServiceCategoryId } from "@/types/site-content";
 import NotFound from "@/pages/not-found";
@@ -64,7 +65,7 @@ Khách hàng được thăm khám, phân tích và lên phác đồ cá nhân tr
             {article.date}
           </p>
         )}
-        <img src={image} alt={heroAlt} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover object-top shadow-lg" />
+        <img src={image} alt={heroAlt} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover object-top shadow-lg" {...EAGER_IMG} />
         <p className="mt-8 text-lg font-medium leading-relaxed text-foreground/90">{description}</p>
         <ArticleBodyContent body={body} imageAlt={heroAlt} />
         <div className="mt-12 flex flex-wrap gap-3">

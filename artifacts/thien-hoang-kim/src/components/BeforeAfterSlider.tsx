@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
+import { LAZY_IMG } from "@/lib/image-loading";
 
 type BeforeAfterSliderProps = {
   beforeSrc: string;
@@ -113,7 +114,7 @@ export function BeforeAfterSlider({
         setFromClientX(e.clientX);
       }}
     >
-      <img src={beforeSrc} alt={beforeAlt} className="absolute inset-0 h-full w-full object-cover" draggable={false} />
+      <img src={beforeSrc} alt={beforeAlt} className="absolute inset-0 h-full w-full object-cover" draggable={false} {...LAZY_IMG} />
 
       <div className="absolute inset-y-0 left-0 overflow-hidden" style={{ width: `${position}%` }}>
         <img
@@ -122,6 +123,7 @@ export function BeforeAfterSlider({
           className="absolute left-0 top-0 h-full max-w-none object-cover"
           style={{ width: containerWidth || "100%" }}
           draggable={false}
+          {...LAZY_IMG}
         />
       </div>
 

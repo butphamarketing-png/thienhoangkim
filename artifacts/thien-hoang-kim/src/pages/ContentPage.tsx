@@ -5,6 +5,7 @@ import { PageHero } from "@/components/layout/PageHero";
 import { Button } from "@/components/ui/button";
 import { useSiteContent } from "@/context/SiteContentContext";
 import { resolvePageContent } from "@/lib/site-cms";
+import { LAZY_IMG } from "@/lib/image-loading";
 import NotFound from "@/pages/not-found";
 
 export default function ContentPage() {
@@ -30,6 +31,7 @@ export default function ContentPage() {
                 src={page.heroImage}
                 alt={page.title}
                 className="h-auto w-full object-cover"
+                {...LAZY_IMG}
               />
             </div>
           )}
@@ -41,6 +43,7 @@ export default function ContentPage() {
                     src={block.image}
                     alt={block.title ?? page.title}
                     className="h-auto w-full object-cover"
+                    {...LAZY_IMG}
                   />
                 </div>
               )}

@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import type { ReactNode } from "react";
+import { LAZY_IMG } from "@/lib/image-loading";
 
 const H2_LINE = /^##\s+(.+)$/;
 const IMG_LINE = /^!\[([^\]]*)\]\(([^)]+)\)\s*$/;
@@ -81,6 +82,7 @@ export function ArticleBodyContent({ body, imageAlt = "" }: ArticleBodyContentPr
                 src={img[2]}
                 alt={stripMarkdownBold(img[1] || imageAlt)}
                 className="w-full rounded-2xl object-cover shadow-md"
+                {...LAZY_IMG}
               />
             </figure>
           );

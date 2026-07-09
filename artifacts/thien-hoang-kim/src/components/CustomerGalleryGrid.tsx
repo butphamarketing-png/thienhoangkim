@@ -3,6 +3,7 @@ import { X } from "lucide-react";
 import { BeforeAfterSlider } from "@/components/BeforeAfterSlider";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { cn } from "@/lib/utils";
+import { LAZY_IMG } from "@/lib/image-loading";
 
 export type CustomerGalleryCase = {
   id: string;
@@ -62,6 +63,7 @@ export function CustomerGalleryGrid({ cases }: CustomerGalleryGridProps) {
                     src={item.after}
                     alt={item.label}
                     className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                    {...LAZY_IMG}
                   />
                   <div className="absolute inset-0 flex items-end justify-center bg-gradient-to-t from-black/55 via-transparent to-transparent pb-3 opacity-0 transition group-hover:opacity-100">
                     <span className="rounded-full bg-white/95 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-primary">

@@ -4,6 +4,7 @@ import { SiteLayout } from "@/components/layout/SiteLayout";
 import { PageHero } from "@/components/layout/PageHero";
 import { useSiteContent } from "@/context/SiteContentContext";
 import { getArticlePublicPath, isServiceLinkedArticle } from "@/lib/site-cms";
+import { LAZY_IMG } from "@/lib/image-loading";
 
 export default function ArticlesListPage() {
   const { content } = useSiteContent();
@@ -59,7 +60,7 @@ export default function ArticlesListPage() {
               className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
             >
               <div className="relative aspect-[4/3] overflow-hidden">
-                <img src={article.image} alt={article.title} className="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+                <img src={article.image} alt={article.title} className="h-full w-full object-cover transition duration-500 group-hover:scale-105" {...LAZY_IMG} />
                 <span className="absolute left-3 top-3 rounded-full bg-primary px-3 py-1 text-[10px] font-bold text-primary-foreground">
                   {article.category}
                 </span>

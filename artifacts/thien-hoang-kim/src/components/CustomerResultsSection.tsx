@@ -5,6 +5,7 @@ import { BeforeAfterSlider } from "@/components/BeforeAfterSlider";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { cn } from "@/lib/utils";
+import { LAZY_IMG } from "@/lib/image-loading";
 import type { SiteSectionHeading } from "@/types/site-content";
 
 export type CustomerResultCase = {
@@ -81,6 +82,7 @@ function SideColumn({
           "h-full w-full object-cover transition duration-700 ease-out group-hover/sidecol:scale-[1.025]",
           fadeClass,
         )}
+        {...LAZY_IMG}
       />
       <div
         aria-hidden

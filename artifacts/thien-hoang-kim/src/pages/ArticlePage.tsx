@@ -6,6 +6,7 @@ import { useSiteContent } from "@/context/SiteContentContext";
 import { ArticleBodyContent } from "@/components/ArticleBodyContent";
 import { getPreferredArticlePath } from "@/data/services-catalog";
 import { buildHeroImageAlt } from "@/lib/article-seo";
+import { EAGER_IMG } from "@/lib/image-loading";
 import NotFound from "@/pages/not-found";
 
 export default function ArticlePage() {
@@ -37,7 +38,7 @@ export default function ArticlePage() {
           {article.date}
         </p>
         {article.image && (
-          <img src={article.image} alt={heroAlt} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover shadow-lg" />
+          <img src={article.image} alt={heroAlt} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover shadow-lg" {...EAGER_IMG} />
         )}
         <p className="mt-8 text-lg font-medium leading-relaxed text-foreground/90">{article.description}</p>
         <ArticleBodyContent body={article.body} imageAlt={heroAlt} />
