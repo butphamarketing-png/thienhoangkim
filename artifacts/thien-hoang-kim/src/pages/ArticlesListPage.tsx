@@ -4,6 +4,7 @@ import { SiteLayout } from "@/components/layout/SiteLayout";
 import { PageHero } from "@/components/layout/PageHero";
 import { useSiteContent } from "@/context/SiteContentContext";
 import { getArticlePublicPath, isServiceLinkedArticle } from "@/lib/site-cms";
+import { TOPIC_CLUSTERS, clusterHubPath } from "@/lib/topic-clusters";
 import { LAZY_IMG } from "@/lib/image-loading";
 
 export default function ArticlesListPage() {
@@ -38,6 +39,19 @@ export default function ArticlesListPage() {
         ]}
       />
       <div className="container mx-auto px-4 py-12 md:px-8 md:py-16">
+        <div className="mb-8 rounded-2xl border border-border bg-muted/30 p-5 md:p-6">
+          <h2 className="font-serif text-lg font-semibold text-primary">Chủ đề nổi bật</h2>
+          <p className="mt-1 text-sm text-muted-foreground">Cụm bài viết theo dịch vụ — tăng liên kết nội bộ, hỗ trợ xếp hạng từ khóa.</p>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {TOPIC_CLUSTERS.map((c) => (
+              <Link key={c.id} href={clusterHubPath(c.id)}>
+                <span className="inline-block rounded-full border border-primary/30 bg-white px-4 py-1.5 text-sm font-semibold text-primary transition hover:bg-primary hover:text-primary-foreground">
+                  {c.label}
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
         <div className="mb-8 flex flex-wrap gap-2">
           <Link href="/tin-tuc">
             <span className={`rounded-full px-4 py-1.5 text-sm font-semibold ${!categoryFilter ? "bg-primary text-primary-foreground" : "bg-muted text-foreground"}`}>

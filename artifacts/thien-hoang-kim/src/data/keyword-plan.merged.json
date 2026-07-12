@@ -1,10 +1,40 @@
 [
   {
+    "focus": "3d scan",
+    "slug": "3d-scan",
+    "pillar": "/tin-tuc",
+    "title": "3d scan — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK18"
+  },
+  {
+    "focus": "accutane",
+    "slug": "accutane",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Accutane — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK16"
+  },
+  {
     "focus": "aesthetic clinic",
     "slug": "aesthetic-clinic",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan1",
     "title": "Aesthetic clinic — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "aesthetic clinic",
+    "slug": "aesthetic-clinic-sk",
+    "pillar": "/lien-he",
+    "title": "Aesthetic clinic — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK13"
   },
   {
     "focus": "aesthetic clinic TP.HCM",
@@ -14,11 +44,41 @@
     "title": "Aesthetic clinic TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "ai da",
+    "slug": "ai-da",
+    "pillar": "/tin-tuc",
+    "title": "Ai da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK18"
+  },
+  {
     "focus": "AI soi da",
     "slug": "ai-soi-da",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan2",
     "title": "AI soi da — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "ăn gì được",
+    "slug": "an-gi-duoc",
+    "pillar": "/tin-tuc",
+    "title": "Ăn gì được — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
+    "focus": "aquapeel",
+    "slug": "aquapeel-sk",
+    "pillar": "/tin-tuc",
+    "title": "Aquapeel — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK18"
   },
   {
     "focus": "b5 phục hồi",
@@ -42,6 +102,16 @@
     "title": "Baby face thẩm mỹ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "bác sĩ cấy tóc",
+    "slug": "bac-si-cay-toc",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Bác sĩ cấy tóc — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK5"
+  },
+  {
     "focus": "bác sĩ giỏi",
     "slug": "bac-si-gioi",
     "pillar": "/bang-gia",
@@ -54,6 +124,26 @@
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan1",
     "title": "Bác sĩ làm đẹp — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "bác sĩ nâng mũi",
+    "slug": "bac-si-nang-mui",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Bác sĩ nâng mũi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK1"
+  },
+  {
+    "focus": "bác sĩ spa",
+    "slug": "bac-si-spa",
+    "pillar": "/tin-tuc",
+    "title": "Bác sĩ spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK15"
   },
   {
     "focus": "bác sĩ thẩm mỹ",
@@ -70,6 +160,16 @@
     "title": "Bác sĩ thẩm mỹ giỏi — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "bác sĩ thẩm mỹ",
+    "slug": "bac-si-tham-my-sk",
+    "pillar": "/lien-he",
+    "title": "Bác sĩ thẩm mỹ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK13"
+  },
+  {
     "focus": "bác sĩ TP.HCM",
     "slug": "bac-si-tp-hcm",
     "pillar": "/lien-he",
@@ -84,11 +184,31 @@
     "title": "Bấm mí hàn quốc — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "bấm mí",
+    "slug": "bam-mi-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Bấm mí — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK2"
+  },
+  {
     "focus": "bảng giá thẩm mỹ",
     "slug": "bang-gia-tham-my",
     "pillar": "/bang-gia",
     "source": "both",
     "title": "Bảng giá thẩm mỹ — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "bảng giá thẩm mỹ",
+    "slug": "bang-gia-tham-my-sk",
+    "pillar": "/bang-gia",
+    "title": "Bảng giá thẩm mỹ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 4,
+    "group": "SK9"
   },
   {
     "focus": "bảng giá Thiên Hoàng Kim",
@@ -98,11 +218,61 @@
     "title": "Bảng giá Thiên Hoàng Kim — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "báo giá botox",
+    "slug": "bao-gia-botox",
+    "pillar": "/bang-gia",
+    "title": "Báo giá botox — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK9"
+  },
+  {
+    "focus": "báo giá filler",
+    "slug": "bao-gia-filler",
+    "pillar": "/bang-gia",
+    "title": "Báo giá filler — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK9"
+  },
+  {
     "focus": "báo giá minh bạch",
     "slug": "bao-gia-minh-bach",
     "pillar": "/bang-gia",
     "source": "plan2",
     "title": "Báo giá minh bạch — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "báo giá nâng mũi",
+    "slug": "bao-gia-nang-mui",
+    "pillar": "/bang-gia",
+    "title": "Báo giá nâng mũi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 4,
+    "group": "SK9"
+  },
+  {
+    "focus": "báo giá nhanh",
+    "slug": "bao-gia-nhanh",
+    "pillar": "/bang-gia",
+    "title": "Báo giá nhanh — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK14"
+  },
+  {
+    "focus": "bảo hành không",
+    "slug": "bao-hanh-khong",
+    "pillar": "/tin-tuc",
+    "title": "Bảo hành không — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
   },
   {
     "focus": "bảo hiểm thẩm mỹ",
@@ -112,11 +282,61 @@
     "title": "Bảo hiểm thẩm mỹ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "bao lâu đẹp",
+    "slug": "bao-lau-dep",
+    "pillar": "/tin-tuc",
+    "title": "Bao lâu đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
     "focus": "bao lâu thì đẹp tự nhiên",
     "slug": "bao-lau-dep-tu-nhien",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan2",
     "title": "Bao lâu thì đẹp tự nhiên — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "bao lâu hồi",
+    "slug": "bao-lau-hoi",
+    "pillar": "/tin-tuc",
+    "title": "Bao lâu hồi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
+    "focus": "bao nhiêu tiền",
+    "slug": "bao-nhieu-tien",
+    "pillar": "/tin-tuc",
+    "title": "Bao nhiêu tiền — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
+    "focus": "bbl laser",
+    "slug": "bbl-laser-sk",
+    "pillar": "/tin-tuc",
+    "title": "Bbl laser — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK18"
+  },
+  {
+    "focus": "beauty clinic",
+    "slug": "beauty-clinic",
+    "pillar": "/lien-he",
+    "title": "Beauty clinic — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK13"
   },
   {
     "focus": "before after",
@@ -147,11 +367,31 @@
     "title": "Biến chứng thẩm mỹ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "body spa",
+    "slug": "body-spa",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Body spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK8"
+  },
+  {
     "focus": "bọng mắt",
     "slug": "bong-mat",
     "pillar": "/tham-my/cat-mi-phuong-hoang",
     "source": "both",
     "title": "Bọng mắt — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "bọng mắt",
+    "slug": "bong-mat-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Bọng mắt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK2"
   },
   {
     "focus": "botox",
@@ -166,6 +406,26 @@
     "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
     "source": "both",
     "title": "Botox Allergan — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "botox allergan",
+    "slug": "botox-allergan-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox allergan — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
+    "focus": "botox an đông",
+    "slug": "botox-an-dong",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox an đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK4"
   },
   {
     "focus": "botox an toàn",
@@ -196,11 +456,41 @@
     "title": "Botox cằm — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "botox cằm",
+    "slug": "botox-cam-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox cằm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
     "focus": "botox có đau không",
     "slug": "botox-co-dau-khong",
     "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
     "source": "plan2",
     "title": "Botox có đau không — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "botox cổ",
+    "slug": "botox-co-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox cổ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
+    "focus": "botox đẹp",
+    "slug": "botox-dep",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
   },
   {
     "focus": "botox đổ mồ hôi",
@@ -231,11 +521,41 @@
     "title": "Botox Dysport — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "botox dysport",
+    "slug": "botox-dysport-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox dysport — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
+    "focus": "botox filler",
+    "slug": "botox-filler",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox filler — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK15"
+  },
+  {
     "focus": "botox giá",
     "slug": "botox-gia",
     "pillar": "/bang-gia",
     "source": "plan1",
     "title": "Botox giá — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "botox giá",
+    "slug": "botox-gia-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox giá — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 2,
+    "group": "SK4"
   },
   {
     "focus": "botox gọn hàm",
@@ -250,6 +570,26 @@
     "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
     "source": "plan1",
     "title": "Botox hàm — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "botox hàm nam",
+    "slug": "botox-ham-nam-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox hàm nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK12"
+  },
+  {
+    "focus": "botox hàm",
+    "slug": "botox-ham-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox hàm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
   },
   {
     "focus": "botox hãng",
@@ -301,11 +641,31 @@
     "title": "Botox masseter — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "botox masseter",
+    "slug": "botox-masseter-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox masseter — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
     "focus": "botox mặt",
     "slug": "botox-mat",
     "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
     "source": "plan1",
     "title": "Botox mặt — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "botox mắt",
+    "slug": "botox-mat-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox mắt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
   },
   {
     "focus": "botox mồ hôi",
@@ -320,6 +680,26 @@
     "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
     "source": "plan2",
     "title": "Botox mồ hôi nách — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "botox môi",
+    "slug": "botox-moi",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox môi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
+    "focus": "botox mỹ",
+    "slug": "botox-my",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox mỹ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK15"
   },
   {
     "focus": "botox nách",
@@ -343,6 +723,16 @@
     "title": "Botox nam — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "botox nam",
+    "slug": "botox-nam-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
     "focus": "botox nhăn",
     "slug": "botox-nhan",
     "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
@@ -364,11 +754,41 @@
     "title": "Botox nữ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "botox nữ",
+    "slug": "botox-nu-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox nữ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
+    "focus": "botox q5",
+    "slug": "botox-q5",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox q5 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
     "focus": "botox quận 5",
     "slug": "botox-quan-5",
     "pillar": "/lien-he",
     "source": "plan1",
     "title": "Botox quận 5 — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "botox",
+    "slug": "botox-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK4"
   },
   {
     "focus": "botox toàn mặt",
@@ -392,6 +812,16 @@
     "title": "Botox TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "botox tphcm",
+    "slug": "botox-tphcm-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
     "focus": "botox TP.HCM",
     "slug": "botox-tphcm-uy-tin",
     "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
@@ -404,6 +834,16 @@
     "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
     "source": "both",
     "title": "Botox trán — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "botox trán",
+    "slug": "botox-tran-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox trán — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
   },
   {
     "focus": "botox trẻ hóa",
@@ -425,6 +865,16 @@
     "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
     "source": "both",
     "title": "Botox uy tín — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "botox uy tín",
+    "slug": "botox-uy-tin-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox uy tín — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK4"
   },
   {
     "focus": "botox và filler",
@@ -476,6 +926,16 @@
     "title": "Cằm ngắn — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "căng chỉ an đông",
+    "slug": "cang-chi-an-dong",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Căng chỉ an đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 4,
+    "group": "SK6"
+  },
+  {
     "focus": "căng chỉ bao lâu",
     "slug": "cang-chi-bao-lau",
     "pillar": "/tham-my/cang-noi-soi",
@@ -502,6 +962,16 @@
     "pillar": "/tham-my/cang-chi-tre-hoa",
     "source": "plan2",
     "title": "Căng chỉ duy trì bao lâu — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "căng chỉ giá",
+    "slug": "cang-chi-gia",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Căng chỉ giá — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK6"
   },
   {
     "focus": "căng chỉ hay căng nội soi",
@@ -532,11 +1002,61 @@
     "title": "Căng chỉ PDO — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "căng chỉ pdo",
+    "slug": "cang-chi-pdo-sk",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Căng chỉ pdo — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK6"
+  },
+  {
+    "focus": "căng chỉ q5",
+    "slug": "cang-chi-q5",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Căng chỉ q5 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK6"
+  },
+  {
+    "focus": "căng chỉ",
+    "slug": "cang-chi-sk",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Căng chỉ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK6"
+  },
+  {
     "focus": "căng chỉ TP.HCM",
     "slug": "cang-chi-tphcm",
     "pillar": "/tham-my/cang-chi-tre-hoa",
     "source": "plan2",
     "title": "Căng chỉ TP.HCM — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "căng chỉ tphcm",
+    "slug": "cang-chi-tphcm-sk",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Căng chỉ tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK6"
+  },
+  {
+    "focus": "căng chỉ uy tín",
+    "slug": "cang-chi-uy-tin",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Căng chỉ uy tín — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK6"
   },
   {
     "focus": "căng da",
@@ -581,6 +1101,16 @@
     "title": "Căng da nữ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "căng da",
+    "slug": "cang-da-sk",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Căng da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK6"
+  },
+  {
     "focus": "căng da uy tín",
     "slug": "cang-da-uy-tin",
     "pillar": "/tham-my/cang-noi-soi",
@@ -588,11 +1118,31 @@
     "title": "Căng da uy tín — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "căng mặt",
+    "slug": "cang-mat",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Căng mặt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK6"
+  },
+  {
     "focus": "căng nội soi mặt",
     "slug": "cang-noi-soi-mat",
     "pillar": "/tham-my/cang-noi-soi",
     "source": "plan1",
     "title": "Căng nội soi mặt — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "căng nội soi",
+    "slug": "cang-noi-soi-sk",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Căng nội soi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK6"
   },
   {
     "focus": "căng nội soi trán",
@@ -616,6 +1166,16 @@
     "title": "Cắt mí An Đông — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cắt mí an đông",
+    "slug": "cat-mi-an-dong-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí an đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 4,
+    "group": "SK2"
+  },
+  {
     "focus": "cắt mí an toàn",
     "slug": "cat-mi-an-toan",
     "pillar": "/tham-my/cat-mi-phuong-hoang",
@@ -630,11 +1190,51 @@
     "title": "Cắt mí bao lâu — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cắt mí chợ lớn",
+    "slug": "cat-mi-cho-lon-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí chợ lớn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK11"
+  },
+  {
     "focus": "cắt mí có để lại sẹo không",
     "slug": "cat-mi-co-seo-khong",
     "pillar": "/tham-my/cat-mi-phuong-hoang",
     "source": "plan2",
     "title": "Cắt mí có để lại sẹo không — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "cắt mí đẹp",
+    "slug": "cat-mi-dep",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK2"
+  },
+  {
+    "focus": "cắt mí giá",
+    "slug": "cat-mi-gia",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí giá — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK2"
+  },
+  {
+    "focus": "cắt mí hàn",
+    "slug": "cat-mi-han",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí hàn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK2"
   },
   {
     "focus": "cắt mí hay nhấn mí",
@@ -649,6 +1249,16 @@
     "pillar": "/tham-my/cat-mi-phuong-hoang",
     "source": "plan1",
     "title": "Cắt mí hồi phục — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "cắt mí laser",
+    "slug": "cat-mi-laser-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí laser — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK2"
   },
   {
     "focus": "cắt mí mắt",
@@ -672,11 +1282,41 @@
     "title": "Cắt mí nam giới — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cắt mí nam",
+    "slug": "cat-mi-nam-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK2"
+  },
+  {
+    "focus": "cắt mí nhấn",
+    "slug": "cat-mi-nhan",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí nhấn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK15"
+  },
+  {
     "focus": "cắt mí nữ",
     "slug": "cat-mi-nu",
     "pillar": "/tham-my/cat-mi-phuong-hoang",
     "source": "plan1",
     "title": "Cắt mí nữ — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "cắt mí nữ",
+    "slug": "cat-mi-nu-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí nữ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK2"
   },
   {
     "focus": "cắt mí phượng hoàng",
@@ -686,11 +1326,31 @@
     "title": "Cắt mí phượng hoàng — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cắt mí q5",
+    "slug": "cat-mi-q5",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí q5 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK2"
+  },
+  {
     "focus": "cắt mí Quận 5",
     "slug": "cat-mi-quan-5",
     "pillar": "/tham-my/cat-mi-phuong-hoang",
     "source": "plan2",
     "title": "Cắt mí Quận 5 — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "cắt mí",
+    "slug": "cat-mi-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK2"
   },
   {
     "focus": "cắt mí to",
@@ -721,6 +1381,26 @@
     "title": "Cắt mí TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cắt mí tphcm",
+    "slug": "cat-mi-tphcm-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK2"
+  },
+  {
+    "focus": "cắt mí tự nhiên",
+    "slug": "cat-mi-tu-nhien-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí tự nhiên — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK2"
+  },
+  {
     "focus": "cắt mí tuổi nào",
     "slug": "cat-mi-tuoi-nao",
     "pillar": "/tham-my/cat-mi-phuong-hoang",
@@ -735,11 +1415,51 @@
     "title": "Cắt mí uy tín — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cắt mí uy tín",
+    "slug": "cat-mi-uy-tin-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí uy tín — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK2"
+  },
+  {
+    "focus": "cấy mỡ",
+    "slug": "cay-mo",
+    "pillar": "/tham-my",
+    "title": "Cấy mỡ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
+  },
+  {
     "focus": "cấy mỡ má",
     "slug": "cay-mo-ma",
     "pillar": "/tham-my",
     "source": "both",
     "title": "Cấy mỡ má — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "cấy mỡ má",
+    "slug": "cay-mo-ma-sk",
+    "pillar": "/tham-my",
+    "title": "Cấy mỡ má — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK21"
+  },
+  {
+    "focus": "cấy mỡ mông",
+    "slug": "cay-mo-mong-sk",
+    "pillar": "/tham-my",
+    "title": "Cấy mỡ mông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK21"
   },
   {
     "focus": "cấy mỡ tự thân",
@@ -749,11 +1469,31 @@
     "title": "Cấy mỡ tự thân — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cấy prp",
+    "slug": "cay-prp",
+    "pillar": "/tin-tuc",
+    "title": "Cấy prp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK15"
+  },
+  {
     "focus": "cấy tóc",
     "slug": "cay-toc",
     "pillar": "/tham-my/cay-toc-tu-than",
     "source": "both",
     "title": "Cấy tóc — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "cấy tóc an đông",
+    "slug": "cay-toc-an-dong",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc an đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 4,
+    "group": "SK5"
   },
   {
     "focus": "cấy tóc an toàn",
@@ -805,6 +1545,16 @@
     "title": "Cấy tóc dày — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cấy tóc đẹp",
+    "slug": "cay-toc-dep",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK5"
+  },
+  {
     "focus": "cấy tóc đỉnh đầu",
     "slug": "cay-toc-dinh-dau",
     "pillar": "/tham-my/cay-toc-tu-than",
@@ -826,6 +1576,16 @@
     "title": "Cấy tóc fue hay fut — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cấy tóc fue",
+    "slug": "cay-toc-fue-sk",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc fue — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK5"
+  },
+  {
     "focus": "cấy tóc FUT",
     "slug": "cay-toc-fut",
     "pillar": "/tham-my/cay-toc-tu-than",
@@ -833,11 +1593,41 @@
     "title": "Cấy tóc FUT — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cấy tóc fut",
+    "slug": "cay-toc-fut-sk",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc fut — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK5"
+  },
+  {
     "focus": "cấy tóc giá",
     "slug": "cay-toc-gia",
     "pillar": "/bang-gia",
     "source": "plan1",
     "title": "Cấy tóc giá — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "cấy tóc giá",
+    "slug": "cay-toc-gia-sk",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc giá — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK5"
+  },
+  {
+    "focus": "cấy tóc hàn",
+    "slug": "cay-toc-han",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc hàn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK5"
   },
   {
     "focus": "cấy tóc hói",
@@ -896,6 +1686,16 @@
     "title": "Cấy tóc nam giới — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cấy tóc nam",
+    "slug": "cay-toc-nam-sk",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK5"
+  },
+  {
     "focus": "cấy tóc nữ",
     "slug": "cay-toc-nu",
     "pillar": "/tham-my/cay-toc-tu-than",
@@ -903,11 +1703,41 @@
     "title": "Cấy tóc nữ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cấy tóc nữ",
+    "slug": "cay-toc-nu-sk",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc nữ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK5"
+  },
+  {
+    "focus": "cấy tóc q5",
+    "slug": "cay-toc-q5",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc q5 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK5"
+  },
+  {
     "focus": "cấy tóc quận 5",
     "slug": "cay-toc-quan-5",
     "pillar": "/lien-he",
     "source": "plan1",
     "title": "Cấy tóc quận 5 — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "cấy tóc",
+    "slug": "cay-toc-sk",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK5"
   },
   {
     "focus": "cấy tóc thưa",
@@ -931,6 +1761,16 @@
     "title": "Cấy tóc TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cấy tóc tphcm",
+    "slug": "cay-toc-tphcm-sk",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK5"
+  },
+  {
     "focus": "cấy tóc trán",
     "slug": "cay-toc-tran",
     "pillar": "/tham-my/cay-toc-tu-than",
@@ -945,11 +1785,31 @@
     "title": "Cấy tóc tự nhiên — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cấy tóc tự thân",
+    "slug": "cay-toc-tu-than-sk",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc tự thân — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK5"
+  },
+  {
     "focus": "cấy tóc uy tín",
     "slug": "cay-toc-uy-tin",
     "pillar": "/tham-my/cay-toc-tu-than",
     "source": "both",
     "title": "Cấy tóc uy tín — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "cấy tóc uy tín",
+    "slug": "cay-toc-uy-tin-sk",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc uy tín — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK5"
   },
   {
     "focus": "chấm mụn đúng cách",
@@ -985,6 +1845,16 @@
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan2",
     "title": "Chăm sóc da sau sinh — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "chăm sóc da",
+    "slug": "cham-soc-da-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Chăm sóc da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK7"
   },
   {
     "focus": "chăm sóc da TP.HCM",
@@ -1036,6 +1906,16 @@
     "title": "Chi phí botox — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "chi phí botox",
+    "slug": "chi-phi-botox-sk",
+    "pillar": "/bang-gia",
+    "title": "Chi phí botox — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK9"
+  },
+  {
     "focus": "chi phí căng da",
     "slug": "chi-phi-cang-da",
     "pillar": "/tham-my/cang-noi-soi",
@@ -1050,6 +1930,16 @@
     "title": "Chi phí cắt mí — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "chi phí cắt mí",
+    "slug": "chi-phi-cat-mi-sk",
+    "pillar": "/bang-gia",
+    "title": "Chi phí cắt mí — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK9"
+  },
+  {
     "focus": "chi phí cấy tóc",
     "slug": "chi-phi-cay-toc",
     "pillar": "/tham-my/cay-toc-tu-than",
@@ -1062,6 +1952,16 @@
     "pillar": "/tham-my/filler-tao-hinh",
     "source": "both",
     "title": "Chi phí filler — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "chi phí filler",
+    "slug": "chi-phi-filler-sk",
+    "pillar": "/bang-gia",
+    "title": "Chi phí filler — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK9"
   },
   {
     "focus": "chi phí hút mỡ",
@@ -1083,6 +1983,16 @@
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "both",
     "title": "Chi phí nâng mũi — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "chi phí nâng mũi",
+    "slug": "chi-phi-nang-mui-sk",
+    "pillar": "/bang-gia",
+    "title": "Chi phí nâng mũi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK9"
   },
   {
     "focus": "chi phí thẩm mỹ",
@@ -1113,11 +2023,31 @@
     "title": "Chỉnh hình thẩm mỹ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cho con bú",
+    "slug": "cho-con-bu",
+    "pillar": "/tin-tuc",
+    "title": "Cho con bú — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK19"
+  },
+  {
     "focus": "cho con bú thẩm mỹ",
     "slug": "cho-con-bu-tham-my",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan2",
     "title": "Cho con bú thẩm mỹ — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "chỗ nào uy",
+    "slug": "cho-nao-uy",
+    "pillar": "/tin-tuc",
+    "title": "Chỗ nào uy — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
   },
   {
     "focus": "chọn dịch vụ làm đẹp",
@@ -1132,6 +2062,16 @@
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan1",
     "title": "Chọn phòng khám — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "chống lão hóa",
+    "slug": "chong-lao-hoa",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Chống lão hóa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK6"
   },
   {
     "focus": "chống nắng",
@@ -1162,6 +2102,26 @@
     "title": "Chống nắng SPF50 — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "chú rể",
+    "slug": "chu-re",
+    "pillar": "/tin-tuc",
+    "title": "Chú rể — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
+    "focus": "chú rể đẹp",
+    "slug": "chu-re-dep",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Chú rể đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK12"
+  },
+  {
     "focus": "chuẩn bị trước phẫu thuật",
     "slug": "chuan-bi-truoc-phau-thuat",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -1176,11 +2136,51 @@
     "title": "Clean girl — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "clinic an đông",
+    "slug": "clinic-an-dong",
+    "pillar": "/lien-he",
+    "title": "Clinic an đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK11"
+  },
+  {
+    "focus": "clinic cấy tóc",
+    "slug": "clinic-cay-toc",
+    "pillar": "/lien-he",
+    "title": "Clinic cấy tóc — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK5"
+  },
+  {
     "focus": "clinic Hùng Vương",
     "slug": "clinic-hung-vuong",
     "pillar": "/lien-he",
     "source": "both",
     "title": "Clinic Hùng Vương — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "clinic hưng vương",
+    "slug": "clinic-hung-vuong-kw",
+    "pillar": "/lien-he",
+    "title": "Clinic hưng vương — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK22"
+  },
+  {
+    "focus": "clinic hùng vương",
+    "slug": "clinic-hung-vuong-sk",
+    "pillar": "/lien-he",
+    "title": "Clinic hùng vương — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK11"
   },
   {
     "focus": "clinic làm đẹp",
@@ -1190,11 +2190,151 @@
     "title": "Clinic làm đẹp — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "clinic nâng mũi",
+    "slug": "clinic-nang-mui",
+    "pillar": "/lien-he",
+    "title": "Clinic nâng mũi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK1"
+  },
+  {
+    "focus": "clinic nguyễn trãi",
+    "slug": "clinic-nguyen-trai",
+    "pillar": "/lien-he",
+    "title": "Clinic nguyễn trãi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK22"
+  },
+  {
+    "focus": "clinic q5",
+    "slug": "clinic-q5",
+    "pillar": "/lien-he",
+    "title": "Clinic q5 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK10"
+  },
+  {
+    "focus": "clinic q6",
+    "slug": "clinic-q6",
+    "pillar": "/lien-he",
+    "title": "Clinic q6 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK10"
+  },
+  {
+    "focus": "clinic thiên hoàng kim",
+    "slug": "clinic-thien-hoang-kim",
+    "pillar": "/lien-he",
+    "title": "Clinic thiên hoàng kim — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK13"
+  },
+  {
+    "focus": "clinic tphcm",
+    "slug": "clinic-tphcm",
+    "pillar": "/lien-he",
+    "title": "Clinic tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK11"
+  },
+  {
+    "focus": "clinic uy tín",
+    "slug": "clinic-uy-tin",
+    "pillar": "/lien-he",
+    "title": "Clinic uy tín — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK13"
+  },
+  {
+    "focus": "có an toàn",
+    "slug": "co-an-toan",
+    "pillar": "/tin-tuc",
+    "title": "Có an toàn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
+    "focus": "cô dâu",
+    "slug": "co-dau",
+    "pillar": "/tin-tuc",
+    "title": "Cô dâu — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
+    "focus": "có đau không",
+    "slug": "co-dau-khong",
+    "pillar": "/tin-tuc",
+    "title": "Có đau không — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
+    "focus": "có để sẹo",
+    "slug": "co-de-seo",
+    "pillar": "/tin-tuc",
+    "title": "Có để sẹo — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
     "focus": "cổ gà",
     "slug": "co-ga",
     "pillar": "/tham-my/cang-noi-soi",
     "source": "both",
     "title": "Cổ gà — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "có hiệu quả",
+    "slug": "co-hieu-qua",
+    "pillar": "/tin-tuc",
+    "title": "Có hiệu quả — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
+    "focus": "có nên không",
+    "slug": "co-nen-khong",
+    "pillar": "/tin-tuc",
+    "title": "Có nên không — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
+    "focus": "có phụ phí",
+    "slug": "co-phu-phi",
+    "pillar": "/tin-tuc",
+    "title": "Có phụ phí — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
   },
   {
     "focus": "cơ sở vật chất phòng khám",
@@ -1204,11 +2344,71 @@
     "title": "Cơ sở vật chất phòng khám — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "có sưng không",
+    "slug": "co-sung-khong",
+    "pillar": "/tin-tuc",
+    "title": "Có sưng không — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
+    "focus": "có tốt không",
+    "slug": "co-tot-khong",
+    "pillar": "/tin-tuc",
+    "title": "Có tốt không — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
+    "focus": "có uy tín",
+    "slug": "co-uy-tin",
+    "pillar": "/tin-tuc",
+    "title": "Có uy tín — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
     "focus": "collagen da",
     "slug": "collagen-da",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan1",
     "title": "Collagen da — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "combo spa",
+    "slug": "combo-spa",
+    "pillar": "/bang-gia",
+    "title": "Combo spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK14"
+  },
+  {
+    "focus": "combo thẩm mỹ",
+    "slug": "combo-tham-my",
+    "pillar": "/bang-gia",
+    "title": "Combo thẩm mỹ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK14"
+  },
+  {
+    "focus": "công nghệ mới",
+    "slug": "cong-nghe-moi",
+    "pillar": "/tin-tuc",
+    "title": "Công nghệ mới — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK18"
   },
   {
     "focus": "công nghệ spa mới",
@@ -1225,6 +2425,26 @@
     "title": "Công nghệ thẩm mỹ mới — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "cưới đẹp",
+    "slug": "cuoi-dep",
+    "pillar": "/tin-tuc",
+    "title": "Cưới đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
+    "focus": "cuối tuần",
+    "slug": "cuoi-tuan",
+    "pillar": "/tin-tuc",
+    "title": "Cuối tuần — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
     "focus": "da cháy nắng",
     "slug": "da-chay-nang",
     "pillar": "/spa/cham-soc-da-toan-dien",
@@ -1237,6 +2457,16 @@
     "pillar": "/tham-my/cang-noi-soi",
     "source": "both",
     "title": "Da chảy xệ — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "da chảy xệ",
+    "slug": "da-chay-xe-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Da chảy xệ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK6"
   },
   {
     "focus": "da dầu",
@@ -1258,6 +2488,26 @@
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan2",
     "title": "Da dầu nam — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "da dầu",
+    "slug": "da-dau-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Da dầu — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
+  },
+  {
+    "focus": "da đẹp",
+    "slug": "da-dep",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Da đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
   },
   {
     "focus": "da đỏ",
@@ -1293,6 +2543,16 @@
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan1",
     "title": "Da khô ráp — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "da khô",
+    "slug": "da-kho-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Da khô — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
   },
   {
     "focus": "da không đều",
@@ -1370,6 +2630,16 @@
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "both",
     "title": "Da nhạy cảm — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "da nhạy cảm",
+    "slug": "da-nhay-cam-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Da nhạy cảm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK7"
   },
   {
     "focus": "da nhờn",
@@ -1477,6 +2747,16 @@
     "title": "Đánh giá phòng khám — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "đặt lịch hôm nay",
+    "slug": "dat-lich-hom-nay",
+    "pillar": "/lien-he",
+    "title": "Đặt lịch hôm nay — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK14"
+  },
+  {
     "focus": "đặt lịch online",
     "slug": "dat-lich-online",
     "pillar": "/lien-he",
@@ -1491,11 +2771,31 @@
     "title": "Đặt lịch spa — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "đặt lịch spa",
+    "slug": "dat-lich-spa-sk",
+    "pillar": "/lien-he",
+    "title": "Đặt lịch spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK14"
+  },
+  {
     "focus": "đặt lịch thẩm mỹ",
     "slug": "dat-lich-tham-my",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "both",
     "title": "Đặt lịch thẩm mỹ — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "đặt lịch thẩm mỹ",
+    "slug": "dat-lich-tham-my-sk",
+    "pillar": "/lien-he",
+    "title": "Đặt lịch thẩm mỹ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK13"
   },
   {
     "focus": "đặt lịch TP.HCM",
@@ -1505,6 +2805,16 @@
     "title": "Đặt lịch TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "đặt lịch tphcm",
+    "slug": "dat-lich-tphcm",
+    "pillar": "/lien-he",
+    "title": "Đặt lịch tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK14"
+  },
+  {
     "focus": "dấu hiệu biến chứng",
     "slug": "dau-hieu-bien-chung",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -1512,11 +2822,51 @@
     "title": "Dấu hiệu biến chứng — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "đau không",
+    "slug": "dau-khong",
+    "pillar": "/tin-tuc",
+    "title": "Đau không — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK20"
+  },
+  {
+    "focus": "đầu mũi",
+    "slug": "dau-mui",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Đầu mũi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK1"
+  },
+  {
     "focus": "đầu mũi to",
     "slug": "dau-mui-to",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "both",
     "title": "Đầu mũi to — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "dermapen",
+    "slug": "dermapen-sk",
+    "pillar": "/tin-tuc",
+    "title": "Dermapen — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK18"
+  },
+  {
+    "focus": "detox body",
+    "slug": "detox-body",
+    "pillar": "/tham-my",
+    "title": "Detox body — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
   },
   {
     "focus": "detox da",
@@ -1538,6 +2888,16 @@
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "both",
     "title": "Đều màu da — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "đi làm",
+    "slug": "di-lam",
+    "pillar": "/tin-tuc",
+    "title": "Đi làm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
   },
   {
     "focus": "đi làm sau tiêm filler",
@@ -1568,11 +2928,51 @@
     "title": "Điêu khắc mày — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "điêu khắc mày",
+    "slug": "dieu-khac-may-sk",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Điêu khắc mày — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK8"
+  },
+  {
+    "focus": "điêu khắc môi",
+    "slug": "dieu-khac-moi",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Điêu khắc môi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK8"
+  },
+  {
     "focus": "điều trị da",
     "slug": "dieu-tri-da",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan1",
     "title": "Điều trị da — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "điều trị da",
+    "slug": "dieu-tri-da-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Điều trị da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK7"
+  },
+  {
+    "focus": "điều trị mụn",
+    "slug": "dieu-tri-mun",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Điều trị mụn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK16"
   },
   {
     "focus": "điều trị mụn chuyên sâu",
@@ -1610,11 +3010,41 @@
     "title": "Đồi mồi — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "đồi mồi",
+    "slug": "doi-moi-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Đồi mồi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
+  },
+  {
     "focus": "đội ngũ bác sĩ THK",
     "slug": "doi-ngu-bac-si-thk",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan2",
     "title": "Đội ngũ bác sĩ THK — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "dolphin skin",
+    "slug": "dolphin-skin-sk",
+    "pillar": "/tin-tuc",
+    "title": "Dolphin skin — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK18"
+  },
+  {
+    "focus": "dự tiệc",
+    "slug": "du-tiec",
+    "pillar": "/tin-tuc",
+    "title": "Dự tiệc — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
   },
   {
     "focus": "dưỡng ẩm",
@@ -1624,11 +3054,51 @@
     "title": "Dưỡng ẩm — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "đường chữ m",
+    "slug": "duong-chu-m",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Đường chữ m — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK5"
+  },
+  {
+    "focus": "exosome",
+    "slug": "exosome",
+    "pillar": "/tin-tuc",
+    "title": "Exosome — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK18"
+  },
+  {
     "focus": "eyeliner phun",
     "slug": "eyeliner-phun",
     "pillar": "/spa/phun-xam-tham-my",
     "source": "both",
     "title": "Eyeliner phun — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "eyeliner phun",
+    "slug": "eyeliner-phun-sk",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Eyeliner phun — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK8"
+  },
+  {
+    "focus": "facelift",
+    "slug": "facelift",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Facelift — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK6"
   },
   {
     "focus": "facial",
@@ -1645,6 +3115,16 @@
     "title": "Facial chuyên sâu — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "facial",
+    "slug": "facial-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Facial — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK7"
+  },
+  {
     "focus": "facial trị mụn",
     "slug": "facial-tri-mun",
     "pillar": "/spa/cham-soc-da-toan-dien",
@@ -1657,6 +3137,16 @@
     "pillar": "/tham-my/filler-tao-hinh",
     "source": "plan1",
     "title": "Filler — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "filler an đông",
+    "slug": "filler-an-dong",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler an đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK3"
   },
   {
     "focus": "filler an toàn",
@@ -1687,6 +3177,16 @@
     "title": "Filler biến chứng — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "filler botox",
+    "slug": "filler-botox",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler botox — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK15"
+  },
+  {
     "focus": "filler cằm",
     "slug": "filler-cam",
     "pillar": "/tham-my/filler-tao-hinh",
@@ -1699,6 +3199,16 @@
     "pillar": "/tham-my/filler-tao-hinh",
     "source": "plan2",
     "title": "Filler cằm nam — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "filler cằm",
+    "slug": "filler-cam-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler cằm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
   },
   {
     "focus": "filler cằm vline",
@@ -1715,6 +3225,16 @@
     "title": "Filler có đau không — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "filler đẹp",
+    "slug": "filler-dep",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
+  },
+  {
     "focus": "filler duy trì bao lâu",
     "slug": "filler-duy-tri-bao-lau",
     "pillar": "/tham-my/filler-tao-hinh",
@@ -1729,11 +3249,41 @@
     "title": "Filler giá — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "filler giá",
+    "slug": "filler-gia-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler giá — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 2,
+    "group": "SK3"
+  },
+  {
     "focus": "filler gương mặt",
     "slug": "filler-guong-mat",
     "pillar": "/tham-my/filler-tao-hinh",
     "source": "plan1",
     "title": "Filler gương mặt — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "filler hàm nam",
+    "slug": "filler-ham-nam",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler hàm nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK12"
+  },
+  {
+    "focus": "filler hàn",
+    "slug": "filler-han",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler hàn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
   },
   {
     "focus": "filler hãng",
@@ -1778,11 +3328,31 @@
     "title": "Filler má — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "filler má",
+    "slug": "filler-ma-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler má — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
+  },
+  {
     "focus": "filler mắt",
     "slug": "filler-mat",
     "pillar": "/tham-my/filler-tao-hinh",
     "source": "plan1",
     "title": "Filler mắt — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "filler mắt",
+    "slug": "filler-mat-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler mắt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
   },
   {
     "focus": "filler mắt thâm",
@@ -1799,11 +3369,31 @@
     "title": "Filler môi — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "filler môi",
+    "slug": "filler-moi-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler môi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
+  },
+  {
     "focus": "filler mũi",
     "slug": "filler-mui",
     "pillar": "/tham-my/filler-tao-hinh",
     "source": "both",
     "title": "Filler mũi — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "filler mũi",
+    "slug": "filler-mui-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler mũi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
   },
   {
     "focus": "filler nam",
@@ -1813,11 +3403,41 @@
     "title": "Filler nam — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "filler nam",
+    "slug": "filler-nam-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
+  },
+  {
     "focus": "filler nữ",
     "slug": "filler-nu",
     "pillar": "/tham-my/filler-tao-hinh",
     "source": "plan1",
     "title": "Filler nữ — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "filler nữ",
+    "slug": "filler-nu-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler nữ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
+  },
+  {
+    "focus": "filler q5",
+    "slug": "filler-q5",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler q5 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK3"
   },
   {
     "focus": "filler Quận 5",
@@ -1839,6 +3459,16 @@
     "pillar": "/tham-my/filler-tao-hinh",
     "source": "both",
     "title": "Filler Restylane — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "filler",
+    "slug": "filler-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK3"
   },
   {
     "focus": "filler tai",
@@ -1883,6 +3513,16 @@
     "title": "Filler TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "filler tphcm",
+    "slug": "filler-tphcm-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK3"
+  },
+  {
     "focus": "filler TP.HCM",
     "slug": "filler-tphcm-uy-tin",
     "pillar": "/tham-my/filler-tao-hinh",
@@ -1897,11 +3537,31 @@
     "title": "Filler trán — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "filler trán",
+    "slug": "filler-tran-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler trán — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
+  },
+  {
     "focus": "filler tự nhiên",
     "slug": "filler-tu-nhien",
     "pillar": "/tham-my/filler-tao-hinh",
     "source": "both",
     "title": "Filler tự nhiên — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "filler tự nhiên",
+    "slug": "filler-tu-nhien-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler tự nhiên — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK3"
   },
   {
     "focus": "filler tuổi nào",
@@ -1918,6 +3578,16 @@
     "title": "Filler uy tín — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "filler uy tín",
+    "slug": "filler-uy-tin-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler uy tín — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK3"
+  },
+  {
     "focus": "FUE hay FUT",
     "slug": "fue-hay-fut",
     "pillar": "/tham-my/cay-toc-tu-than",
@@ -1930,6 +3600,16 @@
     "pillar": "/tham-my/cay-toc-tu-than",
     "source": "plan2",
     "title": "FUE hay FUT nên chọn — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "full face filler",
+    "slug": "full-face-filler",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Full face filler — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK3"
   },
   {
     "focus": "gen Z làm đẹp",
@@ -1946,11 +3626,41 @@
     "title": "Ghép tóc — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "ghép tóc",
+    "slug": "ghep-toc-sk",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Ghép tóc — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK5"
+  },
+  {
+    "focus": "giá bao nhiêu",
+    "slug": "gia-bao-nhieu",
+    "pillar": "/bang-gia",
+    "title": "Giá bao nhiêu — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
     "focus": "giá botox",
     "slug": "gia-botox",
     "pillar": "/bang-gia",
     "source": "both",
     "title": "Giá botox — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "giá botox",
+    "slug": "gia-botox-sk",
+    "pillar": "/bang-gia",
+    "title": "Giá botox — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 2,
+    "group": "SK9"
   },
   {
     "focus": "giá căng chỉ",
@@ -1967,6 +3677,16 @@
     "title": "Giá căng chỉ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "giá căng chỉ",
+    "slug": "gia-cang-chi-sk",
+    "pillar": "/bang-gia",
+    "title": "Giá căng chỉ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK9"
+  },
+  {
     "focus": "giá cắt mí",
     "slug": "gia-cat-mi",
     "pillar": "/bang-gia",
@@ -1979,6 +3699,16 @@
     "pillar": "/tham-my/cat-mi-phuong-hoang",
     "source": "plan2",
     "title": "Giá cắt mí — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "giá cắt mí",
+    "slug": "gia-cat-mi-sk",
+    "pillar": "/bang-gia",
+    "title": "Giá cắt mí — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK9"
   },
   {
     "focus": "giá cấy tóc",
@@ -1995,11 +3725,41 @@
     "title": "Giá cấy tóc — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "giá cấy tóc",
+    "slug": "gia-cay-toc-sk",
+    "pillar": "/bang-gia",
+    "title": "Giá cấy tóc — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK9"
+  },
+  {
     "focus": "giá filler",
     "slug": "gia-filler",
     "pillar": "/bang-gia",
     "source": "both",
     "title": "Giá filler — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "giá filler",
+    "slug": "gia-filler-sk",
+    "pillar": "/bang-gia",
+    "title": "Giá filler — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 2,
+    "group": "SK9"
+  },
+  {
+    "focus": "giá hifu",
+    "slug": "gia-hifu-sk",
+    "pillar": "/bang-gia",
+    "title": "Giá hifu — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 2,
+    "group": "SK9"
   },
   {
     "focus": "giá hút mỡ",
@@ -2014,6 +3774,26 @@
     "pillar": "/bang-gia",
     "source": "plan2",
     "title": "Giá hút mỡ mặt — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "giá làm đẹp",
+    "slug": "gia-lam-dep",
+    "pillar": "/bang-gia",
+    "title": "Giá làm đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK9"
+  },
+  {
+    "focus": "giá laser",
+    "slug": "gia-laser",
+    "pillar": "/bang-gia",
+    "title": "Giá laser — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 2,
+    "group": "SK9"
   },
   {
     "focus": "giá laser trị nám",
@@ -2037,11 +3817,41 @@
     "title": "Giá massage body — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "giá massage",
+    "slug": "gia-massage-sk",
+    "pillar": "/bang-gia",
+    "title": "Giá massage — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 2,
+    "group": "SK9"
+  },
+  {
     "focus": "giá nâng mũi",
     "slug": "gia-nang-mui",
     "pillar": "/bang-gia",
     "source": "plan1",
     "title": "Giá nâng mũi — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "giá nâng mũi",
+    "slug": "gia-nang-mui-sk",
+    "pillar": "/bang-gia",
+    "title": "Giá nâng mũi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK9"
+  },
+  {
+    "focus": "giá peel",
+    "slug": "gia-peel",
+    "pillar": "/bang-gia",
+    "title": "Giá peel — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 2,
+    "group": "SK9"
   },
   {
     "focus": "giá peel da",
@@ -2065,11 +3875,81 @@
     "title": "Giá phun mày môi — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "giá phun mày",
+    "slug": "gia-phun-may-sk",
+    "pillar": "/bang-gia",
+    "title": "Giá phun mày — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK9"
+  },
+  {
     "focus": "giá phun môi",
     "slug": "gia-phun-moi",
     "pillar": "/bang-gia",
     "source": "both",
     "title": "Giá phun môi — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "giá phun môi",
+    "slug": "gia-phun-moi-sk",
+    "pillar": "/bang-gia",
+    "title": "Giá phun môi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK9"
+  },
+  {
+    "focus": "giá rẻ uy",
+    "slug": "gia-re-uy",
+    "pillar": "/bang-gia",
+    "title": "Giá rẻ uy — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK15"
+  },
+  {
+    "focus": "giá spa",
+    "slug": "gia-spa",
+    "pillar": "/bang-gia",
+    "title": "Giá spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 2,
+    "group": "SK9"
+  },
+  {
+    "focus": "giá thẩm mỹ",
+    "slug": "gia-tham-my",
+    "pillar": "/bang-gia",
+    "title": "Giá thẩm mỹ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK9"
+  },
+  {
+    "focus": "giá trị mụn",
+    "slug": "gia-tri-mun",
+    "pillar": "/bang-gia",
+    "title": "Giá trị mụn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK9"
+  },
+  {
+    "focus": "giá trị nám",
+    "slug": "gia-tri-nam",
+    "pillar": "/bang-gia",
+    "title": "Giá trị nám — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK9"
   },
   {
     "focus": "giấy phép phòng khám",
@@ -2091,6 +3971,16 @@
     "pillar": "/tin-tuc",
     "source": "plan1",
     "title": "Glass skin — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "glass skin",
+    "slug": "glass-skin-sk",
+    "pillar": "/tin-tuc",
+    "title": "Glass skin — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK18"
   },
   {
     "focus": "glass skin",
@@ -2119,6 +4009,26 @@
     "pillar": "/tham-my/filler-tao-hinh",
     "source": "both",
     "title": "Góc hàm filler — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "gội cỏ",
+    "slug": "goi-co",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Gội cỏ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
+  },
+  {
+    "focus": "gội đầu dưỡng",
+    "slug": "goi-dau-duong",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Gội đầu dưỡng — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK8"
   },
   {
     "focus": "gội đầu dưỡng sinh",
@@ -2163,6 +4073,26 @@
     "title": "Gọn hàm nam — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "gọn hàm nam",
+    "slug": "gon-ham-nam-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Gọn hàm nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK12"
+  },
+  {
+    "focus": "gọn hàm",
+    "slug": "gon-ham-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Gọn hàm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
     "focus": "gọt hàm",
     "slug": "got-ham",
     "pillar": "/tham-my",
@@ -2175,6 +4105,16 @@
     "pillar": "/tham-my",
     "source": "plan1",
     "title": "Gọt mặt — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "grooming nam",
+    "slug": "grooming-nam",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Grooming nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK12"
   },
   {
     "focus": "gương mặt trẻ",
@@ -2212,6 +4152,26 @@
     "title": "Hàm vuông botox — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "hifu",
+    "slug": "hifu",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Hifu — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK6"
+  },
+  {
+    "focus": "hifu căng chỉ",
+    "slug": "hifu-cang-chi",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Hifu căng chỉ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK15"
+  },
+  {
     "focus": "HIFU là gì",
     "slug": "hifu-la-gi",
     "pillar": "/tham-my/cang-chi-tre-hoa",
@@ -2231,6 +4191,16 @@
     "pillar": "/spa/massage-body-thu-gian",
     "source": "plan2",
     "title": "Himalaya spa — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "himalaya spa",
+    "slug": "himalaya-spa-sk",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Himalaya spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK8"
   },
   {
     "focus": "hình ảnh thực tế",
@@ -2275,6 +4245,16 @@
     "title": "Hói đầu nam — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "hói đầu nam",
+    "slug": "hoi-dau-nam-sk",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Hói đầu nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK12"
+  },
+  {
     "focus": "hói đầu nam trẻ",
     "slug": "hoi-dau-nam-tre",
     "pillar": "/tham-my/cay-toc-tu-than",
@@ -2289,11 +4269,31 @@
     "title": "Hói đầu nữ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "hói đầu",
+    "slug": "hoi-dau-sk",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Hói đầu — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK5"
+  },
+  {
     "focus": "hói di truyền",
     "slug": "hoi-di-truyen",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan2",
     "title": "Hói di truyền — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "hói đỉnh",
+    "slug": "hoi-dinh",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Hói đỉnh — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK5"
   },
   {
     "focus": "hỏi giá tư vấn",
@@ -2322,6 +4322,26 @@
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan1",
     "title": "Hồi phục thẩm mỹ — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "hói trán",
+    "slug": "hoi-tran",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Hói trán — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK5"
+  },
+  {
+    "focus": "hotline spa",
+    "slug": "hotline-spa",
+    "pillar": "/lien-he",
+    "title": "Hotline spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK14"
   },
   {
     "focus": "hotline thẩm mỹ",
@@ -2359,6 +4379,16 @@
     "title": "Hút mỡ bụng — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "hút mỡ bụng",
+    "slug": "hut-mo-bung-sk",
+    "pillar": "/tham-my",
+    "title": "Hút mỡ bụng — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK21"
+  },
+  {
     "focus": "hút mỡ cằm",
     "slug": "hut-mo-cam",
     "pillar": "/tham-my",
@@ -2392,6 +4422,16 @@
     "pillar": "/tham-my",
     "source": "both",
     "title": "Hút mỡ đùi — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "hút mỡ đùi",
+    "slug": "hut-mo-dui-sk",
+    "pillar": "/tham-my",
+    "title": "Hút mỡ đùi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK21"
   },
   {
     "focus": "hút mỡ hay gọt hàm",
@@ -2443,6 +4483,36 @@
     "title": "Hút mỡ mặt bao lâu — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "hút mỡ mặt",
+    "slug": "hut-mo-mat-sk",
+    "pillar": "/tham-my",
+    "title": "Hút mỡ mặt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK21"
+  },
+  {
+    "focus": "hút mỡ",
+    "slug": "hut-mo-sk",
+    "pillar": "/tham-my",
+    "title": "Hút mỡ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
+  },
+  {
+    "focus": "hút mỡ tay",
+    "slug": "hut-mo-tay",
+    "pillar": "/tham-my",
+    "title": "Hút mỡ tay — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK21"
+  },
+  {
     "focus": "hút mỡ TP.HCM",
     "slug": "hut-mo-tphcm",
     "pillar": "/tham-my",
@@ -2464,11 +4534,51 @@
     "title": "Hydrafacial — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "hydrafacial",
+    "slug": "hydrafacial-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Hydrafacial — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK7"
+  },
+  {
+    "focus": "inbox spa",
+    "slug": "inbox-spa",
+    "pillar": "/lien-he",
+    "title": "Inbox spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK14"
+  },
+  {
+    "focus": "ipl trị",
+    "slug": "ipl-tri",
+    "pillar": "/tham-my",
+    "title": "Ipl trị — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
+  },
+  {
     "focus": "IPL trị nám",
     "slug": "ipl-tri-nam",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan2",
     "title": "IPL trị nám — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "juvederm",
+    "slug": "juvederm",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Juvederm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK3"
   },
   {
     "focus": "K-beauty Việt Nam",
@@ -2506,6 +4616,16 @@
     "title": "Khách hàng thực tế THK — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "khám miễn phí",
+    "slug": "kham-mien-phi",
+    "pillar": "/lien-he",
+    "title": "Khám miễn phí — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK14"
+  },
+  {
     "focus": "không nặn mụn",
     "slug": "khong-nan-mun",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -2518,6 +4638,16 @@
     "pillar": "/spa/phun-xam-tham-my",
     "source": "both",
     "title": "Khử xăm — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "khuyến mãi spa",
+    "slug": "khuyen-mai-spa",
+    "pillar": "/lien-he",
+    "title": "Khuyến mãi spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK14"
   },
   {
     "focus": "khuyến mãi thẩm mỹ",
@@ -2546,6 +4676,16 @@
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan2",
     "title": "Kiến thức thẩm mỹ — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "kiêng gì",
+    "slug": "kieng-gi",
+    "pillar": "/tin-tuc",
+    "title": "Kiêng gì — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK20"
   },
   {
     "focus": "kiêng gì sau cắt mí",
@@ -2597,6 +4737,16 @@
     "title": "Kinh nghiệm thẩm mỹ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "kỳ yếu",
+    "slug": "ky-yeu",
+    "pillar": "/tin-tuc",
+    "title": "Kỳ yếu — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
     "focus": "làm đẹp",
     "slug": "lam-dep",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -2604,11 +4754,31 @@
     "title": "Làm đẹp — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "làm đẹp 2026",
+    "slug": "lam-dep-2026",
+    "pillar": "/lien-he",
+    "title": "Làm đẹp 2026 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK18"
+  },
+  {
     "focus": "làm đẹp An Đông",
     "slug": "lam-dep-an-dong",
     "pillar": "/lien-he",
     "source": "plan2",
     "title": "Làm đẹp An Đông — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "làm đẹp an đông",
+    "slug": "lam-dep-an-dong-sk",
+    "pillar": "/lien-he",
+    "title": "Làm đẹp an đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 4,
+    "group": "SK11"
   },
   {
     "focus": "làm đẹp an toàn TP.HCM",
@@ -2653,6 +4823,16 @@
     "title": "Làm đẹp mặt — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "làm đẹp nam",
+    "slug": "lam-dep-nam",
+    "pillar": "/lien-he",
+    "title": "Làm đẹp nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK12"
+  },
+  {
     "focus": "làm đẹp nam giới",
     "slug": "lam-dep-nam-gioi",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -2660,11 +4840,61 @@
     "title": "Làm đẹp nam giới — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "làm đẹp nam tphcm",
+    "slug": "lam-dep-nam-tphcm",
+    "pillar": "/lien-he",
+    "title": "Làm đẹp nam tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 4,
+    "group": "SK12"
+  },
+  {
+    "focus": "làm đẹp q5",
+    "slug": "lam-dep-q5",
+    "pillar": "/lien-he",
+    "title": "Làm đẹp q5 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK11"
+  },
+  {
+    "focus": "làm đẹp q6",
+    "slug": "lam-dep-q6",
+    "pillar": "/lien-he",
+    "title": "Làm đẹp q6 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK11"
+  },
+  {
+    "focus": "làm đẹp tết",
+    "slug": "lam-dep-tet",
+    "pillar": "/lien-he",
+    "title": "Làm đẹp tết — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK19"
+  },
+  {
     "focus": "làm đẹp TP.HCM",
     "slug": "lam-dep-tp-hcm",
     "pillar": "/lien-he",
     "source": "plan1",
     "title": "Làm đẹp TP.HCM — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "làm đẹp tphcm",
+    "slug": "lam-dep-tphcm",
+    "pillar": "/lien-he",
+    "title": "Làm đẹp tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK13"
   },
   {
     "focus": "làm đẹp tuổi trung niên",
@@ -2686,6 +4916,16 @@
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan2",
     "title": "Nên làm gì trước Tết — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "làm gì đầu",
+    "slug": "lam-gi-dau",
+    "pillar": "/tin-tuc",
+    "title": "Làm gì đầu — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
   },
   {
     "focus": "làm gì trước nâng mũi",
@@ -2723,6 +4963,26 @@
     "title": "Laser CO2 — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "laser co2",
+    "slug": "laser-co2-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Laser co2 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
+  },
+  {
+    "focus": "laser da",
+    "slug": "laser-da",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Laser da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
+  },
+  {
     "focus": "laser fractional",
     "slug": "laser-fractional",
     "pillar": "/spa/cham-soc-da-toan-dien",
@@ -2730,11 +4990,41 @@
     "title": "Laser fractional — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "laser fractional",
+    "slug": "laser-fractional-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Laser fractional — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
+  },
+  {
     "focus": "laser mụn",
     "slug": "laser-mun",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan1",
     "title": "Laser mụn — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "laser nam",
+    "slug": "laser-nam",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Laser nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK12"
+  },
+  {
+    "focus": "laser nám",
+    "slug": "laser-nam-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Laser nám — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
   },
   {
     "focus": "laser tái tạo",
@@ -2758,6 +5048,46 @@
     "title": "Lấy mỡ bọng mắt — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "lấy mỡ mí",
+    "slug": "lay-mo-mi-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Lấy mỡ mí — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK2"
+  },
+  {
+    "focus": "lấy mụn",
+    "slug": "lay-mun",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Lấy mụn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
+  },
+  {
+    "focus": "led therapy",
+    "slug": "led-therapy",
+    "pillar": "/tin-tuc",
+    "title": "Led therapy — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK18"
+  },
+  {
+    "focus": "liên hệ spa",
+    "slug": "lien-he-spa",
+    "pillar": "/lien-he",
+    "title": "Liên hệ spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK14"
+  },
+  {
     "focus": "liệu trình spa",
     "slug": "lieu-trinh-spa",
     "pillar": "/spa/massage-body-thu-gian",
@@ -2765,11 +5095,41 @@
     "title": "Liệu trình spa — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "lip blush",
+    "slug": "lip-blush",
+    "pillar": "/tham-my",
+    "title": "Lip blush — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
+  },
+  {
+    "focus": "lip tint",
+    "slug": "lip-tint",
+    "pillar": "/tham-my",
+    "title": "Lip tint — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
+  },
+  {
     "focus": "lỗ chân lông",
     "slug": "lo-chan-long",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan1",
     "title": "Lỗ chân lông — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "lỗ chân lông",
+    "slug": "lo-chan-long-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Lỗ chân lông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK7"
   },
   {
     "focus": "lỗ chân lông to",
@@ -2807,6 +5167,16 @@
     "title": "Makeup sau phun môi — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "mang thai",
+    "slug": "mang-thai",
+    "pillar": "/tin-tuc",
+    "title": "Mang thai — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
     "focus": "mang thai có làm đẹp không",
     "slug": "mang-thai-lam-dep",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -2835,6 +5205,16 @@
     "title": "Massage body — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "massage body",
+    "slug": "massage-body-sk",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Massage body — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK8"
+  },
+  {
     "focus": "massage chân",
     "slug": "massage-chan",
     "pillar": "/spa/massage-body-thu-gian",
@@ -2854,6 +5234,16 @@
     "pillar": "/spa/massage-body-thu-gian",
     "source": "both",
     "title": "Massage đá nóng — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "massage facial",
+    "slug": "massage-facial-sk",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Massage facial — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK15"
   },
   {
     "focus": "massage giảm stress",
@@ -2877,11 +5267,31 @@
     "title": "Massage mặt — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "massage mặt",
+    "slug": "massage-mat-sk",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Massage mặt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK8"
+  },
+  {
     "focus": "massage nam",
     "slug": "massage-nam",
     "pillar": "/spa/massage-body-thu-gian",
     "source": "both",
     "title": "Massage nam — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "massage nam",
+    "slug": "massage-nam-sk",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Massage nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK12"
   },
   {
     "focus": "massage nam thư giãn",
@@ -2917,6 +5327,16 @@
     "pillar": "/spa/massage-body-thu-gian",
     "source": "plan1",
     "title": "Massage uy tín — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "mất bao lâu",
+    "slug": "mat-bao-lau",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Mất bao lâu — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
   },
   {
     "focus": "mặt chảy",
@@ -2961,11 +5381,31 @@
     "title": "Mắt sụp mí — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "mắt sụp",
+    "slug": "mat-sup-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Mắt sụp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK2"
+  },
+  {
     "focus": "mắt to",
     "slug": "mat-to",
     "pillar": "/tham-my/cat-mi-phuong-hoang",
     "source": "plan1",
     "title": "Mắt to — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "mắt to",
+    "slug": "mat-to-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Mắt to — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK2"
   },
   {
     "focus": "mặt V-line",
@@ -3003,11 +5443,31 @@
     "title": "Mày phun — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "medical spa",
+    "slug": "medical-spa",
+    "pillar": "/lien-he",
+    "title": "Medical spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK13"
+  },
+  {
     "focus": "melasma",
     "slug": "melasma",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan1",
     "title": "Melasma — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "melasma",
+    "slug": "melasma-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Melasma — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK7"
   },
   {
     "focus": "melasma",
@@ -3024,11 +5484,31 @@
     "title": "Mẹo làm đẹp — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "meso tóc",
+    "slug": "meso-toc",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Meso tóc — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK5"
+  },
+  {
     "focus": "meso trẻ hóa",
     "slug": "meso-tre-hoa",
     "pillar": "/tham-my/cang-noi-soi",
     "source": "both",
     "title": "Meso trẻ hóa — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "mesotherapy",
+    "slug": "mesotherapy",
+    "pillar": "/tham-my",
+    "title": "Mesotherapy — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK21"
   },
   {
     "focus": "mí ẩn hay cắt mí",
@@ -3045,11 +5525,41 @@
     "title": "Mí lót — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "mí lót",
+    "slug": "mi-lot-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Mí lót — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK2"
+  },
+  {
     "focus": "mí mắt",
     "slug": "mi-mat",
     "pillar": "/tham-my/cat-mi-phuong-hoang",
     "source": "plan1",
     "title": "Mí mắt — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "mí mắt",
+    "slug": "mi-mat-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Mí mắt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK2"
+  },
+  {
+    "focus": "mí một bầu",
+    "slug": "mi-mot-bau",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Mí một bầu — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK2"
   },
   {
     "focus": "mí phượng hoàng",
@@ -3059,6 +5569,16 @@
     "title": "Mí phượng hoàng — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "microblading",
+    "slug": "microblading",
+    "pillar": "/tham-my",
+    "title": "Microblading — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK21"
+  },
+  {
     "focus": "microneedling",
     "slug": "microneedling",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -3066,11 +5586,31 @@
     "title": "Microneedling — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "mini facelift",
+    "slug": "mini-facelift-sk",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Mini facelift — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK6"
+  },
+  {
     "focus": "mỡ cằm",
     "slug": "mo-cam",
     "pillar": "/tham-my",
     "source": "plan1",
     "title": "Mỡ cằm — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "mở góc mắt",
+    "slug": "mo-goc-mat-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Mở góc mắt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK2"
   },
   {
     "focus": "mỡ má",
@@ -3085,6 +5625,16 @@
     "pillar": "/tham-my",
     "source": "both",
     "title": "Mỡ nọng cằm — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "mọc tóc",
+    "slug": "moc-toc",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Mọc tóc — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK5"
   },
   {
     "focus": "môi dày",
@@ -3106,6 +5656,16 @@
     "pillar": "/spa/phun-xam-tham-my",
     "source": "plan1",
     "title": "Môi đẹp phun — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "môi đẹp",
+    "slug": "moi-dep-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Môi đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
   },
   {
     "focus": "môi khô",
@@ -3143,6 +5703,66 @@
     "title": "Môi xăm — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "morpheus8",
+    "slug": "morpheus8-sk",
+    "pillar": "/tin-tuc",
+    "title": "Morpheus8 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK18"
+  },
+  {
+    "focus": "một lần nhiều",
+    "slug": "mot-lan-nhieu",
+    "pillar": "/tin-tuc",
+    "title": "Một lần nhiều — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK15"
+  },
+  {
+    "focus": "mùa đông",
+    "slug": "mua-dong",
+    "pillar": "/tin-tuc",
+    "title": "Mùa đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
+    "focus": "mùa hè",
+    "slug": "mua-he",
+    "pillar": "/tin-tuc",
+    "title": "Mùa hè — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
+    "focus": "mùa mưa",
+    "slug": "mua-mua",
+    "pillar": "/tin-tuc",
+    "title": "Mùa mưa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
+    "focus": "mũi đẹp",
+    "slug": "mui-dep",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Mũi đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK1"
+  },
+  {
     "focus": "mũi đẹp tự nhiên",
     "slug": "mui-dep-tu-nhien",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -3162,6 +5782,16 @@
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "both",
     "title": "Mũi hếch — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "mũi hỏng",
+    "slug": "mui-hong",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Mũi hỏng — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK1"
   },
   {
     "focus": "mũi tẹt",
@@ -3206,11 +5836,31 @@
     "title": "Mụn ẩn điều trị spa — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "mụn an đông",
+    "slug": "mun-an-dong",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn an đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK16"
+  },
+  {
     "focus": "mụn ẩn dưới da",
     "slug": "mun-an-duoi-da",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan1",
     "title": "Mụn ẩn dưới da — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "mụn ẩn",
+    "slug": "mun-an-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn ẩn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
   },
   {
     "focus": "mụn bọc",
@@ -3227,6 +5877,26 @@
     "title": "Mụn cám — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "mụn cằm",
+    "slug": "mun-cam-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn cằm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
+  },
+  {
+    "focus": "mụn đầu",
+    "slug": "mun-dau",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn đầu — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
+  },
+  {
     "focus": "mụn đầu đen",
     "slug": "mun-dau-den",
     "pillar": "/spa/cham-soc-da-toan-dien",
@@ -3241,11 +5911,41 @@
     "title": "Mụn do khẩu trang — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "mụn hormonal",
+    "slug": "mun-hormonal",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn hormonal — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
+  },
+  {
     "focus": "mụn lưng",
     "slug": "mun-lung",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan2",
     "title": "Mụn lưng — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "mụn lưng",
+    "slug": "mun-lung-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn lưng — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
+  },
+  {
+    "focus": "mụn miệng",
+    "slug": "mun-mieng",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn miệng — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
   },
   {
     "focus": "mụn mủ",
@@ -3255,6 +5955,26 @@
     "title": "Mụn mủ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "mụn mủ",
+    "slug": "mun-mu-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn mủ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
+  },
+  {
+    "focus": "mụn nam",
+    "slug": "mun-nam",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
+  },
+  {
     "focus": "mụn nam giới",
     "slug": "mun-nam-gioi",
     "pillar": "/spa/cham-soc-da-toan-dien",
@@ -3262,11 +5982,71 @@
     "title": "Mụn nam giới — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "mụn nội",
+    "slug": "mun-noi",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn nội — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
+  },
+  {
     "focus": "mụn nội tiết",
     "slug": "mun-noi-tiet",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan2",
     "title": "Mụn nội tiết — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "mụn nữ",
+    "slug": "mun-nu",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn nữ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
+  },
+  {
+    "focus": "mụn peel",
+    "slug": "mun-peel",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn peel — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK15"
+  },
+  {
+    "focus": "mụn q5",
+    "slug": "mun-q5",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn q5 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK16"
+  },
+  {
+    "focus": "mụn tái",
+    "slug": "mun-tai",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn tái — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
+  },
+  {
+    "focus": "mụn trán",
+    "slug": "mun-tran",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn trán — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
   },
   {
     "focus": "mụn tuổi dậy thì",
@@ -3297,6 +6077,16 @@
     "title": "Mụn viêm mủ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "mụn viêm",
+    "slug": "mun-viem-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Mụn viêm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
+  },
+  {
     "focus": "muối himalaya",
     "slug": "muoi-himalaya",
     "pillar": "/spa/massage-body-thu-gian",
@@ -3318,6 +6108,16 @@
     "title": "Nám — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "nám an đông",
+    "slug": "nam-an-dong",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Nám an đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK17"
+  },
+  {
     "focus": "nám có trị hết không",
     "slug": "nam-co-tri-het-khong",
     "pillar": "/spa/cham-soc-da-toan-dien",
@@ -3330,6 +6130,26 @@
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan2",
     "title": "Nám da — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "nám da",
+    "slug": "nam-da-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Nám da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
+  },
+  {
+    "focus": "nám đốm",
+    "slug": "nam-dom-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Nám đốm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
   },
   {
     "focus": "nám hormon",
@@ -3346,11 +6166,81 @@
     "title": "Nám má — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "nám mảng",
+    "slug": "nam-mang-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Nám mảng — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
+  },
+  {
+    "focus": "nám mặt",
+    "slug": "nam-mat",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Nám mặt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
+  },
+  {
+    "focus": "nám nách",
+    "slug": "nam-nach",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Nám nách — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
+  },
+  {
+    "focus": "nám nam",
+    "slug": "nam-nam",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Nám nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
+  },
+  {
     "focus": "nám nội tiết",
     "slug": "nam-noi-tiet",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "both",
     "title": "Nám nội tiết — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "nám nữ",
+    "slug": "nam-nu",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Nám nữ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
+  },
+  {
+    "focus": "nám q5",
+    "slug": "nam-q5",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Nám q5 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK17"
+  },
+  {
+    "focus": "nám sâu",
+    "slug": "nam-sau",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Nám sâu — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
   },
   {
     "focus": "nám sau điều trị laser",
@@ -3381,6 +6271,36 @@
     "title": "Nám tái phát — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "nám tay",
+    "slug": "nam-tay",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Nám tay — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
+  },
+  {
+    "focus": "nam tphcm",
+    "slug": "nam-tphcm",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Nam tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK12"
+  },
+  {
+    "focus": "nám tphcm",
+    "slug": "nam-tphcm-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Nám tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK17"
+  },
+  {
     "focus": "nám trán",
     "slug": "nam-tran",
     "pillar": "/spa/cham-soc-da-toan-dien",
@@ -3402,6 +6322,16 @@
     "title": "Nâng cơ mặt — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "nâng cơ mặt",
+    "slug": "nang-co-mat-sk",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Nâng cơ mặt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK6"
+  },
+  {
     "focus": "nâng mũi",
     "slug": "nang-mui",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -3414,6 +6344,16 @@
     "pillar": "/lien-he",
     "source": "plan1",
     "title": "Nâng mũi An Đông — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "nâng mũi an đông",
+    "slug": "nang-mui-an-dong-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi an đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 4,
+    "group": "SK1"
   },
   {
     "focus": "nâng mũi an toàn",
@@ -3451,6 +6391,36 @@
     "title": "Nâng mũi biến chứng — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "nâng mũi cắt",
+    "slug": "nang-mui-cat",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi cắt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK15"
+  },
+  {
+    "focus": "nâng mũi cấu trúc",
+    "slug": "nang-mui-cau-truc-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi cấu trúc — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK1"
+  },
+  {
+    "focus": "nâng mũi chợ lớn",
+    "slug": "nang-mui-cho-lon-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi chợ lớn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK1"
+  },
+  {
     "focus": "nâng mũi có an toàn không",
     "slug": "nang-mui-co-an-toan-khong",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -3458,11 +6428,51 @@
     "title": "Nâng mũi có an toàn không — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "nâng mũi đẹp",
+    "slug": "nang-mui-dep",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK1"
+  },
+  {
+    "focus": "nâng mũi filler",
+    "slug": "nang-mui-filler",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi filler — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK15"
+  },
+  {
     "focus": "nâng mũi giá",
     "slug": "nang-mui-gia",
     "pillar": "/bang-gia",
     "source": "plan1",
     "title": "Nâng mũi giá — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "nâng mũi giá",
+    "slug": "nang-mui-gia-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi giá — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK1"
+  },
+  {
+    "focus": "nâng mũi hàn",
+    "slug": "nang-mui-han",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi hàn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK1"
   },
   {
     "focus": "nâng mũi hay filler",
@@ -3528,11 +6538,51 @@
     "title": "Nâng mũi nam giới — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "nâng mũi nam",
+    "slug": "nang-mui-nam-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK1"
+  },
+  {
     "focus": "nâng mũi nữ",
     "slug": "nang-mui-nu",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan1",
     "title": "Nâng mũi nữ — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "nâng mũi nữ",
+    "slug": "nang-mui-nu-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi nữ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK1"
+  },
+  {
+    "focus": "nâng mũi q5",
+    "slug": "nang-mui-q5",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi q5 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK1"
+  },
+  {
+    "focus": "nâng mũi q6",
+    "slug": "nang-mui-q6",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi q6 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK1"
   },
   {
     "focus": "nâng mũi Quận 5",
@@ -3549,11 +6599,41 @@
     "title": "Nâng mũi s line — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "nâng mũi s line",
+    "slug": "nang-mui-s-line-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi s line — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK1"
+  },
+  {
+    "focus": "nâng mũi",
+    "slug": "nang-mui-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK1"
+  },
+  {
     "focus": "nâng mũi sụn nhân tạo",
     "slug": "nang-mui-sun-nhan-tao",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan1",
     "title": "Nâng mũi sụn nhân tạo — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "nâng mũi sụn",
+    "slug": "nang-mui-sun-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi sụn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK1"
   },
   {
     "focus": "nâng mũi sụn sườn",
@@ -3577,11 +6657,31 @@
     "title": "Nâng mũi TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "nâng mũi tphcm",
+    "slug": "nang-mui-tphcm-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK1"
+  },
+  {
     "focus": "nâng mũi trẻ em",
     "slug": "nang-mui-tre-em",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan1",
     "title": "Nâng mũi trẻ em — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "nâng mũi tự nhiên",
+    "slug": "nang-mui-tu-nhien-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi tự nhiên — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK1"
   },
   {
     "focus": "nâng mũi tuổi nào",
@@ -3596,6 +6696,16 @@
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan1",
     "title": "Nâng mũi uy tín — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "nâng mũi uy tín",
+    "slug": "nang-mui-uy-tin-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi uy tín — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK1"
   },
   {
     "focus": "nâng mũi uy tín TP.HCM",
@@ -3626,6 +6736,16 @@
     "title": "Nâng sống mũi — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "nâng sống mũi",
+    "slug": "nang-song-mui-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng sống mũi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK1"
+  },
+  {
     "focus": "nang tóc",
     "slug": "nang-toc",
     "pillar": "/tham-my/cay-toc-tu-than",
@@ -3633,11 +6753,41 @@
     "title": "Nang tóc — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "nên làm gì",
+    "slug": "nen-lam-gi",
+    "pillar": "/tin-tuc",
+    "title": "Nên làm gì — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
     "focus": "nếp nhăn",
     "slug": "nep-nhan",
     "pillar": "/tham-my/cang-noi-soi",
     "source": "plan1",
     "title": "Nếp nhăn — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "nếp nhăn mặt",
+    "slug": "nep-nhan-mat",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Nếp nhăn mặt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK6"
+  },
+  {
+    "focus": "nếp nhăn",
+    "slug": "nep-nhan-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Nếp nhăn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
   },
   {
     "focus": "nếp nhăn trán",
@@ -3652,6 +6802,26 @@
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan2",
     "title": "Nghỉ dưỡng sau mổ — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "nghỉ lễ",
+    "slug": "nghi-le",
+    "pillar": "/tin-tuc",
+    "title": "Nghỉ lễ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
+    "focus": "nghỉ phép",
+    "slug": "nghi-phep",
+    "pillar": "/tin-tuc",
+    "title": "Nghỉ phép — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
   },
   {
     "focus": "nhăn đuôi mắt",
@@ -3675,6 +6845,16 @@
     "title": "Nhấn mí collagen — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "nhấn mí",
+    "slug": "nhan-mi-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Nhấn mí — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK2"
+  },
+  {
     "focus": "nhăn trán",
     "slug": "nhan-tran",
     "pillar": "/tham-my/cang-noi-soi",
@@ -3689,11 +6869,101 @@
     "title": "Nhăn trán botox — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "niacinamide",
+    "slug": "niacinamide",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Niacinamide — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK16"
+  },
+  {
     "focus": "nọng cằm",
     "slug": "nong-cam",
     "pillar": "/tham-my/cang-noi-soi",
     "source": "both",
     "title": "Nọng cằm — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "nước ngoài việt",
+    "slug": "nuoc-ngoai-viet",
+    "pillar": "/tin-tuc",
+    "title": "Nước ngoài việt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK15"
+  },
+  {
+    "focus": "ở đâu đẹp",
+    "slug": "o-dau-dep",
+    "pillar": "/tin-tuc",
+    "title": "Ở đâu đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
+    "focus": "ở đâu tốt",
+    "slug": "o-dau-tot",
+    "pillar": "/tin-tuc",
+    "title": "Ở đâu tốt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
+    "focus": "ombre brows",
+    "slug": "ombre-brows",
+    "pillar": "/tham-my",
+    "title": "Ombre brows — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
+  },
+  {
+    "focus": "online trực",
+    "slug": "online-truc",
+    "pillar": "/tin-tuc",
+    "title": "Online trực — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK15"
+  },
+  {
+    "focus": "oxygen facial",
+    "slug": "oxygen-facial-sk",
+    "pillar": "/tin-tuc",
+    "title": "Oxygen facial — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK18"
+  },
+  {
+    "focus": "pdo thread",
+    "slug": "pdo-thread",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Pdo thread — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK6"
+  },
+  {
+    "focus": "pdrn",
+    "slug": "pdrn",
+    "pillar": "/tin-tuc",
+    "title": "Pdrn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK18"
   },
   {
     "focus": "peel da",
@@ -3710,6 +6980,16 @@
     "title": "Peel da mùa nào — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "peel da",
+    "slug": "peel-da-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Peel da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
+  },
+  {
     "focus": "peel hay laser",
     "slug": "peel-hay-laser",
     "pillar": "/spa/cham-soc-da-toan-dien",
@@ -3722,6 +7002,26 @@
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan1",
     "title": "Peel hóa chất — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "peel laser",
+    "slug": "peel-laser",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Peel laser — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK15"
+  },
+  {
+    "focus": "peel nám",
+    "slug": "peel-nam",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Peel nám — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
   },
   {
     "focus": "peel trị mụn",
@@ -3759,11 +7059,31 @@
     "title": "Phẫu thuật mắt — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "phẫu thuật mí",
+    "slug": "phau-thuat-mi",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Phẫu thuật mí — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK2"
+  },
+  {
     "focus": "phẫu thuật mũi",
     "slug": "phau-thuat-mui",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "both",
     "title": "Phẫu thuật mũi — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "phẫu thuật mũi",
+    "slug": "phau-thuat-mui-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Phẫu thuật mũi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK1"
   },
   {
     "focus": "phẫu thuật thẩm mỹ",
@@ -3780,11 +7100,41 @@
     "title": "Phòng khám An Đông — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "phòng khám an đông",
+    "slug": "phong-kham-an-dong-sk",
+    "pillar": "/lien-he",
+    "title": "Phòng khám an đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 4,
+    "group": "SK11"
+  },
+  {
+    "focus": "phòng khám đẹp",
+    "slug": "phong-kham-dep",
+    "pillar": "/lien-he",
+    "title": "Phòng khám đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK13"
+  },
+  {
     "focus": "phòng khám Hùng Vương",
     "slug": "phong-kham-hung-vuong",
     "pillar": "/lien-he",
     "source": "plan2",
     "title": "Phòng khám Hùng Vương — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "phòng khám q5",
+    "slug": "phong-kham-q5",
+    "pillar": "/lien-he",
+    "title": "Phòng khám q5 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK10"
   },
   {
     "focus": "phòng khám thẩm mỹ",
@@ -3815,11 +7165,41 @@
     "title": "Phòng khám TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "phòng khám tphcm",
+    "slug": "phong-kham-tphcm",
+    "pillar": "/lien-he",
+    "title": "Phòng khám tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK13"
+  },
+  {
     "focus": "phòng khám uy tín",
     "slug": "phong-kham-uy-tin",
     "pillar": "/bang-gia",
     "source": "both",
     "title": "Phòng khám uy tín — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "phòng khám uy tín",
+    "slug": "phong-kham-uy-tin-sk",
+    "pillar": "/lien-he",
+    "title": "Phòng khám uy tín — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK13"
+  },
+  {
+    "focus": "phỏng vấn",
+    "slug": "phong-van",
+    "pillar": "/tin-tuc",
+    "title": "Phỏng vấn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
   },
   {
     "focus": "phục hồi da",
@@ -3878,6 +7258,26 @@
     "title": "Phun mày nam — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "phun mày nam",
+    "slug": "phun-may-nam-sk",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Phun mày nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK8"
+  },
+  {
+    "focus": "phun mày",
+    "slug": "phun-may-sk",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Phun mày — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK8"
+  },
+  {
     "focus": "phun mày tự nhiên",
     "slug": "phun-may-tu-nhien",
     "pillar": "/spa/phun-xam-tham-my",
@@ -3897,6 +7297,16 @@
     "pillar": "/spa/phun-xam-tham-my",
     "source": "both",
     "title": "Phun mí mở tròng — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "phun mí",
+    "slug": "phun-mi-sk",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Phun mí — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK8"
   },
   {
     "focus": "phun môi",
@@ -3941,6 +7351,16 @@
     "title": "Phun môi nam — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "phun môi nam",
+    "slug": "phun-moi-nam-sk",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Phun môi nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK8"
+  },
+  {
     "focus": "phun môi ombre",
     "slug": "phun-moi-ombre",
     "pillar": "/spa/phun-xam-tham-my",
@@ -3948,11 +7368,51 @@
     "title": "Phun môi ombre — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "phun môi",
+    "slug": "phun-moi-sk",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Phun môi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK8"
+  },
+  {
     "focus": "phun môi tự nhiên",
     "slug": "phun-moi-tu-nhien",
     "pillar": "/spa/phun-xam-tham-my",
     "source": "plan2",
     "title": "Phun môi tự nhiên — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "phun tiêm",
+    "slug": "phun-tiem",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Phun tiêm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK15"
+  },
+  {
+    "focus": "phun xăm",
+    "slug": "phun-xam",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Phun xăm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK8"
+  },
+  {
+    "focus": "phun xăm an đông",
+    "slug": "phun-xam-an-dong",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Phun xăm an đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 4,
+    "group": "SK11"
   },
   {
     "focus": "phun xăm an toàn",
@@ -3969,6 +7429,16 @@
     "title": "Phun xăm bao lâu bền — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "phun xăm giá",
+    "slug": "phun-xam-gia",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Phun xăm giá — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "price",
+    "wordCount": 3,
+    "group": "SK8"
+  },
+  {
     "focus": "phun xăm TP.HCM",
     "slug": "phun-xam-tp-hcm",
     "pillar": "/lien-he",
@@ -3981,6 +7451,16 @@
     "pillar": "/spa/phun-xam-tham-my",
     "source": "plan2",
     "title": "Phun xăm TP.HCM — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "phun xăm tphcm",
+    "slug": "phun-xam-tphcm-sk",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Phun xăm tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK8"
   },
   {
     "focus": "phun xăm TP.HCM",
@@ -3997,6 +7477,26 @@
     "title": "Phun xăm uy tín — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "pico laser",
+    "slug": "pico-laser",
+    "pillar": "/tin-tuc",
+    "title": "Pico laser — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK18"
+  },
+  {
+    "focus": "picosure",
+    "slug": "picosure",
+    "pillar": "/tin-tuc",
+    "title": "Picosure — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK18"
+  },
+  {
     "focus": "picosure nám",
     "slug": "picosure-nam",
     "pillar": "/spa/cham-soc-da-toan-dien",
@@ -4011,6 +7511,26 @@
     "title": "Picosure trị nám — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "potenza",
+    "slug": "potenza",
+    "pillar": "/tin-tuc",
+    "title": "Potenza — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK18"
+  },
+  {
+    "focus": "profhilo",
+    "slug": "profhilo",
+    "pillar": "/tin-tuc",
+    "title": "Profhilo — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK18"
+  },
+  {
     "focus": "profile nam đẹp",
     "slug": "profile-nam-dep",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -4018,11 +7538,41 @@
     "title": "Profile nam đẹp — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "prp da",
+    "slug": "prp-da",
+    "pillar": "/tham-my",
+    "title": "Prp da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
+  },
+  {
+    "focus": "prp mặt",
+    "slug": "prp-mat",
+    "pillar": "/tham-my",
+    "title": "Prp mặt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
+  },
+  {
     "focus": "PRP tóc",
     "slug": "prp-toc",
     "pillar": "/tham-my/cay-toc-tu-than",
     "source": "both",
     "title": "PRP tóc — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "prp tóc",
+    "slug": "prp-toc-sk",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Prp tóc — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK5"
   },
   {
     "focus": "quiet luxury làm đẹp",
@@ -4060,6 +7610,26 @@
     "title": "Rãnh má — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "rejuran",
+    "slug": "rejuran",
+    "pillar": "/tin-tuc",
+    "title": "Rejuran — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK18"
+  },
+  {
+    "focus": "restylane",
+    "slug": "restylane",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Restylane — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK3"
+  },
+  {
     "focus": "retinol",
     "slug": "retinol",
     "pillar": "/spa/cham-soc-da-toan-dien",
@@ -4088,11 +7658,31 @@
     "title": "Review thẩm mỹ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "rf microneedling",
+    "slug": "rf-microneedling",
+    "pillar": "/tin-tuc",
+    "title": "Rf microneedling — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK18"
+  },
+  {
     "focus": "RF trẻ hóa",
     "slug": "rf-tre-hoa",
     "pillar": "/tham-my/cang-chi-tre-hoa",
     "source": "plan2",
     "title": "RF trẻ hóa — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "rf trị",
+    "slug": "rf-tri",
+    "pillar": "/tham-my",
+    "title": "Rf trị — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
   },
   {
     "focus": "rửa mặt",
@@ -4123,6 +7713,16 @@
     "title": "Rụng tóc sau sinh — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "rụng tóc",
+    "slug": "rung-toc-sk",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Rụng tóc — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK5"
+  },
+  {
     "focus": "rụng tóc stress",
     "slug": "rung-toc-stress",
     "pillar": "/tham-my/cay-toc-tu-than",
@@ -4137,6 +7737,16 @@
     "title": "Rụng tóc từng vùng — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "sạm da",
+    "slug": "sam-da",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Sạm da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
+  },
+  {
     "focus": "săn chắc da",
     "slug": "san-chac-da",
     "pillar": "/tham-my/cang-noi-soi",
@@ -4144,11 +7754,61 @@
     "title": "Săn chắc da — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "săn chắc da",
+    "slug": "san-chac-da-sk",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Săn chắc da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK6"
+  },
+  {
     "focus": "sáng da",
     "slug": "sang-da",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "both",
     "title": "Sáng da — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "sáng da",
+    "slug": "sang-da-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Sáng da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
+  },
+  {
+    "focus": "sau sinh",
+    "slug": "sau-sinh",
+    "pillar": "/tin-tuc",
+    "title": "Sau sinh — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
+    "focus": "sau tết",
+    "slug": "sau-tet",
+    "pillar": "/tin-tuc",
+    "title": "Sau tết — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
+    "focus": "scalp spa",
+    "slug": "scalp-spa",
+    "pillar": "/tham-my",
+    "title": "Scalp spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
   },
   {
     "focus": "se khít lỗ chân lông",
@@ -4179,6 +7839,16 @@
     "title": "Sẹo mụn — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "sẹo mụn",
+    "slug": "seo-mun-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Sẹo mụn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
+  },
+  {
     "focus": "serum",
     "slug": "serum",
     "pillar": "/spa/cham-soc-da-toan-dien",
@@ -4191,6 +7861,16 @@
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan2",
     "title": "Serum trị nám — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "skin booster",
+    "slug": "skin-booster",
+    "pillar": "/tin-tuc",
+    "title": "Skin booster — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK18"
   },
   {
     "focus": "skin minimalism",
@@ -4221,6 +7901,16 @@
     "title": "Skincare nam — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "skincare nam",
+    "slug": "skincare-nam-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Skincare nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK12"
+  },
+  {
     "focus": "skincare routine",
     "slug": "skincare-routine",
     "pillar": "/spa/cham-soc-da-toan-dien",
@@ -4228,11 +7918,41 @@
     "title": "Skincare routine — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "skincare tphcm",
+    "slug": "skincare-tphcm",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Skincare tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK7"
+  },
+  {
     "focus": "so sánh giá nâng mũi",
     "slug": "so-sanh-gia-nang-mui",
     "pillar": "/bang-gia",
     "source": "plan2",
     "title": "So sánh giá nâng mũi — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "soi da",
+    "slug": "soi-da",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Soi da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
+  },
+  {
+    "focus": "soi da miễn phí",
+    "slug": "soi-da-mien-phi",
+    "pillar": "/lien-he",
+    "title": "Soi da miễn phí — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK14"
   },
   {
     "focus": "sống mũi thấp",
@@ -4249,11 +7969,41 @@
     "title": "Spa — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "spa 2026",
+    "slug": "spa-2026",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa 2026 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK18"
+  },
+  {
     "focus": "spa An Đông",
     "slug": "spa-an-dong",
     "pillar": "/lien-he",
     "source": "both",
     "title": "Spa An Đông — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "spa an đông",
+    "slug": "spa-an-dong-sk",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa an đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK8"
+  },
+  {
+    "focus": "spa bình phú",
+    "slug": "spa-binh-phu",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa bình phú — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK22"
   },
   {
     "focus": "spa cao cấp",
@@ -4284,11 +8034,71 @@
     "title": "Spa chăm sóc da — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "spa châu văn",
+    "slug": "spa-chau-van",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa châu văn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK22"
+  },
+  {
+    "focus": "spa chợ lớn",
+    "slug": "spa-cho-lon",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa chợ lớn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK10"
+  },
+  {
+    "focus": "spa clinic",
+    "slug": "spa-clinic",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa clinic — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK15"
+  },
+  {
+    "focus": "spa da",
+    "slug": "spa-da",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
+  },
+  {
+    "focus": "spa đẹp",
+    "slug": "spa-dep",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa đẹp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK13"
+  },
+  {
     "focus": "spa gần đây",
     "slug": "spa-gan-day",
     "pillar": "/lien-he",
     "source": "both",
     "title": "Spa gần đây — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "spa gần đây",
+    "slug": "spa-gan-day-sk",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa gần đây — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK11"
   },
   {
     "focus": "spa giá tốt",
@@ -4312,11 +8122,51 @@
     "title": "Spa Hùng Vương — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "spa hưng vương",
+    "slug": "spa-hung-vuong-kw",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa hưng vương — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK22"
+  },
+  {
+    "focus": "spa hùng vương",
+    "slug": "spa-hung-vuong-sk",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa hùng vương — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK11"
+  },
+  {
     "focus": "spa làm đẹp",
     "slug": "spa-lam-dep",
     "pillar": "/spa/massage-body-thu-gian",
     "source": "both",
     "title": "Spa làm đẹp — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "spa lê văn",
+    "slug": "spa-le-van",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa lê văn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK22"
+  },
+  {
+    "focus": "spa nam",
+    "slug": "spa-nam",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK12"
   },
   {
     "focus": "spa nam TP.HCM",
@@ -4326,6 +8176,56 @@
     "title": "Spa nam TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "spa nguyễn trãi",
+    "slug": "spa-nguyen-trai",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa nguyễn trãi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK22"
+  },
+  {
+    "focus": "spa q10",
+    "slug": "spa-q10",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa q10 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK10"
+  },
+  {
+    "focus": "spa q4",
+    "slug": "spa-q4",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa q4 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK11"
+  },
+  {
+    "focus": "spa q5",
+    "slug": "spa-q5",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa q5 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK8"
+  },
+  {
+    "focus": "spa q6",
+    "slug": "spa-q6",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa q6 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK10"
+  },
+  {
     "focus": "spa Quận 5",
     "slug": "spa-quan-5",
     "pillar": "/spa/massage-body-thu-gian",
@@ -4333,11 +8233,41 @@
     "title": "Spa Quận 5 — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "spa tết",
+    "slug": "spa-tet",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa tết — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
+    "focus": "spa thẩm",
+    "slug": "spa-tham",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa thẩm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK15"
+  },
+  {
     "focus": "spa Thiên Hoàng Kim",
     "slug": "spa-thien-hoang-kim",
     "pillar": "/spa/massage-body-thu-gian",
     "source": "plan2",
     "title": "Spa Thiên Hoàng Kim — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "spa thiên hoàng kim",
+    "slug": "spa-thien-hoang-kim-sk",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa thiên hoàng kim — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK13"
   },
   {
     "focus": "spa thư giãn",
@@ -4354,6 +8284,36 @@
     "title": "Spa TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "spa tphcm",
+    "slug": "spa-tphcm",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 2,
+    "group": "SK8"
+  },
+  {
+    "focus": "spa trị mụn",
+    "slug": "spa-tri-mun",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa trị mụn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK16"
+  },
+  {
+    "focus": "spa uy tín",
+    "slug": "spa-uy-tin",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa uy tín — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK13"
+  },
+  {
     "focus": "spa uy tín TP.HCM",
     "slug": "spa-uy-tin-tp-hcm",
     "pillar": "/lien-he",
@@ -4366,6 +8326,16 @@
     "pillar": "/spa/massage-body-thu-gian",
     "source": "plan2",
     "title": "Spa uy tín TP.HCM — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "stem cell",
+    "slug": "stem-cell",
+    "pillar": "/tin-tuc",
+    "title": "Stem cell — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK18"
   },
   {
     "focus": "sửa filler",
@@ -4396,6 +8366,16 @@
     "title": "Sửa mày cũ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "sửa mí",
+    "slug": "sua-mi",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Sửa mí — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK2"
+  },
+  {
     "focus": "sửa mí lỗi",
     "slug": "sua-mi-loi",
     "pillar": "/tham-my/cat-mi-phuong-hoang",
@@ -4408,6 +8388,16 @@
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan1",
     "title": "Sửa mũi — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "sửa mũi",
+    "slug": "sua-mui-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Sửa mũi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK1"
   },
   {
     "focus": "sữa rửa mặt mụn",
@@ -4424,11 +8414,31 @@
     "title": "Nâng mũi sụn tai hay sườn — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "sưng bao lâu",
+    "slug": "sung-bao-lau",
+    "pillar": "/tin-tuc",
+    "title": "Sưng bao lâu — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
+  },
+  {
     "focus": "sưng sau nâng mũi",
     "slug": "sung-sau-nang-mui",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan1",
     "title": "Sưng sau nâng mũi — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "tái khám khi",
+    "slug": "tai-kham-khi",
+    "pillar": "/tin-tuc",
+    "title": "Tái khám khi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK20"
   },
   {
     "focus": "tái khám thẩm mỹ",
@@ -4464,6 +8474,26 @@
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan1",
     "title": "Tàn nhang di truyền — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "tàn nhang",
+    "slug": "tan-nhang-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Tàn nhang — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
+  },
+  {
+    "focus": "tăng sắc",
+    "slug": "tang-sac",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Tăng sắc — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
   },
   {
     "focus": "tăng sắc tố da",
@@ -4564,6 +8594,16 @@
     "title": "Thâm mặt — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "thâm mắt",
+    "slug": "tham-mat-sk",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Thâm mắt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK2"
+  },
+  {
     "focus": "thâm môi",
     "slug": "tham-moi",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -4576,6 +8616,16 @@
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "both",
     "title": "Thâm mụn — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "thâm mụn",
+    "slug": "tham-mun-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Thâm mụn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK16"
   },
   {
     "focus": "thẩm mỹ",
@@ -4592,11 +8642,31 @@
     "title": "Thẩm mỹ 2026 — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "thẩm mỹ 2026",
+    "slug": "tham-my-2026-sk",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ 2026 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK18"
+  },
+  {
     "focus": "thẩm mỹ An Đông",
     "slug": "tham-my-an-dong",
     "pillar": "/lien-he",
     "source": "plan1",
     "title": "Thẩm mỹ An Đông — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "thẩm mỹ an đông",
+    "slug": "tham-my-an-dong-sk",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ an đông — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 4,
+    "group": "SK11"
   },
   {
     "focus": "thẩm mỹ an toàn",
@@ -4606,6 +8676,26 @@
     "title": "Thẩm mỹ an toàn — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "thẩm mỹ bình phú",
+    "slug": "tham-my-binh-phu",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ bình phú — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK22"
+  },
+  {
+    "focus": "thẩm mỹ bình tân",
+    "slug": "tham-my-binh-tan-sk",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ bình tân — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK10"
+  },
+  {
     "focus": "thẩm mỹ cao cấp",
     "slug": "tham-my-cao-cap",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -4613,11 +8703,31 @@
     "title": "Thẩm mỹ cao cấp — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "thẩm mỹ châu văn",
+    "slug": "tham-my-chau-van",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ châu văn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK22"
+  },
+  {
     "focus": "thẩm mỹ Chợ Lớn",
     "slug": "tham-my-cho-lon",
     "pillar": "/lien-he",
     "source": "both",
     "title": "Thẩm mỹ Chợ Lớn — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "thẩm mỹ chợ lớn",
+    "slug": "tham-my-cho-lon-sk",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ chợ lớn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK11"
   },
   {
     "focus": "thẩm mỹ chuẩn y khoa",
@@ -4641,6 +8751,16 @@
     "title": "Thẩm mỹ gần đây — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "thẩm mỹ gần đây",
+    "slug": "tham-my-gan-day-sk",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ gần đây — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK11"
+  },
+  {
     "focus": "thẩm mỹ giá bao nhiêu",
     "slug": "tham-my-gia-bao-nhieu",
     "pillar": "/bang-gia",
@@ -4653,6 +8773,16 @@
     "pillar": "/lien-he",
     "source": "plan1",
     "title": "Thẩm mỹ giá tốt — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "thẩm mỹ gò vấp",
+    "slug": "tham-my-go-vap-sk",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ gò vấp — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK10"
   },
   {
     "focus": "thẩm mỹ hàn",
@@ -4683,6 +8813,26 @@
     "title": "Thẩm mỹ Hùng Vương — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "thẩm mỹ hưng vương",
+    "slug": "tham-my-hung-vuong-kw",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ hưng vương — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK22"
+  },
+  {
+    "focus": "thẩm mỹ hùng vương",
+    "slug": "tham-my-hung-vuong-sk",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ hùng vương — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK11"
+  },
+  {
     "focus": "thẩm mỹ không phẫu thuật",
     "slug": "tham-my-khong-phau-thuat",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -4702,6 +8852,16 @@
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan2",
     "title": "Thẩm mỹ lần đầu — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "thẩm mỹ lê văn",
+    "slug": "tham-my-le-van",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ lê văn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK22"
   },
   {
     "focus": "thẩm mỹ mắt",
@@ -4746,6 +8906,26 @@
     "title": "Thẩm mỹ nam an toàn — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "thẩm mỹ nam q5",
+    "slug": "tham-my-nam-q5",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ nam q5 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 4,
+    "group": "SK12"
+  },
+  {
+    "focus": "thẩm mỹ nam",
+    "slug": "tham-my-nam-sk",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK12"
+  },
+  {
     "focus": "thẩm mỹ nam tăng",
     "slug": "tham-my-nam-tang",
     "pillar": "/tin-tuc",
@@ -4760,11 +8940,31 @@
     "title": "Thẩm mỹ nam TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "thẩm mỹ nam tphcm",
+    "slug": "tham-my-nam-tphcm-sk",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ nam tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 4,
+    "group": "SK12"
+  },
+  {
     "focus": "thẩm mỹ có cần nghỉ việc",
     "slug": "tham-my-nghi-viec",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan2",
     "title": "Thẩm mỹ có cần nghỉ việc — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "thẩm mỹ nguyễn",
+    "slug": "tham-my-nguyen",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ nguyễn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK22"
   },
   {
     "focus": "thẩm mỹ nữ",
@@ -4786,6 +8986,106 @@
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan1",
     "title": "Thẩm mỹ phẫu thuật — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "thẩm mỹ phú nhuận",
+    "slug": "tham-my-phu-nhuan-sk",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ phú nhuận — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK10"
+  },
+  {
+    "focus": "thẩm mỹ q1",
+    "slug": "tham-my-q1",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ q1 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK10"
+  },
+  {
+    "focus": "thẩm mỹ q10",
+    "slug": "tham-my-q10",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ q10 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK10"
+  },
+  {
+    "focus": "thẩm mỹ q11",
+    "slug": "tham-my-q11",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ q11 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK10"
+  },
+  {
+    "focus": "thẩm mỹ q3",
+    "slug": "tham-my-q3",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ q3 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK10"
+  },
+  {
+    "focus": "thẩm mỹ q4",
+    "slug": "tham-my-q4",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ q4 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK11"
+  },
+  {
+    "focus": "thẩm mỹ q5",
+    "slug": "tham-my-q5",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ q5 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK10"
+  },
+  {
+    "focus": "thẩm mỹ q6",
+    "slug": "tham-my-q6",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ q6 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK10"
+  },
+  {
+    "focus": "thẩm mỹ q7",
+    "slug": "tham-my-q7",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ q7 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK10"
+  },
+  {
+    "focus": "thẩm mỹ q8",
+    "slug": "tham-my-q8",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ q8 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK10"
   },
   {
     "focus": "thẩm mỹ Quận 10",
@@ -4844,6 +9144,36 @@
     "title": "Thẩm mỹ học sinh sinh viên — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "thẩm mỹ tân bình",
+    "slug": "tham-my-tan-binh-sk",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ tân bình — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK10"
+  },
+  {
+    "focus": "thẩm mỹ tân phú",
+    "slug": "tham-my-tan-phu-sk",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ tân phú — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK10"
+  },
+  {
+    "focus": "thẩm mỹ tết",
+    "slug": "tham-my-tet",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ tết — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK19"
+  },
+  {
     "focus": "thẩm mỹ TP.HCM",
     "slug": "tham-my-tp-hcm",
     "pillar": "/lien-he",
@@ -4856,6 +9186,16 @@
     "pillar": "/lien-he",
     "source": "both",
     "title": "Thẩm mỹ TP.HCM — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "thẩm mỹ tphcm",
+    "slug": "tham-my-tphcm-sk",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK13"
   },
   {
     "focus": "thẩm mỹ trẻ",
@@ -4907,6 +9247,16 @@
     "title": "Thẩm mỹ uy tín — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "thẩm mỹ uy tín",
+    "slug": "tham-my-uy-tin-sk",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ uy tín — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK13"
+  },
+  {
     "focus": "thẩm mỹ uy tín TP.HCM",
     "slug": "tham-my-uy-tin-tp-hcm",
     "pillar": "/lien-he",
@@ -4935,6 +9285,16 @@
     "title": "Thẩm mỹ Việt hay Thái — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "thẩm mỹ việt nam",
+    "slug": "tham-my-viet-nam",
+    "pillar": "/lien-he",
+    "title": "Thẩm mỹ việt nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK13"
+  },
+  {
     "focus": "thẩm mỹ y khoa",
     "slug": "tham-my-y-khoa",
     "pillar": "/tham-my/nang-mui-hoang-kim",
@@ -4949,11 +9309,41 @@
     "title": "Thâm nám — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "thâm nám",
+    "slug": "tham-nam-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Thâm nám — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
+  },
+  {
     "focus": "thâm sau mụn",
     "slug": "tham-sau-mun",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan1",
     "title": "Thâm sau mụn — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "thanh toán spa",
+    "slug": "thanh-toan-spa",
+    "pillar": "/lien-he",
+    "title": "Thanh toán spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK14"
+  },
+  {
+    "focus": "thermage",
+    "slug": "thermage",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Thermage — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK6"
   },
   {
     "focus": "Thiên Hoàng Kim",
@@ -4968,6 +9358,56 @@
     "pillar": "/bang-gia",
     "source": "plan2",
     "title": "Thiên Hoàng Kim review — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "thiên hoàng kim",
+    "slug": "thien-hoang-kim-sk",
+    "pillar": "/lien-he",
+    "title": "Thiên hoàng kim — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK13"
+  },
+  {
+    "focus": "thk clinic",
+    "slug": "thk-clinic",
+    "pillar": "/lien-he",
+    "title": "Thk clinic — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK13"
+  },
+  {
+    "focus": "thk spa",
+    "slug": "thk-spa",
+    "pillar": "/lien-he",
+    "title": "Thk spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK13"
+  },
+  {
+    "focus": "thk thẩm mỹ",
+    "slug": "thk-tham-my",
+    "pillar": "/lien-he",
+    "title": "Thk thẩm mỹ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK13"
+  },
+  {
+    "focus": "thon hàm",
+    "slug": "thon-ham",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Thon hàm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
   },
   {
     "focus": "thon hàm không botox",
@@ -4998,6 +9438,26 @@
     "title": "Thread lift — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "thư giãn spa",
+    "slug": "thu-gian-spa",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Thư giãn spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK8"
+  },
+  {
+    "focus": "thu gọn cánh mũi",
+    "slug": "thu-gon-canh-mui-sk",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Thu gọn cánh mũi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK1"
+  },
+  {
     "focus": "tiêm botox",
     "slug": "tiem-botox",
     "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
@@ -5010,6 +9470,26 @@
     "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
     "source": "plan2",
     "title": "Tiêm botox nam — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "tiêm botox",
+    "slug": "tiem-botox-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Tiêm botox — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
+    "focus": "tiêm cằm",
+    "slug": "tiem-cam",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Tiêm cằm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
   },
   {
     "focus": "tiêm cằm V-line",
@@ -5033,6 +9513,36 @@
     "title": "Tiêm filler mặt — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "tiêm filler",
+    "slug": "tiem-filler-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Tiêm filler — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
+  },
+  {
+    "focus": "tiêm hàm",
+    "slug": "tiem-ham",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Tiêm hàm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
+    "focus": "tiêm meso",
+    "slug": "tiem-meso",
+    "pillar": "/tham-my",
+    "title": "Tiêm meso — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
+  },
+  {
     "focus": "tiêm môi",
     "slug": "tiem-moi",
     "pillar": "/tham-my/filler-tao-hinh",
@@ -5040,11 +9550,51 @@
     "title": "Tiêm môi — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "tiêm môi",
+    "slug": "tiem-moi-sk",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Tiêm môi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
+  },
+  {
     "focus": "tiêm mũi",
     "slug": "tiem-mui",
     "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan1",
     "title": "Tiêm mũi — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "tiêm phẫu",
+    "slug": "tiem-phau",
+    "pillar": "/tin-tuc",
+    "title": "Tiêm phẫu — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK15"
+  },
+  {
+    "focus": "tiêm trắng",
+    "slug": "tiem-trang",
+    "pillar": "/tham-my",
+    "title": "Tiêm trắng — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
+  },
+  {
+    "focus": "tiêm vitamin",
+    "slug": "tiem-vitamin",
+    "pillar": "/tham-my",
+    "title": "Tiêm vitamin — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK21"
   },
   {
     "focus": "tin tức thẩm mỹ",
@@ -5082,6 +9632,26 @@
     "title": "Trả góp thẩm mỹ — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "trả góp thẩm mỹ",
+    "slug": "tra-gop-tham-my-sk",
+    "pillar": "/lien-he",
+    "title": "Trả góp thẩm mỹ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK14"
+  },
+  {
+    "focus": "trắng da",
+    "slug": "trang-da",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Trắng da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
+  },
+  {
     "focus": "trẻ hóa da",
     "slug": "tre-hoa-da",
     "pillar": "/tham-my/cang-noi-soi",
@@ -5094,6 +9664,16 @@
     "pillar": "/tham-my/cang-chi-tre-hoa",
     "source": "plan2",
     "title": "Trẻ hóa da mặt — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "trẻ hóa da",
+    "slug": "tre-hoa-da-sk",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Trẻ hóa da — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK6"
   },
   {
     "focus": "trẻ hóa không dao",
@@ -5110,6 +9690,16 @@
     "title": "Trẻ hóa mặt — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "trẻ hóa mặt",
+    "slug": "tre-hoa-mat-sk",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Trẻ hóa mặt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK6"
+  },
+  {
     "focus": "trẻ hóa nam",
     "slug": "tre-hoa-nam",
     "pillar": "/tham-my/cang-chi-tre-hoa",
@@ -5117,11 +9707,51 @@
     "title": "Trẻ hóa nam — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "tre hóa tphcm",
+    "slug": "tre-hoa-tphcm",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Tre hóa tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK6"
+  },
+  {
     "focus": "trẻ hóa tuổi 40",
     "slug": "tre-hoa-tuoi-40",
     "pillar": "/tham-my/cang-chi-tre-hoa",
     "source": "plan2",
     "title": "Trẻ hóa tuổi 40 — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "tretinoin",
+    "slug": "tretinoin",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Tretinoin — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK16"
+  },
+  {
+    "focus": "trị đồi",
+    "slug": "tri-doi",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Trị đồi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
+  },
+  {
+    "focus": "trị hói",
+    "slug": "tri-hoi",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Trị hói — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK5"
   },
   {
     "focus": "trị hói đầu",
@@ -5159,11 +9789,41 @@
     "title": "Trị mụn nam — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "trị mụn nam",
+    "slug": "tri-mun-nam-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Trị mụn nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK12"
+  },
+  {
+    "focus": "trị mụn",
+    "slug": "tri-mun-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Trị mụn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
+  },
+  {
     "focus": "trị mụn TP.HCM",
     "slug": "tri-mun-tphcm",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan2",
     "title": "Trị mụn TP.HCM — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "trị mụn tphcm",
+    "slug": "tri-mun-tphcm-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Trị mụn tphcm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "local",
+    "wordCount": 3,
+    "group": "SK16"
   },
   {
     "focus": "trị nám",
@@ -5187,11 +9847,31 @@
     "title": "Trị nám laser — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "trị nám laser",
+    "slug": "tri-nam-laser-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Trị nám laser — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK15"
+  },
+  {
     "focus": "trị nám peel",
     "slug": "tri-nam-peel",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan2",
     "title": "Trị nám peel — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "trị nám",
+    "slug": "tri-nam-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Trị nám — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
   },
   {
     "focus": "trị nám TP.HCM",
@@ -5201,11 +9881,41 @@
     "title": "Trị nám TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "trị sẹo",
+    "slug": "tri-seo",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Trị sẹo — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
+  },
+  {
     "focus": "trị sẹo mụn",
     "slug": "tri-seo-mun",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan2",
     "title": "Trị sẹo mụn — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "trị sẹo nam",
+    "slug": "tri-seo-nam",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Trị sẹo nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK12"
+  },
+  {
+    "focus": "trị tàn",
+    "slug": "tri-tan",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Trị tàn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
   },
   {
     "focus": "trị tàn nhang",
@@ -5215,11 +9925,71 @@
     "title": "Trị tàn nhang — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "trị tàn nhang",
+    "slug": "tri-tan-nhang-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Trị tàn nhang — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK7"
+  },
+  {
+    "focus": "trị thâm",
+    "slug": "tri-tham",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Trị thâm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK7"
+  },
+  {
     "focus": "trị thâm sau mụn",
     "slug": "tri-tham-sau-mun",
     "pillar": "/spa/cham-soc-da-toan-dien",
     "source": "plan2",
     "title": "Trị thâm sau mụn — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "trước tết",
+    "slug": "truoc-tet",
+    "pillar": "/tin-tuc",
+    "title": "Trước tết — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
+    "focus": "tư vấn botox",
+    "slug": "tu-van-botox",
+    "pillar": "/lien-he",
+    "title": "Tư vấn botox — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK14"
+  },
+  {
+    "focus": "tư vấn cắt mí",
+    "slug": "tu-van-cat-mi",
+    "pillar": "/lien-he",
+    "title": "Tư vấn cắt mí — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK14"
+  },
+  {
+    "focus": "tư vấn filler",
+    "slug": "tu-van-filler",
+    "pillar": "/lien-he",
+    "title": "Tư vấn filler — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK14"
   },
   {
     "focus": "tư vấn làm đẹp miễn phí",
@@ -5236,6 +10006,16 @@
     "title": "Tư vấn miễn phí — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "tư vấn miễn phí",
+    "slug": "tu-van-mien-phi-sk",
+    "pillar": "/lien-he",
+    "title": "Tư vấn miễn phí — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK14"
+  },
+  {
     "focus": "tư vấn miễn phí THK",
     "slug": "tu-van-mien-phi-thk",
     "pillar": "/lien-he",
@@ -5248,6 +10028,16 @@
     "pillar": "/lien-he",
     "source": "plan2",
     "title": "Tư vấn miễn phí TP.HCM — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "tư vấn nâng mũi",
+    "slug": "tu-van-nang-mui",
+    "pillar": "/lien-he",
+    "title": "Tư vấn nâng mũi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK14"
   },
   {
     "focus": "tư vấn thẩm mỹ",
@@ -5264,6 +10054,46 @@
     "title": "Tư vấn tỉ lệ khuôn mặt — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "tuổi 20",
+    "slug": "tuoi-20",
+    "pillar": "/tin-tuc",
+    "title": "Tuổi 20 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
+    "focus": "tuổi 30",
+    "slug": "tuoi-30",
+    "pillar": "/tin-tuc",
+    "title": "Tuổi 30 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
+    "focus": "tuổi 40",
+    "slug": "tuoi-40",
+    "pillar": "/tin-tuc",
+    "title": "Tuổi 40 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
+    "focus": "tuổi 50",
+    "slug": "tuoi-50",
+    "pillar": "/tin-tuc",
+    "title": "Tuổi 50 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK19"
+  },
+  {
     "focus": "ủ body",
     "slug": "u-body",
     "pillar": "/spa/massage-body-thu-gian",
@@ -5276,6 +10106,16 @@
     "pillar": "/spa/massage-body-thu-gian",
     "source": "both",
     "title": "Ủ đá muối — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "ủ đá muối",
+    "slug": "u-da-muoi-sk",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Ủ đá muối — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK8"
   },
   {
     "focus": "ủ muối hay massage",
@@ -5299,6 +10139,16 @@
     "title": "Ủ trắng body — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "ultherapy",
+    "slug": "ultherapy",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Ultherapy — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "head",
+    "wordCount": 1,
+    "group": "SK6"
+  },
+  {
     "focus": "ultrasound căng da",
     "slug": "ultrasound-cang-da",
     "pillar": "/tham-my/cang-chi-tre-hoa",
@@ -5318,6 +10168,16 @@
     "pillar": "/bang-gia",
     "source": "both",
     "title": "Ưu đãi spa — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "ưu đãi thẩm mỹ",
+    "slug": "uu-dai-tham-my",
+    "pillar": "/lien-he",
+    "title": "Ưu đãi thẩm mỹ — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 4,
+    "group": "SK14"
   },
   {
     "focus": "V-line mặt",
@@ -5341,6 +10201,16 @@
     "title": "Vết thâm body — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "vết thâm",
+    "slug": "vet-tham-sk",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Vết thâm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK17"
+  },
+  {
     "focus": "vitamin C da",
     "slug": "vitamin-c-da",
     "pillar": "/spa/cham-soc-da-toan-dien",
@@ -5355,11 +10225,41 @@
     "title": "Vitamin sau phẫu thuật — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "vline botox",
+    "slug": "vline-botox",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Vline botox — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
+    "focus": "vline filler",
+    "slug": "vline-filler",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Vline filler — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK3"
+  },
+  {
     "focus": "V-line không phẫu thuật",
     "slug": "vline-khong-phau-thuat",
     "pillar": "/tham-my",
     "source": "plan2",
     "title": "V-line không phẫu thuật — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "vline nam",
+    "slug": "vline-nam",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Vline nam — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK12"
   },
   {
     "focus": "vòng quay khuyến mãi",
@@ -5369,11 +10269,31 @@
     "title": "Vòng quay khuyến mãi — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "voucher spa",
+    "slug": "voucher-spa",
+    "pillar": "/lien-he",
+    "title": "Voucher spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK14"
+  },
+  {
     "focus": "xăm mày",
     "slug": "xam-may",
     "pillar": "/spa/phun-xam-tham-my",
     "source": "plan1",
     "title": "Xăm mày — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "xăm mày",
+    "slug": "xam-may-sk",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Xăm mày — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK8"
   },
   {
     "focus": "xăm môi",
@@ -5383,11 +10303,51 @@
     "title": "Xăm môi — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "xăm môi",
+    "slug": "xam-moi-sk",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Xăm môi — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK8"
+  },
+  {
     "focus": "xóa nhăn",
     "slug": "xoa-nhan",
     "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
     "source": "both",
     "title": "Xóa nhăn — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "xóa nhăn mặt",
+    "slug": "xoa-nhan-mat",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Xóa nhăn mặt — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK6"
+  },
+  {
+    "focus": "xóa nhăn",
+    "slug": "xoa-nhan-sk",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Xóa nhăn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK4"
+  },
+  {
+    "focus": "xóa phun",
+    "slug": "xoa-phun",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Xóa phun — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK8"
   },
   {
     "focus": "xóa xăm",
@@ -5397,11 +10357,31 @@
     "title": "Xóa xăm — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "xóa xăm",
+    "slug": "xoa-xam-sk",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Xóa xăm — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK8"
+  },
+  {
     "focus": "xông hơi",
     "slug": "xong-hoi",
     "pillar": "/spa/massage-body-thu-gian",
     "source": "plan1",
     "title": "Xông hơi — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "xu hướng 2026",
+    "slug": "xu-huong-2026",
+    "pillar": "/tin-tuc",
+    "title": "Xu hướng 2026 — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK18"
   },
   {
     "focus": "xu hướng botox 2026",
@@ -5439,10 +10419,30 @@
     "title": "Xu hướng thẩm mỹ nam — Tư vấn tại Thiên Hoàng Kim"
   },
   {
+    "focus": "xử lý mụn",
+    "slug": "xu-ly-mun",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Xử lý mụn — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 3,
+    "group": "SK16"
+  },
+  {
     "focus": "xương hàm",
     "slug": "xuong-ham",
     "pillar": "/tham-my",
     "source": "plan1",
     "title": "Xương hàm — Tư vấn tại Thiên Hoàng Kim"
+  },
+  {
+    "focus": "zalo spa",
+    "slug": "zalo-spa",
+    "pillar": "/lien-he",
+    "title": "Zalo spa — Tư vấn tại Thiên Hoàng Kim",
+    "source": "short-500",
+    "intent": "short",
+    "wordCount": 2,
+    "group": "SK14"
   }
 ]

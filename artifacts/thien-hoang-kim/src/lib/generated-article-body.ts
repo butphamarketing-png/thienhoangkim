@@ -1,5 +1,6 @@
 import { buildAttractiveMetaDescription } from "@/lib/meta-description";
 import { detectMetaIntent } from "@/lib/meta-title";
+import { clusterHubPath, matchClusterBySlug } from "@/lib/topic-clusters";
 
 export type KeywordPlanEntry = {
   focus: string;
@@ -7,6 +8,9 @@ export type KeywordPlanEntry = {
   pillar: string;
   title: string;
   source?: string;
+  intent?: string;
+  wordCount?: number;
+  group?: string;
 };
 
 const ADDRESS = "323–325 Hùng Vương, An Đông, TP.HCM";
@@ -149,15 +153,34 @@ function capitalizeFirst(text: string): string {
 
 function relatedLinksBlock(slug: string): string {
   const group = RELATED_BY_TOPIC.find((g) => g.test.test(slug));
-  const links = group?.links ?? DEFAULT_RELATED;
+  const links = [...(group?.links ?? DEFAULT_RELATED)];
+  const cluster = matchClusterBySlug(slug);
+  if (cluster) {
+    links.unshift({ label: `tất cả bài về ${cluster.label.toLowerCase()}`, href: clusterHubPath(cluster.id) });
+  }
   const md = links.map((l) => `[${l.label}](${l.href})`).join(", ");
   return `**Đọc thêm:** ${md}.`;
 }
 
-function introParagraph(focus: string, pillar: string, slug: string): string {
+function resolveIntent(slug: string, entry?: KeywordPlanEntry): ReturnType<typeof detectMetaIntent> {
+  if (entry?.intent === "price" || entry?.intent === "local") {
+    if (entry.intent === "price") return "price";
+    if (entry.intent === "local") return "location";
+  }
+  if (entry?.intent === "head" && entry.wordCount && entry.wordCount <= 2) return "default";
+  return detectMetaIntent(slug);
+}
+
+function introParagraph(focus: string, pillar: string, slug: string, entry?: KeywordPlanEntry): string {
   const service = pillarLabel(pillar);
   const focusTitle = capitalizeFirst(focus);
-  const intent = detectMetaIntent(slug);
+  const intent = resolveIntent(slug, entry);
+
+  const headIntros = [
+    `${focusTitle} là từ khóa được tìm kiếm nhiều tại TP.HCM — Thiên Hoàng Kim giải thích dịch vụ, quy trình và cách đặt lịch tư vấn miễn phí tại ${ADDRESS}.`,
+    `Tìm hiểu ${focus} uy tín, an toàn? Bài viết tóm tắt điểm cần biết trước khi đến [${service}](${pillar}) — hotline ${PHONE}.`,
+    `${focusTitle} tại Thiên Hoàng Kim: bác sĩ đánh giá trực tiếp, báo giá minh bạch, không ép đóng tiền ngay.`,
+  ];
 
   const questionIntros = [
     `${focusTitle} là câu hỏi Thiên Hoàng Kim nhận rất nhiều trước khi khách đặt lịch. Bài viết tổng hợp góc nhìn bác sĩ — dễ hiểu, thực tế, không cam kết mơ hồ.`,
@@ -177,15 +200,16 @@ function introParagraph(focus: string, pillar: string, slug: string): string {
     `Bạn muốn hiểu rõ hơn về ${focus}? Thiên Hoàng Kim (${ADDRESS}) tư vấn miễn phí — hotline ${PHONE}.`,
   ];
 
+  if (entry?.intent === "head" || (entry?.wordCount === 1)) return pickVariant(slug, headIntros);
   if (intent === "question") return pickVariant(slug, questionIntros);
   if (intent === "price") return pickVariant(slug, priceIntros);
   return pickVariant(slug, defaultIntros);
 }
 
-function intentSection(focus: string, slug: string, pillar: string): string {
+function intentSection(focus: string, slug: string, pillar: string, entry?: KeywordPlanEntry): string {
   const focusTitle = capitalizeFirst(focus);
   const service = pillarLabel(pillar);
-  const intent = detectMetaIntent(slug);
+  const intent = resolveIntent(slug, entry);
   const expertise = pillarExpertise(pillar);
 
   switch (intent) {
@@ -226,6 +250,13 @@ ${expertise}
 Đặt lịch tư vấn để được gợi ý phác đồ phù hợp nhất: [${service}](${pillar}).`;
 
     default:
+      if (entry?.intent === "head" || entry?.wordCount === 1) {
+        return `## ${focusTitle} — dịch vụ tại Thiên Hoàng Kim
+
+${expertise}
+
+${focusTitle} là dịch vụ được nhiều khách tìm kiếm — Thiên Hoàng Kim tư vấn miễn phí, giải thích quy trình, chi phí và thời gian hồi phục trước khi bạn quyết định. Xem chi tiết [${service}](${pillar}) hoặc gọi ${PHONE}.`;
+      }
       return `## ${focusTitle} — lợi ích & đối tượng phù hợp
 
 ${expertise}
@@ -303,9 +334,9 @@ export function buildGeneratedArticleBody(
 
   const process = processSection(focus, pillar, slug);
 
-  return `${introParagraph(focus, pillar, slug)}
+  return `${introParagraph(focus, pillar, slug, entry)}
 
-${intentSection(focus, slug, pillar)}
+${intentSection(focus, slug, pillar, entry)}
 
 ![${imgAlt}](${img})
 
@@ -321,7 +352,7 @@ ${ctaSection(focus)}`;
 export function buildGeneratedArticleTitle(entry: KeywordPlanEntry): string {
   if (entry.title?.trim()) return entry.title.trim();
   const focusTitle = capitalizeFirst(entry.focus);
-  const intent = detectMetaIntent(entry.slug);
+  const intent = resolveIntent(entry.slug, entry);
   const priceTopic = focusTitle.replace(/^Giá\s+/i, "");
 
   switch (intent) {
@@ -334,6 +365,9 @@ export function buildGeneratedArticleTitle(entry: KeywordPlanEntry): string {
     case "comparison":
       return `${focusTitle} — So sánh & tư vấn`;
     default:
+      if (entry.intent === "head" || entry.wordCount === 1) {
+        return `${focusTitle} — Uy tín An Đông TP.HCM`;
+      }
       return `${focusTitle} — Hướng dẫn từ Thiên Hoàng Kim`;
   }
 }
@@ -354,8 +388,18 @@ export function buildGeneratedMetaDescription(focus: string, slug?: string): str
   });
 }
 
-/** Ngày đăng trải đều — tránh trùng một ngày cho ~776 bài */
+/** Ngày đăng trải đều — batch cũ từ 01/2025; short-KW mới từ 07/2026 */
+const LEGACY_PLAN_COUNT = 778;
+
 export function publishDateForIndex(index: number): string {
+  if (index >= LEGACY_PLAN_COUNT) {
+    const start = new Date(2026, 6, 1);
+    const d = new Date(start);
+    d.setDate(d.getDate() + (index - LEGACY_PLAN_COUNT));
+    const day = String(d.getDate()).padStart(2, "0");
+    const month = String(d.getMonth() + 1).padStart(2, "0");
+    return `${day}/${month}/${d.getFullYear()}`;
+  }
   const start = new Date(2025, 0, 15);
   const d = new Date(start);
   d.setDate(d.getDate() + index);

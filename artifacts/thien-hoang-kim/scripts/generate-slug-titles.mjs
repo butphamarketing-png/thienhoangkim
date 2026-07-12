@@ -306,11 +306,11 @@ for (const slug of allSlugs) {
   if (!titles[slug]) titles[slug] = titleFromSlug(slug);
 }
 
+const planBySlug = new Map(plan.map((e) => [e.slug, e]));
+
 for (const entry of plan) {
   if (!entry.slug || !entry.focus) continue;
-  if (slugify(entry.focus) === entry.slug) {
-    titles[entry.slug] = capitalizeVi(entry.focus);
-  }
+  titles[entry.slug] = capitalizeVi(entry.focus);
 }
 
 for (const { slug, focus } of collectFromBatchFilesEntries()) {
@@ -321,7 +321,7 @@ for (const [slug, focus] of Object.entries(collectFromArticlesDefaults())) {
   if (slugify(focus) === slug) titles[slug] = capitalizeVi(focus);
 }
 
-// Phân biệt slug trùng title
+// Phân biệt slug trùng title — ưu tiên focus từ keyword plan
 const byTitle = new Map();
 for (const [slug, title] of Object.entries(titles)) {
   const key = title.toLowerCase();
@@ -332,7 +332,12 @@ for (const [slug, title] of Object.entries(titles)) {
 for (const [, slugs] of byTitle) {
   if (slugs.length <= 1) continue;
   for (const slug of slugs) {
-    titles[slug] = titleFromSlug(slug);
+    const entry = planBySlug.get(slug);
+    if (entry?.focus) {
+      titles[slug] = capitalizeVi(entry.focus);
+    } else {
+      titles[slug] = titleFromSlug(slug);
+    }
   }
 }
 

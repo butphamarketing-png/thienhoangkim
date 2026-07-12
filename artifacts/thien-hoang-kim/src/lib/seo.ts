@@ -6,7 +6,9 @@ import {
   resolveLegacyServicePath,
 } from "@/data/services-catalog";
 import { buildBreadcrumbs, buildJsonLdGraph, jsonLdScript, type SchemaContext } from "@/lib/seo-schema";
+import { extractFaqFromBody } from "@/lib/faq-schema";
 import { getSiteBaseUrl } from "@/lib/seo-sitemap";
+import { getClusterById } from "@/lib/topic-clusters";
 import {
   buildAttractiveMetaDescription,
   isLegacyAutoMetaDescription,
@@ -286,6 +288,9 @@ function isPublicRoute(path: string, content: SiteContent): boolean {
     return Boolean(content.articles.find((a) => a.slug === articleMatch[1] && a.published));
   }
 
+  const clusterMatch = clean.match(/^\/tin-tuc\/chu-de\/([^/]+)$/);
+  if (clusterMatch) return Boolean(getClusterById(clusterMatch[1]));
+
   if (clean.startsWith("/dich-vu/")) return Boolean(resolveLegacyServicePath(clean));
 
   return false;
@@ -332,7 +337,8 @@ export function resolveRouteSeoContext(path: string, content: SiteContent): Sche
   const siteName = content.settings.seo.siteName || content.settings.clinicName;
   const siteUrl = getSiteBaseUrl(global.siteUrl);
   const breadcrumbs = buildBreadcrumbs(clean, siteName, article, siteUrl);
-  return { path: clean, meta, breadcrumbs, article, service };
+  const faq = article?.body ? extractFaqFromBody(article.body) : undefined;
+  return { path: clean, meta, breadcrumbs, article, service, faq };
 }
 
 export function resolveRouteSeo(path: string, content: SiteContent): PageSeoMeta {
@@ -344,6 +350,33 @@ export function resolveRouteSeo(path: string, content: SiteContent): PageSeoMeta
   if (articleMatch) {
     const article = content.articles.find((a) => a.slug === articleMatch[1] && a.published);
     if (article) return resolveArticleSeo(article, global, clean);
+  }
+
+  const clusterMatch = clean.match(/^\/tin-tuc\/chu-de\/([^/]+)$/);
+  if (clusterMatch) {
+    const cluster = getClusterById(clusterMatch[1]);
+    if (cluster) {
+      const base = baseFromGlobal(global, clean);
+      const title = buildAttractiveMetaTitle({
+        slug: cluster.id,
+        displayTitle: `${cluster.label} — Kiến thức & tư vấn`,
+        path: clean,
+      });
+      const description = buildAttractiveMetaDescription({
+        slug: cluster.id,
+        displayTitle: cluster.label,
+        path: clean,
+        summary: `Tổng hợp bài viết về ${cluster.label.toLowerCase()} tại Thiên Hoàng Kim An Đông TP.HCM. Tư vấn miễn phí, liên kết dịch vụ ${cluster.pillarLabel}.`,
+      });
+      return {
+        ...base,
+        title,
+        description,
+        ogTitle: title,
+        ogDescription: description,
+        keywords: `${cluster.label}, ${cluster.label} TP.HCM, Thiên Hoàng Kim`,
+      };
+    }
   }
 
   const thamMyMatch = clean.match(/^\/tham-my\/([^/]+)$/);

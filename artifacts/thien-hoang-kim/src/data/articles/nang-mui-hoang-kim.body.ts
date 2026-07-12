@@ -90,6 +90,32 @@ Filler là lựa chọn tốt cho khách muốn trải nghiệm trước khi quy
 
 Chi phí nâng mũi hoàng kim phụ thuộc tình trạng mũi ban đầu, loại sụn, có chỉnh vách ngăn hay thu nhỏ cánh mũi kèm theo không, và tiền sử đã từng phẫu thuật hay chưa. Thiên Hoàng Kim công khai nguyên tắc báo giá sau thăm khám — không phát sinh bất ngờ ngoài phác đồ đã thống nhất. Khách nhận bảng giá chi tiết từng hạng mục trong buổi tư vấn miễn phí. Xem thêm mục Bảng giá trên website hoặc gọi hotline để đặt lịch.
 
+### Bảng yếu tố ảnh hưởng chi phí
+
+| Hạng mục | Khi nào phát sinh | Ghi chú tư vấn |
+|---|---|---|
+| Nâng sống mũi | Sống thấp, tẹt, thiếu chiều cao profile | Bác sĩ chọn độ cao vừa đủ, tránh bóng đỏ đầu mũi |
+| Bọc đầu mũi | Da đầu mũi mỏng, đầu mũi cần mềm tự nhiên | Thường dùng mô/sụn tự thân để bảo vệ đầu mũi |
+| Thu gọn cánh mũi | Cánh mũi bè, lỗ mũi rộng khi nhìn thẳng | Chỉ làm khi thật sự cần để không tạo sẹo thừa |
+| Chỉnh revision | Đã từng nâng mũi, lệch/sụn co rút/đầu mũi bóng đỏ | Cần thăm khám kỹ hơn, chi phí cao hơn ca lần đầu |
+| Tái khám & chăm sóc | Theo lịch sau phẫu thuật | Được giải thích trước khi ký đồng thuận |
+
+Khách nên cảnh giác quảng cáo “nâng mũi giá rẻ trọn gói” nhưng không nói rõ loại sụn, ai thực hiện, phòng mổ ở đâu và tái khám như thế nào. Với nhóm từ khóa như **giá nâng mũi TP.HCM**, **nâng mũi quận 5**, **nâng mũi An Đông**, Thiên Hoàng Kim ưu tiên tư vấn trực tiếp tại **323–325 Hùng Vương, Phường An Đông** để báo giá theo đúng cấu trúc mũi thật.
+
+## Checklist chọn địa chỉ nâng mũi uy tín tại Quận 5 - An Đông
+
+Trước khi quyết định nâng mũi, bạn nên kiểm tra 7 điểm sau:
+
+1. Cơ sở có địa chỉ thật, bảng hiệu rõ và thông tin NAP thống nhất trên Google Maps, website, mạng xã hội.
+2. Bác sĩ/chuyên môn được công bố rõ, tư vấn trực tiếp và giải thích rủi ro trước mổ.
+3. Phòng mổ, dụng cụ, quy trình vô trùng được kiểm soát theo chuẩn y khoa.
+4. Có chụp ảnh, phân tích tỉ lệ mặt và thiết kế dáng mũi theo cơ địa, không sao chép ảnh mẫu.
+5. Báo giá từng hạng mục: sống mũi, đầu mũi, cánh mũi, revision nếu có.
+6. Có lịch tái khám sau mổ và hotline xử lý khi có dấu hiệu bất thường.
+7. Có hình ảnh khách hàng thật/before-after được tư vấn minh bạch về kỳ vọng.
+
+Thiên Hoàng Kim định vị khác với các cơ sở chạy khuyến mãi đại trà: tập trung **nâng mũi tự nhiên, an toàn, phù hợp mặt người Việt**, thuận tiện cho khách ở Quận 5, Quận 6, Quận 10, Chợ Lớn và khu An Đông.
+
 ## Câu hỏi thường gặp (FAQ)
 
 **Nâng mũi hoàng kim có đau không?** Trong mổ bạn được gây mê nên không cảm thấy đau. Sau mổ đau nhẹ đến vừa, kiểm soát bằng thuốc theo đơn; đa số khách mô tả khó chịu chủ yếu do bị băng và sưng hơn là đau dữ dội.

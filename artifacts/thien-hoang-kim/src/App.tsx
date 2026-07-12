@@ -19,6 +19,7 @@ import NotFound from "@/pages/not-found";
 import ServicesPage from "@/pages/ServicesPage";
 import ServiceCategoryPage from "@/pages/ServiceCategoryPage";
 import ServiceDetailPage from "@/pages/ServiceDetailPage";
+import TopicClusterPage from "@/pages/TopicClusterPage";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { RouteSeo } from "@/components/RouteSeo";
 const queryClient = new QueryClient();
@@ -70,6 +71,7 @@ function PublicRouter() {
       <Route path="/gioi-thieu/doi-ngu-bac-si" component={DoctorsPage} />
       <Route path="/tin-tuc/kien-thuc" component={ArticlesListPage} />
       <Route path="/tin-tuc/tin-tuc" component={ArticlesListPage} />
+      <Route path="/tin-tuc/chu-de/:clusterId" component={TopicClusterPage} />
       <Route path="/tin-tuc/:slug" component={ArticlePage} />
       <Route path="/tin-tuc" component={ArticlesListPage} />
       <Route path="/gioi-thieu/:rest*" component={DynamicContentPage} />

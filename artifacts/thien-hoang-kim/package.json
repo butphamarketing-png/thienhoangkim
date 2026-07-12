@@ -9,7 +9,9 @@
     "serve": "vite preview --config vite.config.ts --host 0.0.0.0",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "keywords:merge": "node scripts/extract-plan1.mjs && node scripts/extract-plan2.mjs && node scripts/merge-keyword-plans.mjs",
-    "keywords:plan3": "node scripts/build-keyword-plan-3.mjs"
+    "keywords:plan3": "node scripts/build-keyword-plan-3.mjs",
+    "keywords:short": "node scripts/build-keyword-plan-short-500.mjs",
+    "keywords:short:merge": "node scripts/merge-short-500.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.8"

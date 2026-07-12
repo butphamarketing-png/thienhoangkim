@@ -94,9 +94,27 @@ function collectNewsSlugs() {
   return [...slugs];
 }
 
+/** Hub chủ đề — topic cluster landing (internal linking) */
+const TOPIC_CLUSTER_IDS = [
+  "nang-mui",
+  "cat-mi",
+  "cay-toc",
+  "tre-hoa",
+  "filler",
+  "botox",
+  "tri-da",
+  "phun-xam",
+  "spa",
+  "gia",
+  "local",
+];
+
 /** Tất cả path công khai cần sitemap + prerender */
 export function buildSeoPaths() {
   const paths = new Set([...STATIC_PATHS, ...SERVICE_PATHS]);
+  for (const id of TOPIC_CLUSTER_IDS) {
+    paths.add(`/tin-tuc/chu-de/${id}`);
+  }
   for (const slug of collectNewsSlugs()) {
     if (!SERVICE_LINKED_SLUGS.has(slug)) paths.add(`/tin-tuc/${slug}`);
   }

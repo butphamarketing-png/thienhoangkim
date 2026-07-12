@@ -1,6 +1,8 @@
 import type { PageSeoMeta } from "@/lib/seo";
 import { SERVICE_CATEGORIES, getServiceItem } from "@/data/services-catalog";
+import type { FaqItem } from "@/lib/faq-schema";
 import { getSiteBaseUrl } from "@/lib/seo-sitemap";
+import { getClusterById } from "@/lib/topic-clusters";
 import type { SiteArticle, SiteContent, SiteSeo } from "@/types/site-content";
 
 function getSiteBaseUrlFromSettings(seo: SiteSeo, fallbackCanonical: string): string {
@@ -21,6 +23,7 @@ export type SchemaContext = {
   breadcrumbs: BreadcrumbItem[];
   article?: SiteArticle;
   service?: { label: string; categoryLabel: string };
+  faq?: FaqItem[];
 };
 
 function parseViDate(dateStr: string): string | undefined {
@@ -47,6 +50,14 @@ export function buildBreadcrumbs(
 
   if (segments[0] === "tin-tuc") {
     items.push({ name: "Tin tức", url: `${base}/tin-tuc` });
+    if (segments[1] === "chu-de" && segments[2]) {
+      const cluster = getClusterById(segments[2]);
+      items.push({
+        name: cluster?.label ?? segments[2].replace(/-/g, " "),
+        url: `${base}${path}`,
+      });
+      return items;
+    }
     if (segments[1] && article) {
       items.push({ name: article.title, url: `${base}${path}` });
     }
@@ -106,6 +117,31 @@ function absSchemaUrl(url: string | undefined, siteUrl: string): string | undefi
   if (trimmed.startsWith("http")) return trimmed;
   const base = siteUrl.replace(/\/$/, "");
   return `${base}${trimmed.startsWith("/") ? trimmed : `/${trimmed}`}`;
+}
+
+function buildServiceOfferCatalog(serviceLabel: string, url: string): object {
+  return {
+    "@type": "OfferCatalog",
+    name: `Tư vấn và báo giá ${serviceLabel}`,
+    itemListElement: [
+      {
+        "@type": "Offer",
+        name: `Tư vấn miễn phí ${serviceLabel}`,
+        price: "0",
+        priceCurrency: "VND",
+        availability: "https://schema.org/InStock",
+        url,
+      },
+      {
+        "@type": "Offer",
+        name: `Báo giá cá nhân hóa ${serviceLabel}`,
+        priceCurrency: "VND",
+        description: "Chi phí được báo sau khi bác sĩ thăm khám, đánh giá tình trạng và thống nhất phác đồ.",
+        availability: "https://schema.org/InStock",
+        url,
+      },
+    ],
+  };
 }
 
 export function buildJsonLdGraph(ctx: SchemaContext, content: SiteContent): object[] {
@@ -196,6 +232,16 @@ export function buildJsonLdGraph(ctx: SchemaContext, content: SiteContent): obje
     });
   } else if (ctx.service && (ctx.path.startsWith("/tham-my/") || ctx.path.startsWith("/spa/"))) {
     graphs.push({
+      "@type": "MedicalProcedure",
+      "@id": `${ctx.meta.canonical}#procedure`,
+      name: ctx.service.label,
+      description: ctx.meta.description,
+      procedureType: "https://schema.org/CosmeticProcedure",
+      howPerformed: ctx.service.categoryLabel,
+      performer: { "@id": orgId },
+      url: ctx.meta.canonical,
+    });
+    graphs.push({
       "@type": "Service",
       "@id": `${ctx.meta.canonical}#service`,
       name: ctx.service.label,
@@ -209,6 +255,7 @@ export function buildJsonLdGraph(ctx: SchemaContext, content: SiteContent): obje
       },
       url: ctx.meta.canonical,
       image: ctx.meta.ogImage || undefined,
+      hasOfferCatalog: buildServiceOfferCatalog(ctx.service.label, ctx.meta.canonical),
     });
     if (ctx.article) {
       const published = parseViDate(ctx.article.date);
@@ -233,6 +280,20 @@ export function buildJsonLdGraph(ctx: SchemaContext, content: SiteContent): obje
         inLanguage: seo.locale || "vi-VN",
       });
     }
+  } else if (ctx.path.startsWith("/tin-tuc/chu-de/")) {
+    const clusterId = ctx.path.split("/").pop() ?? "";
+    const cluster = getClusterById(clusterId);
+    graphs.push({
+      "@type": "CollectionPage",
+      "@id": `${ctx.meta.canonical}#webpage`,
+      url: ctx.meta.canonical,
+      name: ctx.meta.title,
+      description: ctx.meta.description,
+      isPartOf: { "@id": siteId },
+      about: cluster
+        ? { "@type": "MedicalProcedure", name: cluster.pillarLabel }
+        : { "@id": orgId },
+    });
   } else if (ctx.path === "/tham-my" || ctx.path === "/spa") {
     graphs.push({
       "@type": "CollectionPage",
@@ -252,6 +313,21 @@ export function buildJsonLdGraph(ctx: SchemaContext, content: SiteContent): obje
       description: ctx.meta.description,
       isPartOf: { "@id": siteId },
       about: { "@id": orgId },
+    });
+  }
+
+  if (ctx.faq && ctx.faq.length >= 2) {
+    graphs.push({
+      "@type": "FAQPage",
+      "@id": `${ctx.meta.canonical}#faq`,
+      mainEntity: ctx.faq.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: item.answer,
+        },
+      })),
     });
   }
 

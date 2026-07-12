@@ -106,6 +106,30 @@ Cắt mí phượng hoàng là phẫu thuật tại vùng mắt — cần chọn
 
 Chi phí cắt mí phượng hoàng phụ thuộc: một mí hay hai mí; có lấy mỡ, mở góc, xử lý da chùng; tiền sử đã mổ mí trước đó (revision) hay chưa. Thiên Hoàng Kim báo giá chi tiết sau thăm khám — minh bạch từng hạng mục, không phát sinh ngoài thỏa thuận. Tư vấn miễn phí; xem thêm mục Bảng giá trên website hoặc gọi hotline đặt lịch.
 
+### Bảng yếu tố ảnh hưởng chi phí cắt mí
+
+| Hạng mục | Khi nào cần | Ghi chú an toàn |
+|---|---|---|
+| Tạo nếp mí cơ bản | Mí lót, một mí, nếp mí không rõ | Thiết kế chiều cao nếp mí theo mắt thật |
+| Lấy mỡ mí | Mí dày, mắt nặng, nếp mí khó rõ | Lấy vừa đủ để tránh hốc mắt sâu |
+| Xử lý da chùng | Da mí dư, che nếp mí hoặc làm mắt mệt | Không cắt quá nhiều để tránh khó nhắm mắt |
+| Mở góc mắt | Mắt ngắn, góc trong bị che nhiều | Chỉ chỉ định khi phù hợp tỉ lệ mặt |
+| Chỉnh mí revision | Đã từng bấm/cắt mí, nếp mí bung hoặc lệch | Cần đánh giá mô sẹo, thường phức tạp hơn lần đầu |
+
+Bảng giá cắt mí nên đi kèm giải thích rõ **có bao gồm tái khám, thuốc, cắt chỉ, xử lý sưng bầm hay không**. Khách không nên chọn cơ sở chỉ quảng cáo giá thấp nhưng không nói rõ bác sĩ, quy trình vô trùng và cách xử lý nếu hai mí không đều trong giai đoạn hồi phục.
+
+## Cắt mí Quận 5 - An Đông: chọn theo tiêu chí nào?
+
+Người tìm **cắt mí TP.HCM**, **cắt mí Quận 5**, **cắt mí An Đông** thường cần một nơi thuận tiện tái khám vì mí mắt cần theo dõi sát trong 1–2 tuần đầu. Thiên Hoàng Kim tại **323–325 Hùng Vương, Phường An Đông** thuận tiện từ Chợ Lớn, Quận 5, Quận 6 và Quận 10; khách có thể đặt lịch theo khung giờ 08:00–20:00.
+
+Khi so sánh địa chỉ cắt mí, hãy ưu tiên cơ sở có:
+
+1. Bác sĩ phác thảo nếp mí trực tiếp trên mắt thật.
+2. Tư vấn rõ chênh lệch hai mắt bẩm sinh và kỳ vọng sau sưng.
+3. Có quy trình vô trùng, hậu phẫu, tái khám và hotline rõ ràng.
+4. Không ép làm thêm mở góc/lấy mỡ nếu không cần.
+5. Có hình ảnh ca thật với nếp mí tự nhiên sau hồi phục.
+
 ## Câu hỏi thường gặp (FAQ)
 
 **Cắt mí phượng hoàng có đau không?** Gây tê tại chỗ hoặc mê nhẹ nên không đau trong lúc mổ. Sau mổ đau nhẹ, kiểm soát bằng thuốc; khó chịu chủ yếu do sưng.

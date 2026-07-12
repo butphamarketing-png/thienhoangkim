@@ -104,6 +104,30 @@ Filler HA có độ đặc (viscosity) và đàn hồi (G') khác nhau: mềm ch
 
 Tính theo ml filler, số vùng tiêm (mũi, môi, cằm…), loại filler. Báo giá sau tư vấn; tư vấn miễn phí. Xem Bảng giá hoặc hotline.
 
+### Bảng yếu tố ảnh hưởng giá filler
+
+| Vùng tiêm | Liều thường gặp | Vì sao giá khác nhau |
+|---|---|---|
+| Filler môi | 0,5–1 ml | Cần chất mềm, tạo viền và độ mọng tự nhiên |
+| Filler cằm | 1–2 ml | Cần độ nâng đỡ tốt để kéo dài profile |
+| Filler mũi | 0,3–1 ml | Đòi hỏi kỹ thuật cao, chọn ca rất kỹ vì vùng mạch máu nguy cơ |
+| Rãnh cười | 1–3 ml | Tùy độ sâu rãnh và mô nâng đỡ hai bên |
+| Thái dương/má | 1–4 ml | Phụ thuộc mức lõm và loại filler có độ nâng phù hợp |
+
+Thiên Hoàng Kim không báo một giá duy nhất cho mọi khách vì filler phụ thuộc **loại sản phẩm, số ml, vùng tiêm, độ khó giải phẫu và mục tiêu thẩm mỹ**. Khi tư vấn, khách được xem rõ vùng nào nên tiêm, vùng nào không nên tiêm, liều dự kiến và chi phí trước khi quyết định. Đây là cách cạnh tranh bền vững với các bài “giá filler 2026” trên thị trường: minh bạch, không tiêm thừa, không dùng sản phẩm không rõ nguồn gốc.
+
+## Tiêu chí chọn nơi tiêm filler uy tín tại TP.HCM
+
+Với filler, rủi ro lớn nhất không nằm ở sưng bầm thông thường mà ở **tiêm sai tầng, sai sản phẩm hoặc xử lý biến chứng chậm**. Trước khi tiêm, bạn nên hỏi:
+
+1. Filler có tem, mã truy xuất và còn hạn sử dụng không?
+2. Ai trực tiếp tiêm, có hiểu giải phẫu mạch máu vùng mũi/môi/cằm không?
+3. Có sẵn phác đồ xử lý tắc mạch bằng hyaluronidase khi cần không?
+4. Có chụp ảnh trước - sau và hẹn tái khám 1–2 tuần không?
+5. Có từ chối tiêm khi khách muốn quá liều hoặc không phù hợp không?
+
+Thiên Hoàng Kim phù hợp khách tìm **filler TP.HCM**, **filler Quận 5**, **filler An Đông** theo hướng tự nhiên: tiêm vừa đủ, giữ nét mặt mềm, ưu tiên an toàn hơn chạy theo trend quá đầy hoặc quá sắc.
+
 ## Câu hỏi thường gặp (FAQ)
 
 **Tiêm filler có đau không?** Tê trước tiêm; cảm giác chích nhẹ; môi/mũi nhạy hơn má.

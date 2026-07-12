@@ -68,6 +68,11 @@ function normalizeCtaImage(image?: string): string {
 }
 
 function stripMarkdownBold(text: string): string {
+  const faqIdx = text.search(/##\s*Câu hỏi thường gặp/i);
+  if (faqIdx >= 0) {
+    const before = text.slice(0, faqIdx).replace(/\*\*([^*]+)\*\*/g, "$1").replace(/\*\*/g, "");
+    return before + text.slice(faqIdx);
+  }
   return text.replace(/\*\*([^*]+)\*\*/g, "$1").replace(/\*\*/g, "");
 }
 

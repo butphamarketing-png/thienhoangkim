@@ -1,13 +1,17 @@
 import { Link, Redirect, useRoute } from "wouter";
 import { Calendar } from "lucide-react";
 import { SiteLayout } from "@/components/layout/SiteLayout";
+import { BreadcrumbNav } from "@/components/BreadcrumbNav";
+import { RelatedArticlesBlock } from "@/components/RelatedArticlesBlock";
 import { Button } from "@/components/ui/button";
 import { useSiteContent } from "@/context/SiteContentContext";
 import { ArticleBodyContent } from "@/components/ArticleBodyContent";
 import { DEFAULT_HERO_IMAGE } from "@/data/pages.defaults";
+import { SERVICE_CATEGORIES } from "@/data/services-catalog";
 import { buildHeroImageAlt } from "@/lib/article-seo";
 import { EAGER_IMG } from "@/lib/image-loading";
 import { getServiceItem, resolveServiceCategories } from "@/lib/site-cms";
+import { getRelatedForService } from "@/lib/topic-clusters";
 import type { ServiceCategoryId } from "@/types/site-content";
 import NotFound from "@/pages/not-found";
 
@@ -51,10 +55,20 @@ Khách hàng được thăm khám, phân tích và lên phác đồ cá nhân tr
 
   const focusKeyphrase = article?.seo?.focusKeyphrase ?? service.label;
   const heroAlt = buildHeroImageAlt(focusKeyphrase, title);
+  const { cluster, articles: related } = getRelatedForService(content, slug, 8);
 
   return (
     <SiteLayout>
       <article className="container mx-auto max-w-3xl px-4 py-10 md:px-8 md:py-14">
+        <BreadcrumbNav
+          crumbs={[
+            { label: "Trang chủ", href: "/" },
+            { label: "Dịch vụ", href: "/dich-vu" },
+            { label: category.title, href: category.path },
+            { label: service.label },
+          ]}
+          className="mb-6"
+        />
         <p className="text-xs font-bold uppercase tracking-widest text-primary">{category.eyebrow}</p>
         <h1 className="mt-3 font-['Noto_Serif','Cormorant_Garamond',serif] text-3xl font-semibold leading-tight text-primary md:text-4xl">
           {title}
@@ -68,9 +82,20 @@ Khách hàng được thăm khám, phân tích và lên phác đồ cá nhân tr
         <img src={image} alt={heroAlt} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover object-top shadow-lg" {...EAGER_IMG} />
         <p className="mt-8 text-lg font-medium leading-relaxed text-foreground/90">{description}</p>
         <ArticleBodyContent body={body} imageAlt={heroAlt} />
+        <RelatedArticlesBlock
+          content={content}
+          cluster={cluster}
+          articles={related}
+          title={`Kiến thức về ${SERVICE_CATEGORIES[categoryId].eyebrow.toLowerCase()}`}
+        />
         <div className="mt-12 flex flex-wrap gap-3">
           <Link href="/lien-he#dat-lich">
             <Button className="rounded-full bg-primary font-bold">Đặt lịch tư vấn</Button>
+          </Link>
+          <Link href="/bang-gia">
+            <Button type="button" variant="outline" className="rounded-full">
+              Xem bảng giá
+            </Button>
           </Link>
           <Link href={category.path}>
             <Button type="button" variant="outline" className="rounded-full">
