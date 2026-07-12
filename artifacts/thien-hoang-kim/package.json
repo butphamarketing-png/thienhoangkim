@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/generate-slug-titles.mjs && node scripts/generate-seo-static.mjs && vite --config vite.config.ts --host 0.0.0.0",
-    "build": "node scripts/generate-slug-titles.mjs && node scripts/generate-seo-static.mjs && vite build --config vite.config.ts && node scripts/prerender-seo.mjs && node scripts/notify-indexnow.mjs",
+    "build": "node scripts/generate-slug-titles.mjs && node scripts/generate-seo-static.mjs && vite build --config vite.config.ts && node scripts/prerender-seo.mjs && node scripts/notify-indexnow.mjs && node scripts/notify-google-search-console.mjs",
     "serve": "vite preview --config vite.config.ts --host 0.0.0.0",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "keywords:merge": "node scripts/extract-plan1.mjs && node scripts/extract-plan2.mjs && node scripts/merge-keyword-plans.mjs",

@@ -6,6 +6,11 @@ import {
   INTRO_MAIN_BLOCKS,
   INTRO_TECHNOLOGY_BLOCKS,
 } from "@/data/intro-pages.content";
+import {
+  SERVICE_CATEGORIES,
+  getServiceItem,
+  type ServiceCategoryId,
+} from "@/data/services-catalog";
 
 export type PageBlock = {
   title?: string;
@@ -21,6 +26,9 @@ export type SitePageContent = {
 
 const intro =
   `${import.meta.env.BASE_URL}gioithieu.1.png`.replace(/([^:]\/)\/+/g, "$1");
+
+const PHONE = "0938 673 996";
+const ADDRESS = "323–325 Hùng Vương, An Đông, TP.HCM";
 
 function p(...text: string[]): PageBlock {
   return { paragraphs: text };
@@ -80,9 +88,17 @@ const STATIC_PAGES: Record<string, SitePageContent> = {
           "Gội đầu dưỡng sinh: từ 350.000đ",
         ],
       },
+      p(
+        "Giá trên mang tính tham khảo — báo giá chính xác sau khám và phác đồ cá nhân.",
+        `Đặt lịch tư vấn miễn phí: **${PHONE}** — ${ADDRESS}.`,
+      ),
     ],
   },
 };
+
+function categoryIdFromColumnTitle(title: string): ServiceCategoryId {
+  return /spa/i.test(title) ? "spa" : "tham-my";
+}
 
 function buildServicePages(): Record<string, SitePageContent> {
   const pages: Record<string, SitePageContent> = {};
@@ -92,22 +108,56 @@ function buildServicePages(): Record<string, SitePageContent> {
   pages["/dich-vu"] = {
     eyebrow: "Dịch vụ",
     title: "Dịch vụ thẩm mỹ",
-    description: "Giải pháp thẩm mỹ y khoa và spa chăm sóc da chuyên sâu tại Thiên Hoàng Kim.",
-    blocks: [],
+    description:
+      "Thẩm mỹ y khoa & spa chăm sóc da toàn diện — nâng mũi, cắt mí, filler, botox, massage. Tư vấn miễn phí tại An Đông TP.HCM.",
+    blocks: [
+      p(
+        "Thiên Hoàng Kim cung cấp hai nhóm dịch vụ chính: **thẩm mỹ y khoa** (phẫu thuật, tiêm, trẻ hóa) và **spa chăm sóc da** (điều trị da, massage, phun xăm).",
+        "Mỗi khách được thăm khám, phác đồ cá nhân và báo giá minh bạch trước khi điều trị.",
+        `Đặt lịch: **${PHONE}** — ${ADDRESS}.`,
+      ),
+      {
+        title: "Thẩm mỹ y khoa",
+        paragraphs: SERVICE_CATEGORIES["tham-my"].description
+          ? [SERVICE_CATEGORIES["tham-my"].description, `[Xem tất cả dịch vụ thẩm mỹ](/tham-my).`]
+          : ["Giải pháp thẩm mỹ chuẩn y khoa — an toàn và hiệu quả lâu dài."],
+      },
+      {
+        title: "Spa & chăm sóc da",
+        paragraphs: SERVICE_CATEGORIES.spa.description
+          ? [SERVICE_CATEGORIES.spa.description, `[Xem tất cả dịch vụ spa](/spa).`]
+          : ["Chăm sóc da và thư giãn toàn diện trong không gian cao cấp."],
+      },
+    ],
   };
 
   for (const col of servicesNav.columns) {
+    const categoryId = categoryIdFromColumnTitle(col.title);
     for (const item of col.items) {
+      const slug = item.href.split("/").pop() ?? "";
+      const svc = getServiceItem(categoryId, slug);
+      const summary =
+        svc?.description ??
+        `Tư vấn và điều trị ${item.label.toLowerCase()} an toàn, hiệu quả tại Thiên Hoàng Kim.`;
+
       pages[item.href] = {
         eyebrow: col.title,
         title: item.label,
-        description: `Tư vấn và điều trị ${item.label.toLowerCase()} an toàn, hiệu quả tại Thiên Hoàng Kim.`,
+        description: summary,
         blocks: [
           p(
-            `Dịch vụ ${item.label} được thực hiện bởi bác sĩ có chứng chỉ hành nghề, quy trình vô trùng và theo dõi sau điều trị.`,
-            "Khách hàng được thăm khám, phân tích và lên phác đồ cá nhân trước khi tiến hành.",
-            "Đặt lịch tư vấn miễn phí để được bác sĩ đánh giá tình trạng và báo giá chi tiết.",
+            summary,
+            `Quy trình: thăm khám → phác đồ cá nhân → điều trị → tái khám theo dõi. Bác sĩ/chuyên viên có chứng chỉ, phòng vô trùng.`,
+            `Xem chi tiết [${item.label}](${item.href}) hoặc đọc thêm tại [/tin-tuc](/tin-tuc). Đặt lịch miễn phí: **${PHONE}**.`,
           ),
+          {
+            title: "Tại sao chọn Thiên Hoàng Kim?",
+            paragraphs: [
+              "Báo giá minh bạch — không phụ phí ẩn sau khi khách đồng ý.",
+              `${ADDRESS} — mở cửa 08:00–20:00, thuận tiện khu An Đông & Chợ Lớn.`,
+              "Tư vấn miễn phí — không ép đóng tiền ngay trong buổi đầu.",
+            ],
+          },
         ],
       };
     }

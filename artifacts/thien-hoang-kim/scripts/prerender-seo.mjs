@@ -1,5 +1,5 @@
 /**
- * Sau Vite build: sinh index.html riêng cho từng URL với title/meta đúng.
+ * Sau Vite build: sinh index.html riêng cho từng URL với title/meta/JSON-LD đúng.
  * Google và scraper đọc được SEO mà không cần chạy JavaScript.
  */
 import fs from "node:fs";
@@ -11,6 +11,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const appRoot = path.resolve(__dirname, "..");
 const distDir = path.join(appRoot, "dist/public");
 const indexPath = path.join(distDir, "index.html");
+const JSON_LD_ID = "thk-json-ld";
 
 function escapeHtml(value) {
   return value
@@ -38,20 +39,43 @@ function upsertCanonical(html, href) {
   return html.replace("</head>", `    ${tag}\n  </head>`);
 }
 
-function injectMeta(html, meta) {
+function absolutizeImage(image, canonical) {
+  if (!image?.trim()) return image;
+  if (image.startsWith("http")) return image;
+  try {
+    const origin = new URL(canonical).origin;
+    return `${origin}${image.startsWith("/") ? image : `/${image}`}`;
+  } catch {
+    return image;
+  }
+}
+
+function upsertJsonLd(html, json) {
+  if (!json) return html;
+  const safe = json.replace(/</g, "\\u003c");
+  const re = new RegExp(`<script type="application/ld\\+json" id="${JSON_LD_ID}"[^>]*>[\\s\\S]*?</script>`);
+  const tag = `<script type="application/ld+json" id="${JSON_LD_ID}">${safe}</script>`;
+  if (re.test(html)) return html.replace(re, tag);
+  return html.replace("</head>", `    ${tag}\n  </head>`);
+}
+
+function injectMeta(html, meta, jsonLd) {
+  const ogImage = absolutizeImage(meta.ogImage, meta.canonical);
   let out = html.replace(/<title>[^<]*<\/title>/, `<title>${escapeHtml(meta.title)}</title>`);
   out = upsertMeta(out, "name", "description", meta.description);
   out = upsertMeta(out, "name", "keywords", meta.keywords);
   out = upsertMeta(out, "name", "robots", meta.robots);
   out = upsertMeta(out, "property", "og:title", meta.ogTitle);
   out = upsertMeta(out, "property", "og:description", meta.ogDescription);
-  out = upsertMeta(out, "property", "og:image", meta.ogImage);
+  out = upsertMeta(out, "property", "og:image", ogImage);
   out = upsertMeta(out, "property", "og:url", meta.ogUrl);
   out = upsertMeta(out, "property", "og:type", meta.ogType);
+  out = upsertMeta(out, "name", "twitter:card", meta.twitterCard || "summary_large_image");
   out = upsertMeta(out, "name", "twitter:title", meta.ogTitle);
   out = upsertMeta(out, "name", "twitter:description", meta.ogDescription);
-  if (meta.ogImage) out = upsertMeta(out, "name", "twitter:image", meta.ogImage);
+  if (ogImage) out = upsertMeta(out, "name", "twitter:image", ogImage);
   out = upsertCanonical(out, meta.canonical);
+  out = upsertJsonLd(out, jsonLd);
   return out;
 }
 
@@ -80,15 +104,15 @@ async function main() {
     const pages = mod.collectPrerenderPages();
 
     let wrote = 0;
-    for (const { path: routePath, meta } of pages) {
-      const html = injectMeta(shellHtml, meta);
+    for (const { path: routePath, meta, jsonLd } of pages) {
+      const html = injectMeta(shellHtml, meta, jsonLd);
       const outPath = outputPathForRoute(routePath);
       fs.mkdirSync(path.dirname(outPath), { recursive: true });
       fs.writeFileSync(outPath, html, "utf8");
       wrote++;
     }
 
-    console.log(`[prerender-seo] Wrote ${wrote} HTML shells with unique meta → dist/public/`);
+    console.log(`[prerender-seo] Wrote ${wrote} HTML shells with meta + JSON-LD → dist/public/`);
   } finally {
     await server.close();
   }

@@ -7,7 +7,13 @@ import {
 } from "@/data/services-catalog";
 import { buildBreadcrumbs, buildJsonLdGraph, jsonLdScript, type SchemaContext } from "@/lib/seo-schema";
 import { getSiteBaseUrl } from "@/lib/seo-sitemap";
-import { buildMetaTitleFromSlug, routePathToDisplayTitle, slugToDisplayTitle } from "@/lib/slug";
+import {
+  buildAttractiveMetaDescription,
+  isLegacyAutoMetaDescription,
+  routeMetaDescription,
+} from "@/lib/meta-description";
+import { buildAttractiveMetaTitle, isLegacyAutoMetaTitle, routeMetaTitle } from "@/lib/meta-title";
+import { routePathToDisplayTitle } from "@/lib/slug";
 import type { ArticleSeo, SiteArticle, SiteContent, SiteSeo } from "@/types/site-content";
 
 export type { SchemaContext } from "@/lib/seo-schema";
@@ -88,6 +94,31 @@ function buildTitle(pageTitle: string, siteName: string, separator = " | "): str
   return `${pageTitle}${separator}${name}`;
 }
 
+function resolveStaticRouteTitle(path: string, fallback: string, global: SiteSeo): string {
+  return routeMetaTitle(path) ?? buildTitle(fallback, global.siteName, global.titleSeparator || " | ");
+}
+
+function absolutizeOgImage(image: string, siteUrl?: string): string {
+  const trimmed = image?.trim();
+  if (!trimmed) return "";
+  if (trimmed.startsWith("http")) return trimmed;
+  return toAbsoluteUrl(trimmed, siteUrl);
+}
+
+function finalizePageSeoMeta(meta: PageSeoMeta, global: SiteSeo): PageSeoMeta {
+  return {
+    ...meta,
+    ogImage: absolutizeOgImage(meta.ogImage, global.siteUrl),
+  };
+}
+
+function resolveStaticRouteDescription(path: string, fallback: string, global: SiteSeo): string {
+  return (
+    routeMetaDescription(path) ??
+    (buildAttractiveMetaDescription({ path, summary: fallback }) || pick(fallback, global.description))
+  );
+}
+
 function baseFromGlobal(global: SiteSeo, path: string): PageSeoMeta {
   const siteName = global.siteName || "Thiên Hoàng Kim Aesthetic Clinic";
   const title = global.title || siteName;
@@ -120,8 +151,22 @@ export function resolveArticleSeo(
   const siteName = global.siteName || "Thiên Hoàng Kim Aesthetic Clinic";
   const seo = article.seo ?? DEFAULT_ARTICLE_SEO;
   const sep = global.titleSeparator || " | ";
-  const title = pick(seo.metaTitle) || buildTitle(article.title, siteName, sep);
-  const description = pick(seo.metaDescription, article.description, global.description);
+  const customMeta = pick(seo.metaTitle);
+  const title =
+    customMeta && !isLegacyAutoMetaTitle(customMeta, article.slug)
+      ? customMeta
+      : buildAttractiveMetaTitle({ slug: article.slug, displayTitle: article.title, path });
+  const customDesc = pick(seo.metaDescription);
+  const description =
+    customDesc && !isLegacyAutoMetaDescription(customDesc, article.slug, seo.focusKeyphrase)
+      ? customDesc
+      : buildAttractiveMetaDescription({
+          slug: article.slug,
+          displayTitle: article.title,
+          path,
+          focusKeyphrase: seo.focusKeyphrase,
+          summary: article.description,
+        });
   const keywords = pick(seo.keywords, seo.focusKeyphrase, global.keywords);
   const ogImage = pick(seo.ogImage, article.image, global.ogImage);
   const ogTitle = pick(seo.ogTitle, seo.metaTitle, article.title, global.ogTitle, title);
@@ -172,17 +217,25 @@ export function resolveServiceSeo(
   }
 
   const slug = opts.path.split("/").pop() ?? "";
-  const displayTitle = slug ? slugToDisplayTitle(slug) : opts.serviceLabel;
   const siteName = opts.global.siteName || "Thiên Hoàng Kim Aesthetic Clinic";
-  const title = slug ? buildMetaTitleFromSlug(slug) : buildTitle(`${opts.serviceLabel} — ${opts.categoryLabel ?? "Dịch vụ thẩm mỹ"}`, siteName, opts.global.titleSeparator);
-  const description = pick(opts.description, opts.global.description);
+  const title = slug
+    ? buildAttractiveMetaTitle({ slug, displayTitle: opts.serviceLabel, path: opts.path })
+    : buildTitle(`${opts.serviceLabel} — ${opts.categoryLabel ?? "Dịch vụ thẩm mỹ"}`, siteName, opts.global.titleSeparator);
+  const description = slug
+    ? buildAttractiveMetaDescription({
+        slug,
+        displayTitle: opts.serviceLabel,
+        path: opts.path,
+        summary: opts.description,
+      })
+    : pick(opts.description, opts.global.description);
   const canonical = toAbsoluteUrl(opts.path, opts.global.siteUrl);
 
   return {
     title,
     description,
     keywords: opts.global.keywords || "",
-    ogTitle: slug ? displayTitle : title,
+    ogTitle: title,
     ogDescription: description,
     ogImage: pick(opts.image, opts.global.ogImage),
     ogUrl: canonical,
@@ -240,7 +293,8 @@ function isPublicRoute(path: string, content: SiteContent): boolean {
 
 export function resolveRouteSeoContext(path: string, content: SiteContent): SchemaContext {
   const clean = path.split("#")[0] || "/";
-  const meta = resolveRouteSeo(clean, content);
+  const global = content.settings.seo;
+  const meta = finalizePageSeoMeta(resolveRouteSeo(clean, content), global);
   let article = findArticleForPath(clean, content);
   let service: SchemaContext["service"];
 
@@ -276,7 +330,8 @@ export function resolveRouteSeoContext(path: string, content: SiteContent): Sche
   }
 
   const siteName = content.settings.seo.siteName || content.settings.clinicName;
-  const breadcrumbs = buildBreadcrumbs(clean, siteName, article);
+  const siteUrl = getSiteBaseUrl(global.siteUrl);
+  const breadcrumbs = buildBreadcrumbs(clean, siteName, article, siteUrl);
   return { path: clean, meta, breadcrumbs, article, service };
 }
 
@@ -333,13 +388,14 @@ export function resolveRouteSeo(path: string, content: SiteContent): PageSeoMeta
     const cat = SERVICE_CATEGORIES["tham-my"];
     const base = baseFromGlobal(global, clean);
     const linked = content.articles.find((a) => a.slug === cat.articleSlug && a.published);
-    const desc = pick(linked?.description, cat.description, global.description);
     const pageTitle = routePathToDisplayTitle(clean) ?? cat.title;
+    const title = resolveStaticRouteTitle(clean, pageTitle, global);
+    const desc = resolveStaticRouteDescription(clean, pick(linked?.description, cat.description), global);
     return {
       ...base,
-      title: buildTitle(pageTitle, global.siteName, sep),
+      title,
       description: desc,
-      ogTitle: pageTitle,
+      ogTitle: title,
       ogDescription: desc,
       keywords: pick(linked?.seo?.keywords, global.keywords),
     };
@@ -349,13 +405,14 @@ export function resolveRouteSeo(path: string, content: SiteContent): PageSeoMeta
     const cat = SERVICE_CATEGORIES.spa;
     const base = baseFromGlobal(global, clean);
     const linked = content.articles.find((a) => a.slug === cat.articleSlug && a.published);
-    const desc = pick(linked?.description, cat.description, global.description);
     const pageTitle = routePathToDisplayTitle(clean) ?? cat.title;
+    const title = resolveStaticRouteTitle(clean, pageTitle, global);
+    const desc = resolveStaticRouteDescription(clean, pick(linked?.description, cat.description), global);
     return {
       ...base,
-      title: buildTitle(pageTitle, global.siteName, sep),
+      title,
       description: desc,
-      ogTitle: pageTitle,
+      ogTitle: title,
       ogDescription: desc,
       keywords: pick(linked?.seo?.keywords, global.keywords),
     };
@@ -366,74 +423,106 @@ export function resolveRouteSeo(path: string, content: SiteContent): PageSeoMeta
     const base = baseFromGlobal(global, clean);
     const routeTitle = routePathToDisplayTitle(clean);
     const pageTitle = routeTitle ?? staticPage.title;
+    const title = resolveStaticRouteTitle(clean, pageTitle, global);
+    const desc = resolveStaticRouteDescription(clean, staticPage.description, global);
     return {
       ...base,
-      title: buildTitle(pageTitle, global.siteName, sep),
-      description: pick(staticPage.description, global.description),
-      ogTitle: pageTitle,
-      ogDescription: pick(staticPage.description, global.description),
+      title,
+      description: desc,
+      ogTitle: title,
+      ogDescription: desc,
     };
   }
 
   if (clean === "/dich-vu") {
     const base = baseFromGlobal(global, clean);
     const pageTitle = routePathToDisplayTitle(clean) ?? "Dịch vụ thẩm mỹ";
+    const title = resolveStaticRouteTitle(clean, pageTitle, global);
+    const desc = resolveStaticRouteDescription(
+      clean,
+      "Giải pháp thẩm mỹ y khoa và spa chăm sóc da chuyên sâu.",
+      global,
+    );
     return {
       ...base,
-      title: buildTitle(pageTitle, global.siteName, sep),
-      description: pick("Giải pháp thẩm mỹ y khoa và spa chăm sóc da chuyên sâu.", global.description),
-      ogTitle: pageTitle,
+      title,
+      description: desc,
+      ogTitle: title,
+      ogDescription: desc,
     };
   }
 
   if (clean === "/tin-tuc" || clean === "/tin-tuc/kien-thuc" || clean === "/tin-tuc/tin-tuc") {
     const base = baseFromGlobal(global, clean);
     const pageTitle = routePathToDisplayTitle(clean) ?? "Tin tức & kiến thức làm đẹp";
+    const title = resolveStaticRouteTitle(clean, pageTitle, global);
+    const desc = resolveStaticRouteDescription(
+      clean,
+      "Cẩm nang làm đẹp, tin tức thẩm mỹ và spa từ Thiên Hoàng Kim.",
+      global,
+    );
     return {
       ...base,
-      title: buildTitle(pageTitle, global.siteName, sep),
-      description: pick("Cẩm nang làm đẹp, tin tức thẩm mỹ và spa từ Thiên Hoàng Kim.", global.description),
-      ogTitle: pageTitle,
+      title,
+      description: desc,
+      ogTitle: title,
+      ogDescription: desc,
     };
   }
 
   if (clean === "/lien-he") {
     const base = baseFromGlobal(global, clean);
     const pageTitle = routePathToDisplayTitle(clean) ?? "Liên hệ & đặt lịch";
+    const title = resolveStaticRouteTitle(clean, pageTitle, global);
+    const desc = resolveStaticRouteDescription(clean, pageTitle, global);
     return {
       ...base,
-      title: buildTitle(pageTitle, global.siteName, sep),
-      ogTitle: pageTitle,
+      title,
+      description: desc,
+      ogTitle: title,
+      ogDescription: desc,
     };
   }
 
   if (clean === "/khach-hang") {
     const base = baseFromGlobal(global, clean);
     const pageTitle = routePathToDisplayTitle(clean) ?? "Khách hàng thực tế";
+    const title = resolveStaticRouteTitle(clean, pageTitle, global);
+    const desc = resolveStaticRouteDescription(clean, pageTitle, global);
     return {
       ...base,
-      title: buildTitle(pageTitle, global.siteName, sep),
-      ogTitle: pageTitle,
+      title,
+      description: desc,
+      ogTitle: title,
+      ogDescription: desc,
     };
   }
 
   if (clean === "/bang-gia") {
     const base = baseFromGlobal(global, clean);
     const pageTitle = routePathToDisplayTitle(clean) ?? "Bảng giá tham khảo";
+    const title = resolveStaticRouteTitle(clean, pageTitle, global);
+    const desc = resolveStaticRouteDescription(clean, pageTitle, global);
     return {
       ...base,
-      title: buildTitle(pageTitle, global.siteName, sep),
-      ogTitle: pageTitle,
+      title,
+      description: desc,
+      ogTitle: title,
+      ogDescription: desc,
     };
   }
 
   if (clean === "/gioi-thieu/doi-ngu-bac-si") {
     const base = baseFromGlobal(global, clean);
     const pageTitle = routePathToDisplayTitle(clean) ?? "Đội ngũ bác sĩ";
+    const title = resolveStaticRouteTitle(clean, pageTitle, global);
+    const desc = resolveStaticRouteDescription(clean, pageTitle, global);
     return {
       ...base,
-      title: buildTitle(pageTitle, global.siteName, sep),
-      ogTitle: pageTitle,
+      title,
+      description: desc,
+      ogTitle: title,
+      ogDescription: desc,
     };
   }
 
@@ -447,7 +536,20 @@ export function resolveRouteSeo(path: string, content: SiteContent): PageSeoMeta
     };
   }
 
-  return baseFromGlobal(global, clean === "/" ? "/" : clean);
+  if (clean === "/") {
+    const base = baseFromGlobal(global, "/");
+    const title = routeMetaTitle("/") ?? buildAttractiveMetaTitle({ path: "/" });
+    const desc = routeMetaDescription("/") ?? buildAttractiveMetaDescription({ path: "/" });
+    return {
+      ...base,
+      title,
+      description: desc,
+      ogTitle: title,
+      ogDescription: desc,
+    };
+  }
+
+  return baseFromGlobal(global, clean);
 }
 
 function setMetaName(name: string, content: string) {

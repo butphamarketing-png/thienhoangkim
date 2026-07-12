@@ -303,7 +303,7 @@ for (const { slug } of collectFromBatchFilesEntries()) allSlugs.add(slug);
 for (const slug of Object.keys(collectFromArticlesDefaults())) allSlugs.add(slug);
 
 for (const slug of allSlugs) {
-  titles[slug] = titleFromSlug(slug);
+  if (!titles[slug]) titles[slug] = titleFromSlug(slug);
 }
 
 for (const entry of plan) {

@@ -44,13 +44,23 @@ export default function ArticlesListPage() {
               Tất cả
             </span>
           </Link>
-          {["Kiến thức", "Tin tức", "Dịch vụ", "Spa"].map((cat) => (
-            <Link key={cat} href={cat === "Kiến thức" ? "/tin-tuc/kien-thuc" : cat === "Tin tức" ? "/tin-tuc/tin-tuc" : `/tin-tuc?cat=${encodeURIComponent(cat)}`}>
+          {["Kiến thức", "Tin tức", "Dịch vụ", "Spa"].map((cat) => {
+            const href =
+              cat === "Kiến thức"
+                ? "/tin-tuc/kien-thuc"
+                : cat === "Tin tức"
+                  ? "/tin-tuc/tin-tuc"
+                  : cat === "Dịch vụ"
+                    ? "/tham-my"
+                    : "/spa";
+            return (
+            <Link key={cat} href={href}>
               <span className={`rounded-full px-4 py-1.5 text-sm font-semibold ${categoryFilter === cat ? "bg-primary text-primary-foreground" : "bg-muted text-foreground"}`}>
                 {cat}
               </span>
             </Link>
-          ))}
+            );
+          })}
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {published.map((article) => (

@@ -4,6 +4,8 @@ import { SiteLayout } from "@/components/layout/SiteLayout";
 import { PageHero } from "@/components/layout/PageHero";
 import { useSiteContent } from "@/context/SiteContentContext";
 import { DEFAULT_HERO_IMAGE } from "@/data/pages.defaults";
+import { SERVICE_CATEGORIES } from "@/data/services-catalog";
+import { LAZY_IMG } from "@/lib/image-loading";
 import {
   getServiceHref,
   resolveServiceCategories,
@@ -42,7 +44,7 @@ export default function ServiceCategoryPage({ categoryId }: ServiceCategoryPageP
         <div className="container mx-auto max-w-3xl px-4 pt-8 md:px-8">
           <p className="text-base leading-relaxed text-muted-foreground">{categoryArticle.description}</p>
           <Link
-            href={`/tin-tuc/${categoryArticle.slug}`}
+            href={SERVICE_CATEGORIES[categoryId].path}
             className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-primary hover:underline"
           >
             Đọc thêm về {category.eyebrow}
@@ -63,6 +65,7 @@ export default function ServiceCategoryPage({ categoryId }: ServiceCategoryPageP
                   src={item.image || DEFAULT_HERO_IMAGE}
                   alt={item.label}
                   className="h-full w-full object-cover object-top transition duration-500 group-hover:scale-105"
+                  {...LAZY_IMG}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a261c]/80 via-[#0a261c]/10 to-transparent" />
               </div>

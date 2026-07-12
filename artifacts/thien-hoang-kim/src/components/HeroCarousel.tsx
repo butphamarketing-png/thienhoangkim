@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { HERO_SLIDE_HEIGHT, HERO_SLIDE_WIDTH } from "@/config/hero-slideshow";
+import { EAGER_IMG, LAZY_IMG } from "@/lib/image-loading";
 
 export type HeroSlide = {
   id: string;
@@ -69,8 +70,8 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
                     src={slide.src}
                     alt={slide.alt}
                     className="absolute inset-0 h-full w-full object-cover object-center"
-                    fetchPriority={i === 0 ? "high" : "low"}
                     draggable={false}
+                    {...(i === 0 ? EAGER_IMG : LAZY_IMG)}
                   />
                 )}
               </div>

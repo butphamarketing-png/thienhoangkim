@@ -30,8 +30,15 @@ function parseViDate(dateStr: string): string | undefined {
   return `${y}-${mo.padStart(2, "0")}-${d.padStart(2, "0")}`;
 }
 
-export function buildBreadcrumbs(path: string, siteName: string, article?: SiteArticle): BreadcrumbItem[] {
-  const base = typeof window !== "undefined" ? window.location.origin : "";
+export function buildBreadcrumbs(
+  path: string,
+  siteName: string,
+  article?: SiteArticle,
+  siteUrl?: string,
+): BreadcrumbItem[] {
+  const base =
+    siteUrl?.replace(/\/$/, "") ||
+    (typeof window !== "undefined" ? window.location.origin : getSiteBaseUrl());
   const items: BreadcrumbItem[] = [{ name: "Trang chủ", url: `${base}/` }];
 
   if (path === "/" || !path) return items;
@@ -93,6 +100,14 @@ export function buildBreadcrumbs(path: string, siteName: string, article?: SiteA
   return items;
 }
 
+function absSchemaUrl(url: string | undefined, siteUrl: string): string | undefined {
+  const trimmed = url?.trim();
+  if (!trimmed) return undefined;
+  if (trimmed.startsWith("http")) return trimmed;
+  const base = siteUrl.replace(/\/$/, "");
+  return `${base}${trimmed.startsWith("/") ? trimmed : `/${trimmed}`}`;
+}
+
 export function buildJsonLdGraph(ctx: SchemaContext, content: SiteContent): object[] {
   const { settings } = content;
   const seo = settings.seo;
@@ -109,8 +124,8 @@ export function buildJsonLdGraph(ctx: SchemaContext, content: SiteContent): obje
     name: settings.clinicName,
     alternateName: seo.siteName,
     url: siteUrl,
-    logo: seo.organizationLogo || seo.ogImage || undefined,
-    image: seo.ogImage || undefined,
+    logo: absSchemaUrl(seo.organizationLogo || seo.ogImage, siteUrl),
+    image: absSchemaUrl(seo.ogImage, siteUrl),
     telephone: settings.phone,
     email: settings.email || undefined,
     priceRange: seo.priceRange || "$$",
@@ -171,7 +186,7 @@ export function buildJsonLdGraph(ctx: SchemaContext, content: SiteContent): obje
         "@type": "Organization",
         name: settings.clinicName,
         logo: seo.organizationLogo
-          ? { "@type": "ImageObject", url: seo.organizationLogo }
+          ? { "@type": "ImageObject", url: absSchemaUrl(seo.organizationLogo, siteUrl) }
           : undefined,
       },
       mainEntityOfPage: { "@type": "WebPage", "@id": ctx.meta.canonical },
@@ -210,7 +225,7 @@ export function buildJsonLdGraph(ctx: SchemaContext, content: SiteContent): obje
           "@type": "Organization",
           name: settings.clinicName,
           logo: seo.organizationLogo
-            ? { "@type": "ImageObject", url: seo.organizationLogo }
+            ? { "@type": "ImageObject", url: absSchemaUrl(seo.organizationLogo, siteUrl) }
             : undefined,
         },
         mainEntityOfPage: { "@type": "WebPage", "@id": ctx.meta.canonical },

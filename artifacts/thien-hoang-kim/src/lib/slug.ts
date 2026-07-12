@@ -1,4 +1,5 @@
 import slugTitlesData from "@/data/slug-titles.generated.json";
+import { buildAttractiveMetaTitle } from "@/lib/meta-title";
 
 const BRAND_SUFFIX = "Thiên Hoàng Kim";
 const articleTitles = slugTitlesData.articles as Record<string, string>;
@@ -29,11 +30,11 @@ export function slugToDisplayTitle(slug: string): string {
     .replace(/\bTphcm\b/g, "TP.HCM");
 }
 
-/** Meta title chuẩn: tiêu đề slug + thương hiệu */
+/** Meta title chuẩn: thu hút khách + khớp slug */
 export function buildMetaTitleFromSlug(slug: string, brand = BRAND_SUFFIX): string {
-  const title = slugToDisplayTitle(slug);
+  const title = buildAttractiveMetaTitle({ slug, brand });
   if (title.includes(brand)) return title;
-  return `${title} | ${brand}`;
+  return title;
 }
 
 /** Tiêu đề trang tĩnh từ path (VD: /gioi-thieu → Giới thiệu) */

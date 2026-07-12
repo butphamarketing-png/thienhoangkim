@@ -1,8 +1,10 @@
 import mergedPlan from "@/data/keyword-plan.merged.json";
 import {
   buildGeneratedArticleBody,
+  buildGeneratedArticleTitle,
   buildGeneratedDescription,
   buildGeneratedMetaDescription,
+  publishDateForIndex,
   type KeywordPlanEntry,
 } from "@/lib/generated-article-body";
 import { imageForKeywordPillar } from "@/lib/article-thumbnail";
@@ -72,24 +74,23 @@ const entries = (mergedPlan as KeywordPlanEntry[]).filter(
 );
 
 export const GENERATED_NEWS_ARTICLES: SiteArticle[] = entries.map((entry, index) => {
-  const focusTitle = entry.focus.charAt(0).toUpperCase() + entry.focus.slice(1);
-  const title = entry.title ?? `${focusTitle} — Tư vấn tại Thiên Hoàng Kim`;
   const image = thumbnailForEntry(entry);
   const body = buildGeneratedArticleBody(entry, image, image);
+  const title = buildGeneratedArticleTitle(entry);
   const secondary = `${entry.focus}, ${entry.focus} TP.HCM, Thiên Hoàng Kim, An Đông`;
 
   return article(
     `gen-${String(index + 1).padStart(4, "0")}`,
     entry.slug,
     title,
-    "03/07/2026",
-    buildGeneratedDescription(entry.focus),
+    publishDateForIndex(index),
+    buildGeneratedDescription(entry.focus, entry.slug),
     body,
     image,
     categoryForSlug(entry.slug),
     newsSeo(
       entry.slug,
-      buildGeneratedMetaDescription(entry.focus),
+      buildGeneratedMetaDescription(entry.focus, entry.slug),
       entry.focus.toLowerCase(),
       secondary,
       image,

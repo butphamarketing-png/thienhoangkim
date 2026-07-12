@@ -28,6 +28,9 @@ export default function HomePage() {
   return (
     <SiteLayout>
       {/* HERO */}
+      <h1 className="sr-only">
+        {settings.clinicName} — Phòng khám thẩm mỹ uy tín TP.HCM, tư vấn miễn phí
+      </h1>
       <HeroCarousel slides={home.heroSlides} />
 
       {/* COMMITMENTS */}
