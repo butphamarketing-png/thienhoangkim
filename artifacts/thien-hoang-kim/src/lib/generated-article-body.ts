@@ -113,6 +113,7 @@ const RELATED_BY_TOPIC: Array<{ test: RegExp; links: RelatedLink[] }> = [
   {
     test: /phong-kham|an-dong|tphcm|quan-/,
     links: [
+      { label: "địa chỉ thẩm mỹ Quận 5 An Đông", href: "/tin-tuc/dia-chi-tham-my-quan-5-an-dong" },
       { label: "phòng khám thẩm mỹ An Đông", href: "/tin-tuc/phong-kham-tham-my-an-dong" },
       { label: "liên hệ đặt lịch", href: "/lien-he" },
     ],
@@ -120,6 +121,7 @@ const RELATED_BY_TOPIC: Array<{ test: RegExp; links: RelatedLink[] }> = [
 ];
 
 const DEFAULT_RELATED: RelatedLink[] = [
+  { label: "địa chỉ thẩm mỹ Quận 5 An Đông", href: "/tin-tuc/dia-chi-tham-my-quan-5-an-dong" },
   { label: "chọn phòng khám thẩm mỹ an toàn", href: "/tin-tuc/chon-phong-kham-tham-my-an-toan" },
   { label: "phòng khám An Đông", href: "/tin-tuc/phong-kham-tham-my-an-dong" },
   { label: "bảng giá tham khảo", href: "/bang-gia" },

@@ -24,6 +24,7 @@ import {
   CAY_TOC_FUE_LA_GI_BODY,
   CHON_PHONG_KHAM_THAM_MY_AN_TOAN_BODY,
   XU_HUONG_THAM_MY_2026_BODY,
+  DIA_CHI_THAM_MY_QUAN_5_AN_DONG_BODY,
 } from "@/data/articles/news-priority.body";
 import {
   DAU_HIEU_THAM_KHAM_DA_LIEU_BODY,
@@ -624,6 +625,22 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     newsSeo("xu-huong-tham-my-2026", "Xu hướng thẩm mỹ 2026: tự nhiên, filler botox nhẹ, thẩm mỹ nam, HIFU và chăm sóc da kết hợp. Tư vấn tại Thiên Hoàng Kim.",
       "xu hướng thẩm mỹ 2026",
       "xu hướng làm đẹp 2026, thẩm mỹ tự nhiên, trend thẩm mỹ",
+    ),
+  ),
+  article(
+    "tn-11",
+    "dia-chi-tham-my-quan-5-an-dong",
+    "Địa chỉ thẩm mỹ Quận 5 An Đông — Gợi ý & tiêu chí chọn",
+    "13/07/2026",
+    "Tổng hợp địa chỉ thẩm mỹ Quận 5, An Đông — tiêu chí chọn phòng khám uy tín, vị trí Hùng Vương và dịch vụ tại Thiên Hoàng Kim.",
+    DIA_CHI_THAM_MY_QUAN_5_AN_DONG_BODY,
+    intro,
+    "Tin tức",
+    newsSeo(
+      "dia-chi-tham-my-quan-5-an-dong",
+      "Địa chỉ thẩm mỹ Quận 5 An Đông — tiêu chí chọn phòng khám, khu Hùng Vương, nâng mũi, filler, spa. Thiên Hoàng Kim 323–325 Hùng Vương. Gọi 0938 673 996.",
+      "địa chỉ thẩm mỹ quận 5 an đông",
+      "thẩm mỹ quận 5, phòng khám An Đông, thẩm mỹ Hùng Vương, clinic quận 5 TP.HCM",
     ),
   ),
   article(

@@ -665,3 +665,85 @@ Xu hướng thẩm mỹ 2026 không thay thế quy tắc cũ: chọn bác sĩ, c
 **Làm nhiều dịch vụ cùng lúc được không?** Bác sĩ sắp xếp phác đồ — không tự ý chồng nhiều mổ lớn một lần.
 
 Áp dụng tại Thiên Hoàng Kim: phác đồ cá nhân [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim), [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang), filler/botox tự nhiên, spa, cấy tóc — tư vấn miễn phí **0938 673 996**, **323–325 Hùng Vương, An Đông, TP.HCM**. Đặt lịch tư vấn xu hướng và phác đồ phù hợp — không chạy theo trend mù quáng.`;
+
+export const DIA_CHI_THAM_MY_QUAN_5_AN_DONG_BODY = `Tìm **địa chỉ thẩm mỹ Quận 5 An Đông** trên Google thường trả về hàng chục kết quả — từ phòng khám trên Hùng Vương, Nguyễn Trãi đến spa nhỏ trong hẻm. Bài viết này tổng hợp **tiêu chí chọn địa chỉ uy tín** tại khu An Đông, Quận 5 (và lân cận), giúp bạn so sánh có hệ thống thay vì chỉ nhìn ảnh before/after trên mạng. Thiên Hoàng Kim tại **323–325 Hùng Vương, Phường An Đông** là một trong những địa chỉ thẩm mỹ lâu năm trên trục này — bài viết minh bạch về vị trí, dịch vụ và cách đặt lịch.
+
+## Vì sao nhiều người tìm thẩm mỹ tại Quận 5, An Đông?
+
+Khu An Đông, Chợ Lớn thuộc Quận 5 — trung tâm dân cư đông, giao thông thuận với Quận 6, 10, 11, Tân Bình. Nhiều khách ưu tiên **phòng khám gần nhà** thay vì đi xa về Quận 1, 3 — tiết kiệm thời gian tái khám sau nâng mũi, cắt mí hoặc liệu trình spa dài ngày. Trục **Hùng Vương** và **Nguyễn Trãi** là hai tuyến đường tập trung nhiều cơ sở thẩm mỹ; khi tìm địa chỉ thẩm mỹ Quận 5 An Đông, nên xác nhận đúng phường, số nhà và giấy phép hoạt động — không chỉ dựa vào tên quận trên quảng cáo.
+
+## Tiêu chí chọn địa chỉ thẩm mỹ uy tín (checklist)
+
+Trước khi ghé bất kỳ địa chỉ nào trên danh sách Google, hãy đối chiếu **10 điểm** sau (chi tiết hơn xem [chọn phòng khám thẩm mỹ an toàn](/tin-tuc/chon-phong-kham-tham-my-an-toan)):
+
+1. **Địa chỉ cố định, công khai** — có số nhà, bản đồ, hotline; tránh cơ sở "lưu động" hoặc đổi địa chỉ thường xuyên.
+2. **Bác sĩ công bố rõ** — tên, chứng chỉ hành nghề; phẫu thuật và tiêm do bác sĩ thực hiện, không outsource ẩn.
+3. **Tư vấn trung thực** — không ép đóng tiền ngay; báo giá minh bạch sau khám.
+4. **Phòng vô trùng & quy trình chuẩn** — đặc biệt với mổ và tiêm filler/botox.
+5. **Sản phẩm có nguồn gốc** — filler, botox, chỉ căng có tem, lô, hướng dẫn tra cứu.
+6. **Tái khám & hotline sau điều trị** — không "xong là mất liên lạc".
+7. **Ảnh thật, kỳ vọng thực tế** — tránh cam kết "tuyệt đối" hoặc giá quá thấp không rõ bao gồm gì.
+8. **Đánh giá đa nguồn** — Google, Facebook, người quen; đọc cả review tiêu cực có phản hồi của phòng khám.
+9. **Phù hợp dịch vụ bạn cần** — nơi mạnh nâng mũi chưa chắc mạnh spa trị nám; chọn đúng chuyên môn.
+10. **Thuận đường & giờ mở cửa** — đặt lịch trước giờ cao điểm cuối tuần.
+
+![Địa chỉ thẩm mỹ Quận 5 An Đông — Thiên Hoàng Kim Hùng Vương](${NEWS_IMG_INTRO})
+
+## Khu vực Hùng Vương, An Đông — địa chỉ nổi bật
+
+### Thiên Hoàng Kim Aesthetic Clinic — 323–325 Hùng Vương, An Đông
+
+**Vị trí:** Trục Hùng Vương, Phường An Đông — thuận tiện từ Quận 5, 6, 10, khu Chợ Lớn. **Giờ mở cửa:** 08:00–20:00. **Hotline:** 0938 673 996.
+
+**Dịch vụ nổi bật:**
+- Thẩm mỹ y khoa: [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim), [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang), [cấy tóc tự thân](/tham-my/cay-toc-tu-than), căng chỉ, [filler](/tham-my/filler-tao-hinh), [botox](/tham-my/botox-xoa-nhan-gon-ham).
+- Spa: [chăm sóc da toàn diện](/spa/cham-soc-da-toan-dien), [phun xăm](/spa/phun-xam-tham-my), massage, ủ đá muối Himalaya.
+
+**Điểm khác biệt:** Một địa chỉ cho cả phẫu thuật/tiêm và spa — thuận tiên tái khám, theo dõi sẹo, điều chỉnh phác đồ dài hạn. Tư vấn ban đầu miễn phí; xem thêm [phòng khám thẩm mỹ An Đông](/tin-tuc/phong-kham-tham-my-an-dong) và [chủ đề thẩm mỹ TP.HCM](/tin-tuc/chu-de/local).
+
+### Các khu vực lân cận trên bản đồ thẩm mỹ Quận 5
+
+Ngoài Hùng Vương, nhiều khách tìm thêm địa chỉ trên **Nguyễn Trãi**, **Hồng Bàng**, **Châu Văn Liêm** — mỗi tuyến có phòng khám và spa khác nhau. Khi so sánh, hãy ghé **tư vấn miễn phí** ít nhất hai nơi, hỏi rõ ai thực hiện, giá bao gồm gì và lịch tái khám — không quyết định chỉ vì gần nhà hoặc khuyến mãi flash.
+
+## So sánh nhanh: chọn theo nhu cầu
+
+| Nhu cầu | Gợi ý ưu tiên khi chọn địa chỉ |
+|--------|--------------------------------|
+| Nâng mũi, cắt mí | Bác sĩ phẫu thuật thẩm mỹ, phòng mổ vô trùng, album case thật |
+| Filler, botox | Bác sĩ tiêm, sản phẩm chính hãng, có hyaluronidase nếu filler HA |
+| Trị nám, mụn, peel | Bác sĩ/chuyên viên da liễu, máy laser có chứng nhận |
+| Spa thư giãn | Chuyên viên đào tạo, không nhầm spa với phòng phẫu thuật |
+| Gần Chợ Lớn, An Đông | Hùng Vương, Nguyễn Trãi — kiểm tra đúng số nhà & giờ mở cửa |
+
+Thiên Hoàng Kim phù hợp khách muốn **một địa chỉ tổng hợp** thẩm mỹ y khoa + spa tại An Đông, không phải chạy nhiều nơi cho tái khám và facial định kỳ.
+
+## Cách đi & đặt lịch tại Hùng Vương, An Đông
+
+- **Xe máy / ô tô:** Trục Hùng Vương qua An Đông — hỏi lễ tân chỗ để xe khi đặt lịch.
+- **Từ Quận 10, 11, 6:** Thường 10–25 phút tùy giờ cao điểm.
+- **Đặt lịch:** Gọi **0938 673 996** hoặc nhắn fanpage — nên đặt trước cuối tuần.
+- **Lần đầu:** Tư vấn miễn phí → khám/soi da → báo giá → hẹn làm hoặc về cân nhắc.
+
+Xem [bảng giá tham khảo](/bang-gia) và [liên hệ](/lien-he) trên website.
+
+## Lưu ý khi đọc "top phòng khám" trên mạng
+
+Các bài **toplist** trên Toplist, BookingCare, SaigonReview thường tổng hợp theo tiêu chí riêng — hữu ích để tham khảo danh sách ban đầu, nhưng **không thay khám trực tiếp**. Một số bài được tài trợ hoặc cập nhật chậm; địa chỉ, bác sĩ và giá có thể đã thay đổi. Luôn xác minh hotline, số nhà và tư vấn miễn phí trước khi đóng tiền — đặc biệt với phẫu thuật và tiêm filler.
+
+## Câu hỏi thường gặp về địa chỉ thẩm mỹ Quận 5 An Đông
+
+**Quận 5 và An Đông có phải một chỗ không?** An Đông là phường thuộc Quận 5 — nhiều địa chỉ ghi "Quận 5" hoặc "An Đông" tùy cách đặt tên trên bản đồ.
+
+**Thiên Hoàng Kim ở đâu chính xác?** 323–325 Hùng Vương, Phường An Đông, TP.HCM — mở 08:00–20:00.
+
+**Tư vấn có mất phí không?** Tư vấn ban đầu miễn phí — xác nhận khi đặt lịch qua 0938 673 996.
+
+**Có đỗ xe không?** Hỏi lễ tân khi đặt lịch để được hướng dẫn chỗ đỗ gần nhất trên Hùng Vương.
+
+**Nên chọn Hùng Vương hay Nguyễn Trãi?** Tùy nhu cầu dịch vụ và khoảng cách nhà bạn — tiêu chí bác sĩ và an toàn quan trọng hơn tên đường.
+
+**Có làm việc Chủ nhật không?** Thường 08:00–20:00 — gọi xác nhận ngày lễ Tết.
+
+---
+
+**Đặt lịch tư vấn miễn phí** tại Thiên Hoàng Kim — **0938 673 996**, **323–325 Hùng Vương, An Đông, TP.HCM**. Khám trực tiếp vẫn là cách tốt nhất để chọn địa chỉ thẩm mỹ Quận 5 An Đông phù hợp với bạn.`;
