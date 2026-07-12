@@ -12,7 +12,8 @@
     "keywords:plan3": "node scripts/build-keyword-plan-3.mjs",
     "keywords:short": "node scripts/build-keyword-plan-short-500.mjs",
     "keywords:short:merge": "node scripts/merge-short-500.mjs",
-    "keywords:proposed:merge": "node scripts/merge-proposed-500.mjs"
+    "keywords:proposed:merge": "node scripts/merge-proposed-500.mjs",
+    "keywords:fix-local": "node scripts/fix-local-pillars.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.8"

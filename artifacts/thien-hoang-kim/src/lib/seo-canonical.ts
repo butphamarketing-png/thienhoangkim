@@ -32,6 +32,13 @@ export const PRIORITY_LOCAL_SLUGS = [
   "filler-quan-5-an-dong",
   "cat-mi-quan-5-an-dong",
   "chon-phong-kham-tham-my-an-toan",
+  "top-phong-kham-quan-5",
+  "tham-my-quan-5",
+  "nang-mui-tphcm",
+  "filler-tphcm",
+  "phong-kham-tham-my-quan-5",
+  "chi-phi-nang-mui-quan-5",
+  "dich-vu-tham-my-an-dong",
 ] as const;
 
 const planBySlug = new Map((mergedPlan as KeywordPlanEntry[]).map((e) => [e.slug, e]));

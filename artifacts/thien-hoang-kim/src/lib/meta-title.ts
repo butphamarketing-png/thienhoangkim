@@ -30,6 +30,12 @@ const LOCAL_PRIORITY_META: Record<string, string> = {
   "filler-quan-5-an-dong": "Filler Quận 5 An Đông | Chuẩn y khoa | THK",
   "cat-mi-quan-5-an-dong": "Cắt mí Quận 5 An Đông | Tự nhiên, an toàn | THK",
   "chon-phong-kham-tham-my-an-toan": "Chọn phòng khám thẩm mỹ an toàn | Checklist",
+  "top-phong-kham-quan-5": "Top phòng khám Quận 5 | Tiêu chí chọn | THK",
+  "tham-my-quan-5": "Thẩm mỹ Quận 5 | Thiên Hoàng Kim An Đông",
+  "nang-mui-tphcm": "Nâng mũi TP.HCM | Tư vấn miễn phí | THK",
+  "filler-tphcm": "Filler TP.HCM | Chuẩn y khoa | THK",
+  "phong-kham-tham-my-quan-5": "Phòng khám thẩm mỹ Q5 | Hùng Vương",
+  "chi-phi-nang-mui-quan-5": "Chi phí nâng mũi Q5 | Báo giá minh bạch",
 };
 
 /** Trang chính — meta title thu hút click */

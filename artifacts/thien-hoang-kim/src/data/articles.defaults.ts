@@ -74,6 +74,7 @@ import { MANUAL_BATCH_6_ARTICLES } from "@/data/news-batch-6.entries";
 import { MANUAL_BATCH_7_ARTICLES } from "@/data/news-batch-7.entries";
 import { MANUAL_BATCH_8_ARTICLES } from "@/data/news-batch-8.entries";
 import { MANUAL_BATCH_9_ARTICLES } from "@/data/news-batch-9.entries";
+import { MANUAL_BATCH_10_ARTICLES } from "@/data/news-batch-10.entries";
 import type { ArticleSeo, SiteArticle } from "@/types/site-content";
 
 const publicAsset = (file: string) =>
@@ -1102,15 +1103,16 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
   ),
 ];
 
-/** Bài tin sinh từ kế hoạch ~1000 từ khóa (keyword-plan.merged.json) */
+/** Bài tin — generated trước, manual sau để override slug trùng */
 const NEWS_ARTICLES: SiteArticle[] = [
+  ...GENERATED_NEWS_ARTICLES,
   ...MANUAL_NEWS_ARTICLES,
   ...MANUAL_BATCH_5_ARTICLES,
   ...MANUAL_BATCH_6_ARTICLES,
   ...MANUAL_BATCH_7_ARTICLES,
   ...MANUAL_BATCH_8_ARTICLES,
   ...MANUAL_BATCH_9_ARTICLES,
-  ...GENERATED_NEWS_ARTICLES,
+  ...MANUAL_BATCH_10_ARTICLES,
 ];
 
 /** Bài kiến thức chung (không gắn dịch vụ cụ thể) */

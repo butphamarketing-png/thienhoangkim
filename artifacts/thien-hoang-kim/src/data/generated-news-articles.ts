@@ -15,6 +15,7 @@ import {
   isThinHeadEntry,
   PRIORITY_LOCAL_SLUGS,
 } from "@/lib/seo-canonical";
+import { MANUAL_OVERRIDE_SLUGS } from "@/data/manual-override-slugs";
 import type { ArticleSeo, SiteArticle } from "@/types/site-content";
 
 const publicAsset = (file: string) =>
@@ -76,7 +77,10 @@ const REMOVED_ARTICLE_SLUGS = new Set(["hut-mo-cay-mo-ma", "hut-mo-ma"]);
 const MANUAL_PRIORITY_SLUGS = new Set<string>(PRIORITY_LOCAL_SLUGS);
 
 const entries = (mergedPlan as KeywordPlanEntry[]).filter(
-  (entry) => !REMOVED_ARTICLE_SLUGS.has(entry.slug) && !MANUAL_PRIORITY_SLUGS.has(entry.slug),
+  (entry) =>
+    !REMOVED_ARTICLE_SLUGS.has(entry.slug) &&
+    !MANUAL_PRIORITY_SLUGS.has(entry.slug) &&
+    !MANUAL_OVERRIDE_SLUGS.has(entry.slug),
 );
 
 export const GENERATED_NEWS_ARTICLES: SiteArticle[] = entries.map((entry, index) => {

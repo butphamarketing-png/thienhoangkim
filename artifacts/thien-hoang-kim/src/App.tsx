@@ -1,10 +1,10 @@
+import { lazy, Suspense } from "react";
 import { Switch, Route, Router as WouterRouter, useLocation, Redirect } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { SiteContentProvider, useSiteContent } from "@/context/SiteContentContext";
 import { BookingDialogProvider } from "@/context/BookingDialogContext";
-import { AdminApp } from "@/admin/AdminApp";
 import { isAdminLocation } from "@/config/admin";
 import { resolveLegacyServicePath, resolvePageContent } from "@/lib/site-cms";
 import ArticlePage from "@/pages/ArticlePage";
@@ -22,6 +22,9 @@ import ServiceDetailPage from "@/pages/ServiceDetailPage";
 import TopicClusterPage from "@/pages/TopicClusterPage";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { RouteSeo } from "@/components/RouteSeo";
+
+const AdminApp = lazy(() => import("@/admin/AdminApp").then((m) => ({ default: m.AdminApp })));
+
 const queryClient = new QueryClient();
 
 function DynamicContentPage() {
@@ -86,7 +89,11 @@ function PublicRouter() {
 function AppRouter() {
   const [location] = useLocation();
   if (isAdminLocation(location)) {
-    return <AdminApp />;
+    return (
+      <Suspense fallback={null}>
+        <AdminApp />
+      </Suspense>
+    );
   }
   return <PublicRouter />;
 }

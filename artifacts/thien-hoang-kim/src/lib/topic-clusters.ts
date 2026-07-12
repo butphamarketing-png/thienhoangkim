@@ -101,7 +101,10 @@ export const CLUSTER_FEATURED_SLUGS: Record<string, string[]> = {
   filler: ["filler-quan-5-an-dong", "filler-va-botox-khac-nhau", "filler-moi-tu-nhien"],
   local: [
     "dia-chi-tham-my-quan-5-an-dong",
+    "top-phong-kham-quan-5",
     "phong-kham-tham-my-an-dong",
+    "tham-my-quan-5",
+    "phong-kham-tham-my-quan-5",
     "nang-mui-quan-5-an-dong",
     "filler-quan-5-an-dong",
     "cat-mi-quan-5-an-dong",

@@ -188,9 +188,11 @@ export default function HomePage() {
           <div className="mt-6 flex flex-wrap gap-3">
             {[
               { href: "/tin-tuc/dia-chi-tham-my-quan-5-an-dong", label: "Địa chỉ thẩm mỹ Q5 An Đông" },
+              { href: "/tin-tuc/top-phong-kham-quan-5", label: "Top phòng khám Quận 5" },
               { href: "/tin-tuc/nang-mui-quan-5-an-dong", label: "Nâng mũi Quận 5" },
               { href: "/tin-tuc/filler-quan-5-an-dong", label: "Filler An Đông" },
               { href: "/tin-tuc/cat-mi-quan-5-an-dong", label: "Cắt mí Quận 5" },
+              { href: "/tin-tuc/tham-my-quan-5", label: "Thẩm mỹ Quận 5" },
               { href: "/tin-tuc/chu-de/local", label: "Tất cả bài địa phương" },
             ].map((link) => (
               <Link key={link.href} href={link.href}>
