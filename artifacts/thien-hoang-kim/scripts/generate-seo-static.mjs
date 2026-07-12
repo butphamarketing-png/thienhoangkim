@@ -4,7 +4,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildSeoPaths } from "./seo-paths.mjs";
+import { buildSeoPaths, PRIORITY_LOCAL_SLUGS } from "./seo-paths.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const publicDir = path.join(path.resolve(__dirname, ".."), "public");
@@ -38,11 +38,13 @@ function loadArticleDates() {
 
 function sitemapPriority(routePath) {
   if (routePath === "/") return "1.0";
-  if (routePath.startsWith("/tham-my/") || routePath.startsWith("/spa/")) return "0.9";
-  if (routePath.startsWith("/tin-tuc/chu-de/")) return "0.85";
+  if (routePath.startsWith("/tham-my/") || routePath.startsWith("/spa/")) return "0.95";
+  const localSlug = routePath.match(/^\/tin-tuc\/([^/]+)$/)?.[1];
+  if (localSlug && PRIORITY_LOCAL_SLUGS.includes(localSlug)) return "0.92";
+  if (routePath.startsWith("/tin-tuc/chu-de/")) return "0.88";
   if (routePath === "/tham-my" || routePath === "/spa" || routePath === "/dich-vu" || routePath === "/bang-gia")
     return "0.85";
-  if (routePath.startsWith("/tin-tuc/")) return "0.7";
+  if (routePath.startsWith("/tin-tuc/")) return "0.65";
   return "0.75";
 }
 

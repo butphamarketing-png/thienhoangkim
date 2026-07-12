@@ -22,6 +22,16 @@ const SERVICE_META: Record<string, string> = {
   "cham-soc-da-toan-dien": "Chăm sóc da toàn diện | Spa cao cấp | THK",
 };
 
+/** Bài local owned — title cạnh tranh Toplist/BookingCare */
+const LOCAL_PRIORITY_META: Record<string, string> = {
+  "dia-chi-tham-my-quan-5-an-dong": "Địa chỉ thẩm mỹ Q5 An Đông | THK Hùng Vương",
+  "phong-kham-tham-my-an-dong": "Phòng khám thẩm mỹ An Đông | 323 Hùng Vương",
+  "nang-mui-quan-5-an-dong": "Nâng mũi Quận 5 An Đông | Tư vấn miễn phí | THK",
+  "filler-quan-5-an-dong": "Filler Quận 5 An Đông | Chuẩn y khoa | THK",
+  "cat-mi-quan-5-an-dong": "Cắt mí Quận 5 An Đông | Tự nhiên, an toàn | THK",
+  "chon-phong-kham-tham-my-an-toan": "Chọn phòng khám thẩm mỹ an toàn | Checklist",
+};
+
 /** Trang chính — meta title thu hút click */
 const ROUTE_META: Record<string, string> = {
   "": "Thiên Hoàng Kim | Thẩm mỹ uy tín TP.HCM — Tư vấn miễn phí",
@@ -86,6 +96,7 @@ function capitalizeFirst(text: string): string {
 }
 
 function buildArticleMetaTitle(slug: string, displayTitle: string): string {
+  if (LOCAL_PRIORITY_META[slug]) return truncateTitle(LOCAL_PRIORITY_META[slug]);
   if (SERVICE_META[slug]) return truncateTitle(SERVICE_META[slug]);
 
   const topic = capitalizeFirst(displayTitle);

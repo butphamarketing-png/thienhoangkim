@@ -177,6 +177,32 @@ export default function HomePage() {
         articleDetailLabel={content.handbook.articleDetailLabel}
       />
 
+      <section className="border-t border-border bg-[#fafcfb] py-10 md:py-12">
+        <div className="container mx-auto px-4 md:px-8">
+          <h2 className="font-serif text-2xl font-bold text-primary md:text-3xl">
+            Thẩm mỹ Quận 5 & An Đông — Thiên Hoàng Kim
+          </h2>
+          <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
+            323–325 Hùng Vương, Phường An Đông — nâng mũi, filler, cắt mí, spa. Tư vấn miễn phí 0938 673 996.
+          </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            {[
+              { href: "/tin-tuc/dia-chi-tham-my-quan-5-an-dong", label: "Địa chỉ thẩm mỹ Q5 An Đông" },
+              { href: "/tin-tuc/nang-mui-quan-5-an-dong", label: "Nâng mũi Quận 5" },
+              { href: "/tin-tuc/filler-quan-5-an-dong", label: "Filler An Đông" },
+              { href: "/tin-tuc/cat-mi-quan-5-an-dong", label: "Cắt mí Quận 5" },
+              { href: "/tin-tuc/chu-de/local", label: "Tất cả bài địa phương" },
+            ].map((link) => (
+              <Link key={link.href} href={link.href}>
+                <span className="inline-flex rounded-full border border-primary/30 bg-white px-4 py-2 text-sm font-semibold text-primary transition hover:bg-primary/5">
+                  {link.label}
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <CtaContactSection
         title={home.ctaTitle}
         description={home.ctaDescription}

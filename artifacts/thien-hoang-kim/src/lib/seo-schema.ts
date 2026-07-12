@@ -168,9 +168,23 @@ export function buildJsonLdGraph(ctx: SchemaContext, content: SiteContent): obje
     address: {
       "@type": "PostalAddress",
       streetAddress: settings.address,
-      addressLocality: "TP. Hồ Chí Minh",
+      addressLocality: "Quận 5",
+      addressRegion: "TP. Hồ Chí Minh",
+      postalCode: "700000",
       addressCountry: "VN",
     },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 10.7542,
+      longitude: 106.6594,
+    },
+    areaServed: [
+      { "@type": "AdministrativeArea", name: "Quận 5" },
+      { "@type": "AdministrativeArea", name: "An Đông" },
+      { "@type": "AdministrativeArea", name: "Quận 6" },
+      { "@type": "AdministrativeArea", name: "Quận 10" },
+      { "@type": "City", name: "TP. Hồ Chí Minh" },
+    ],
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
@@ -248,11 +262,11 @@ export function buildJsonLdGraph(ctx: SchemaContext, content: SiteContent): obje
       description: ctx.meta.description,
       provider: { "@id": orgId },
       serviceType: ctx.service.categoryLabel,
-      areaServed: {
-        "@type": "City",
-        name: "TP. Hồ Chí Minh",
-        containedInPlace: { "@type": "Country", name: "Việt Nam" },
-      },
+      areaServed: [
+        { "@type": "AdministrativeArea", name: "Quận 5" },
+        { "@type": "AdministrativeArea", name: "An Đông" },
+        { "@type": "City", name: "TP. Hồ Chí Minh" },
+      ],
       url: ctx.meta.canonical,
       image: ctx.meta.ogImage || undefined,
       hasOfferCatalog: buildServiceOfferCatalog(ctx.service.label, ctx.meta.canonical),

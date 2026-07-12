@@ -747,3 +747,162 @@ Các bài **toplist** trên Toplist, BookingCare, SaigonReview thường tổng 
 ---
 
 **Đặt lịch tư vấn miễn phí** tại Thiên Hoàng Kim — **0938 673 996**, **323–325 Hùng Vương, An Đông, TP.HCM**. Khám trực tiếp vẫn là cách tốt nhất để chọn địa chỉ thẩm mỹ Quận 5 An Đông phù hợp với bạn.`;
+
+export const NANG_MUI_QUAN_5_AN_DONG_BODY = `Tìm **nâng mũi Quận 5** hoặc **nâng mũi An Đông** trên Google, bạn sẽ thấy nhiều phòng khám trên Hùng Vương, Nguyễn Trãi và khu Chợ Lớn. Bài viết này tập trung vào cách chọn địa chỉ uy tín và quy trình [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim) tại **Thiên Hoàng Kim — 323–325 Hùng Vương, Phường An Đông** — phù hợp khách Quận 5, 6, 10 và lân cận.
+
+## Vì sao nhiều khách chọn nâng mũi tại An Đông, Quận 5?
+
+Khu An Đông thuộc Quận 5 — giao thông thuận, dễ tái khám sau mổ. Nhiều khách không muốn đi xa về trung tâm Quận 1 khi cần theo dõi sưng, cắt chỉ và chăm sóc hậu phẫu. **Nâng mũi Quận 5** tại Thiên Hoàng Kim kết hợp phẫu thuật y khoa và spa chăm sóc da — một địa chỉ cho cả tái khám và facial phục hồi.
+
+![Nâng mũi Quận 5 An Đông tại Thiên Hoàng Kim](${NEWS_IMG_INTRO})
+
+## Nâng mũi hoàng kim — khác biệt gì?
+
+Nâng mũi hoàng kim tại Thiên Hoàng Kim nhấn **tỉ lệ vàng, sống thẳng, đầu mũi mềm** — hài hòa khuôn mặt người Việt, không theo kiểu Tây quá cao. Bác sĩ đánh giá sụn, da đầu mũi và kỳ vọng trước mổ; báo giá minh bạch sau khám. So với tiêm filler mũi: phẫu thuật thay đổi cấu trúc bền hơn; filler chỉ phù hợp chỉnh nhẹ.
+
+## Quy trình tư vấn & phẫu thuật
+
+1. **Đặt lịch** — 0938 673 996, mở 08:00–20:00.
+2. **Khám & chụp ảnh** — đánh giá xương sụn, da, sức khỏe.
+3. **Phác đồ & báo giá** — loại sụn, kỹ thuật, thời gian nghỉ dưỡng.
+4. **Phẫu thuật** — phòng vô trùng, gây mê chuẩn y khoa.
+5. **Tái khám** — theo dõi sưng, nẹp, chăm sóc vết mổ.
+
+Chi tiết: [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim) · [chăm sóc sau nâng mũi](/tin-tuc/cham-soc-sau-nang-mui) · [nâng mũi có đau không](/tin-tuc/nang-mui-co-dau-khong).
+
+## Giá nâng mũi Quận 5 — yếu tố ảnh hưởng
+
+| Yếu tố | Ảnh hưởng |
+|--------|-----------|
+| Loại sụn (tai, sườn, bọc) | Chi phí vật tư & độ khó |
+| Mức chỉnh sửa | Nâng nhẹ vs chỉnh xương sống |
+| Bác sĩ thực hiện | Kinh nghiệm & phác đồ |
+| Gói tái khám | Có hay không bao gồm |
+
+Xem [bảng giá](/bang-gia) tham khảo — báo giá chính xác sau khám trực tiếp tại Hùng Vương.
+
+## Checklist chọn nơi nâng mũi uy tín An Đông
+
+1. Bác sĩ phẫu thuật công bố rõ, có tái khám.
+2. Phòng mổ vô trùng, không mổ tại spa.
+3. Báo giá minh bạch — không phụ phí ẩn.
+4. Album case thật, kỳ vọng thực tế.
+5. Hotline hỗ trợ sau mổ.
+
+Xem thêm [chọn phòng khám thẩm mỹ an toàn](/tin-tuc/chon-phong-kham-tham-my-an-toan) và [địa chỉ thẩm mỹ Q5](/tin-tuc/dia-chi-tham-my-quan-5-an-dong).
+
+## Câu hỏi thường gặp
+
+**Nâng mũi Quận 5 ở đâu uy tín?** Thiên Hoàng Kim 323–325 Hùng Vương, An Đông — tư vấn miễn phí 0938 673 996.
+
+**Bao lâu hồi phục?** Sưng đỉnh 3–7 ngày; đi làm văn phòng thường 7–10 ngày; kết quả ổn định vài tháng.
+
+**Có đau không?** Trong mổ không đau (gây mê); sau mổ kiểm soát bằng thuốc — xem [nâng mũi có đau không](/tin-tuc/nang-mui-co-dau-khong).
+
+**Giá bao nhiêu?** Theo phác đồ cá nhân — khám trực tiếp để nhận báo giá.
+
+**Có nghỉ việc bao lâu?** Tùy công việc; văn phòng ~1 tuần, công việc nặng có thể 2 tuần.
+
+---
+
+**Đặt lịch nâng mũi Quận 5 An Đông:** **0938 673 996** — Thiên Hoàng Kim, 323–325 Hùng Vương.`;
+
+export const FILLER_QUAN_5_AN_DONG_BODY = `**Filler Quận 5** và **tiêm filler An Đông** là từ khóa nhiều khách tìm khi muốn chỉnh mũi, môi, cằm gần nhà — không phải đi xa trung tâm. Thiên Hoàng Kim tại **323–325 Hùng Vương, Phường An Đông** cung cấp [filler tạo hình](/tham-my/filler-tao-hinh) do bác sĩ tiêm, sản phẩm chính hãng và tái khám theo dõi.
+
+## Filler là gì — ai phù hợp tại Quận 5?
+
+Filler HA bổ sung thể tích — môi, cằm, rãnh cười, mũi nhẹ, thái dương. Phù hợp khách muốn thay đổi nhanh, nghỉ ngắn. Không thay phẫu thuật khi cần chỉnh xương sụn lớn. Bác sĩ Thiên Hoàng Kim tư vấn liều vừa — tránh overfill, giữ nét tự nhiên.
+
+![Filler Quận 5 An Đông — Thiên Hoàng Kim](${NEWS_IMG_SLIDE})
+
+## Giá filler Quận 5 — minh bạch
+
+| Vùng | Liều thường gặp | Ghi chú |
+|------|-----------------|---------|
+| Môi | 0,5–1 ml | Chất mềm, viền tự nhiên |
+| Cằm | 1–2 ml | Nâng profile |
+| Mũi | 0,3–1 ml | Kỹ thuật cao, bác sĩ có kinh nghiệm |
+| Rãnh cười | 1–3 ml | Tùy độ sâu |
+
+Báo giá sau khám — xem [bảng giá](/bang-gia). Không chào giá rẻ ẩn phí.
+
+## An toàn khi tiêm filler An Đông
+
+- Filler có tem, mã truy xuất.
+- Bác sĩ tiêm trực tiếp — hiểu giải phẫu mạch máu vùng mũi/môi.
+- Có phác đồ xử lý biến chứng (hyaluronidase).
+- Tái khám 1–2 tuần.
+
+So sánh filler vs botox: [filler và botox khác nhau](/tin-tuc/filler-va-botox-khac-nhau).
+
+## Tại sao chọn Thiên Hoàng Kim Hùng Vương?
+
+Một địa chỉ cho filler, botox, nâng mũi, cắt mí và spa — thuận tiện tái khám và điều chỉnh phác đồ dài hạn. Khu An Đông, Chợ Lớn — khách quen từ Quận 5, 6, 10. Xem [phòng khám thẩm mỹ An Đông](/tin-tuc/phong-kham-tham-my-an-dong).
+
+## Câu hỏi thường gặp
+
+**Filler Quận 5 giá bao nhiêu?** Theo ml và vùng — tư vấn miễn phí 0938 673 996.
+
+**Tiêm filler có đau không?** Tê trước tiêm; chịu được vài phút.
+
+**Bao lâu tan?** HA thường 6–18 tháng tùy vùng và loại.
+
+**Filler mũi có thay nâng mũi không?** Chỉ chỉnh nhẹ — mũi thấp nhiều cần [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim).
+
+**Đặt lịch thế nào?** Gọi **0938 673 996** — 323–325 Hùng Vương, mở 08:00–20:00.
+
+---
+
+**Filler Quận 5 An Đông** tại Thiên Hoàng Kim — tư vấn miễn phí, không ép làm ngay.`;
+
+export const CAT_MI_QUAN_5_AN_DONG_BODY = `**Cắt mí Quận 5** và **cắt mí An Đông** được tìm kiếm nhiều bởi khách muốn mắt to, nếp mí rõ mà vẫn gần nhà để tái khám. Thiên Hoàng Kim **323–325 Hùng Vương** thực hiện [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang) — thiết kế nếp cong dài, tự nhiên, phù hợp mí lót và mí chùng.
+
+## Cắt mí phượng hoàng — ai phù hợp?
+
+- Mí lót, mí một bầu, mí chùng nhẹ đến trung bình.
+- Muốn mắt to, sắc nét nhưng không quá “Tây”.
+- Đã thử nhấn mí / dán mí nhưng không bền.
+
+Bác sĩ đánh giá tỉ lệ mắt–mày–mũi; không mổ khi viêm mắt cấp, bệnh nền chưa ổn định.
+
+![Cắt mí Quận 5 An Đông tại Thiên Hoàng Kim](${NEWS_IMG_INTRO})
+
+## Quy trình & hồi phục
+
+1. Tư vấn miễn phí — chụp ảnh, thiết kế nếp mí.
+2. Phẫu thuật — tê/gây mê tại chỗ, thường 45–90 phút.
+3. Chườm lạnh 48h đầu — giảm sưng.
+4. Cắt chỉ ~ngày 5–7 (nếu chỉ không tiêu).
+5. Tái khám — theo dõi nếp mí hai bên.
+
+Timeline: [cắt mí bao lâu hồi phục](/tin-tuc/cat-mi-bao-lau-hoi-phuc) · [sưng sau cắt mí](/tin-tuc/sung-sau-cat-mi) · [chăm sóc sau cắt mí](/tin-tuc/cham-soc-sau-cat-mi).
+
+## Giá cắt mí Quận 5
+
+Phụ thuộc: mí lót vs mí chùng, có lấy mỡ bọng mắt, bác sĩ thực hiện. Báo giá minh bạch sau khám — [bảng giá](/bang-gia) tham khảo. Tránh quảng cáo “cắt mí 2 triệu trọn gói” không rõ bao gồm gì.
+
+## Checklist chọn nơi cắt mí An Đông
+
+1. Bác sĩ thẩm mỹ mắt có kinh nghiệm.
+2. Phòng mổ vô trùng — không cắt mí tại spa thuần.
+3. Album before/after thật, kỳ vọng rõ.
+4. Phiếu hướng dẫn chăm sóc sau mổ.
+5. Hotline hỗ trợ khi sưng bất thường.
+
+Xem [địa chỉ thẩm mỹ Q5](/tin-tuc/dia-chi-tham-my-quan-5-an-dong) · [chọn phòng khám an toàn](/tin-tuc/chon-phong-kham-tham-my-an-toan).
+
+## Câu hỏi thường gặp
+
+**Cắt mí Quận 5 ở đâu?** Thiên Hoàng Kim 323–325 Hùng Vương, An Đông.
+
+**Bao lâu đi làm lại?** Văn phòng thường 7–10 ngày.
+
+**Có để lại sẹo không?** Nếp mí ẩn trong nếp gấp — lâu ngày khó thấy nếu chăm sóc tốt.
+
+**Cắt mí có đau không?** Tê trong mổ; sau mổ đau nhẹ vài ngày — thuốc kiểm soát được.
+
+**Đặt lịch:** **0938 673 996** — tư vấn miễn phí 08:00–20:00.
+
+---
+
+**Cắt mí Quận 5 An Đông** — Thiên Hoàng Kim, Hùng Vương. Khám trực tiếp trước khi quyết định.`;

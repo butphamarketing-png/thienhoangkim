@@ -8,6 +8,7 @@ import { useSiteContent } from "@/context/SiteContentContext";
 import { ArticleBodyContent } from "@/components/ArticleBodyContent";
 import { getPreferredArticlePath } from "@/data/services-catalog";
 import { buildHeroImageAlt } from "@/lib/article-seo";
+import { getThinArticleCanonicalPath } from "@/lib/seo-canonical";
 import { EAGER_IMG } from "@/lib/image-loading";
 import { getRelatedArticles, matchClusterBySlug } from "@/lib/topic-clusters";
 import NotFound from "@/pages/not-found";
@@ -26,6 +27,11 @@ export default function ArticlePage() {
   const preferredPath = getPreferredArticlePath(slug!);
   if (preferredPath) {
     return <Redirect to={preferredPath} />;
+  }
+
+  const thinCanonical = getThinArticleCanonicalPath(slug!);
+  if (thinCanonical) {
+    return <Redirect to={thinCanonical} />;
   }
 
   const focusKeyphrase = article.seo?.focusKeyphrase ?? "";

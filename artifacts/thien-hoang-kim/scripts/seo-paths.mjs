@@ -4,6 +4,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { buildThinCanonicalSet, PRIORITY_LOCAL_SLUGS } from "./seo-canonical.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const appRoot = path.resolve(__dirname, "..");
@@ -111,12 +112,17 @@ const TOPIC_CLUSTER_IDS = [
 
 /** Tất cả path công khai cần sitemap + prerender */
 export function buildSeoPaths() {
+  const thinExcluded = buildThinCanonicalSet();
   const paths = new Set([...STATIC_PATHS, ...SERVICE_PATHS]);
   for (const id of TOPIC_CLUSTER_IDS) {
     paths.add(`/tin-tuc/chu-de/${id}`);
   }
   for (const slug of collectNewsSlugs()) {
-    if (!SERVICE_LINKED_SLUGS.has(slug)) paths.add(`/tin-tuc/${slug}`);
+    if (SERVICE_LINKED_SLUGS.has(slug)) continue;
+    if (thinExcluded.has(slug)) continue;
+    paths.add(`/tin-tuc/${slug}`);
   }
   return [...paths];
 }
+
+export { PRIORITY_LOCAL_SLUGS };

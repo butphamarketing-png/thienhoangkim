@@ -82,12 +82,43 @@ export const TOPIC_CLUSTERS: TopicCluster[] = [
   },
   {
     id: "local",
-    label: "Thẩm mỹ TP.HCM",
-    pillar: "/lien-he",
-    pillarLabel: "Liên hệ đặt lịch",
-    slugTest: /(tphcm|tp-hcm|an-dong|quan-|phong-kham|clinic-|cho-lon|hung-vuong|gan-day)/,
+    label: "Thẩm mỹ Quận 5 & An Đông",
+    pillar: "/tin-tuc/dia-chi-tham-my-quan-5-an-dong",
+    pillarLabel: "Địa chỉ thẩm mỹ Q5 An Đông",
+    slugTest: /(tphcm|tp-hcm|an-dong|quan-|phong-kham|clinic-|cho-lon|hung-vuong|gan-day|tham-my-q)/,
   },
 ];
+
+/** Bài nổi bật trên hub — owned content ưu tiên ranking */
+export const CLUSTER_FEATURED_SLUGS: Record<string, string[]> = {
+  "nang-mui": [
+    "nang-mui-quan-5-an-dong",
+    "nang-mui-co-dau-khong",
+    "cham-soc-sau-nang-mui",
+    "gia-nang-mui-bao-nhieu",
+  ],
+  "cat-mi": ["cat-mi-quan-5-an-dong", "cat-mi-bao-lau-hoi-phuc", "cham-soc-sau-cat-mi", "sung-sau-cat-mi"],
+  filler: ["filler-quan-5-an-dong", "filler-va-botox-khac-nhau", "filler-moi-tu-nhien"],
+  local: [
+    "dia-chi-tham-my-quan-5-an-dong",
+    "phong-kham-tham-my-an-dong",
+    "nang-mui-quan-5-an-dong",
+    "filler-quan-5-an-dong",
+    "cat-mi-quan-5-an-dong",
+    "chon-phong-kham-tham-my-an-toan",
+  ],
+};
+
+export const CLUSTER_HUB_INTRO: Record<string, string> = {
+  "nang-mui":
+    "Tổng hợp kiến thức nâng mũi tại Thiên Hoàng Kim — từ tư vấn, quy trình, hồi phục đến giá tham khảo. Phòng khám **323–325 Hùng Vương, An Đông, Quận 5** — hotline **0938 673 996**.",
+  "cat-mi":
+    "Cắt mí, nhấn mí và chăm sóc sau mổ — bài viết từ bác sĩ Thiên Hoàng Kim An Đông. Đặt lịch tư vấn miễn phí tại Quận 5.",
+  filler:
+    "Filler mũi, môi, cằm — giải thích an toàn, giá minh bạch và tiêm đúng liều tại **Thiên Hoàng Kim Hùng Vương**.",
+  local:
+    "Thẩm mỹ uy tín **Quận 5, An Đông, Hùng Vương** — checklist chọn phòng khám, địa chỉ và dịch vụ tại Thiên Hoàng Kim.",
+};
 
 const SERVICE_SLUG_TO_CLUSTER: Record<string, string> = {
   "nang-mui-hoang-kim": "nang-mui",
@@ -186,6 +217,34 @@ export function getRelatedForService(
   });
 
   return { cluster, articles };
+}
+
+export function getFeaturedClusterArticles(
+  content: SiteContent,
+  clusterId: string,
+): SiteArticle[] {
+  const slugs = CLUSTER_FEATURED_SLUGS[clusterId] ?? [];
+  const bySlug = new Map(content.articles.map((a) => [a.slug, a]));
+  return slugs.map((s) => bySlug.get(s)).filter((a): a is SiteArticle => Boolean(a?.published));
+}
+
+export function getClusterHubIntro(clusterId: string): string | undefined {
+  return CLUSTER_HUB_INTRO[clusterId];
+}
+
+export function getLocalArticlesForService(
+  content: SiteContent,
+  serviceSlug: string,
+): SiteArticle[] {
+  const map: Record<string, string> = {
+    "nang-mui-hoang-kim": "nang-mui-quan-5-an-dong",
+    "filler-tao-hinh": "filler-quan-5-an-dong",
+    "cat-mi-phuong-hoang": "cat-mi-quan-5-an-dong",
+  };
+  const slug = map[serviceSlug];
+  if (!slug) return [];
+  const article = content.articles.find((a) => a.slug === slug && a.published);
+  return article ? [article] : [];
 }
 
 export function articleHref(content: SiteContent, slug: string): string {

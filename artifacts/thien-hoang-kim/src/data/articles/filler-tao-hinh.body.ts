@@ -128,6 +128,19 @@ Với filler, rủi ro lớn nhất không nằm ở sưng bầm thông thườn
 
 Thiên Hoàng Kim phù hợp khách tìm **filler TP.HCM**, **filler Quận 5**, **filler An Đông** theo hướng tự nhiên: tiêm vừa đủ, giữ nét mặt mềm, ưu tiên an toàn hơn chạy theo trend quá đầy hoặc quá sắc.
 
+## Checklist tiêm filler uy tín tại Quận 5 – An Đông
+
+Khi tìm **filler Quận 5** hoặc **tiêm filler An Đông**, hãy đối chiếu checklist sau trước khi đóng tiền:
+
+1. **Địa chỉ cố định** — số nhà rõ trên Hùng Vương/Nguyễn Trãi, không phòng khám “ảo”.
+2. **Bác sĩ tiêm trực tiếp** — hỏi chứng chỉ, kinh nghiệm vùng mũi/môi (nguy cơ tắc mạch).
+3. **Filler chính hãng** — tem, mã QR, còn hạn; có hyaluronidase khi cần.
+4. **Báo giá theo ml/vùng** — không gói “trọn đời” mơ hồ.
+5. **Tái khám 1–2 tuần** — theo dõi sưng, bầm, bất đối xứng.
+6. **Không ép tiêm thêm** — từ chối khi khách muốn quá liều.
+
+Thiên Hoàng Kim tại **323–325 Hùng Vương, An Đông** đáp ứng các tiêu chí trên — xem thêm [filler Quận 5 An Đông](/tin-tuc/filler-quan-5-an-dong) và [địa chỉ thẩm mỹ Q5](/tin-tuc/dia-chi-tham-my-quan-5-an-dong).
+
 ## Câu hỏi thường gặp (FAQ)
 
 **Tiêm filler có đau không?** Tê trước tiêm; cảm giác chích nhẹ; môi/mũi nhạy hơn má.

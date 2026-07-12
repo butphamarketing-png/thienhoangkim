@@ -728,7 +728,7 @@
   {
     "focus": "botox Chợ Lớn",
     "slug": "botox-cho-lon",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
     "title": "Botox Chợ Lớn — Tư vấn tại Thiên Hoàng Kim",
     "source": "long-tail-500",
     "priority": "cao",
@@ -1196,7 +1196,7 @@
   {
     "focus": "botox quận 5",
     "slug": "botox-quan-5",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
     "source": "plan1",
     "title": "Botox quận 5 — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -1230,7 +1230,7 @@
   {
     "focus": "botox TP.HCM",
     "slug": "botox-tp-hcm",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
     "source": "plan1",
     "title": "Botox TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -1701,7 +1701,7 @@
   {
     "focus": "cắt mí An Đông",
     "slug": "cat-mi-an-dong",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
     "source": "both",
     "title": "Cắt mí An Đông — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -1742,7 +1742,7 @@
   {
     "focus": "cắt mí Chợ Lớn",
     "slug": "cat-mi-cho-lon",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
     "title": "Cắt mí Chợ Lớn — Tư vấn tại Thiên Hoàng Kim",
     "source": "long-tail-500",
     "priority": "cao",
@@ -1999,7 +1999,7 @@
   {
     "focus": "cắt mí TP.HCM",
     "slug": "cat-mi-tp-hcm",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
     "source": "plan1",
     "title": "Cắt mí TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -2303,7 +2303,7 @@
   {
     "focus": "cấy tóc Chợ Lớn",
     "slug": "cay-toc-cho-lon",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/cay-toc-tu-than",
     "title": "Cấy tóc Chợ Lớn — Tư vấn tại Thiên Hoàng Kim",
     "source": "long-tail-500",
     "priority": "cao",
@@ -2575,7 +2575,7 @@
   {
     "focus": "cấy tóc quận 5",
     "slug": "cay-toc-quan-5",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/cay-toc-tu-than",
     "source": "plan1",
     "title": "Cấy tóc quận 5 — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -2629,7 +2629,7 @@
   {
     "focus": "cấy tóc TP.HCM",
     "slug": "cay-toc-tp-hcm",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/cay-toc-tu-than",
     "source": "plan1",
     "title": "Cấy tóc TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -4670,7 +4670,7 @@
   {
     "focus": "filler Chợ Lớn",
     "slug": "filler-cho-lon",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/filler-tao-hinh",
     "title": "Filler Chợ Lớn — Tư vấn tại Thiên Hoàng Kim",
     "source": "long-tail-500",
     "priority": "cao",
@@ -5022,7 +5022,7 @@
   {
     "focus": "filler Quận 5",
     "slug": "filler-quan-5",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/filler-tao-hinh",
     "source": "both",
     "title": "Filler Quận 5 — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -5111,7 +5111,7 @@
   {
     "focus": "filler TP.HCM",
     "slug": "filler-tp-hcm",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/filler-tao-hinh",
     "source": "plan1",
     "title": "Filler TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -7827,7 +7827,7 @@
   {
     "focus": "massage TP.HCM",
     "slug": "massage-tp-hcm",
-    "pillar": "/lien-he",
+    "pillar": "/spa/massage-body-thu-gian",
     "source": "plan1",
     "title": "Massage TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -9261,7 +9261,7 @@
   {
     "focus": "nâng mũi An Đông",
     "slug": "nang-mui-an-dong",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan1",
     "title": "Nâng mũi An Đông — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -9383,7 +9383,7 @@
   {
     "focus": "nâng mũi Chợ Lớn",
     "slug": "nang-mui-cho-lon",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
     "title": "Nâng mũi Chợ Lớn — Tư vấn tại Thiên Hoàng Kim",
     "source": "long-tail-500",
     "priority": "cao",
@@ -9657,7 +9657,7 @@
   {
     "focus": "nâng mũi Quận 5",
     "slug": "nang-mui-quan-5",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "both",
     "title": "Nâng mũi Quận 5 — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -9725,7 +9725,7 @@
   {
     "focus": "nâng mũi TP.HCM",
     "slug": "nang-mui-tp-hcm",
-    "pillar": "/lien-he",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
     "source": "plan1",
     "title": "Nâng mũi TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -10981,7 +10981,7 @@
   {
     "focus": "phun xăm TP.HCM",
     "slug": "phun-xam-tp-hcm",
-    "pillar": "/lien-he",
+    "pillar": "/spa/phun-xam-tham-my",
     "source": "plan1",
     "title": "Phun xăm TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -11881,7 +11881,7 @@
   {
     "focus": "spa An Đông",
     "slug": "spa-an-dong",
-    "pillar": "/lien-he",
+    "pillar": "/spa/massage-body-thu-gian",
     "source": "both",
     "title": "Spa An Đông — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -12026,7 +12026,7 @@
   {
     "focus": "spa gần đây",
     "slug": "spa-gan-day",
-    "pillar": "/lien-he",
+    "pillar": "/spa/massage-body-thu-gian",
     "source": "both",
     "title": "Spa gần đây — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -12057,7 +12057,7 @@
   {
     "focus": "spa Hùng Vương",
     "slug": "spa-hung-vuong",
-    "pillar": "/lien-he",
+    "pillar": "/spa/massage-body-thu-gian",
     "source": "both",
     "title": "Spa Hùng Vương — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -12178,7 +12178,7 @@
   {
     "focus": "spa Quận 10",
     "slug": "spa-quan-10",
-    "pillar": "/lien-he",
+    "pillar": "/spa/massage-body-thu-gian",
     "title": "Spa Quận 10 — Tư vấn tại Thiên Hoàng Kim",
     "source": "long-tail-500",
     "priority": "cao",
@@ -12188,7 +12188,7 @@
   {
     "focus": "spa Quận 11",
     "slug": "spa-quan-11",
-    "pillar": "/lien-he",
+    "pillar": "/spa/massage-body-thu-gian",
     "title": "Spa Quận 11 — Tư vấn tại Thiên Hoàng Kim",
     "source": "long-tail-500",
     "priority": "cao",
@@ -12205,7 +12205,7 @@
   {
     "focus": "spa Quận 5",
     "slug": "spa-quan-5-chi-tiet",
-    "pillar": "/lien-he",
+    "pillar": "/spa/massage-body-thu-gian",
     "title": "Spa Quận 5 — Tư vấn tại Thiên Hoàng Kim",
     "source": "long-tail-500",
     "priority": "cao",
@@ -12215,7 +12215,7 @@
   {
     "focus": "spa Quận 6",
     "slug": "spa-quan-6",
-    "pillar": "/lien-he",
+    "pillar": "/spa/massage-body-thu-gian",
     "title": "Spa Quận 6 — Tư vấn tại Thiên Hoàng Kim",
     "source": "long-tail-500",
     "priority": "cao",
@@ -12299,7 +12299,7 @@
   {
     "focus": "spa TP.HCM",
     "slug": "spa-tp-hcm",
-    "pillar": "/lien-he",
+    "pillar": "/spa/massage-body-thu-gian",
     "source": "plan1",
     "title": "Spa TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },
@@ -12336,7 +12336,7 @@
   {
     "focus": "spa uy tín TP.HCM",
     "slug": "spa-uy-tin-tp-hcm",
-    "pillar": "/lien-he",
+    "pillar": "/spa/massage-body-thu-gian",
     "source": "plan1",
     "title": "Spa uy tín TP.HCM — Tư vấn tại Thiên Hoàng Kim"
   },

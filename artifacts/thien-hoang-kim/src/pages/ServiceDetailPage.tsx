@@ -11,7 +11,7 @@ import { SERVICE_CATEGORIES } from "@/data/services-catalog";
 import { buildHeroImageAlt } from "@/lib/article-seo";
 import { EAGER_IMG } from "@/lib/image-loading";
 import { getServiceItem, resolveServiceCategories } from "@/lib/site-cms";
-import { getRelatedForService } from "@/lib/topic-clusters";
+import { getRelatedForService, getLocalArticlesForService } from "@/lib/topic-clusters";
 import type { ServiceCategoryId } from "@/types/site-content";
 import NotFound from "@/pages/not-found";
 
@@ -56,6 +56,7 @@ Khách hàng được thăm khám, phân tích và lên phác đồ cá nhân tr
   const focusKeyphrase = article?.seo?.focusKeyphrase ?? service.label;
   const heroAlt = buildHeroImageAlt(focusKeyphrase, title);
   const { cluster, articles: related } = getRelatedForService(content, slug, 8);
+  const localArticles = getLocalArticlesForService(content, slug);
 
   return (
     <SiteLayout>
@@ -82,6 +83,28 @@ Khách hàng được thăm khám, phân tích và lên phác đồ cá nhân tr
         <img src={image} alt={heroAlt} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover object-top shadow-lg" {...EAGER_IMG} />
         <p className="mt-8 text-lg font-medium leading-relaxed text-foreground/90">{description}</p>
         <ArticleBodyContent body={body} imageAlt={heroAlt} />
+        {localArticles.length > 0 && (
+          <div className="mt-10 rounded-2xl border border-primary/20 bg-primary/5 p-6">
+            <h2 className="font-serif text-xl font-bold text-primary">Thẩm mỹ Quận 5 & An Đông</h2>
+            <p className="mt-2 text-sm text-muted-foreground">
+              Thiên Hoàng Kim — 323–325 Hùng Vương, Phường An Đông. Tư vấn miễn phí: 0938 673 996.
+            </p>
+            <ul className="mt-4 space-y-2">
+              {localArticles.map((a) => (
+                <li key={a.id}>
+                  <Link href={`/tin-tuc/${a.slug}`} className="font-semibold text-primary hover:underline">
+                    {a.title}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link href="/tin-tuc/dia-chi-tham-my-quan-5-an-dong" className="font-semibold text-primary hover:underline">
+                  Địa chỉ thẩm mỹ Quận 5 An Đông — gợi ý & tiêu chí chọn
+                </Link>
+              </li>
+            </ul>
+          </div>
+        )}
         <RelatedArticlesBlock
           content={content}
           cluster={cluster}

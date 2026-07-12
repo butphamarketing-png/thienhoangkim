@@ -45,6 +45,15 @@ export default function ContactPage() {
           >
             Mở Google Maps →
           </a>
+          <div className="mt-6 overflow-hidden rounded-2xl border border-border shadow-sm">
+            <iframe
+              title="Bản đồ Thiên Hoàng Kim — 323–325 Hùng Vương, An Đông"
+              src="https://maps.google.com/maps?q=323-325+H%C3%B9ng+V%C6%B0ng,+An+%C4%90%C3%B4ng,+Qu%E1%BA%ADn+5,+TP.HCM&hl=vi&z=16&output=embed"
+              className="h-[320px] w-full border-0"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
         </div>
       </section>
       <CtaContactSection

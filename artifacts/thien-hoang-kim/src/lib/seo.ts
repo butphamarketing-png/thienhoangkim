@@ -7,6 +7,7 @@ import {
 } from "@/data/services-catalog";
 import { buildBreadcrumbs, buildJsonLdGraph, jsonLdScript, type SchemaContext } from "@/lib/seo-schema";
 import { extractFaqFromBody } from "@/lib/faq-schema";
+import { getThinArticleCanonicalPath } from "@/lib/seo-canonical";
 import { getSiteBaseUrl } from "@/lib/seo-sitemap";
 import { getClusterById } from "@/lib/topic-clusters";
 import {
@@ -174,6 +175,7 @@ export function resolveArticleSeo(
   const ogTitle = pick(seo.ogTitle, seo.metaTitle, article.title, global.ogTitle, title);
   const ogDescription = pick(seo.ogDescription, seo.metaDescription, article.description, global.ogDescription, description);
   const preferredPath = getPreferredArticlePath(article.slug);
+  const thinCanonical = getThinArticleCanonicalPath(article.slug);
   const canonicalPath =
     seo.canonicalUrl?.trim()
       ? (() => {
@@ -182,11 +184,18 @@ export function resolveArticleSeo(
             ? normalized
             : toAbsoluteUrl(normalized, global.siteUrl);
         })()
-      : preferredPath && path.startsWith("/tin-tuc/")
-        ? toAbsoluteUrl(preferredPath, global.siteUrl)
-        : toAbsoluteUrl(path, global.siteUrl);
+      : thinCanonical
+        ? toAbsoluteUrl(thinCanonical, global.siteUrl)
+        : preferredPath && path.startsWith("/tin-tuc/")
+          ? toAbsoluteUrl(preferredPath, global.siteUrl)
+          : toAbsoluteUrl(path, global.siteUrl);
 
-  const isDuplicateTinTuc = Boolean(preferredPath && path.startsWith("/tin-tuc/"));
+  const isDuplicateTinTuc = Boolean(
+    (preferredPath || thinCanonical) && path.startsWith("/tin-tuc/"),
+  );
+  const robots = isDuplicateTinTuc
+    ? "noindex,follow"
+    : buildRobotsDirective(seo, global.robots || "index,follow");
 
   return {
     title,
@@ -198,7 +207,7 @@ export function resolveArticleSeo(
     ogUrl: canonicalPath,
     ogType: "article",
     twitterCard: global.twitterCard || "summary_large_image",
-    robots: isDuplicateTinTuc ? "noindex,follow" : buildRobotsDirective(seo, global.robots || "index,follow"),
+    robots,
     canonical: canonicalPath,
   };
 }

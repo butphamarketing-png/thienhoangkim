@@ -10,6 +10,11 @@ import {
 import { imageForKeywordPillar } from "@/lib/article-thumbnail";
 import { buildNewsArticleSeo } from "@/lib/article-seo";
 import { DEFAULT_ARTICLE_SEO } from "@/lib/seo";
+import {
+  getThinArticleCanonicalPath,
+  isThinHeadEntry,
+  PRIORITY_LOCAL_SLUGS,
+} from "@/lib/seo-canonical";
 import type { ArticleSeo, SiteArticle } from "@/types/site-content";
 
 const publicAsset = (file: string) =>
@@ -68,9 +73,10 @@ function categoryForSlug(slug: string): string {
 }
 
 const REMOVED_ARTICLE_SLUGS = new Set(["hut-mo-cay-mo-ma", "hut-mo-ma"]);
+const MANUAL_PRIORITY_SLUGS = new Set<string>(PRIORITY_LOCAL_SLUGS);
 
 const entries = (mergedPlan as KeywordPlanEntry[]).filter(
-  (entry) => !REMOVED_ARTICLE_SLUGS.has(entry.slug),
+  (entry) => !REMOVED_ARTICLE_SLUGS.has(entry.slug) && !MANUAL_PRIORITY_SLUGS.has(entry.slug),
 );
 
 export const GENERATED_NEWS_ARTICLES: SiteArticle[] = entries.map((entry, index) => {
@@ -78,6 +84,22 @@ export const GENERATED_NEWS_ARTICLES: SiteArticle[] = entries.map((entry, index)
   const body = buildGeneratedArticleBody(entry, image, image);
   const title = buildGeneratedArticleTitle(entry);
   const secondary = `${entry.focus}, ${entry.focus} TP.HCM, Thiên Hoàng Kim, An Đông`;
+  const thinCanonical = getThinArticleCanonicalPath(entry.slug);
+  const seo = newsSeo(
+    entry.slug,
+    buildGeneratedMetaDescription(entry.focus, entry.slug),
+    entry.focus.toLowerCase(),
+    secondary,
+    image,
+  );
+  if (thinCanonical) {
+    seo.canonicalUrl = thinCanonical;
+    seo.noindex = true;
+    seo.robots = "noindex,follow";
+  } else if (isThinHeadEntry(entry)) {
+    seo.noindex = true;
+    seo.robots = "noindex,follow";
+  }
 
   return article(
     `gen-${String(index + 1).padStart(4, "0")}`,
@@ -88,13 +110,7 @@ export const GENERATED_NEWS_ARTICLES: SiteArticle[] = entries.map((entry, index)
     body,
     image,
     categoryForSlug(entry.slug),
-    newsSeo(
-      entry.slug,
-      buildGeneratedMetaDescription(entry.focus, entry.slug),
-      entry.focus.toLowerCase(),
-      secondary,
-      image,
-    ),
+    seo,
   );
 });
 

@@ -7,6 +7,8 @@ import {
   articleHref,
   getClusterArticles,
   getClusterById,
+  getClusterHubIntro,
+  getFeaturedClusterArticles,
 } from "@/lib/topic-clusters";
 import { LAZY_IMG } from "@/lib/image-loading";
 import NotFound from "@/pages/not-found";
@@ -20,6 +22,8 @@ export default function TopicClusterPage() {
   if (!cluster) return <NotFound />;
 
   const articles = getClusterArticles(content, cluster.id, { limit: 120 });
+  const featured = getFeaturedClusterArticles(content, cluster.id);
+  const intro = getClusterHubIntro(cluster.id);
 
   return (
     <SiteLayout>
@@ -53,6 +57,25 @@ export default function TopicClusterPage() {
             </span>
           </Link>
         </div>
+
+        {intro && (
+          <p className="mb-8 max-w-3xl text-base leading-relaxed text-muted-foreground">{intro}</p>
+        )}
+
+        {featured.length > 0 && (
+          <div className="mb-10">
+            <h2 className="mb-4 font-serif text-xl font-bold text-primary">Bài viết nổi bật</h2>
+            <div className="flex flex-wrap gap-2">
+              {featured.map((a) => (
+                <Link key={a.id} href={articleHref(content, a.slug)}>
+                  <span className="inline-flex rounded-full border border-primary/30 bg-primary/5 px-4 py-2 text-sm font-semibold text-primary transition hover:bg-primary/10">
+                    {a.title}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {articles.map((article) => (
