@@ -87,7 +87,7 @@ Khách hàng được thăm khám, phân tích và lên phác đồ cá nhân tr
           <div className="mt-10 rounded-2xl border border-primary/20 bg-primary/5 p-6">
             <h2 className="font-serif text-xl font-bold text-primary">Thẩm mỹ Quận 5 & An Đông</h2>
             <p className="mt-2 text-sm text-muted-foreground">
-              Thiên Hoàng Kim — 323–325 Hùng Vương, Phường An Đông. Tư vấn miễn phí: 0938 673 996.
+              Thiên Hoàng Kim — 323–325 Hùng Vương, Phường An Đông. Tư vấn miễn phí: 0896 673 320.
             </p>
             <ul className="mt-4 space-y-2">
               {localArticles.map((a) => (

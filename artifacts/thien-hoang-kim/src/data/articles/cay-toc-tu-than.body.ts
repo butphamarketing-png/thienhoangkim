@@ -86,7 +86,7 @@ Kiên nhẫn và tái khám đúng lịch là then chốt — cấy tóc không 
 
 **Tháng 1–3:** Tránh nắng trực tiếp da đầu; không cắt tóc vùng cấy cho đến khi bác sĩ cho phép; có thể dùng minoxidil/finasteride duy trì vùng chưa cấy (theo chỉ định).
 
-Gọi **0938 673 996** nếu sốt, mủ, đau tăng dần hoặc sưng lan rộng bất thường.
+Gọi **0896 673 320** nếu sốt, mủ, đau tăng dần hoặc sưng lan rộng bất thường.
 
 ## Rủi ro và biến chứng
 
@@ -138,4 +138,4 @@ Thiên Hoàng Kim — **323–325 Hùng Vương, Phường An Đông, TP.HCM**, 
 
 ## Đặt lịch tư vấn miễn phí
 
-Hãy để bác sĩ đánh giá vùng cho và mức độ hói trước khi quyết định — cấy tóc tự thân là hành trình vài tháng, cần kế hoạch rõ ràng từ đầu. Đặt lịch qua website, gọi **0938 673 996** hoặc nhắn fanpage Thiên Hoàng Kim. Buổi tư vấn miễn phí giúp bạn hiểu FUE/FUT, số nang ước tính, timeline và chi phí trước khi cam kết phẫu thuật.`;
+Hãy để bác sĩ đánh giá vùng cho và mức độ hói trước khi quyết định — cấy tóc tự thân là hành trình vài tháng, cần kế hoạch rõ ràng từ đầu. Đặt lịch qua website, gọi **0896 673 320** hoặc nhắn fanpage Thiên Hoàng Kim. Buổi tư vấn miễn phí giúp bạn hiểu FUE/FUT, số nang ước tính, timeline và chi phí trước khi cam kết phẫu thuật.`;

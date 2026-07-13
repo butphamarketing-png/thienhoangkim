@@ -80,7 +80,7 @@ Kết quả khác nhau từng người; bác sĩ không cam kết một kích th
 
 **Dài hạn:** Chống nắng; skincare phù hợp; tái khám nếu thấy cục cứng, đỏ kéo dài, đau bất thường.
 
-Gọi **0938 673 996** ngay nếu da tái, đau dữ dội, loét vùng tiêm — nghi ngờ tắc mạch cần xử lý khẩn.
+Gọi **0896 673 320** ngay nếu da tái, đau dữ dội, loét vùng tiêm — nghi ngờ tắc mạch cần xử lý khẩn.
 
 ## Rủi ro và biến chứng
 
@@ -165,4 +165,4 @@ Thiên Hoàng Kim tại **323–325 Hùng Vương, An Đông** đáp ứng các 
 
 ## Đặt lịch tư vấn miễn phí
 
-Filler tạo hình hiệu quả nhất khi được thiết kế đúng vùng và đúng liều — đừng chọn theo trend không phù hợp mặt bạn. Đặt lịch qua website, gọi **0938 673 996** hoặc nhắn fanpage Thiên Hoàng Kim. Buổi tư vấn miễn phí giúp bạn biết vùng nào nên tiêm, loại filler và chi phí dự kiến.`;
+Filler tạo hình hiệu quả nhất khi được thiết kế đúng vùng và đúng liều — đừng chọn theo trend không phù hợp mặt bạn. Đặt lịch qua website, gọi **0896 673 320** hoặc nhắn fanpage Thiên Hoàng Kim. Buổi tư vấn miễn phí giúp bạn biết vùng nào nên tiêm, loại filler và chi phí dự kiến.`;

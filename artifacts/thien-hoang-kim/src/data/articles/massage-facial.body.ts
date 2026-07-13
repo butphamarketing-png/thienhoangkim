@@ -112,7 +112,7 @@ Massage facial **không xóa nếp nhăn sâu**, không thay filler/botox, khôn
 
 Giá theo thời lượng (45 / 60 / 75 phút), có thêm gua sha, mask cao cấp hay combo body. Báo giá tại lễ tân; tư vấn da ban đầu không cam kết mua.
 
-Đặt lịch trước giờ cao điểm (cuối tuần, sau 17h) qua **0938 673 996** hoặc fanpage.
+Đặt lịch trước giờ cao điểm (cuối tuần, sau 17h) qua **0896 673 320** hoặc fanpage.
 
 ## Câu hỏi thường gặp (FAQ)
 
@@ -134,7 +134,7 @@ Giá theo thời lượng (45 / 60 / 75 phút), có thêm gua sha, mask cao cấ
 
 **Khác đi spa nhà hàng xóm?** Thiên Hoàng Kim phân loại da, sản phẩm rõ ràng, cùng hệ thống thẩm mỹ y khoa — tiện tư vấn nâng cao khi cần.
 
-**Đặt lịch ở đâu?** **0938 673 996**, website, fanpage — 323–325 Hùng Vương, An Đông TP.HCM.
+**Đặt lịch ở đâu?** **0896 673 320**, website, fanpage — 323–325 Hùng Vương, An Đông TP.HCM.
 
 ## Tại sao chọn Thiên Hoàng Kim?
 
@@ -144,4 +144,4 @@ Xem thêm Chăm sóc da toàn diện, Massage body thư giãn tại mục Spa.
 
 ## Đặt lịch massage facial
 
-Da đẹp không chỉ từ chai serum — cơ mặt thư giãn, lymph lưu thông và da được làm sạch đúng cách cũng quan trọng. Đặt lịch massage facial qua website, gọi **0938 673 996** hoặc nhắn fanpage Thiên Hoàng Kim. Nói rõ mục tiêu (thư giãn, giảm phù, trước sự kiện) để được gợi ý gói 45 hay 75 phút. Buổi tư vấn ngắn giúp bạn biết loại da và liệu trình phù hợp — không áp dụng một quy trình cho tất cả.`;
+Da đẹp không chỉ từ chai serum — cơ mặt thư giãn, lymph lưu thông và da được làm sạch đúng cách cũng quan trọng. Đặt lịch massage facial qua website, gọi **0896 673 320** hoặc nhắn fanpage Thiên Hoàng Kim. Nói rõ mục tiêu (thư giãn, giảm phù, trước sự kiện) để được gợi ý gói 45 hay 75 phút. Buổi tư vấn ngắn giúp bạn biết loại da và liệu trình phù hợp — không áp dụng một quy trình cho tất cả.`;

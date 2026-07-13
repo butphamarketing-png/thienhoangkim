@@ -114,7 +114,7 @@ export const CLUSTER_FEATURED_SLUGS: Record<string, string[]> = {
 
 export const CLUSTER_HUB_INTRO: Record<string, string> = {
   "nang-mui":
-    "Tổng hợp kiến thức nâng mũi tại Thiên Hoàng Kim — từ tư vấn, quy trình, hồi phục đến giá tham khảo. Phòng khám **323–325 Hùng Vương, An Đông, Quận 5** — hotline **0938 673 996**.",
+    "Tổng hợp kiến thức nâng mũi tại Thiên Hoàng Kim — từ tư vấn, quy trình, hồi phục đến giá tham khảo. Phòng khám **323–325 Hùng Vương, An Đông, Quận 5** — hotline **0896 673 320**.",
   "cat-mi":
     "Cắt mí, nhấn mí và chăm sóc sau mổ — bài viết từ bác sĩ Thiên Hoàng Kim An Đông. Đặt lịch tư vấn miễn phí tại Quận 5.",
   filler:

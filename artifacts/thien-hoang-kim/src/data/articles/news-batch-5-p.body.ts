@@ -24,7 +24,7 @@ Mũi lệch đột ngột, đau tăng, sốt, chảy máu nhiều — không ph�
 
 **Sưng một bên có sao?** Chênh nhẹ bình thường tuần đầu; chênh lớn — tái khám.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
 
 export const NANG_MUI_BAO_LAU_HET_SUNG_BODY = `Nâng mũi bao lâu hết sưng là câu hỏi sát thực tế nhất sau mổ — vì sưng che hết hình dáng mũi mới. Đa số người thấy sưng lộ rõ giảm mạnh sau 2–3 tuần; sưng nhẹ và đầu mũi căng có thể kéo 2–3 tháng. Hiểu đồ sưng giúp bạn kiên nhẫn đúng chỗ.
 
@@ -48,7 +48,7 @@ Bình thường: giảm dần, không sốt. Bất thường: một bên căng �
 
 **Xông hơi khi nào?** Sau khi bác sĩ cho phép — thường vài tuần.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const NANG_MUI_NGAY_7_BODY = `Nâng mũi ngày 7 là mốc nhiều khách háo hức — thường được cắt chỉ, bỏ nẹp hoặc thay băng và lần đầu nhìn mũi "không sưng nặng" như ngày 2–3. Tuy nhiên mũi ngày 7 vẫn còn sưng, đầu mũi cao và cứng — chưa phải kết quả cuối.
 
@@ -72,7 +72,7 @@ Ngày 7 chỉ là đầu [nâng mũi tháng đầu](/tin-tuc/nang-mui-thang-dau)
 
 **Đi làm ngày 7 được không?** Tùy công việc; nhiều người nghỉ đến tuần 2.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const NANG_MUI_THANG_DAU_BODY = `Nâng mũi tháng đầu quyết định nền tảng hồi phục — giai đoạn sưng giảm nhanh nhưng đầu mũi vẫn "chưa thật". Tháng đầu cần tuân thủ chăm sóc, tái khám và tránh va chạm để mũi ổn định đúng hướng thiết kế ban đầu.
 
@@ -96,7 +96,7 @@ Sốt, mủ, mùi hôi vết mổ, mũi lệch đột ngột — xem [dấu hi�
 
 **Massage mũi được chưa?** Không tự massage — chỉ theo chỉ định bác sĩ.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông.`;
 
 export const NANG_MUI_6_THANG_BODY = `Nâng mũi 6 tháng là mốc nhiều bác sĩ cho là hình gần ổn định — sưng tan phần lớn, đầu mũi mềm dần, bạn có thể đánh giá mũi có hài hòa khuôn mặt không. Tuy nhiên da đầu mũi mỏng vẫn có thể tiếp tục tinh chỉnh đến 12 tháng.
 
@@ -120,7 +120,7 @@ Chống nắng; không nặn mụn vùng mũi; tái khám định kỳ. [Nâng m
 
 **Makeup đầy đủ được chưa?** Thường được — tránh va mạnh vùng mũi.
 
-**0938 673 996** — TP.HCM.`;
+**0896 673 320** — TP.HCM.`;
 
 export const NANG_MUI_1_NAM_BODY = `Nâng mũi 1 năm được coi là giai đoạn đánh giá kết quả lâu dài — mô mềm ổn định, sẹo mờ, hình dáng mũi phản ánh đúng kỹ thuật và chăm sóc suốt 12 tháng qua. Đây cũng là thời điểm hợp lý nếu cần thảo luận revision nhẹ.
 
@@ -144,7 +144,7 @@ Lệch, cứng, lộ sụn — bác sĩ [nâng mũi hoàng kim](/tham-my/nang-mu
 
 **Có cần tái khám?** Nên — ít nhất 1 lần/năm đầu.
 
-**0938 673 996** — An Đông.`;
+**0896 673 320** — An Đông.`;
 
 export const NANG_MUI_CO_NEN_KHONG_BODY = `Nâng mũi có nên không phụ thuộc mong muốn, sức khỏe và kỳ vọng thực tế — không phải ai cũng cần phẫu thuật. Bác sĩ tại Thiên Hoàng Kim thường từ chối hoặc gợi ý phương án khác khi khách kỳ vọng quá cao, tâm lý chưa sẵn sàng hoặc có chống chỉ định y khoa.
 
@@ -166,7 +166,7 @@ Filler mũi tạm thời; [nâng mũi không phẫu thuật](/tin-tuc/nang-mui-k
 
 **Bác sĩ có từ chối khách không?** Có — khi không phù hợp chỉ định.
 
-**Tư vấn có mất phí?** Gọi **0938 673 996** — An Đông, TP.HCM.`;
+**Tư vấn có mất phí?** Gọi **0896 673 320** — An Đông, TP.HCM.`;
 
 export const NANG_MUI_CO_DE_LAI_SEO_KHONG_BODY = `Nâng mũi có để lại sẹo không là lo ngại hợp lý — may mắn là đa số kỹ thuật hiện đại đặt vết mổ kín trong lỗ mũi hoặc rãnh cột mũi, không sẹo to giữa mặt. Mức độ lộ sẹo phụ thuộc phương pháp, cơ địa và chăm sóc.
 
@@ -190,7 +190,7 @@ Da dễ sẹo lồi — báo bác sĩ trước mổ để theo dõi sát. Không
 
 **Makeup che sẹo được không?** Khi vết lành — thường sau vài tuần.
 
-**0938 673 996** — [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim).`;
+**0896 673 320** — [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim).`;
 
 export const NANG_MUI_BONG_DO_BODY = `Nâng mũi có bị bóng đỏ không — câu trả lời là có thể, đặc biệt da đầu mũi mỏng hoặc sụn quá cao/lộ. Kỹ thuật bọc sụn, chọn cao độ vừa phải và bác sĩ có kinh nghiệm giúp giảm nguy cơ đáng kể.
 
@@ -214,7 +214,7 @@ Tái khám — có thể cần bọc sụn revision, massage (theo chỉ định
 
 **Da dày có bóng không?** Ít hơn da mỏng.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const NANG_MUI_LECH_SONG_BODY = `Nâng mũi lệch sống là tình trạng sống mũi không thẳng giữa mặt — có thể do bẩm sinh hoặc sau chấn thương, mổ cũ. Nâng mũi lệch sống khó hơn mũi thẳng — cần bác sĩ am hiểu giải phẫu xương sụn và có thể kết hợp chỉnh xương.
 
@@ -238,7 +238,7 @@ Nếu lệch sau mổ — xem [mũi bị lệch sau nâng](/tin-tuc/mui-bi-lech-
 
 **Giá có cao hơn?** Thường cao hơn nâng đơn giản — [giá nâng mũi bao nhiêu](/tin-tuc/gia-nang-mui-bao-nhieu).
 
-**0938 673 996** — [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim).`;
+**0896 673 320** — [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim).`;
 
 export const MUI_BI_LECH_SAU_NANG_BODY = `Mũi bị lệch sau nâng khiến nhiều khách lo lắng — đôi khi do sưng không đều tuần đầu (tạm thời), đôi khi do sụn lệch, bọc sẹo xơ cần can thiệp. Phân biệt hai trường hợp quan trọng để không mổ lại quá sớm hoặc trễ khi cần sửa.
 
@@ -262,7 +262,7 @@ Lệch đột ngột sau va chạm; đau tăng; chảy máu — không chờ h�
 
 **Sửa lệch tốn bao nhiêu?** Tùy mức — khám báo giá.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const DAU_MUI_CUNG_SAU_NANG_BODY = `Đầu mũi cứng sau nâng mũi thường gặp vài tuần đến vài tháng đầu — do sưng, sẹo mô mềm và sụn ghép chưa mềm. Cảm giác cứng khác "đầu mũi đá" vĩnh viễn; đa số mềm dần trong 6–12 tháng.
 
@@ -286,7 +286,7 @@ Cứng tăng sau tháng 6; đau nhói; lệch đầu mũi — cần đánh giá 
 
 **Cứng có ảnh hưởng cười?** Nhẹ tuần đầu — bình thường.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const NANG_MUI_VA_THU_CANH_BODY = `Nâng mũi và thu cánh mũi thường làm cùng một lần mổ khi cánh mũi rộng, flare khi cười — giúp mũi thon gọn hài hòa với sống mới nâng. Thu cánh không phải lúc nào cũng cần; bác sĩ đánh giá tỉ lệ mũi–mặt trước khi quyết định.
 
@@ -310,7 +310,7 @@ Timeline tương nâng mũi đơn thuần — có thể sưng cánh lâu hơn ch
 
 **Chỉ thu cánh không nâng được không?** Được nếu chỉ cánh to, sống ổn.
 
-**0938 673 996** — [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim).`;
+**0896 673 320** — [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim).`;
 
 export const NANG_MUI_KET_HOP_CHINH_HAM_BODY = `Nâng mũi kết hợp chỉnh hàm là phác đồ phức tạp — khi mũi thấp đi kèm hàm lệch, cằm lẹm hoặc gò má lệch ảnh hưởng profile. Mục tiêu không chỉ mũi cao mà cả khuôn mặt cân đối nhìn nghiêng.
 
@@ -334,7 +334,7 @@ Phác đồ lớn — hồi phục dài hơn nâng mũi đơn; cần người th
 
 **Giá kết hợp?** Báo sau khám toàn diện.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const NANG_MUI_KHONG_PHAU_THUAT_BODY = `Nâng mũi không phẫu thuật gồm filler mũi, nâng mũi bằng chỉ, thread — không mổ mở, hồi phục nhanh nhưng không thay thế chỉnh cấu trúc phức tạp. Phù hợp thử hình, mũi cần nâng nhẹ hoặc chưa sẵn sàng phẫu thuật.
 
@@ -358,7 +358,7 @@ Mũi tẹt nặng, đầu mũi thấp, revision — [nâng mũi hoàng kim](/tha
 
 **Chỉ có đau không?** Nhẹ hơn mổ nhiều.
 
-**0938 673 996** — TP.HCM.`;
+**0896 673 320** — TP.HCM.`;
 
 export const NANG_MUI_BANG_CHI_BODY = `Nâng mũi bằng chỉ (thread lift mũi) dùng chỉ tiêu có móc hoặc cog kéo sống mũi và đầu mũi nhẹ — thuộc nhóm [nâng mũi không phẫu thuật](/tin-tuc/nang-mui-khong-phau-thuat). Kết quả tạm thời hơn nâng sụn, phù hợp mũi không quá thấp.
 
@@ -382,7 +382,7 @@ Thường 1–2 năm tùy loại chỉ, cơ địa — sau đó có thể làm l
 
 **Đau không?** Nhẹ — tê tại chỗ.
 
-**0938 673 996** — Thiên Hoàng Kim, An Đông.`;
+**0896 673 320** — Thiên Hoàng Kim, An Đông.`;
 
 export const NANG_MUI_BANG_FILLER_DUOC_KHONG_BODY = `Nâng mũi bằng filler có được không — câu trả lời là được với mũi cần nâng sống nhẹ, da chưa quá mỏng, và bác sĩ tiêm đúng kỹ thuật. Filler không thay thế phẫu thuật khi mũi tẹt nặng, đầu mũi thấp hoặc cần thu cánh.
 
@@ -406,7 +406,7 @@ Filler: nhanh, tạm. Phẫu thuật: lâu dài, chỉnh cấu trúc. Đọc [n�
 
 **Bao nhiêu cc?** Tùy mũi — bác sĩ quyết định, không tự đòi nhiều.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const MUI_HONG_SAU_NANG_BODY = `Mũi hỏng sau nâng là tổn thương mũi sau phẫu thuật thẩm mỹ hoặc tai nạn — lệch, bóng sụn, thủng vách, co rút da. Cần bác sĩ revision có kinh nghiệm; không tự tiêm filler che lỗi phức tạp.
 
@@ -428,7 +428,7 @@ Thường chờ mô ổn định — trừ trường hợp cấp cứu thở/kh�
 
 **Sửa hỏng có khó hơn mổ đầu?** Có — chi phí và thời gian thường cao hơn.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông.`;
 
 export const NHIEM_TRUNG_SAU_NANG_MUI_BODY = `Dấu hiệu nhiễm trùng sau nâng mũi cần nhận biết sớm — sốt, đỏ nóng tăng, mủ, đau nhói tăng, mùi hôi vết mổ. Nhiễm trùng hiếm ở phòng mổ chuẩn nhưng không loại trừ; gọi bác sĩ ngay, không tự uống kháng sinh linh tinh.
 
@@ -452,7 +452,7 @@ Liên hệ phòng khám ngay; có thể rửa vết, kê kháng sinh, nhập vi�
 
 **Nhiễm trùng có hỏng mũi?** Điều trị sớm giảm biến chứng.
 
-**0938 673 996** — [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim).`;
+**0896 673 320** — [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim).`;
 
 export const AN_KIENG_SAU_NANG_MUI_BODY = `Ăn kiêng sau nâng mũi không khắt khe như nhiều người tưởng — ưu tiên dinh dưỡng lành mạnh, tránh thực phẩm dễ gây sưng viêm và đồ cứng cần nhai mạnh giai đoạn đầu. Kiêng đúng giúp mũi ít sưng, vết mổ lành tốt hơn.
 
@@ -476,7 +476,7 @@ Rượu: ít nhất 2 tuần. Cay, hải sản: thường 1–2 tuần hoặc th
 
 **Uống cà phê được không?** Vừa phải thường được.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const UONG_RUOU_SAU_NANG_MUI_BODY = `Uống rượu sau nâng mũi nên tránh ít nhất 2 tuần — tốt nhất 3–4 tuần. Rượu bia giãn mạch, tăng sưng, chảy máu, tương tác thuốc giảm đau và kháng sinh, làm chậm lành vết mổ.
 
@@ -500,7 +500,7 @@ Thuốc lá tương tự rượu — nên bỏ trước và sau mổ vài tuần
 
 **Rượu nấu ăn?** Lượng nhỏ thường ít ảnh hưởng — hỏi bác sĩ.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const TAP_THE_DUC_SAU_NANG_MUI_BODY = `Tập thể dục sau nâng mũi cần hoãn để tránh sưng, chảy máu và va chạm mũi. Giai đoạn đầu chỉ đi bộ nhẹ; gym, chạy, yoga úp ngược, bơi lội — từ từ theo lịch bác sĩ thường từ tuần 4–6 trở lên.
 
@@ -524,7 +524,7 @@ Bóng đá, võ, cầu lông (va mũi); yoga đảo người; bơi hồ công c�
 
 **Gym bao lâu?** Thường 4–6 tuần — bác sĩ xác nhận.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const DEO_KINH_SAU_NANG_MUI_BODY = `Đeo kính sau nâng mũi cần cẩn thận — gọng kính đè lên sống mũi mới có thể làm lệch sụn, lõm sống hoặc tăng sưng. Thường chờ 4–6 tuần hoặc dùng kính áp tròng / gọng nhẹ không đè sống trong giai đoạn đầu.
 
@@ -546,7 +546,7 @@ Kính áp tròng; kính không gọng (nếu phù hợp độ); để kính trê
 
 **Kính cận có sao?** Gọng đè sống — cần chờ.
 
-**0938 673 996** — [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim).`;
+**0896 673 320** — [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim).`;
 
 export const NANG_MUI_MUA_DONG_BODY = `Nâng mũi mùa đông được nhiều khách chọn vì thời tiết mát, ít nắng gắt, dễ nghỉ ngơi trong nhà khi sưng — phù hợp hồi phục. Tuy nhiên mùa đông không "hết sưng nhanh hơn" — cơ chế lành vẫn như các mùa khác.
 
@@ -568,7 +568,7 @@ Hè: nắng mạnh — chống nắng kỹ; đổ mồ hôi. Đông: thuận ngh
 
 **Đông có sưng lâu hơn?** Không nhất thiết — do cơ địa.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const NANG_MUI_TRUOC_TET_BODY = `Nâng mũi trước Tết cần tính thời gian hồi phục — muốn đẹp tự nhiên dịp Tết nên mổ trước ít nhất 2–3 tháng (tốt hơn 4–6 tháng). Mổ sát Tết vài tuần vẫn còn sưng trong ảnh họp hàng, chúc Tết.
 
@@ -590,4 +590,4 @@ Tết đẹp "tự nhiên" — không phải Tết sưng nặng. Tư vấn [nân
 
 **Mổ tháng 11 Tết tháng 1 được không?** Có thể — hỏi bác sĩ timeline cụ thể.
 
-**0938 673 996** — [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim), An Đông.`;
+**0896 673 320** — [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim), An Đông.`;

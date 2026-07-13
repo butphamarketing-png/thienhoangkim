@@ -88,7 +88,7 @@ Kết quả khác nhau từng người — bác sĩ không cam kết thời gian
 
 **Không tự ý:** Nặn mụn vùng có chỉ, peel mạnh, laser aggressive sớm — hỏi bác sĩ trước.
 
-Gọi **0938 673 996** nếu sốt, đỏ lan rộng, đau tăng hoặc thấy chỉ lộ ra da.
+Gọi **0896 673 320** nếu sốt, đỏ lan rộng, đau tăng hoặc thấy chỉ lộ ra da.
 
 ## Rủi ro và biến chứng
 
@@ -136,4 +136,4 @@ Tính theo số sợi, loại chỉ (PDO/PLLA), vùng điều trị (má, hàm, 
 
 ## Đặt lịch tư vấn miễn phí
 
-Căng chỉ trẻ hóa phù hợp khi can thiệp đúng giai đoạn — đừng đợi chảy xệ nặng rồi mới tìm hiểu. Đặt lịch qua website, gọi **0938 673 996** hoặc nhắn fanpage Thiên Hoàng Kim. Buổi tư vấn miễn phí giúp bạn biết có phù hợp căng chỉ trẻ hóa không, loại chỉ, số sợi và chi phí dự kiến.`;
+Căng chỉ trẻ hóa phù hợp khi can thiệp đúng giai đoạn — đừng đợi chảy xệ nặng rồi mới tìm hiểu. Đặt lịch qua website, gọi **0896 673 320** hoặc nhắn fanpage Thiên Hoàng Kim. Buổi tư vấn miễn phí giúp bạn biết có phù hợp căng chỉ trẻ hóa không, loại chỉ, số sợi và chi phí dự kiến.`;

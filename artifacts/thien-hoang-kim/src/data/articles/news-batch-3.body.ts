@@ -34,7 +34,7 @@ Khám, chụp ảnh, mô phỏng hướng mũi; gây mê an toàn; mổ 1,5–3 
 
 **Có để lại sẹo không?** Vết mổ thường kín trong lỗ mũi hoặc cột mũi — bác sĩ giải thích trước mổ.
 
-Tư vấn nâng mũi sụn miễn phí: **0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+Tư vấn nâng mũi sụn miễn phí: **0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
 
 export const NANG_MUI_BOC_SUN_BODY = `Nâng mũi bọc sụn là kỹ thuật dùng lớp sụn (thường sụn tai hoặc sụn nhân tạo mỏng) bọc quanh đầu mũi và sống mũi — giảm nguy cơ bóng đỏ, lộ sụn và tạo đầu mũi mềm tự nhiên. Đây là điểm khác biệt quan trọng so với nâng mũi sụn đặt trực tiếp không bọc, đặc biệt với da đầu mũi mỏng.
 
@@ -66,7 +66,7 @@ Tương tự nâng mũi cấu trúc: sưng, bầm 1–2 tuần; tránh va chạm
 
 **Bao lâu ổn định?** Đầu mũi mềm dần 3–6 tháng; kiên trì tái khám.
 
-Hotline **0938 673 996** — tư vấn nâng mũi bọc sụn tại An Đông.`;
+Hotline **0896 673 320** — tư vấn nâng mũi bọc sụn tại An Đông.`;
 
 export const NANG_MUI_CAU_TRUC_BODY = `Nâng mũi cấu trúc là phẫu thuật chỉnh toàn bộ khung mũi — sống, đầu mũi, cánh mũi, vách ngăn nếu cần — theo tỉ lệ khuôn mặt, không chỉ "cắm sụn" nâng cao. Nâng mũi cấu trúc cho kết quả ổn định, tự nhiên và phù hợp người mũi lệch, ngắn, hếch hoặc từng nâng chưa hài lòng.
 
@@ -94,7 +94,7 @@ Tư vấn miễn phí → khám, ảnh, phác đồ → mổ tại phòng vô tr
 
 **Có tái nâng được không?** Có — [tái nâng mũi](/tin-tuc/tai-nang-mui) phức tạp hơn, cần bác sĩ revision.
 
-**0938 673 996** — đặt lịch khám nâng mũi cấu trúc An Đông TP.HCM.`;
+**0896 673 320** — đặt lịch khám nâng mũi cấu trúc An Đông TP.HCM.`;
 
 export const NANG_MUI_TU_NHIEN_BODY = `Nâng mũi tự nhiên là xu hướng làm đẹp được nhiều khách tìm kiếm — không phải mũi quá cao, quá thẳng hay "lộ sụn", mà hài hòa với khuôn mặt Việt, biểu cảm mềm khi cười. Nâng mũi tự nhiên đạt được bằng phác đồ cấu trúc đúng, không nâng quá mức và chọn bác sĩ có mắt thẩm mỹ.
 
@@ -124,7 +124,7 @@ Nâng quá cao theo trend; mũi quá nhọn; bỏ qua tỉ lệ cằm–mũi; ch
 
 **Mất bao lâu trông tự nhiên?** 1–3 tháng đa số người hài lòng khi chụp ảnh nghiêng.
 
-Tư vấn [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim): **0938 673 996**.`;
+Tư vấn [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim): **0896 673 320**.`;
 
 export const NANG_MUI_HAN_QUOC_BODY = `Nâng mũi hàn quốc thường được nhắc đến như phong cách mũi thẳng, sống cao vừa, đầu mũi thon — phù hợp một số khuôn mặt châu Á. Tuy nhiên nâng mũi hàn quốc không phải một kỹ thuật y khoa cố định — quan trọng là bác sĩ điều chỉnh theo tỉ lệ mặt bạn, tránh copy kiểu mũi idol khiến lệch tỉ lệ.
 
@@ -152,7 +152,7 @@ Bác sĩ tư vấn theo khuôn mặt Việt — có thể tham chiếu style Hà
 
 **Bao lâu về công việc?** Thường 7–10 ngày tùy công việc.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông.`;
 
 export const THU_GON_CANH_MUI_BODY = `Thu gọn cánh mũi là thủ thuật cắt bớt hoặc cuốn cánh mũi quá rộng — mũi hẹp hơn, lỗ mũi nhỏ gọn, hài hòa đầu mũi. Thu gọn cánh mũi có thể làm riêng hoặc kết hợp [nâng mũi cấu trúc](/tin-tuc/nang-mui-cau-truc) trong cùng ca mổ.
 
@@ -180,7 +180,7 @@ Nhiều ca [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim) kết hợp thu 
 
 **Bao lâu hết sưng?** 5–10 ngày đa số.
 
-Hotline **0938 673 996** — Thiên Hoàng Kim An Đông.`;
+Hotline **0896 673 320** — Thiên Hoàng Kim An Đông.`;
 
 export const TAI_NANG_MUI_BODY = `Tái nâng mũi (revision rhinoplasty) là phẫu thuật chỉnh mũi sau lần nâng trước — không hài lòng, biến dạng, lệch, co rút cánh hoặc lộ sụn. Tái nâng mũi khó hơn mổ lần đầu; cần chờ mô lành ổn định và chọn bác sĩ có kinh nghiệm sửa mũi.
 
@@ -206,7 +206,7 @@ Khám trước, xem ảnh mổ cũ nếu có; thảo luận kỳ vọng thực t
 
 **Có đảm bảo 100%?** Không hứa tuyệt đối — cải thiện theo giải phẫu thực tế.
 
-**0938 673 996** — đặt lịch khám tái nâng mũi TP.HCM.`;
+**0896 673 320** — đặt lịch khám tái nâng mũi TP.HCM.`;
 
 export const CHAM_SOC_SAU_NANG_MUI_BODY = `Chăm sóc sau nâng mũi quyết định sưng bầm, đau và kết quả lâu dài — làm đúng giúp mũi ổn định nhanh, giảm biến chứng. Bài viết tổng hợp chăm sóc sau nâng mũi từng giai đoạn; kết hợp [chăm sóc sau phẫu thuật thẩm mỹ](/tin-tuc/cham-soc-da-sau-phau-thuat) và hướng dẫn riêng bác sĩ sau mổ.
 
@@ -226,7 +226,7 @@ Tránh va chạm thể thao; chống nắng mũi; không nằm sấp; hạn ch�
 
 ## Dấu hiệu bất thường
 
-Đau tăng dần sau ngày 4; mũi lệch đột ngột; chảy máu ướt liên tục; sốt ca — gọi **0938 673 996** ngay.
+Đau tăng dần sau ngày 4; mũi lệch đột ngột; chảy máu ướt liên tục; sốt ca — gọi **0896 673 320** ngay.
 
 ## Câu hỏi thường gặp về chăm sóc sau nâng mũi
 
@@ -266,7 +266,7 @@ Sưng 7–10 ngày; mí ổn định 1–3 tháng — [cắt mí bao lâu hồi 
 
 **Có để lại sẹo?** Đường mí che khi mở mắt.
 
-**0938 673 996** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang).`;
+**0896 673 320** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang).`;
 
 export const NHAN_MI_BODY = `Nhấn mí (kỹ thuật tạo nếp mí không cắt da hoặc cắt rạch nhỏ) phù hợp mí ẩn, mắt một mí muốn thử nếp mí trước khi cắt mí toàn phần. Nhấn mí ít xâm lấn hơn cắt mí — hồi phục nhanh nhưng không phải ai cũng duy trì lâu như cắt mí.
 
@@ -298,4 +298,4 @@ Sưng nhẹ 3–7 ngày; bầm ít hơn cắt mí. Tránh rửa mạnh vùng mí
 
 **Nhấn mí rồi cắt mí được không?** Được khi nếp không còn đẹp.
 
-Tư vấn mí: **0938 673 996** — Thiên Hoàng Kim, An Đông TP.HCM.`;
+Tư vấn mí: **0896 673 320** — Thiên Hoàng Kim, An Đông TP.HCM.`;

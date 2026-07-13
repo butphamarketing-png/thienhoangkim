@@ -116,7 +116,7 @@ Chuyên viên spa và bác sĩ thẩm mỹ cùng hệ thống — thuận tiện
 
 **Dài hạn:** Routine sáng tối đơn giản (làm sạch – dưỡng – chống nắng); tái facial 2–4 tuần/lần tùy da.
 
-Gọi **0938 673 996** nếu đỏ dữ dội, sưng, đau kéo dài >48h sau hút bã — hiếm nhưng cần được tư vấn.
+Gọi **0896 673 320** nếu đỏ dữ dội, sưng, đau kéo dài >48h sau hút bã — hiếm nhưng cần được tư vấn.
 
 ## Lưu ý trung thực
 
@@ -148,7 +148,7 @@ Thẻ liệu trình 5–10 buổi phù hợp khách duy trì định kỳ — h�
 
 **Mang thai làm facial được không?** Một số bước điều chỉnh — hỏi bác sĩ và báo spa.
 
-**Đặt lịch?** **0938 673 996**, website, fanpage — 323–325 Hùng Vương, An Đông TP.HCM.
+**Đặt lịch?** **0896 673 320**, website, fanpage — 323–325 Hùng Vương, An Đông TP.HCM.
 
 ## Tại sao chọn Thiên Hoàng Kim?
 
@@ -158,4 +158,4 @@ Xem thêm Massage facial, Phun xăm thẩm mỹ, Ủ đá muối Himalaya tại 
 
 ## Đặt lịch chăm sóc da toàn diện
 
-Da khỏe bắt đầu từ làm sạch đúng và phác đồ đúng — không phải càng nhiều sản phẩm càng tốt. Đặt lịch chăm sóc da toàn diện qua website, gọi **0938 673 996** hoặc nhắn fanpage Thiên Hoàng Kim. Mang theo danh sách sản phẩm đang dùng (nếu có) để chuyên viên tư vấn tránh trùng hoặc kích ứng. Buổi đầu nên dành đủ 90 phút để trải nghiệm trọn quy trình — bạn sẽ biết rõ loại da và bước tiếp theo nên làm gì tại nhà.`;
+Da khỏe bắt đầu từ làm sạch đúng và phác đồ đúng — không phải càng nhiều sản phẩm càng tốt. Đặt lịch chăm sóc da toàn diện qua website, gọi **0896 673 320** hoặc nhắn fanpage Thiên Hoàng Kim. Mang theo danh sách sản phẩm đang dùng (nếu có) để chuyên viên tư vấn tránh trùng hoặc kích ứng. Buổi đầu nên dành đủ 90 phút để trải nghiệm trọn quy trình — bạn sẽ biết rõ loại da và bước tiếp theo nên làm gì tại nhà.`;

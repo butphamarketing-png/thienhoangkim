@@ -110,7 +110,7 @@ Kỹ thuật viên không massage trực tiếp vùng sưng nóng, mụn mủ lo
 
 Giá theo thời lượng 60 / 90 phút, có tinh dầu cao cấp hay combo ủ đá/facial. Báo giá tại lễ tân; voucher quà tặng, đặt nhóm có thể hỏi trực tiếp.
 
-Cuối tuần và sau 17h thường đông — đặt trước qua **0938 673 996** hoặc fanpage.
+Cuối tuần và sau 17h thường đông — đặt trước qua **0896 673 320** hoặc fanpage.
 
 ## Câu hỏi thường gặp (FAQ)
 
@@ -130,7 +130,7 @@ Cuối tuần và sau 17h thường đông — đặt trước qua **0938 673 99
 
 **Tip có bắt buộc không?** Không — tùy ý nếu hài lòng.
 
-**Đặt lịch thế nào?** Gọi **0938 673 996**, website, fanpage Thiên Hoàng Kim.
+**Đặt lịch thế nào?** Gọi **0896 673 320**, website, fanpage Thiên Hoàng Kim.
 
 ## Tại sao chọn Thiên Hoàng Kim?
 
@@ -144,4 +144,4 @@ Xem thêm Massage facial, Chăm sóc da toàn diện tại mục Spa.
 
 ## Đặt lịch massage body thư giãn
 
-Một buổi massage không chỉ là “xoa lưng” — đó là khoảng thời gian để cơ thể và đầu óc cùng nghỉ. Đặt lịch qua website, gọi **0938 673 996** hoặc nhắn fanpage Thiên Hoàng Kim. Nói rõ vùng đau (vai, lưng, chân) và mức lực mong muốn để kỹ thuật viên chuẩn bị tốt nhất. Hẹn cuối tuần sớm vì khung giờ 17h–20h thường kín.`;
+Một buổi massage không chỉ là “xoa lưng” — đó là khoảng thời gian để cơ thể và đầu óc cùng nghỉ. Đặt lịch qua website, gọi **0896 673 320** hoặc nhắn fanpage Thiên Hoàng Kim. Nói rõ vùng đau (vai, lưng, chân) và mức lực mong muốn để kỹ thuật viên chuẩn bị tốt nhất. Hẹn cuối tuần sớm vì khung giờ 17h–20h thường kín.`;

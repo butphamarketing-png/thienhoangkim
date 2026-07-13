@@ -136,7 +136,7 @@ Tính theo vùng (mày, môi, eyeliner), kỹ thuật (microblade, powder, combo
 
 **Phun xăm có phải xăm vĩnh viễn?** Không — mờ dần; có thể để nhạt hoặc tái phun.
 
-**Đặt lịch ở đâu?** **0938 673 996**, fanpage, website — 323–325 Hùng Vương, An Đông TP.HCM.
+**Đặt lịch ở đâu?** **0896 673 320**, fanpage, website — 323–325 Hùng Vương, An Đông TP.HCM.
 
 ## Tại sao chọn Thiên Hoàng Kim?
 
@@ -146,4 +146,4 @@ Xem thêm Ủ đá muối Himalaya, Chăm sóc da toàn diện tại mục Spa.
 
 ## Đặt lịch tư vấn phun xăm miễn phí
 
-Phun xăm thẩm mỹ là đầu tư cho vẻ ngoài mỗi ngày — nhưng cần chọn đúng dáng, đúng màu và kiên nhẫn chăm sóc giai đoạn bong vảy. Hãy đến buổi tư vấn miễn phí để chuyên viên phác thảo trên mặt bạn, giải thích kỹ thuật phù hợp và lịch dặm. Đặt lịch qua website, gọi **0938 673 996** hoặc nhắn fanpage Thiên Hoàng Kim. Nên tránh phun sát ngày cưới, lễ quan trọng — để lộ trình 4–6 tuần màu ổn định.`;
+Phun xăm thẩm mỹ là đầu tư cho vẻ ngoài mỗi ngày — nhưng cần chọn đúng dáng, đúng màu và kiên nhẫn chăm sóc giai đoạn bong vảy. Hãy đến buổi tư vấn miễn phí để chuyên viên phác thảo trên mặt bạn, giải thích kỹ thuật phù hợp và lịch dặm. Đặt lịch qua website, gọi **0896 673 320** hoặc nhắn fanpage Thiên Hoàng Kim. Nên tránh phun sát ngày cưới, lễ quan trọng — để lộ trình 4–6 tuần màu ổn định.`;

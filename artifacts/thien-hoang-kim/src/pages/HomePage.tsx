@@ -183,7 +183,7 @@ export default function HomePage() {
             Thẩm mỹ Quận 5 & An Đông — Thiên Hoàng Kim
           </h2>
           <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
-            323–325 Hùng Vương, Phường An Đông — nâng mũi, filler, cắt mí, spa. Tư vấn miễn phí 0938 673 996.
+            323–325 Hùng Vương, Phường An Đông — nâng mũi, filler, cắt mí, spa. Tư vấn miễn phí 0896 673 320.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             {[

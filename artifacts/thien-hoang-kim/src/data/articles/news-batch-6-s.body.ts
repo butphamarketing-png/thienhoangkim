@@ -22,7 +22,7 @@ Khám đánh giá độ chùng; báo gói chỉ + tái khám. [Căng chỉ PDO l
 
 **Giá theo sợi hay gói?** Cả hai — hỏi rõ số sợi. **Có phí tái khám?** Tùy phòng.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
 
 export const CANG_CHI_PDO_LA_GI_BODY = `Căng chỉ PDO là gì — PDO (Polydioxanone) là sợi tiêu trong cơ thể, dùng căng da, kích thích collagen. Có dạng mono (mịn), screw, cog (móc) — mức nâng khác nhau.
 
@@ -44,7 +44,7 @@ Chùng nhẹ–vừa; muốn trẻ hóa không mổ; 30–55 tuổi phổ biến
 
 **PDO an toàn?** CE/FDA tùy hãng — chọn nguồn rõ. **Đau?** Tê — chịu được.
 
-**0938 673 996** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa).`;
+**0896 673 320** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa).`;
 
 export const CANG_CHI_MONO_BODY = `Căng chỉ mono — sợi PDO mịn không móc, cấy rải để kích thích collagen, săn chắc da, cải thiện texture. Nâng cơ ít hơn [căng chỉ cog](/tin-tuc/cang-chi-cog); phù hợp da mỏng, phòng ngừa lão hóa.
 
@@ -66,7 +66,7 @@ Toàn mặt, cổ nhẹ, vùng mắt (chỉ mảnh); kết hợp [skin booster](
 
 **Mono vs cog?** Mono săn; cog nâng. **Bao lâu làm lại?** 12–18 tháng.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const CANG_CHI_COG_BODY = `Căng chỉ cog — sợi PDO có răng/móc (cog) bám mô dưới da, nâng vùng chùng (má, cằm, thái dương) mạnh hơn mono. Hiệu nâng rõ hơn nhưng cần bác sĩ có kinh nghiệm vector đúng.
 
@@ -88,7 +88,7 @@ Nâng ngay một phần; ổn định 3–6 tháng; duy trì ~12–18 tháng. So
 
 **Cog đau hơn mono?** Có thể căng hơn vài ngày. **Massage được?** Tránh vùng chỉ tuần đầu.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const CANG_CHI_MUI_BODY = `Căng chỉ mũi — kỹ thuật nâng đầu mũi, thu gọn cánh nhẹ bằng chỉ (thường PDO/PCL) qua đường xâm lấn tối thiểu. Không thay [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim) khi cần thay đổi sống/cánh lớn.
 
@@ -110,7 +110,7 @@ Biến chứng: lộ đầu chỉ, nhiễm trùng hiếm — chọn cơ sở y k
 
 **Có sưng?** Nhẹ vài ngày. **Làm lại được?** Có khi chỉ tan.
 
-**0938 673 996** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa).`;
+**0896 673 320** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa).`;
 
 export const CANG_CHI_CAM_BODY = `Căng chỉ cằm — nâng jawline, định hình V-line nhẹ bằng chỉ cog neo vào mô sâu. Phổ biến ở khách chùng má–cằm nhẹ, không muốn [HIFU cằm](/tin-tuc/hifu-cam) hoặc muốn hiệu nâng tức thì hơn sóng.
 
@@ -132,7 +132,7 @@ Ngủ thẳng vài đêm; tránh nhai cứng; không massage mạnh. [Căng ch�
 
 **Cằm ngắn cấy chỉ được?** Chỉ nâng mô — không kéo dài xương. **Kết hợp filler cằm?** Có thể — lịch cách nhau theo bác sĩ.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const CANG_CHI_SUNG_MAT_BODY = `Căng chỉ có sưng không — có, nhưng thường nhẹ đến trung bình 2–7 ngày tùy số sợi, loại cog và cơ địa. Không như sưng phẫu thuật căng da lớn; đa số đi làm được sau 1–3 ngày (che makeup).
 
@@ -154,7 +154,7 @@ Sưng một bên tăng, đỏ nóng — nghi nhiễm trùng, tái khám. Khác [
 
 **Bao lâu hết sưng?** 3–5 ngày phổ biến. **Makeup?** Sau 24–48h nếu không vết hở.
 
-**0938 673 996** — 323–325 Hùng Vương, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, TP.HCM.`;
 
 export const CANG_CHI_BI_LO_CHI_BODY = `Căng chỉ bị lộ chỉ — hiện tượng sờ thấy gồ, đôi khi nhìn đường chỉ dưới da mỏng hoặc khi cười. Thường do vector sai, số sợi quá nhiều, da quá mỏng hoặc cog quá lớn.
 
@@ -176,7 +176,7 @@ Nhiễm trùng, di lệch — cần y khoa ngay. PDO tan — vấn đề gồ th
 
 **Lộ chỉ có nguy hiểm?** Thường chỉ thẩm mỹ; tái khám để đánh giá. **Chờ chỉ tan?** 6–12 tháng PDO — có thể chọn chờ nếu nhẹ.
 
-**0938 673 996** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa).`;
+**0896 673 320** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa).`;
 
 export const CANG_NOI_SOI_MIDFACE_BODY = `Căng nội soi midface — phẫu thuật nâng vùng giữa mặt (gò má, rãnh nasolabial) qua đường rạch nhỏ trong tóc, dùng endoscope. Mạnh hơn căng chỉ khi chùng midface rõ, lún má.
 
@@ -198,7 +198,7 @@ Băng, phù 1 tuần; tái khám cắt chỉ; tránh gym 3–4 tuần.
 
 **Sẹo?** Ẩn trong chân tóc. **Kết hợp mỡ má?** Có thể cấy mỡ hoặc filler bổ sung.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const CANG_NOI_SOI_MA_BODY = `Căng nội soi má — tập trung nâng mô má, thái dương, giảm chùng vùng trước tai. Thường là một phần của midface lift hoặc mini lift tùy thiết kế.
 
@@ -220,7 +220,7 @@ Chùng má nhẹ–vừa; da còn đàn hồi. Da thừa nhiều — [deep plane
 
 **Bao lâu nghỉ?** 7–14 ngày tùy công việc. **Có đau?** Gây mê — sau đó thuốc giảm đau.
 
-**0938 673 996** — [căng nội soi](/tham-my/cang-noi-soi).`;
+**0896 673 320** — [căng nội soi](/tham-my/cang-noi-soi).`;
 
 export const MINI_FACELIFT_BODY = `Mini facelift — phẫu thuật căng da mặt phạm vi hẹp (thường dưới tai, jawline), ít xâm lấn hơn full facelift. Phù hợp chùng nhẹ–vừa tuổi 40–55, muốn kết quả lâu hơn căng chỉ.
 
@@ -242,7 +242,7 @@ Kéo căng jawline, cổ dưới nhẹ; duy trì 5–8 năm tùy cơ địa. So 
 
 **Sẹo có lộ?** Ẩn trước tai — theo thời gian mờ. **Tuổi tối đa?** Không có — đánh giá độ chùng.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const DEEP_PLANE_FACELIFT_BODY = `Deep plane facelift — kỹ thuật căng mặt nâng cả lớp SMAS/mô sâu một mảng, thay vì chỉ kéo da. Co hiệu quả mạnh, tự nhiên hơn căng da nông (da không bị “căng quá”).
 
@@ -264,7 +264,7 @@ Tổn thương thần kinh (hiếm, tạm thời); bầm sưng. Chọn bác sĩ 
 
 **Bao lâu trẻ?** 7–12 năm phổ biến — không dừng lão hóa. **Kết hợp cổ?** Thường có neck lift.
 
-**0938 673 996** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa) / phẫu thuật theo chỉ định.`;
+**0896 673 320** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa) / phẫu thuật theo chỉ định.`;
 
 export const HIFU_CAM_BODY = `HIFU cằm — sóng siêu âm tập trung năng lượng vào lớp sâu dưới da cằm–jawline, co collagen, nâng nhẹ đường cằm không phẫu thuật. Phù hợp chùng nhẹ, không muốn [căng chỉ cằm](/tin-tuc/cang-chi-cam) hay mổ.
 
@@ -286,7 +286,7 @@ Yếu hơn [mini facelift](/tin-tuc/mini-facelift); không nâng mô như cog. A
 
 **Đau?** Hơi chích sâu — chịu được. **Bao lâu thấy?** 2–3 tháng đỉnh.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const HIFU_MA_BODY = `HIFU má — sóng HIFU tác động lớp cơ và mô sâu vùng má, nâng nhẹ, săn chắc, giảm chảy xệ ban đầu. Không thay [căng nội soi má](/tin-tuc/cang-noi-soi-ma) khi lún nặng.
 
@@ -308,7 +308,7 @@ Săn 20–30% chủ quan; không “lift” như mổ. [HIFU bao lâu một lầ
 
 **Sưng?** Ít, vài giờ. **Kết hợp filler?** Cách 2–4 tuần theo bác sĩ.
 
-**0938 673 996** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa).`;
+**0896 673 320** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa).`;
 
 export const HIFU_BAO_LAU_MOT_LAN_BODY = `HIFU bao lâu một lần — thông thường lặp mỗi 6–12 tháng tùy tuổi, mức chùng và mục tiêu. Một lần có hiệu ứng kéo dài vài tháng đến hơn một năm; không vĩnh viễn như phẫu thuật.
 
@@ -330,7 +330,7 @@ Kem chống nắng; skincare; có thể xen [skin booster](/tin-tuc/skin-booster
 
 **Làm dồn 2 lần/tháng?** Không khuyến khích — chờ collagen. **HIFU + chỉ?** Cách vài tuần — bác sĩ sắp lịch.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const ULTHERAPY_LA_GI_BODY = `Ultherapy là gì — thương hiệu HIFU/MFU được FDA chỉ định nâng cơ mặt, cằm, cổ bằng siêu âm tập trung. Màn hình ultrasound hỗ trợ nhìn lớp sâu — khác HIFU generic không có imaging.
 
@@ -352,7 +352,7 @@ Chùng nhẹ–trung bình; không da thừa nhiều. Chùng nặng — [deep pl
 
 **Ultherapy vs Thermage?** Sóng âm vs RF. **Đau?** Cảm giác nóng sâu — có thể giảm đau.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const THERMAGE_LA_GI_BODY = `Thermage là gì — RF monopolar xuyên sâu làm nóng collagen, săn chắc da mặt, mắt, cơ thể. Thương hiệu lâu đời; tip một lần dùng; đau hơn HIFU một số người.
 
@@ -374,7 +374,7 @@ Săn da; không nâng mô sâu như mổ. [Mini facelift](/tin-tuc/mini-facelift
 
 **Mấy năm một lần?** 1–2 năm. **Tip FLX?** Thế hệ mới — nhanh hơn.
 
-**0938 673 996** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa).`;
+**0896 673 320** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa).`;
 
 export const RF_VI_DIEM_BODY = `RF vi điểm — radiofrequency phát từ nhiều điểm kim/micro-needle đưa nhiệt vào da, săn chắc, cải thiện lỗ chân lông, nếp nhẹ. Khác Thermage vùng lớn — thường fractional RF hoặc RF microneedling.
 
@@ -396,7 +396,7 @@ RF tác bề mặt–trung bình sâu; HIFU điểm sâu hơn — [HIFU má](/ti
 
 **Đau?** Tê bôi — chịu được. **Trị sẹo được?** Một số loại RF hỗ trợ sẹo lõm.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const EXOSOME_TRE_HOA_DA_BODY = `Exosome trẻ hóa da — vesicle siêu nhỏ từ tế bào gốc (hoặc nguồn chuẩn hóa) chứa growth factor, tiêm hoặc thoa sau laser/Microneedling để tăng hồi phục và chất lượng da.
 
@@ -418,7 +418,7 @@ Chọn nguồn có kiểm định; không phải “tế bào gốc” trực ti
 
 **Mấy buổi?** 1–3 hoặc theo phác đồ. **Sưng?** Nhẹ vài ngày nếu tiêm.
 
-**0938 673 996** — 323–325 Hùng Vương, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, TP.HCM.`;
 
 export const POLYNUCLEOTIDE_DA_BODY = `Polynucleotide da — DNA chiết xuất (thường cá hồi) tiêm nông kích thích tái tạo, hydrat, giảm viêm. Nhóm skin booster thế hệ mới; tương tự cơ chế [rejuran healer](/tin-tuc/rejuran-healer).
 
@@ -440,7 +440,7 @@ Không tạo thể tích — nuôi da. [Skin booster là gì](/tin-tuc/skin-boos
 
 **Đau?** Kem tê — chấm kim. **Bao lâu duy trì?** 6–12 tháng — liệu trình lặp.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const REJURAN_HEALER_BODY = `Rejuran healer — polynucleotide PDRN tiêm da (thương hiệu Hàn) nổi tiếng cho phục hồi, chống lão hóa, cải thiện texture. “Healer” nhấn mạnh tái tạo; có dòng eye cho mí.
 
@@ -462,7 +462,7 @@ Da mỏng, mệt; lỗ chân lông; sau mụn; chuẩn bị sự kiện. [Polynu
 
 **Rejuran vs filler?** Nuôi da vs đầy. **Mắt được?** Rejuran i — vùng mỏng.
 
-**0938 673 996** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa).`;
+**0896 673 320** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa).`;
 
 export const SKIN_BOOSTER_LA_GI_BODY = `Skin booster là gì — tiêm hydrat sâu (HA cross-link thấp, PN, collagen stimulator) để cải thiện chất da, độ ẩm, đàn hồi — không tạo hình như filler đầy má.
 
@@ -484,7 +484,7 @@ Da khô, mỏng, lão hóa sớm; bổ sung sau sóng [thermage](/tin-tuc/therma
 
 **Sưng?** Cần hút 24–48h. **Lộ cục?** Massage nhẹ theo hướng dẫn.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const NEP_NHAN_CO_BODY = `Nếp nhăn cổ — vùng da mỏng, ít tuyến bã nhờn, dễ lão hóa và “gà tây”. Điều trị: skincare, botox nhẹ, RF, HIFU cổ, skin booster, hoặc kết hợp neck lift phẫu thuật.
 
@@ -506,7 +506,7 @@ Tuổi, nắng, gen; “tech neck” cúi điện thoại. Phòng: SPF cổ, ret
 
 **Botox cổ?** Platisma bands — cần chuyên môn. **Bao nhiêu tuổi?** Từ 35+ tùy mức độ.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const NEP_NHAN_QUANH_MIENG_BODY = `Nếp nhăn quanh miệng — rãnh cười, rãnh marionette, nếp môi trên (smoker’s lines). Điều trị tùy độ sâu: botox nhẹ, filler, laser, RF, [skin booster](/tin-tuc/skin-booster-la-gi).
 
@@ -528,7 +528,7 @@ Liều thấp — tránh méo mô. Kết hợp [trẻ hóa vùng mắt](/tin-tuc
 
 **Filler rãnh cười?** Có — chọn HA phù hợp. **Tuổi?** Từ 30+ tùy gen và nắng.
 
-**0938 673 996** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa).`;
+**0896 673 320** — [căng chỉ trẻ hóa](/tham-my/cang-chi-tre-hoa).`;
 
 export const TRE_HOA_VUNG_MAT_BODY = `Trẻ hóa vùng mắt — bọng mắt, quầng thâm, nếp chân chim, da chùng mí; điều trị từ nhẹ (cream, [rejuran eye](/tin-tuc/rejuran-healer)) đến cắt mí, laser, filler tear trough (cẩn thận).
 
@@ -550,4 +550,4 @@ Da mỏng — filler dễ bầm, Tyndall; chọn bác sĩ mắt kinh nghiệm. [
 
 **Tuổi nào?** Từ 28+ tùy vấn đề. **Một lần đủ?** Thường phối hợp nhiều modality.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;

@@ -22,7 +22,7 @@ Trán: 10–20U; cau mày: 15–25U; đuôi mày hai bên: 4–12U. Tổng ~50U 
 
 **50U nhiều không?** Vùng trên mặt — vừa. **Bao lâu tiêm lại?** [4–6 tháng](/tin-tuc/botox-bao-lau-tiem-lai).
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
 
 export const BOTOX_100_UNIT_BODY = `Botox 100 unit — liều thường gặp khi tiêm nhiều vùng: trán + cau mày + đuôi mày + [masseter](/tham-my/botox-xoa-nhan-gon-ham) gọn hàm, hoặc cổ nhẹ. 100U không cố định cho mọi người — cơ to cần hơn.
 
@@ -44,7 +44,7 @@ Liều cao cần bác sĩ — tránh [cứng mặt](/tin-tuc/botox-cung-mat). [B
 
 **100U một lần được?** Thường được nếu phân bổ hợp lý. **Giá?** Theo tổng unit.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const BOTOX_GIA_1_DIEM_BODY = `Botox giá 1 điểm — spa hay phòng khám có thể báo giá “theo điểm tiêm” hoặc “theo unit”. Điểm = vị trí chích; một điểm có thể 2–5U. So sánh giá cần hỏi tổng unit và loại botox (Allergan, Dysport…).
 
@@ -66,7 +66,7 @@ Báo unit hoặc gói vùng rõ — [botox xóa nhăn gọn hàm](/tham-my/botox
 
 **Rẻ quá có sao?** Toxin pha loãng — hiệu quả kém. **Hỏi gì khi đi?** Tổng U, hãng, ai tiêm.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const BOTOX_CAU_TRUNG_BODY = `Botox cau trùng — tiêm cơ cau mày (corrugator, procerus) giữa trán để giảm nhăn dọc khi cau. Liều thường 15–25U; quá cao → cau không được, trán lạ.
 
@@ -88,7 +88,7 @@ Lid ptosis hiếm nếu lan levator — chọn bác sĩ. [Botox cứng mặt](/t
 
 **Cau không được?** Có thể liều đủ — không phải lỗi nếu mục tiêu xóa nhăn. **Đau?** Kim nhỏ — chịu được.
 
-**0938 673 996** — [botox](/tham-my/botox-xoa-nhan-gon-ham).`;
+**0896 673 320** — [botox](/tham-my/botox-xoa-nhan-gon-ham).`;
 
 export const BOTOX_RANH_MUI_BODY = `Botox rãnh mũi — tiêm cơ bunny (nasalis) hai bên sống mũi khi cười co nhăn ngang (“bunny lines”). Liều nhỏ 2–6U mỗi bên.
 
@@ -110,7 +110,7 @@ Không quá nhiều — ảnh hưởng cười tự nhiên. [Filler sống mũi]
 
 **Bao lâu?** 3–4 tháng. **Sưng?** Chấm đỏ vài giờ.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const BOTOX_BUNNY_LINES_BODY = `Botox bunny lines — nếp nhăn ngang hai bên sống mũi khi cười (thỏ nhảy). Tiêm botox cơ nasalis; liều thấp giữ cười tự nhiên.
 
@@ -132,7 +132,7 @@ Sau khi trán đã botox — bunny đôi khi lộ rõ hơn. [Botox lần đầu]
 
 **Cười méo?** Liều cao — tái khám giảm liều lần sau. **Kết hợp filler mũi?** Có — khác layer.
 
-**0938 673 996** — [botox](/tham-my/botox-xoa-nhan-gon-ham).`;
+**0896 673 320** — [botox](/tham-my/botox-xoa-nhan-gon-ham).`;
 
 export const BOTOX_GUMMY_SMILE_BODY = `Botox gummy smile — tiêm cơ levator labii superioris nhẹ để môi trên không cuộn quá cao khi cười, lộ nướu. Liều micro 2–4U mỗi bên — cần kinh nghiệm.
 
@@ -154,7 +154,7 @@ Cười méo, khó trò chuyện nếu quá liều — tan dần 3–4 tháng ho
 
 **Vĩnh viễn?** Tạm 3–4 tháng. **Đau?** Ít.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const BOTOX_CO_BODY = `Botox cổ — tiêm cơ platysma (cơ cổ) giảm dây cổ đứng, nhăn cổ nhẹ; thường gọi [Nefertiti lift](/tin-tuc/nefertiti-botox) khi kết hợp jaw. Liều 20–50U tùy cơ.
 
@@ -176,7 +176,7 @@ Nhiều điểm dọc cổ; tránh nuốt khó nếu quá cao. [Botox platysma](
 
 **Nuốt khó?** Hiếm — liều cao sai vùng. **Bao lâu?** 4–6 tháng.
 
-**0938 673 996** — [botox](/tham-my/botox-xoa-nhan-gon-ham).`;
+**0896 673 320** — [botox](/tham-my/botox-xoa-nhan-gon-ham).`;
 
 export const BOTOX_PLATYSMA_BODY = `Botox platysma — đích tiêm chính khi xử lý cơ cổ (platysma band). Giảm kéo cổ xuống, jawline rõ hơn trong [Nefertiti botox](/tin-tuc/nefertiti-botox).
 
@@ -198,7 +198,7 @@ Chùng da — surgery; platysma botox — cơ động.
 
 **Đau?** Nhiều điểm nhỏ. **Kết quả khi nào?** 1–2 tuần.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const BOTOX_NANG_DUOI_MAY_BODY = `Botox nâng đuôi mày — tiêm cơ orbicularis oculi phần đuôi mày (và có thể cân bằng cau mày) để đuôi mày cao nhẹ, mắt tỉnh hơn. Liều 2–6U mỗi bên.
 
@@ -220,7 +220,7 @@ Không quá cao — “Spock brow” nếu trán botox lệch. Kết hợp [boto
 
 **Mắt nhám?** Hiếm — ptosis nếu lan — tái khám. **Nam được?** Có.
 
-**0938 673 996** — [botox](/tham-my/botox-xoa-nhan-gon-ham).`;
+**0896 673 320** — [botox](/tham-my/botox-xoa-nhan-gon-ham).`;
 
 export const BOTOX_MO_HOI_TAY_BODY = `Botox mồ hôi tay — tiêm botox lớp da nách hoặc lòng bàn tay chặn tín hiệu mồ hôi; giảm đổ mồ hôi 80–90% vài tháng. Liều tay: 50–100U mỗi bàn tay.
 
@@ -242,7 +242,7 @@ Hiệu 1–2 tuần; kéo dài 4–9 tháng — lâu hơn mặt.
 
 **Nách được?** Có — phổ biến nhất. **Bảo hiểm?** Hyperhidrosis một số nơi — hỏi địa phương.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const BOTOX_MIGRAINE_BODY = `Botox migraine — FDA chỉ định tiêm 31–39 điểm đầu/cổ cho migraine mạn; giảm tần suất đau đầu. Khác botox thẩm mỹ — liều và map chuẩn y khoa.
 
@@ -264,7 +264,7 @@ Migraine ≥15 ngày/tháng, đã thử thuốc — bác sĩ thần kinh hoặc 
 
 **Đau đầu hết ngay?** Không — giảm dần vài tháng. **Tiêm 3 tháng/lần?** Protocol chuẩn.
 
-**0938 673 996** — Tư vấn [botox](/tham-my/botox-xoa-nhan-gon-ham) thẩm mỹ riêng.`;
+**0896 673 320** — Tư vấn [botox](/tham-my/botox-xoa-nhan-gon-ham) thẩm mỹ riêng.`;
 
 export const BOTOX_BRUXISM_BODY = `Botox bruxism — tiêm masseter giảm nghiến răng (bruxism), đau hàm, mài răng. Liều 20–40U mỗi bên; giảm lực nhai, bảo vệ răng.
 
@@ -286,7 +286,7 @@ Cùng vùng masseter — bruxism nhấn y khoa răng hàm mặt.
 
 **Nhai yếu?** Liều cao — điều chỉnh lần sau. **Má hóp?** Masseter nhỏ — một số thích.
 
-**0938 673 996** — [botox gọn hàm](/tham-my/botox-xoa-nhan-gon-ham).`;
+**0896 673 320** — [botox gọn hàm](/tham-my/botox-xoa-nhan-gon-ham).`;
 
 export const BOTOX_NHAI_BODY = `Botox nhai — tiêm cơ masseter (nhai) để gọn hàm V-line, giảm lực nhai hoặc [bruxism](/tin-tuc/botox-bruxism). Liều 15–30U mỗi bên tùy cơ to.
 
@@ -308,7 +308,7 @@ Cơ giảm 4–6 tuần rõ; duy trì 4–6 tháng. [Botox 100 unit](/tin-tuc/bo
 
 **Mặt lõm?** Liều cao + cơ nhỏ sẵn — bác sĩ điều chỉnh. **Nam gọn hàm?** Có.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const BOTOX_CUNG_MAT_BODY = `Botox có bị cứng mặt không — nếu liều cao, tiêm quá rộng trán hoặc cau mày, có thể cảm giác “đơ”, cười không tự nhiên, nhìn như mặt nặng. Đúng liều → giảm nhăn vẫn biểu cảm.
 
@@ -330,7 +330,7 @@ Sưng vùng chích — không phải cứng biểu cảm.
 
 **Cứng vĩnh viễn?** Không — botox hết tác dụng. **Filler cứng?** Khác — [filler bị cứng](/tin-tuc/filler-bi-cung).
 
-**0938 673 996** — [botox](/tham-my/botox-xoa-nhan-gon-ham).`;
+**0896 673 320** — [botox](/tham-my/botox-xoa-nhan-gon-ham).`;
 
 export const BOTOX_KHONG_AN_THIT_BODY = `Botox không ăn thịt — quan niệm sai botox làm teo cơ vĩnh viễn hoặc “ăn” mô. Botox chặn tạm thần tín hiệu thần kinh–cơ 3–6 tháng; cơ hoạt động lại bình thường, không mất thịt nếu không tiêm lặp liên tục quá mức.
 
@@ -352,7 +352,7 @@ Tiêm lạnh đông lạnh làm hỏng thịt — không đúng nếu sản ph�
 
 **Tiêm lâu năm sao?** Nhiều người cần liều ít hơn theo thời gian. **Có nên nghỉ?** Có thể nghỉ vài tháng.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const BOTOX_LAN_DAU_BODY = `Botox lần đầu — nên khám rõ mục tiêu (nhăn, hàm, mồ hôi); bác sĩ có thể dùng liều thấp hơn, tái khám 2 tuần bổ sung. Tránh kỳ vọng “hết nhăn 100%” ngày 1.
 
@@ -374,7 +374,7 @@ Bác sĩ tiêm; toxin có nguồn; [botox giá 1 điểm](/tin-tuc/botox-gia-1-d
 
 **Đau lần đầu?** Như muỗi — 10–15 phút. **Khi nào thấy?** 3–7 ngày.
 
-**0938 673 996** — [botox](/tham-my/botox-xoa-nhan-gon-ham).`;
+**0896 673 320** — [botox](/tham-my/botox-xoa-nhan-gon-ham).`;
 
 export const BOTOX_BAO_LAU_TIEM_LAI_BODY = `Botox bao lâu tiêm lại — thông thường 3–6 tháng tùy vùng, cơ, liều, thương hiệu toxin. Masseter, mồ hôi: 4–9 tháng. Tiêm lại trước khi hết hẳn giữ nếp mượt.
 
@@ -396,7 +396,7 @@ Quá dày (<2 tháng) — nguy cơ kháng thuốc hiếm; [cứng mặt](/tin-tu
 
 **Hết botox nhăn nhiều hơn xưa?** Không — “rebound” nhẹ có thể cảm giác. **Dysport vs Botox thời gian?** Tương đương.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const TIEM_MESO_BOTOX_BODY = `Tiêm meso botox — pha botox loãng tiêm nông lớp da (intradermal) toàn mặt hoặc vùng; giảm bóng nhờn, lỗ chân lông, nhăn mảnh — khác botox cơ sâu. Gọi [skin botox](/tin-tuc/skin-botox) hoặc [micro botox](/tin-tuc/micro-botox).
 
@@ -418,7 +418,7 @@ Dilute nhiều điểm nhỏ; không làm đơ cơ lớn. Phù hợp da dầu, t
 
 **Bọng nước?** Chấm sưng vài giờ — bình thường. **Kết hợp filler?** Có — khác tầng.
 
-**0938 673 996** — [chăm sóc da](/spa/cham-soc-da-toan-dien).`;
+**0896 673 320** — [chăm sóc da](/spa/cham-soc-da-toan-dien).`;
 
 export const SKIN_BOTOX_BODY = `Skin botox — botox tiêm lớp da nông (microdroplet) giảm tiết nhờn, se lỗ chân lông, da mịn; biểu cảm giữ vì không chặn cơ sâu. Tương tự [meso botox](/tin-tuc/tiem-meso-botox), [micro botox](/tin-tuc/micro-botox).
 
@@ -440,7 +440,7 @@ Botox cơ cho nhăn sâu — kết hợp nếu cần.
 
 **Cứng mặt?** Ít hơn botox cơ. **Bao lâu?** 3–4 tháng.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const MICRO_BOTOX_BODY = `Micro botox — kỹ thuật tiêm botox pha loãng, liều micro nhiều điểm intradermal; làm da satin, giảm mồ hôi bề mặt, nhăn tĩnh mảnh. Không frozen face.
 
@@ -462,7 +462,7 @@ Cùng họ kỹ thuật — tên gọi thương mại khác nhau. [Tiêm meso bo
 
 **Đau?** Nhiều chích nhỏ — tê bôi. **Trộn HA?** Một số phác đồ — bác sĩ quyết định.
 
-**0938 673 996** — [spa](/spa/cham-soc-da-toan-dien).`;
+**0896 673 320** — [spa](/spa/cham-soc-da-toan-dien).`;
 
 export const NEFERTITI_BOTOX_BODY = `Nefertiti botox — tiêm botox dọc hàm dưới (mandible) + [platysma](/tin-tuc/botox-platysma) cổ, tạo đường jaw thon, cổ trẻ hơn; đặt tên theo tượng Nefertiti cổ thon.
 
@@ -484,7 +484,7 @@ Chùng nhẹ cổ + cơ platysma rõ; 35–55 tuổi phổ biến.
 
 **Nuốt?** Hiếm nếu đúng tầng. **Bao lâu?** 4–6 tháng.
 
-**0938 673 996** — [botox](/tham-my/botox-xoa-nhan-gon-ham).`;
+**0896 673 320** — [botox](/tham-my/botox-xoa-nhan-gon-ham).`;
 
 export const LIP_FLIP_BOTOX_BODY = `Lip flip botox — vài unit botox cơ orbicularis oris mép môi trên làm môi lật nhẹ ra, trông đầy hơn không filler. Khác [filler môi](/tin-tuc/filler-moi-1cc) thêm thể tích.
 
@@ -506,7 +506,7 @@ Filler 0,5ml + lip flip — tự nhiên. [Gummy smile](/tin-tuc/botox-gummy-smil
 
 **Thay filler?** Không — hiệu ứng khác. **Răng lộ?** Có thể — tư vấn trước gương.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const BOTOX_FILLER_KHAC_NHAU_CHI_TIET_BODY = `Botox và filler khác nhau chi tiết — botox thư giãn cơ (giảm nhăn động, gọn hàm, mồ hôi); filler HA thêm thể tích (môi, má, cằm, rãnh). Botox 3–6 tháng; filler 6–18 tháng.
 
@@ -528,7 +528,7 @@ Filler [hyaluronidase](/tin-tuc/tiem-hyaluronidase); botox chờ hết tác dụ
 
 **Cái nào trước?** Cùng buổi được. **Đau hơn?** Tùy vùng — tương đương nhẹ.
 
-**0938 673 996** — [botox](/tham-my/botox-xoa-nhan-gon-ham) & [filler](/tham-my/filler-tao-hinh).`;
+**0896 673 320** — [botox](/tham-my/botox-xoa-nhan-gon-ham) & [filler](/tham-my/filler-tao-hinh).`;
 
 export const TIEM_BOTOX_CO_CAN_NGHI_BODY = `Tiêm botox có cần nghỉ không — đa số không cần nghỉ phép; đi làm ngay sau tiêm được. Tránh gym nặng, xông hơi, massage vùng tiêm 24h; tránh nằm sấp 4h (lý thuyết di chuyển toxin).
 
@@ -550,4 +550,4 @@ Mang kính râm nếu lo chấm đỏ — không bắt buộc.
 
 **Rượu?** Tránh 24h — tăng bầm. **Mang thai?** Không tiêm.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;

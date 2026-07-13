@@ -386,7 +386,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       canonicalUrl: "/spa/u-da-muoi-himalaya",
       ogTitle: "Ủ đá muối Himalaya — Thải độc, thư giãn | Thiên Hoàng Kim",
       ogDescription:
-        "Đá muối Himalaya làm ấm kết hợp massage — giảm căng cơ, thư giãn trong phòng spa riêng. Đặt lịch 0938 673 996.",
+        "Đá muối Himalaya làm ấm kết hợp massage — giảm căng cơ, thư giãn trong phòng spa riêng. Đặt lịch 0896 673 320.",
       ogImage: intro,
     },
   ),
@@ -410,7 +410,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       canonicalUrl: "/spa/phun-xam-tham-my",
       ogTitle: "Phun xăm thẩm mỹ — Mày, môi tự nhiên | Thiên Hoàng Kim",
       ogDescription:
-        "Phun mày, môi, eyeliner bán vĩnh viễn — chuyên viên phác thảo theo khuôn mặt, mực organic. Đặt lịch 0938 673 996.",
+        "Phun mày, môi, eyeliner bán vĩnh viễn — chuyên viên phác thảo theo khuôn mặt, mực organic. Đặt lịch 0896 673 320.",
       ogImage: phunXamThamMyImage,
     },
   ),
@@ -434,7 +434,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       canonicalUrl: "/spa/massage-body-thu-gian",
       ogTitle: "Massage body thư giãn | Thiên Hoàng Kim Spa",
       ogDescription:
-        "Massage toàn thân trong phòng riêng — chọn lực nhẹ hoặc sâu, tinh dầu thảo dược. Đặt lịch 0938 673 996.",
+        "Massage toàn thân trong phòng riêng — chọn lực nhẹ hoặc sâu, tinh dầu thảo dược. Đặt lịch 0896 673 320.",
       ogImage: massageBodyThuGianImage,
     },
   ),
@@ -458,7 +458,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       canonicalUrl: "/spa/massage-facial",
       ogTitle: "Massage facial — Da sáng, thư giãn | Thiên Hoàng Kim",
       ogDescription:
-        "Massage mặt kết hợp ấn huyệt và dưỡng ẩm — phù hợp trước sự kiện hoặc sau ngày căng thẳng. Đặt lịch 0938 673 996.",
+        "Massage mặt kết hợp ấn huyệt và dưỡng ẩm — phù hợp trước sự kiện hoặc sau ngày căng thẳng. Đặt lịch 0896 673 320.",
       ogImage: massageFacialImage,
     },
   ),
@@ -482,7 +482,7 @@ const SPA_ARTICLES: SiteArticle[] = [
       canonicalUrl: "/spa/cham-soc-da-toan-dien",
       ogTitle: "Chăm sóc da toàn diện — Phác đồ cá nhân | Thiên Hoàng Kim",
       ogDescription:
-        "Soi da, làm sạch sâu, massage và mask theo loại da — da sáng mịn sau một buổi. Đặt lịch 0938 673 996.",
+        "Soi da, làm sạch sâu, massage và mask theo loại da — da sáng mịn sau một buổi. Đặt lịch 0896 673 320.",
       ogImage: chamSocDaToanDienImage,
     },
   ),
@@ -570,7 +570,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     PHONG_KHAM_THAM_MY_AN_DONG_BODY,
     intro,
     "Tin tức",
-    newsSeo("phong-kham-tham-my-an-dong", "Phòng khám thẩm mỹ An Đông Quận 5 — Thiên Hoàng Kim 323–325 Hùng Vương. Nâng mũi, filler, botox, spa. Mở 08:00–20:00. Gọi 0938 673 996.",
+    newsSeo("phong-kham-tham-my-an-dong", "Phòng khám thẩm mỹ An Đông Quận 5 — Thiên Hoàng Kim 323–325 Hùng Vương. Nâng mũi, filler, botox, spa. Mở 08:00–20:00. Gọi 0896 673 320.",
       "phòng khám thẩm mỹ An Đông",
       "thẩm mỹ An Đông, phòng khám Quận 5, Thiên Hoàng Kim Hùng Vương",
     ),
@@ -642,7 +642,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "Tin tức",
     newsSeo(
       "dia-chi-tham-my-quan-5-an-dong",
-      "Địa chỉ thẩm mỹ Quận 5 An Đông — tiêu chí chọn phòng khám, khu Hùng Vương, nâng mũi, filler, spa. Thiên Hoàng Kim 323–325 Hùng Vương. Gọi 0938 673 996.",
+      "Địa chỉ thẩm mỹ Quận 5 An Đông — tiêu chí chọn phòng khám, khu Hùng Vương, nâng mũi, filler, spa. Thiên Hoàng Kim 323–325 Hùng Vương. Gọi 0896 673 320.",
       "địa chỉ thẩm mỹ quận 5 an đông",
       "thẩm mỹ quận 5, phòng khám An Đông, thẩm mỹ Hùng Vương, clinic quận 5 TP.HCM",
     ),
@@ -658,7 +658,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "Tin tức",
     newsSeo(
       "nang-mui-quan-5-an-dong",
-      "Nâng mũi Quận 5 An Đông — Thiên Hoàng Kim 323–325 Hùng Vương. Tư vấn miễn phí, báo giá minh bạch, bác sĩ chuyên khoa. Gọi 0938 673 996.",
+      "Nâng mũi Quận 5 An Đông — Thiên Hoàng Kim 323–325 Hùng Vương. Tư vấn miễn phí, báo giá minh bạch, bác sĩ chuyên khoa. Gọi 0896 673 320.",
       "nâng mũi quận 5 an đông",
       "nâng mũi quận 5, nâng mũi An Đông, nâng mũi Hùng Vương, phẫu thuật mũi Q5",
     ),
@@ -674,7 +674,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "Tin tức",
     newsSeo(
       "filler-quan-5-an-dong",
-      "Filler Quận 5 An Đông — tiêm filler mũi, môi, cằm tại Thiên Hoàng Kim Hùng Vương. Sản phẩm chính hãng, tư vấn miễn phí 0938 673 996.",
+      "Filler Quận 5 An Đông — tiêm filler mũi, môi, cằm tại Thiên Hoàng Kim Hùng Vương. Sản phẩm chính hãng, tư vấn miễn phí 0896 673 320.",
       "filler quận 5 an đông",
       "filler quận 5, tiêm filler An Đông, filler Hùng Vương, filler TP.HCM",
     ),
@@ -690,7 +690,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "Tin tức",
     newsSeo(
       "cat-mi-quan-5-an-dong",
-      "Cắt mí Quận 5 An Đông — cắt mí phượng hoàng tại Thiên Hoàng Kim 323–325 Hùng Vương. Tư vấn miễn phí, nếp mí tự nhiên. Gọi 0938 673 996.",
+      "Cắt mí Quận 5 An Đông — cắt mí phượng hoàng tại Thiên Hoàng Kim 323–325 Hùng Vương. Tư vấn miễn phí, nếp mí tự nhiên. Gọi 0896 673 320.",
       "cắt mí quận 5 an đông",
       "cắt mí quận 5, cắt mí An Đông, thẩm mỹ mắt Q5, cắt mí Hùng Vương",
     ),

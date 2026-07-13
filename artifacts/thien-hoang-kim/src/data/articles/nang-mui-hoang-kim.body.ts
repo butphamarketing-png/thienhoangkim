@@ -78,7 +78,7 @@ Kết quả cụ thể phụ thuộc cơ địa, độ dày da, kỹ thuật, ch
 
 **Dài hạn:** Chống nắng SPF50+ ít nhất 3 tháng; bảo vệ mũi khỏi va chạm mạnh; tái khám đúng lịch.
 
-Liên hệ ngay hotline **0938 673 996** nếu sốt cao, chảy máu nhiều, đau tăng dần không giảm khi uống thuốc, hoặc mũi đột ngột lệch sau va chạm.
+Liên hệ ngay hotline **0896 673 320** nếu sốt cao, chảy máu nhiều, đau tăng dần không giảm khi uống thuốc, hoặc mũi đột ngột lệch sau va chạm.
 
 ## So sánh nâng mũi hoàng kim với filler và phương pháp khác
 
@@ -146,4 +146,4 @@ Thiên Hoàng Kim Aesthetic Clinic tọa lạc tại **323–325 Hùng Vương, 
 
 ## Đặt lịch tư vấn miễn phí
 
-Đừng để thông tin sai lệch trên mạng làm bạn hoang mang. Hãy đặt lịch tư vấn trực tiếp để bác sĩ đánh giá cấu trúc mũi, gợi ý phác đồ nâng mũi hoàng kim phù hợp nhất và báo giá minh bạch. Đặt lịch qua form trên website, gọi **0938 673 996** hoặc nhắn tin qua fanpage Thiên Hoàng Kim — đội ngũ tư vấn sẽ sắp xếp khung giờ thuận tiện cho bạn.`;
+Đừng để thông tin sai lệch trên mạng làm bạn hoang mang. Hãy đặt lịch tư vấn trực tiếp để bác sĩ đánh giá cấu trúc mũi, gợi ý phác đồ nâng mũi hoàng kim phù hợp nhất và báo giá minh bạch. Đặt lịch qua form trên website, gọi **0896 673 320** hoặc nhắn tin qua fanpage Thiên Hoàng Kim — đội ngũ tư vấn sẽ sắp xếp khung giờ thuận tiện cho bạn.`;

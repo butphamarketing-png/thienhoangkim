@@ -28,7 +28,7 @@ export const INTRO_MAIN_BLOCKS: PageBlock[] = [
     "Dịch vụ chính",
     "Thẩm mỹ y khoa: nâng mũi hoàng kim, cắt mí phượng hoàng, cấy tóc, căng nội soi, căng chỉ, filler, botox…",
     "Spa & chăm sóc da: ủ đá muối Himalaya, phun xăm thẩm mỹ, massage body, massage facial, chăm sóc da toàn diện.",
-    "Hotline tư vấn miễn phí: 0938 673 996 — mở cửa 08:00–20:00 tất cả các ngày trong tuần.",
+    "Hotline tư vấn miễn phí: 0896 673 320 — mở cửa 08:00–20:00 tất cả các ngày trong tuần.",
   ),
 ];
 
@@ -124,6 +124,6 @@ export const INTRO_FACILITIES_BLOCKS: PageBlock[] = [
   p(
     "Tiện ích & liên hệ",
     "Địa chỉ: 323–325 Hùng Vương, Phường An Đông, TP. Hồ Chí Minh — dễ tìm, có chỗ đậu xe gần phòng khám.",
-    "Giờ mở cửa: 08:00–20:00, Thứ 2 – Chủ nhật. Hotline: 0938 673 996.",
+    "Giờ mở cửa: 08:00–20:00, Thứ 2 – Chủ nhật. Hotline: 0896 673 320.",
   ),
 ];

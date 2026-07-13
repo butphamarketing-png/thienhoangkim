@@ -58,7 +58,7 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
     slogan: "Nâng Tầm Nhan Sắc",
     logoUrl: LOGO_ICON_SRC,
     address: "323-325 Hùng Vương, Phường An Đông, TP Hồ Chí Minh",
-    phone: "0938673996",
+    phone: "0896673320",
     email: "contact@thienhoangkim.vn",
     hours: "08:00 - 20:00 (Thứ 2 - Chủ Nhật)",
     messengerSlug: "thienhoangkim",

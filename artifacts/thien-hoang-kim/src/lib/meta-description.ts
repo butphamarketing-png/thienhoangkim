@@ -6,7 +6,7 @@ const articleTitles = slugTitlesData.articles as Record<string, string>;
 export const META_DESCRIPTION_MAX = 160;
 const BRAND = "Thiên Hoàng Kim";
 const ADDRESS = "323–325 Hùng Vương, An Đông, TP.HCM";
-const PHONE = "0938 673 996";
+const PHONE = "0896 673 320";
 
 const SERVICE_DESC: Record<string, string> = {
   "nang-mui-hoang-kim":
@@ -22,13 +22,13 @@ const SERVICE_DESC: Record<string, string> = {
   "filler-tao-hinh":
     "Filler tạo hình mặt chuẩn y khoa — hài hòa, không cứng. Báo giá minh bạch, tư vấn miễn phí tại An Đông TP.HCM.",
   "botox-xoa-nhan-gon-ham":
-    "Botox xóa nhăn, gọn hàm V-line — nhanh, ít xâm lấn. Bác sĩ uy tín TP.HCM. Đặt lịch Thiên Hoàng Kim: 0938 673 996.",
+    "Botox xóa nhăn, gọn hàm V-line — nhanh, ít xâm lấn. Bác sĩ uy tín TP.HCM. Đặt lịch Thiên Hoàng Kim: 0896 673 320.",
   "u-da-muoi-himalaya":
     "Ủ đá muối Himalaya — thư giãn sâu, detox và phục hồi da. Spa cao cấp Thiên Hoàng Kim An Đông. Đặt lịch ngay.",
   "phun-xam-tham-my":
     "Phun xăm thẩm mỹ — mày, môi tự nhiên, bền màu. Kỹ thuật chuẩn y khoa tại Thiên Hoàng Kim. Tư vấn miễn phí.",
   "massage-body-thu-gian":
-    "Massage body thư giãn — giảm căng cứng, tái tạo năng lượng. Spa Thiên Hoàng Kim An Đông TP.HCM. Đặt lịch 0938 673 996.",
+    "Massage body thư giãn — giảm căng cứng, tái tạo năng lượng. Spa Thiên Hoàng Kim An Đông TP.HCM. Đặt lịch 0896 673 320.",
   "massage-facial":
     "Massage facial — da sáng khỏe, thư giãn chuyên sâu. Liệu trình cá nhân hóa tại spa Thiên Hoàng Kim TP.HCM.",
   "cham-soc-da-toan-dien":
@@ -37,7 +37,7 @@ const SERVICE_DESC: Record<string, string> = {
 
 const ROUTE_DESC: Record<string, string> = {
   "":
-    "Phòng khám thẩm mỹ chuẩn y khoa tại An Đông TP.HCM — nâng mũi, cắt mí, filler, botox, spa. Tư vấn miễn phí. Gọi 0938 673 996.",
+    "Phòng khám thẩm mỹ chuẩn y khoa tại An Đông TP.HCM — nâng mũi, cắt mí, filler, botox, spa. Tư vấn miễn phí. Gọi 0896 673 320.",
   "gioi-thieu":
     "Thiên Hoàng Kim — phòng khám thẩm mỹ uy tín An Đông TP.HCM. Bác sĩ chuyên khoa, quy trình an toàn, tư vấn miễn phí.",
   "dich-vu":
@@ -48,11 +48,11 @@ const ROUTE_DESC: Record<string, string> = {
   "khach-hang":
     "Khách hàng thực tế Thiên Hoàng Kim — hình ảnh before & after, feedback chân thực. Xem kết quả trước khi đặt lịch.",
   "bang-gia":
-    "Bảng giá thẩm mỹ minh bạch — báo giá sau khám, không phụ phí ẩn. Thiên Hoàng Kim An Đông TP.HCM. Gọi 0938 673 996.",
+    "Bảng giá thẩm mỹ minh bạch — báo giá sau khám, không phụ phí ẩn. Thiên Hoàng Kim An Đông TP.HCM. Gọi 0896 673 320.",
   "tin-tuc":
     "Cẩm nang làm đẹp & tin tức thẩm mỹ từ bác sĩ Thiên Hoàng Kim — kiến thức dễ hiểu, tư vấn miễn phí TP.HCM.",
   "lien-he":
-    "Đặt lịch tư vấn miễn phí — hotline 0938 673 996. 323–325 Hùng Vương, An Đông TP.HCM. Mở 08:00–20:00 hàng ngày.",
+    "Đặt lịch tư vấn miễn phí — hotline 0896 673 320. 323–325 Hùng Vương, An Đông TP.HCM. Mở 08:00–20:00 hàng ngày.",
   "doi-ngu-bac-si":
     "Đội ngũ bác sĩ Thiên Hoàng Kim — kinh nghiệm, tận tâm, chuyên sâu thẩm mỹ y khoa. Tư vấn miễn phí tại An Đông TP.HCM.",
   "cau-chuyen-thuong-hieu":

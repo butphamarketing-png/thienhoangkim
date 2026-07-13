@@ -22,7 +22,7 @@ Nhiễm trùng cấp, huyết cục cấp — hỏi bác sĩ.
 
 **Đau?** Rất nhẹ — thư giãn. **Mấy buổi?** 1–5 tùy mục tiêu.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
 
 export const MASSAGE_DA_NONG_LANH_BODY = `Massage đá nóng đá lạnh — hot stone + cold stone luân phiên giãn cơ, tăng tuần hoàn, thư giãn sâu. Đá nóng đặt điểm trigger; đá lạnh giảm viêm nhẹ sau nóng.
 
@@ -44,7 +44,7 @@ Thường trong gói [90](/tin-tuc/massage-90-phut) hoặc [120 phút](/tin-tuc/
 
 **Mang thai?** [Massage bầu](/tin-tuc/massage-bau) — không đá nóng bụng. **Tim mạch?** Hỏi bác sĩ.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const MASSAGE_DAU_THU_GIAN_BODY = `Massage đầu thư giãn — xoa da đầu, thái dương, gáy; giảm căng thẳng, đau đầu nhẹ, mất ngủ. Có thể ngồi ghế hoặc nằm.
 
@@ -66,7 +66,7 @@ Văn phòng căng thẳng; sau [deep tissue](/tin-tuc/deep-tissue-massage) toàn
 
 **Rụng tóc?** Không nếu không kéo mạnh. **Bao lâu?** 20–45 phút.
 
-**0938 673 996** — [massage body](/spa/massage-body-thu-gian).`;
+**0896 673 320** — [massage body](/spa/massage-body-thu-gian).`;
 
 export const MASSAGE_CHAN_THU_GIAN_BODY = `Massage chân thư giãn — foot massage giãn cơ bàn chân, gan chân, mắt cá; giảm mỏi đứng lâu. Khác [reflexology](/tin-tuc/reflexology-chan) nhấn huyệt map cơ quan.
 
@@ -88,7 +88,7 @@ Gói thư giãn sau ngày dài — [liên hệ](/lien-he) đặt lịch.
 
 **Đau huyệt?** Nói áp lực nhẹ hơn. **Mang thai?** [Massage bầu](/tin-tuc/massage-bau) chuyên biệt.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const MASSAGE_BAU_BODY = `Massage bầu — massage cho phụ nữ mang thai (thường sau 3 tháng đầu, theo bác sĩ); tư thế nửa nằm nghiêng, tránh bụng/ huyệt cấm; giảm đau lưng, phù chân.
 
@@ -110,7 +110,7 @@ Trimester 2–3 phổ biến nhất.
 
 **Tháng đầu?** Thường tránh — hỏi sản. **Dầu?** Dầu an toàn thai kỳ.
 
-**0938 673 996** — [massage body](/spa/massage-body-thu-gian).`;
+**0896 673 320** — [massage body](/spa/massage-body-thu-gian).`;
 
 export const MASSAGE_COUPLE_BODY = `Massage couple — hai người massage cùng phòng, cùng hoặc khác giờ; trải nghiệm đôi, Valentine, kỷ niệm. [Spa sinh nhật](/tin-tuc/spa-sinh-nhat), [ngày lễ](/tin-tuc/spa-ngay-le).
 
@@ -132,7 +132,7 @@ Phòng đôi riêng — hỏi khi booking.
 
 **Nam nữ therapist?** Chọn khi đặt. **Trẻ em?** Không phải couple — gói gia đình riêng.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const MASSAGE_90_PHUT_BODY = `Massage 90 phút — thời lượng phổ biến: đủ massage toàn thân không vội, thêm đầu hoặc chân. So 60 phút — sâu hơn, thư giãn hơn.
 
@@ -154,7 +154,7 @@ Người mỏi toàn thân; không muốn 60 phút gấp.
 
 **Ngủ?** Bình thường — mệt là dấu hiệu thư giãn. **Tip?** Tùy ý.
 
-**0938 673 996** — [massage body thư giãn](/spa/massage-body-thu-gian).`;
+**0896 673 320** — [massage body thư giãn](/spa/massage-body-thu-gian).`;
 
 export const MASSAGE_120_PHUT_BODY = `Massage 120 phút — 2 giờ trải nghiệm spa trọn vẹn: body massage dài + đầu/chân + đôi khi [scrub](/tin-tuc/body-scrub-spa) hoặc [wrap](/tin-tuc/body-wrap-spa) ngắn.
 
@@ -176,7 +176,7 @@ Thêm thời gian vùng lưng, vai, chân — không chỉ “thêm 30p cùng ki
 
 **Mệt quá?** Chọn 90p nếu không quen. **Bầu?** [Massage bầu](/tin-tuc/massage-bau) thường ngắn hơn.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const BODY_SCRUB_SPA_BODY = `Body scrub spa — tẩy tế bào chết cơ thể bằng muối, đường, cà phê; da mịn, sáng, hấp thu dưỡng tốt hơn. Thường trước massage hoặc [wrap](/tin-tuc/body-wrap-spa).
 
@@ -198,7 +198,7 @@ export const BODY_SCRUB_SPA_BODY = `Body scrub spa — tẩy tế bào chết c�
 
 **Đau?** Không — mịn. **Tự làm nhà?** Spa đều hơn.
 
-**0938 673 996** — [spa massage](/spa/massage-body-thu-gian).`;
+**0896 673 320** — [spa massage](/spa/massage-body-thu-gian).`;
 
 export const BODY_WRAP_SPA_BODY = `Body wrap spa — quấn body kem, tảo, đất sét — hydrat, detox nhẹ, săn chắc tạm. Sau [scrub](/tin-tuc/body-scrub-spa) hấp thu tốt.
 
@@ -220,7 +220,7 @@ Dị ứng hương — báo trước. Không thay giảm mỡ [hút mỡ](/tham-
 
 **Eo thon vĩnh viễn?** Không — tạm vài ngày. **Bầu?** Tránh wrap nóng.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const SPA_NGAY_LE_BODY = `Spa ngày lễ — gói 8/3, 20/10, Tết, Valentine: massage, facial, quà nhỏ; đặt trước vì slot kín. [Massage couple](/tin-tuc/massage-couple), [voucher](/tin-tuc/spa-voucher-qua-tang).
 
@@ -242,7 +242,7 @@ Trước 1–2 tuần ngày lễ; hỏi gói promotion.
 
 **Hết chỗ?** Đặt sớm. **Đổi lịch?** Theo chính sách spa.
 
-**0938 673 996** — [massage body](/spa/massage-body-thu-gian).`;
+**0896 673 320** — [massage body](/spa/massage-body-thu-gian).`;
 
 export const SPA_SINH_NHAT_BODY = `Spa sinh nhật — trải nghiệm làm đẹp + thư giãn làm quà cho bản thân hoặc bạn: massage, facial, trang trí nhẹ tùy spa. [Spa ngày lễ](/tin-tuc/spa-ngay-le) tương tự.
 
@@ -264,7 +264,7 @@ export const SPA_SINH_NHAT_BODY = `Spa sinh nhật — trải nghiệm làm đ�
 
 **Bánh?** Hỏi spa có cho mang. **Trẻ em?** Liệu trình nhẹ riêng.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const SPA_VOUCHER_QUA_TANG_BODY = `Spa voucher quà tặng — thẻ quà massage/facial số tiền hoặc gói cố định; tặng mẹ, đối tác, nhân viên. Hạn dùng và điều khoản đổi dịch vụ — đọc trước mua.
 
@@ -274,7 +274,7 @@ Gói [90p](/tin-tuc/massage-90-phut); combo body + face; mệnh giá tự chọn
 
 ## Mua
 
-Tại quầy hoặc online — [liên hệ](/lien-he) Thiên Hoàng Kim **0938 673 996**.
+Tại quầy hoặc online — [liên hệ](/lien-he) Thiên Hoàng Kim **0896 673 320**.
 
 ![Voucher spa — Thiên Hoàng Kim](${NEWS_IMG_SLIDE})
 
@@ -286,7 +286,7 @@ Tại quầy hoặc online — [liên hệ](/lien-he) Thiên Hoàng Kim **0938 6
 
 **Hết hạn?** Thường 6–12 tháng. **Hoàn tiền?** Theo policy.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const SPA_CHO_ME_BAU_BODY = `Spa cho mẹ bầu — gói an toàn thai kỳ: [massage bầu](/tin-tuc/massage-bau), facial dịu, chăm sóc chân; không peel mạnh, không nóng bụng. Thường sau 3 tháng đầu — có giấy sản OK.
 
@@ -308,7 +308,7 @@ Hút mỡ, laser mạnh, phun xăm, [tắm trắng](/tin-tuc/tam-trang-co-an-toa
 
 **Tháng mấy?** 4–8 phổ biến. **Một mình?** Có — thư giãn cần thiết.
 
-**0938 673 996** — [spa](/spa/massage-body-thu-gian).`;
+**0896 673 320** — [spa](/spa/massage-body-thu-gian).`;
 
 export const SPA_SAU_SINH_BODY = `Spa sau sinh — massage nhẹ, chăm body, thư giãn khi mẹ đã được sản cho phép (thường 6+ tuần, tùy sinh thường/mổ). Không ép bụng mạnh sớm.
 
@@ -330,7 +330,7 @@ Cho con bú — dầu an toàn; facial ingredient sạch.
 
 **Bao lâu sau mổ?** Sản đồng ý — thường 2–3 tháng. **Giảm bụng?** Massage không thay tập/lối sống.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const CHAM_SOC_BODY_TOAN_DIEN_BODY = `Chăm sóc body toàn diện — liệu trình scrub + wrap + massage + dưỡng; da body mịn, thư giãn, đều màu nhẹ. Gói spa signature.
 
@@ -352,7 +352,7 @@ Tháng 1–2 lần duy trì; trước sự kiện mặc lưng trễ.
 
 **Trắng body?** [Trắng da body](/tin-tuc/trang-da-body) — mục tiêu khác, có thể thêm buổi.
 
-**0938 673 996** — [massage body](/spa/massage-body-thu-gian).`;
+**0896 673 320** — [massage body](/spa/massage-body-thu-gian).`;
 
 export const TAY_DA_CHET_BODY_BODY = `Tẩy da chết body — loại bỏ tế bào chết sừng hóa; da mịn, tránh viêm lông, hấp thu kem body. Tại spa = [body scrub](/tin-tuc/body-scrub-spa) chuyên nghiệp.
 
@@ -374,7 +374,7 @@ Spa đều, massage kỹ; nhà — muối, glove, cà phê.
 
 **Đau?** Không. **Mụn lưng?** Scrub nhẹ có thể hỗ trợ — không chà mạnh.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const DUONG_AM_BODY_SPA_BODY = `Dưỡng ẩm body spa — sau scrub/massage, thoa kem body, oil, mask body hydrat; da căng mướt, giảm khô vảy. Mùa khô hoặc sau tắm nhiều.
 
@@ -396,7 +396,7 @@ Spa 1 lần + kem nhà duy trì.
 
 **Dầu dính?** Hấp thu 15–30p. **Bầu?** Kem an toàn thai kỳ.
 
-**0938 673 996** — [spa](/spa/massage-body-thu-gian).`;
+**0896 673 320** — [spa](/spa/massage-body-thu-gian).`;
 
 export const AROMATHERAPY_SPA_BODY = `Aromatherapy spa — massage/tắm dùng tinh dầu (lavender, eucalyptus, citrus) tác dụng thư giãn, ngủ, giảm stress qua khứu giác. Kết hợp [Swedish](/tin-tuc/swedish-massage) hoặc [massage 90p](/tin-tuc/massage-90-phut).
 
@@ -418,7 +418,7 @@ Một số oil cấm — therapist prenatal biết.
 
 **Mùi lâu?** Trên da vài giờ. **Mang về?** Hỏi retail oil spa.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const REFLEXOLOGY_CHAN_BODY = `Reflexology chân — nhấn huyệt vùng bàn chân map cơ quan (liệu pháp reflex); thư giãn, cải thiện tuần hoàn cảm giác. Khác [massage chân](/tin-tuc/massage-chan-thu-gian) xoa cơ thuần.
 
@@ -440,7 +440,7 @@ Không thay chữa bệnh nội khoa — wellness bổ sung.
 
 **Có khoa học?** Bằng chứng hỗn hợp — nhiều người thấy thư giãn. **Bầu?** Hỏi therapist.
 
-**0938 673 996** — [massage body](/spa/massage-body-thu-gian).`;
+**0896 673 320** — [massage body](/spa/massage-body-thu-gian).`;
 
 export const SHIATSU_MASSAGE_BODY = `Shiatsu massage — massage Nhật dùng ngón tay, lòng bàn tay nhấn theo meridian; trên thảm hoặc giường, có thể mặc quần áo thoải mái. Giảm đau lưng, căng cổ.
 
@@ -462,7 +462,7 @@ Nói “nhẹ hơn” nếu đau — không nên đau dữ dội.
 
 **Mang thai?** Một số điểm cấm — báo trước. **Bao lâu?** 60–90 phút.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const THAI_MASSAGE_BODY = `Thai massage — massage Thái cổ truyền: kéo giãn, yoga passive, nhấn huyệt; mặc đồ rộng, không dầu. Tăng linh hoạt, thư giãn sâu.
 
@@ -484,7 +484,7 @@ Thoái hóa khớp, osteoporosis — báo trước.
 
 **Đau?** Căng có — không nên đau khớp. **Bầu?** Không khuyến khích Thai mạnh.
 
-**0938 673 996** — [massage body thư giãn](/spa/massage-body-thu-gian).`;
+**0896 673 320** — [massage body thư giãn](/spa/massage-body-thu-gian).`;
 
 export const SWEDISH_MASSAGE_BODY = `Swedish massage — massage Thụy Điển cổ điển: effleurage, petrissage, lưu lượng máu, thư giãn; dầu massage, áp lực nhẹ đến trung bình. Phổ biến nhất spa.
 
@@ -506,7 +506,7 @@ Lần đầu massage; muốn thư giãn không đau; [massage 90 phút](/tin-tuc
 
 **Cởi đồ?** Dùng khăn che — underwear giữ. **Dầu dính?** Tắm sau nếu muốn.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const DEEP_TISSUE_MASSAGE_BODY = `Deep tissue massage — massage sâu lớp cơ và fascia; giải trigger point, đau vai gáp, lưng cứng. Áp lực mạnh hơn [Swedish](/tin-tuc/swedish-massage) — có thể đau “tốt” vài ngày.
 
@@ -528,7 +528,7 @@ Bầm nhẹ có thể; uống nước sau; không deep tissue vùng viêm cấp.
 
 **Đau ngày sau?** DOMS nhẹ — bình thường. **Huyết áp?** Hỏi bác sĩ nếu cao.
 
-**0938 673 996** — [massage body](/spa/massage-body-thu-gian).`;
+**0896 673 320** — [massage body](/spa/massage-body-thu-gian).`;
 
 export const SPA_COMBO_MASSAGE_FACIAL_BODY = `Spa combo massage facial — một buổi gộp massage body + chăm sóc mặt ([massage facial](/spa/massage-facial), [aquapeel](/tin-tuc/aquapeel) nhẹ); thư giãn toàn diện 2–3 giờ.
 
@@ -550,4 +550,4 @@ Thẩm mỹ + spa cùng địa chỉ — tiện một ngày làm đẹp.
 
 **Makeup sau?** Facial xong da glow — makeup đẹp. **Bầu?** Facial dịu — massage [bầu](/tin-tuc/massage-bau).
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;

@@ -22,7 +22,7 @@ Tiêm đúng tầng; [filler bằng cannula](/tin-tuc/filler-bang-cannula) giả
 
 **HA vs collagen?** HA phổ biến hơn, tan được. **Dị ứng?** Hiếm — HA gần như an toàn.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
 
 export const FILLER_CAO_CAP_BODY = `Filler cao cấp — dòng HA cross-link cao (Juvederm Vycross, Restylane Lyft, Belotero…) ít sưng, mềm mại, bền hơn filler giá rẻ. Đáng cân nhắc vùng nhạy cảm: [filler dưới mắt](/tin-tuc/filler-duoi-mat), [môi](/tin-tuc/filler-moi-1cc).
 
@@ -44,7 +44,7 @@ Báo theo syringe; [full face](/tin-tuc/filler-full-face) có thể 3–6ml tùy
 
 **Cao cấp = không sưng?** Ít hơn nhưng vẫn có thể [sưng](/tin-tuc/filler-bi-sung). **Bao lâu?** 12–18 tháng một số vùng.
 
-**0938 673 996** — [filler tạo hình](/tham-my/filler-tao-hinh).`;
+**0896 673 320** — [filler tạo hình](/tham-my/filler-tao-hinh).`;
 
 export const FILLER_MOI_1CC_BODY = `Filler môi 1cc — một syringe 1ml thường đủ môi mỏng đến vừa muốn căng nhẹ; môi dày sẵn hoặc muốn full có thể 1,5–2cc chia đợt.
 
@@ -66,7 +66,7 @@ Sưng 24–72h; [filler sau 2 tuần](/tin-tuc/filler-sau-2-tuan) đánh giá to
 
 **1cc nhiều không?** Tùy môi gốc — tư vấn trước gương. **Tan được?** [Hyaluronidase](/tin-tuc/tiem-hyaluronidase).
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const FILLER_MOI_NAM_TU_NHIEN_BODY = `Filler môi tự nhiên nam — mục tiêu định hình rõ hơn, không căng bóng; thường 0,5–1ml; giữ tỷ lệ nam tính (cân dưới môi dày hơn trên nhẹ).
 
@@ -88,7 +88,7 @@ Tránh cupid bow quá cao; màu không hồng quá; [filler môi 1cc](/tin-tuc/f
 
 **Nam tiêm môi có sao?** Ngày càng phổ biến — tự nhiên là chìa khóa. **Đau?** Tê — chịu được.
 
-**0938 673 996** — [filler](/tham-my/filler-tao-hinh).`;
+**0896 673 320** — [filler](/tham-my/filler-tao-hinh).`;
 
 export const FILLER_CAM_CHO_NAM_BODY = `Filler cằm nam — tạo projection cằm, jawline mạnh hơn; HA đặc hoặc CaHA (Radiesse) tùy bác sĩ. Nam thường cần 1–3ml tùy độ lùi cằm.
 
@@ -110,7 +110,7 @@ Góc profile 90° lý tưởng tùy mặt; không nhọn quá (nữ hóa). So [c
 
 **Thay độn cằm?** Filler tạm 12–18 tháng; implant vĩnh viễn. **Sưng?** 3–5 ngày.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const FILLER_MA_HOP_BODY = `Filler má hóp — điền hóp thái dương, trước tai, midface tạo má đầy, trẻ hơn. Thường 1–2ml mỗi bên; [filler gò má](/tin-tuc/filler-go-ma) có thể kết hợp.
 
@@ -132,7 +132,7 @@ Mặt tròn trẻ hơn — không “phồng” nếu đúng liều.
 
 **Bao lâu?** 12–18 tháng. **Full face?** [Filler full face](/tin-tuc/filler-full-face) có thể gồm má hóp.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const FILLER_GO_MA_BODY = `Filler gò má — nâng điểm gò má (malar), tạo Ogee curve, khuôn mặt trẻ. Khác [má hóp](/tin-tuc/filler-ma-hop) — gò má là đỉnh cao trên má.
 
@@ -154,7 +154,7 @@ Tắc mạch hiếm — tiêm chậm, cannula, biết giải cứu. [Filler cao 
 
 **Đau?** Tê. **Massage?** [Massage sau filler](/tin-tuc/massage-sau-filler) — tránh vùng vừa tiêm 24h.
 
-**0938 673 996** — [filler tạo hình](/tham-my/filler-tao-hinh).`;
+**0896 673 320** — [filler tạo hình](/tham-my/filler-tao-hinh).`;
 
 export const FILLER_SONG_MUI_BODY = `Filler sống mũi — nâng dorsum (sống mũi) bằng HA đặc hoặc CaHA; không phẫu thuật, kết quả ngay. Không thay [nâng mũi](/tham-my/nang-mui-hoang-kim) cấu trúc khi cần thu cánh, sụn lớn.
 
@@ -176,7 +176,7 @@ Mũi đã mổ nhiều — đánh giá riêng; sẹo mô.
 
 **Filler vs nâng mũi?** Filler: nhẹ, tạm. Mổ: thay đổi lớn vĩnh viễn.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const FILLER_DAU_MUI_BODY = `Filler đầu mũi — nâng tip, xoay nhẹ; vùng nguy hiểm nhất (tắc mạch đầu mũi). Cần bác sĩ hiểu vascular anatomy; liều micro.
 
@@ -198,7 +198,7 @@ Hoại tử nếu tắc mạch — cấp cứu hyaluronidase + y khoa.
 
 **Đau đầu mũi?** Nhạy — tê tốt. **Bao lâu?** 9–12 tháng.
 
-**0938 673 996** — [filler](/tham-my/filler-tao-hinh).`;
+**0896 673 320** — [filler](/tham-my/filler-tao-hinh).`;
 
 export const FILLER_BANG_CANNULA_BODY = `Filler bằng cannula — kim tròn đầu (blunt) luồn qua một lỗ chích, giảm chạm mạch máu, bầm ít hơn needle. Phù hợp má, thái dương, một số vùng môi.
 
@@ -220,7 +220,7 @@ Cần kinh nghiệm; mũi tip đôi khi vẫn dùng needle micro. [Filler HA](/t
 
 **Cannula = không đau?** Vẫn có cảm giác — ít bầm hơn. **Di chuyển?** [Filler bị di chuyển](/tin-tuc/filler-bi-di-chuyen) — ít hơn nếu đúng tầng.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const FILLER_BI_DI_CHUYEN_BODY = `Filler bị di chuyển — filler HA lệch khỏi vị trí ban đầu, thường do massage sớm, tiêm quá nông, vùng cơ động (môi), hoặc quá nhiều một lần.
 
@@ -242,7 +242,7 @@ Sưng = phù bình thường; di chuyển = khối lệch vị trí sau 2 tuần
 
 **Tự hết?** Không — cần can thiệp hoặc chờ tan. **Ngủ nghiêng?** Tránh ép môi 1–2 đêm.
 
-**0938 673 996** — [filler tạo hình](/tham-my/filler-tao-hinh).`;
+**0896 673 320** — [filler tạo hình](/tham-my/filler-tao-hinh).`;
 
 export const FILLER_BI_CUNG_BODY = `Filler bị cứng — cảm giác cục cứng dưới da sau tiêm: có thể sưng, filler quá đặc, tiêm quá nông, hoặc nodule thật. Phân biệt bình thường tạm vs cần xử lý.
 
@@ -264,7 +264,7 @@ Massage nhẹ nếu bác sĩ cho phép; hyaluronidase; steroid intralesional cas
 
 **Cứng = nhiễm?** Không hẳn — sốt đỏ mới nghi nhiễm. **Tan được?** [Hyaluronidase](/tin-tuc/tiem-hyaluronidase).
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const FILLER_BI_SUNG_BODY = `Filler bị sưng — phản ứng bình thường sau HA, đặc biệt môi, dưới mắt; đỉnh 24–72h, giảm 5–7 ngày. Khác biệt với [filler bị cứng](/tin-tuc/filler-bi-cung) hoặc nhiễm trùng.
 
@@ -286,7 +286,7 @@ Môi, tear trough, nền hay phù trước đó.
 
 **Bao lâu hết?** 3–7 ngày phổ biến. **Makeup?** Sau 6–12h nếu không vết hở.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const FILLER_MOI_BI_LECH_BODY = `Filler môi bị lệch — một bên căng hơn, không đối xứng sau tiêm: do sưng (tạm), tiêm lệch ml, hoặc [di chuyển](/tin-tuc/filler-bi-di-chuyen).
 
@@ -308,7 +308,7 @@ export const FILLER_MOI_BI_LECH_BODY = `Filler môi bị lệch — một bên c
 
 **Tuần đầu lệch?** Có thể do sưng — đợi. **Tan một bên?** Hyaluronidase chọn lọc — cần bác sĩ giỏi.
 
-**0938 673 996** — [filler](/tham-my/filler-tao-hinh).`;
+**0896 673 320** — [filler](/tham-my/filler-tao-hinh).`;
 
 export const TIEM_HYALURONIDASE_BODY = `Tiêm hyaluronidase tan filler — enzyme phá HA trong vài giờ đến vài ngày; dùng khi filler lệch, cứng, tắc mạch khẩn cấp, hoặc không hài lòng hình dáng.
 
@@ -330,7 +330,7 @@ Sưng, bầm; chờ 2–4 tuần tiêm lại nếu muốn. [Filler HA](/tin-tuc/
 
 **Tan hết bao lâu?** 24–72h thấy giảm. **Dị ứng?** Hiếm — test nếu lo.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const FILLER_BOTOX_CUNG_LUC_BODY = `Filler và botox cùng lúc — thường làm một buổi: botox vùng cơ (trán, cằm, masseter), filler vùng thể tích (má, môi, cằm). Botox [botox xóa nhăn](/tham-my/botox-xoa-nhan-gon-ham) + filler [tạo hình](/tham-my/filler-tao-hinh).
 
@@ -352,7 +352,7 @@ Không massage mạnh; [uống bia sau filler](/tin-tuc/uong-bia-sau-filler) tr�
 
 **Đau nhiều?** Tê — 30–45 phút cả buổi. **Bầm?** Có thể — che makeup.
 
-**0938 673 996** — 323–325 Hùng Vương, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, TP.HCM.`;
 
 export const FILLER_FULL_FACE_BODY = `Filler full face — tiêm nhiều vùng một buổi (thái dương, má, gò má, cằm, môi, jaw) tạo hài hòa; thường 4–8ml chia sản phẩm phù hợp từng vùng.
 
@@ -374,7 +374,7 @@ Theo syringe tổng — tư vấn trước mock-up.
 
 **Một lần hết?** Có thể chia 2 đợt cách 2 tuần. **Sưng?** [Filler sưng](/tin-tuc/filler-bi-sung) nhiều vùng — nghỉ 1–2 ngày.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const LIQUID_FACELIFT_BODY = `Liquid facelift — trẻ hóa mặt bằng filler (+ botox) thay phẫu thuật căng da; nâng volume mất đi, contour jaw, mềm nếp. Phù hợp chùng nhẹ–vừa, chưa muốn mổ.
 
@@ -396,7 +396,7 @@ Không xử da thừa nặng — [mini facelift](/tin-tuc/mini-facelift) khi c�
 
 **Đau?** Tê. **Trẻ bao nhiêu tuổi?** 35–55 phổ biến — tùy mất volume.
 
-**0938 673 996** — [filler tạo hình](/tham-my/filler-tao-hinh).`;
+**0896 673 320** — [filler tạo hình](/tham-my/filler-tao-hinh).`;
 
 export const FILLER_DUOI_MAT_BODY = `Filler dưới mắt — điền hõm mắt, giảm quầng lõm, trẻ hóa; vùng khó nhất: da mỏng, dễ bầm, Tyndell, tắc mạch. Cần filler mềm, bác sĩ giàu kinh nghiệm.
 
@@ -418,7 +418,7 @@ Cannula; micro-bolus; [filler cao cấp](/tin-tuc/filler-cao-cap) Belotero/Vycro
 
 **Bao lâu?** 9–12 tháng. **Tan được?** [Hyaluronidase](/tin-tuc/tiem-hyaluronidase).
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const TEAR_TROUGH_FILLER_BODY = `Tear trough filler — tiêm rãnh lách sâu dưới mí (tear trough) nối với má; thuật ngữ chuyên vùng mắt. Cùng nhóm [filler dưới mắt](/tin-tuc/filler-duoi-mat) nhưng nhấn anatomy tear trough ligament.
 
@@ -440,7 +440,7 @@ Bầm 5–10 ngày có thể; kính râm. [Filler sau 2 tuần](/tin-tuc/filler-
 
 **Puffiness?** Quá nhiều filler hoặc sai tầng — tan bớt. **Kết hợp PRP?** Có thể — bác sĩ quyết định.
 
-**0938 673 996** — [filler](/tham-my/filler-tao-hinh).`;
+**0896 673 320** — [filler](/tham-my/filler-tao-hinh).`;
 
 export const FILLER_TAI_NGHE_BODY = `Filler tai nghe — “ogee lift” / earlift: tiêm trước tai, thái dương nâng midface nhẹ, jawline rõ — xu hướng trẻ hóa không phẫu thuật.
 
@@ -462,7 +462,7 @@ Không căng da thừa — [liquid facelift](/tin-tuc/liquid-facelift) nhẹ.
 
 **Đau?** Ít. **Bao lâu?** 12–18 tháng.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const FILLER_BAN_TAY_BODY = `Filler bàn tay — HA hoặc CaHA (Radiesse) điền gân nổi, tàn nhang, da già; bàn tay trẻ, đầy hơn. Ít phổ biến hơn mặt nhưng hiệu quả rõ.
 
@@ -484,7 +484,7 @@ Laser trẻ da; filler điền volume — có thể kết hợp.
 
 **Đau?** Tê — chịu được. **Bao lâu?** 12–24 tháng tùy sản phẩm.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const FILLER_SAU_2_TUAN_BODY = `Filler sau 2 tuần — mốc đánh giá chính: sưng tan, hình ổn định đủ để touch-up hoặc tan bớt nếu không hài lòng. Trước 2 tuần chưa nên kết luận “lệch” hay “thừa”.
 
@@ -506,7 +506,7 @@ Một số vùng (môi, dưới mắt) — đợi thêm 1 tuần. [Filler bị s
 
 **Touch-up mất phí?** Tùy phòng — hỏi khi đặt lịch. **Tiêm thêm đau?** Ít hơn lần đầu.
 
-**0938 673 996** — [filler tạo hình](/tham-my/filler-tao-hinh).`;
+**0896 673 320** — [filler tạo hình](/tham-my/filler-tao-hinh).`;
 
 export const MASSAGE_SAU_FILLER_BODY = `Massage sau filler — thường tránh 24–48h (môi, mũi) để filler ổn định; massage mạnh sớm có thể [di chuyển](/tin-tuc/filler-bi-di-chuyen) HA. Sau 1–2 tuần massage nhẹ nếu bác sĩ chỉ định nodule.
 
@@ -528,7 +528,7 @@ Chờ 2 tuần; báo đã tiêm filler — tránh nhiệt sâu, nặn mạnh.
 
 **Gội đầu?** Được — tránh ép mặt xuống gối mạnh đêm đầu. **Makeup?** Nhẹ sau vài giờ.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const UONG_BIA_SAU_FILLER_BODY = `Uống bia sau filler — nên tránh rượu bia 24–48h: giãn mạch tăng [sưng](/tin-tuc/filler-bi-sung), bầm; tăng nguy cơ chảy máu vùng chích. Không phải filler “tan” — nhưng kết quả sưng kém đẹp.
 
@@ -550,4 +550,4 @@ Gym nặng 24–48h; nắng gắt — SPF.
 
 **Quên uống 1 ly?** Không panic — đừng lặp lại nhiều. **Thuốc lá?** Cũng nên hạn chế — chậm lành.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;

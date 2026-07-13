@@ -65,7 +65,7 @@ Trẻ em và người già yếu — cần nhiệt thấp hơn và thời gian n
 
 ## Quy trình đặt lịch tại Thiên Hoàng Kim Spa
 
-**Bước 1:** Gọi **0938 673 996**, nhắn fanpage hoặc đặt qua website — chọn giờ và gói ủ đá / combo.
+**Bước 1:** Gọi **0896 673 320**, nhắn fanpage hoặc đặt qua website — chọn giờ và gói ủ đá / combo.
 
 **Bước 2:** Đến **323–325 Hùng Vương, Phường An Đông, TP.HCM** (08:00–20:00); check-in tại lễ tân.
 
@@ -155,7 +155,7 @@ Khuyến mãi theo mùa — theo dõi fanpage Thiên Hoàng Kim. Đặt lịch n
 
 **Ủ có giúp giảm cân không?** Không — chỉ mất nước tạm thời qua mồ hôi; không thay thế ăn uống và vận động.
 
-**Đặt lịch thế nào?** Gọi **0938 673 996**, fanpage, hoặc website Thiên Hoàng Kim.
+**Đặt lịch thế nào?** Gọi **0896 673 320**, fanpage, hoặc website Thiên Hoàng Kim.
 
 ## Tại sao chọn Thiên Hoàng Kim Spa?
 
@@ -171,4 +171,4 @@ Xem thêm Massage body thư giãn, Chăm sóc da toàn diện tại mục Dịch
 
 ## Đặt lịch ủ đá muối Himalaya
 
-Một buổi ủ đá muối Himalaya là món quà ngắn cho bản thân — không cần biến cố lớn, chỉ cần 60–90 phút rời khỏi điện thoại và để cơ thể được chăm. Đặt lịch qua website, gọi **0938 673 996** hoặc nhắn fanpage Thiên Hoàng Kim. Lễ tân sẽ gợi ý gói phù hợp: chỉ ủ đá, hay combo massage và chăm sóc da. Hẹn sớm cuối tuần vì khung giờ thường kín — đặt trước để giữ phòng riêng cho bạn.`;
+Một buổi ủ đá muối Himalaya là món quà ngắn cho bản thân — không cần biến cố lớn, chỉ cần 60–90 phút rời khỏi điện thoại và để cơ thể được chăm. Đặt lịch qua website, gọi **0896 673 320** hoặc nhắn fanpage Thiên Hoàng Kim. Lễ tân sẽ gợi ý gói phù hợp: chỉ ủ đá, hay combo massage và chăm sóc da. Hẹn sớm cuối tuần vì khung giờ thường kín — đặt trước để giữ phòng riêng cho bạn.`;

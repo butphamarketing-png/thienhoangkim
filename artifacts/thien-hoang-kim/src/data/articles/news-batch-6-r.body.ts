@@ -22,7 +22,7 @@ Hói đường chữ M, đỉnh thưa, vùng thưa cục bộ — khi vùng cho 
 
 **FUE có đau không?** Gây tê — chịu được; sau mổ thuốc giảm đau. **Bao lâu mọc?** [Cấy tóc sau 1 tháng](/tin-tuc/cay-toc-sau-1-thang) rụng shock; mọc rõ từ tháng 3–6.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
 
 export const CAY_TOC_FUT_LA_GI_BODY = `Cấy tóc FUT là gì — phương pháp cấy tóc cổ điển lấy một dải da có nang tóc từ sau gáy, tách thành graft dưới kính hiển vi rồi cấy lên vùng hói. FUT (Follicular Unit Transplantation) còn gọi strip method — khác [cấy tóc FUE chi tiết](/tin-tuc/cay-toc-fue-chi-tiet) ở cách lấy nang.
 
@@ -44,7 +44,7 @@ Cần >4000 graft một ca; vùng cho dày; chấp nhận tóc dài che sẹo. N
 
 **FUT còn được làm không?** Có, nhưng ít hơn FUE. **Đau bao lâu?** [Cấy tóc bao lâu hết đau](/tin-tuc/cay-toc-bao-lau-het-dau) — vài ngày đến tuần.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const CAY_TOC_BAO_NHIEU_GRAFT_BODY = `Cấy tóc bao nhiêu graft là câu hỏi then chốt khi lên kế hoạch — graft là đơn vị nang tóc (1–4 sợi/graft), không phải số sợi tóc. Số graft phụ thuộc diện tích hói, mật độ mong muốn và chất lượng vùng cho.
 
@@ -66,7 +66,7 @@ Không phải càng nhiều càng đẹp — mật độ quá cao làm hỏng v�
 
 **1 graft = mấy sợi?** Trung bình 2–2,5 sợi. **Hết graft vùng cho?** Có giới hạn — tránh lấy quá mức.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const CAY_TOC_3000_GRAFT_BODY = `Cấy tóc 3000 graft là mức phổ biến cho hói trán + đỉnh vừa — đủ che đường hói rõ và tăng mật độ đỉnh nếu vùng cho khỏe. 3000 graft không phải con số cố định cho mọi người; cần khám đo diện tích thực tế.
 
@@ -88,7 +88,7 @@ Giá theo graft × kỹ thuật; kết quả phụ thuộc thiết kế đườn
 
 **3000 graft một lần được không?** Thường được nếu vùng cho đủ. **Có cần ca 2?** Hói tiến triển — có thể cần bổ sung sau vài năm.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const CAY_TOC_5000_GRAFT_BODY = `Cấy tóc 5000 graft dành cho hói nặng hoặc mục tiêu mật độ cao — ca lớn, đòi hỏi vùng cho rộng, thời gian mổ dài và kế hoạch hồi phục kỹ. Không phải ai cũng đủ điều kiện 5000 graft một lần.
 
@@ -110,7 +110,7 @@ Mệt, cần người đưa; tuân thủ chăm sóc; tránh hút thuốc trướ
 
 **5000 graft một ngày?** Tùy đội ngũ — có phòng chia 2 ngày. **Hết tóc cho?** Bác sĩ đánh giá — không lấy quá an toàn.
 
-**0938 673 996** — 323–325 Hùng Vương, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, TP.HCM.`;
 
 export const CAY_TOC_DUONG_CHU_M_BODY = `Cấy tóc đường chữ M là nhu cầu phổ biến nhất ở nam — hai thái dương lui và đỉnh trán tạo hình chữ M khi hói androgen bắt đầu. Cấy tóc tái tạo đường trán tự nhiên, không thẳng như “hàng rào”.
 
@@ -132,7 +132,7 @@ FUE lấy graft 1–2 sợi cho đường trán; 2–3 sợi phía sau. [Cấy t
 
 **Cấy xong còn hói không?** Tóc cấy không rụng di truyền; tóc cũ vẫn có thể rụng — duy trì thuốc nếu bác sĩ chỉ định.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const CAY_TOC_HOI_CHU_M_BODY = `Cấy tóc hói chữ M — khi hai thái dương đã lui rõ, đỉnh trán còn tóc tạo hình M đặc trưng. Đây là giai đoạn lý tưởng cấy tóc vì vùng nhận còn vừa, vùng cho thường dồi dào.
 
@@ -154,7 +154,7 @@ Cấy tóc + có thể minoxidil/finasteride ngăn hói tiếp. Khám loại tr�
 
 **Tuổi nào nên cấy?** Thường sau 25 khi đường hói ổn định phần nào — bác sĩ đánh giá.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const CAY_TOC_VUNG_DINH_BODY = `Cấy tóc vùng đỉnh — phần “xoáy” trên đỉnh đầu thường mỏng hoặc hói trước khi thái dương lui nhiều. Đỉnh cần mật độ cao hơn và graft nhiều hơn mỗi cm² so vùng trán.
 
@@ -176,7 +176,7 @@ Vùng đỉnh dễ sưng nhẹ; không đội mũ chật sớm. [Cấy tóc sau 
 
 **Chỉ cấy đỉnh được không?** Được nếu trán còn tốt. **Đau đỉnh?** Gây tê — chịu được.
 
-**0938 673 996** — [cấy tóc tự thân](/tham-my/cay-toc-tu-than).`;
+**0896 673 320** — [cấy tóc tự thân](/tham-my/cay-toc-tu-than).`;
 
 export const CAY_TOC_VUNG_THUA_BODY = `Cấy tóc vùng thưa — khi chỉ một khu nhỏ mỏng (sau tai, sau bệnh, sẹo) chứ không hói lan toàn đầu. Số graft ít hơn ca hói di truyền; thiết kế blend với tóc xung quanh.
 
@@ -198,7 +198,7 @@ Chẩn đoán đúng nguyên nhân trước cấy; areata đang hoạt động �
 
 **Thưa do stress cấy được không?** Khi đã ổn định và có nguyên nhân rõ — bác sĩ quyết định.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const CAY_LONG_MAY_BODY = `Cấy lông mày — chuyển nang tóc (thường sau gáy) lên vùng lông mày để tái tạo hình dáng, độ dày hoặc che sẹo. Khác cấy tóc đầu: góc cấy, đường cong sợi và chọn graft 1 sợi rất quan trọng.
 
@@ -220,7 +220,7 @@ Tóc cấy cần tỉa định kỳ (mọc dài như tóc đầu); chọn bác s
 
 **Đau không?** Gây tê — nhẹ hơn cấy da đầu lớn. **Bao lâu tự nhiên?** 6 tháng trở lên.
 
-**0938 673 996** — 323–325 Hùng Vương, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, TP.HCM.`;
 
 export const CAY_RAU_BODY = `Cấy râu — tái tạo râu quai nón, cằm, ria mép hoặc che sẹo bằng graft tóc 1–2 sợi. Xu hướng nam giới muốn râu full, đều hoặc khắc phục râu mảnh di truyền.
 
@@ -242,7 +242,7 @@ Không cạo 10–14 ngày; rửa nhẹ; tránh va chạm. Tóc cấy cần cắ
 
 **Râu cấy có vĩnh viễn?** Tóc cấy giữ tính chất vùng cho — cần tỉa. **Cấy rây lỗ hổng?** Được — graft 1 sợi.
 
-**0938 673 996** — [cấy tóc tự thân](/tham-my/cay-toc-tu-than).`;
+**0896 673 320** — [cấy tóc tự thân](/tham-my/cay-toc-tu-than).`;
 
 export const CAY_TOC_SAU_1_THANG_BODY = `Cấy tóc sau 1 tháng — giai đoạn nhiều người hoảng vì tóc cấy rụng (shock loss) — đây là phản ứng bình thường, không phải thất bại. Nang còn dưới da; sợi rụng, mầm mới mọc sau vài tháng.
 
@@ -264,7 +264,7 @@ Tháng 2–3: lún đầu; tháng 3–6: mọc rõ — xem [cấy tóc sau 6 th�
 
 **Rụng hết có sao?** Shock loss phổ biến. **Gội đầu?** Theo hướng dẫn — thường được gội nhẹ.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const CAY_TOC_SAU_6_THANG_BODY = `Cấy tóc sau 6 tháng — mốc đa số khách thấy tóc mọc rõ, che hói phần lớn; tuy nhiên tóc vẫn mảnh, chưa đạt độ dày cuối. 6 tháng là ảnh chụp giữa hành trình, không phải kết quả tối đa.
 
@@ -286,7 +286,7 @@ Mật độ quá thưa một vùng — bàn bổ sung graft sau 12 tháng. [Cấ
 
 **6 tháng chưa thấy mọc?** Một số cơ địa chậm đến tháng 9–12 — tái khám. **Hói tiếp?** Tóc cũ vẫn có thể rụng — finasteride/minoxidil.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const CAY_TOC_SAU_1_NAM_BODY = `Cấy tóc sau 1 năm — thời điểm đánh giá kết quả chính thức: mật độ, hướng tóc, đường trán tự nhiên. Phần lớn graft đã mọc; có thể cắt kiểu, nhuộm (theo hướng dẫn).
 
@@ -308,7 +308,7 @@ Thuốc ngăn hói; chăm sóc da đầu; tránh tia UV lâu vùng mới mọc y
 
 **1 năm vẫn thưa?** Tái khám — có thể bổ sung hoặc điều chỉnh kỳ vọng. **Sẹo cho?** [Cấy tóc có sẹo không](/tin-tuc/cay-toc-co-seo-khong) — FUE thường khó thấy.
 
-**0938 673 996** — [cấy tóc tự thân](/tham-my/cay-toc-tu-than).`;
+**0896 673 320** — [cấy tóc tự thân](/tham-my/cay-toc-tu-than).`;
 
 export const CAY_TOC_BAO_LAU_HET_DAU_BODY = `Cấy tóc bao lâu hết đau — tuần đầu có căng, nhói vùng cấy và cho; đa số giảm rõ sau 3–5 ngày với thuốc. FUE thường nhẹ hơn FUT vùng cho.
 
@@ -330,7 +330,7 @@ Uống thuốc đúng giờ; chườm mát (theo chỉ dẫn); tránh va đập;
 
 **Khi nào đi làm?** Văn phòng: 2–5 ngày; công việc nặng: 1–2 tuần. **FUE đau hơn FUT?** Vùng cho FUT đau hơn; FUE rải nhiều điểm nhỏ.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const CAY_TOC_CO_SEO_KHONG_BODY = `Cấy tóc có để lại sẹo không — câu trả lời phụ thuộc FUE hay FUT. FUE để lại chấm tròn rải rác, che bằng tóc ngắn; FUT để sẹo dải khâu sau gáy.
 
@@ -352,7 +352,7 @@ Không lấy quá % tóc cho; chăm sóc vết; tránh nhiễm trùng. Sẹo l�
 
 **Cắt ngắn #0 được không?** FUE phù hợp hơn. **Sẹo có cấy che?** Có kỹ thuật cấy vào sẹo — khám riêng.
 
-**0938 673 996** — [cấy tóc tự thân](/tham-my/cay-toc-tu-than).`;
+**0896 673 320** — [cấy tóc tự thân](/tham-my/cay-toc-tu-than).`;
 
 export const RUNG_TOC_MANG_BODY = `Rụng tóc mảng — mất tóc từng đám tròn hoặc oval, khác hói di truyền lan từ từ. Nguyên nhân phổ biến: alopecia areata, nấm da đầu, stress, tự miễn — cần khám trước khi nghĩ đến [cấy tóc vùng thưa](/tin-tuc/cay-toc-vung-thua).
 
@@ -374,7 +374,7 @@ Telogen effluvium — [rụng tóc do stress](/tin-tuc/rung-toc-do-stress); thư
 
 **Mảng to có tự mọc?** Areata nhẹ — có thể; nặng cần điều trị. **Cấy ngay được không?** Không nên khi bệnh còn hoạt động.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const RUNG_TOC_THEO_VUNG_BODY = `Rụng tóc từng vùng — mô tả mất tóc không đều theo khu vực (trán, đỉnh, sau gáy, temporal) thay vì rụng toàn đầu đồng loạt. Chẩn đoán đúng vùng quyết định điều trị: cấy, thuốc hay nội khoa.
 
@@ -396,7 +396,7 @@ Thuốc, mesotherapy, laser — [mesotherapy tóc](/tin-tuc/mesotherapy-toc), [l
 
 **Nữ rụng đỉnh cấy được?** Cần chẩn đoán loại hói nữ — không phải lúc nào cũng cấy.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const RUNG_TOC_DO_STRESS_BODY = `Rụng tóc do stress — telogen effluvium: sau căng thẳng, ốm, sinh con, sốt cao, giảm cân nhanh, tóc rụng nhiều 2–3 tháng sau sự kiện. Thường tạm thời, không cần [cấy tóc](/tham-my/cay-toc-tu-than) nếu nang chưa hỏng.
 
@@ -418,7 +418,7 @@ Rụng >6 tháng không giảm; lộ mảng — loại trừ alopecia, hormone. 
 
 **Bao lâu mọc lại?** 3–9 tháng sau khi hết trigger. **Cấy được không?** Không phải ưu tiên — hồi phục tự nhiên trước.
 
-**0938 673 996** — 323–325 Hùng Vương, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, TP.HCM.`;
 
 export const RUNG_TOC_THIEU_SAT_BODY = `Rụng tóc thiếu sắt — ferritin thấp làm tóc mảnh, rụng nhiều, đôi khi không đáp ứng thuốc mọc tóc cho đến khi bổ sung đủ. Hay gặp phụ nữ, người ăn chay, sau sinh, thiếu máu.
 
@@ -440,7 +440,7 @@ Thiếu sắt + hói nam — điều trị cả hai; cấy chỉ khi hói patter
 
 **Ferritin bao nhiêu là đủ?** Mục tiêu tùy bác sĩ — thường >40–70 ng/dL cho tóc. **Uống sắt rụng giảm ngay?** 2–3 tháng mới thấy.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const ALOPECIA_AREATA_BODY = `Alopecia areata — bệnh tự miễn, tóc rụng thành mảng tròn, có thể lan toàn đầu (alopecia totalis) hoặc toàn thân. Không lây; không phải hói di truyền thông thường — điều trị nội khoa trước, [cấy tóc](/tham-my/cay-toc-tu-than) chỉ khi ổn định lâu.
 
@@ -462,7 +462,7 @@ Không cấy khi đang lan; sau 6–12 tháng ổn định, ít mảng mới —
 
 **Tự khỏi?** Mảng nhỏ — 50% trong 1 năm; không đoán trước. **Stress gây?** Yếu tố kích hoạt có thể; cơ chế tự miễn.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const MESOTHERAPY_TOC_BODY = `Mesotherapy tóc — tiêm cocktail vitamin, peptide, acid amin, minoxidil loãng (tùy phác đồ) vào da đầu để nuôi nang, giảm rụng. Không thay thế [cấy tóc](/tham-my/cay-toc-tu-than) khi đã hói sâu nhưng hỗ trợ rụng sớm và sau cấy.
 
@@ -484,7 +484,7 @@ Giảm rụng, tóc chắc hơn; mọc tóc mới hạn chế nếu nang đã te
 
 **Đau không?** Kim siêu nhỏ — chịu được. **Bao lâu thấy?** 2–3 tháng.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const LASER_LOW_LEVEL_TOC_BODY = `Laser low level tóc (LLLT) — ánh sáng đỏ/infrared công suất thấp kích thích mạch máu da đầu, giảm viêm, hỗ trợ phase mọc. Dùng tại phòng hoặc mũ laser tại nhà (FDA cleared một số loại).
 
@@ -506,7 +506,7 @@ Rụng sớm, sau cấy, phụ nữ hói diffuse; kết hợp [mesotherapy tóc]
 
 **Có nóng không?** Không — low level. **Nam và nữ?** Cả hai.
 
-**0938 673 996** — [cấy tóc tự thân](/tham-my/cay-toc-tu-than).`;
+**0896 673 320** — [cấy tóc tự thân](/tham-my/cay-toc-tu-than).`;
 
 export const MINOXIDIL_MOC_TOC_BODY = `Thuốc mọc tóc minoxidil — hoạt chất vasodilator bôi da đầu (2–5%) hoặc dạng uống (off-label, cần bác sĩ). Kích thích mọc tóc, kéo dài anagen; dùng hói sớm, sau cấy, hói nữ một phần.
 
@@ -528,7 +528,7 @@ Bác sĩ có thể cho dùng từ tháng 2–4 — hỗ trợ [cấy tóc sau 6 
 
 **Nữ dùng được?** 2% thường chỉ định; 5% theo bác sĩ. **Mọc râu tay?** Rửa kỹ tay sau bôi.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const FINASTERIDE_RUNG_TOC_BODY = `Finasteride rụng tóc — thuốc uống ức chế 5-alpha reductase, giảm DHT, làm chậm hói androgen ở nam. Không mọc tóc mới ở vùi trụi như cấy; phù hợp duy trì và ngăn hói tiếp sau [cấy tóc](/tham-my/cay-toc-tu-than).
 
@@ -550,4 +550,4 @@ Nhiều bác sĩ khuyên dùng trước cấy để ổn định hói; tiếp t�
 
 **Nữ uống được?** Không chỉ định thông thường. **Bao lâu thấy?** 6 tháng giảm rụng; 12 tháng mọc mảnh hơn.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;

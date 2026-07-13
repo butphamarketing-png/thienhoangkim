@@ -1,5 +1,5 @@
-export const CLINIC_PHONE = "0938673996";
-export const CLINIC_PHONE_DISPLAY = "0938 673 996";
+export const CLINIC_PHONE = "0896673320";
+export const CLINIC_PHONE_DISPLAY = "0896 673 320";
 export const CLINIC_ADDRESS = "323-325 Hùng Vương, Phường An Đông, TP Hồ Chí Minh";
 export const CLINIC_EMAIL = "contact@thienhoangkim.vn";
 

@@ -32,7 +32,7 @@ Ngày 3–7: sưng đỉnh rồi giảm dần; cảm giác căng khi mở mắt 
 
 **Cắt mí nam có đau hơn không?** Kỹ thuật tương tự — khác biệt ở độ dày da mí, không phải "đau hơn vì nam".
 
-Tư vấn miễn phí: **0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+Tư vấn miễn phí: **0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
 
 export const BAM_MI_BODY = `Bấm mí là phương pháp tạo nếp mí nhanh, không rạch da — phù hợp thử nếp mí trước khi cân nhắc cắt mí hoặc nhấn mí chỉ. Bấm mí phổ biến ở học sinh, sinh viên và người mí ẩn muốn mắt to hơn mà ít downtime. Tuy nhiên bấm mí không phải lựa chọn lâu dài cho mọi cơ địa — bài viết giúp bạn hiểu ưu nhược điểm.
 
@@ -64,7 +64,7 @@ Sưng nhẹ 1–3 ngày; bầm ít. Tránh makeup nặng 24h; không chà mí. N
 
 **Giá bấm mí?** Thấp hơn cắt mí — báo giá sau khám tại An Đông.
 
-**0938 673 996** — Thiên Hoàng Kim, TP.HCM.`;
+**0896 673 320** — Thiên Hoàng Kim, TP.HCM.`;
 
 export const MI_AN_BODY = `Mí ẩn là tình trạng có nếp gấp mí nhưng bị che khi mở mắt — mắt trông một mí hoặc mí không rõ. Mí ẩn rất phổ biến ở người châu Á; không phải bệnh nhưng nhiều người muốn nếp mí ổn định, mắt to và sáng hơn. Hiểu mí ẩn giúp chọn đúng giữa nhấn mí, bấm mí và cắt mí.
 
@@ -96,7 +96,7 @@ Nếp có thể hơi cao vài tuần đầu; tránh sờ nếp; tái khám đún
 
 **Tuổi nào làm mí ẩn?** Sau 18 tuổi khi cơ mí ổn định — tư vấn tại phòng khám.
 
-**0938 673 996** — Thiên Hoàng Kim, An Đông.`;
+**0896 673 320** — Thiên Hoàng Kim, An Đông.`;
 
 export const MAT_MOT_MI_BODY = `Mắt một mí là mắt không có (hoặc gần như không có) nếp gấp mí khi mở mắt — đặc trưng phổ biến người châu Á, không liên quan sức khỏe. Nhiều người yêu thích mắt một mí tự nhiên; nhiều người khác muốn nếp mí đôi để trang điểm và gương mặt sáng hơn. Bài viết giải thích lựa chọn thẩm mỹ phù hợp mắt một mí.
 
@@ -128,7 +128,7 @@ Timeline tương [cắt mí bao lâu hồi phục](/tin-tuc/cat-mi-bao-lau-hoi-p
 
 **Makeup sau cắt mí mắt một mí?** Sau khi bác sĩ cho phép — thường từ tuần 2–3.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
 
 export const MO_GOC_MAT_BODY = `Mở góc mắt (canthoplasty, epicanthoplasty) là thủ thuật chỉnh khóe mắt trong hoặc ngoài để mắt trông dài, to và cân hơn — thường kết hợp cắt mí chứ không làm riêng lẻ trừ khi có chỉ định. Mở góc mắt cần bác sĩ am hiểu giải phẫu vùng mắt để hạn chế sẹo và lệch khóe.
 
@@ -160,7 +160,7 @@ Sẹo lộ nếu chăm sóc sai; lệch khóe hiếm khi bác sĩ có kinh nghi�
 
 **Giá mở góc mắt?** Phụ thuộc kỹ thuật — báo sau khám Thiên Hoàng Kim.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const LAY_MO_MI_BODY = `Lấy mỡ mí (mỡ mí, mỡ bọng mắt phần trên) là bước quan trọng trong cắt mí khi mí dày, sưng như bọng — giúp nếp mí sâu, không bị "lún" sau vài tháng. Lấy mỡ mí không phải lúc nào cũng cần; bác sĩ đánh giá khi khám để tránh lấy quá nhiều gây mí lõm.
 
@@ -192,7 +192,7 @@ Giống cắt mí: sưng 7–10 ngày; tránh sờ mí; [sưng sau cắt mí](/t
 
 **Mỡ mí có tái phát không?** Có thể tăng mỡ theo tuổi, cân nặng — ít gặp tái phát nhanh.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const TAI_CAT_MI_BODY = `Tái cắt mí (revision blepharoplasty) là phẫu thuật sửa mí lần trước — nếp quá cao, quá thấp, lệch hai bên, mí lõm, sẹo rõ hoặc mí "mất" sau vài năm. Tái cắt mí khó hơn mổ đầu vì có sẹo cũ, mô xơ — cần bác sĩ có kinh nghiệm revision và thời gian chờ đủ trước khi mổ lại.
 
@@ -224,7 +224,7 @@ Tương tự [chăm sóc sau cắt mí](/tin-tuc/cham-soc-sau-cat-mi) — tuân 
 
 **Tái cắt mí có sửa được mí quá cao không?** Một phần — tùy mức độ, cần khám chuyên sâu.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông.`;
 
 export const CAT_MI_NAM_BODY = `Cắt mí nam ngày càng phổ biến — không phải để "nữ hóa" gương mặt mà để mắt sáng, tỉnh táo, dễ giao tiếp trong công việc. Cắt mí nam khác nữ ở thiết kế nếp: thường thấp hơn, mỏng hơn, tự nhiên hơn — tránh mí quá cao, quá sâu dễ lộ "đã mổ".
 
@@ -256,7 +256,7 @@ Không makeup che sưng nhiều như nữ — chọn thời điểm nghỉ ngắ
 
 **Nam có nên mở góc mắt?** Ít gặp hơn nữ — chỉ khi có chỉ định thẩm mỹ.
 
-**0938 673 996** — Thiên Hoàng Kim, An Đông TP.HCM.`;
+**0896 673 320** — Thiên Hoàng Kim, An Đông TP.HCM.`;
 
 export const SUNG_SAU_CAT_MI_BODY = `Sưng sau cắt mí là phản ứng bình thường của cơ thể — không có nghĩa mổ "hỏng". Hiểu đồ sưng giúp bạn không hoảng ngày 2–3 khi mí sưng nhất, và biết dấu hiệu bất thường cần gọi bác sĩ. Mức sưng phụ thuộc cơ địa, kỹ thuật, có lấy mỡ hay mở góc mắt kèm theo.
 
@@ -288,7 +288,7 @@ Lấy mỡ nhiều; mở góc mắt kèm; cơ địa dễ sưng; không chườm
 
 **Kính râm có giúp không?** Che ánh nắng, giảm khô mắt khi ra ngoài sớm.
 
-**0938 673 996** — Thiên Hoàng Kim, An Đông.`;
+**0896 673 320** — Thiên Hoàng Kim, An Đông.`;
 
 export const CHAM_SOC_SAU_CAT_MI_BODY = `Chăm sóc sau cắt mí quyết định nếp mí có đẹp, cân và ít sẹo hay không — vượt quan trọng cả kỹ thuật mổ nếu bạn bóc cặn, nắng trực tiếp hoặc bỏ tái khám. Phòng khám Thiên Hoàng Kim cung cấp phiếu hướng dẫn sau [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang); bài viết tóm tắt timeline chuẩn để bạn ôn lại tại nhà.
 
@@ -312,7 +312,7 @@ Rượu bia, thuốc lá ít nhất 1–2 tuần; thực phẩm không cần ki�
 
 ## Dấu hiệu cần liên hệ phòng khám
 
-Sốt; đau tăng; một mắt sưng đột ngột; chảy máu nhiều; nhìn mờ; mủ. Hotline **0938 673 996**.
+Sốt; đau tăng; một mắt sưng đột ngột; chảy máu nhiều; nhìn mờ; mủ. Hotline **0896 673 320**.
 
 ## Câu hỏi thường gặp về chăm sóc sau cắt mí
 

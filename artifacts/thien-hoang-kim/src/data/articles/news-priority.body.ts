@@ -56,7 +56,7 @@ Sau tiêm cần tránh massage mạnh, sauna, tập nặng trong 24–48 giờ �
 
 **Ai không nên tiêm?** Mang thai, cho con bú, nhiễm trùng da cấp, dị ứng đã biết với thành phần, một số bệnh tự miễn đang phát — cần khai báo đầy đủ khi khám.
 
-Đặt lịch tư vấn miễn phí: gọi **0938 673 996** hoặc đến **323–325 Hùng Vương, An Đông, TP.HCM**. Bác sĩ Thiên Hoàng Kim giải thích rõ filler và botox khác nhau thế nào trước khi bạn quyết định bất kỳ liệu trình nào.`;
+Đặt lịch tư vấn miễn phí: gọi **0896 673 320** hoặc đến **323–325 Hùng Vương, An Đông, TP.HCM**. Bác sĩ Thiên Hoàng Kim giải thích rõ filler và botox khác nhau thế nào trước khi bạn quyết định bất kỳ liệu trình nào.`;
 
 export const NANG_MUI_CO_DAU_KHONG_BODY = `"Nâng mũi có đau không?" là câu hỏi đầu tiên của hầu hết khách trước khi đặt lịch phẫu thuật. Câu trả lời thực tế: trong mổ bạn không đau nhờ gây mê hoặc gây tê kết hợp an thần; sau mổ có đau và khó chịu nhưng kiểm soát được bằng thuốc và chăm sóc đúng — đau nhất thường trong 24–72 giờ đầu, giảm dần trong một đến hai tuần. Hiểu rõ từng giai đoạn giúp bạn chuẩn bị tâm lý và sắp xếp nghỉ ngơi hợp lý.
 
@@ -110,7 +110,7 @@ Bình thường: sưng, bầm nhẹ quanh mắt và mũi; nghẹt mũi; cảm gi
 
 **Có cần nghỉ làm bao lâu?** Thường năm đến bảy ngày cho công việc văn phòng; công việc nặng nề hoặc tiếp xúc bụi bẩn có thể cần hai tuần trở lên.
 
-**Đau có báo hiệu biến chứng?** Đau tăng dần sau ngày thứ ba, sốt, chảy máu nhiều, da tái hoặc đau một bên bất thường — gọi **0938 673 996** ngay.
+**Đau có báo hiệu biến chứng?** Đau tăng dần sau ngày thứ ba, sốt, chảy máu nhiều, da tái hoặc đau một bên bất thường — gọi **0896 673 320** ngay.
 
 **Gây mê có nguy hiểm không?** Gây mê trong bệnh viện/phòng mổ chuẩn có bác sĩ gây mê theo dõi; nguy cơ thấp với người khỏe mạnh sau thăm khám tiền mê.
 
@@ -118,7 +118,7 @@ Bình thường: sưng, bầm nhẹ quanh mắt và mũi; nghẹt mũi; cảm gi
 
 **Có thể dùng thuốc giảm đau mạnh không?** Chỉ theo đơn bác sĩ; không tự mua thuốc opioid hoặc kháng sinh khi không chỉ định.
 
-Tìm hiểu quy trình chi tiết và đặt lịch tư vấn miễn phí: **0938 673 996** — **323–325 Hùng Vương, An Đông, TP.HCM**.`;
+Tìm hiểu quy trình chi tiết và đặt lịch tư vấn miễn phí: **0896 673 320** — **323–325 Hùng Vương, An Đông, TP.HCM**.`;
 
 export const CAT_MI_BAO_LAU_HOI_PHUC_BODY = `Cắt mí mắt là thao tác phổ biến để mắt to, sắc nét và cân đối hơn — nhưng trước khi đặt lịch, ai cũng muốn biết cắt mí bao lâu hồi phục để sắp xếp đi làm, sự kiện hay chụp ảnh. Thời gian hồi phục phụ thuộc kỹ thuật (cắt mí, mí ẩn, lấy mỡ bọng mắt), cơ địa sưng bầm và chăm sóc sau mổ — không có một con số cố định cho mọi người, nhưng có lộ trình tham khảo rõ ràng.
 
@@ -184,7 +184,7 @@ Ngày 0: mổ, về hoặc nghỉ ngắn tại cơ sở. Ngày 1–3: ở nhà, 
 
 **Mí có bị sụt sau này không?** Một số trường hợp mí lót có thể nhạt dần theo thời gian; tái khám định kỳ giúp phát hiện sớm.
 
-Đặt lịch tư vấn cắt mí miễn phí: **0938 673 996** — **323–325 Hùng Vương, An Đông, TP.HCM**.`;
+Đặt lịch tư vấn cắt mí miễn phí: **0896 673 320** — **323–325 Hùng Vương, An Đông, TP.HCM**.`;
 
 export const PHUN_MOI_CO_DAU_KHONG_BODY = `Phun môi thẩm mỹ giúp môi hồng, có màu và viền rõ hơn — nhưng câu hỏi "phun môi có đau không" vẫn khiến nhiều người chần chừ trước buổi hẹn. Câu trả lời thực tế: có cảm giác khó chịu trong khi phun, nhưng tê trước khi làm giúp giảm đau đáng kể; nhiều khách mô tả như rung nhẹ hoặc cạo nhẹ, chịu được trong một đến hai giờ tùy kỹ thuật và độ nhạy cảm cá nhân.
 
@@ -258,7 +258,7 @@ Lịch tái khám touch-up màu (nếu có) thường sau 4–8 tuần — khôn
 
 **Lần sau có đau hơn không?** Thường tương tự; da đã quen một phần nhưng vẫn cần tê.
 
-Xem dịch vụ phun xăm tại Thiên Hoàng Kim Spa — tư vấn miễn phí **0938 673 996**, **323–325 Hùng Vương, An Đông, TP.HCM**.`;
+Xem dịch vụ phun xăm tại Thiên Hoàng Kim Spa — tư vấn miễn phí **0896 673 320**, **323–325 Hùng Vương, An Đông, TP.HCM**.`;
 
 export const CHAM_SOC_DA_MAT_DUNG_CACH_BODY = `Chăm sóc da mặt đúng cách không đòi hỏi chục bước đắt tiền hay thay sản phẩm liên tục — nền tảng là làm sạch đúng, dưỡng phù hợp loại da và chống nắng mỗi ngày. Nhiều người đầu tư serum cao cấp nhưng bỏ qua tẩy trang, dùng kem quá dày cho da dầu hoặc không chống nắng trong nhà, khiến mụn, nám và da xỉn kéo dài dù đã "chăm" nhiều bước.
 
@@ -332,7 +332,7 @@ Ghi chú nhật ký da 4–8 tuần: chụp ảnh cùng ánh sáng, ghi sản ph
 
 **Facial bao lâu một lần?** Hai đến bốn tuần tùy da và liệu trình — hỏi chuyên viên tại spa.
 
-Đặt lịch facial và tư vấn skincare: **0938 673 996** — **323–325 Hùng Vương, An Đông, TP.HCM**.`;
+Đặt lịch facial và tư vấn skincare: **0896 673 320** — **323–325 Hùng Vương, An Đông, TP.HCM**.`;
 
 export const PHONG_KHAM_THAM_MY_AN_DONG_BODY = `Tìm phòng khám thẩm mỹ An Đông, Quận 5 khu vực Hùng Vương — bạn cần địa chỉ rõ ràng, bác sĩ có kinh nghiệm và dịch vụ từ thẩm mỹ y khoa đến spa chăm sóc da trong một hệ thống. Thiên Hoàng Kim Aesthetic Clinic tọa lạc **323–325 Hùng Vương, Phường An Đông, TP.HCM** — mở cửa **08:00–20:00**, tiện đi từ Quận 5, 6, 10, Tân Bình và các quận lân cận. Phòng khám thẩm mỹ An Đông tại đây phục vụ khách bản địa lẫn khách các quận xa hơn nhờ vị trí trục đường lớn và quy trình tư vấn minh bạch.
 
@@ -354,7 +354,7 @@ Một địa điểm cho cả can thiệp sâu và chăm sóc định kỳ — t
 
 ## Quy trình thăm khám tại phòng khám
 
-Đặt lịch trước qua hotline **0938 673 996**, website hoặc fanpage để giảm chờ đợi. Buổi đầu: tư vấn, thăm khám (hoặc soi da với dịch vụ spa), giải thích lựa chọn, báo giá minh bạch — không ép làm dịch vụ. Phẫu thuật và tiêm do bác sĩ thực hiện; spa do chuyên viên phù hợp từng hạng mục. Khách được hướng dẫn chăm sóc sau điều trị và lịch tái khám.
+Đặt lịch trước qua hotline **0896 673 320**, website hoặc fanpage để giảm chờ đợi. Buổi đầu: tư vấn, thăm khám (hoặc soi da với dịch vụ spa), giải thích lựa chọn, báo giá minh bạch — không ép làm dịch vụ. Phẫu thuật và tiêm do bác sĩ thực hiện; spa do chuyên viên phù hợp từng hạng mục. Khách được hướng dẫn chăm sóc sau điều trị và lịch tái khám.
 
 ## Vì sao chọn khu An Đông để làm đẹp?
 
@@ -368,15 +368,15 @@ Nhiều gia đình khu Chợ Lớn, An Đông giới thiệu nhau qua trải ngh
 
 ## Cam kết dịch vụ và theo dõi sau điều trị
 
-Mọi can thiệp y khoa đều có hướng dẫn hậu phẫu bằng văn bản hoặc trực tiếp; hotline **0938 673 996** hỗ trợ khi sưng, đau hoặc thắc mắc sau tiêm, sau mổ. Spa có lịch liệu trình rõ ràng — số buổi, sản phẩm dùng, chuyên viên phụ trách. Phòng khám thẩm mỹ An Đông bền vững nhờ tái khám và khách quay lại chăm sóc da định kỳ, không chỉ làm một lần rồi mất liên lạc.
+Mọi can thiệp y khoa đều có hướng dẫn hậu phẫu bằng văn bản hoặc trực tiếp; hotline **0896 673 320** hỗ trợ khi sưng, đau hoặc thắc mắc sau tiêm, sau mổ. Spa có lịch liệu trình rõ ràng — số buổi, sản phẩm dùng, chuyên viên phụ trách. Phòng khám thẩm mỹ An Đông bền vững nhờ tái khám và khách quay lại chăm sóc da định kỳ, không chỉ làm một lần rồi mất liên lạc.
 
 ## Gợi ý lịch trình cho khách lần đầu đến An Đông
 
-Buổi 1: tư vấn miễn phí, soi da hoặc thăm khám, nhận báo giá. Buổi 2 (nếu quyết định): thực hiện dịch vụ đã chọn — tiêm, spa hoặc hẹn mổ. Các buổi sau: tái khám, facial định kỳ, điều chỉnh phác đồ. Khách từ xa có thể gộp tư vấn + spa trong một ngày; phẫu thuật thường cần người đưa đón và nghỉ riêng. Đặt lịch sớm qua **0938 673 996** để chọn khung giờ thuận tiện trên Hùng Vương.
+Buổi 1: tư vấn miễn phí, soi da hoặc thăm khám, nhận báo giá. Buổi 2 (nếu quyết định): thực hiện dịch vụ đã chọn — tiêm, spa hoặc hẹn mổ. Các buổi sau: tái khám, facial định kỳ, điều chỉnh phác đồ. Khách từ xa có thể gộp tư vấn + spa trong một ngày; phẫu thuật thường cần người đưa đón và nghỉ riêng. Đặt lịch sớm qua **0896 673 320** để chọn khung giờ thuận tiện trên Hùng Vương.
 
 Khách từ Quận 8, Bình Chánh có thể đi qua Quận 5 hoặc đường Vành Đai — hỏi lễ tân gợi ý tuyến đường ít kẹt theo giờ bạn đặt lịch. Phòng khám thẩm mỹ An Đông trên Hùng Vương là điểm hẹn quen của nhiều khách đã từng thử nơi khác rồi quay lại vì tái khám và spa cùng một địa chỉ — tiết kiệm thời gian cho phác đồ dài hạn.
 
-Fanpage và hotline cập nhật giờ mở cửa dịp lễ — gọi **0938 673 996** trước khi đến để được sắp bác sĩ hoặc chuyên viên phù hợp dịch vụ bạn quan tâm, tránh chờ lâu giờ cao điểm cuối tuần.
+Fanpage và hotline cập nhật giờ mở cửa dịp lễ — gọi **0896 673 320** trước khi đến để được sắp bác sĩ hoặc chuyên viên phù hợp dịch vụ bạn quan tâm, tránh chờ lâu giờ cao điểm cuối tuần.
 
 ## Câu hỏi thường gặp về phòng khám thẩm mỹ An Đông
 
@@ -384,7 +384,7 @@ Fanpage và hotline cập nhật giờ mở cửa dịp lễ — gọi **0938 67
 
 **Có làm việc Chủ nhật không?** Thường 08:00–20:00 — gọi xác nhận ngày lễ Tết.
 
-**Đặt lịch thế nào?** Gọi **0938 673 996** hoặc nhắn fanpage Thiên Hoàng Kim.
+**Đặt lịch thế nào?** Gọi **0896 673 320** hoặc nhắn fanpage Thiên Hoàng Kim.
 
 **Có đỗ xe không?** Hỏi lễ tân khi đặt lịch để được hướng dẫn chỗ đỗ gần nhất.
 
@@ -440,7 +440,7 @@ Nếu sau 8 tuần vẫn chưa hài lòng, tái khám để bác sĩ đánh giá
 
 Ghi nhật ký ảnh nghiêng mỗi tuần sau tiêm — so sánh khách quan hơn cảm giác trong gương hàng ngày. Kết hợp giảm nhai gum và điều trị nghiến răng (nếu có) giúp duy trì kết quả lâu hơn giữa các lần tái tiêm botox gọn hàm.
 
-Tư vấn miễn phí tại [botox xóa nhăn gọn hàm](/tham-my/botox-xoa-nhan-gon-ham) giúp ước tính liều và timeline cụ thể trước khi tiêm — botox gọn hàm bao lâu thấy kết quả trên từng khuôn mặt luôn có chút khác biệt, không có một con số áp dụng y hệt cho mọi người. Gọi **0938 673 996** để đặt lịch khám và chụp ảnh profile chuẩn trước tiêm.
+Tư vấn miễn phí tại [botox xóa nhăn gọn hàm](/tham-my/botox-xoa-nhan-gon-ham) giúp ước tính liều và timeline cụ thể trước khi tiêm — botox gọn hàm bao lâu thấy kết quả trên từng khuôn mặt luôn có chút khác biệt, không có một con số áp dụng y hệt cho mọi người. Gọi **0896 673 320** để đặt lịch khám và chụp ảnh profile chuẩn trước tiêm.
 
 ## Câu hỏi thường gặp về botox gọn hàm bao lâu thấy kết quả
 
@@ -456,7 +456,7 @@ Tư vấn miễn phí tại [botox xóa nhăn gọn hàm](/tham-my/botox-xoa-nha
 
 **Nam giới tiêm được không?** Có — nhu cầu gọn hàm nam tăng; liều có thể khác nữ.
 
-Tư vấn botox gọn hàm miễn phí: **0938 673 996** — **323–325 Hùng Vương, An Đông, TP.HCM**.`;
+Tư vấn botox gọn hàm miễn phí: **0896 673 320** — **323–325 Hùng Vương, An Đông, TP.HCM**.`;
 
 export const CAY_TOC_FUE_LA_GI_BODY = `Rụng tóc, hói đầu khiến nhiều người tìm hiểu cấy tóc — và thuật ngữ cấy tóc FUE xuất hiện nhiều nhất trong các tư vấn hiện đại. FUE (Follicular Unit Extraction) là kỹ thuật lấy từng nang tóc tự thân từ vùng cho (thường sau gáy) bằng dụng cụ vi mô, rồi cấy vào vùng thưa hoặc hói — không cắt một dải da lớn như FUT truyền thống. Hiểu cấy tóc FUE là gì giúp bạn so sánh phương án, chuẩn bị chi phí và kỳ vọng thời gian mọc tóc thực tế.
 
@@ -528,7 +528,7 @@ Hỏi bác sĩ số graft dự kiến, thời gian mổ, ai thực hiện bướ
 
 **Nam và nữ đều cấy được?** Có — nguyên nhân hói khác nhau; khám xác định chỉ định.
 
-Đặt lịch tư vấn cấy tóc: **0938 673 996** — **323–325 Hùng Vương, An Đông, TP.HCM**.`;
+Đặt lịch tư vấn cấy tóc: **0896 673 320** — **323–325 Hùng Vương, An Đông, TP.HCM**.`;
 
 export const CHON_PHONG_KHAM_THAM_MY_AN_TOAN_BODY = `Làm đẹp an toàn bắt đầu từ chọn phòng khám thẩm mỹ an toàn — không phải chọn nơi rẻ nhất hay quảng cáo "hot" nhất trên mạng. Một checklist rõ ràng giúp bạn tránh biến chứng, sửa lại tốn kém và tổn thương không đáng có. Chọn phòng khám thẩm mỹ an toàn là đầu tư cho sức khỏe lẫn kết quả thẩm mỹ lâu dài.
 
@@ -584,7 +584,7 @@ Mang checklist 10 điểm khi tham quan phòng khám — đánh dấu từng m�
 
 Tìm hiểu thêm kinh nghiệm thực tế qua bài [chọn phòng khám thẩm mỹ an toàn](/tin-tuc/chon-phong-kham-tham-my-an-toan) và ghé tham quan **323–325 Hùng Vương, An Đông** khi tiện — chọn phòng khám thẩm mỹ an toàn bắt đầu từ cảm giác được lắng nghe và tôn trọng quyết định của bạn.
 
-Đừng quyết định khi đang căng thẳng hoặc bị áp lực khuyến mãi sốc — một đêm suy nghĩ sau tư vấn thường cho quyết định sáng suốt hơn. Hotline **0938 673 996** luôn sẵn sàng đặt lịch tham quan không cam kết làm dịch vụ.
+Đừng quyết định khi đang căng thẳng hoặc bị áp lực khuyến mãi sốc — một đêm suy nghĩ sau tư vấn thường cho quyết định sáng suốt hơn. Hotline **0896 673 320** luôn sẵn sàng đặt lịch tham quan không cam kết làm dịch vụ.
 
 ## Câu hỏi nên hỏi khi tư vấn
 
@@ -602,7 +602,7 @@ Bác sĩ nào thực hiện? Bao lâu hồi phục? Biến chứng có thể gì
 
 **Sửa mũi, mí hỏng có làm được không?** Một số ca revision phức tạp — cần bác sĩ có kinh nghiệm sửa; khám trước, không hứa chắc chắn qua điện thoại.
 
-Thiên Hoàng Kim: khám trước khi làm; bác sĩ phẫu thuật và tiêm; **323–325 Hùng Vương, An Đông**; **0938 673 996**; tư vấn miễn phí không ép dịch vụ. Đặt lịch tham quan — mang checklist trên để so sánh bất kỳ phòng khám nào bạn đang cân nhắc.`;
+Thiên Hoàng Kim: khám trước khi làm; bác sĩ phẫu thuật và tiêm; **323–325 Hùng Vương, An Đông**; **0896 673 320**; tư vấn miễn phí không ép dịch vụ. Đặt lịch tham quan — mang checklist trên để so sánh bất kỳ phòng khám nào bạn đang cân nhắc.`;
 
 export const XU_HUONG_THAM_MY_2026_BODY = `Xu hướng thẩm mỹ 2026 tiếp tục xoay quanh tự nhiên, cá nhân hóa và an toàn — người làm đẹp không còn chạy theo khuôn mặt "chuẩn filter" mà muốn hài hòa với gen, lối sống và nghề nghiệp. Dưới đây là các hướng nổi bật trong xu hướng thẩm mỹ 2026 bạn có thể tham khảo trước khi lên kế hoạch với bác sĩ — không phải checklist bắt buộc, mà là bản đồ tham khảo để chọn phác đồ phù hợp bản thân.
 
@@ -664,7 +664,7 @@ Xu hướng thẩm mỹ 2026 không thay thế quy tắc cũ: chọn bác sĩ, c
 
 **Làm nhiều dịch vụ cùng lúc được không?** Bác sĩ sắp xếp phác đồ — không tự ý chồng nhiều mổ lớn một lần.
 
-Áp dụng tại Thiên Hoàng Kim: phác đồ cá nhân [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim), [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang), filler/botox tự nhiên, spa, cấy tóc — tư vấn miễn phí **0938 673 996**, **323–325 Hùng Vương, An Đông, TP.HCM**. Đặt lịch tư vấn xu hướng và phác đồ phù hợp — không chạy theo trend mù quáng.`;
+Áp dụng tại Thiên Hoàng Kim: phác đồ cá nhân [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim), [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang), filler/botox tự nhiên, spa, cấy tóc — tư vấn miễn phí **0896 673 320**, **323–325 Hùng Vương, An Đông, TP.HCM**. Đặt lịch tư vấn xu hướng và phác đồ phù hợp — không chạy theo trend mù quáng.`;
 
 export const DIA_CHI_THAM_MY_QUAN_5_AN_DONG_BODY = `Tìm **địa chỉ thẩm mỹ Quận 5 An Đông** trên Google thường trả về hàng chục kết quả — từ phòng khám trên Hùng Vương, Nguyễn Trãi đến spa nhỏ trong hẻm. Bài viết này tổng hợp **tiêu chí chọn địa chỉ uy tín** tại khu An Đông, Quận 5 (và lân cận), giúp bạn so sánh có hệ thống thay vì chỉ nhìn ảnh before/after trên mạng. Thiên Hoàng Kim tại **323–325 Hùng Vương, Phường An Đông** là một trong những địa chỉ thẩm mỹ lâu năm trên trục này — bài viết minh bạch về vị trí, dịch vụ và cách đặt lịch.
 
@@ -693,7 +693,7 @@ Trước khi ghé bất kỳ địa chỉ nào trên danh sách Google, hãy đ�
 
 ### Thiên Hoàng Kim Aesthetic Clinic — 323–325 Hùng Vương, An Đông
 
-**Vị trí:** Trục Hùng Vương, Phường An Đông — thuận tiện từ Quận 5, 6, 10, khu Chợ Lớn. **Giờ mở cửa:** 08:00–20:00. **Hotline:** 0938 673 996.
+**Vị trí:** Trục Hùng Vương, Phường An Đông — thuận tiện từ Quận 5, 6, 10, khu Chợ Lớn. **Giờ mở cửa:** 08:00–20:00. **Hotline:** 0896 673 320.
 
 **Dịch vụ nổi bật:**
 - Thẩm mỹ y khoa: [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim), [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang), [cấy tóc tự thân](/tham-my/cay-toc-tu-than), căng chỉ, [filler](/tham-my/filler-tao-hinh), [botox](/tham-my/botox-xoa-nhan-gon-ham).
@@ -721,7 +721,7 @@ Thiên Hoàng Kim phù hợp khách muốn **một địa chỉ tổng hợp** t
 
 - **Xe máy / ô tô:** Trục Hùng Vương qua An Đông — hỏi lễ tân chỗ để xe khi đặt lịch.
 - **Từ Quận 10, 11, 6:** Thường 10–25 phút tùy giờ cao điểm.
-- **Đặt lịch:** Gọi **0938 673 996** hoặc nhắn fanpage — nên đặt trước cuối tuần.
+- **Đặt lịch:** Gọi **0896 673 320** hoặc nhắn fanpage — nên đặt trước cuối tuần.
 - **Lần đầu:** Tư vấn miễn phí → khám/soi da → báo giá → hẹn làm hoặc về cân nhắc.
 
 Xem [bảng giá tham khảo](/bang-gia) và [liên hệ](/lien-he) trên website.
@@ -736,7 +736,7 @@ Các bài **toplist** trên Toplist, BookingCare, SaigonReview thường tổng 
 
 **Thiên Hoàng Kim ở đâu chính xác?** 323–325 Hùng Vương, Phường An Đông, TP.HCM — mở 08:00–20:00.
 
-**Tư vấn có mất phí không?** Tư vấn ban đầu miễn phí — xác nhận khi đặt lịch qua 0938 673 996.
+**Tư vấn có mất phí không?** Tư vấn ban đầu miễn phí — xác nhận khi đặt lịch qua 0896 673 320.
 
 **Có đỗ xe không?** Hỏi lễ tân khi đặt lịch để được hướng dẫn chỗ đỗ gần nhất trên Hùng Vương.
 
@@ -746,7 +746,7 @@ Các bài **toplist** trên Toplist, BookingCare, SaigonReview thường tổng 
 
 ---
 
-**Đặt lịch tư vấn miễn phí** tại Thiên Hoàng Kim — **0938 673 996**, **323–325 Hùng Vương, An Đông, TP.HCM**. Khám trực tiếp vẫn là cách tốt nhất để chọn địa chỉ thẩm mỹ Quận 5 An Đông phù hợp với bạn.`;
+**Đặt lịch tư vấn miễn phí** tại Thiên Hoàng Kim — **0896 673 320**, **323–325 Hùng Vương, An Đông, TP.HCM**. Khám trực tiếp vẫn là cách tốt nhất để chọn địa chỉ thẩm mỹ Quận 5 An Đông phù hợp với bạn.`;
 
 export const NANG_MUI_QUAN_5_AN_DONG_BODY = `Tìm **nâng mũi Quận 5** hoặc **nâng mũi An Đông** trên Google, bạn sẽ thấy nhiều phòng khám trên Hùng Vương, Nguyễn Trãi và khu Chợ Lớn. Bài viết này tập trung vào cách chọn địa chỉ uy tín và quy trình [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim) tại **Thiên Hoàng Kim — 323–325 Hùng Vương, Phường An Đông** — phù hợp khách Quận 5, 6, 10 và lân cận.
 
@@ -762,7 +762,7 @@ Nâng mũi hoàng kim tại Thiên Hoàng Kim nhấn **tỉ lệ vàng, sống t
 
 ## Quy trình tư vấn & phẫu thuật
 
-1. **Đặt lịch** — 0938 673 996, mở 08:00–20:00.
+1. **Đặt lịch** — 0896 673 320, mở 08:00–20:00.
 2. **Khám & chụp ảnh** — đánh giá xương sụn, da, sức khỏe.
 3. **Phác đồ & báo giá** — loại sụn, kỹ thuật, thời gian nghỉ dưỡng.
 4. **Phẫu thuật** — phòng vô trùng, gây mê chuẩn y khoa.
@@ -793,7 +793,7 @@ Xem thêm [chọn phòng khám thẩm mỹ an toàn](/tin-tuc/chon-phong-kham-th
 
 ## Câu hỏi thường gặp
 
-**Nâng mũi Quận 5 ở đâu uy tín?** Thiên Hoàng Kim 323–325 Hùng Vương, An Đông — tư vấn miễn phí 0938 673 996.
+**Nâng mũi Quận 5 ở đâu uy tín?** Thiên Hoàng Kim 323–325 Hùng Vương, An Đông — tư vấn miễn phí 0896 673 320.
 
 **Bao lâu hồi phục?** Sưng đỉnh 3–7 ngày; đi làm văn phòng thường 7–10 ngày; kết quả ổn định vài tháng.
 
@@ -805,7 +805,7 @@ Xem thêm [chọn phòng khám thẩm mỹ an toàn](/tin-tuc/chon-phong-kham-th
 
 ---
 
-**Đặt lịch nâng mũi Quận 5 An Đông:** **0938 673 996** — Thiên Hoàng Kim, 323–325 Hùng Vương.`;
+**Đặt lịch nâng mũi Quận 5 An Đông:** **0896 673 320** — Thiên Hoàng Kim, 323–325 Hùng Vương.`;
 
 export const FILLER_QUAN_5_AN_DONG_BODY = `**Filler Quận 5** và **tiêm filler An Đông** là từ khóa nhiều khách tìm khi muốn chỉnh mũi, môi, cằm gần nhà — không phải đi xa trung tâm. Thiên Hoàng Kim tại **323–325 Hùng Vương, Phường An Đông** cung cấp [filler tạo hình](/tham-my/filler-tao-hinh) do bác sĩ tiêm, sản phẩm chính hãng và tái khám theo dõi.
 
@@ -841,7 +841,7 @@ Một địa chỉ cho filler, botox, nâng mũi, cắt mí và spa — thuận 
 
 ## Câu hỏi thường gặp
 
-**Filler Quận 5 giá bao nhiêu?** Theo ml và vùng — tư vấn miễn phí 0938 673 996.
+**Filler Quận 5 giá bao nhiêu?** Theo ml và vùng — tư vấn miễn phí 0896 673 320.
 
 **Tiêm filler có đau không?** Tê trước tiêm; chịu được vài phút.
 
@@ -849,7 +849,7 @@ Một địa chỉ cho filler, botox, nâng mũi, cắt mí và spa — thuận 
 
 **Filler mũi có thay nâng mũi không?** Chỉ chỉnh nhẹ — mũi thấp nhiều cần [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim).
 
-**Đặt lịch thế nào?** Gọi **0938 673 996** — 323–325 Hùng Vương, mở 08:00–20:00.
+**Đặt lịch thế nào?** Gọi **0896 673 320** — 323–325 Hùng Vương, mở 08:00–20:00.
 
 ---
 
@@ -901,7 +901,7 @@ Xem [địa chỉ thẩm mỹ Q5](/tin-tuc/dia-chi-tham-my-quan-5-an-dong) · [c
 
 **Cắt mí có đau không?** Tê trong mổ; sau mổ đau nhẹ vài ngày — thuốc kiểm soát được.
 
-**Đặt lịch:** **0938 673 996** — tư vấn miễn phí 08:00–20:00.
+**Đặt lịch:** **0896 673 320** — tư vấn miễn phí 08:00–20:00.
 
 ---
 

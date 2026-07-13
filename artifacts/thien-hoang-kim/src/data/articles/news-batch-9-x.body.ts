@@ -22,7 +22,7 @@ Thiết kế khung; tê; máy shading; [phun xăm sau 1 tuần](/tin-tuc/phun-xa
 
 **Đau?** [Phun xăm có đau không](/tin-tuc/phun-xam-co-dau-khong) — tê. **Bao lâu?** 12–24 tháng touch-up.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
 
 export const PHUN_MAY_OMBRE_BODY = `Phun mày ombre — đầu mày nhạt, đuôi đậm dần (gradient); tự nhiên, trẻ. Hay kết hợp [powder](/tin-tuc/phun-may-powder) hoặc [shading](/tin-tuc/phun-may-shading).
 
@@ -44,7 +44,7 @@ Mày thưa; thích makeup mày gradient; không muốn block đậm toàn bộ.
 
 **Nam?** [Phun mày nam tự nhiên](/tin-tuc/phun-may-nam-tu-nhien) thường ít ombre. **Xanh?** [Phun mày bị xanh](/tin-tuc/phun-may-bi-xanh) — chọn mực chuẩn.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const PHUN_MAY_POWDER_BODY = `Phun mày powder — powder brows, hiệu ứng phấn mịn đồng đều; tương tự [shading](/tin-tuc/phun-may-shading) hoặc ombre powder kết hợp.
 
@@ -66,7 +66,7 @@ Khung theo xương; màu theo tóc da. [Xăm mày cũ](/tin-tuc/xam-may-cu) — 
 
 **Đậm quá?** Bong nhạt 30–50%. **Laser xóa?** [Xóa phun mày laser](/tin-tuc/xoa-phun-may-laser).
 
-**0938 673 996** — [phun xăm](/spa/phun-xam-tham-my).`;
+**0896 673 320** — [phun xăm](/spa/phun-xam-tham-my).`;
 
 export const PHUN_MAY_HAIRSTROKE_BODY = `Phun mày hairstroke — microblading / nano: vẽ từng sợi lông mày; tự nhiên nhất khi còn lông nền. Không phù hợp da dầu/nhiều dầu — mờ nhanh.
 
@@ -88,7 +88,7 @@ Không quá sợi trên mày không lông — “floating strokes”. [Touch up]
 
 **Bao lâu?** 12–18 tháng. **Đau?** Tê — chịu được.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const PHUN_MAY_NAM_TU_NHIEN_BODY = `Phun mày nam tự nhiên — PMU mày nam: sợi hoặc shading nhẹ, màu nâu xám đậm, khung thẳng hơn nữ; không đậm như kẻ mày makeup.
 
@@ -110,7 +110,7 @@ Giống nữ — [phun xăm bôi kem](/tin-tuc/phun-xam-bao-lau-boi-kem).
 
 **Có bị biết?** Tự nhiên đúng kỹ thuật — khó nhận ra. **Gym?** Tránh mồ hôi nhiều vài ngày.
 
-**0938 673 996** — [phun xăm thẩm mỹ](/spa/phun-xam-tham-my).`;
+**0896 673 320** — [phun xăm thẩm mỹ](/spa/phun-xam-tham-my).`;
 
 export const PHUN_MOI_NEUTRAL_BODY = `Phun môi neutral — tông môi trung tính (hồng nude, MLBB); không đỏ gắt; phù hợp đi làm, trang điểm nhẹ. Khác [red lips](/tin-tuc/phun-moi-red-lips) hoặc [baby lips](/tin-tuc/phun-moi-baby-lips).
 
@@ -132,7 +132,7 @@ Full lip hoặc viền + full; màu neutral warm/cool theo da.
 
 **Đậm lúc đầu?** Bong nhạt. **Bể?** [Đi bể sau phun môi](/tin-tuc/di-be-sau-phun-moi) — chờ lành.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const PHUN_MOI_RED_LIPS_BODY = `Phun môi red lips — tông đỏ, đỏ cam, đỏ cherry rõ; môi luôn có son. Phù hợp thích makeup đậm, môi nhạt muốn màu nổi.
 
@@ -154,7 +154,7 @@ export const PHUN_MOI_RED_LIPS_BODY = `Phun môi red lips — tông đỏ, đỏ
 
 **Son nữa?** Có thể — màu nền đã đỏ. **Xóa?** [Xóa phun môi laser](/tin-tuc/xoa-phun-moi-laser).
 
-**0938 673 996** — [phun xăm](/spa/phun-xam-tham-my).`;
+**0896 673 320** — [phun xăm](/spa/phun-xam-tham-my).`;
 
 export const PHUN_MOI_BABY_LIPS_BODY = `Phun môi baby lips — hiệu ứng môi em bé: hồng nhạt, căng mọng, viền mờ blend; trend Hàn. Khác [red lips](/tin-tuc/phun-moi-red-lips) đậm.
 
@@ -176,7 +176,7 @@ Môi thâm nhẹ, môi nhạt; thích look tự nhiên. Da sẫm — chọn hồ
 
 **Nam?** Ít phổ biến. **Filler môi?** Khác — có thể kết hợp sau khi lành PMU.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const KHU_THAM_MOI_BODY = `Khử thâm môi — phun xăm hoặc peel nhẹ + PMU màu sáng che melanin môi thâm bẩm sinh hoặc do khói, nắng. Không phải laser môi đơn thuần — thường full lip neutral.
 
@@ -198,7 +198,7 @@ Filler không khử thâm — chỉ volume.
 
 **Đau?** [Phun xăm đau](/tin-tuc/phun-xam-co-dau-khong) — môi nhạy hơn mày. **Bao lâu?** 2–3 buổi một số case.
 
-**0938 673 996** — [phun xăm thẩm mỹ](/spa/phun-xam-tham-my).`;
+**0896 673 320** — [phun xăm thẩm mỹ](/spa/phun-xam-tham-my).`;
 
 export const PHUN_MI_LINE_BODY = `Phun mí line — đường mí siêu mảnh trong chân mí (lash line enhancement); mắt có chiều sâu, không eyeliner đậm. Khác [eyeliner](/tin-tuc/phun-eyeliner-tu-nhien) dày hơn.
 
@@ -220,7 +220,7 @@ Vùng mắt nhạy — chọn spa chuẩn; không tiêm filler cùng ngày nếu
 
 **Đau?** Tê mắt — chịu được. **Sưng?** 1–3 ngày.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const PHUN_EYELINER_TU_NHIEN_BODY = `Phun eyeliner tự nhiên — viền mí trên (đôi khi dưới nhẹ) mảnh, đuôi không cat-eye quá; như kẻ eyeliner nước mảnh. Đậm hơn [mí line](/tin-tuc/phun-mi-line).
 
@@ -242,7 +242,7 @@ Mí lệch nếu không đối xứng — chọn kinh nghiệm.
 
 **Cat eye?** Có thể — nói rõ style. **Laser xóa?** Khó hơn mày — thận trọng trước khi làm.
 
-**0938 673 996** — [phun xăm](/spa/phun-xam-tham-my).`;
+**0896 673 320** — [phun xăm](/spa/phun-xam-tham-my).`;
 
 export const PHUN_MI_VA_EYELINER_BODY = `Phun mí và eyeliner — combo lash line + eyeliner mảnh hoặc wing nhẹ; mắt sắc nét trang điểm sẵn. Thường làm mí trên; mí dưới tùy chọn.
 
@@ -264,7 +264,7 @@ Không ướt mắt 48h; không mascara 7 ngày.
 
 **Đau mắt?** Tê — nhạy nhất vùng PMU. **Lens?** Chờ 7–14 ngày.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const XAM_MAY_CU_BODY = `Xăm mày cũ — mày xăm thủ công đậm, xanh, đỏ đỏ; PMU hiện đại khác kỹ thuật và mực. Xử lý: [xóa laser](/tin-tuc/xoa-phun-may-laser), cover bằng [powder](/tin-tuc/phun-may-powder)/ombre, hoặc kết hợp.
 
@@ -286,7 +286,7 @@ Che hoàn toàn có thể 2–3 bước; kiên nhẫn.
 
 **Một lần xong?** Hiếm. **Đau xóa laser?** Tê — nhiều buổi.
 
-**0938 673 996** — [phun xăm thẩm mỹ](/spa/phun-xam-tham-my).`;
+**0896 673 320** — [phun xăm thẩm mỹ](/spa/phun-xam-tham-my).`;
 
 export const XOA_PHUN_MAY_LASER_BODY = `Xóa phun mày laser — laser Q-switch hoặc pico phá vỡ pigment mực; nhiều buổi cách 6–8 tuần. Dùng trước khi phun lại hoặc khi [xăm mày cũ](/tin-tuc/xam-may-cu) quá đậm.
 
@@ -308,7 +308,7 @@ Laser phổ biến hơn; ít để lại vết loét nếu đúng máy.
 
 **Hết màu?** 3–8 buổi tùy mực. **Lông mày?** Che kín — không mất lông nếu đúng kỹ thuật.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const XOA_PHUN_MOI_LASER_BODY = `Xóa phun môi laser — tương tự mày nhưng môi nhạy, sưng nhiều; dùng khi [phun môi trợn](/tin-tuc/phun-moi-bi-tron-mau) sai màu hoặc không hài lòng. Pico/Q-switch nhiều buổi.
 
@@ -330,7 +330,7 @@ Tê môi — chịu được; sưng 3–5 ngày.
 
 **Xóa hết?** Tùy mực đỏ/cam — có thể còn hồng nhạt. **Bao lâu phun lại?** 2–3 tháng tối thiểu.
 
-**0938 673 996** — [phun xăm](/spa/phun-xam-tham-my).`;
+**0896 673 320** — [phun xăm](/spa/phun-xam-tham-my).`;
 
 export const PHUN_XAM_CO_DAU_KHONG_BODY = `Phun xăm có đau không — có cảm giác chích, rát; mày trung bình, môi và mí nhạy hơn. Tê tópical 20–40 phút giảm đau đáng kể — đa số chịu được, môi đôi khi vẫn nhói.
 
@@ -352,7 +352,7 @@ Rát nhẹ vài giờ — bôi kem theo hướng dẫn.
 
 **Gây tê tiêm?** Một số spa môi — hỏi trước. **Mang thai?** Không khuyến khích PMU.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const PHUN_XAM_BAO_LAU_BOI_KEM_BODY = `Phun xăm bao lâu bôi kem — thường bôi kem chuyên dùng (A&D, aquaphor, kem PMU) ngay sau làm, 3–5 lần/ngày tuần đầu; mỏng lớp. Không bôi dày bí da.
 
@@ -374,7 +374,7 @@ Môi khô hơn — bôi nhiều hơn; tránh ăn cay.
 
 **Rửa mặt?** Chạm nước nhẹ sau 24h — theo spa. **Makeup?** Sau 7–10 ngày vùng lành.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const PHUN_MOI_BI_TRON_MAU_BODY = `Phun môi bị trợn màu — tuần đầu môi đậm, viền lan nhẹ (“trợn”) do sưng và mực trong da — thường bình thường; sau bong 7–14 ngày viền gọn, màu nhạt 30–50%.
 
@@ -396,7 +396,7 @@ Artist có kinh nghiệm viền; không môi quá khô trước làm.
 
 **Bao lâu hết trợn?** 1–2 tuần. **Son?** Sau lành.
 
-**0938 673 996** — [phun xăm](/spa/phun-xam-tham-my).`;
+**0896 673 320** — [phun xăm](/spa/phun-xam-tham-my).`;
 
 export const PHUN_MAY_BI_XANH_BODY = `Phun mày bị xanh — mày xanh xám sau thời gian do mực cũ (kim loại), pha màu sai, hoặc nền [xăm cũ](/tin-tuc/xam-may-cu). PMU organic hiện đại ít xanh hơn.
 
@@ -418,7 +418,7 @@ Xanh có thể xuất hiện sau tháng — oxy hóa mực.
 
 **Tự hết?** Không — cần can thiệp. **Phun lại?** Sau khi nền sạch.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const TOUCH_UP_PHUN_MAY_BODY = `Touch up phun mày — buổi chỉnh 4–8 tuần sau lần đầu: bổ sung chỗ nhạt, chỉnh đuôi, đậm nhẹ sau khi bong ổn định. Thường included trong gói hoặc phí nhỏ.
 
@@ -440,7 +440,7 @@ Duy trì 12–24 tháng mới cần refresh đậm.
 
 **Bỏ qua touch-up?** Mày có thể thiếu/lệch. **Đau lại?** Nhẹ hơn lần đầu.
 
-**0938 673 996** — [phun xăm thẩm mỹ](/spa/phun-xam-tham-my).`;
+**0896 673 320** — [phun xăm thẩm mỹ](/spa/phun-xam-tham-my).`;
 
 export const TOUCH_UP_PHUN_MOI_BODY = `Touch up phun môi — 4–8 tuần sau phun đầu: chỉnh màu, viền, chỗ nhạt sau bong. Môi giữ màu không đều phổ biến hơn mày.
 
@@ -462,7 +462,7 @@ Môi còn khô — dưỡng trước touch-up. [Khử thâm](/tin-tuc/khu-tham-m
 
 **Ăn uống?** Tránh cay ngày làm. **Bể?** [Đi bể](/tin-tuc/di-be-sau-phun-moi) sau khi lành hẳn.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const PHUN_XAM_SAU_1_TUAN_BODY = `Phun xăm sau 1 tuần — giai đoạn bong vảy: mày/môi/mí đậm → bong mảnh → nhạt hơn 30–50%. Không cậy vảy; không ngứa gãi.
 
@@ -484,7 +484,7 @@ Vảy nhỏ; không lens; không makeup mắt.
 
 **Nhạt quá?** Bình thường — đậm lại touch-up. **Nước?** Rửa nhẹ được — không chà.
 
-**0938 673 996** — [phun xăm](/spa/phun-xam-tham-my).`;
+**0896 673 320** — [phun xăm](/spa/phun-xam-tham-my).`;
 
 export const PHUN_XAM_SAU_1_THANG_BODY = `Phun xăm sau 1 tháng — màu ổn định ~70–80% kết quả cuối; da trong vùng lành. Đánh giá có cần [touch up](/tin-tuc/touch-up-phun-may) thêm không.
 
@@ -506,7 +506,7 @@ SPF mày/môi; tránh peel acid trực tiếp vùng PMU.
 
 **Tắm nắng?** SPF — mực phai nắng. **Bơi?** Được nếu đã lành.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const DI_BE_SAU_PHUN_MOI_BODY = `Đi bể sau phun môi — nên chờ môi lành hẳn (2–4 tuần), vảy hết, không vết hở. Nước hồ bơi clo, biển muối kích thích môi đang lành — dễ nhiễm, loang màu.
 
@@ -528,7 +528,7 @@ Mày: tránh ngâm tuần đầu. Mí: không bơi 2 tuần.
 
 **Sauna?** Tránh 2 tuần — mồ hôi nhiều. **Son dưỡng có SPF?** Nên dùng.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const PHUN_XAM_MUA_HE_BODY = `Phun xăm mùa hè — có thể làm quanh năm nhưng nắng gắt làm phai mực và tăng sưng; ưu tiên SPF, mũ rộng vành, tránh biển ngay sau làm. [Đi bể sau phun môi](/tin-tuc/di-be-sau-phun-moi) — chờ lành.
 
@@ -550,4 +550,4 @@ Sáng sớm/chiều mát; phòng máy lạnh; hydrat môi trước phun. [Phun x
 
 **Du lịch?** Làm trước chuyến 3–4 tuần. **Mồ hôi?** Tránh gym nặng 3–5 ngày.
 
-**0938 673 996** — 323–325 Hùng Vương, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, TP.HCM.`;

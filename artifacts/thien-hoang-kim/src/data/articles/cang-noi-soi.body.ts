@@ -80,7 +80,7 @@ Duy trì thường **5–10 năm** tùy cơ địa, chăm sóc da và lão hóa 
 
 **Dài hạn:** Skincare chống lão hóa, retinol (khi bác sĩ cho phép), chống nắng — kéo dài kết quả căng nội soi.
 
-Liên hệ **0938 673 996** nếu sốt, chảy máu, đau tăng hoặc mất cảm giác lan rộng bất thường.
+Liên hệ **0896 673 320** nếu sốt, chảy máu, đau tăng hoặc mất cảm giác lan rộng bất thường.
 
 ## Rủi ro và biến chứng
 
@@ -134,4 +134,4 @@ Chi phí phụ thuộc vùng căng (trán, thái dương, giữa mặt), có k�
 
 ## Đặt lịch tư vấn miễn phí
 
-Hãy để bác sĩ đánh giá mức chảy xệ thực tế — căng nội soi phù hợp khi can thiệp đúng giai đoạn lão hóa. Đặt lịch qua website, gọi **0938 673 996** hoặc nhắn fanpage Thiên Hoàng Kim. Buổi tư vấn miễn phí giúp bạn hiểu vùng căng, thời gian nghỉ và chi phí trước khi quyết định.`;
+Hãy để bác sĩ đánh giá mức chảy xệ thực tế — căng nội soi phù hợp khi can thiệp đúng giai đoạn lão hóa. Đặt lịch qua website, gọi **0896 673 320** hoặc nhắn fanpage Thiên Hoàng Kim. Buổi tư vấn miễn phí giúp bạn hiểu vùng căng, thời gian nghỉ và chi phí trước khi quyết định.`;

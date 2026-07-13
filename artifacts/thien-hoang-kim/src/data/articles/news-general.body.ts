@@ -42,7 +42,7 @@ Mang sản phẩm skincare và makeup đang dùng (hoặc ảnh chụp); danh s�
 
 ## Quy trình thăm khám tại Thiên Hoàng Kim
 
-Đặt lịch qua **0938 673 996** — giảm chờ. Buổi khám: khai thác tiền sử, soi da (hoặc thăm trực tiếp), phân loại vấn đề y khoa vs thẩm mỹ, đề xuất phác đồ từng bước (skincare, spa, peel, laser, tiêm, mổ nếu cần). Báo giá minh bạch; không ép làm ngay. Tái khám theo lịch để đánh giá tiến triển — đặc biệt mụn, nám cần theo dõi.
+Đặt lịch qua **0896 673 320** — giảm chờ. Buổi khám: khai thác tiền sử, soi da (hoặc thăm trực tiếp), phân loại vấn đề y khoa vs thẩm mỹ, đề xuất phác đồ từng bước (skincare, spa, peel, laser, tiêm, mổ nếu cần). Báo giá minh bạch; không ép làm ngay. Tái khám theo lịch để đánh giá tiến triển — đặc biệt mụn, nám cần theo dõi.
 
 ## Khi nào có thể chỉ cần spa, không cần bác sĩ?
 
@@ -62,7 +62,7 @@ Da khỏe, mụn nhẹ, cần facial, massage, cấp ẩm, làm sạch sâu — 
 
 **Trẻ em có khám không?** Mụn tuổi dậy thì có thể — trẻ nhỏ nên bệnh viện nhi da liễu.
 
-Đặt lịch thăm khám và tư vấn da: **0938 673 996** — **323–325 Hùng Vương, An Đông, TP.HCM**. Đừng chờ da "tự nhiên hết" khi dấu hiệu đã kéo dài — thăm khám sớm tiết kiệm thời gian và chi phí sửa sau này.`;
+Đặt lịch thăm khám và tư vấn da: **0896 673 320** — **323–325 Hùng Vương, An Đông, TP.HCM**. Đừng chờ da "tự nhiên hết" khi dấu hiệu đã kéo dài — thăm khám sớm tiết kiệm thời gian và chi phí sửa sau này.`;
 
 export const CHAM_SOC_SAU_PHAU_THUAT_THAM_MY_BODY = `Phẫu thuật thẩm mỹ chỉ là một nửa hành trình — chăm sóc sau phẫu thuật thẩm mỹ quyết định sưng giảm nhanh hay chậm, sẹo đẹp hay xấu và kết quả cuối có hài hòa hay không. Bỏ qua hướng dẫn hậu phẫu, tự ý bóc băng, tập sớm hoặc nắng trực tiếp là những lý do phổ biến khiến nhiều ca "mổ đẹp nhưng hồi phục không như mong đợi". Bài viết tổng hợp nguyên tắc chăm sóc sau mổ áp dụng cho hầu hết can thiệp thẩm mỹ y khoa — chi tiết từng dịch vụ bác sĩ sẽ bổ sung khi bạn làm.
 
@@ -128,4 +128,4 @@ Hút thuốc; uống rượu sớm; tập gym, bơi, xông hơi trước khi đ�
 
 **Tái khám bao lâu một lần?** Theo lịch hẹn — thường ngày 1, 7, 14, 30 và tiếp theo tùy tiến triển.
 
-Thiên Hoàng Kim theo dõi sau mổ với hotline **0938 673 996** — **323–325 Hùng Vương, An Đông, TP.HCM**. Chăm sóc sau phẫu thuật thẩm mỹ đúng cách là cách bạn bảo vệ kết quả đã đầu tư — hỏi bác sĩ mọi thắc mắc trước khi tự ý làm theo "kinh nghiệm" trên mạng.`;
+Thiên Hoàng Kim theo dõi sau mổ với hotline **0896 673 320** — **323–325 Hùng Vương, An Đông, TP.HCM**. Chăm sóc sau phẫu thuật thẩm mỹ đúng cách là cách bạn bảo vệ kết quả đã đầu tư — hỏi bác sĩ mọi thắc mắc trước khi tự ý làm theo "kinh nghiệm" trên mạng.`;

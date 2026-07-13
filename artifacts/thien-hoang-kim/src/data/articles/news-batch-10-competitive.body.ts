@@ -6,7 +6,7 @@ const CLINIC_FOOTER = `## Đặt lịch tư vấn tại Thiên Hoàng Kim
 
 Mỗi gương mặt, nền da và tiền sử điều trị đều khác nhau, vì vậy thông tin trong bài chỉ giúp bạn chuẩn bị câu hỏi trước khi thăm khám. Tại Thiên Hoàng Kim, khách hàng được trao đổi mục tiêu, kiểm tra tình trạng thực tế và nhận kế hoạch phù hợp thay vì chọn dịch vụ chỉ vì xu hướng. Bạn có thể xem trước [bảng giá](/bang-gia), tìm đường trên trang [liên hệ](/lien-he) hoặc tham khảo thêm [địa chỉ thẩm mỹ Quận 5 – An Đông](/tin-tuc/dia-chi-tham-my-quan-5-an-dong).
 
-Thiên Hoàng Kim mở cửa **08:00–20:00** mỗi ngày. Đặt lịch qua hotline **0938 673 996** — địa chỉ **323–325 Hùng Vương, An Đông, Quận 5, TP.HCM**.`;
+Thiên Hoàng Kim mở cửa **08:00–20:00** mỗi ngày. Đặt lịch qua hotline **0896 673 320** — địa chỉ **323–325 Hùng Vương, An Đông, Quận 5, TP.HCM**.`;
 
 export const THAM_MY_QUAN_5_BODY = `Tìm một địa chỉ **thẩm mỹ Quận 5** không chỉ là chọn nơi gần nhà. Điều quan trọng hơn là cơ sở có tư vấn rõ ràng, xác định đúng nhu cầu và công khai những giới hạn của từng phương pháp. Khu vực An Đông – Hùng Vương thuận tiện cho khách ở Quận 5, Quận 6, Quận 10 và khu Chợ Lớn, nhưng khoảng cách không nên là tiêu chí duy nhất.
 

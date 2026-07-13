@@ -80,7 +80,7 @@ Kết quả khác nhau tùy da, độ tuổi, có kết hợp mở góc hay khô
 
 **Sau mổ 1–4 tuần:** Tránh thể thao mạnh, cúi đầu lâu; hạn chế muối để giảm phù; chống nắng kín mắt + đeo kính râm; không nặn mụn, không tự bóc vảy.
 
-**Dài hạn:** Chống nắng vùng mí ít nhất 3 tháng; tái khám đúng lịch. Gọi **0938 673 996** nếu sốt, chảy máu nhiều, mắt đau tăng hoặc nhìn mờ bất thường.
+**Dài hạn:** Chống nắng vùng mí ít nhất 3 tháng; tái khám đúng lịch. Gọi **0896 673 320** nếu sốt, chảy máu nhiều, mắt đau tăng hoặc nhìn mờ bất thường.
 
 ## Rủi ro và biến chứng — thông tin minh bạch
 
@@ -162,4 +162,4 @@ Thiên Hoàng Kim Aesthetic Clinic — **323–325 Hùng Vương, Phường An �
 
 ## Đặt lịch tư vấn miễn phí
 
-Hãy để bác sĩ nhìn trực tiếp đôi mắt bạn và phác thảo nếp mí phượng hoàng phù hợp nhất — thay vì chọn theo ảnh mạng. Đặt lịch qua form website, gọi **0938 673 996** hoặc nhắn fanpage Thiên Hoàng Kim. Buổi tư vấn miễn phí giúp bạn hiểu rõ cắt mí phượng hoàng có phù hợp không, thời gian nghỉ dưỡng và chi phí dự kiến trước khi quyết định.`;
+Hãy để bác sĩ nhìn trực tiếp đôi mắt bạn và phác thảo nếp mí phượng hoàng phù hợp nhất — thay vì chọn theo ảnh mạng. Đặt lịch qua form website, gọi **0896 673 320** hoặc nhắn fanpage Thiên Hoàng Kim. Buổi tư vấn miễn phí giúp bạn hiểu rõ cắt mí phượng hoàng có phù hợp không, thời gian nghỉ dưỡng và chi phí dự kiến trước khi quyết định.`;

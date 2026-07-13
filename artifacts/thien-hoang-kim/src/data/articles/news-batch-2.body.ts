@@ -40,7 +40,7 @@ Sau khám da, chuyên viên và bác sĩ gợi ý liệu trình: facial điều 
 
 **Trị nám có đau không?** Peel, laser có châm chích nhẹ; bác sĩ giải thích trước từng bước.
 
-Đặt lịch tư vấn da: **0938 673 996** — **323–325 Hùng Vương, An Đông, TP.HCM**.`;
+Đặt lịch tư vấn da: **0896 673 320** — **323–325 Hùng Vương, An Đông, TP.HCM**.`;
 
 export const MUN_AN_LA_GI_BODY = `Mụn ẩn (mụn đầu trắng, mụn không nhân) là những nhân mụn nhỏ dưới da, sờ thấy sần nhưng khó thấy đầu đen rõ. Mụn ẩn thường tập trung trán, cằm, hai bên mũi — da dầu, lỗ chân lông to dễ gặp nhất. Hiểu mụn ẩn là gì giúp bạn chọn cách điều trị đúng, tránh nặn sai gây viêm và sẹo.
 
@@ -78,7 +78,7 @@ Chống nắng hàng ngày; không ngủ trang điểm; thay vỏ gối thườn
 
 **Mụn ẩn và mụn viêm khác nhau thế nào?** Mụn ẩn không đỏ; mụn viêm đỏ, sưng, có thể mủ — cần đánh giá riêng.
 
-Tư vấn da miễn phí: **0938 673 996** — Thiên Hoàng Kim Spa, An Đông TP.HCM.`;
+Tư vấn da miễn phí: **0896 673 320** — Thiên Hoàng Kim Spa, An Đông TP.HCM.`;
 
 export const RUNG_TOC_NAM_BODY = `Rụng tóc nam (hói đầu nam) ảnh hưởng đến hơn 50% nam giới sau 50 tuổi, nhiều người bắt đầu từ 20–30 tuổi. Rụng tóc nam thường do di truyền (androgenetic alopecia) — hormone DHT làm nang tóc thu nhỏ dần. Hiểu nguyên nhân và giai đoạn hói giúp chọn điều trị đúng: thuốc, PRP, hoặc [cấy tóc tự thân](/tham-my/cay-toc-tu-than).
 
@@ -116,7 +116,7 @@ Gội sạch dầu da đầu; không kéo tóc quá chặt (kiểu búi, nón k�
 
 **Rụng tóc nam và nữ khác nhau?** Cơ chế và pattern khác; nữ thường mỏng đều, nam thường thái dương + đỉnh.
 
-Khám rụng tóc và tư vấn cấy tóc: **0938 673 996** — Thiên Hoàng Kim, 323–325 Hùng Vương, An Đông TP.HCM.`;
+Khám rụng tóc và tư vấn cấy tóc: **0896 673 320** — Thiên Hoàng Kim, 323–325 Hùng Vương, An Đông TP.HCM.`;
 
 export const HUT_MO_MA_BODY = `Hút mỡ má là thủ thuật thẩm mỹ lấy bỏ mô mỡ thừa vùng má, gò má, cằm để gương mặt gọn, thon hơn — thường kết hợp [cấy mỡ má](/tham-my) tự thân nếu má hóp sau hút. Nhiều khách hỏi hút mỡ má có đau không, bao lâu hồi phục và ai phù hợp — dưới đây là giải thích thực tế.
 
@@ -152,7 +152,7 @@ Sưng giảm 1–2 tuần; hình dáng ổn định dần 1–3 tháng. Mặc á
 
 **Hút mỡ má TP.HCM giá bao nhiêu?** Phụ thuộc vùng, kỹ thuật, có cấy mỡ kèm — tư vấn miễn phí báo giá cụ thể.
 
-Tư vấn hút mỡ – cấy mỡ má: **0938 673 996** — [Thiên Hoàng Kim](/tham-my), An Đông TP.HCM.`;
+Tư vấn hút mỡ – cấy mỡ má: **0896 673 320** — [Thiên Hoàng Kim](/tham-my), An Đông TP.HCM.`;
 
 export const GIA_NANG_MUI_BAO_NHIEU_BODY = `Giá nâng mũi bao nhiêu là câu hỏi đầu tiên của hầu hết khách — nhưng không có một con số cố định cho mọi người. Giá nâng mũi phụ thuộc kỹ thuật (nâng sụn tai, sụn sườn, bọc sụn), mức độ chỉnh sửa, bác sĩ, cơ sở và chi phí gây mê, tái khám. Bài viết giúp bạn hiểu cấu trúc giá minh bạch trước khi đặt lịch [nâng mũi hoàng kim](/tham-my/nang-mui-hoang-kim).
 
@@ -188,7 +188,7 @@ Một số phòng khám hỗ trợ trả góp qua đối tác tài chính — l�
 
 **Có giảm giá nâng mũi đáng tin?** Khuyến mãi minh bạch, không ép ký ngày — nghi ngờ giá sốc không rõ bác sĩ.
 
-Tư vấn và báo giá nâng mũi sau khám: **0938 673 996** — 323–325 Hùng Vương, An Đông TP.HCM.`;
+Tư vấn và báo giá nâng mũi sau khám: **0896 673 320** — 323–325 Hùng Vương, An Đông TP.HCM.`;
 
 export const SUA_MUI_HONG_BODY = `Sửa mũi hỏng (revision rhinoplasty) là phẫu thuật chỉnh lại mũi sau ca nâng mũi không hài lòng, biến chứng hoặc biến dạng theo thời gian. Sửa mũi khó hơn nâng mũi lần đầu — cần bác sĩ có kinh nghiệm revision, kỳ vọng thực tế và thời gian chờ mô lành đủ trước khi mổ lại.
 
@@ -226,7 +226,7 @@ Thường cao hơn nâng mũi lần đầu do thời gian mổ, kỹ thuật ph�
 
 **Có sửa bằng filler được không?** Một số khuyết điểm nhẹ tạm filler; lệch cấu trúc cần phẫu thuật.
 
-Đặt lịch khám sửa mũi: **0938 673 996** — Thiên Hoàng Kim, An Đông TP.HCM.`;
+Đặt lịch khám sửa mũi: **0896 673 320** — Thiên Hoàng Kim, An Đông TP.HCM.`;
 
 export const FILLER_MOI_TU_NHIEN_BODY = `Filler môi giúp tạo viền môi rõ, bổ sung thể tích môi mỏng, cân đối tỉ lệ môi-trên/dưới — khi bác sĩ tiêm đúng kỹ thuật, filler môi tự nhiên không thành "sừa sữa". Tiêm môi phổ biến tại [filler tạo hình](/tham-my/filler-tao-hinh) Thiên Hoàng Kim với HA chính hãng, liều vừa giữ biểu cảm khi cười.
 
@@ -264,7 +264,7 @@ Bầm, sưng, lệch nhẹ (chỉnh massage hoặc tan enzyme); nhiễm trùng h
 
 **Phun môi hay filler môi?** Phun màu lâu dài; filler tạo thể tích — khác mục tiêu, có thể kết hợp cách thời gian.
 
-Tư vấn tiêm môi: **0938 673 996** — [filler tạo hình](/tham-my/filler-tao-hinh), An Đông TP.HCM.`;
+Tư vấn tiêm môi: **0896 673 320** — [filler tạo hình](/tham-my/filler-tao-hinh), An Đông TP.HCM.`;
 
 export const THON_HAM_BOTOX_BODY = `Thon hàm botox (botox gọn hàm, botox masseter) là tiêm botulinum toxin vào cơ nhai (masseter) để giảm co cơ — hàm vuông do cơ to sẽ thon dần, mặt V-line hơn. Khác hút mỡ hay gọt xương — thon hàm botox chỉ tác động cơ, phù hợp người nhai gum, nghiến răng hoặc cơ masseter phát triển.
 
@@ -309,7 +309,7 @@ Bác sĩ khám phân biệt cơ, mỡ, xương — đôi khi kết hợp.
 
 **Có ăn nhai yếu đi không?** Hiếm khi ảnh hưởng nhai bình thường nếu liều đúng.
 
-Đặt lịch thon hàm botox: **0938 673 996** — Thiên Hoàng Kim, 323–325 Hùng Vương, An Đông.`;
+Đặt lịch thon hàm botox: **0896 673 320** — Thiên Hoàng Kim, 323–325 Hùng Vương, An Đông.`;
 
 export const PEEL_DA_LA_GI_BODY = `Peel da (lột da hóa học) là điều trị thẩm mỹ dùng acid hoặc enzyme làm bong lớp tế bào chết bề mặt — peel da giúp sáng da, giảm mụn ẩn, thâm nhẹ, lỗ chân lông khi thực hiện đúng nồng độ và chăm sóc sau peel. Peel da không phải lột da tại nhà bằng kem trộn — cần chuyên viên hoặc bác sĩ tùy độ sâu.
 
@@ -347,7 +347,7 @@ Peel nhẹ: châm chích nhẹ. Peel sâu: đau hơn, cần thuốc. Rủi ro: b
 
 **Bao lâu thấy kết quả?** Sáng da nhẹ sau 1–2 lần peel nhẹ; mụn ẩn, thâm cần liệu trình 4–6 buổi.
 
-Đặt lịch peel da: **0938 673 996** — Thiên Hoàng Kim Spa, An Đông TP.HCM.`;
+Đặt lịch peel da: **0896 673 320** — Thiên Hoàng Kim Spa, An Đông TP.HCM.`;
 
 export const LASER_TRI_NAM_BODY = `Laser trị nám là phương pháp y khoa dùng năng lượng ánh sáng nhắm vào melanin — phá vỡ sắc tố nám, kích thích da tái tạo. Laser trị nám hiệu quả với nám sâu, nám lâu năm hơn kem bôi tại nhà — nhưng cần chẩn đoán đúng loại nám, chống nắng sau điều trị và phác đồ từ bác sĩ để tránh nám tái, tăng sắc tố sau viêm.
 
@@ -387,4 +387,4 @@ Kem bôi: nám nông, bảo trì lâu dài. Peel: sáng da, nám nhẹ. Laser: n
 
 **Laser trị nám mùa nào tốt?** Ít nắng gắt hơn (mùa mưa) thuận tiện chăm sóc — nhưng quan trọng là chống nắng cả năm.
 
-Tư vấn laser trị nám và [chăm sóc da toàn diện](/spa/cham-soc-da-toan-dien): **0938 673 996** — Thiên Hoàng Kim, 323–325 Hùng Vương, An Đông TP.HCM.`;
+Tư vấn laser trị nám và [chăm sóc da toàn diện](/spa/cham-soc-da-toan-dien): **0896 673 320** — Thiên Hoàng Kim, 323–325 Hùng Vương, An Đông TP.HCM.`;

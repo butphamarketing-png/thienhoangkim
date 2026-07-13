@@ -22,7 +22,7 @@ SPF 50; skincare dịu; tránh corticoid tự ý — [da sau corticoid](/tin-tuc
 
 **Khỏi hẳn?** Kiểm soát — không chữa dứt điểm. **Rượu?** Trigger phổ biến.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
 
 export const DA_DO_VINH_VIEN_BODY = `Da đỏ vĩnh viễn — tình trạng mặt đỏ dai dẳng: có thể rosacea, [kích ứng sau corticoid](/tin-tuc/da-sau-corticoid), giãn mạch, eczema. Cần chẩn đoán trước laser.
 
@@ -44,7 +44,7 @@ Peel/ laser mạnh khi da đang đỏ — làm nặng.
 
 **Che được?** Kem xanh nhẹ + điều trị gốc. **Bao lâu đỡ?** Tháng–năm tùy nguyên nhân.
 
-**0938 673 996** — [spa chăm sóc da](/spa/cham-soc-da-toan-dien).`;
+**0896 673 320** — [spa chăm sóc da](/spa/cham-soc-da-toan-dien).`;
 
 export const DA_ECZEMA_THAM_MY_BODY = `Da eczema thẩm mỹ — eczema (atopic) da khô, ngứa, viêm; thẩm mỹ cần thận trọng: không peel khi flare, ưu tiên barrier repair, dermatologist điều trị nền trước facial.
 
@@ -66,7 +66,7 @@ Vùng ổn định, không ngứa — liệu trình nhẹ [oxygen facial](/tin-t
 
 **Phun xăm?** Tránh vùng eczema. **Trắng da?** [Tắm trắng](/tin-tuc/tam-trang-co-an-toan) không phù hợp khi viêm.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const DA_SAU_CORTICOID_BODY = `Da sau corticoid — dùng kem steroid kéo dài gây mỏng da, đỏ, giãn mạch, nổi mụn, ngứa khi ngừng (rebound). Cần phác đồ wean steroid + phục hồi barrier — không peel mạnh ngay.
 
@@ -88,7 +88,7 @@ Tháng đến năm phục hồi — kiên nhẫn.
 
 **Clobetamil?** Steroid mạnh — nguy hiểm tự mua. **Trị thâm?** Sau khi da ổn — [PIH](/tin-tuc/pih-sau-mun).
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const DA_STEROID_DAMAGED_BODY = `Da steroid damaged — tổn thương do lạm dụng corticoid topical: atrophy, telangiectasia, perioral dermatitis, đỏ mãn. Điều trị giống [da sau corticoid](/tin-tuc/da-sau-corticoid) — ngừng steroid, phục hồi, có thể thuốc kháng viêm không steroid.
 
@@ -110,7 +110,7 @@ Không dùng kem “trị nám” không rõ nguồn chứa steroid.
 
 **Hồi phục được?** Nhiều trường hợp cải thiện đáng kể. **Laser?** Khi da ổn định.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const TRI_DOI_MOI_BODY = `Trị đồi mồi — nốt ruồi lồi/ phẳng màu nâu; điều trị: cắt/ đốt laser CO2, laser pigment, không tự nặn. Khám loại trừ melanoma nếu đổi hình, chảy máu.
 
@@ -132,7 +132,7 @@ Tránh nắng; bôi kháng sinh theo chỉ định; không bóc vảy.
 
 **Tự mọc lại?** Có thể — tái đốt. **Đau?** Tê tùy phương pháp.
 
-**0938 673 996** — [spa](/spa/cham-soc-da-toan-dien).`;
+**0896 673 320** — [spa](/spa/cham-soc-da-toan-dien).`;
 
 export const TRI_VET_THAM_NANG_BODY = `Trị vết thâm nắng — đốm nâu do UV (solar lentigo, freckles); điều trị: SPF, vitamin C, retinoid, laser IPL/pico, peel nhẹ.
 
@@ -154,7 +154,7 @@ SPF 50 tái phát; mũ nắng. [Phân loại da Fitzpatrick](/tin-tuc/phan-loai-
 
 **Một lần hết?** Thường nhiều buổi. **Tàn nhang?** Tương tự — laser pigment.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const PIH_SAU_MUN_BODY = `PIH sau mụn — post-inflammatory hyperpigmentation: thâm đỏ/nâu sau mụn lành; không phải sẹo lõm. Điều trị: chống nắng, azelaic, hydroquinone (theo bác sĩ), peel, laser pico.
 
@@ -176,7 +176,7 @@ Da Fitzpatrick IV–VI dễ PIH — laser nhẹ, test patch. [Tăng sắc tố s
 
 **Thâm đỏ vs nâu?** Đỏ — erythema; nâu — melanin. **Trị mụn trước?** Có — ngăn PIH mới.
 
-**0938 673 996** — [chăm sóc da](/spa/cham-soc-da-toan-dien).`;
+**0896 673 320** — [chăm sóc da](/spa/cham-soc-da-toan-dien).`;
 
 export const TANG_SAC_TO_SAU_VIEM_BODY = `Tăng sắc tố sau viêm — PIH sau mụn, eczema, laser, bỏng nhẹ; melanocyte tạo thêm melanin vùng viêm. Giống [PIH sau mụn](/tin-tuc/pih-sau-mun) — điều trị chống nắng + làm sáng + thời gian.
 
@@ -198,7 +198,7 @@ Nám hormonal — pattern khác; khó hơn PIH.
 
 **Bao lâu nhạt?** 3–12 tháng. **Peel?** Khi không viêm.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const TRI_THAM_NACH_BODY = `Trị thâm nách — vùng nách tối do ma sát, deodorant, hormon, gen; điều trị: peel nhẹ, laser, kem arbutin/niacinamide, tránh cạo sai cách.
 
@@ -220,7 +220,7 @@ Không peel quá sâu — nách nhạy; [phân loại da](/tin-tuc/phan-loai-da-
 
 **Một lần trắng?** Không — nhiều buổi. **Mốc?** Kiểm tra da trước peel.
 
-**0938 673 996** — [spa](/spa/cham-soc-da-toan-dien).`;
+**0896 673 320** — [spa](/spa/cham-soc-da-toan-dien).`;
 
 export const TRI_THAM_DAU_GOI_BODY = `Trị thâm đầu gối — da dày, ma sát quỳ, khô; tối màu phổ biến trẻ em và người lớn. Điều trị: kem dưỡng ẩm, urea, retinoid body nhẹ, peel, laser tùy tone.
 
@@ -242,7 +242,7 @@ Peel body; [trắng da body](/tin-tuc/trang-da-body) liệu trình — không k�
 
 **Trẻ em?** Dưỡng ẩm thường đủ — tự nhạt lớn. **Bao lâu?** Vài tháng kiên trì.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const TRI_THAM_MONG_BODY = `Trị thâm mông — vùng ngồi ma sát, viêm nang lông, tối màu; điều trị: giảm ma sát, peel body, laser, kem sáng da theo chỉ định.
 
@@ -264,7 +264,7 @@ Vùng kín — chọn cơ sở vệ sinh, bác sĩ/therapist được đào tạ
 
 **Đau peel?** Chịu được — tê tùy. **Bao lâu?** 4–8 buổi thường gặp.
 
-**0938 673 996** — [chăm sóc da](/spa/cham-soc-da-toan-dien).`;
+**0896 673 320** — [chăm sóc da](/spa/cham-soc-da-toan-dien).`;
 
 export const LAM_SANG_VUNG_BIKINI_BODY = `Làm sáng vùng bikini — giảm thâm bikini line, nách lân cận; phương pháp: peel nhẹ, laser, kem; tránh tự bleach mạnh.
 
@@ -286,7 +286,7 @@ Cạo, wax, ma sát, hormon.
 
 **Bao lâu trước biển?** Tránh nắng vùng peel 2 tuần. **Nam?** Cùng nguyên tắc.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const TRANG_DA_BODY_BODY = `Trắng da body — làm sáng tone da tay, chân, lưng; không thay đổi gen Fitzpatrick — mục tiêu đều màu, giảm thâm. Peel body, lotion, laser, [IV drip](/tin-tuc/iv-drip-lam-dep) tùy phác đồ.
 
@@ -308,7 +308,7 @@ Tránh mercury, steroid trong kem trắng lậu.
 
 **Bao lâu?** Nhiều tháng. **Tắm trắng?** [An toàn?](/tin-tuc/tam-trang-co-an-toan) — chọn cơ sở y khoa.
 
-**0938 673 996** — [spa](/spa/cham-soc-da-toan-dien).`;
+**0896 673 320** — [spa](/spa/cham-soc-da-toan-dien).`;
 
 export const TAM_TRANG_CO_AN_TOAN_BODY = `Tắm trắng có an toàn không — tùy hoạt chất và cơ sở: tắm trắng glutathione/vitamin C y khoa có kiểm soát an toàn hơn kem trộn acid/mercury tự pha. Không có “trắng vĩnh viễn” — duy trì và chống nắng.
 
@@ -330,7 +330,7 @@ Cùng nhóm antioxidant — đường khác nhau.
 
 **Mấy buổi?** 5–10+ tùy gói. **Mang thai?** Không.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const GLUTATHIONE_TIEM_TRANG_BODY = `Glutathione tiêm trắng — antioxidant tiêm tĩnh mạch hoặc meso; lý thuyết ức chế melanin, detox; bằng chứng làm trắng da không đồng nhất — hiệu quả nhẹ, khác nhau cơ địa.
 
@@ -352,7 +352,7 @@ Sáng da nhẹ; không đổi tone Fitzpatrick đột ngột.
 
 **Mấy lần/tuần?** Theo phác đồ — thường không hàng ngày. **Uống được?** Sinh khả dụng thấp hơn tiêm.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const VITAMIN_C_TIEM_BODY = `Vitamin C tiêm — ascorbic acid IV hoặc meso; hỗ trợ sáng da, collagen, miễn dịch (tùy liều). Thẩm mỹ: bổ sung [glutathione](/tin-tuc/glutathione-tiem-trang), [IV drip](/tin-tuc/iv-drip-lam-dep).
 
@@ -374,7 +374,7 @@ Sỏi thận oxalate một số case — hỏi bác sĩ.
 
 **Đau?** Chích tĩnh mạch nhẹ. **Trắng ngay?** Không — dần dần.
 
-**0938 673 996** — [spa chăm sóc da](/spa/cham-soc-da-toan-dien).`;
+**0896 673 320** — [spa chăm sóc da](/spa/cham-soc-da-toan-dien).`;
 
 export const IV_DRIP_LAM_DEP_BODY = `IV drip làm đẹp — truyền tĩnh mạch cocktail: vitamin C, glutathione, B complex, collagen peptide… mục tiêu sáng da, mệt mỏi, phục hồi. Không thay skincare và SPF.
 
@@ -396,7 +396,7 @@ Tuần/tuần cách — không lạm dụng hàng ngày.
 
 **Thay ăn rau?** Không. **Tác dụng phụ?** Buồn nôn nếu truyền nhanh.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const DERMAPLANING_BODY = `Dermaplaning — cạo lông tơ + tế bào chết bề mặt bằng lưỡi scalpel; da mịn, makeup đẹp, hấp thu serum tốt. Không làm lông đen dày hơn (myth).
 
@@ -418,7 +418,7 @@ Dermaplaning bề mặt; dermapen xâm lấn sâu sẹo.
 
 **Lông mọc cứng?** Không — cùng cấu trúc. **Đau?** Không — cảm giác cạo.
 
-**0938 673 996** — [spa](/spa/cham-soc-da-toan-dien).`;
+**0896 673 320** — [spa](/spa/cham-soc-da-toan-dien).`;
 
 export const DERMAPEN_BODY = `Dermapen — microneedling máy tạo vi tổn thương kích collagen; trị sẹo mụn, lỗ chân lông, nếp nhẹ. Không khi mụn viêm, [eczema](/tin-tuc/da-eczema-tham-my) flare.
 
@@ -440,7 +440,7 @@ Sẹo lõm — dermapen + laser tùy độ sâu; [PIH](/tin-tuc/pih-sau-mun) —
 
 **Đau?** Tê — chịu được. **Tr makeup?** Sau 24–48h.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const AQUAPEEL_BODY = `Aquapeel — thủy phân da: hút bã nhờn, tẩy tế bào chết, bơm serum (HA, AHA) không xâm lấn; da sạch, sáng ngay. Phù hợp da dầu, bít tắc.
 
@@ -462,7 +462,7 @@ Aquapeel dịch vụ; dermaplaning cạo lông tơ.
 
 **Đau?** Không. **Mụn?** Giảm bít tắc — không trị mụn viêm nặng một mình.
 
-**0938 673 996** — [chăm sóc da toàn diện](/spa/cham-soc-da-toan-dien).`;
+**0896 673 320** — [chăm sóc da toàn diện](/spa/cham-soc-da-toan-dien).`;
 
 export const OXYGEN_FACIAL_BODY = `Oxygen facial — phun serum (HA, vitamin) dưới áp suất oxy; hydrat, sáng tức thì, phù hợp trước makeup, sự kiện. Không xâm lấn.
 
@@ -484,7 +484,7 @@ Tuần/tuần cách hoặc trước event.
 
 **Bao lâu glow?** Vài ngày. **Nam?** Có.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const LED_THERAPY_DA_BODY = `LED therapy da — ánh sáng đỏ (collagen, viêm), xanh (mụn), hồng ngoại tùy máy; không UV; an toàn bổ sung facial, sau [dermapen](/tin-tuc/dermapen), laser.
 
@@ -506,7 +506,7 @@ Hỗ trợ — không thay retinoid hoặc laser pigment.
 
 **Mắt?** Đeo kính bảo vệ. **Bao lâu?** 6–10 buổi thấy da đẹp hơn.
 
-**0938 673 996** — [spa](/spa/cham-soc-da-toan-dien).`;
+**0896 673 320** — [spa](/spa/cham-soc-da-toan-dien).`;
 
 export const SOI_DA_CHUYEN_SAU_BODY = `Soi da chuyên sâu — máy phóng đại + UV Wood đánh giá lỗ chân lông, dầu, nám, hydrat, pigmentation dưới da; lập phác đồ cá nhân trước peel, laser, skincare.
 
@@ -528,7 +528,7 @@ Tùy chương trình — hỏi khi đặt lịch.
 
 **Mất bao lâu?** 15–30 phút. **Thay khám bác sĩ?** Bổ sung — không thay chẩn đoán bệnh nặng.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const PHAN_LOAI_DA_FITZPATRICK_BODY = `Phân loại da Fitzpatrick — thang I (da rất trắng) đến VI (da rất đậm) đánh giá phản ứng nắng và nguy cơ PIH khi laser/peel. Quan trọng khi [trị thâm nắng](/tin-tuc/tri-vet-tham-nang), [PIH mụn](/tin-tuc/pih-sau-mun).
 
@@ -550,4 +550,4 @@ Chỉ hướng dẫn điều trị an toàn — [soi da](/tin-tuc/soi-da-chuyen-
 
 **Tự phân loại?** Có bảng online — bác sĩ xác nhận khi laser. **Trắng được?** Làm sáng có kiểm soát — không bleach mạnh.
 
-**0938 673 996** — [spa chăm sóc da](/spa/cham-soc-da-toan-dien).`;
+**0896 673 320** — [spa chăm sóc da](/spa/cham-soc-da-toan-dien).`;

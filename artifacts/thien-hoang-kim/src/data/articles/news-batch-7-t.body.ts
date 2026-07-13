@@ -22,7 +22,7 @@ Tumescent, [VASER](/tin-tuc/hut-mo-vaser) hoặc cannula — lượng mỡ vừa
 
 **Sẹo?** Lỗ nhỏ ẩn — ít lộ. **Mỡ tái phát?** Tăng cân vẫn có thể tích mỡ vùng khác.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
 
 export const HUT_MO_EO_BODY = `Hút mỡ eo — tạo đường cong “hourglass”, thu gọn love handles hai bên eo. Một trong vùng phổ biến nhất của [hút mỡ Lipo 360](/tin-tuc/hut-mo-lipo-360).
 
@@ -44,7 +44,7 @@ Bác sĩ đánh dấu đối xứng; hút mỏng lớp sâu, giữ lớp mỏng 
 
 **Eo lệch sau hút?** Chọn bác sĩ có kinh nghiệm đối xứng. **Có cần căng da?** Da kém đàn hồi — [hút mỡ và căng da](/tin-tuc/hut-mo-va-cang-da).
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const HUT_MO_HONG_BODY = `Hút mỡ hông — giảm mỡ thừa vùng hông ngoài (flanks/hips), làm hông trông gọn hoặc chuẩn bị cho [cấy mỡ mông](/tin-tuc/cay-mo-mong) / [BBL](/tin-tuc/brazilian-butt-lift).
 
@@ -66,7 +66,7 @@ Ngủ nghiêng; không ngồi ép mông nếu vừa BBL; [đeo đai](/tin-tuc/de
 
 **Hút hông đau?** Gây mê/tê — sau đó thuốc giảm đau. **Kết hợp eo?** Thường có trong Lipo 360.
 
-**0938 673 996** — [hút mỡ cấy mỡ mà](/tham-my).`;
+**0896 673 320** — [hút mỡ cấy mỡ mà](/tham-my).`;
 
 export const HUT_MO_BAP_CHAN_BODY = `Hút mỡ bắp chân — hiếm hơn bụng/đùi; dành cho bắp to do mỡ (không phải cơ). Cần phân biệt mỡ vs cơ gánh — hút chỉ hiệu quả khi mỡ là chủ yếu.
 
@@ -88,7 +88,7 @@ Lỗ nhỏ sau gối; lượng mỡ ít; sưng có thể kéo dài. [Hút mỡ b
 
 **Bao lâu đi làm?** 5–10 ngày nếu đi lại nhiều. **Lõm da?** Rủi ro nếu hút quá mức — chọn bác sĩ.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const HUT_MO_NACH_BODY = `Hút mỡ nách — loại bỏ mỡ thừa vùng nách trước/sau, “thịt thừa” cạnh ngực; thường làm cùng [hút mỡ lưng](/tin-tuc/hut-mo-lung) hoặc nâng ngực.
 
@@ -110,7 +110,7 @@ Da chùng nách nặng — có thể cần cắt da nhỏ (brachioplasty nhẹ) 
 
 **Sẹo nách?** Lỗ 2–3 mm. **Tập gym?** 3–4 tuần theo bác sĩ.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const HUT_MO_VUNG_CO_BODY = `Hút mỡ cổ — submental / double chin nhẹ đến vừa; hút mỡ dưới cằm qua lỗ nhỏ dưới hàm. Không thay facelift khi da cổ chùng nặng — xem [hút mỡ và căng da](/tin-tuc/hut-mo-va-cang-da).
 
@@ -132,7 +132,7 @@ Cannula mềm; tránh tổn thương thần kinh/dây chằng — [hút mỡ có
 
 **Khác filler cằm?** Hút bớt mỡ; filler thêm thể tích. **Kết quả khi nào?** [Bao lâu thấy kết quả](/tin-tuc/hut-mo-bao-lau-thay-ket-qua) — 4–8 tuần.
 
-**0938 673 996** — [hút mỡ](/tham-my).`;
+**0896 673 320** — [hút mỡ](/tham-my).`;
 
 export const HUT_MO_TOAN_THAN_BODY = `Hút mỡ toàn thân — thực tế là hút nhiều vùng một hoặc hai ca (bụng, lưng, eo, đùi, tay) trong giới hạn an toàn lượng mỡ. Không phải “hút hết mỡ người” — có ngưỡng ml tối đa/ca.
 
@@ -154,7 +154,7 @@ Gây mê có giám sát; dịch truyền; [hút mỡ có nguy hiểm không](/ti
 
 **Giảm bao nhiêu kg?** Mỡ ≠ cân nặng nhiều — hình đẹp hơn số cân. **Một lần mấy vùng?** Thường 2–4 vùng tùy bác sĩ.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const HUT_MO_VASER_BODY = `Hút mỡ VASER — siêu âm phân tách mỡ trước khi hút, ít tổn thương mạch máu/thần kinh hơn hút thường; hỗ trợ co da nhẹ và tạo hình cơ (high-definition) nếu bác sĩ có kinh nghiệm.
 
@@ -176,7 +176,7 @@ Bỏng nhiệt nếu sai kỹ thuật — chọn đào tạo VASER. [Hút mỡ b
 
 **VASER = laser?** Siêu âm nội soi mỡ. **Da chảy?** Co da nhẹ — không thay căng bụng nặng.
 
-**0938 673 996** — [hút mỡ cấy mỡ mà](/tham-my).`;
+**0896 673 320** — [hút mỡ cấy mỡ mà](/tham-my).`;
 
 export const HUT_MO_LIPO_360_BODY = `Hút mỡ Lipo 360 — hút vòng eo 360°: bụng, eo hai bên, lưng dưới — tạo thân hình thon từ mọi góc. Phổ biến sau sinh hoặc muốn “snatched waist”.
 
@@ -198,7 +198,7 @@ Eo thon rõ; không thay cơ bụng — cần tập core.
 
 **360 một lần an toàn?** Trong giới hạn ml — bác sĩ quyết định. **Sẹo?** Lỗ ẩn rốn/bikini line.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const HUT_MO_KHONG_CAN_MO_BODY = `Hút mỡ không phẫu thuật — thuật ngữ marketing cho [Coolsculpting](/tin-tuc/coolsculpting-la-gi), [cavitation](/tin-tuc/cavitation-giam-mo), laser giảm mỡ: không rạch, không gây mê, giảm mỡ từng phần chậm hơn hút mỡ.
 
@@ -220,7 +220,7 @@ Giảm 20–25% mỡ tế bào/vùng (coolsculpting); nhiều buổi.
 
 **Đau không?** Lạnh hoặc hơi chích — chịu được. **Thay gym?** Không — bổ sung lối sống.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const COOLSCULPTING_LA_GI_BODY = `Coolsculpting là gì — đông lạnh tế bào mỡ (cryolipolysis) FDA, làm mỡ tự thoái dần qua 2–3 tháng. Không phẫu thuật; phù hợp mỡ cục bộ nhỏ — [giảm mỡ bụng](/tin-tuc/giam-mo-bung) nhẹ.
 
@@ -242,7 +242,7 @@ Chậm hơn; không contour chi tiết như [VASER](/tin-tuc/hut-mo-vaser). [Hú
 
 **Bao nhiêu buổi?** 1–2/vùng thường đủ. **Vĩnh viễn?** Tế bào mỡ giảm — tăng cân vẫn có thể mập lại.
 
-**0938 673 996** — [hút mỡ](/tham-my).`;
+**0896 673 320** — [hút mỡ](/tham-my).`;
 
 export const CAVITATION_GIAM_MO_BODY = `Cavitation giảm mỡ — sóng siêu âm tần thấp phá vỡ màng tế bào mỡ, kết hợp massage lymphatic. Spa/y khoa thẩm mỹ; hiệu quả nhẹ hơn hút mỡ và coolsculpting.
 
@@ -264,7 +264,7 @@ Cavitation không FDA như cryo một số máy; chọn cơ sở uy tín.
 
 **Mấy buổi?** 8–12 buổi phổ biến. **Đau?** Ù ù, không đau.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const GIAM_MO_BUNG_BODY = `Giảm mỡ bụng — mục tiêu phổ biến nhất: bụng trên, dưới, panniculus. Lựa chọn: ăn uống + gym, [hút mỡ bụng](/tham-my), coolsculpting, hoặc căng bụng nếu da thừa.
 
@@ -286,7 +286,7 @@ Mỡ dưới da — hút được. Mỡ nội tạng — giảm cân, không hú
 
 **Bao lâu thấy?** Hút: [1–3 tháng](/tin-tuc/hut-mo-bao-lau-thay-ket-qua). **Six-pack?** Hút + tập — không tự có cơ.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const GIAM_MO_DUI_BODY = `Giảm mỡ đùi — trong, ngoài, trước, sau đùi; mục tiêu đùi không chạm nhau, đùi thon. Hút mỡ đùi cần đối xứng cẩn thận tránh lõm.
 
@@ -308,7 +308,7 @@ Mỡ đùi dày — hút hiệu quả hơn [cavitation](/tin-tuc/cavitation-giam
 
 **Da nhăn đùi?** Da kém đàn hồi — cân nhắc căng đùi nhẹ. **Cellulite?** Hút giảm một phần — không xóa hết.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const GIAM_MO_CANH_TAY_BODY = `Giảm mỡ cánh tay — vùng “bat wing” cánh tay sau; hút mỡ khi mỡ là chính, da còn co. Da chùng nặng — brachioplasty (cắt da) thay vì chỉ hút.
 
@@ -330,7 +330,7 @@ Cánh tay gọn hơn — không thay tập triceps.
 
 **Sẹo cánh tay?** Lỗ nhỏ — ẩn. **Kết quả?** [3–6 tháng](/tin-tuc/hut-mo-bao-lau-thay-ket-qua) ổn định.
 
-**0938 673 996** — [hút mỡ](/tham-my).`;
+**0896 673 320** — [hút mỡ](/tham-my).`;
 
 export const TAO_HINH_THAN_TREN_BODY = `Tạo hình thân trên — combo hút/tái phân bố mỡ vùng ngực, lưng, nách, cánh tay, flanks trên. Mục tiêu đường vai–eo cân đối, lưng gọn.
 
@@ -352,7 +352,7 @@ An toàn — giới hạn ml; có thể ghép với [thân dưới](/tin-tuc/tao
 
 **Nam tạo hình thân trên?** Hút flanks, ngực mỡ — gynecomastia tùy case.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const TAO_HINH_THAN_DUOI_BODY = `Tạo hình thân dưới — bụng, eo, hông, đùi, đôi khi bắp chân; tạo đường cong S hoặc chân thon. Hay gộp [Lipo 360](/tin-tuc/hut-mo-lipo-360) + [đùi](/tin-tuc/giam-mo-dui).
 
@@ -374,7 +374,7 @@ Không ngồi ép mông (BBL); [đeo đai](/tin-tuc/deo-dai-sau-hut-mo).
 
 **Một lần hết?** Có thể chia 2 stage. **Kết quả?** [3–6 tháng](/tin-tuc/hut-mo-bao-lau-thay-ket-qua).
 
-**0938 673 996** — [hút mỡ cấy mỡ mà](/tham-my).`;
+**0896 673 320** — [hút mỡ cấy mỡ mà](/tham-my).`;
 
 export const CAY_MO_NGUC_BODY = `Cấy mỡ ngực — fat grafting từ vùng hút (bụng, đùi) vào ngực tăng size tự nhiên 0,5–1 cup hoặc cải thiện hình dạng. Không thay silicone lớn; phù hợp muốn tự nhiên, nhẹ.
 
@@ -396,7 +396,7 @@ Mềm, không vỡ; tăng size hạn chế hơn implant.
 
 **Bao lâu ổn?** 3–6 tháng sau hấp thu. **Ảnh hưởng mammogram?** Báo bác sĩ có cấy mỡ.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const CAY_MO_MONG_BODY = `Cấy mỡ mông — chuyển mỡ tự thân từ bụng/đùi/hông vào mông tăng độ đầy, tròn. Là phần cốt lõi [BBL](/tin-tuc/brazilian-butt-lift).
 
@@ -418,7 +418,7 @@ Không ngồi trực tiếp 2–3 tuần; pillow đùi.
 
 **BBL vs implant mông?** Mỡ tự thân mềm; implant volume lớn cố định.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const BRAZILIAN_BUTT_LIFT_BODY = `Brazilian butt lift (BBL) — hút mỡ nhiều vùng + cấy mỡ vào mông một ca, tạo eo thon và mông đầy. Một trong tạo hình body phổ biến nhất — đòi hỏi an toàn nghiêm ngặt.
 
@@ -440,7 +440,7 @@ Fat embolism nếu tiêm sai tầng — [hút mỡ có nguy hiểm không](/tin-
 
 **Giữ bao lâu?** Mỡ sống vĩnh viễn — tăng cân làm to mông. **Đau?** Mông ít đau hơn vùng hút.
 
-**0938 673 996** — [hút mỡ cấy mỡ mà](/tham-my).`;
+**0896 673 320** — [hút mỡ cấy mỡ mà](/tham-my).`;
 
 export const HUT_MO_VA_CANG_DA_BODY = `Hút mỡ và căng da — khi hút mỡ một mình để lại da thừa nhăn (bụng sau giảm cân, sau sinh). Giải pháp: tummy tuck + hút, hoặc RF co da nhẹ sau hút.
 
@@ -462,7 +462,7 @@ Hút + abdominoplasty một ca; hoặc hút trước, căng sau 6–12 tháng.
 
 **Sẹo căng bụng?** Ngang bikini — trao đổi trước mổ. **Phục hồi?** Dài hơn hút đơn thuần — 2–4 tuần nghỉ.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const SAU_HUT_MO_BAO_LAU_DI_LAM_BODY = `Sau hút mỡ bao lâu đi làm — tùy số vùng, công việc và cơ địa. Văn phòng ít di chuyển: 3–7 ngày; công việc đứng/nặng: 2–3 tuần; BBL: 2–3 tuần trở lên.
 
@@ -484,7 +484,7 @@ Không ngồi máy tính cả ngày ngay nếu hút bụng nhiều — đau eo.
 
 **Lái xe?** Khi hết thuốc mê và quay cổ thoải mái — ~5–7 ngày. **Tập gym?** 3–4 tuần.
 
-**0938 673 996** — [hút mỡ](/tham-my).`;
+**0896 673 320** — [hút mỡ](/tham-my).`;
 
 export const DEO_DAI_SAU_HUT_MO_BODY = `Đeo đai sau hút mỡ — compression garment ép sưng, giúp da bám khung mới, giảm seroma. Thường 24/7 tuần đầu, giảm dần 4–6 tuần tùy bác sĩ.
 
@@ -506,7 +506,7 @@ Sưng kéo dài; da lồng lõm tạm. [Bao lâu thấy kết quả](/tin-tuc/hu
 
 **Mua đai ở đâu?** Phòng cấp hoặc chỉ định size. **Giặt?** Hàng ngày — nhiều cái thay.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const HUT_MO_CO_NGUY_HIEM_KHONG_BODY = `Hút mỡ có nguy hiểm không — mọi phẫu thuật có rủi ro; hút mỡ an toàn khi bác sĩ có chứng chỉ, phòng mổ chuẩn, lượng mỡ/ca trong giới hạn, theo dõi hậu phẫu. Rủi ro: nhiễm trùng, seroma, huyết khối, bỏng (VASER), fat embolism (BBL).
 
@@ -528,7 +528,7 @@ Khó thở, đau ngực, sốt cao, chân sưng một bên — đến viện nga
 
 **Hút mỡ chết người?** Hiếm — thường do BBL sai kỹ thuật hoặc hút quá mức ngoài bệnh viện. **Ngoại trú được?** Vùng nhỏ có thể — nhiều vùng nên nội trú.
 
-**0938 673 996** — 323–325 Hùng Vương, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, TP.HCM.`;
 
 export const HUT_MO_BAO_LAU_THAY_KET_QUA_BODY = `Hút mỡ bao lâu thấy kết quả — sưng và bầm che hình 2–4 tuần đầu; thấy rõ hơn 4–6 tuần; kết quả gần cuối 3–6 tháng khi da co và phù tan hết.
 
@@ -550,4 +550,4 @@ Bình thường — đừng panic tuần 1. Hard lump — massage/tái khám.
 
 **Một bên sưng hơn?** Bình thường nhẹ — lệch lớn tái khám. **Mỡ tái?** Tăng cân — tế bào mỡ còn lại phình.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;

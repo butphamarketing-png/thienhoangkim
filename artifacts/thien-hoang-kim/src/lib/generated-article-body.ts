@@ -14,7 +14,7 @@ export type KeywordPlanEntry = {
 };
 
 const ADDRESS = "323–325 Hùng Vương, An Đông, TP.HCM";
-const PHONE = "0938 673 996";
+const PHONE = "0896 673 320";
 const HOURS = "08:00–20:00";
 
 const PILLAR_LABELS: Record<string, string> = {

@@ -24,7 +24,7 @@ Nhiều ca làm [cắt mí trên và dưới](/tin-tuc/cat-mi-tren-va-duoi) mộ
 
 **Tuổi nào làm?** Thường sau 25–30 khi có chỉ định rõ.
 
-**0938 673 996** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang), An Đông, TP.HCM.`;
+**0896 673 320** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang), An Đông, TP.HCM.`;
 
 export const CAT_MI_TREN_VA_DUOI_BODY = `Cắt mí trên và dưới kết hợp trong một lần mổ — chỉnh nếp mí trên, lấy mỡ/chùng da mí dưới — giúp mắt trẻ, sáng toàn diện. Phác đồ phù hợp người vừa mí lót/mí ẩn vừa bọng mắt rõ.
 
@@ -48,7 +48,7 @@ Da chùng mí dưới + muốn nếp mí trên; tuổi 35+. Trẻ chỉ bọng n
 
 **Giá kết hợp?** Cao hơn một vùng — báo sau khám.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const CAT_MI_KHONG_CAT_DA_BODY = `Cắt mí không cắt da (hoặc cắt rạch tối thiểu) dùng kỹ thuật nhấn chỉ, rạch nhỏ lấy mỡ — phù hợp da mí mỏng, ít chùng, trẻ. Mục tiêu nếp mí tự nhiên, sẹo tối thiểu.
 
@@ -70,7 +70,7 @@ Sưng 3–7 ngày — nhẹ hơn cắt da nhiều. Xem [cắt mí không đau](/
 
 **Bền bao lâu?** Thường lâu nếu không cắt da quá mức — tùy cơ địa.
 
-**0938 673 996** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang).`;
+**0896 673 320** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang).`;
 
 export const CAT_MI_KHONG_LAY_MO_BODY = `Cắt mí không lấy mỡ phù hợp mí mỏng, ít mỡ — chỉ tạo nếp gấp bằng khâu cố định cơ nâng mi. Lấy mỡ khi không cần có thể giữ mí đầy tự nhiên, tránh lõm.
 
@@ -92,7 +92,7 @@ Da mỏng, trẻ, mí ẩn; sợ mí lõm sau mổ. Khi mỡ mí dày — bác s
 
 **Không lấy mỡ có nhanh hồi phục hơn?** Có thể ít sưng hơn chút.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const CAT_MI_MAT_SUP_BODY = `Cắt mí mắt sụp (ptosis surgery kết hợp blepharoplasty) chỉnh mí sụp che đồng tử — không chỉ tạo nếp đôi. Mắt sụp do cơ nâng mi yếu; cắt mí thường không đủ nếu không sửa cơ.
 
@@ -114,7 +114,7 @@ Ptosis ảnh hưởng thị lực — một số trường hợp y khoa (không 
 
 **Chỉ cắt mí có hết sụp không?** Thường không — cần sửa cơ.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const PTOSIS_MAT_BODY = `Ptosis mắt (mí sụp) là tình trạng mí trên tụt che đồng tử — một hoặc hai bên. Ptosis mắt có thể bẩm sinh hoặc mắc phải (tuổi, chấn thương, liệt dây thần kinh). Điều trị khác cắt mí thẩm mỹ thuần túy.
 
@@ -136,7 +136,7 @@ Mục tiêu ptosis: mở tầm nhìn + cân mí. [Thẩm mỹ mắt to](/tin-tuc
 
 **Ptosis có tự khỏi không?** Bẩm sinh không; mắc phải tùy nguyên nhân.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông.`;
 
 export const MAT_LOM_BODY = `Mắt lõm (enophthalmos hoặc hốc mắt sâu) tạo vẻ già, mệt — do di truyền, mất mỡ quanh mắt, sau cấy mỡ quá mức hoặc bệnh lý. Thẩm mỹ mắt lõm cần đánh giá nguyên nhân trước khi filler hoặc phẫu thuật.
 
@@ -158,7 +158,7 @@ Filler vùng hốc mắt (bác sĩ có kinh nghiệm); cấy mỡ tự thân; fa
 
 **Filler hốc mắt nguy hiểm?** Có rủi ro — chỉ bác sĩ.
 
-**0938 673 996** — TP.HCM.`;
+**0896 673 320** — TP.HCM.`;
 
 export const MAT_TRON_BODY = `Mắt trợn (proptosis hoặc cảm giác mắt lồi) — trắng mắt lộ nhiều quanh đồng tử — gây vẻ hung hoặc mệt. Nguyên nhân từ cận thị, cường giáp, di truyền hoặc sau mổ lấy mỡ quá tay. Cần khám phân biệt bệnh lý.
 
@@ -180,7 +180,7 @@ Hạn chế lấy mỡ quá mức; kết hợp cắt mí che phần trợn nhẹ
 
 **Cắt mí có hết trợn không?** Chỉ nếu trợn nhẹ do da — không sửa bệnh lý.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const MI_KHONG_DEU_HAI_BEN_BODY = `Mí không đều hai bên sau cắt mí hoặc bẩm sinh — lo lắng phổ biến. Chênh nhẹ 1–2 mm có thể chấp nhận được; chênh rõ cần tái khám — có thể sưng chưa tan (tuần 1–4) hoặc cần [tái cắt mí](/tin-tuc/tai-cat-mi).
 
@@ -202,7 +202,7 @@ Chọn bác sĩ có album before/after; chụp ảnh trước mổ; tái khám �
 
 **Bên cao bên thấp có sửa được không?** Đa số có — khám cụ thể.
 
-**0938 673 996** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang).`;
+**0896 673 320** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang).`;
 
 export const MI_TRO_LAI_SAU_CAT_MI_BODY = `Mí trở lại sau cắt mí (mất nếp) khiến nhiều người thất vọng — nếp mờ dần vài tháng đến vài năm. Nguyên nhân: chỉ yếu, cơ nâng mi yếu, sụp mí tái phát, hoặc nếp đặt quá thấp ban đầu.
 
@@ -224,7 +224,7 @@ Sau ít nhất 6 tháng khi nếp ổn định rồi mới mờ — bác sĩ xá
 
 **Cắt mí có bền vĩnh viễn không?** Lâu dài nhưng lão hóa vẫn ảnh hưởng.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const CAT_MI_BI_LOI_BODY = `Cắt mí bị lỗi gồm nếp quá cao, quá sâu, lệch, sẹo rõ, mí trợn, khó đóng mắt — cần bác sĩ revision. Không panicked tuần đầu khi sưng — phân biệt lỗi thật sau tháng 3–6.
 
@@ -246,7 +246,7 @@ Kinh nghiệm case sửa; phòng mổ chuẩn — [chọn phòng khám thẩm m�
 
 **Sửa lỗi đau hơn không?** Tương tự lần đầu — tê trong mổ.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const SEO_CAT_MI_BODY = `Sẹo cắt mí thường ẩn trong nếp gấp khi mở mắt — mục tiêu nhìn thẳng không thấy sẹo. Sẹo đỏ, lồi hoặc rộng do cơ địa, nhiễm trùng, nắng, hoặc kỹ thuật khâu — chăm sóc đúng giúp mờ nhanh hơn.
 
@@ -268,7 +268,7 @@ Báo bác sĩ — có thể tiêm corticoid, laser. Không kem trộn.
 
 **Sẹo có mờ hẳn không?** Đa số mờ đáng kể sau 6–12 tháng.
 
-**0938 673 996** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang).`;
+**0896 673 320** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang).`;
 
 export const CAT_MI_VA_MO_GOC_MAT_BODY = `Cắt mí và mở góc mắt kết hợp giúp mắt to, dài hơn — nếp mí rõ kèm khóe trong/ngoài mở rộng. Phù hợp mắt ngắn, liền khóe; cần thiết kế cân không lộ sẹo khóe.
 
@@ -290,7 +290,7 @@ Sẹo khóe; lệch khóe hiếm — chọn bác sĩ kinh nghiệm.
 
 **Có bắt buộc mở góc không?** Không — tùy mắt.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const CAT_MI_VA_LAY_MO_BONG_BODY = `Cắt mí và lấy mỡ bọng kết hợp xử lý nếp mí + bọng mỡ mí trên/dưới nhẹ — mắt sáng, không còn "hai tầng" mỡ mí. Khác chỉ cắt mí khi không có bọng.
 
@@ -312,7 +312,7 @@ Tương cắt mí thường — bầm quanh mắt có thể nhiều hơn chút.
 
 **Có làm cả mí dưới không?** Có — [cắt mí trên và dưới](/tin-tuc/cat-mi-tren-va-duoi).
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const CAT_MI_LASER_BODY = `Cắt mí laser dùng laser thay dao lạnh một phần — cầm máu tốt, sưng có thể ít hơn ở một số ca. Không phải phòng khám nào cũng có; kết quả phụ thuộc bác sĩ nhiều hơn loại dao.
 
@@ -334,7 +334,7 @@ Tương tự cắt mí thường — [cắt mí không đau](/tin-tuc/cat-mi-kho
 
 **Laser có đắt hơn?** Có thể — báo giá phòng khám.
 
-**0938 673 996** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang).`;
+**0896 673 320** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang).`;
 
 export const NHAN_MI_CO_DAU_KHONG_BODY = `Nhấn mí có đau không — tương tự cắt mí: tê trong thủ thuật; sau đó căng nhẹ vài ngày, nhẹ hơn cắt da. Nhấn mí ít xâm lấn nên đau/sưng thường ít hơn [cắt mí](/tham-my/cat-mi-phuong-hoang).
 
@@ -356,7 +356,7 @@ Sưng 2–5 ngày; bầm ít; uống thuốc theo đơn. So [bấm mí](/tin-tuc
 
 **Nhấn mí vs cắt mí đau hơn?** Cắt mí thường đau/sưng hơn vài ngày.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const NHAN_MI_BAO_LAU_BEN_BODY = `Nhấn mí bao lâu bền phụ thuộc loại chỉ, kỹ thuật và cơ địa — thường vài năm đến lâu dài (semi-permanent). Không cam kết vĩnh viễn như [cắt mí tự nhiên](/tin-tuc/cat-mi-tu-nhien) với da chùng.
 
@@ -378,7 +378,7 @@ Chà mắt mạnh; ngủ trởn; ptosis nhẹ; tuổi da chùng. Tái [nhấn m�
 
 **Bay nếp có sửa được không?** Có — nhấn lại hoặc cắt mí.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const BAM_MI_BAO_LAU_BEN_BODY = `Bấm mí bao lâu bền — câu hỏi quan trọng vì bấm mí thường bền ngắn hơn cắt mí. Đa số 6 tháng–3 năm; da dày, mỡ nhiều — nếp mờ sớm hơn.
 
@@ -400,7 +400,7 @@ Bấm < nhấn < cắt mí về độ bền trung bình.
 
 **Bấm mí rẻ có bền không?** Bền phụ thuộc kỹ thuật, không chỉ giá.
 
-**0938 673 996** — TP.HCM.`;
+**0896 673 320** — TP.HCM.`;
 
 export const MI_AN_BAM_MI_BODY = `Mí ẩn bấm mí là combo phổ biến — mí ẩn có nếp phôi nhưng bị che, bấm mí tạo đường gấp rõ khi mở mắt. Thành công cao với da mỏng, ít mỡ; da dày nên [nhấn mí](/tin-tuc/nhan-mi) hoặc cắt mí.
 
@@ -422,7 +422,7 @@ Khi bấm không giữ — [cắt mí tự nhiên](/tin-tuc/cat-mi-tu-nhien) lâ
 
 **Mí ẩn bấm có đau không?** Nhẹ — [nhấn mí có đau không](/tin-tuc/nhan-mi-co-dau-khong) tương tự.
 
-**0938 673 996** — An Đông.`;
+**0896 673 320** — An Đông.`;
 
 export const THAM_MY_MAT_TO_BODY = `Thẩm mỹ mắt to là mục tiêu tổng hợp — nếp mí rõ, mở góc, lấy mỡ bọng, có thể kích mí (aegyo sal) tùy style. "Mắt to" phải hài hòa mặt — không chỉ nếp cao.
 
@@ -444,7 +444,7 @@ Makeup, lens — thẩm mỹ bổ sung, không thay mổ khi cần cấu trúc.
 
 **Mắt to có cần mở góc?** Không bắt buộc — khám tỉ lệ.
 
-**0938 673 996** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang).`;
+**0896 673 320** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang).`;
 
 export const LAM_TRANG_VUNG_MAT_BODY = `Làm trắng vùng mắt (thâm quầng, da xỉn quanh mắt) — peel nhẹ, laser toning, serum, PRP — khác phẫu thuật cắt mí. Thâm do sắc tố, mạch máu, hoặc lõm hốc mắt — mỗi loại điều trị khác.
 
@@ -466,7 +466,7 @@ Kem trắng da trộn — nguy hiểm. Thâm di truyền khó hết 100%.
 
 **Bao lâu thấy đổi?** 4–8 tuần skincare; laser tùy phác đồ.
 
-**0938 673 996** — [chăm sóc da toàn diện](/spa/cham-soc-da-toan-dien).`;
+**0896 673 320** — [chăm sóc da toàn diện](/spa/cham-soc-da-toan-dien).`;
 
 export const THAM_QUAN_MAT_DIEU_TRI_BODY = `Thâm quầng mắt điều trị cần phân loại: thâm nâu (sắc tố), thâm xanh (mạch máu), thâm bóng (lõm hốc). Mỗi loại peel, laser, filler hoặc skincare khác nhau — điều trị sai loại dễ thất vọi.
 
@@ -488,7 +488,7 @@ Filler tear trough — bác sĩ thực hiện. Không nhầm với bọng mỡ �
 
 **Trị hết được không?** Cải thiện đáng kể; di truyền khó hết tuyệt đối.
 
-**0938 673 996** — An Đông, TP.HCM.`;
+**0896 673 320** — An Đông, TP.HCM.`;
 
 export const MAT_THAM_BONG_BODY = `Mắt thâm bọng là vùng dưới mắt tối do bọng mỡ nhô tạo bóng đổ — khác thâm sắc tố thuần. Điều trị: lấy mỡ bọng, filler làm phẳng, hoặc kết hợp — không chỉ kem mắt.
 
@@ -510,7 +510,7 @@ Kem mắt không xóa bọng cấu trúc — chỉ che nhẹ.
 
 **Tuổi nào lấy mỡ bọng?** Khi bọng ảnh hưởng thẩm mỹ — thường 25+.
 
-**0938 673 996** — Thiên Hoàng Kim.`;
+**0896 673 320** — Thiên Hoàng Kim.`;
 
 export const CAT_MI_TUOI_40_BODY = `Cắt mí tuổi 40 phổ biến — da mí bắt đầu chùng, mỡ lệch, nếp mờ. Cần thiết kế nếp không quá cao; có thể lấy mỡ, cắt da nhẹ — tránh "mí công chúa" lệch tuổi.
 
@@ -532,7 +532,7 @@ Blepharoplasty cắt da có kiểm soát; không lấy mỡ quá — [mắt lõm
 
 **40 tuổi cắt mí có muộn không?** Không — đúng chỉ định.
 
-**0938 673 996** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang).`;
+**0896 673 320** — [cắt mí phượng hoàng](/tham-my/cat-mi-phuong-hoang).`;
 
 export const CAT_MI_TUOI_50_BODY = `Cắt mí tuổi 50 thường kèm da chùng rõ, bọng mỡ, ptosis nhẹ — mục tiêu trẻ hóa tự nhiên, không đổi gương mặt hoàn toàn. Có thể kết hợp [cắt mí trên và dưới](/tin-tuc/cat-mi-tren-va-duoi).
 
@@ -554,4 +554,4 @@ Thấp, mỏng — hài hòa lão hóa chung. Tránh nếp quá cao gây lạ.
 
 **50 tuổi có nên cắt mí?** Có nếu chùng/bọng ảnh hưởng — sức khỏe cho phép.
 
-**0938 673 996** — 323–325 Hùng Vương, An Đông, TP.HCM.`;
+**0896 673 320** — 323–325 Hùng Vương, An Đông, TP.HCM.`;

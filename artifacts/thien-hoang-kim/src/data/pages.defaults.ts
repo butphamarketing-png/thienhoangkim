@@ -27,7 +27,7 @@ export type SitePageContent = {
 const intro =
   `${import.meta.env.BASE_URL}gioithieu.1.png`.replace(/([^:]\/)\/+/g, "$1");
 
-const PHONE = "0938 673 996";
+const PHONE = "0896 673 320";
 const ADDRESS = "323–325 Hùng Vương, An Đông, TP.HCM";
 
 function p(...text: string[]): PageBlock {

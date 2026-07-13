@@ -108,7 +108,7 @@ Kết quả khác nhau từng người; bác sĩ không cam kết “hết nhăn
 
 **Dài hạn:** Chống nắng; skincare; tái tiêm định kỳ nếu muốn duy trì.
 
-Gọi **0938 673 996** nếu sụp mí, nuốt khó, nói khó, yếu cơ lan rộng — hiếm nhưng cần khám ngay.
+Gọi **0896 673 320** nếu sụp mí, nuốt khó, nói khó, yếu cơ lan rộng — hiếm nhưng cần khám ngay.
 
 ## Rủi ro và biến chứng
 
@@ -180,4 +180,4 @@ Phòng khám gần khu vực An Đông, dễ đi từ Quận 5, 6, 10, Tân Bìn
 
 ## Đặt lịch tư vấn miễn phí
 
-Botox hiệu quả khi đúng vùng, đúng liều — đừng chạy theo liều cao để “triệt để” dễ gây đơ mặt. Đặt lịch qua website, gọi **0938 673 996** hoặc nhắn fanpage Thiên Hoàng Kim. Buổi tư vấn miễn phí giúp bạn biết vùng nào nên tiêm, kỳ vọng thực tế và chi phí dự kiến.`;
+Botox hiệu quả khi đúng vùng, đúng liều — đừng chạy theo liều cao để “triệt để” dễ gây đơ mặt. Đặt lịch qua website, gọi **0896 673 320** hoặc nhắn fanpage Thiên Hoàng Kim. Buổi tư vấn miễn phí giúp bạn biết vùng nào nên tiêm, kỳ vọng thực tế và chi phí dự kiến.`;
