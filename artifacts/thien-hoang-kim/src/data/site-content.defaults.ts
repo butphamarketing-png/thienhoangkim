@@ -77,13 +77,13 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
       title: "Thiên Hoàng Kim Aesthetic Clinic | Nâng Tầm Nhan Sắc",
       titleSeparator: " | ",
       description:
-        "Phòng khám thẩm mỹ chuẩn y khoa tại An Đông TP.HCM — nâng mũi hoàng kim, cắt mí phượng hoàng, filler, botox, spa chăm sóc da.",
+        "Phòng khám thẩm mỹ chuẩn y khoa tại An Đông Quận 5 TP.HCM: nâng mũi hoàng kim, cắt mí phượng hoàng, filler, botox, spa. Hotline 0896 673 320.",
       keywords:
-        "thẩm mỹ, phòng khám thẩm mỹ TP.HCM, nâng mũi hoàng kim, cắt mí phượng hoàng, filler, botox, spa, Thiên Hoàng Kim, An Đông",
+        "thẩm mỹ Quận 5, thẩm mỹ An Đông, nâng mũi hoàng kim, cắt mí phượng hoàng, filler, botox, spa Hùng Vương, Thiên Hoàng Kim",
       ogImage: slide,
       ogTitle: "Thiên Hoàng Kim Aesthetic Clinic | Nâng Tầm Nhan Sắc",
       ogDescription:
-        "Thẩm mỹ y khoa & spa cao cấp tại 323-325 Hùng Vương, An Đông TP.HCM — tư vấn miễn phí, bác sĩ chuyên gia.",
+        "Thẩm mỹ y khoa và spa tại 323-325 Hùng Vương, An Đông TP.HCM. Tư vấn miễn phí, bác sĩ chuyên môn. Nhắn tin đặt lịch: 0896 673 320.",
       twitterCard: "summary_large_image",
       robots: "index,follow",
       locale: "vi_VN",

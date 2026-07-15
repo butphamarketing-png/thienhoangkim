@@ -1,4 +1,5 @@
 import { getArticlePublicPath, isServiceLinkedArticle } from "@/lib/site-cms";
+import { isBulkTemplateSlug, isPriorityLocalSlug } from "@/lib/seo-canonical";
 import type { SiteArticle, SiteContent } from "@/types/site-content";
 
 export type TopicCluster = {
@@ -89,22 +90,45 @@ export const TOPIC_CLUSTERS: TopicCluster[] = [
   },
 ];
 
-/** Bài nổi bật trên hub — owned content ưu tiên ranking */
+/** Bài nổi bật trên hub: owned content ưu tiên ranking */
 export const CLUSTER_FEATURED_SLUGS: Record<string, string[]> = {
   "nang-mui": [
     "nang-mui-quan-5-an-dong",
+    "nang-mui-lan-dau-dung-chon-dang-trend",
+    "nang-mui-cau-truc-hay-filler-song-mui",
+    "sau-nang-mui-kieng-gi-14-ngay",
+    "gia-nang-mui-re-bat-ngo-an-phi-gi",
     "nang-mui-co-dau-khong",
     "cham-soc-sau-nang-mui",
     "gia-nang-mui-bao-nhieu",
   ],
-  "cat-mi": ["cat-mi-quan-5-an-dong", "cat-mi-bao-lau-hoi-phuc", "cham-soc-sau-cat-mi", "sung-sau-cat-mi"],
-  filler: ["filler-quan-5-an-dong", "filler-va-botox-khac-nhau", "filler-moi-tu-nhien"],
+  "cat-mi": [
+    "cat-mi-quan-5-an-dong",
+    "cat-mi-phuong-hoang-hay-bam-mi",
+    "sup-mi-nhe-co-can-cat-khong",
+    "sung-sau-cat-mi-ngay-1-den-7",
+    "cat-mi-quan-5-do-ty-le-mat",
+    "cat-mi-bao-lau-hoi-phuc",
+    "cham-soc-sau-cat-mi",
+  ],
+  filler: [
+    "filler-quan-5-an-dong",
+    "filler-moi-tu-nhien-khong-mo-vit",
+    "filler-va-botox-khac-nhau-60-giay",
+    "filler-va-botox-khac-nhau",
+    "filler-moi-tu-nhien",
+  ],
+  botox: ["botox-gon-ham-bao-lau-lo-net", "botox-quan-5", "botox-tphcm", "filler-va-botox-khac-nhau-60-giay"],
+  "tre-hoa": ["cang-chi-tre-hoa-hop-khi-nao", "hifu-chi-hay-filler-combo-tre-hoa"],
+  "tri-da": ["da-xin-lo-chan-long-to-1-buoi-cham-soc", "massage-facial-hay-peel-truoc-su-kien"],
+  "phun-xam": ["phun-xam-may-tu-nhien-2026", "phun-may-quan-5"],
+  spa: ["massage-facial-hay-peel-truoc-su-kien", "spa-quan-5", "spa-an-dong-hung-vuong"],
   local: [
     "dia-chi-tham-my-quan-5-an-dong",
+    "dia-chi-tham-my-quan-5-checklist-7-tieu-chi",
     "top-phong-kham-quan-5",
     "phong-kham-tham-my-an-dong",
     "tham-my-quan-5",
-    "phong-kham-tham-my-quan-5",
     "nang-mui-quan-5-an-dong",
     "filler-quan-5-an-dong",
     "cat-mi-quan-5-an-dong",
@@ -114,13 +138,24 @@ export const CLUSTER_FEATURED_SLUGS: Record<string, string[]> = {
 
 export const CLUSTER_HUB_INTRO: Record<string, string> = {
   "nang-mui":
-    "Tổng hợp kiến thức nâng mũi tại Thiên Hoàng Kim — từ tư vấn, quy trình, hồi phục đến giá tham khảo. Phòng khám **323–325 Hùng Vương, An Đông, Quận 5** — hotline **0896 673 320**.",
+    "Tổng hợp kiến thức nâng mũi tại Thiên Hoàng Kim: tư vấn, quy trình, hồi phục và giá tham khảo. Phòng khám 323-325 Hùng Vương, An Đông, Quận 5. Hotline 0896 673 320. Nhắn mục tiêu để nhận khung giờ tư vấn.",
   "cat-mi":
-    "Cắt mí, nhấn mí và chăm sóc sau mổ — bài viết từ bác sĩ Thiên Hoàng Kim An Đông. Đặt lịch tư vấn miễn phí tại Quận 5.",
+    "Cắt mí, nhấn mí và chăm sóc sau mổ từ góc nhìn lâm sàng tại Thiên Hoàng Kim An Đông. Đặt lịch tư vấn miễn phí tại Quận 5.",
   filler:
-    "Filler mũi, môi, cằm — giải thích an toàn, giá minh bạch và tiêm đúng liều tại **Thiên Hoàng Kim Hùng Vương**.",
+    "Filler mũi, môi, cằm: giải thích an toàn, liều lượng và giá minh bạch tại Thiên Hoàng Kim Hùng Vương.",
+  botox:
+    "Botox xóa nhăn và gọn hàm: chỉ định đúng, kỳ vọng thực tế và theo dõi sau tiêm tại An Đông Quận 5.",
+  "tre-hoa":
+    "Căng chỉ, HIFU và combo trẻ hóa: chọn theo cơ chế, không xếp chồng công nghệ sai chỉ định.",
+  "tri-da":
+    "Chăm sóc da, peel và facial: kỳ vọng đúng cho từng buổi và lịch trước sự kiện.",
+  "phun-xam":
+    "Phun xăm mày môi tự nhiên: chọn dáng theo khuôn mặt, không theo mẫu mạng.",
+  spa:
+    "Spa, massage facial và body tại An Đông: liệu trình thư giãn gắn với quy trình thẩm mỹ an toàn.",
   local:
-    "Thẩm mỹ uy tín **Quận 5, An Đông, Hùng Vương** — checklist chọn phòng khám, địa chỉ và dịch vụ tại Thiên Hoàng Kim.",
+    "Thẩm mỹ uy tín Quận 5, An Đông, Hùng Vương: checklist chọn phòng khám, địa chỉ và dịch vụ tại Thiên Hoàng Kim.",
+  gia: "Khung giá và câu hỏi bắt buộc trước khi đặt cọc. Báo giá minh bạch sau khám tại Thiên Hoàng Kim.",
 };
 
 const SERVICE_SLUG_TO_CLUSTER: Record<string, string> = {
@@ -180,8 +215,10 @@ export function getClusterArticles(
         a.published &&
         !exclude.has(a.slug) &&
         !isServiceLinkedArticle(content, a.slug) &&
+        !isBulkTemplateSlug(a.slug) &&
         articleMatchesCluster(a, cluster),
     )
+    .sort((a, b) => Number(isPriorityLocalSlug(b.slug)) - Number(isPriorityLocalSlug(a.slug)))
     .slice(0, limit);
 }
 
@@ -195,12 +232,14 @@ export function getRelatedArticles(
     return { cluster: undefined, articles: [] };
   }
 
-  const articles = getClusterArticles(content, cluster.id, {
-    excludeSlugs: [currentSlug],
-    limit: limit + 4,
-  })
-    .filter((a) => a.slug !== currentSlug)
-    .slice(0, limit);
+  const featured = getFeaturedClusterArticles(content, cluster.id).filter(
+    (a) => a.slug !== currentSlug,
+  );
+  const rest = getClusterArticles(content, cluster.id, {
+    excludeSlugs: [currentSlug, ...featured.map((a) => a.slug)],
+    limit: limit + 8,
+  });
+  const articles = [...featured, ...rest].slice(0, limit);
 
   return { cluster, articles };
 }

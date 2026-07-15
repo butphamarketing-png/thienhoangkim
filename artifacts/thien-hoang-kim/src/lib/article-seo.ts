@@ -1,9 +1,10 @@
 import { containsKeyphrase } from "@/lib/seo-analysis";
+import { getThinArticleCanonicalPath, isBulkTemplateSlug } from "@/lib/seo-canonical";
 import { DEFAULT_ARTICLE_SEO } from "@/lib/seo";
 import { buildMetaTitleFromSlug, slugToDisplayTitle } from "@/lib/slug";
 import type { ArticleSeo } from "@/types/site-content";
 
-/** Canonical path — resolve absolute URL via siteUrl at runtime */
+/** Canonical path: resolve absolute URL via siteUrl at runtime */
 export function newsArticleCanonicalPath(slug: string): string {
   return `/tin-tuc/${slug}`;
 }
@@ -16,7 +17,7 @@ export function buildNewsArticleSeo(
   ogImage = "",
 ): ArticleSeo {
   const displayTitle = slugToDisplayTitle(slug);
-  return {
+  const seo: ArticleSeo = {
     ...DEFAULT_ARTICLE_SEO,
     metaTitle: buildMetaTitleFromSlug(slug),
     metaDescription,
@@ -27,7 +28,23 @@ export function buildNewsArticleSeo(
     ogDescription: metaDescription,
     ogImage,
   };
+  return applyThinNewsSeo(slug, seo);
 }
+
+/** Noindex bài short template, canonical về pillar dịch vụ */
+export function applyThinNewsSeo(slug: string, seo: ArticleSeo): ArticleSeo {
+  const thinCanonical = getThinArticleCanonicalPath(slug);
+  if (!thinCanonical && !isBulkTemplateSlug(slug)) return seo;
+  const target = thinCanonical || "/tin-tuc/dia-chi-tham-my-quan-5-an-dong";
+  return {
+    ...seo,
+    canonicalUrl: target,
+    noindex: true,
+    nofollow: false,
+    robots: "noindex,follow",
+  };
+}
+
 
 /** Alt ảnh đại diện — ưu tiên chứa focus keyphrase */
 export function buildHeroImageAlt(focusKeyphrase: string, title: string): string {
@@ -35,7 +52,7 @@ export function buildHeroImageAlt(focusKeyphrase: string, title: string): string
   const t = title.trim();
   if (!kp) return t || "Thiên Hoàng Kim Aesthetic Clinic";
   if (t && containsKeyphrase(t, kp)) return t;
-  if (t) return `${kp} — ${t}`;
+  if (t) return `${kp}: ${t}`;
   return kp;
 }
 

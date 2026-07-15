@@ -21,7 +21,7 @@ export default function TopicClusterPage() {
   const cluster = getClusterById(clusterId);
   if (!cluster) return <NotFound />;
 
-  const articles = getClusterArticles(content, cluster.id, { limit: 120 });
+  const articles = getClusterArticles(content, cluster.id, { limit: 48 });
   const featured = getFeaturedClusterArticles(content, cluster.id);
   const intro = getClusterHubIntro(cluster.id);
 
@@ -29,8 +29,8 @@ export default function TopicClusterPage() {
     <SiteLayout>
       <PageHero
         eyebrow="Chủ đề làm đẹp"
-        title={`${cluster.label} — Kiến thức & tư vấn`}
-        description={`Tổng hợp ${articles.length}+ bài viết về ${cluster.label.toLowerCase()} tại Thiên Hoàng Kim An Đông TP.HCM — liên kết về dịch vụ chính và đặt lịch tư vấn miễn phí.`}
+        title={`${cluster.label}: kiến thức và tư vấn`}
+        description={`Bài viết chọn lọc về ${cluster.label.toLowerCase()} tại Thiên Hoàng Kim An Đông Quận 5. Liên kết dịch vụ chính và đặt lịch tư vấn miễn phí (0896 673 320).`}
         crumbs={[
           { label: "Trang chủ", href: "/" },
           { label: "Tin tức", href: "/tin-tuc" },

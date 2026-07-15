@@ -185,6 +185,20 @@ export function buildJsonLdGraph(ctx: SchemaContext, content: SiteContent): obje
       { "@type": "AdministrativeArea", name: "Quận 10" },
       { "@type": "City", name: "TP. Hồ Chí Minh" },
     ],
+    medicalSpecialty: ["PlasticSurgery", "Dermatology", "CosmeticSurgery"],
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: settings.phone,
+      contactType: "customer service",
+      areaServed: "VN",
+      availableLanguage: ["Vietnamese"],
+      hoursAvailable: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        opens: "08:00",
+        closes: "20:00",
+      },
+    },
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
