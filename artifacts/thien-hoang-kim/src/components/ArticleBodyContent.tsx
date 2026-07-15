@@ -1,5 +1,7 @@
 import { Link } from "wouter";
 import type { ReactNode } from "react";
+import { Facebook } from "lucide-react";
+import { FACEBOOK_URL } from "@/config/contact";
 import { LAZY_IMG } from "@/lib/image-loading";
 
 const H2_LINE = /^##\s+(.+)$/;
@@ -9,6 +11,9 @@ const LINK_RE = /\[([^\]]+)\]\(([^)]+)\)/g;
 type ArticleBodyContentProps = {
   body: string;
   imageAlt?: string;
+  /** Ẩn CTA fanpage nếu trang cha tự hiển thị */
+  hideFacebookCta?: boolean;
+  facebookUrl?: string;
 };
 
 /** Bỏ markdown **bold** — hiển thị chữ thường, không còn dấu * */
@@ -56,8 +61,14 @@ function renderInline(text: string, blockKey: string) {
   return parts;
 }
 
-export function ArticleBodyContent({ body, imageAlt = "" }: ArticleBodyContentProps) {
+export function ArticleBodyContent({
+  body,
+  imageAlt = "",
+  hideFacebookCta = false,
+  facebookUrl = FACEBOOK_URL,
+}: ArticleBodyContentProps) {
   const blocks = body.split(/\n\n+/).filter(Boolean);
+  const fbUrl = facebookUrl.trim() || FACEBOOK_URL;
 
   return (
     <div className="mt-8 space-y-4 text-base leading-relaxed text-foreground/85">
@@ -92,6 +103,32 @@ export function ArticleBodyContent({ body, imageAlt = "" }: ArticleBodyContentPr
           <p key={`p-${idx}-${block.slice(0, 24)}`}>{renderInline(block, `p-${idx}`)}</p>
         );
       })}
+
+      {!hideFacebookCta && fbUrl && fbUrl !== "#" ? (
+        <aside className="mt-10 rounded-2xl border border-primary/15 bg-primary/[0.04] p-5 md:p-6">
+          <p className="text-base leading-relaxed text-foreground/90">
+            Theo dõi fanpage{" "}
+            <a
+              href={fbUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-primary underline-offset-2 hover:underline"
+            >
+              Thiên Hoàng Kim Aesthetic Clinic
+            </a>{" "}
+            để cập nhật kiến thức làm đẹp, case thực tế và nhận tư vấn nhanh qua Messenger.
+          </p>
+          <a
+            href={fbUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-primary hover:underline"
+          >
+            <Facebook className="h-4 w-4" aria-hidden />
+            facebook.com/chuyenkhoathammy.thienhoangkim
+          </a>
+        </aside>
+      ) : null}
     </div>
   );
 }

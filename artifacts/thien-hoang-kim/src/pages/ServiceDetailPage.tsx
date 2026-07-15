@@ -1,9 +1,10 @@
 import { Link, Redirect, useRoute } from "wouter";
-import { Calendar } from "lucide-react";
+import { Calendar, Facebook } from "lucide-react";
 import { SiteLayout } from "@/components/layout/SiteLayout";
 import { BreadcrumbNav } from "@/components/BreadcrumbNav";
 import { RelatedArticlesBlock } from "@/components/RelatedArticlesBlock";
 import { Button } from "@/components/ui/button";
+import { FACEBOOK_URL } from "@/config/contact";
 import { useSiteContent } from "@/context/SiteContentContext";
 import { ArticleBodyContent } from "@/components/ArticleBodyContent";
 import { DEFAULT_HERO_IMAGE } from "@/data/pages.defaults";
@@ -82,7 +83,11 @@ Khách hàng được thăm khám, phân tích và lên phác đồ cá nhân tr
         )}
         <img src={image} alt={heroAlt} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover object-top shadow-lg" {...EAGER_IMG} />
         <p className="mt-8 text-lg font-medium leading-relaxed text-foreground/90">{description}</p>
-        <ArticleBodyContent body={body} imageAlt={heroAlt} />
+        <ArticleBodyContent
+          body={body}
+          imageAlt={heroAlt}
+          facebookUrl={content.settings.facebookUrl || FACEBOOK_URL}
+        />
         {localArticles.length > 0 && (
           <div className="mt-10 rounded-2xl border border-primary/20 bg-primary/5 p-6">
             <h2 className="font-serif text-xl font-bold text-primary">Thẩm mỹ Quận 5 & An Đông</h2>
@@ -115,6 +120,12 @@ Khách hàng được thăm khám, phân tích và lên phác đồ cá nhân tr
           <Link href="/lien-he#dat-lich">
             <Button className="rounded-full bg-primary font-bold">Đặt lịch tư vấn</Button>
           </Link>
+          <a href={content.settings.facebookUrl || FACEBOOK_URL} target="_blank" rel="noopener noreferrer">
+            <Button type="button" variant="outline" className="rounded-full">
+              <Facebook className="mr-2 h-4 w-4" aria-hidden />
+              Fanpage Facebook
+            </Button>
+          </a>
           <Link href="/bang-gia">
             <Button type="button" variant="outline" className="rounded-full">
               Xem bảng giá

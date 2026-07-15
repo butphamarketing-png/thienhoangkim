@@ -1,9 +1,10 @@
 import { Link, Redirect, useRoute } from "wouter";
-import { Calendar } from "lucide-react";
+import { Calendar, Facebook } from "lucide-react";
 import { SiteLayout } from "@/components/layout/SiteLayout";
 import { BreadcrumbNav } from "@/components/BreadcrumbNav";
 import { RelatedArticlesBlock } from "@/components/RelatedArticlesBlock";
 import { Button } from "@/components/ui/button";
+import { FACEBOOK_URL } from "@/config/contact";
 import { useSiteContent } from "@/context/SiteContentContext";
 import { ArticleBodyContent } from "@/components/ArticleBodyContent";
 import { getPreferredArticlePath } from "@/data/services-catalog";
@@ -66,7 +67,11 @@ export default function ArticlePage() {
           <img src={article.image} alt={heroAlt} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover shadow-lg" {...EAGER_IMG} />
         )}
         <p className="mt-8 text-lg font-medium leading-relaxed text-foreground/90">{article.description}</p>
-        <ArticleBodyContent body={article.body} imageAlt={heroAlt} />
+        <ArticleBodyContent
+          body={article.body}
+          imageAlt={heroAlt}
+          facebookUrl={content.settings.facebookUrl || FACEBOOK_URL}
+        />
         <RelatedArticlesBlock content={content} cluster={cluster} articles={related} />
         <div className="mt-12 flex flex-wrap gap-3">
           {cluster && (
@@ -79,6 +84,12 @@ export default function ArticlePage() {
           <Link href="/lien-he#dat-lich">
             <Button className="rounded-full bg-primary font-bold">Đặt lịch tư vấn</Button>
           </Link>
+          <a href={content.settings.facebookUrl || FACEBOOK_URL} target="_blank" rel="noopener noreferrer">
+            <Button type="button" variant="outline" className="rounded-full">
+              <Facebook className="mr-2 h-4 w-4" aria-hidden />
+              Fanpage Facebook
+            </Button>
+          </a>
           <Link href="/tin-tuc">
             <Button type="button" variant="outline" className="rounded-full">
               Xem bài viết khác
