@@ -30,6 +30,14 @@ import {
   CAT_MI_QUAN_5_AN_DONG_BODY,
 } from "@/data/articles/news-priority.body";
 import {
+  DEPTH_DIA_CHI_Q5,
+  DEPTH_NANG_MUI_Q5,
+  DEPTH_CAT_MI_Q5,
+  DEPTH_FILLER_Q5,
+  DEPTH_PHONG_KHAM_AN_DONG,
+  DEPTH_CHON_PHONG_KHAM_AN_TOAN,
+} from "@/data/articles/news-depth-boost";
+import {
   DAU_HIEU_THAM_KHAM_DA_LIEU_BODY,
   CHAM_SOC_SAU_PHAU_THUAT_THAM_MY_BODY,
 } from "@/data/articles/news-general.body";
@@ -76,8 +84,6 @@ import { MANUAL_BATCH_8_ARTICLES } from "@/data/news-batch-8.entries";
 import { MANUAL_BATCH_9_ARTICLES } from "@/data/news-batch-9.entries";
 import { MANUAL_BATCH_10_ARTICLES } from "@/data/news-batch-10.entries";
 import { MANUAL_BATCH_11_ARTICLES } from "@/data/news-batch-11.entries";
-import { MANUAL_BATCH_12_ARTICLES } from "@/data/news-batch-12.entries";
-import { MANUAL_BATCH_13_ARTICLES } from "@/data/news-batch-13.entries";
 import type { ArticleSeo, SiteArticle } from "@/types/site-content";
 
 const publicAsset = (file: string) =>
@@ -570,7 +576,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "Phòng khám thẩm mỹ An Đông — Thiên Hoàng Kim",
     "01/07/2026",
     "323–325 Hùng Vương, An Đông — thẩm mỹ y khoa và spa; mở 08:00–20:00, tư vấn miễn phí.",
-    PHONG_KHAM_THAM_MY_AN_DONG_BODY,
+    PHONG_KHAM_THAM_MY_AN_DONG_BODY + DEPTH_PHONG_KHAM_AN_DONG,
     intro,
     "Tin tức",
     newsSeo("phong-kham-tham-my-an-dong", "Phòng khám thẩm mỹ An Đông Quận 5 — Thiên Hoàng Kim 323–325 Hùng Vương. Nâng mũi, filler, botox, spa. Mở 08:00–20:00. Gọi 0896 673 320.",
@@ -612,7 +618,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "Chọn phòng khám thẩm mỹ an toàn — Checklist 10 điểm",
     "01/07/2026",
     "Bác sĩ có chứng chỉ, sản phẩm rõ nguồn, tư vấn trung thực — checklist trước khi làm đẹp.",
-    CHON_PHONG_KHAM_THAM_MY_AN_TOAN_BODY,
+    CHON_PHONG_KHAM_THAM_MY_AN_TOAN_BODY + DEPTH_CHON_PHONG_KHAM_AN_TOAN,
     intro,
     "Kiến thức",
     newsSeo("chon-phong-kham-tham-my-an-toan", "Checklist chọn phòng khám thẩm mỹ uy tín, an toàn tại TP.HCM — 10 tiêu chí và dấu hiệu nên tránh.",
@@ -640,7 +646,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "Địa chỉ thẩm mỹ Quận 5 An Đông — Gợi ý & tiêu chí chọn",
     "13/07/2026",
     "Tổng hợp địa chỉ thẩm mỹ Quận 5, An Đông — tiêu chí chọn phòng khám uy tín, vị trí Hùng Vương và dịch vụ tại Thiên Hoàng Kim.",
-    DIA_CHI_THAM_MY_QUAN_5_AN_DONG_BODY,
+    DIA_CHI_THAM_MY_QUAN_5_AN_DONG_BODY + DEPTH_DIA_CHI_Q5,
     intro,
     "Tin tức",
     newsSeo(
@@ -656,7 +662,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "Nâng mũi Quận 5 An Đông — Thiên Hoàng Kim Hùng Vương",
     "13/07/2026",
     "Nâng mũi Quận 5, An Đông — quy trình, giá, checklist chọn phòng khám và nâng mũi hoàng kim tại 323–325 Hùng Vương.",
-    NANG_MUI_QUAN_5_AN_DONG_BODY,
+    NANG_MUI_QUAN_5_AN_DONG_BODY + DEPTH_NANG_MUI_Q5,
     nangMuiHoangKimImage,
     "Tin tức",
     newsSeo(
@@ -672,7 +678,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "Filler Quận 5 An Đông — Tiêm chuẩn y khoa | THK",
     "13/07/2026",
     "Filler Quận 5, An Đông — giá theo vùng, an toàn, bác sĩ tiêm tại Thiên Hoàng Kim 323–325 Hùng Vương.",
-    FILLER_QUAN_5_AN_DONG_BODY,
+    FILLER_QUAN_5_AN_DONG_BODY + DEPTH_FILLER_Q5,
     fillerTaoHinhImage,
     "Tin tức",
     newsSeo(
@@ -688,7 +694,7 @@ const MANUAL_NEWS_ARTICLES: SiteArticle[] = [
     "Cắt mí Quận 5 An Đông — Phượng hoàng tự nhiên",
     "13/07/2026",
     "Cắt mí Quận 5, An Đông — cắt mí phượng hoàng, hồi phục, giá và checklist tại Thiên Hoàng Kim Hùng Vương.",
-    CAT_MI_QUAN_5_AN_DONG_BODY,
+    CAT_MI_QUAN_5_AN_DONG_BODY + DEPTH_CAT_MI_Q5,
     catMiPhuongHoangImage,
     "Tin tức",
     newsSeo(
@@ -1117,8 +1123,8 @@ const NEWS_ARTICLES: SiteArticle[] = [
   ...MANUAL_BATCH_9_ARTICLES,
   ...MANUAL_BATCH_10_ARTICLES,
   ...MANUAL_BATCH_11_ARTICLES,
-  ...MANUAL_BATCH_12_ARTICLES,
-  ...MANUAL_BATCH_13_ARTICLES,
+  // Batch 12/13 (short template ~1100 bài): giữ trên disk cho SEO scripts nhưng
+  // không nhúng body vào bundle client (đã noindex + loại sitemap).
 ];
 
 /** Bài kiến thức chung (không gắn dịch vụ cụ thể) */

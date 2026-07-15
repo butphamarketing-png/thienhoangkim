@@ -20,6 +20,11 @@ export default function ArticlePage() {
 
   const article = content.articles.find((a) => a.slug === slug && a.published);
 
+  const thinCanonicalEarly = slug ? getThinArticleCanonicalPath(slug) : null;
+  if (!article && thinCanonicalEarly) {
+    return <Redirect to={thinCanonicalEarly} />;
+  }
+
   if (!article) {
     return <NotFound />;
   }

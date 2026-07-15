@@ -85,10 +85,13 @@ const entries = (mergedPlan as KeywordPlanEntry[]).filter(
 
 export const GENERATED_NEWS_ARTICLES: SiteArticle[] = entries.map((entry, index) => {
   const image = thumbnailForEntry(entry);
-  const body = buildGeneratedArticleBody(entry, image, image);
   const title = buildGeneratedArticleTitle(entry);
   const secondary = `${entry.focus}, ${entry.focus} TP.HCM, Thiên Hoàng Kim, An Đông`;
   const thinCanonical = getThinArticleCanonicalPath(entry.slug);
+  const isThin = Boolean(thinCanonical) || isThinHeadEntry(entry);
+  const body = isThin
+    ? `Nội dung rút gọn. Xem trang dịch vụ chính và [địa chỉ thẩm mỹ Quận 5 An Đông](/tin-tuc/dia-chi-tham-my-quan-5-an-dong). Hotline **0896 673 320**.`
+    : buildGeneratedArticleBody(entry, image, image);
   const seo = newsSeo(
     entry.slug,
     buildGeneratedMetaDescription(entry.focus, entry.slug),

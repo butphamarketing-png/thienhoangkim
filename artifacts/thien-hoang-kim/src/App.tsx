@@ -10,29 +10,37 @@ import { resolveLegacyServicePath, resolvePageContent } from "@/lib/site-cms";
 import ArticlePage from "@/pages/ArticlePage";
 import ArticlesListPage from "@/pages/ArticlesListPage";
 import ContactPage from "@/pages/ContactPage";
-import ContentPage from "@/pages/ContentPage";
-import PriceListPage from "@/pages/PriceListPage";
-import CustomersPage from "@/pages/CustomersPage";
-import DoctorsPage from "@/pages/DoctorsPage";
 import HomePage from "@/pages/HomePage";
 import NotFound from "@/pages/not-found";
 import ServicesPage from "@/pages/ServicesPage";
 import ServiceCategoryPage from "@/pages/ServiceCategoryPage";
 import ServiceDetailPage from "@/pages/ServiceDetailPage";
-import TopicClusterPage from "@/pages/TopicClusterPage";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { RouteSeo } from "@/components/RouteSeo";
 
 const AdminApp = lazy(() => import("@/admin/AdminApp").then((m) => ({ default: m.AdminApp })));
+const ContentPage = lazy(() => import("@/pages/ContentPage"));
+const PriceListPage = lazy(() => import("@/pages/PriceListPage"));
+const CustomersPage = lazy(() => import("@/pages/CustomersPage"));
+const DoctorsPage = lazy(() => import("@/pages/DoctorsPage"));
+const TopicClusterPage = lazy(() => import("@/pages/TopicClusterPage"));
 
 const queryClient = new QueryClient();
+
+function LazyPage({ children }: { children: React.ReactNode }) {
+  return <Suspense fallback={<div className="min-h-[40vh]" />}>{children}</Suspense>;
+}
 
 function DynamicContentPage() {
   const [location] = useLocation();
   const { content } = useSiteContent();
   const path = location.split("#")[0];
   if (!resolvePageContent(content, path)) return <NotFound />;
-  return <ContentPage />;
+  return (
+    <LazyPage>
+      <ContentPage />
+    </LazyPage>
+  );
 }
 
 function LegacyServiceRedirect() {
@@ -60,27 +68,59 @@ function SpaDetailPage() {
   return <ServiceDetailPage categoryId="spa" />;
 }
 
+function LazyDoctorsPage() {
+  return (
+    <LazyPage>
+      <DoctorsPage />
+    </LazyPage>
+  );
+}
+
+function LazyCustomersPage() {
+  return (
+    <LazyPage>
+      <CustomersPage />
+    </LazyPage>
+  );
+}
+
+function LazyPriceListPage() {
+  return (
+    <LazyPage>
+      <PriceListPage />
+    </LazyPage>
+  );
+}
+
+function LazyTopicClusterPage() {
+  return (
+    <LazyPage>
+      <TopicClusterPage />
+    </LazyPage>
+  );
+}
+
 function PublicRouter() {
   return (
     <Switch>
       <Route path="/" component={HomePage} />
       <Route path="/lien-he" component={ContactPage} />
-      <Route path="/khach-hang" component={CustomersPage} />
+      <Route path="/khach-hang" component={LazyCustomersPage} />
       <Route path="/dich-vu" component={ServicesPage} />
       <Route path="/tham-my" component={ThamMyCategoryPage} />
       <Route path="/tham-my/:slug" component={ThamMyDetailPage} />
       <Route path="/spa" component={SpaCategoryPage} />
       <Route path="/spa/:slug" component={SpaDetailPage} />
-      <Route path="/gioi-thieu/doi-ngu-bac-si" component={DoctorsPage} />
+      <Route path="/gioi-thieu/doi-ngu-bac-si" component={LazyDoctorsPage} />
       <Route path="/tin-tuc/kien-thuc" component={ArticlesListPage} />
       <Route path="/tin-tuc/tin-tuc" component={ArticlesListPage} />
-      <Route path="/tin-tuc/chu-de/:clusterId" component={TopicClusterPage} />
+      <Route path="/tin-tuc/chu-de/:clusterId" component={LazyTopicClusterPage} />
       <Route path="/tin-tuc/:slug" component={ArticlePage} />
       <Route path="/tin-tuc" component={ArticlesListPage} />
       <Route path="/gioi-thieu/:rest*" component={DynamicContentPage} />
       <Route path="/gioi-thieu" component={DynamicContentPage} />
       <Route path="/dich-vu/:slug" component={LegacyServiceRedirect} />
-      <Route path="/bang-gia" component={PriceListPage} />
+      <Route path="/bang-gia" component={LazyPriceListPage} />
       <Route component={NotFound} />
     </Switch>
   );
