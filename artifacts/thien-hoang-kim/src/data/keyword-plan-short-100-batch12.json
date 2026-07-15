@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "focus": "nâng mũi",
+    "slug": "nang-mui-goi-y",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 2,
+    "focus": "cắt mí",
+    "slug": "cat-mi-goi-y",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 3,
+    "focus": "filler",
+    "slug": "filler-goi-y",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Quan tâm filler? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 1
+  },
+  {
+    "id": 4,
+    "focus": "botox",
+    "slug": "botox-goi-y",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 1
+  },
+  {
+    "id": 5,
+    "focus": "căng chỉ",
+    "slug": "cang-chi-goi-y",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Muốn căng chỉ? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 6,
+    "focus": "phun xăm",
+    "slug": "phun-xam-goi-y",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Phun xăm: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 7,
+    "focus": "chăm sóc da",
+    "slug": "cham-soc-da-goi-y",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Chăm sóc da thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 8,
+    "focus": "thẩm mỹ",
+    "slug": "tham-my-goi-y",
+    "pillar": "/tin-tuc/dia-chi-tham-my-quan-5-an-dong",
+    "title": "Quan tâm thẩm mỹ? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 9,
+    "focus": "spa",
+    "slug": "spa-goi-y",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Spa: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 1
+  },
+  {
+    "id": 10,
+    "focus": "độn cằm",
+    "slug": "don-cam-goi-y",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Muốn độn cằm? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 11,
+    "focus": "gọt hàm",
+    "slug": "got-ham-goi-y",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Gọt hàm: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 12,
+    "focus": "hút mỡ",
+    "slug": "hut-mo-goi-y",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Hút mỡ thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 13,
+    "focus": "nâng ngực",
+    "slug": "nang-nguc-goi-y",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Quan tâm nâng ngực? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 14,
+    "focus": "cấy tóc",
+    "slug": "cay-toc-goi-y",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 15,
+    "focus": "nâng cơ",
+    "slug": "nang-co-goi-y",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Muốn nâng cơ? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 16,
+    "focus": "trẻ hóa",
+    "slug": "tre-hoa-goi-y",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Trẻ hóa: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 17,
+    "focus": "nhấn mí",
+    "slug": "nhan-mi-goi-y",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Nhấn mí thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 18,
+    "focus": "bấm mí",
+    "slug": "bam-mi-goi-y",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Quan tâm bấm mí? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 19,
+    "focus": "sửa mũi",
+    "slug": "sua-mui-goi-y",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Sửa mũi: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 20,
+    "focus": "tiêm môi",
+    "slug": "tiem-moi-goi-y",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Muốn tiêm môi? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 21,
+    "focus": "gọn hàm",
+    "slug": "gon-ham-goi-y",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Gọn hàm: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 22,
+    "focus": "xóa nhăn",
+    "slug": "xoa-nhan-goi-y",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Xóa nhăn thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 23,
+    "focus": "HIFU",
+    "slug": "hifu-goi-y",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Quan tâm HIFU? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 1
+  },
+  {
+    "id": 24,
+    "focus": "meso",
+    "slug": "meso-goi-y",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Meso: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 1
+  },
+  {
+    "id": 25,
+    "focus": "facial",
+    "slug": "facial-goi-y",
+    "pillar": "/spa/massage-facial",
+    "title": "Muốn facial? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 1
+  },
+  {
+    "id": 26,
+    "focus": "massage",
+    "slug": "massage-goi-y",
+    "pillar": "/spa/massage-body-thu-gian",
+    "title": "Massage: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 1
+  },
+  {
+    "id": 27,
+    "focus": "phun mày",
+    "slug": "phun-may-goi-y",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Phun mày thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 28,
+    "focus": "phun môi",
+    "slug": "phun-moi-goi-y",
+    "pillar": "/spa/phun-xam-tham-my",
+    "title": "Quan tâm phun môi? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 29,
+    "focus": "căng da",
+    "slug": "cang-da-goi-y",
+    "pillar": "/tham-my/cang-noi-soi",
+    "title": "Căng da: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 30,
+    "focus": "nội soi",
+    "slug": "noi-soi-goi-y",
+    "pillar": "/tham-my/cang-noi-soi",
+    "title": "Muốn nội soi? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 31,
+    "focus": "sụp mí",
+    "slug": "sup-mi-goi-y",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Sụp mí: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 32,
+    "focus": "lấy mỡ mí",
+    "slug": "lay-mo-mi-goi-y",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Lấy mỡ mí thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 33,
+    "focus": "thu cánh mũi",
+    "slug": "thu-canh-mui-goi-y",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Quan tâm thu cánh mũi? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 34,
+    "focus": "sống mũi",
+    "slug": "song-mui-goi-y",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Sống mũi: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 35,
+    "focus": "đầu mũi",
+    "slug": "dau-mui-goi-y",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Muốn đầu mũi? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 36,
+    "focus": "filler cằm",
+    "slug": "filler-cam-goi-y",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler cằm: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 37,
+    "focus": "filler má",
+    "slug": "filler-ma-goi-y",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Filler má thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 38,
+    "focus": "Thermage",
+    "slug": "thermage-goi-y",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Quan tâm Thermage? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 1
+  },
+  {
+    "id": 39,
+    "focus": "Ultherapy",
+    "slug": "ultherapy-goi-y",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Ultherapy: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 1
+  },
+  {
+    "id": 40,
+    "focus": "RF",
+    "slug": "rf-goi-y",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Muốn RF? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 1
+  },
+  {
+    "id": 41,
+    "focus": "Baby Face",
+    "slug": "baby-face-goi-y",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Baby Face: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 42,
+    "focus": "cấy mỡ",
+    "slug": "cay-mo-goi-y",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Cấy mỡ thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 43,
+    "focus": "Contoura",
+    "slug": "contoura-goi-y",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Quan tâm Contoura? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 1
+  },
+  {
+    "id": 44,
+    "focus": "Ignite RF",
+    "slug": "ignite-rf-goi-y",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Ignite RF: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 45,
+    "focus": "peel da",
+    "slug": "peel-da-goi-y",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Muốn peel da? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 46,
+    "focus": "trị nám",
+    "slug": "tri-nam-goi-y",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Trị nám: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 47,
+    "focus": "trị mụn",
+    "slug": "tri-mun-goi-y",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Trị mụn thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 48,
+    "focus": "lỗ chân lông",
+    "slug": "lo-chan-long-goi-y",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Quan tâm lỗ chân lông? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 49,
+    "focus": "da xỉn",
+    "slug": "da-xin-goi-y",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Da xỉn: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 50,
+    "focus": "detox da",
+    "slug": "detox-da-goi-y",
+    "pillar": "/spa/u-da-muoi-himalaya",
+    "title": "Muốn detox da? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 51,
+    "focus": "ủ muối",
+    "slug": "u-muoi-goi-y",
+    "pillar": "/spa/u-da-muoi-himalaya",
+    "title": "Ủ muối: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 52,
+    "focus": "bảng giá",
+    "slug": "bang-gia-goi-y",
+    "pillar": "/bang-gia",
+    "title": "Bảng giá thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 53,
+    "focus": "đặt lịch",
+    "slug": "dat-lich-goi-y",
+    "pillar": "/lien-he",
+    "title": "Quan tâm đặt lịch? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 54,
+    "focus": "tư vấn thẩm mỹ",
+    "slug": "tu-van-tham-my-goi-y",
+    "pillar": "/lien-he",
+    "title": "Tư vấn thẩm mỹ: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 4
+  },
+  {
+    "id": 55,
+    "focus": "bác sĩ thẩm mỹ",
+    "slug": "bac-si-tham-my-goi-y",
+    "pillar": "/gioi-thieu",
+    "title": "Muốn bác sĩ thẩm mỹ? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 4
+  },
+  {
+    "id": 56,
+    "focus": "phòng khám thẩm mỹ",
+    "slug": "phong-kham-tham-my-goi-y",
+    "pillar": "/tin-tuc/dia-chi-tham-my-quan-5-an-dong",
+    "title": "Phòng khám thẩm mỹ: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 4
+  },
+  {
+    "id": 57,
+    "focus": "thẩm mỹ viện",
+    "slug": "tham-my-vien-goi-y",
+    "pillar": "/tin-tuc/dia-chi-tham-my-quan-5-an-dong",
+    "title": "Thẩm mỹ viện thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 58,
+    "focus": "trước sau",
+    "slug": "truoc-sau-goi-y",
+    "pillar": "/tin-tuc",
+    "title": "Quan tâm trước sau? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 59,
+    "focus": "thẩm mỹ mắt",
+    "slug": "tham-my-mat-goi-y",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Thẩm mỹ mắt: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 60,
+    "focus": "thẩm mỹ mũi",
+    "slug": "tham-my-mui-goi-y",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Muốn thẩm mỹ mũi? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 61,
+    "focus": "tạo hình mặt",
+    "slug": "tao-hinh-mat-goi-y",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Tạo hình mặt: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 62,
+    "focus": "điêu khắc mặt",
+    "slug": "dieu-khac-mat-goi-y",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Điêu khắc mặt thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 63,
+    "focus": "V-line",
+    "slug": "v-line-goi-y",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Quan tâm V-line? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 1
+  },
+  {
+    "id": 64,
+    "focus": "mặt thon",
+    "slug": "mat-thon-goi-y",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Mặt thon: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 65,
+    "focus": "da chảy xệ",
+    "slug": "da-chay-xe-goi-y",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Muốn da chảy xệ? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 66,
+    "focus": "nọng cằm",
+    "slug": "nong-cam-goi-y",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Nọng cằm: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 67,
+    "focus": "đường hàm",
+    "slug": "duong-ham-goi-y",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Đường hàm thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 68,
+    "focus": "collagen",
+    "slug": "collagen-goi-y",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Quan tâm collagen? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 1
+  },
+  {
+    "id": 69,
+    "focus": "phục hồi da",
+    "slug": "phuc-hoi-da-goi-y",
+    "pillar": "/spa/cham-soc-da-toan-dien",
+    "title": "Phục hồi da: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 70,
+    "focus": "hậu phẫu",
+    "slug": "hau-phau-goi-y",
+    "pillar": "/tin-tuc/cham-soc-da-sau-phau-thuat",
+    "title": "Muốn hậu phẫu? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 71,
+    "focus": "kiêng cữ",
+    "slug": "kieng-cu-goi-y",
+    "pillar": "/tin-tuc/cham-soc-da-sau-phau-thuat",
+    "title": "Kiêng cữ: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 72,
+    "focus": "giảm sưng",
+    "slug": "giam-sung-goi-y",
+    "pillar": "/tin-tuc/cham-soc-da-sau-phau-thuat",
+    "title": "Giảm sưng thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 73,
+    "focus": "tái khám",
+    "slug": "tai-kham-goi-y",
+    "pillar": "/lien-he",
+    "title": "Quan tâm tái khám? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 74,
+    "focus": "giấy phép",
+    "slug": "giay-phep-goi-y",
+    "pillar": "/gioi-thieu",
+    "title": "Giấy phép: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 75,
+    "focus": "an toàn thẩm mỹ",
+    "slug": "an-toan-tham-my-goi-y",
+    "pillar": "/tin-tuc/chon-phong-kham-tham-my-an-toan",
+    "title": "Muốn an toàn thẩm mỹ? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 4
+  },
+  {
+    "id": 76,
+    "focus": "Quận 5",
+    "slug": "quan-5-goi-y",
+    "pillar": "/tin-tuc/tham-my-quan-5",
+    "title": "Quận 5: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 77,
+    "focus": "An Đông",
+    "slug": "an-dong-goi-y",
+    "pillar": "/tin-tuc/dia-chi-tham-my-quan-5-an-dong",
+    "title": "An Đông thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 78,
+    "focus": "Hùng Vương",
+    "slug": "hung-vuong-goi-y",
+    "pillar": "/tin-tuc/tham-my-hung-vuong",
+    "title": "Quan tâm Hùng Vương? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 79,
+    "focus": "TP.HCM",
+    "slug": "tp-hcm-goi-y",
+    "pillar": "/tin-tuc/tham-my-uy-tin-tphcm",
+    "title": "TP.HCM: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 1
+  },
+  {
+    "id": 80,
+    "focus": "Chợ Lớn",
+    "slug": "cho-lon-goi-y",
+    "pillar": "/tin-tuc/tham-my-cho-lon",
+    "title": "Muốn Chợ Lớn? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 81,
+    "focus": "Tân Bình",
+    "slug": "tan-binh-goi-y",
+    "pillar": "/tin-tuc/nang-mui-tphcm",
+    "title": "Tân Bình: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 82,
+    "focus": "Phú Nhuận",
+    "slug": "phu-nhuan-goi-y",
+    "pillar": "/tin-tuc/nang-mui-tphcm",
+    "title": "Phú Nhuận thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 83,
+    "focus": "Quận 6",
+    "slug": "quan-6-goi-y",
+    "pillar": "/tin-tuc/tham-my-quan-5",
+    "title": "Quan tâm Quận 6? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 84,
+    "focus": "Quận 10",
+    "slug": "quan-10-goi-y",
+    "pillar": "/tin-tuc/tham-my-quan-5",
+    "title": "Quận 10: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 85,
+    "focus": "Thiên Hoàng Kim",
+    "slug": "thien-hoang-kim-goi-y",
+    "pillar": "/",
+    "title": "Muốn Thiên Hoàng Kim? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 86,
+    "focus": "nâng mũi cấu trúc",
+    "slug": "nang-mui-cau-truc-goi-y",
+    "pillar": "/tham-my/nang-mui-hoang-kim",
+    "title": "Nâng mũi cấu trúc: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 4
+  },
+  {
+    "id": 87,
+    "focus": "cắt mí phượng hoàng",
+    "slug": "cat-mi-phuong-hoang-goi-y",
+    "pillar": "/tham-my/cat-mi-phuong-hoang",
+    "title": "Cắt mí phượng hoàng thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 4
+  },
+  {
+    "id": 88,
+    "focus": "filler tạo hình",
+    "slug": "filler-tao-hinh-goi-y",
+    "pillar": "/tham-my/filler-tao-hinh",
+    "title": "Quan tâm filler tạo hình? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 89,
+    "focus": "botox hàm",
+    "slug": "botox-ham-goi-y",
+    "pillar": "/tham-my/botox-xoa-nhan-gon-ham",
+    "title": "Botox hàm: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 90,
+    "focus": "căng chỉ trẻ hóa",
+    "slug": "cang-chi-tre-hoa-goi-y",
+    "pillar": "/tham-my/cang-chi-tre-hoa",
+    "title": "Muốn căng chỉ trẻ hóa? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 4
+  },
+  {
+    "id": 91,
+    "focus": "cấy tóc FUE",
+    "slug": "cay-toc-fue-goi-y",
+    "pillar": "/tham-my/cay-toc-tu-than",
+    "title": "Cấy tóc FUE: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 92,
+    "focus": "spa Quận 5",
+    "slug": "spa-quan-5-goi-y",
+    "pillar": "/tin-tuc/spa-quan-5",
+    "title": "Spa Quận 5 thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 93,
+    "focus": "thẩm mỹ Quận 5",
+    "slug": "tham-my-quan-5-goi-y",
+    "pillar": "/tin-tuc/tham-my-quan-5",
+    "title": "Quan tâm thẩm mỹ Quận 5? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 4
+  },
+  {
+    "id": 94,
+    "focus": "nâng mũi TP.HCM",
+    "slug": "nang-mui-tp-hcm-goi-y",
+    "pillar": "/tin-tuc/nang-mui-tphcm",
+    "title": "Nâng mũi TP.HCM: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 95,
+    "focus": "cắt mí TP.HCM",
+    "slug": "cat-mi-tp-hcm-goi-y",
+    "pillar": "/tin-tuc/cat-mi-tphcm",
+    "title": "Muốn cắt mí TP.HCM? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 96,
+    "focus": "filler TP.HCM",
+    "slug": "filler-tp-hcm-goi-y",
+    "pillar": "/tin-tuc/filler-tphcm",
+    "title": "Filler TP.HCM: 4 điều nên hỏi trước khi nhắn đặt lịch",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 97,
+    "focus": "botox TP.HCM",
+    "slug": "botox-tp-hcm-goi-y",
+    "pillar": "/tin-tuc/botox-tphcm",
+    "title": "Botox TP.HCM thế nào cho đúng? Gợi ý trước buổi tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 2
+  },
+  {
+    "id": 98,
+    "focus": "phun xăm Quận 5",
+    "slug": "phun-xam-quan-5-goi-y",
+    "pillar": "/tin-tuc/phun-may-quan-5",
+    "title": "Quan tâm phun xăm Quận 5? Đừng quyết nếu chưa rõ 3 điểm này",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 4
+  },
+  {
+    "id": 99,
+    "focus": "hotline thẩm mỹ",
+    "slug": "hotline-tham-my-goi-y",
+    "pillar": "/lien-he",
+    "title": "Hotline thẩm mỹ: checklist nhanh để tránh chọn sai",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 3
+  },
+  {
+    "id": 100,
+    "focus": "ưu đãi thẩm mỹ",
+    "slug": "uu-dai-tham-my-goi-y",
+    "pillar": "/bang-gia",
+    "title": "Muốn ưu đãi thẩm mỹ? Nhắn mục tiêu để nhận khung giờ tư vấn",
+    "source": "short-100-batch12",
+    "intent": "short",
+    "wordCount": 4
+  }
+]

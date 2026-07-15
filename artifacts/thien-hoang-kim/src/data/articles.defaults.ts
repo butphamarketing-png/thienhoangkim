@@ -75,6 +75,9 @@ import { MANUAL_BATCH_7_ARTICLES } from "@/data/news-batch-7.entries";
 import { MANUAL_BATCH_8_ARTICLES } from "@/data/news-batch-8.entries";
 import { MANUAL_BATCH_9_ARTICLES } from "@/data/news-batch-9.entries";
 import { MANUAL_BATCH_10_ARTICLES } from "@/data/news-batch-10.entries";
+import { MANUAL_BATCH_11_ARTICLES } from "@/data/news-batch-11.entries";
+import { MANUAL_BATCH_12_ARTICLES } from "@/data/news-batch-12.entries";
+import { MANUAL_BATCH_13_ARTICLES } from "@/data/news-batch-13.entries";
 import type { ArticleSeo, SiteArticle } from "@/types/site-content";
 
 const publicAsset = (file: string) =>
@@ -1113,6 +1116,9 @@ const NEWS_ARTICLES: SiteArticle[] = [
   ...MANUAL_BATCH_8_ARTICLES,
   ...MANUAL_BATCH_9_ARTICLES,
   ...MANUAL_BATCH_10_ARTICLES,
+  ...MANUAL_BATCH_11_ARTICLES,
+  ...MANUAL_BATCH_12_ARTICLES,
+  ...MANUAL_BATCH_13_ARTICLES,
 ];
 
 /** Bài kiến thức chung (không gắn dịch vụ cụ thể) */

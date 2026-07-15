@@ -359,18 +359,18 @@ export function buildGeneratedArticleTitle(entry: KeywordPlanEntry): string {
 
   switch (intent) {
     case "price":
-      return `Giá ${priceTopic} — Bảng giá & tư vấn tại THK`;
+      return `Giá ${priceTopic}: bảng giá và tư vấn tại Thiên Hoàng Kim`;
     case "question":
-      return `${focusTitle}? — Giải đáp từ bác sĩ`;
+      return `${focusTitle}? Giải đáp trước khi nhắn đặt lịch`;
     case "location":
-      return `${focusTitle} — Thiên Hoàng Kim An Đông`;
+      return `${focusTitle}: tư vấn tại Thiên Hoàng Kim An Đông`;
     case "comparison":
-      return `${focusTitle} — So sánh & tư vấn`;
+      return `${focusTitle}: so sánh nhanh trước khi quyết định`;
     default:
       if (entry.intent === "head" || entry.wordCount === 1) {
-        return `${focusTitle} — Uy tín An Đông TP.HCM`;
+        return `${focusTitle}: uy tín An Đông TP.HCM`;
       }
-      return `${focusTitle} — Hướng dẫn từ Thiên Hoàng Kim`;
+      return `${focusTitle}: hướng dẫn từ Thiên Hoàng Kim`;
   }
 }
 
