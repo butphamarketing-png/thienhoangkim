@@ -193,15 +193,27 @@ export function SiteLayout({ children }: { children: ReactNode }) {
               ) : null}
             </p>
             <div className="flex gap-6">
-              <a href={settings.facebookUrl || "#"} target="_blank" rel="noopener noreferrer" className="transition-all hover:-translate-y-1 hover:text-white">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href={settings.tiktokUrl || "#"} target="_blank" rel="noopener noreferrer" className="transition-all hover:-translate-y-1 hover:text-white">
-                <SiTiktok className="h-4 w-4" />
-              </a>
-              <a href={settings.youtubeUrl || "#"} target="_blank" rel="noopener noreferrer" className="transition-all hover:-translate-y-1 hover:text-white">
-                <Youtube className="h-5 w-5" />
-              </a>
+              {settings.facebookUrl && settings.facebookUrl !== "#" ? (
+                <a
+                  href={settings.facebookUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Fanpage Facebook Thiên Hoàng Kim"
+                  className="transition-all hover:-translate-y-1 hover:text-white"
+                >
+                  <Facebook className="h-5 w-5" />
+                </a>
+              ) : null}
+              {settings.tiktokUrl && settings.tiktokUrl !== "#" ? (
+                <a href={settings.tiktokUrl} target="_blank" rel="noopener noreferrer" className="transition-all hover:-translate-y-1 hover:text-white">
+                  <SiTiktok className="h-4 w-4" />
+                </a>
+              ) : null}
+              {settings.youtubeUrl && settings.youtubeUrl !== "#" ? (
+                <a href={settings.youtubeUrl} target="_blank" rel="noopener noreferrer" className="transition-all hover:-translate-y-1 hover:text-white">
+                  <Youtube className="h-5 w-5" />
+                </a>
+              ) : null}
             </div>
           </div>
         </div>
